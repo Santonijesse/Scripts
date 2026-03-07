@@ -1,0 +1,1277 @@
+# Appium Capabilities Reference — Food & Delivery Apps
+
+This document provides `load_capabilities` blocks for 20 Android food/delivery apps.
+Replace `<PLATFORM_VERSION>`, `<DEVICE_NAME_OR_IP>`, and `<UDID>` with your device's actual values.
+
+> **Tip:** To find the correct `appActivity` for any installed app, run:
+> ```
+> adb shell dumpsys package <appPackage> | grep -i activity
+> ```
+
+---
+
+## DoorDash
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.dd.doordash",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.dd.doordash.ux.launcher.LauncherActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## McDonald's
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.mcdonalds.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.mcdonalds.mcdcoreapp.common.activity.SplashActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Uber Eats
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.ubercab.eats",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.ubercab.eats.core.activity.LauncherActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Starbucks
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.starbucks.mobilecard",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.starbucks.mobilecard.main.activity.LandingPageActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Taco Bell
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.tacobell.ordering",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.tacobell.ordering.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## OpenTable
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.opentable",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.opentable.ui.home.HomeActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Instacart
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.instacart.client",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.instacart.client.browse.ICBrowseActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Too Good To Go
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.app.tgtg",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.app.tgtg.feature.login.SplashActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Domino's
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.dominospizza",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.dominospizza.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Yelp
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.yelp.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.yelp.android.home.ui.RootSingleActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Dunkin'
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.dunkinbrands.otgo",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.cardfree.android.dunkindonuts.activities.LauncherActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Recime
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.recime.app",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.recime.app.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Chick-fil-A
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.chickfila.cfaflagship",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".activities.InitialLoadActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Dutch Bros
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.dutchbros.loyalty",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.dutchbros.loyalty.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Chipotle
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.chipotle.ordering",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.chipotle.ordering.view.activity.SplashActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Subway
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.subway.mobile.subwayapp03",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.subway.mobile.subwayapp03.activity.HomeActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Little Caesars
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.littlecaesars",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.littlecaesars.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Wingstop
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.wingstop.mobile",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.wingstop.mobile.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Buffalo Wild Wings
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.buffalowildwings.ordering",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.buffalowildwings.ordering.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Crumbl
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.crumbl.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.crumbl.app.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+# Maps, Navigation & Parking
+
+---
+
+## Google Maps
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.google.android.apps.maps",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Waze
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.waze",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".FreeMapAppActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Organic Maps
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.organicmaps",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## ParkMobile
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.parkmobile.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Transit
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.thetransitapp.droid",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".shared.activity.SplashActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## MapXplorer
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.mapxplorer.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## SpotHero
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.spothero.spothero",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.spothero.android.activity.HomeActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Shell Motorist
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.shell.sitibv.motorist",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## ParkWhiz
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.parkwhiz",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Metropolis Parking
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.metropolis.parking",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## onX Hunt
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.onxmaps.hunt",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## onX Offroad
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.onxmaps.offroad",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## MTA TraIT
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.mta.trait",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Neshan Maps
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.neshan.maps",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Coulomb Tech
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.coulombtech",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Simple Speedometer
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.speedometer.simple",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## BPme
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.bp.app.bpme.global.ros",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.bp.bpme.global.ros.ui.LandingScreenActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Citymapper
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.citymapper.app.release",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.citymapper.app.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## TranzMate
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.tranzmate",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.moovit.app.home.HomeActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## AutoNavi (Amap)
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.autonavi.minimap",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+# Social & News
+
+---
+
+## X (Twitter)
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.twitter.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".StartActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Substack
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.substack.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Reddit
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.reddit.frontpage",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Crime Radar
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.crimeradar.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Nextdoor
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.nextdoor",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## NewsBreak
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.particlenews.newsbreak",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## New York Times
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.nytimes.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## SpotCrime
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.spotcrime.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Police Scanner Radio
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.police.scanner.radio",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## TrueShort
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.trueshort.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Checkitt
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.checkitt",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "vc.ucic.SplashActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Fizz
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.fizz.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## AP News
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.apnews",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Wall Street Journal
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.wsj.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## The Pour Over
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.thepourover.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Podcasts
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.podcast.podcasts",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Clubhouse
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.clubhouse.app",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Police Scanner (Broadcastify)
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.bstore.android.policescanner",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Ring Neighbors
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.ring.neighbors",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Fox News
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.foxnews.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```

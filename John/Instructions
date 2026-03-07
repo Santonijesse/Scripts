@@ -1,0 +1,5 @@
+Steps to run the Appium Python script
+
+First connect the Android device with ADB. Once you have verified that the device appears in the list.
+Start the Appium server on the terminal. Be sure to leave the terminal running.
+Then open a new terminal and run the script.
