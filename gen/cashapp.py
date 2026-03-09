@@ -24,7 +24,7 @@ options.load_capabilities({
     "appium:udid": "ZY22HS5QFQ",
     "appium:appPackage": "com.squareup.cash",
     "appium:automationName": "UiAutomator2",
-    "appium:appActivity": "com.squareup.cash.ui.LaunchActivity",
+    #"appium:appActivity": "com.squareup.cash.ui.LaunchActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
