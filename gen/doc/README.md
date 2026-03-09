@@ -397,7 +397,7 @@ options.load_capabilities({
     "appium:platformVersion": "<PLATFORM_VERSION>",
     "appium:deviceName": "<DEVICE_NAME_OR_IP>",
     "appium:udid": "<UDID>",
-    "appium:appPackage": "com.buffalowildwings.ordering",
+    "appium:appPackage": "com.buffalowildwings.blazinrewards",
     "appium:automationName": "UiAutomator2",
     "appium:appActivity": "com.buffalowildwings.ordering.MainActivity",
     "appium:ensureWebviewsHavePages": True,
@@ -421,6 +421,27 @@ options.load_capabilities({
     "appium:appPackage": "com.crumbl.app",
     "appium:automationName": "UiAutomator2",
     "appium:appActivity": "com.crumbl.app.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## DoorDash Driver
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.doordash.driverapp",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.doordash.driverapp.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -911,7 +932,7 @@ options.load_capabilities({
     "appium:udid": "<UDID>",
     "appium:appPackage": "com.reddit.frontpage",
     "appium:automationName": "UiAutomator2",
-    "appium:appActivity": "",
+    "appium:appActivity": "launcher.default",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -1184,7 +1205,7 @@ options.load_capabilities({
     "appium:udid": "<UDID>",
     "appium:appPackage": "com.podcast.podcasts",
     "appium:automationName": "UiAutomator2",
-    "appium:appActivity": "",
+    "appium:appActivity": "fm.castbox.ui.main.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -1269,6 +1290,425 @@ options.load_capabilities({
     "appium:appPackage": "com.foxnews.android",
     "appium:automationName": "UiAutomator2",
     "appium:appActivity": "",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Instagram
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.instagram.android",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.instagram.android.activity.MainTabActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## WhatsApp
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.whatsapp",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".Main",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Facebook
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.facebook.katana",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".LoginActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## TikTok
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.ss.android.ugc.trill",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.ss.android.ugc.trill.splash.SplashActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## TikTok Lite
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.zhiliaoapp.musically.go",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.zhiliaoapp.musically.go.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Threads
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.instagram.barcelona",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".mainactivity.BarcelonaActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+# AI & Productivity
+
+---
+
+## Microsoft Copilot
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.microsoft.copilot",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.microsoft.copilot.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## ChatGPT
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.openai.chatgpt",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.openai.chatgpt.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+# Shopping
+
+---
+
+## Temu
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.einnovation.temu",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.baogong.splash.activity.MainFrameActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## SHEIN
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.zzkko",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.shein.welcome.WelcomeActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Whatnot
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.whatnot_mobile",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.whatnot_mobile.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+# Entertainment & Streaming
+
+---
+
+## Peacock
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.peacocktv.peacockandroid",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.peacocktv.peacockandroid.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Tubi
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.tubitv",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.tubitv.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## CapCut
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.lemon.lvoverseas",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.lemon.lvoverseas.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+# Finance & Payments
+
+---
+
+## PayPal
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.paypal.android.p2pmobile",
+    "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".startup.activities.StartupActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Cash App
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.squareup.cash",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.squareup.cash.ui.LaunchActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## FreeCash
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.freecash.app2",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.freecash.app2.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+# Utilities & Other
+
+---
+
+## Edge Aura
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.wallpaper.edge.aura",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.wallpaper.edge.aura.MainActivity",
+    "appium:ensureWebviewsHavePages": True,
+    "appium:nativeWebScreenshot": True,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": True
+})
+```
+
+---
+
+## Victor
+
+```python
+options = AppiumOptions()
+options.load_capabilities({
+    "platformName": "Android",
+    "appium:platformVersion": "<PLATFORM_VERSION>",
+    "appium:deviceName": "<DEVICE_NAME_OR_IP>",
+    "appium:udid": "<UDID>",
+    "appium:appPackage": "com.newleaf.app.android.victor",
+    "appium:automationName": "UiAutomator2",
+    #"appium:appActivity": "com.newleaf.app.android.victor.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
