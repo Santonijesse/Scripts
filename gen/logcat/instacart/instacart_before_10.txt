@@ -1,0 +1,52 @@
+--------- beginning of main
+03-10 13:00:46.441   437   465 I appium  : channel read: GET /session/04ab48e6-97e1-4483-9bd5-7376e07626cd/source
+03-10 13:00:46.443   437   465 I appium  : Source command
+03-10 13:00:46.444   437   465 I appium  : Waiting up to 10000ms for the device to idle
+03-10 13:00:46.490  2300 32497 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 13:00:46.491  2300 32497 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-10 13:00:46.495  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 13:00:46.496  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 13:00:46.496  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 13:00:46.496  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 13:00:46.497  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 0
+03-10 13:00:46.504  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 13:00:46.540   481   486 I nstacart.client: Compiler allocated 5043KB to compile androidx.core.view.accessibility.AccessibilityNodeInfoCompat androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$ComposeAccessibilityNodeProvider.createAccessibilityNodeInfo(int)
+03-10 13:00:46.607   481   487 I nstacart.client: Background concurrent mark compact GC freed 85MB AllocSpace bytes, 89(2384KB) LOS objects, 70% free, 39MB/135MB, paused 1.786ms,7.198ms total 213.149ms
+03-10 13:00:46.679  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 13:00:46.874   437   465 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 13:00:47.035   437   465 I appium  : AppiumResponse: {"sessionId":"04ab48e6-97e1-4483-9bd5-7376e07626cd","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instacart.client\" class=\"and…
+03-10 13:00:47.053   437   465 I appium  : channel read: GET /session/04ab48e6-97e1-4483-9bd5-7376e07626cd/screenshot
+03-10 13:00:47.054   437   465 I appium  : CaptureScreenshot command
+03-10 13:00:47.055   437   465 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 13:00:47.055   437   465 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 13:00:47.160  1608  1608 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 13:00:47.160  1608  1608 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 13:00:47.239  2300 32497 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 13:00:47.239  2300 32497 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-10 13:00:47.247  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 1(120.00 Hz:16) for display 4630947043778501762
+03-10 13:00:47.247  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 13:00:47.248  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 13:00:47.248  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 13:00:47.249  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 3
+03-10 13:00:47.255  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-10 13:00:47.287  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 13:00:47.610  2064  4171 D slpi    : tmd2712: Als lux: 8.40, ch0: 375, ch1: 216, scale: 1.08, atime:50.04, again:1024
+03-10 13:00:47.710  2064  4171 D slpi    : tmd2712: Als lux: 28.60, ch0: 1255, ch1: 716, scale: 1.08, atime:50.04, again:1024
+03-10 13:00:47.760  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 13:00:47.761  2064  4171 D slpi-TCS3720: ALS_REPORT lux 179.115143, ch0 93.199608-54.205849-34.070885-18.118032, scale 1.1878, fps 90, client 1
+03-10 13:00:47.761  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 13:00:47.761  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 13:00:47.762  2195  1617 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 13:00:47.762  2195  1617 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 13:00:47.762  2195  1617 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 13:00:47.769  2195  1617 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 13:00:47.770  2195  1617 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 13:00:47.770  2195  1617 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 13:00:47.770  2195  1617 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 13:00:47.783  2195  1619 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 13:00:47.783  2195  1619 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 13:00:47.783  2195  1619 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 13:00:47.793  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 57.48 (179.12-121.64), pre 47.22, dbv 6998, dc 0, fps 90, chPanel 64.40-35.68-24.96-11.29, facCal:lux_s 1.19 cha_s 0.95-0.96-0.89-0.94, RunInfo: DPB 10863-42, TF 10863-0
+03-10 13:00:47.809  2064  4171 D slpi    : tmd2712: Als lux: 55.20, ch0: 3274, ch1: 2279, scale: 1.08, atime:50.04, again:1024
+03-10 13:00:47.882   437   465 I appium  : AppiumResponse: {"sessionId":"04ab48e6-97e1-4483-9bd5-7376e07626cd","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFTnvT/wz5kFGGbYkVVQAUEUFDQRcI9mM0abJqaamK1Jm+bWGtuk7e19/W572zS39/Z3b/JLcm/TNG3TJjZJTbOYxChuKK7gDioi+74zwzYzwMyc8/vDcGQEFITZ9PN+vXy9ODNnnvM…
+03-10 13:00:47.960  2064  4171 D slpi    : tmd2712: Als lux: 60.90, ch0: 3977, ch1: 2901, scale: 1.08, atime:50.04, again:1024

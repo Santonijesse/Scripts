@@ -19,7 +19,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### McDonald's — check order items remain in cart
+### McDonald's — check screen status after entering item category
 1. tap(500, 750)
 2. tap(275, 2240)
 3. tap(300, 1300)
@@ -77,7 +77,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### Instacart
+### Instacart - close after selecting pets tab(aisle)
 1. tap(550, 2250)
 > Note: need a login
 
@@ -122,7 +122,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### ReciMe
+### ReciMe - check home screen consistancy after help pulldown
 1. tap(880, 810)
 2. tap(540, 2330)
 3. tap(540, 2330)
@@ -343,7 +343,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### Nextdoor
+### Nextdoor - check display after entering partial address
 1. tap(1000, 1660)
 2. tap(540, 1840)
 3. tap(540, 1540)
@@ -366,7 +366,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### New York Times
+### New York Times - check display during acct creation
 1. tap(550, 2200)
 > Note: need a login
 
@@ -483,7 +483,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### Instagram — close after beginning search
+### Instagram — close after viewing post
 1. tap(550, 1400)
 2. tap(550, 2400)
 3. tap(530, 1540)

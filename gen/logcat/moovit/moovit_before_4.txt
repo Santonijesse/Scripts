@@ -1,0 +1,18 @@
+--------- beginning of main
+03-10 09:56:08.397 24140 24208 I appium  : channel read: GET /session/b0106dca-d5a5-41df-85e0-4965d6c1fe28/source
+03-10 09:56:08.398 24140 24208 I appium  : Source command
+03-10 09:56:08.399 24140 24208 I appium  : Waiting up to 10000ms for the device to idle
+03-10 09:56:08.450 24224 24228 I com.tranzmate: Compiler allocated 4141KB to compile v4.d androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$c.b(int)
+03-10 09:56:08.484 24224 24224 I cr_A11yState: Enabled accessibility services list updated. []
+03-10 09:56:08.485 24224 24224 I cr_A11yState: Informing listeners of changes.
+03-10 09:56:08.485 24224 24224 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=true, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-10 09:56:08.507 24224 24224 E com.tranzmate: No package ID ec found for resource ID 0xecbd75e7.
+03-10 09:56:08.510 24224 24224 E com.tranzmate: No package ID ec found for resource ID 0xecbd75e7.
+03-10 09:56:08.594 24140 24208 I appium  : AppiumResponse: {"sessionId":"b0106dca-d5a5-41df-85e0-4965d6c1fe28","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tranzmate\" class=\"android.wi…
+03-10 09:56:08.618 24140 24208 I appium  : channel read: GET /session/b0106dca-d5a5-41df-85e0-4965d6c1fe28/screenshot
+03-10 09:56:08.619 24140 24208 I appium  : CaptureScreenshot command
+03-10 09:56:08.621 24140 24208 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 09:56:08.621 24140 24208 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 09:56:08.749 25834 25834 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 09:56:08.749 25834 25834 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 09:56:09.191 24140 24208 I appium  : AppiumResponse: {"sessionId":"b0106dca-d5a5-41df-85e0-4965d6c1fe28","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13VBRXGwbwZ2ZZ+lIEpCjGAnYFexRrLLHFbuxdscaWxMTYjRrTP40mRhO7xl4Tu2KvUTQKJoqKXXqVsm2+P1ZHEFDQhWX1+Z3jOezu7Mxdld2dZ977XqFU6XISiIiIiIiIiIjMmGjqARA…

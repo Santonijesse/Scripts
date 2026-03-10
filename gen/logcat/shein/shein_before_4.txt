@@ -1,0 +1,31 @@
+--------- beginning of main
+03-10 15:45:05.933 21518 21544 I appium  : channel read: GET /session/ae766ed5-eb00-4308-8330-ff01aa62d301/source
+03-10 15:45:05.934 21518 21544 I appium  : Source command
+03-10 15:45:05.935 21518 21544 I appium  : Waiting up to 10000ms for the device to idle
+03-10 15:45:05.953 21518 21544 I appium  : Clearing toast message: [There is something wrong with our server. We are trying to fix it.]
+03-10 15:45:06.142  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 15:45:06.665 21011 21179 I ThermalEngine: ACTION: CPU - Setting CPU[7] to 0
+03-10 15:45:06.682 21011 21179 I ThermalEngine: ACTION: CPU - Setting CPU[4] to 0
+03-10 15:45:07.036  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 15:45:07.214 21518 21544 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 15:45:07.620 21518 21544 I appium  : AppiumResponse: {"sessionId":"ae766ed5-eb00-4308-8330-ff01aa62d301","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.zzkko\" class=\"android.widget…
+03-10 15:45:07.650 21518 21544 I appium  : channel read: GET /session/ae766ed5-eb00-4308-8330-ff01aa62d301/screenshot
+03-10 15:45:07.652 21518 21544 I appium  : CaptureScreenshot command
+03-10 15:45:07.654 21518 21544 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 15:45:07.654 21518 21544 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 15:45:07.804 22794 22794 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 15:45:07.805 22794 22794 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 15:45:07.998  2300 21106 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 15:45:07.998  2300 21106 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-10 15:45:08.027  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-10 15:45:08.091  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:45:08.091  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 15:45:08.092  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 15:45:08.093  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 15:45:08.093  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-10 15:45:08.132  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:45:08.135  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt3)
+03-10 15:45:08.188 21560 21616 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+03-10 15:45:08.190  3163  6987 D FileUtils: Rounded bytes from 7725268992 to 8000000000
+03-10 15:45:08.557  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 37.753. prev severity:3. cur severity:0 New severity:0
+03-10 15:45:08.809 21518 21544 I appium  : AppiumResponse: {"sessionId":"ae766ed5-eb00-4308-8330-ff01aa62d301","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15VFTn/T/w952FbYYd2RRRUBAUgbiBuO+K2bVqWmM0iUlqtm9y2rTp+XbJt+1p2iYxPSfRLDUx1kQStySu0SBKQHAFXFBk39dhZ4BZ7u8PftwygooIM4y8X+fkhLkzc+cZgeHe9/08n0c…

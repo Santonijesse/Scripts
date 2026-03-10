@@ -1,0 +1,39 @@
+--------- beginning of system
+03-10 09:46:35.248  3163  4238 D ActivityManager: freezing 2002 com.google.android.apps.docs.editors.sheets, reason = oom_cached
+--------- beginning of main
+03-10 09:46:35.255  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 09:46:35.257  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 09:46:35.257  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10427} in 4ms
+03-10 09:46:35.266 32146 32332 I appium  : channel read: GET /session/6ffda037-a0ab-43da-a529-03c3cb29311d/source
+03-10 09:46:35.267 32146 32332 I appium  : Source command
+03-10 09:46:35.267 32146 32332 I appium  : Waiting up to 10000ms for the device to idle
+03-10 09:46:35.320 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.api.phone.service.SmsRetrieverApiService.START pkg=com.google.android.gms }
+03-10 09:46:35.404 32350 32355 W stagram.android: Missing inline cache for boolean X.D3V.A7n(java.lang.Object)
+03-10 09:46:35.406 32146 32332 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 09:46:35.487  3163  4238 D ActivityManager: freezing 1961 com.google.android.apps.docs.editors.docs, reason = oom_cached
+03-10 09:46:35.488 32146 32332 I appium  : AppiumResponse: {"sessionId":"6ffda037-a0ab-43da-a529-03c3cb29311d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instagram.android\" class=\"an…
+03-10 09:46:35.490  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 09:46:35.491  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 09:46:35.491  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10426} in 1ms
+03-10 09:46:35.505 32146 32332 I appium  : channel read: GET /session/6ffda037-a0ab-43da-a529-03c3cb29311d/screenshot
+03-10 09:46:35.506 32146 32332 I appium  : CaptureScreenshot command
+03-10 09:46:35.507 32146 32332 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 09:46:35.507 32146 32332 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 09:46:35.563  5727  5777 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 09:46:35.564  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 09:46:35.593  2866  2866 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 09:46:35.594  2866  2866 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 09:46:35.779  3163  4238 D ActivityManager: freezing 1118 com.google.android.apps.tachyon, reason = oom_cached
+03-10 09:46:35.783  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 09:46:35.783  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 09:46:35.783  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10315} in 2ms
+03-10 09:46:36.050  3163  4238 D ActivityManager: freezing 22618 com.android.vending, reason = oom_cached
+03-10 09:46:36.053  3163  4238 D ActivityManager: freezing 1664 com.depop, reason = oom_cached
+03-10 09:46:36.056  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 09:46:36.057  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 09:46:36.057  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10276} in 1ms
+03-10 09:46:36.264  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 09:46:36.265  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 09:46:36.265  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10521} in 2ms
+03-10 09:46:36.353 32146 32332 I appium  : AppiumResponse: {"sessionId":"6ffda037-a0ab-43da-a529-03c3cb29311d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl/v//95lJo6SQBOkQipSAUhW4BA0iBGVBXMuy4CqCtEURZD8uIkJgV1Zd/NAUWWEFBFGRIiqwlC+hSVtAQIp0kBJCKgRC6rx/f+SX88mQDplMDnk+rut9XcnMKfeZmUzOvOY+922…
+03-10 09:46:36.363  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL

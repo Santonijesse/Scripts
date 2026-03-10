@@ -1,0 +1,13 @@
+--------- beginning of main
+03-10 15:57:21.911 12038 12066 I appium  : channel read: GET /session/d1311c20-f9d5-4993-ba34-29781fe7aa9a/source
+03-10 15:57:21.912 12038 12066 I appium  : Source command
+03-10 15:57:21.913 12038 12066 I appium  : Waiting up to 10000ms for the device to idle
+03-10 15:57:22.158 12038 12066 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 15:57:22.292 12038 12066 I appium  : AppiumResponse: {"sessionId":"d1311c20-f9d5-4993-ba34-29781fe7aa9a","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.spothero.spothero\" class=\"an…
+03-10 15:57:22.310 12038 12066 I appium  : channel read: GET /session/d1311c20-f9d5-4993-ba34-29781fe7aa9a/screenshot
+03-10 15:57:22.311 12038 12066 I appium  : CaptureScreenshot command
+03-10 15:57:22.314 12038 12066 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 15:57:22.314 12038 12066 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 15:57:22.462 12828 12828 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 15:57:22.462 12828 12828 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 15:57:23.221 12038 12066 I appium  : AppiumResponse: {"sessionId":"d1311c20-f9d5-4993-ba34-29781fe7aa9a","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fBRl/gfwz7Sdbem0QCD03ot0BKQoFlBQVE5RbNjbT73mdc9TT0/vzju7nl2wYkNRAQEBARWk9w4hkL59Z+b3xySbbHbTs8kufN6vl687AslOdmdnn+cz3+f7COl35xogIiIiIiIiIkp…

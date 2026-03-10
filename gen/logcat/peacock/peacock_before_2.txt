@@ -1,0 +1,148 @@
+--------- beginning of main
+03-10 14:40:46.102  3163  5203 I WifiDataStallService: onCapabilitiesChanged NET_CAPABILITY_VALIDATED=true
+03-10 14:40:46.102  3163  5203 I WifiDataStallService: WIFI state:true
+03-10 14:40:46.102  3163  5203 I WifiDataStallService: WIFI valid state:true
+03-10 14:40:46.102  3163  5203 I WifiDataStallService: on-off:false,mScreenOn:true
+03-10 14:40:46.103  3163  3163 D WiFiBlocklistController: Wifi onCapabilitiesChanged
+03-10 14:40:46.104  3163  3163 D WiFiBlocklistController: Default net onCapabilitiesChanged
+03-10 14:40:46.104  3163  3163 D WiFiBlocklistController: updateDefaultNet:136
+03-10 14:40:46.104  3163  3163 D WiFiBlocklistController: mayUpdateNotification: shouldShow=false,UidsBlocked=false, net info=net:136,ifName=wlan0,securityType=2,isDefault=true,ssid="micasa",notificationId=0
+03-10 14:40:46.104  5693  6968 D QCNEJ/NativeHalConnector: -> SND notifyDefaultNetworkChanged(1)
+03-10 14:40:46.106  6932  8142 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[82ee5969-a086]>Handler" thread_id=61 ]
+03-10 14:40:46.107  5993  6010 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-10 14:40:46.107  5993  6010 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-10 14:40:46.107  6932  7504 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=54 ]
+03-10 14:40:46.107  6932  8142 I BugleRcsEngine: Cannot use CS.apk as it's battery optimized [CONTEXT thread_id=61 ]
+03-10 14:40:46.108  5802  7670 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-10 14:40:46.111  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged networkCapabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=5852Kbps LinkDnBandwidth>=140349Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.0.0.248, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -61, Link speed: 720Mbps, Tx Link speed: 720Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 626Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -61 UnderlyingNetworks: Null]
+03-10 14:40:46.111  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged NET_CAPABILITY_VALIDATED=true
+03-10 14:40:46.111  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged mDataStallManager.mDataStallInstance=null
+03-10 14:40:46.111  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged mDataStallSmart5gManager.mDataStallInstance=null
+03-10 14:40:46.120 12177 12216 V l       : notifyTriggersInPlayheadRange: 12838..12878
+03-10 14:40:46.162 12177 12421 V l       : notifyTriggersInPlayheadRange: 12878..12920
+03-10 14:40:46.207 12177 12214 V l       : notifyTriggersInPlayheadRange: 12920..12961
+03-10 14:40:46.223 12069 12138 I appium  : channel read: GET /session/907e19ce-61e4-46c9-a4ce-e1f56ab763c6/source
+03-10 14:40:46.224 12069 12138 I appium  : Source command
+03-10 14:40:46.225 12069 12138 I appium  : Waiting up to 10000ms for the device to idle
+03-10 14:40:46.246 12177 12214 V l       : notifyTriggersInPlayheadRange: 12961..13001
+03-10 14:40:46.289 12177 12421 V l       : notifyTriggersInPlayheadRange: 13001..13041
+03-10 14:40:46.331 12177 12421 V l       : notifyTriggersInPlayheadRange: 13041..13082
+03-10 14:40:46.339  5993  5993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-10 14:40:46.343 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-10 14:40:46.373 12177 12216 V l       : notifyTriggersInPlayheadRange: 13082..13123
+03-10 14:40:46.408  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 14:40:46.416 12177 12214 V l       : notifyTriggersInPlayheadRange: 13123..13173
+03-10 14:40:46.457 12177 12421 V l       : notifyTriggersInPlayheadRange: 13173..13213
+03-10 14:40:46.469 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-10 14:40:46.499 12177 12216 V l       : notifyTriggersInPlayheadRange: 13213..13253
+03-10 14:40:46.531 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-10 14:40:46.540 12177 12216 V l       : notifyTriggersInPlayheadRange: 13253..13293
+03-10 14:40:46.582 12177 12416 V l       : notifyTriggersInPlayheadRange: 13293..13333
+03-10 14:40:46.617 12177 12816 I MediaCodec: [0xb400006f53164490] enqueue 36 input frames in last 1170 ms, latest timeUs 1000014014000
+03-10 14:40:46.617 12177 12816 I MediaCodec: [0xb400006f53164490] dequeue 37 output frames in last 1184 ms, latest timeUs 1000013780433, flags 128
+03-10 14:40:46.628 12177 12216 V l       : notifyTriggersInPlayheadRange: 13333..13383
+--------- beginning of system
+03-10 14:40:46.648  5625  6679 D PowerUI : can't show warning due to - plugged: true status unknown: false
+03-10 14:40:46.656  3163  3163 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+03-10 14:40:46.656  3163  3163 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=com.android.server.UiModeManagerService$1@410d4bd; mNightModeCustomType=-1; uiMode=33
+03-10 14:40:46.656  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 14:40:46.657  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+03-10 14:40:46.666 12177 12216 V l       : notifyTriggersInPlayheadRange: 13383..13423
+03-10 14:40:46.709 12177 12214 V l       : notifyTriggersInPlayheadRange: 13423..13466
+03-10 14:40:46.749 12177 12214 V l       : notifyTriggersInPlayheadRange: 13466..13507
+03-10 14:40:46.782  3163  3352 I DisplayPowerController2[0]: 03-10 14:40:46.781 - BrightnessEvent: disp=0, physDisp=local:4630947043778501762, displayState=ON, displayPolicy=BRIGHT, brt=0.32461056, initBrt=0.39204776, rcmdBrt=0.32461056, preBrt=0.39204776, lux=24.555664, preLux=43.57078, brtNits=71.30968, hdrNits=NaN, initNits=99.41612, preNits=99.41612, rcmdNits=71.30968, hdrBrightness=NaN, brt(%)=38%, brtInt=83, hbmPolicy=normal, hbmMax=0.85440856, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+03-10 14:40:46.783  2300  2446 I SurfaceFlinger: mBrightnessDiming=1, isCli=0, mBrightnessDimingCnt=0
+03-10 14:40:46.788  3163  3163 I BrightnessSynchronizer: New Update: {[7294] 0.32461056(f), mUpdatedTypes=1, mConfirmedTypes=0, mTimeUpdated=0, mState=2}
+03-10 14:40:46.789  3163  3163 I BrightnessSynchronizer: [7294] New Update 0.32461056(f) set brightness values:  83(i)
+03-10 14:40:46.789  3163  3163 I BrightnessSynchronizer: New PendingUpdate: {[7295] 0.32461056(f), mUpdatedTypes=0, mConfirmedTypes=0, mTimeUpdated=0, mState=1}, prev=null
+03-10 14:40:46.791  3163  3163 I BrightnessSynchronizer: Swallowing update of 83(i) by update: {[7294] 0.32461056(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=60953475, mState=2}
+03-10 14:40:46.791  3163  3163 I BrightnessSynchronizer: Completed Update: {[7294] 0.32461056(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=60953475, mState=3}
+03-10 14:40:46.791  3163  3163 I BrightnessSynchronizer: New Update: {[7295] 0.32461056(f), mUpdatedTypes=0, mConfirmedTypes=0, mTimeUpdated=0, mState=2}
+03-10 14:40:46.791 12177 12214 V l       : notifyTriggersInPlayheadRange: 13507..13548
+03-10 14:40:46.797 12069 12138 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 14:40:46.805  2300  2300 I SurfaceFlinger: setdisplaybrightness boost to preferredDisplayMode 5 (60.00 Hz) above 60hz, brightness:[0.407748-99.197861]
+03-10 14:40:46.805  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=true}
+03-10 14:40:46.834 12177 12214 V l       : notifyTriggersInPlayheadRange: 13548..13590
+03-10 14:40:46.842  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-10 14:40:46.859  5625  6692 D PowerUI : can't show warning due to - plugged: true status unknown: false
+03-10 14:40:46.864 12069 12138 I appium  : AppiumResponse: {"sessionId":"907e19ce-61e4-46c9-a4ce-e1f56ab763c6","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.peacocktv.peacockandroid\" cla…
+03-10 14:40:46.865  3163  3163 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+03-10 14:40:46.865  3163  3163 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=com.android.server.UiModeManagerService$1@410d4bd; mNightModeCustomType=-1; uiMode=33
+03-10 14:40:46.867  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 14:40:46.867  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+03-10 14:40:46.869  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 14:40:46.869  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=1
+03-10 14:40:46.870  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 14:40:46.870  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 14:40:46.871  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-10 14:40:46.876 12177 12421 V l       : notifyTriggersInPlayheadRange: 13590..13630
+03-10 14:40:46.884 12069 12138 I appium  : channel read: GET /session/907e19ce-61e4-46c9-a4ce-e1f56ab763c6/screenshot
+03-10 14:40:46.885 12069 12138 I appium  : CaptureScreenshot command
+03-10 14:40:46.886 12069 12138 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 14:40:46.886 12069 12138 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 14:40:46.910  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=16666666, appVsyncOffsetNanos=1000000
+03-10 14:40:46.911  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 14:40:46.912  2067  3269 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-10 14:40:46.912  2067  3269 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-10 14:40:46.912  2067  3269 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-10 14:40:46.912  2067  3269 D AHAL: FM: fm_set_parameters: 262: Enter
+03-10 14:40:46.912  2067  3269 D AHAL: FM: fm_set_parameters: 320: exit
+03-10 14:40:46.912  2067  3269 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-10 14:40:46.912  2067  3269 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-10 14:40:46.912  2067  3269 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-10 14:40:46.915 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-10 14:40:46.915  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-10 14:40:46.920 12177 12177 D PrecursorAddonManagerDelegate: performAction SetMaximumBitrate(maximumBitrateBps=null)
+03-10 14:40:46.920 12177 12177 I VideoQualityCapSelector: Emitting cap request: null (ExternalDisplayDetection)
+03-10 14:40:46.920 12177 12177 D VideoQualityCapAnalyticsManager: Video quality cap requested: VideoQualityCapEvent(value=none, reason=Security Enforced Cap)
+03-10 14:40:46.920 12177 12177 D VideoQualityCapSelector: Remove ExternalDisplayDetection cap: not found, ignore request
+03-10 14:40:46.922 12177 12418 V l       : notifyTriggersInPlayheadRange: 13630..13670
+03-10 14:40:46.926  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-10 14:40:46.926  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-10 14:40:46.926  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt3)
+03-10 14:40:46.926  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-10 14:40:46.926  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-10 14:40:46.927 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.32461056 nit = 71.30968 level = br1
+03-10 14:40:46.928  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-10 14:40:46.960 12177 12418 V l       : notifyTriggersInPlayheadRange: 13670..13710
+03-10 14:40:46.983 12885 12885 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 14:40:46.983 12885 12885 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 14:40:47.002 12177 12421 V l       : notifyTriggersInPlayheadRange: 13710..13761
+03-10 14:40:47.044 12177 12421 V l       : notifyTriggersInPlayheadRange: 13761..13802
+03-10 14:40:47.047  5993 12300 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 99022951]
+03-10 14:40:47.054  3163  7445 W PackageManager: Missing required system package: com.particlenews.newsbreak, but found with extended search.
+03-10 14:40:47.058  5993  5993 W GCM     : broadcast intent callback: result=CANCELLED forIntent { act=com.google.android.c2dm.intent.RECEIVE pkg=com.particlenews.newsbreak (has extras) }
+03-10 14:40:47.059  3163  7479 W PackageManager: Missing required system package: com.particlenews.newsbreak, but found with extended search.
+03-10 14:40:47.086 12177 12416 V l       : notifyTriggersInPlayheadRange: 13802..13843
+03-10 14:40:47.089  5993 12893 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-10 14:40:47.097  5993 12893 I TapAndPay: Not syncing Tap Doodles: device has no payment tokens [CONTEXT service_id=79 ]
+03-10 14:40:47.099  5993 12300 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-10 14:40:47.104  5993 12893 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+03-10 14:40:47.109  5993 12893 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+03-10 14:40:47.123 23146 23146 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.security.safebrowsing.SafeBrowsingGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+03-10 14:40:47.123 23146 23146 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.security.safebrowsing.SafeBrowsingGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+03-10 14:40:47.128 12177 12418 V l       : notifyTriggersInPlayheadRange: 13843..13884
+03-10 14:40:47.128  5993 12300 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-10 14:40:47.153  5993 12300 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-10 14:40:47.169 12177 12421 V l       : notifyTriggersInPlayheadRange: 13884..13925
+03-10 14:40:47.210  3163  5216 W ParceledListSlice: Element #34 is 19100 bytes.
+03-10 14:40:47.211  3163  5216 W ParceledListSlice: Element #44 is 31200 bytes.
+03-10 14:40:47.212 12177 12418 V l       : notifyTriggersInPlayheadRange: 13925..13966
+03-10 14:40:47.228  3163  5216 W ParceledListSlice: Element #444 is 17856 bytes.
+03-10 14:40:47.254 12177 12217 V l       : notifyTriggersInPlayheadRange: 13966..14007
+03-10 14:40:47.270 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.security.safebrowsing.SafeBrowsingGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+03-10 14:40:47.270  5993 12893 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+03-10 14:40:47.295 12177 12217 V l       : notifyTriggersInPlayheadRange: 14007..14048
+03-10 14:40:47.338 12177 12217 V l       : notifyTriggersInPlayheadRange: 14048..14089
+03-10 14:40:47.379 12177 12217 V l       : notifyTriggersInPlayheadRange: 14089..14130
+03-10 14:40:47.392  3163  5216 W PackageManager: Missing required system package: com.google.android.apps.docs.editors.docs, but found with extended search.
+03-10 14:40:47.397  3163  5216 W PackageManager: Missing required system package: com.google.android.apps.docs.editors.docs, but found with extended search.
+03-10 14:40:47.416  5993 12300 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.onetimeinitializer
+03-10 14:40:47.422 12177 12217 V l       : notifyTriggersInPlayheadRange: 14130..14180
+03-10 14:40:47.429 12069 12138 I appium  : AppiumResponse: {"sessionId":"907e19ce-61e4-46c9-a4ce-e1f56ab763c6","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eBTVwgbwd2Z303unJEAQAgjSpQhIF6RaEBFUEC9FvXSvoFcQBLFcvSJNRKIIKCpFUEEIgiBSlBJqKNJLSA8JKbvZ3fP9kbvzZUlC2mZnN3l/z3Me2OzszJnZNvPuKRIAASIiIiIiIiI…
+03-10 14:40:47.463  3163  7479 W PackageManager: Missing required system package: com.google.android.apps.docs.editors.sheets, but found with extended search.
+03-10 14:40:47.465 12177 12421 V l       : notifyTriggersInPlayheadRange: 14180..14221
+03-10 14:40:47.471  3163  7479 W PackageManager: Missing required system package: com.google.android.apps.docs.editors.sheets, but found with extended search.
+03-10 14:40:47.490  3163  7479 W PackageManager: Missing required system package: com.google.android.apps.docs.editors.slides, but found with extended search.
+03-10 14:40:47.495  3163  7479 W PackageManager: Missing required system package: com.google.android.apps.docs.editors.slides, but found with extended search.
+03-10 14:40:47.506 12177 12421 V l       : notifyTriggersInPlayheadRange: 14221..14261

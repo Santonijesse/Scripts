@@ -1,0 +1,21 @@
+--------- beginning of main
+03-10 10:24:32.550 21171 21596 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-10 10:24:32.562 21171 21596 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-10 10:24:32.619   402   441 I appium  : channel read: GET /session/489a024e-8322-483d-9dfc-a47f2a3d779e/source
+03-10 10:24:32.621   402   441 I appium  : Source command
+03-10 10:24:32.621   402   441 I appium  : Waiting up to 10000ms for the device to idle
+03-10 10:24:32.939   402   441 I appium  : AppiumResponse: {"sessionId":"489a024e-8322-483d-9dfc-a47f2a3d779e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.particlenews.newsbreak\" class…
+03-10 10:24:32.975   402   441 I appium  : channel read: GET /session/489a024e-8322-483d-9dfc-a47f2a3d779e/screenshot
+03-10 10:24:32.977   402   441 I appium  : CaptureScreenshot command
+03-10 10:24:32.979   402   441 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 10:24:32.979   402   441 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 10:24:33.042  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 10:24:33.044  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 10:24:33.044  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10424} in 6ms
+03-10 10:24:33.045  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 10:24:33.046  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 10:24:33.046  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20424} in 1ms
+03-10 10:24:33.056  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 32.708. prev severity:3. cur severity:0 New severity:0
+03-10 10:24:33.090  1683  1683 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 10:24:33.090  1683  1683 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 10:24:33.537   402   441 I appium  : AppiumResponse: {"sessionId":"489a024e-8322-483d-9dfc-a47f2a3d779e","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFRl/8fxzyyAqICCG4qgue97aZpbpGaLleZuKuW+5FJqmU/5ZCuPPlZaSlpmmnubmqbmUppr5YK54q6JbCIuMALz+4OH83MCFRQYJt+v6+K6nDkz59yTyZzzOd/7e5t8fX3tAgAAAAA…

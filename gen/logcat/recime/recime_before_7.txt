@@ -1,0 +1,88 @@
+--------- beginning of main
+03-10 15:11:18.198  1905  1905 I Zygote  : Process 11871 exited due to signal 9 (Killed)
+03-10 15:11:18.198  6942  6970 D ForegroundUtils: UID: 10209 deleted.
+03-10 15:11:18.201  3163  3329 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10209/pid_11871
+03-10 15:11:18.201  3163  3329 W libprocessgroup: RemoveCgroup: /dev/memcg/apps/uid_10209/pid_11871 does not exist.
+03-10 15:11:18.309 23774 23802 I appium  : channel read: GET /session/ec4859d1-b365-44e7-abc9-1316d327d232/source
+03-10 15:11:18.309 23774 23802 I appium  : Source command
+03-10 15:11:18.310 23774 23802 I appium  : Waiting up to 10000ms for the device to idle
+03-10 15:11:18.395  2224 24280 I QC2Comp : [avcD_259] Registered an empty EOS buffer
+03-10 15:11:18.395 23821 24278 I MediaCodec: [0xb400006f5319da60] enqueue 60 input frames in last 916 ms, eos
+03-10 15:11:18.398  2224 24280 W QC2Comp : [avcD_259] Skipping empty output buffer
+03-10 15:11:18.399 23821 24278 I MediaCodec: [0xb400006f5319da60] dequeue 63 output frames in last 904 ms, eos
+03-10 15:11:18.416 23821 23821 I cr_A11yState: Enabled accessibility services list updated. []
+03-10 15:11:18.429 23821 23821 I cr_A11yState: Informing listeners of changes.
+03-10 15:11:18.432 23821 23821 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=true, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-10 15:11:18.450 23774 23802 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 15:11:18.547 23774 23802 I appium  : AppiumResponse: {"sessionId":"ec4859d1-b365-44e7-abc9-1316d327d232","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.recime.app\" class=\"android.w…
+03-10 15:11:18.558  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 42.686. prev severity:0. cur severity:3 New severity:3
+03-10 15:11:18.575 23774 23802 I appium  : channel read: GET /session/ec4859d1-b365-44e7-abc9-1316d327d232/screenshot
+03-10 15:11:18.577 23774 23802 I appium  : CaptureScreenshot command
+03-10 15:11:18.580 23774 23802 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 15:11:18.580 23774 23802 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 15:11:18.591 23821 24212 I MediaCodec: [0xb400006f5317c9f0] enqueue 35 input frames in last 1010 ms, latest timeUs 3633333
+03-10 15:11:18.608 23821 24212 I MediaCodec: [0xb400006f5317c9f0] dequeue 32 output frames in last 1005 ms, latest timeUs 3233333, flags 128
+03-10 15:11:18.645  2224 24280 I QC2Comp : [avcD_259] Stats: Pending(0) i/p-done(0) Works: Q: 1209/Done 1210|Work-Rate: Q(54.2/s Avg=58.8/s) Done(54.797/s Avg=58.837/s)| Stream: 60.00fps 42.5Kbps
+03-10 15:11:18.645  2224 24280 I QC2Comp : [avcD_259] Mem-usage:  [In-1D: 5 bufs 14.941 MB] [1D-393: 14 bufs 0.219 MB] [2D-394: 19 bufs 60.562 MB] | Total: 75.723 MB
+03-10 15:11:18.738 23821 24200 I MediaCodec: [0xb400006f530956e0] dequeue 50 output frames in last 1473 ms, latest timeUs 5000000, flags 129
+03-10 15:11:18.745 23821 24200 I MediaCodec: [0xb400006f530956e0] enqueue 44 input frames in last 1014 ms, latest timeUs 5700000
+03-10 15:11:18.761 23821 24007 I MediaCodec: (0xb400006f5319da60) flush
+03-10 15:11:18.774 23821 24007 I MediaCodec: (0xb400006f5319da60) start
+03-10 15:11:18.776 23821 24007 D MediaCodec: keep callback message for reclaim
+03-10 15:11:18.778 23821 24278 I CCodecConfig: query failed after returning 17 values (BAD_INDEX)
+03-10 15:11:18.780 23821 24278 W Codec2Client: query -- param skipped: index = 1342179345.
+03-10 15:11:18.780 23821 24278 W Codec2Client: query -- param skipped: index = 2415921170.
+03-10 15:11:18.780 23821 24278 W Codec2Client: query -- param skipped: index = 1610614798.
+03-10 15:11:18.780 23821 24278 D CCodecBufferChannel: [c2.qti.avc.decoder#195] start: updating output delay 10
+03-10 15:11:18.783 23821 24278 I MediaCodec: [0xb400006f5319da60] enqueue first input frame, timeUs = 0
+03-10 15:11:18.789 23821 24206 D CCodecBufferChannel: [c2.qti.avc.decoder#195] Ignoring stale input buffer done callback: last flush index = 1209, frameIndex = 1209
+03-10 15:11:18.798 24528 24528 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 15:11:18.798 24528 24528 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 15:11:18.808 23821 24278 I MediaCodec: [0xb400006f5319da60] dequeue first output frame, timeUs = 0
+03-10 15:11:18.893  2224 24207 I QC2Comp : [avcD_256] Stats: Pending(16) i/p-done(16) Works: Q: 853/Done 838|Work-Rate: Q(31.2/s Avg=33.4/s) Done(32.199/s Avg=32.812/s)| Stream: 30.00fps 1.5Mbps
+03-10 15:11:18.893  2224 24207 I QC2Comp : [avcD_256] Mem-usage:  [In-1D: 8 bufs 34.500 MB] [1D-387: 26 bufs 0.406 MB] [2D-388: 31 bufs 145.070 MB] | Total: 179.977 MB
+03-10 15:11:18.968 23821 24258 I MediaCodec: [0xb400006f53181d60] enqueue 81 input frames in last 1086 ms, latest timeUs 17650000
+03-10 15:11:18.972  2224 24214 I QC2Comp : [avcD_257] Stats: Pending(12) i/p-done(11) Works: Q: 745/Done 734|Work-Rate: Q(30.2/s Avg=29.2/s) Done(28.398/s Avg=28.734/s)| Stream: 30.00fps 1012.8Kbps
+03-10 15:11:18.972  2224 24214 I QC2Comp : [avcD_257] Mem-usage:  [In-1D: 7 bufs 30.188 MB] [1D-389: 19 bufs 0.297 MB] [2D-390: 24 bufs 112.312 MB] | Total: 142.797 MB
+03-10 15:11:18.973 23821 24258 I MediaCodec: [0xb400006f53181d60] dequeue 79 output frames in last 1077 ms, latest timeUs 17533333, flags 128
+03-10 15:11:19.105  2300 23466 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 15:11:19.105  2300 23466 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-10 15:11:19.127  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:11:19.127  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 15:11:19.128  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 15:11:19.128  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 15:11:19.129  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-10 15:11:19.151  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-10 15:11:19.168  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:11:19.185  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt2)
+03-10 15:11:19.198  3163  3251 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@33156f83 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+03-10 15:11:19.280 23821 24278 D BufferPoolAccessor2.0: bufferpool2 0xb400006ec3024ed8 : 5(15667200 size) total buffers - 4(12533760 size) used buffers - 1246/1251 (recycle/alloc) - 5/1247 (fetch/transfer)
+03-10 15:11:19.288  1905  1905 D Zygote  : Forked child process 24548
+03-10 15:11:19.325 24548 24548 I riersettingsext: Using CollectorTypeCMC GC.
+03-10 15:11:19.329 24548 24548 E riersettingsext: Not starting debugger since process cannot load the jdwp agent.
+03-10 15:11:19.332 24548 24548 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+--------- beginning of system
+03-10 15:11:19.339  3163  3252 W ActivityManager: Slow operation: 140ms so far, now at startProcess: returned from zygote!
+03-10 15:11:19.340  3163  3252 W ActivityManager: Slow operation: 142ms so far, now at startProcess: done updating battery stats
+03-10 15:11:19.340  3163  3252 W ActivityManager: Slow operation: 142ms so far, now at startProcess: building log message
+03-10 15:11:19.340  3163  3252 I ActivityManager: Start proc 24548:com.motorola.carriersettingsext/u0a209 for service {com.motorola.carriersettingsext/com.motorola.carriersettingsext.dataroaming.DataRoamingPhoneStateService}
+03-10 15:11:19.340  3163  3252 W ActivityManager: Slow operation: 142ms so far, now at startProcess: starting to update pids map
+03-10 15:11:19.342  3163  3252 W ActivityManager: Slow operation: 143ms so far, now at startProcess: done updating pids map
+03-10 15:11:19.364  6942  6970 D ForegroundUtils: Foreground UID status: 10240, true; 10246, false; 10292, true; 10363, false; 10394, true; 10404, true; 10408, true; 10416, false; 10618, false; 10626, true; 99392, true; 
+03-10 15:11:19.504 24548 24548 D nativeloader: Configuring clns-7 for other apk /system/framework/moto-telephony.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/product/priv-app/CarrierSettingsExt/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.motorola.carriersettingsext
+03-10 15:11:19.504 24548 24548 D nativeloader: Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libjni_helper.motocameradesktop.so:libimgTuner_jni.motoimagetuner.so:libparamupdater_jni.motoparamupdater.so:libupdateprof.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+03-10 15:11:19.530 24548 24548 D nativeloader: Configuring clns-8 for other apk /system/framework/moto-settings.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/product/priv-app/CarrierSettingsExt/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.motorola.carriersettingsext
+03-10 15:11:19.530 24548 24548 D nativeloader: Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libjni_helper.motocameradesktop.so:libimgTuner_jni.motoimagetuner.so:libparamupdater_jni.motoparamupdater.so:libupdateprof.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+03-10 15:11:19.549 24548 24548 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+03-10 15:11:19.550 24548 24548 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+03-10 15:11:19.563 23821 24212 D BufferPoolAccessor2.0: bufferpool2 0xb400006ec3010b18 : 5(22609920 size) total buffers - 4(18087936 size) used buffers - 732/739 (recycle/alloc) - 16/731 (fetch/transfer)
+03-10 15:11:19.593 23821 24212 I MediaCodec: [0xb400006f5317c9f0] enqueue 21 input frames in last 1002 ms, latest timeUs 4333333
+03-10 15:11:19.607  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 15:11:19.616 23821 24212 I MediaCodec: [0xb400006f5317c9f0] dequeue 23 output frames in last 1007 ms, latest timeUs 4000000, flags 129
+03-10 15:11:19.659 23774 23802 I appium  : AppiumResponse: {"sessionId":"ec4859d1-b365-44e7-abc9-1316d327d232","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N3Zcxtnmi74JzOxgyAA7pvExdxMitos2VZJsmW5XF5U0ae7JibmpudiLiai/6S+6pgzczFxaqK6TrntLi9tl21Zlq2FkkiKokiK+wqSIIgdCWR+c8FCmhAXkUyQBMjnF+EIi0siQYBgfg/…
+03-10 15:11:19.672 23821 24200 D BufferPoolAccessor2.0: bufferpool2 0xb400006ec300da88 : 5(22609920 size) total buffers - 4(18087936 size) used buffers - 743/751 (recycle/alloc) - 20/740 (fetch/transfer)
+03-10 15:11:19.750 24548 24548 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-aarch64-android.so:libclang_rt.asan-arm-android.so:libclang_rt.hwasan-aarch64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+03-10 15:11:19.752 24548 24548 D nativeloader: Configuring product-clns-9 for unbundled product apk /product/priv-app/CarrierSettingsExt/CarrierSettingsExt.apk. target_sdk_version=35, uses_libraries=, library_path=/product/priv-app/CarrierSettingsExt/lib/arm64:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.motorola.carriersettingsext:/product/lib64:/system/product/lib64
+03-10 15:11:19.756 24548 24548 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+03-10 15:11:19.758 24548 24548 D CompatChangeReporter: Compat change id reported: 202956589; UID 10209; state: ENABLED
+03-10 15:11:19.764 23821 24200 I MediaCodec: [0xb400006f530956e0] enqueue 20 input frames in last 1019 ms, latest timeUs 6366667

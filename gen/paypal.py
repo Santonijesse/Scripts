@@ -27,7 +27,7 @@ options.load_capabilities({
     "appium:udid": "ZY22HS5QFQ",
     "appium:appPackage": "com.paypal.android.p2pmobile",
     "appium:automationName": "UiAutomator2",
-    #"appium:appActivity": "com.paypal.android.p2pmobile.MainActivity",
+    "appium:appActivity": ".startup.activities.StartupActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -36,7 +36,7 @@ options.load_capabilities({
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(3)
+time.sleep(10)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -50,17 +50,15 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(550, 2400, 2)
-tap(1000, 1675, 2)
-tap(650, 2250, 2)
-tap(650, 2250, 2)
-tap(650, 2250, 2)
-tap(900, 1950, 2)
-tap(900, 1950, 2)
-tap(900, 1950, 2)
-tap(650, 2250, 2)
-tap(650, 2250, 2)
-tap(650, 2250, 3)
+tap(550, 2400, 3)
+tap(1000, 1675, 3)
+tap(650, 2250, .3)
+tap(900, 1950, .3)
+tap(650, 2250, .3)
+tap(900, 1950, .3)
+tap(650, 2250, .3)
+tap(900, 1950, .3)
+
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

@@ -1,0 +1,43 @@
+--------- beginning of main
+03-10 14:42:17.790 15382 15421 V l       : notifyTriggersInPlayheadRange: 12627..12667
+03-10 14:42:17.832 15382 15421 V l       : notifyTriggersInPlayheadRange: 12667..12707
+03-10 14:42:17.874 15382 15421 V l       : notifyTriggersInPlayheadRange: 12707..12749
+03-10 14:42:17.890 15340 15366 I appium  : channel read: GET /session/4b024a11-cb8c-44f0-8f6e-047ddbb9cec7/source
+03-10 14:42:17.891 15340 15366 I appium  : Source command
+03-10 14:42:17.891 15340 15366 I appium  : Waiting up to 10000ms for the device to idle
+03-10 14:42:17.920 15382 15436 V l       : notifyTriggersInPlayheadRange: 12749..12800
+03-10 14:42:17.956 15382 15589 V l       : notifyTriggersInPlayheadRange: 12800..12831
+03-10 14:42:17.964 15340 15366 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 14:42:17.977 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-10 14:42:17.999 15382 15436 V l       : notifyTriggersInPlayheadRange: 12831..12872
+03-10 14:42:18.015  5993  5993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-10 14:42:18.027 15340 15366 I appium  : AppiumResponse: {"sessionId":"4b024a11-cb8c-44f0-8f6e-047ddbb9cec7","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.peacocktv.peacockandroid\" cla…
+03-10 14:42:18.040 15382 15436 V l       : notifyTriggersInPlayheadRange: 12872..12922
+03-10 14:42:18.044 15340 15366 I appium  : channel read: GET /session/4b024a11-cb8c-44f0-8f6e-047ddbb9cec7/screenshot
+03-10 14:42:18.045 15340 15366 I appium  : CaptureScreenshot command
+03-10 14:42:18.046 15340 15366 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 14:42:18.046 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-10 14:42:18.046 15340 15366 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 14:42:18.082 15382 15415 V l       : notifyTriggersInPlayheadRange: 12922..12962
+03-10 14:42:18.125 15382 15415 V l       : notifyTriggersInPlayheadRange: 12962..13004
+03-10 14:42:18.138 15992 15992 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 14:42:18.138 15992 15992 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 14:42:18.167 15382 15415 V l       : notifyTriggersInPlayheadRange: 13004..13044
+03-10 14:42:18.208 15382 15415 V l       : notifyTriggersInPlayheadRange: 13044..13085
+03-10 14:42:18.215 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-10 14:42:18.251 15382 15415 V l       : notifyTriggersInPlayheadRange: 13085..13128
+03-10 14:42:18.264  2067  5898 D DlbDap2Process: process() called [297000] times with input format 0x22 and channel mask 0x3 (ProcessingMode=10), htEnable=0(0, 0, 0)
+03-10 14:42:18.292 15382 15415 V l       : notifyTriggersInPlayheadRange: 13128..13169
+03-10 14:42:18.335 15382 15415 V l       : notifyTriggersInPlayheadRange: 13169..13208
+03-10 14:42:18.377 15382 15415 V l       : notifyTriggersInPlayheadRange: 13208..13259
+03-10 14:42:18.419 15382 15434 V l       : notifyTriggersInPlayheadRange: 13259..13299
+03-10 14:42:18.462 15382 15415 V l       : notifyTriggersInPlayheadRange: 13299..13340
+03-10 14:42:18.495 15382 15932 I MediaCodec: [0xb400006f5313a910] dequeue 37 output frames in last 1178 ms, latest timeUs 1000013780433, flags 128
+03-10 14:42:18.500 15382 15932 I MediaCodec: [0xb400006f5313a910] enqueue 36 input frames in last 1174 ms, latest timeUs 1000014014000
+03-10 14:42:18.503 15382 15589 V l       : notifyTriggersInPlayheadRange: 13340..13382
+03-10 14:42:18.546 15382 15415 V l       : notifyTriggersInPlayheadRange: 13382..13423
+03-10 14:42:18.557  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 37.491. prev severity:3. cur severity:0 New severity:0
+03-10 14:42:18.586 15382 15434 V l       : notifyTriggersInPlayheadRange: 13423..13464
+03-10 14:42:18.620 15340 15366 I appium  : AppiumResponse: {"sessionId":"4b024a11-cb8c-44f0-8f6e-047ddbb9cec7","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFPl4gbw55ykTXc6aYG2QNlDQfYQBAvIBiciiAwVUGSJV5ArXBD0OuDKFgcyLOIVQVRAKIIgMhQQgZYlq4xSugsdSZO8vz96e36NbelKc5L2+X4+7wfanJzzvmnGOU/eIQEQICIiIiI…
+03-10 14:42:18.629 15382 15415 V l       : notifyTriggersInPlayheadRange: 13464..13505
+03-10 14:42:18.671 15382 15415 V l       : notifyTriggersInPlayheadRange: 13505..13545

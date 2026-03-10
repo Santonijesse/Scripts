@@ -1,0 +1,40 @@
+--------- beginning of main
+03-10 10:23:43.742 30992 31022 I appium  : channel read: GET /session/d064271d-2922-42b0-9f08-18b02e593de3/source
+03-10 10:23:43.744 30992 31022 I appium  : Source command
+03-10 10:23:43.744 30992 31022 I appium  : Waiting up to 10000ms for the device to idle
+03-10 10:23:43.951  2064  4171 D slpi    : tmd2712: Als lux: 3.00, ch0: 130, ch1: 74, scale: 1.08, atime:50.04, again:1024
+03-10 10:23:44.002  2064  4171 D slpi    : tmd2712: Als lux: 10.30, ch0: 448, ch1: 253, scale: 1.08, atime:50.04, again:1024
+03-10 10:23:44.051  2064  4171 D slpi    : tmd2712: Als lux: 14.10, ch0: 633, ch1: 368, scale: 1.08, atime:50.04, again:1024
+03-10 10:23:44.151  2064  4171 D slpi    : tmd2712: Als lux: 11.80, ch0: 516, ch1: 294, scale: 1.08, atime:50.04, again:1024
+03-10 10:23:44.174  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 10:23:44.183 21171 21926 W SoLoader: SoLoader already initialized
+03-10 10:23:44.201 21171 21527 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-10 10:23:44.215 21171 21527 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-10 10:23:44.215 21171 21527 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-10 10:23:44.217 21171 21527 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-10 10:23:44.259 30992 31022 I appium  : AppiumResponse: {"sessionId":"d064271d-2922-42b0-9f08-18b02e593de3","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.particlenews.newsbreak\" class…
+03-10 10:23:44.284 30992 31022 I appium  : channel read: GET /session/d064271d-2922-42b0-9f08-18b02e593de3/screenshot
+03-10 10:23:44.285 30992 31022 I appium  : CaptureScreenshot command
+03-10 10:23:44.286 30992 31022 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 10:23:44.286 30992 31022 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 10:23:44.394 32047 32047 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 10:23:44.394 32047 32047 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 10:23:44.415  2064  4171 D slpi-TCS3720: ALS_REPORT lux 74.658188, ch0 41.391987-22.768053-14.005360-8.163427, scale 1.1878, fps 90, client 1
+03-10 10:23:44.415  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 10:23:44.415  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 10:23:44.416  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 10:23:44.418  2195 32054 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 10:23:44.418  2195 32054 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 10:23:44.419  2195 32054 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 10:23:44.450  2195 32054 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 10:23:44.450  2195 32054 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 10:23:44.450  2195 32054 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 10:23:44.450  2195 32054 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 10:23:44.493  2195 32056 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 10:23:44.494  2195 32056 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 10:23:44.494  2195 32056 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 10:23:44.505  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 38.01 (74.66-36.64), pre 31.95, dbv 6139, dc 0, fps 90, chPanel 21.44-11.00-7.11-3.52, facCal:lux_s 1.19 cha_s 0.94-0.94-0.90-0.94, RunInfo: DPB 9145-34, TF 9145-0
+03-10 10:23:44.815 30992 31022 I appium  : AppiumResponse: {"sessionId":"d064271d-2922-42b0-9f08-18b02e593de3","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eExn/8fxzyzZkIREQogEsUVRiqLUVqXVRVtaa4tYaq+lRauetk91QXl0R21V1F6litKieGpt1VLEvi/ZBdkzvz/y5PxMEwRJJlPv13XlujpzZs65h5qc8znf+3ubfHx8bAIAAAAAAHB…
+--------- beginning of system
+03-10 10:23:44.818  3163  3251 D ActivityManager: unfreezing ProcessRecord{29254e7 31935:com.android.settings/1000}, reason = shouldNotFreeze_allowlist, adj = 925, adjType = cch-started-ui-services, adjSource = null
+03-10 10:23:44.821  3163  3251 D ActivityManager: sync unfroze 31935 com.android.settings for 10

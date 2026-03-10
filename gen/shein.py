@@ -27,7 +27,7 @@ options.load_capabilities({
     "appium:udid": "ZY22HS5QFQ",
     "appium:appPackage": "com.zzkko",
     "appium:automationName": "UiAutomator2",
-    #"appium:appActivity": "com.zzkko.MainActivity",
+    "appium:appActivity": "com.shein.welcome.WelcomeActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -36,7 +36,7 @@ options.load_capabilities({
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(3)
+time.sleep(10)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -50,13 +50,13 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(550, 1550, 2)
-tap(550, 1210, 2)
-tap(980, 875, 2)
-tap(975, 600, 2)
-tap(1015, 1200, 2)
-tap(750, 665, 2)
-tap(210, 1500, 2)
+tap(550, 1550, 3)
+tap(550, 1210, 3)
+tap(980, 875, 3)
+tap(975, 600, 3)
+tap(1015, 1200, 3)
+tap(750, 665, 3)
+tap(210, 1500, 3)
 tap(810, 2300, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))

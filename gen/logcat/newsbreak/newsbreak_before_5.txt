@@ -1,0 +1,53 @@
+--------- beginning of main
+03-10 10:19:56.339 24991 25020 I appium  : channel read: GET /session/7a869090-7942-4ba3-80cc-9539a46a93b4/source
+03-10 10:19:56.341 24991 25020 I appium  : Source command
+03-10 10:19:56.342 24991 25020 I appium  : Waiting up to 10000ms for the device to idle
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: Failed to get service from broker. 
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3241)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3225)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3208)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3150)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at bgfk.a(:com.google.android.gms@260834035@26.08.34 (260400-876566425):36)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at bgdl.z(:com.google.android.gms@260834035@26.08.34 (260400-876566425):143)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at bfjr.run(:com.google.android.gms@260834035@26.08.34 (260400-876566425):42)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:1001)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:105)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at cuza.mv(:com.google.android.gms@260834035@26.08.34 (260400-876566425):1)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at cuza.dispatchMessage(:com.google.android.gms@260834035@26.08.34 (260400-876566425):5)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:268)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:384)
+03-10 10:19:56.390 25739 25802 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:103)
+03-10 10:19:56.391 25739 25802 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+03-10 10:19:56.516  2064  4171 D slpi    : tmd2712: Als lux: 2.20, ch0: 100, ch1: 58, scale: 1.08, atime:50.04, again:1024
+03-10 10:19:56.588 24991 25020 I appium  : AppiumResponse: {"sessionId":"7a869090-7942-4ba3-80cc-9539a46a93b4","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.particlenews.newsbreak\" class…
+03-10 10:19:56.604 24991 25020 I appium  : channel read: GET /session/7a869090-7942-4ba3-80cc-9539a46a93b4/screenshot
+03-10 10:19:56.604 24991 25020 I appium  : CaptureScreenshot command
+03-10 10:19:56.606 24991 25020 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 10:19:56.606 24991 25020 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 10:19:56.615  2064  4171 D slpi    : tmd2712: Als lux: 4.30, ch0: 188, ch1: 106, scale: 1.08, atime:50.04, again:1024
+03-10 10:19:56.699 26005 26005 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 10:19:56.700 26005 26005 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 10:19:56.810  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 10:19:56.813  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 10:19:56.814  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10424} in 7ms
+03-10 10:19:56.817  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 10:19:56.819  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 10:19:56.819  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20424} in 6ms
+03-10 10:19:56.839  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 10:19:56.839  2064  4171 D slpi-TCS3720: ALS_REPORT lux 74.022255, ch0 38.508072-21.070295-14.048569-7.989737, scale 1.1878, fps 90, client 1
+03-10 10:19:56.839  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 10:19:56.840  2195  2586 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 10:19:56.841  2195 26012 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 10:19:56.841  2195 26012 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 10:19:56.841  2195 26012 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 10:19:56.850  2195 26012 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 10:19:56.851  2195 26012 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 10:19:56.851  2195 26012 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 10:19:56.851  2195 26012 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 10:19:56.891  2195 26014 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 10:19:56.892  2195 26014 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 10:19:56.892  2195 26014 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 10:19:56.905  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 33.19 (74.02-40.83), pre 37.59, dbv 6623, dc 0, fps 90, chPanel 24.36-12.52-7.97-4.02, facCal:lux_s 1.19 cha_s 0.95-0.95-0.90-0.95, RunInfo: DPB 9082-34, TF 9082-0
+03-10 10:19:57.133  3163  7414 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.
+03-10 10:19:57.164 24991 25020 I appium  : AppiumResponse: {"sessionId":"7a869090-7942-4ba3-80cc-9539a46a93b4","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dFR1/v/x15Q0IAESWiAQMLQgRTosSBMREUUFaUGB0KuUpYiyrmuFLHxRYQUkinQpFhBBQAGFRZpSBUKRLpBOKElIMr8/srm/jAk9yeTK83FOzmHm3rnzGThk7n3d9+f9sfj6+joEAAA…

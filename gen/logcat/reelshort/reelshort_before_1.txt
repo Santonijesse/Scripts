@@ -1,0 +1,44 @@
+--------- beginning of main
+03-10 15:25:08.385 11813 13083 I .android.victor: EglImage dataspace changed, need recreate
+03-10 15:25:08.385 11813 13083 W qdgralloc: getInterlacedFlag: getMetaData returned -22, defaulting to interlaced_flag = 0
+03-10 15:25:08.402 11813 13088 I MediaCodec: [0xb400006f533861b0] enqueue 23 input frames in last 1056 ms, latest timeUs 2400000
+03-10 15:25:08.424 11767 11797 I appium  : channel read: GET /session/8db12c34-0c73-470b-bb6d-8c7f867e2f17/source
+03-10 15:25:08.426 11767 11797 I appium  : Source command
+03-10 15:25:08.426 11767 11797 I appium  : Waiting up to 10000ms for the device to idle
+03-10 15:25:08.446 11813 13083 I .android.victor: EglImage dataspace changed, need recreate
+03-10 15:25:08.446 11813 13083 W qdgralloc: getInterlacedFlag: getMetaData returned -22, defaulting to interlaced_flag = 0
+03-10 15:25:08.455  5727  8099 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 15:25:08.455  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 15:25:08.478 11813 13083 I .android.victor: EglImage dataspace changed, need recreate
+03-10 15:25:08.478 11813 13083 W qdgralloc: getInterlacedFlag: getMetaData returned -22, defaulting to interlaced_flag = 0
+03-10 15:25:08.521 11767 11797 I appium  : AppiumResponse: {"sessionId":"8db12c34-0c73-470b-bb6d-8c7f867e2f17","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.newleaf.app.android.victor\" c…
+03-10 15:25:08.542 11767 11797 I appium  : channel read: GET /session/8db12c34-0c73-470b-bb6d-8c7f867e2f17/screenshot
+03-10 15:25:08.542 11767 11797 I appium  : CaptureScreenshot command
+03-10 15:25:08.544 11767 11797 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 15:25:08.544 11767 11797 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 15:25:08.546 11813 13088 I MediaCodec: [0xb400006f533861b0] dequeue 22 output frames in last 1018 ms, latest timeUs 2358333, flags 0
+03-10 15:25:08.558  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 37.472. prev severity:3. cur severity:0 New severity:0
+03-10 15:25:08.601 11813 13083 I .android.victor: EglImage dataspace changed, need recreate
+03-10 15:25:08.602 11813 13083 W qdgralloc: getInterlacedFlag: getMetaData returned -22, defaulting to interlaced_flag = 0
+03-10 15:25:08.643 13130 13130 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 15:25:08.643 13130 13130 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 15:25:08.685 11813 13083 I .android.victor: EglImage dataspace changed, need recreate
+03-10 15:25:08.685 11813 13083 W qdgralloc: getInterlacedFlag: getMetaData returned -22, defaulting to interlaced_flag = 0
+03-10 15:25:08.914  2064  4171 D slpi-TCS3720: ALS_REPORT lux 43.805389, ch0 27.443159-14.736965-8.371888-5.845752, scale 1.1878, fps 90, client 1
+03-10 15:25:08.914  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 15:25:08.914  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 15:25:08.915  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 15:25:08.916  2195 13136 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 15:25:08.916  2195 13136 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 15:25:08.916  2195 13136 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 15:25:08.920 11767 11797 I appium  : AppiumResponse: {"sessionId":"8db12c34-0c73-470b-bb6d-8c7f867e2f17","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl3v/x75RUIB0I0ltoKkVU8hMwSNNV1HUVVlkFO6Ig4KMrUmUVcVeFBWVxYS3AIqtUXUECD0UixQsQMICISAskkAZE0me+vz/y5GyGFAJmMrmX9+u6PtelzJlTZibJmc/c9xmbiKg…
+03-10 15:25:08.930  2195 13136 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 15:25:08.931  2195 13136 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 15:25:08.931  2195 13136 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 15:25:08.931  2195 13136 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 15:25:08.936  2064  4171 D slpi    : tmd2712: Als lux: 8.40, ch0: 371, ch1: 212, scale: 1.08, atime:50.04, again:1024
+03-10 15:25:08.945  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 15:25:08.948  2195 13140 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 15:25:08.948  2195 13140 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 15:25:08.949  2195 13140 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 15:25:08.954  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 32.74 (43.81-11.06), pre 28.30, dbv 6533, dc 0, fps 90, chPanel 7.21-3.49-2.13-1.25, facCal:lux_s 1.19 cha_s 0.95-0.95-0.90-0.95, RunInfo: DPB 12591-47, TF 12591-0

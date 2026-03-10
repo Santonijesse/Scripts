@@ -50,13 +50,13 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(30)  # wait for app to fully load
 
-tap(985, 175, 2)
+tap(985, 175, 3)
 time.sleep(5)
-tap(985, 175, 2)
-tap(985, 175, 2)
-tap(550, 1550, 2)
-tap(1015, 120, 2)
-tap(550, 1550, 2)
+tap(985, 175, 3)
+tap(985, 175, 3)
+tap(550, 1550, 3)
+tap(1015, 120, 3)
+tap(550, 1550, 3)
 tap(840, 300, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))

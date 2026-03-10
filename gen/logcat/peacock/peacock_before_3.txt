@@ -1,0 +1,53 @@
+--------- beginning of main
+03-10 14:41:32.204 13866 13913 V l       : notifyTriggersInPlayheadRange: 12631..12672
+03-10 14:41:32.224  2064  4171 D slpi    : tmd2712: Als lux: 13.10, ch0: 580, ch1: 334, scale: 1.08, atime:50.04, again:1024
+03-10 14:41:32.235  2067  5898 D DlbDap2Process: process() called [293000] times with input format 0x22 and channel mask 0x3 (ProcessingMode=10), htEnable=0(0, 0, 0)
+03-10 14:41:32.246 13866 13913 V l       : notifyTriggersInPlayheadRange: 12672..12713
+03-10 14:41:32.289 13866 13905 V l       : notifyTriggersInPlayheadRange: 12713..12755
+03-10 14:41:32.300 13823 13850 I appium  : channel read: GET /session/0254f4e2-1408-47c7-883e-19508f9df5ba/source
+03-10 14:41:32.303 13823 13850 I appium  : Source command
+03-10 14:41:32.304 13823 13850 I appium  : Waiting up to 10000ms for the device to idle
+03-10 14:41:32.329 13866 13913 V l       : notifyTriggersInPlayheadRange: 12755..12795
+03-10 14:41:32.372 13866 13913 V l       : notifyTriggersInPlayheadRange: 12795..12845
+03-10 14:41:32.374 13823 13850 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 14:41:32.414 13866 13903 V l       : notifyTriggersInPlayheadRange: 12845..12887
+03-10 14:41:32.423  2064  4171 D slpi    : tmd2712: Als lux: 15.10, ch0: 719, ch1: 438, scale: 1.08, atime:50.04, again:1024
+03-10 14:41:32.436 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-10 14:41:32.438 13823 13850 I appium  : AppiumResponse: {"sessionId":"0254f4e2-1408-47c7-883e-19508f9df5ba","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.peacocktv.peacockandroid\" cla…
+03-10 14:41:32.447  5993  5993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-10 14:41:32.453 13823 13850 I appium  : channel read: GET /session/0254f4e2-1408-47c7-883e-19508f9df5ba/screenshot
+03-10 14:41:32.454 13823 13850 I appium  : CaptureScreenshot command
+03-10 14:41:32.456 13823 13850 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 14:41:32.456 13823 13850 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 14:41:32.460 13866 13913 V l       : notifyTriggersInPlayheadRange: 12887..12927
+03-10 14:41:32.497 13866 13913 V l       : notifyTriggersInPlayheadRange: 12927..12968
+03-10 14:41:32.539 13866 13905 V l       : notifyTriggersInPlayheadRange: 12968..13009
+03-10 14:41:32.548 14418 14418 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 14:41:32.548 14418 14418 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 14:41:32.582 13866 13986 V l       : notifyTriggersInPlayheadRange: 13009..13049
+03-10 14:41:32.594 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-10 14:41:32.623 13866 13905 V l       : notifyTriggersInPlayheadRange: 13049..13089
+03-10 14:41:32.628 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-10 14:41:32.666 13866 13943 V l       : notifyTriggersInPlayheadRange: 13089..13139
+03-10 14:41:32.695 13866 14350 I MediaCodec: [0xb400006f5315b980] enqueue 26 input frames in last 1006 ms, latest timeUs 1000013880533
+03-10 14:41:32.708 13866 13913 V l       : notifyTriggersInPlayheadRange: 13139..13179
+03-10 14:41:32.711  2064 13167 E sensors-hal: handle_sns_client_event:62, mot_disprot_event: now=98048615451126 ts=98048577871564, type=0, status=3
+03-10 14:41:32.750 13866 13986 V l       : notifyTriggersInPlayheadRange: 13179..13219
+03-10 14:41:32.791 13866 13986 V l       : notifyTriggersInPlayheadRange: 13219..13260
+03-10 14:41:32.835 13866 13913 V l       : notifyTriggersInPlayheadRange: 13260..13299
+03-10 14:41:32.876 13866 13897 V l       : notifyTriggersInPlayheadRange: 13299..13350
+03-10 14:41:32.904 13866 14350 I MediaCodec: [0xb400006f5315b980] dequeue 31 output frames in last 1034 ms, latest timeUs 1000013780433, flags 128
+03-10 14:41:32.918 13866 13897 V l       : notifyTriggersInPlayheadRange: 13350..13390
+03-10 14:41:32.960 13866 13913 V l       : notifyTriggersInPlayheadRange: 13390..13432
+03-10 14:41:33.001 13866 13913 V l       : notifyTriggersInPlayheadRange: 13432..13473
+03-10 14:41:33.029 13823 13850 I appium  : AppiumResponse: {"sessionId":"0254f4e2-1408-47c7-883e-19508f9df5ba","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFN13wbw+5ykSXc6aYG2QEWWKMhGBMEissGJCGIZMhTZPoK8wgOCWxQpICLIsAqKICqziIBIUVkCpQxZZbSlu9CRNMnv/aNvz9tICx1pRnt/rutc0ObknO9JM8658xsSAAEiIiIiIiI…
+03-10 14:41:33.043 13866 13986 V l       : notifyTriggersInPlayheadRange: 13473..13515
+03-10 14:41:33.087 13866 13913 V l       : notifyTriggersInPlayheadRange: 13515..13558
+03-10 14:41:33.100  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 14:41:33.102  2064  4171 D slpi-TCS3720: ALS_REPORT lux 34.653671, ch0 21.188368-11.682065-6.659702-4.467088, scale 1.1878, fps 90, client 1
+03-10 14:41:33.102  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 14:41:33.104  2195  2586 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 14:41:33.106  2195 14428 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 14:41:33.106  2195 14428 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 14:41:33.106  2195 14428 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 14:41:33.123  2064  4171 D slpi    : tmd2712: Als lux: 17.30, ch0: 676, ch1: 344, scale: 1.08, atime:50.04, again:1024

@@ -1,0 +1,60 @@
+--------- beginning of main
+03-10 15:10:22.927 22300 22703 I MediaCodec: [0xb400006f5316cfa0] enqueue 54 input frames in last 1001 ms, latest timeUs 14200000
+03-10 15:10:22.950 22300 22703 I MediaCodec: [0xb400006f5316cfa0] dequeue 52 output frames in last 1002 ms, latest timeUs 14066667, flags 128
+03-10 15:10:23.027 22217 22282 I appium  : channel read: GET /session/7e767877-7536-45ab-be1b-a587901dffed/source
+03-10 15:10:23.030 22217 22282 I appium  : Source command
+03-10 15:10:23.031 22217 22282 I appium  : Waiting up to 10000ms for the device to idle
+03-10 15:10:23.112 22300 22303 I com.recime.app: Compiler allocated 4105KB to compile g5.f c3.a0.p(int)
+03-10 15:10:23.137 22300 22300 I cr_A11yState: Enabled accessibility services list updated. []
+03-10 15:10:23.143 22300 22300 I cr_A11yState: Informing listeners of changes.
+03-10 15:10:23.143 22300 22300 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=true, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-10 15:10:23.165 22217 22282 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 15:10:23.181  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 15:10:23.221 22217 22282 I appium  : AppiumResponse: {"sessionId":"7e767877-7536-45ab-be1b-a587901dffed","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.recime.app\" class=\"android.w…
+03-10 15:10:23.239 22217 22282 I appium  : channel read: GET /session/7e767877-7536-45ab-be1b-a587901dffed/screenshot
+03-10 15:10:23.240 22217 22282 I appium  : CaptureScreenshot command
+03-10 15:10:23.242 22217 22282 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 15:10:23.242 22217 22282 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 15:10:23.317 22300 22678 I MediaCodec: [0xb400006f531581e0] enqueue 37 input frames in last 1015 ms, latest timeUs 4466667
+03-10 15:10:23.354 23003 23003 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 15:10:23.355 23003 23003 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 15:10:23.397 22300 22755 I MediaCodec: [0xb400006f53188ca0] enqueue 52 input frames in last 540 ms, eos
+03-10 15:10:23.397  2224 22757 I QC2Comp : [avcD_255] Registered an empty EOS buffer
+03-10 15:10:23.480  2224 22757 W QC2Comp : [avcD_255] Skipping empty output buffer
+03-10 15:10:23.485 22300 22755 I MediaCodec: [0xb400006f53188ca0] dequeue 60 output frames in last 613 ms, eos
+03-10 15:10:23.500 22300 22496 I MediaCodec: (0xb400006f53188ca0) flush
+03-10 15:10:23.543 22300 22496 I MediaCodec: (0xb400006f53188ca0) start
+03-10 15:10:23.547 22300 22496 D MediaCodec: keep callback message for reclaim
+03-10 15:10:23.547 22300 22755 I CCodecConfig: query failed after returning 17 values (BAD_INDEX)
+03-10 15:10:23.548 22300 22755 W Codec2Client: query -- param skipped: index = 1342179345.
+03-10 15:10:23.548 22300 22755 W Codec2Client: query -- param skipped: index = 2415921170.
+03-10 15:10:23.548 22300 22755 W Codec2Client: query -- param skipped: index = 1610614798.
+03-10 15:10:23.548 22300 22755 D CCodecBufferChannel: [c2.qti.avc.decoder#326] start: updating output delay 10
+03-10 15:10:23.550 22300 22678 I MediaCodec: [0xb400006f531581e0] dequeue 35 output frames in last 1004 ms, latest timeUs 4166667, flags 128
+03-10 15:10:23.551 22300 22755 I MediaCodec: [0xb400006f53188ca0] enqueue first input frame, timeUs = 0
+03-10 15:10:23.559 22300 22686 D CCodecBufferChannel: [c2.qti.avc.decoder#326] Ignoring stale input buffer done callback: last flush index = 1209, frameIndex = 1209
+03-10 15:10:23.570  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 42.596. prev severity:0. cur severity:3 New severity:3
+03-10 15:10:23.599  2224 22687 I QC2Comp : [avcD_252] Stats: Pending(18) i/p-done(17) Works: Q: 794/Done 777|Work-Rate: Q(32.8/s Avg=31.1/s) Done(29.196/s Avg=30.427/s)| Stream: 30.00fps 925.3Kbps
+03-10 15:10:23.599  2224 22687 I QC2Comp : [avcD_252] Mem-usage:  [In-1D: 8 bufs 34.500 MB] [1D-379: 26 bufs 0.406 MB] [2D-380: 31 bufs 145.070 MB] | Total: 179.977 MB
+03-10 15:10:23.610 22300 22755 I MediaCodec: [0xb400006f53188ca0] dequeue first output frame, timeUs = 0
+03-10 15:10:23.628  2224 22757 I QC2Comp : [avcD_255] Stats: Pending(4) i/p-done(4) Works: Q: 1214/Done 1211|Work-Rate: Q(56.2/s Avg=59.1/s) Done(55.998/s Avg=58.913/s)| Stream: 60.00fps 7.6Mbps
+03-10 15:10:23.628  2224 22757 I QC2Comp : [avcD_255] Mem-usage:  [In-1D: 6 bufs 17.930 MB] [1D-385: 14 bufs 0.219 MB] [2D-386: 19 bufs 60.562 MB] | Total: 78.711 MB
+03-10 15:10:23.664  2300 21868 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 15:10:23.664  2300 21868 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-10 15:10:23.678  2224 22693 I QC2Comp : [avcD_253] Stats: Pending(9) i/p-done(9) Works: Q: 732/Done 724|Work-Rate: Q(28.0/s Avg=28.7/s) Done(27.999/s Avg=28.350/s)| Stream: 30.00fps 1.0Mbps
+03-10 15:10:23.679  2224 22693 I QC2Comp : [avcD_253] Mem-usage:  [In-1D: 7 bufs 30.188 MB] [1D-381: 19 bufs 0.297 MB] [2D-382: 24 bufs 112.312 MB] | Total: 142.797 MB
+03-10 15:10:23.680  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-10 15:10:23.697 22300 22691 I MediaCodec: [0xb400006f53166060] enqueue 32 input frames in last 1001 ms, latest timeUs 3333333
+03-10 15:10:23.707  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:10:23.707  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 15:10:23.707  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 15:10:23.708  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 15:10:23.709  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-10 15:10:23.745 22300 22691 I MediaCodec: [0xb400006f53166060] dequeue 34 output frames in last 1005 ms, latest timeUs 3166667, flags 128
+03-10 15:10:23.748  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:10:23.764  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt3)
+03-10 15:10:23.941 22300 22703 I MediaCodec: [0xb400006f5316cfa0] enqueue 83 input frames in last 1013 ms, latest timeUs 15566667
+03-10 15:10:23.967 22300 22703 I MediaCodec: [0xb400006f5316cfa0] dequeue 88 output frames in last 1016 ms, latest timeUs 15533333, flags 128
+03-10 15:10:23.974 22300 22755 D BufferPoolAccessor2.0: bufferpool2 0xb400006ec302ec18 : 6(18800640 size) total buffers - 4(12533760 size) used buffers - 1225/1231 (recycle/alloc) - 6/1228 (fetch/transfer)
+03-10 15:10:24.138 22217 22282 I appium  : AppiumResponse: {"sessionId":"7e767877-7536-45ab-be1b-a587901dffed","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1XcxtpmjboOzPhQRAAvYFoJDqR8iW1SiWppFKVWmU6Omb6i4k5mT3Yg42Yn7E/Y44mdmIjZuPrjd7+urqqu0yXVbFVcpQhRdGJ3oAgCYLwSCAz94CNLIIELUASIO8rQhEiCWQmDMF873z…
+03-10 15:10:24.205  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 

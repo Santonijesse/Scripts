@@ -1,3 +1,4 @@
+import subprocess
 import time
 import glob
 import os
@@ -8,11 +9,13 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
+from playsound import playsound
 
 APP_NAME = "dunkin"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
+LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
 # Dunkin'
 # Note: Can't download policies — no close/open
@@ -48,9 +51,36 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(550, 1550, 2)
+tap(550, 1550, 3)
+tap(750, 1185, 3)  # location permission: while using the app
+tap(520, 1550, 3)  # location precision: use precise
 tap(800, 2430, 3)
 
-# Note: Can't download policies
+existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
+instance = len(existing) + 1
+
+subprocess.run(["adb", "-s", "ZY22HS5QFQ", "logcat", "-c"])
+
+before_xml_path = os.path.join(XML_DIR, f"{APP_NAME}_before_{instance}.xml")
+with open(before_xml_path, "w", encoding="utf-8") as f:
+    f.write(driver.page_source)
+
+driver.save_screenshot(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_{instance}.png"))
+
+with open(os.path.join(LOGCAT_DIR, f"{APP_NAME}_before_{instance}.txt"), "w", encoding="utf-8") as f:
+    f.write(subprocess.run(["adb", "-s", "ZY22HS5QFQ", "logcat", "-d"], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout)
+
+playsound(os.path.join(os.path.dirname(BASE_DIR), 'auto_alarm.mp3'))
+print('please close & open phone in a second')
+time.sleep(10)
+
+driver.save_screenshot(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_after_{instance}.png"))
+
+with open(os.path.join(LOGCAT_DIR, f"{APP_NAME}_after_{instance}.txt"), "w", encoding="utf-8") as f:
+    f.write(subprocess.run(["adb", "-s", "ZY22HS5QFQ", "logcat", "-d"], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout)
+
+after_xml_path = os.path.join(XML_DIR, f"{APP_NAME}_after_{instance}.xml")
+with open(after_xml_path, "w", encoding="utf-8") as f:
+    f.write(driver.page_source)
 
 driver.quit()

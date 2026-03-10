@@ -1,0 +1,36 @@
+--------- beginning of main
+03-10 11:04:42.456 31235 31267 I appium  : channel read: GET /session/1c5fba3e-3edb-4e62-a63e-8efec0a92238/source
+03-10 11:04:42.458 31235 31267 I appium  : Source command
+03-10 11:04:42.458 31235 31267 I appium  : Waiting up to 10000ms for the device to idle
+03-10 11:04:42.521 31287 31287 E droid.p2pmobile: No package ID e5 found for resource ID 0xe5bc8dd0.
+03-10 11:04:42.542 31287 31287 E droid.p2pmobile: No package ID cf found for resource ID 0xcf3c604d.
+03-10 11:04:42.547 31287 31287 E droid.p2pmobile: No package ID cf found for resource ID 0xcf3c604d.
+03-10 11:04:42.558 31287 31287 E droid.p2pmobile: No package ID 4d found for resource ID 0x4dc466ad.
+03-10 11:04:42.588 31235 31267 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 11:04:42.642 31235 31267 I appium  : AppiumResponse: {"sessionId":"1c5fba3e-3edb-4e62-a63e-8efec0a92238","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.paypal.android.p2pmobile\" cla…
+03-10 11:04:42.655 31235 31267 I appium  : channel read: GET /session/1c5fba3e-3edb-4e62-a63e-8efec0a92238/screenshot
+03-10 11:04:42.656 31235 31267 I appium  : CaptureScreenshot command
+03-10 11:04:42.658 31235 31267 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 11:04:42.658 31235 31267 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 11:04:42.749 31884 31884 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 11:04:42.749 31884 31884 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 11:04:42.899 31287 31290 W droid.p2pmobile: Cleared Reference was only reachable from finalizer (only reported once)
+03-10 11:04:42.940  2300  2597 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 11:04:42.941  2300  2597 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-10 11:04:42.945  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 11:04:42.946  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 11:04:42.947  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 11:04:42.947  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 11:04:42.948  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 7
+03-10 11:04:42.949  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->41(cnt1)
+03-10 11:04:42.952  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 11:04:42.957  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt1)
+03-10 11:04:42.958  2300 30873 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 11:04:42.958  2300 30873 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-10 11:04:42.974  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->8(cnt1)
+03-10 11:04:42.987 31235 31267 I appium  : AppiumResponse: {"sessionId":"1c5fba3e-3edb-4e62-a63e-8efec0a92238","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7NhBDQAgEMCwA/+eQQQPsqRVsPfWzJwBAAAACNu/AwAAAABeGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAECewQEAAADkGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAEC…
+03-10 11:04:42.994 31287 31290 I droid.p2pmobile: Background concurrent mark compact GC freed 69MB AllocSpace bytes, 465(19MB) LOS objects, 69% free, 42MB/138MB, paused 1.427ms,2.744ms total 162.279ms
+03-10 11:04:42.995 31287 31291 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+03-10 11:04:42.997 31287 31291 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+--------- beginning of system
+03-10 11:04:43.032  3163  3203 I ActivityManager: Killing 31543:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a450i259 (adj 0, setSvc -10000): isolated not needed

@@ -1,0 +1,59 @@
+--------- beginning of main
+03-10 15:07:36.364 17284 17745 I MediaCodec: [0xb400006f5318fbe0] enqueue 78 input frames in last 1004 ms, latest timeUs 18300000
+03-10 15:07:36.372 17242 17268 I appium  : channel read: GET /session/cee30768-0b6f-4075-a26d-9528ef3e2ccf/source
+03-10 15:07:36.373 17242 17268 I appium  : Source command
+03-10 15:07:36.374 17242 17268 I appium  : Waiting up to 10000ms for the device to idle
+03-10 15:07:36.401 17284 17668 I MediaCodec: [0xb400006f53087860] dequeue first output frame, timeUs = 0
+03-10 15:07:36.405 17284 17678 I MediaCodec: [0xb400006f5317c9f0] enqueue 39 input frames in last 1007 ms, latest timeUs 8166667
+03-10 15:07:36.427  2300 16934 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 15:07:36.434  2300 16934 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-10 15:07:36.443  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:07:36.443  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 15:07:36.444  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 15:07:36.444  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 15:07:36.444  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-10 15:07:36.466  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-10 15:07:36.471 17284 17284 I cr_A11yState: Enabled accessibility services list updated. []
+03-10 15:07:36.475 17284 17284 I cr_A11yState: Informing listeners of changes.
+03-10 15:07:36.475 17284 17284 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=true, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-10 15:07:36.485 17242 17268 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 15:07:36.485  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:07:36.499  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt2)
+03-10 15:07:36.520 17284 17678 I MediaCodec: [0xb400006f5317c9f0] dequeue 38 output frames in last 1008 ms, latest timeUs 8033333, flags 128
+03-10 15:07:36.527 17242 17268 I appium  : AppiumResponse: {"sessionId":"cee30768-0b6f-4075-a26d-9528ef3e2ccf","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.recime.app\" class=\"android.w…
+03-10 15:07:36.545 17242 17268 I appium  : channel read: GET /session/cee30768-0b6f-4075-a26d-9528ef3e2ccf/screenshot
+03-10 15:07:36.545 17242 17268 I appium  : CaptureScreenshot command
+03-10 15:07:36.547 17242 17268 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 15:07:36.547 17242 17268 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 15:07:36.553 17284 17737 I MediaCodec: [0xb400006f5319a2c0] dequeue 89 output frames in last 1017 ms, latest timeUs 17150000, flags 128
+03-10 15:07:36.627 17284 17737 I MediaCodec: [0xb400006f5319a2c0] enqueue 88 input frames in last 1005 ms, latest timeUs 17366667
+03-10 15:07:36.664 18078 18078 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 15:07:36.664 18078 18078 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 15:07:36.675 17284 17745 I MediaCodec: [0xb400006f5318fbe0] dequeue 75 output frames in last 1015 ms, latest timeUs 18466667, flags 128
+03-10 15:07:36.692  2300 16934 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 15:07:36.692  2300 16934 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-10 15:07:36.700  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->41(cnt1)
+03-10 15:07:36.702  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 15:07:36.702  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 15:07:36.703  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 15:07:36.703  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 15:07:36.703  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 7
+03-10 15:07:36.710  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 15:07:36.724  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt1)
+03-10 15:07:36.917  2224 17680 I QC2Comp : [avcD_241] Registered an empty EOS buffer
+03-10 15:07:36.918 17284 17678 I MediaCodec: [0xb400006f5317c9f0] enqueue 23 input frames in last 512 ms, eos
+03-10 15:07:36.918  2300 16934 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 15:07:36.918  2300 16934 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-10 15:07:36.924  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-10 15:07:36.948  2224 17680 W QC2Comp : [avcD_241] Skipping empty output buffer
+03-10 15:07:36.953  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:07:36.954  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 15:07:36.955  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 15:07:36.955 17284 17678 I MediaCodec: [0xb400006f5317c9f0] dequeue 28 output frames in last 435 ms, eos
+03-10 15:07:36.955  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 15:07:36.956  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-10 15:07:36.994  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:07:37.000  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt3)
+03-10 15:07:37.017 17284 17284 W Choreographer: Frame time is 0.007837 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+03-10 15:07:37.314 17242 17268 I appium  : AppiumResponse: {"sessionId":"cee30768-0b6f-4075-a26d-9528ef3e2ccf","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1ZUxt5ui76JzM1CyGJSUxmsJlsjKeyy+W2XXa5qto1RUev3hfr+lyciPUxzsdYVyvOjnNxYveJ7t5dq6q65snldnnCA4OZRwFCgBCalVJmngtaWQgEBiQGwfOLcIQBkUohITKffP/vK/z…
+03-10 15:07:37.395 17284 17745 I MediaCodec: [0xb400006f5318fbe0] enqueue 75 input frames in last 1031 ms, latest timeUs 19516667

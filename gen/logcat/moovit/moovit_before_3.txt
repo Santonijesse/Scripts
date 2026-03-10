@@ -1,0 +1,26 @@
+--------- beginning of main
+03-10 09:54:59.626 21462 21488 I appium  : channel read: GET /session/6589643e-dc2a-462d-a812-aead568ba317/source
+03-10 09:54:59.627 21462 21488 I appium  : Source command
+03-10 09:54:59.628 21462 21488 I appium  : Waiting up to 10000ms for the device to idle
+03-10 09:54:59.686 21504 21508 I com.tranzmate: Compiler allocated 4141KB to compile v4.d androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$c.b(int)
+--------- beginning of system
+03-10 09:54:59.702  5625 18470 D PowerUI : can't show warning due to - plugged: true status unknown: false
+03-10 09:54:59.708  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 09:54:59.708  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+03-10 09:54:59.711  3163  3163 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+03-10 09:54:59.714  3163  3163 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=com.android.server.UiModeManagerService$1@410d4bd; mNightModeCustomType=-1; uiMode=33
+03-10 09:54:59.756 21504 21504 I cr_A11yState: Enabled accessibility services list updated. []
+03-10 09:54:59.758 21504 21504 I cr_A11yState: Informing listeners of changes.
+03-10 09:54:59.758 21504 21504 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=true, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-10 09:54:59.828  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 09:54:59.843 21504 21504 E com.tranzmate: No package ID ec found for resource ID 0xecbd75e7.
+03-10 09:54:59.846 21504 21504 E com.tranzmate: No package ID ec found for resource ID 0xecbd75e7.
+03-10 09:54:59.946 21462 21488 I appium  : AppiumResponse: {"sessionId":"6589643e-dc2a-462d-a812-aead568ba317","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tranzmate\" class=\"android.wi…
+03-10 09:54:59.959 21462 21488 I appium  : channel read: GET /session/6589643e-dc2a-462d-a812-aead568ba317/screenshot
+03-10 09:54:59.960 21462 21488 I appium  : CaptureScreenshot command
+03-10 09:54:59.961 21462 21488 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 09:54:59.961 21462 21488 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 09:55:00.028  5625  5625 V KeyguardStatusViewController: onTimeChanged
+03-10 09:55:00.043 23241 23241 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 09:55:00.043 23241 23241 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 09:55:00.401 21462 21488 I appium  : AppiumResponse: {"sessionId":"6589643e-dc2a-462d-a812-aead568ba317","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbw+5wQdoAAynYCDhy4B+6tbd17r2Id1WrV1rqtWv06tdpatc5q3bPDvXErWhUXKm7ZU0ZIcr4/0CMIKiohRO/fdXldJjnjjYPk3Od5n1coXqKUBCIiIiIiIiIiEyYaewBERER…

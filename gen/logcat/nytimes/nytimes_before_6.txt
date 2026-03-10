@@ -1,0 +1,49 @@
+--------- beginning of main
+03-10 14:23:11.642 22068 22097 I appium  : channel read: GET /session/81e3ca4f-bbdd-4826-aeed-4a2efc11e89f/source
+03-10 14:23:11.643 22068 22097 I appium  : Source command
+03-10 14:23:11.644 22068 22097 I appium  : Waiting up to 10000ms for the device to idle
+03-10 14:23:11.700  2064  4171 D slpi-TCS3720: ALS_REPORT lux 106.363747, ch0 54.209976-30.628832-20.151945-10.785060, scale 1.1878, fps 90, client 1
+03-10 14:23:11.700  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 14:23:11.700  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 14:23:11.701  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 14:23:11.702  2195 22601 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 14:23:11.702  2195 22601 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 14:23:11.702  2195 22601 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 14:23:11.741  2195 22601 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 14:23:11.741  2195 22601 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 14:23:11.742  2195 22601 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 14:23:11.742  2195 22601 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 14:23:11.781  2195 22603 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 14:23:11.782  2195 22603 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 14:23:11.782  2195 22603 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 14:23:11.792  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 35.98 (106.36-70.39), pre 27.93, dbv 5187, dc 0, fps 90, chPanel 37.07-20.65-14.21-6.52, facCal:lux_s 1.19 cha_s 0.92-0.90-0.90-0.94, RunInfo: DPB 11810-45, TF 11810-0
+03-10 14:23:11.906  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 14:23:11.925 22068 22097 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 14:23:11.993 22068 22097 I appium  : AppiumResponse: {"sessionId":"81e3ca4f-bbdd-4826-aeed-4a2efc11e89f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.nytimes.android\" class=\"andr…
+03-10 14:23:12.008 22068 22097 I appium  : channel read: GET /session/81e3ca4f-bbdd-4826-aeed-4a2efc11e89f/screenshot
+03-10 14:23:12.009 22068 22097 I appium  : CaptureScreenshot command
+03-10 14:23:12.010 22068 22097 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 14:23:12.010 22068 22097 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 14:23:12.056  2064  4171 D slpi    : tmd2712: Als lux: 5.00, ch0: 201, ch1: 106, scale: 1.08, atime:50.04, again:1024
+03-10 14:23:12.105  2064  4171 D slpi    : tmd2712: Als lux: 13.00, ch0: 579, ch1: 334, scale: 1.08, atime:50.04, again:1024
+03-10 14:23:12.131  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 14:23:12.132  2064  4171 D slpi-TCS3720: ALS_REPORT lux 114.458481, ch0 60.037319-33.699699-21.594070-11.827199, scale 1.1878, fps 90, client 1
+03-10 14:23:12.132  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 14:23:12.132  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 14:23:12.133  2195 22611 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 14:23:12.133  2195 22611 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 14:23:12.133  2195 22611 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 14:23:12.155  2064  4171 D slpi    : tmd2712: Als lux: 16.70, ch0: 780, ch1: 467, scale: 1.08, atime:50.04, again:1024
+03-10 14:23:12.157  2195 22611 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 14:23:12.157  2195 22611 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 14:23:12.157  2195 22611 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 14:23:12.157  2195 22611 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 14:23:12.161 22606 22606 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 14:23:12.161 22606 22606 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 14:23:12.199  2195 22613 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 14:23:12.199  2195 22613 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 14:23:12.199  2195 22613 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 14:23:12.213  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 44.07 (114.46-70.39), pre 35.98, dbv 5187, dc 0, fps 90, chPanel 37.07-20.65-14.21-6.52, facCal:lux_s 1.19 cha_s 0.92-0.90-0.90-0.94, RunInfo: DPB 11811-45, TF 11811-0
+03-10 14:23:12.531  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 14:23:12.592  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 14:23:12.676 22068 22097 I appium  : AppiumResponse: {"sessionId":"81e3ca4f-bbdd-4826-aeed-4a2efc11e89f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w1xlm2GYAQdkUREAQkEVJxF3J3byl3jRbzKVvaS73dq1+db/1qO6t213y9qhreStvt7qWWaYp5b6hQooLKoLgwir7MsM+A8PM/P7gO+cysogyA4y+no+Hj4fMnDkL6OGc13l…

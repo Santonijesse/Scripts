@@ -1,0 +1,37 @@
+--------- beginning of main
+03-10 15:42:57.716 17457 17485 I appium  : channel read: GET /session/d4176e49-6f3f-4a80-a598-7acd462d1425/source
+03-10 15:42:57.720 17457 17485 I appium  : Source command
+03-10 15:42:57.722 17457 17485 I appium  : Waiting up to 10000ms for the device to idle
+03-10 15:42:57.742 17457 17485 I appium  : Clearing toast message: [There is something wrong with our server. We are trying to fix it.]
+03-10 15:42:58.558  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 37.433. prev severity:3. cur severity:0 New severity:0
+03-10 15:42:58.965  4847  4862 I Finsky  : [206] Stats for Executor: BlockingExecutor uyy@b1d31f0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 264]
+03-10 15:42:58.966  4847  4862 I Finsky  : [206] Stats for Executor: LightweightExecutor uyy@459369[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 2182]
+03-10 15:42:58.967  4847  4862 I Finsky  : [206] Stats for Executor: bgExecutor uyy@cbff1ee[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4926]
+03-10 15:42:58.967  4847  4862 I Finsky  : [206] Stats for Executor: GrpcBackgroundExecutor uyy@584b68f[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 77]
+03-10 15:42:59.065  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 15:42:59.267  3163  4132 D ConnectivityService: Returning BLOCKED NetworkInfo to uid=10424
+03-10 15:42:59.365 17457 17485 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 15:42:59.707 17457 17485 I appium  : AppiumResponse: {"sessionId":"d4176e49-6f3f-4a80-a598-7acd462d1425","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.zzkko\" class=\"android.widget…
+03-10 15:42:59.736 17457 17485 I appium  : channel read: GET /session/d4176e49-6f3f-4a80-a598-7acd462d1425/screenshot
+03-10 15:42:59.739 17457 17485 I appium  : CaptureScreenshot command
+03-10 15:42:59.741 17457 17485 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 15:42:59.741 17457 17485 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 15:42:59.892 18704 18704 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 15:42:59.893 18704 18704 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 15:42:59.928  2300 17130 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 15:42:59.929  2300 17130 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-10 15:42:59.934  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:42:59.934  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 15:42:59.935  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 15:42:59.935  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 15:42:59.936  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 5
+03-10 15:42:59.937  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->16(cnt1)
+03-10 15:42:59.942  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 15:42:59.945  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt1)
+--------- beginning of system
+03-10 15:43:00.006  5625  5625 V KeyguardStatusViewController: onTimeChanged
+03-10 15:43:00.099 17501 17538 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+03-10 15:43:00.103  3163  4129 D FileUtils: Rounded bytes from 7725268992 to 8000000000
+03-10 15:43:00.837 17457 17485 I appium  : AppiumResponse: {"sessionId":"d4176e49-6f3f-4a80-a598-7acd462d1425","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15VFT33T/w950FGIYdZFFZBARBEYgGWdyNu0mzmGrSGhOzNInZnuT0SZuep0+T0/Y0TbP1nESz1MTYJJJGxcQFlyBKAHEHF1BZZd+GfQaY5f7+4Md9GEFFhRlG3q9zepq5c+fOdxSHe9/…
+03-10 15:43:00.932  2300 17130 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 15:43:00.933  2300 17130 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}

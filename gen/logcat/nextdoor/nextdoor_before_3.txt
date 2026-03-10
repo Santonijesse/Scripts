@@ -1,0 +1,91 @@
+--------- beginning of main
+03-10 13:38:38.056  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 36.37. prev severity:3. cur severity:0 New severity:0
+03-10 13:38:38.157 16648 16683 I appium  : channel read: GET /session/5c305998-2bd1-46cf-a04a-5b8a268a16de/source
+03-10 13:38:38.159 16648 16683 I appium  : Source command
+03-10 13:38:38.160 16648 16683 I appium  : Waiting up to 10000ms for the device to idle
+03-10 13:38:38.167 16699 17126 V Signpost: tti Signpost Begin: feature_tti nux_address_autocomplete_query_lookup
+03-10 13:38:38.172 16699 17126 V Signpost: tti Signpost Marker: feature_tti nux_address_autocomplete_query_lookup network_request_begin
+03-10 13:38:38.229 16699 16703 I com.nextdoor: Compiler allocated 4311KB to compile a7.f t4.x.b(int)
+03-10 13:38:38.265 16648 16683 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 13:38:38.332 16648 16683 I appium  : AppiumResponse: {"sessionId":"5c305998-2bd1-46cf-a04a-5b8a268a16de","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.nextdoor\" class=\"android.wid…
+03-10 13:38:38.348 16648 16683 I appium  : channel read: GET /session/5c305998-2bd1-46cf-a04a-5b8a268a16de/screenshot
+03-10 13:38:38.348 16648 16683 I appium  : CaptureScreenshot command
+03-10 13:38:38.350 16648 16683 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 13:38:38.350 16648 16683 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 13:38:38.440  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 13:38:38.446 17825 17825 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 13:38:38.446 17825 17825 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 13:38:38.576 16699 16699 V Signpost: tti Signpost End: feature_tti nux_address_autocomplete_query_lookup
+03-10 13:38:38.579  2300  2597 I Scheduler: applyPolicy: UpdateRefreshRate 90 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 13:38:38.580  2300  2597 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-10 13:38:38.582  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 4(90.00 Hz:5) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 13:38:38.582  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 13:38:38.583  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 13:38:38.583  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 13:38:38.584  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 4 to 7
+03-10 13:38:38.586 16699 16699 W CCL     : Nothing to measure for widget: disable_overlay
+03-10 13:38:38.586  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 11->41(cnt1)
+03-10 13:38:38.589 16699 16699 W CCL     : Nothing to measure for widget: disable_overlay
+03-10 13:38:38.591  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 13:38:38.592 16699 16699 W CCL     : Nothing to measure for widget: disable_overlay
+03-10 13:38:38.596 16699 16699 W CCL     : Nothing to measure for widget: disable_overlay
+03-10 13:38:38.598  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt1)
+03-10 13:38:38.598 16699 16699 W CCL     : Nothing to measure for widget: disable_overlay
+03-10 13:38:38.605  2300 16184 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 13:38:38.605  2300 16184 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-10 13:38:38.617  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->8(cnt1)
+--------- beginning of system
+03-10 13:38:38.628  3163  4238 D ActivityManager: freezing 11416 com.google.android.permissioncontroller, reason = oom_cached
+03-10 13:38:38.632  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 13:38:38.633  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 13:38:38.633  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10416} in 2ms
+03-10 13:38:38.666 23146 23146 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+03-10 13:38:38.697  3163  4238 D ActivityManager: freezing 11439 com.motorola.dolby.dolbyui, reason = oom_cached
+03-10 13:38:38.704  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 13:38:38.705  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 13:38:38.705  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10182} in 3ms
+03-10 13:38:38.709 16699 16825 D WM-SystemJobScheduler: Scheduling work ID aeaeebca-2b48-463d-aa7c-025b072468c0Job ID 15
+03-10 13:38:38.711  3163  7933 W PackageManager: Missing required system package: com.nextdoor, but found with extended search.
+03-10 13:38:38.712  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 13:38:38.712  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 13:38:38.713  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 13:38:38.713  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 13:38:38.713  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 0
+03-10 13:38:38.720 16699 16825 D WM-GreedyScheduler: Starting tracking for aeaeebca-2b48-463d-aa7c-025b072468c0
+03-10 13:38:38.724 16699 16843 D WM-ConstraintTracker: g: initial state = NetworkState(isConnected=true, isValidated=true, isMetered=false, isNotRoaming=true)
+03-10 13:38:38.724 16699 16843 D WM-NetworkStateTracker: Registering network callback
+03-10 13:38:38.725  3163  7471 D ConnectivityService: requestNetwork for uid/pid:10652/16699 activeRequest: null callbackRequest: 11558 [NetworkRequest [ REQUEST id=11559, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10652 RequestorUid: 10652 RequestorPkg: com.nextdoor UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: ALL
+03-10 13:38:38.725 16699 16843 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=aeaeebca-2b48-463d-aa7c-025b072468c0, generation=0)
+03-10 13:38:38.726 16699 16843 D WM-Processor: d: processing WorkGenerationalId(workSpecId=aeaeebca-2b48-463d-aa7c-025b072468c0, generation=0)
+03-10 13:38:38.730 16699 16768 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=5852Kbps LinkDnBandwidth>=62738Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.0.0.248, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -65, Link speed: 576Mbps, Tx Link speed: 576Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 103Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -65 UnderlyingNetworks: Null]
+03-10 13:38:38.732  3163  5158 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=11559, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10652 RequestorUid: 10652 RequestorPkg: com.nextdoor UnderlyingNetworks: Null] ]
+03-10 13:38:38.733  3163  5158 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=11559, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10652 RequestorUid: 10652 RequestorPkg: com.nextdoor UnderlyingNetworks: Null] ]
+03-10 13:38:38.735  3163  5158 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=11559, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10652 RequestorUid: 10652 RequestorPkg: com.nextdoor UnderlyingNetworks: Null] ]
+03-10 13:38:38.736  3163  5158 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=11559, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10652 RequestorUid: 10652 RequestorPkg: com.nextdoor UnderlyingNetworks: Null] ]
+03-10 13:38:38.737  3163  5168 D ConnectivityService: NetReassign [11559 : null → 135] [c 0] [a 2] [i 7]
+03-10 13:38:38.740 16648 16683 I appium  : AppiumResponse: {"sessionId":"5c305998-2bd1-46cf-a04a-5b8a268a16de","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XBT3/T/w1+wBLMuNcqigAqKgKHiCqPFIokZNamLikcPENNbEXG3S9E6att/+kqamJm1tkiYxR9WQmMQk3hpUvMBbRFDkUpFDYLl3F3Z35vcHZcq6y6HuAhtfz8fDx0NmZ2c+s+wuM6/…
+03-10 13:38:38.744 16699 16699 D WM-WorkerWrapper: Starting work for com.nextdoor.tracking.FormerFlaskTrackingWorker
+03-10 13:38:38.744 16699 16699 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=aeaeebca-2b48-463d-aa7c-025b072468c0, generation=0)
+03-10 13:38:38.745  3163  3249 D addPss  : tracker=ProcessState{7440ff7 com.nextdoor/10652 pkg=com.nextdoor}
+03-10 13:38:38.745 16699 16843 D WM-Processor: Work WorkGenerationalId(workSpecId=aeaeebca-2b48-463d-aa7c-025b072468c0, generation=0) is already enqueued for processing
+03-10 13:38:38.753  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-10 13:38:38.753  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 13:38:38.754  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-10 13:38:38.754  2067  2175 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-10 13:38:38.754  2067  2175 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-10 13:38:38.754  2067  2175 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-10 13:38:38.754  2067  2175 D AHAL: FM: fm_set_parameters: 262: Enter
+03-10 13:38:38.754  2067  2175 D AHAL: FM: fm_set_parameters: 320: exit
+03-10 13:38:38.754  2067  2175 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-10 13:38:38.754  2067  2175 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-10 13:38:38.754  2067  2175 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-10 13:38:38.756  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/11416
+03-10 13:38:38.756  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10584/16813
+03-10 13:38:38.757  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-10 13:38:38.759  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt7)
+03-10 13:38:38.760 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-10 13:38:38.762  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-10 13:38:38.763  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-10 13:38:38.763  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-10 13:38:38.763  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-10 13:38:38.763 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.3919488 nit = 99.365364 level = br1
