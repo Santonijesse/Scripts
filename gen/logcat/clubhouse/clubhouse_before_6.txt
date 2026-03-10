@@ -1,0 +1,13 @@
+--------- beginning of main
+03-09 22:45:23.193 30153 30181 I appium  : channel read: GET /session/58449e05-6eee-4825-a7b4-f6754b8e8dd2/source
+03-09 22:45:23.197 30153 30181 I appium  : Source command
+03-09 22:45:23.198 30153 30181 I appium  : Waiting up to 10000ms for the device to idle
+03-09 22:45:23.402 30153 30181 I appium  : AppiumResponse: {"sessionId":"58449e05-6eee-4825-a7b4-f6754b8e8dd2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.clubhouse.app\" class=\"androi…
+03-09 22:45:23.416 30153 30181 I appium  : channel read: GET /session/58449e05-6eee-4825-a7b4-f6754b8e8dd2/screenshot
+03-09 22:45:23.417 30153 30181 I appium  : CaptureScreenshot command
+03-09 22:45:23.418 30153 30181 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 22:45:23.418 30153 30181 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 22:45:23.490  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-09 22:45:23.561 30399 30399 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 22:45:23.562 30399 30399 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 22:45:24.104 30153 30181 I appium  : AppiumResponse: {"sessionId":"58449e05-6eee-4825-a7b4-f6754b8e8dd2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dBTl28bxa3dTSQ81gSA1dELoCEhHiooK0pEivQgK2OnY3p8FFSsqCEivNlAQUIIUKSJNIBCUTkIagdTdff8IrAQCBEgb+X7O8Rx3d2b2WSDZmWvu535M95UqYxcAAAAAAICBmfN6AAA…

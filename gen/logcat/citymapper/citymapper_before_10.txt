@@ -1,0 +1,99 @@
+--------- beginning of main
+03-09 22:39:22.221  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-09 22:39:22.221  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-09 22:39:22.221  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-09 22:39:22.222  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:39:22.222  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:39:22.223  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:39:22.223  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 5
+03-09 22:39:22.227  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+--------- beginning of system
+03-09 22:39:22.229  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=16666666, appVsyncOffsetNanos=1000000
+03-09 22:39:22.233 22854 22884 I appium  : channel read: GET /session/ff3dbde3-83ab-4f63-88c7-045b58a60415/source
+03-09 22:39:22.233  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-09 22:39:22.234  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-09 22:39:22.234  2067  5073 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-09 22:39:22.234  2067  5073 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-09 22:39:22.235  2067  5073 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-09 22:39:22.235  2067  5073 D AHAL: FM: fm_set_parameters: 262: Enter
+03-09 22:39:22.235  2067  5073 D AHAL: FM: fm_set_parameters: 320: exit
+03-09 22:39:22.235  2067  5073 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-09 22:39:22.235  2067  5073 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-09 22:39:22.235  2067  5073 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-09 22:39:22.235  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/12048
+03-09 22:39:22.235 22854 22884 I appium  : Source command
+03-09 22:39:22.236 22854 22884 I appium  : Waiting up to 10000ms for the device to idle
+03-09 22:39:22.239 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-09 22:39:22.239  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-09 22:39:22.240  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-09 22:39:22.240  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-09 22:39:22.240  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-09 22:39:22.241 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.12402854 nit = 12.915491 level = br1
+03-09 22:39:22.329 22899 22902 W per.app.release: Missing inline cache for java.lang.Object df.w0.invokeSuspend(java.lang.Object)
+03-09 22:39:22.370 22899 22902 W per.app.release: Missing inline cache for int m84.ewf.a(java.lang.Object)
+03-09 22:39:22.393 22899 22902 I per.app.release: Compiler allocated 4431KB to compile void m84.bfm.a(byte[], byte[])
+03-09 22:39:22.431 13100 13496 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-09 22:39:22.448 13100 13496 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-09 22:39:22.450  5993 23275 I NetworkScheduler: (REDACTED) Error inserting %s
+03-09 22:39:22.454 22899 22899 I Ads     : JS: The jsLoaded GMSG has been sent (https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html:1028)
+03-09 22:39:22.925 22376 22551 I ThermalEngine: Monitor:ACTIVE:MON-CHG-BATT0:battery=6:BCHG_TEMP=39649
+03-09 22:39:23.940  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-09 22:39:24.287  5993  5993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-09 22:39:24.297  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-09 22:39:24.301  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-09 22:39:24.369  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+03-09 22:39:24.398  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-09 22:39:24.822  5993  7698 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-09 22:39:24.827  2064  2064 I sensors-hal: batch:206, android.sensor.pressure/61, period=100000000, max_latency=0
+03-09 22:39:24.827  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 100000000 based on min/max delay_ns
+03-09 22:39:24.827  2064  2064 I sensors-hal: batch:215, android.sensor.pressure/61, period=100000000, max_latency=0 request completed
+03-09 22:39:24.827  2064  2064 I sensors-hal: activate:173, android.sensor.pressure/61 en=1
+03-09 22:39:24.828  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-09 22:39:24.830  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 52c3 went down
+03-09 22:39:24.831  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 52c4 went down
+03-09 22:39:24.832  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 52c5 went down
+03-09 22:39:24.833  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-09 22:39:24.833  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 52c6 went down
+03-09 22:39:24.833  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-09 22:39:24.833  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-09 22:39:24.833  5993 22175 W SystemServiceRegistry: No service published for: wifirtt
+03-09 22:39:24.834  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-09 22:39:24.834  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:39:24.834  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:39:24.836  2064 23989 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:39:24.836  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-09 22:39:24.836  2064  2064 I sensors-hal: activate:184, android.sensor.pressure/61 en=1 completed
+03-09 22:39:24.837  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:39:24.838  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:39:24.839  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:39:24.840  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:39:24.841  3721 28643 D LOWI-9.0.1.68: [LOWI-Scan] wait_event:Wait done with Cmd 33
+03-09 22:39:24.841  3721 28643 D LOWI-9.0.1.68: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+03-09 22:39:24.861  5643 13675 D ApfFilter: (wlan0): Adding RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-09 22:39:24.919  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 22:39:24.921  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 22:39:24.922  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10584} in 4ms
+03-09 22:39:24.924  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 22:39:24.926  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 22:39:24.927  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20584} in 4ms
+03-09 22:39:24.970  2064 23989 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-09 22:39:24.977  2064  4171 D slpi    : ICM201XX fac_cal bias -0.083130, ver 1, modity_time 1737182339, Sat Jan 18 01:38:59 2025
+03-09 22:39:25.256  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 39.436. prev severity:3. cur severity:0 New severity:0
+03-09 22:39:25.589  3163  4188 W PackageManager: Missing required system package: com.citymapper.app.release, but found with extended search.
+03-09 22:39:25.594  3163  4188 W JobServiceContext: Sending onNetworkChanged for a job that isn't started. JobStatus{6ce174f #u0a267/-605916168 com.google.android.as.oss/com.google.android.gms.learning.internal.training.InAppJobService u=0 s=10267 TIME=-9s138ms:none NET CHARGING PERSISTED READY}
+03-09 22:39:25.595 22854 22884 I appium  : AppiumResponse: {"sessionId":"ff3dbde3-83ab-4f63-88c7-045b58a60415","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.citymapper.app.release\" class…
+03-09 22:39:25.605  3163  5528 W JobScheduler: Job didn't exist in JobStore: 6ce174f #u0a267/-605916168 com.google.android.as.oss/com.google.android.gms.learning.internal.training.InAppJobService
+03-09 22:39:25.614 22854 22884 I appium  : channel read: GET /session/ff3dbde3-83ab-4f63-88c7-045b58a60415/screenshot
+03-09 22:39:25.615 22854 22884 I appium  : CaptureScreenshot command
+03-09 22:39:25.615 22854 22884 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 22:39:25.616 22854 22884 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 22:39:25.698 23993 23993 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 22:39:25.699 23993 23993 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 22:39:25.829 22899 23464 V NativeCrypto: SSL shutdown failed: ssl=0xb400006e72ff7418: I/O error during system call, Broken pipe
+03-09 22:39:26.130 22854 22884 I appium  : AppiumResponse: {"sessionId":"ff3dbde3-83ab-4f63-88c7-045b58a60415","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1ZjGTZfd75O3eNG3tERuRandVdXVXdTTbJZpNsmvSQVlOgKGsGEglpJEBjjEeWOIYAWrY0L5LlBz4MMA9jw4DlB1t+kAxLNmiPLcIDyLBE0TMWNRLFJttkq8Te2N215BqRsUfc/Zx5uBl…
+03-09 22:39:26.147  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 22:39:26.150  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 22:39:26.150  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10325} in 7ms
+03-09 22:39:26.154  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 22:39:26.157  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 22:39:26.157  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20325} in 7ms

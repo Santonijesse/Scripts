@@ -1,0 +1,71 @@
+--------- beginning of main
+03-09 22:38:29.985 20984 21014 I appium  : channel read: GET /session/e0b9e165-abba-4746-80ee-5207ec42e35f/source
+03-09 22:38:29.986 20984 21014 I appium  : Source command
+03-09 22:38:29.987 20984 21014 I appium  : Waiting up to 10000ms for the device to idle
+03-09 22:38:30.256  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 39.297. prev severity:3. cur severity:0 New severity:0
+03-09 22:38:30.334  5727  5777 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-09 22:38:30.335  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-09 22:38:30.799 13100 13496 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-09 22:38:30.813 13100 13496 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-09 22:38:30.898  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-09 22:38:30.914  5643  5649 W rkstack.process: Reducing the number of considered missed Gc histogram windows from 108 to 100
+03-09 22:38:31.241  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-09 22:38:31.242  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-09 22:38:31.242  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-09 22:38:31.242  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:38:31.243  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:38:31.244  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:38:31.244  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 0
+03-09 22:38:31.255  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->8(cnt1)
+03-09 22:38:31.261  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+--------- beginning of system
+03-09 22:38:31.261  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-09 22:38:31.262  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-09 22:38:31.263  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-09 22:38:31.264  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt1)
+03-09 22:38:31.264  2067 11748 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-09 22:38:31.264  2067 11748 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-09 22:38:31.264  2067 11748 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-09 22:38:31.264  2067 11748 D AHAL: FM: fm_set_parameters: 262: Enter
+03-09 22:38:31.264  2067 11748 D AHAL: FM: fm_set_parameters: 320: exit
+03-09 22:38:31.264  2067 11748 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-09 22:38:31.264  2067 11748 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-09 22:38:31.264  2067 11748 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-09 22:38:31.265  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/12048
+03-09 22:38:31.269  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-09 22:38:31.270  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-09 22:38:31.270  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-09 22:38:31.270  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-09 22:38:31.270 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-09 22:38:31.273 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.17848289 nit = 23.856222 level = br1
+03-09 22:38:31.374  2064  4171 D slpi    : tmd2712: Als lux: 4.30, ch0: 73, ch1: 4, scale: 1.08, atime:50.04, again:1024
+03-09 22:38:31.859  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-09 22:38:32.013  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-09 22:38:32.016  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+03-09 22:38:32.016  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-09 22:38:32.022  5993  5993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-09 22:38:32.111  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-09 22:38:32.149 20984 21014 I appium  : AppiumResponse: {"sessionId":"e0b9e165-abba-4746-80ee-5207ec42e35f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.citymapper.app.release\" class…
+03-09 22:38:32.173 20984 21014 I appium  : channel read: GET /session/e0b9e165-abba-4746-80ee-5207ec42e35f/screenshot
+03-09 22:38:32.174 20984 21014 I appium  : CaptureScreenshot command
+03-09 22:38:32.176 20984 21014 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 22:38:32.176 20984 21014 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 22:38:32.260 22102 22102 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 22:38:32.260 22102 22102 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 22:38:32.361  2300 20637 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-09 22:38:32.362  2300 20637 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+03-09 22:38:32.366  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->16(cnt1)
+03-09 22:38:32.367  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-09 22:38:32.368  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:38:32.369  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:38:32.369  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:38:32.369  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 5
+03-09 22:38:32.376  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-09 22:38:32.383  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt2)
+03-09 22:38:32.661  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 22:38:32.663  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 22:38:32.663  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10584} in 4ms
+03-09 22:38:32.665  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 22:38:32.668  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 22:38:32.669  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20584} in 5ms
+03-09 22:38:32.706 20984 21014 I appium  : AppiumResponse: {"sessionId":"e0b9e165-abba-4746-80ee-5207ec42e35f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1ZjKTZeZ75nPNvsW8ZkVtVZXVVV1V3k82tSTZNeki7KVCUPQNJDY0kwCOMRh5KhgBatjQ3suQLGhhgLsaGAVsXtnwhGZZsUBhbNAaQYYmiZyxqJIrNralyL1Xs7loyK5fI2CP+/Zy5+DO…

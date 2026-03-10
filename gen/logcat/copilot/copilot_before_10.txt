@@ -1,0 +1,13 @@
+--------- beginning of main
+03-09 22:58:53.519 17718 17747 I appium  : channel read: GET /session/9be5b12f-7334-483c-bcae-97ba621e4250/source
+03-09 22:58:53.521 17718 17747 I appium  : Source command
+03-09 22:58:53.521 17718 17747 I appium  : Waiting up to 10000ms for the device to idle
+03-09 22:58:53.809 17718 17747 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 22:58:53.903 17718 17747 I appium  : AppiumResponse: {"sessionId":"9be5b12f-7334-483c-bcae-97ba621e4250","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.microsoft.copilot\" class=\"an…
+03-09 22:58:53.923 17718 17747 I appium  : channel read: GET /session/9be5b12f-7334-483c-bcae-97ba621e4250/screenshot
+03-09 22:58:53.924 17718 17747 I appium  : CaptureScreenshot command
+03-09 22:58:53.926 17718 17747 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 22:58:53.926 17718 17747 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 22:58:54.082 18133 18133 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 22:58:54.082 18133 18133 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 22:58:54.532 17718 17747 I appium  : AppiumResponse: {"sessionId":"9be5b12f-7334-483c-bcae-97ba621e4250","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFPXHwbw996bwZ6CIDjqwq2499Zqrda9B+69te5qa9WfrbWtta1aa93WXbXWXUfdew/cW/ZSIYHk/v4IBCIggkCIvJ/n8ZGQO05CAjnvPed7BGe3ojKIiIiIiIiIiCyYaO4GEBERERE…

@@ -1,0 +1,200 @@
+--------- beginning of main
+03-09 22:32:52.009  3163  3203 D FileUtils: Rounded bytes from 7725268992 to 8000000000
+03-09 22:32:52.013  2064  2064 I sensors-hal: flush:235, android.sensor.accelerometer/11
+03-09 22:32:52.013  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:52.013  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:52.014  9776  9809 I appium  : channel read: GET /session/803d254f-8155-4902-a14a-d4e858a95314/source
+03-09 22:32:52.014  2064  5194 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:52.014  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-09 22:32:52.014  2064  2064 I sensors-hal: flush:241, android.sensor.accelerometer/11 completed
+03-09 22:32:52.014  9776  9809 I appium  : Source command
+03-09 22:32:52.015  9776  9809 I appium  : Waiting up to 10000ms for the device to idle
+03-09 22:32:52.021  2064  2064 I sensors-hal: batch:206, android.sensor.gyroscope/41, period=200000000, max_latency=0
+03-09 22:32:52.021  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 200000000 based on min/max delay_ns
+03-09 22:32:52.022  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-09 22:32:52.022  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:52.022  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:52.022  2064 10851 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:52.023  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-09 22:32:52.023  2064  2064 I sensors-hal: batch:215, android.sensor.gyroscope/41, period=200000000, max_latency=0 request completed
+03-09 22:32:52.023  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope/41
+03-09 22:32:52.023  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:52.023  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:52.024  2064 10851 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:52.024  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-09 22:32:52.024  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope/41 completed
+03-09 22:32:52.034  3163  3203 D FileUtils: Rounded bytes from 7725268992 to 8000000000
+03-09 22:32:52.039  2064  2064 I sensors-hal: batch:206, android.sensor.accelerometer/11, period=10000000, max_latency=0
+03-09 22:32:52.039  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 10000000 based on min/max delay_ns
+03-09 22:32:52.039  2064  2064 I sensors-hal: batch:215, android.sensor.accelerometer/11, period=10000000, max_latency=0 request completed
+03-09 22:32:52.075  2064  4171 I slpi-mot_tap : pre-mounted 20.638985
+03-09 22:32:52.147 13100 13496 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-09 22:32:52.162 13100 13496 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-09 22:32:52.220  9828  9833 W per.app.release: Missing inline cache for java.lang.Object df.w0.invokeSuspend(java.lang.Object)
+03-09 22:32:52.223  2064  2064 I sensors-hal: batch:206, android.sensor.gyroscope/41, period=250000000, max_latency=0
+03-09 22:32:52.223  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 250000000 based on min/max delay_ns
+03-09 22:32:52.223  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-09 22:32:52.223  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:52.223  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:52.225  2064 10851 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:52.225  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-09 22:32:52.225  2064  2064 I sensors-hal: batch:215, android.sensor.gyroscope/41, period=250000000, max_latency=0 request completed
+03-09 22:32:52.323  5993  9431 I NetworkScheduler: (REDACTED) Error inserting %s
+03-09 22:32:52.835  3163  3203 D FileUtils: Rounded bytes from 7725268992 to 8000000000
+03-09 22:32:52.839  2064  2064 I sensors-hal: flush:235, android.sensor.accelerometer/11
+03-09 22:32:52.839  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:52.839  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:52.841  2064  5194 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:52.842  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-09 22:32:52.842  2064  2064 I sensors-hal: flush:241, android.sensor.accelerometer/11 completed
+03-09 22:32:52.846  2064  2064 I sensors-hal: batch:206, android.sensor.gyroscope/41, period=200000000, max_latency=0
+03-09 22:32:52.846  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 200000000 based on min/max delay_ns
+03-09 22:32:52.846  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-09 22:32:52.846  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:52.846  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:52.848  2064 10851 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:52.848  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-09 22:32:52.848  2064  2064 I sensors-hal: batch:215, android.sensor.gyroscope/41, period=200000000, max_latency=0 request completed
+03-09 22:32:52.849  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope/41
+03-09 22:32:52.849  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:52.849  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:52.850  2064 10851 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:52.850  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-09 22:32:52.850  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope/41 completed
+03-09 22:32:52.852  2064  2064 I sensors-hal: batch:206, android.sensor.accelerometer/11, period=10000000, max_latency=0
+03-09 22:32:52.852  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 10000000 based on min/max delay_ns
+03-09 22:32:52.852  2064  2064 I sensors-hal: batch:215, android.sensor.accelerometer/11, period=10000000, max_latency=0 request completed
+03-09 22:32:52.872  2300  9345 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-09 22:32:52.873  2300  9345 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-09 22:32:52.876  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-09 22:32:52.877  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:32:52.877  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:32:52.878  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:32:52.878  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 7
+03-09 22:32:52.881  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->41(cnt1)
+03-09 22:32:52.890  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-09 22:32:52.906  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt1)
+03-09 22:32:53.053  2064  2064 I sensors-hal: batch:206, android.sensor.gyroscope/41, period=250000000, max_latency=0
+03-09 22:32:53.053  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 250000000 based on min/max delay_ns
+03-09 22:32:53.053  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-09 22:32:53.053  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:53.053  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:53.056  2064 10851 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:53.056  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 3 ms to receive the response with 0
+03-09 22:32:53.056  2064  2064 I sensors-hal: batch:215, android.sensor.gyroscope/41, period=250000000, max_latency=0 request completed
+03-09 22:32:53.499  2300  9345 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-09 22:32:53.501  2300  9345 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-09 22:32:53.508  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-09 22:32:53.508  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:32:53.509  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:32:53.509  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:32:53.509  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-09 22:32:53.532  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-09 22:32:53.552  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-09 22:32:53.565  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt2)
+03-09 22:32:53.624  2064  4171 D slpi    : tmd2712: Als lux: 3.70, ch0: 62, ch1: 4, scale: 1.08, atime:50.04, again:1024
+03-09 22:32:53.770  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-09 22:32:54.045  2300  9345 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-09 22:32:54.046  2300  9345 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-09 22:32:54.049  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->41(cnt1)
+03-09 22:32:54.051  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-09 22:32:54.052  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:32:54.052  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:32:54.053  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:32:54.053  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 7
+03-09 22:32:54.059  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-09 22:32:54.072  9776  9809 I appium  : AppiumResponse: {"sessionId":"803d254f-8155-4902-a14a-d4e858a95314","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.citymapper.app.release\" class…
+03-09 22:32:54.083  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt2)
+03-09 22:32:54.093  9776  9809 I appium  : channel read: GET /session/803d254f-8155-4902-a14a-d4e858a95314/screenshot
+03-09 22:32:54.094  9776  9809 I appium  : CaptureScreenshot command
+03-09 22:32:54.095  9776  9809 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 22:32:54.095  9776  9809 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 22:32:54.129  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-09 22:32:54.135  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+03-09 22:32:54.144  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-09 22:32:54.159  5993  5993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-09 22:32:54.186 10987 10987 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 22:32:54.186 10987 10987 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 22:32:54.285  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.chimera.container.moduleinstall.ModuleInstallService.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-09 22:32:54.323  2300  9345 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-09 22:32:54.323  2300  9345 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-09 22:32:54.335  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-09 22:32:54.335  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:32:54.336  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:32:54.336  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:32:54.337  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 5
+03-09 22:32:54.350  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->16(cnt1)
+03-09 22:32:54.350  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864338017000)
+03-09 22:32:54.367  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864354703000)
+03-09 22:32:54.378  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-09 22:32:54.383  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt2)
+03-09 22:32:54.384  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864371395000)
+03-09 22:32:54.400  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864388083000)
+03-09 22:32:54.417  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864404771000)
+03-09 22:32:54.434  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864421461000)
+03-09 22:32:54.436  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-09 22:32:54.437  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-09 22:32:54.437  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-09 22:32:54.437  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-09 22:32:54.438  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-09 22:32:54.438  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-09 22:32:54.439  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 0
+03-09 22:32:54.450  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->8(cnt1)
+03-09 22:32:54.450  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864438150000)
+--------- beginning of system
+03-09 22:32:54.455  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-09 22:32:54.456  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-09 22:32:54.456  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-09 22:32:54.456  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-09 22:32:54.457  2067  2174 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-09 22:32:54.457  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-09 22:32:54.457  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-09 22:32:54.457  2067  2174 D AHAL: FM: fm_set_parameters: 262: Enter
+03-09 22:32:54.457  2067  2174 D AHAL: FM: fm_set_parameters: 320: exit
+03-09 22:32:54.457  2067  2174 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-09 22:32:54.457  2067  2174 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-09 22:32:54.457  2067  2174 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-09 22:32:54.457  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/12048
+03-09 22:32:54.458  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt1)
+03-09 22:32:54.459  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864446494000)
+03-09 22:32:54.462  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-09 22:32:54.462  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-09 22:32:54.462  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-09 22:32:54.462  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-09 22:32:54.465 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-09 22:32:54.467  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864454838000)
+03-09 22:32:54.468 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.2105385 nit = 32.844757 level = br1
+03-09 22:32:54.473  2064  2064 I sensors-hal: batch:206, android.sensor.pressure/61, period=100000000, max_latency=0
+03-09 22:32:54.473  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 100000000 based on min/max delay_ns
+03-09 22:32:54.473  2064  2064 I sensors-hal: batch:215, android.sensor.pressure/61, period=100000000, max_latency=0 request completed
+03-09 22:32:54.474  2064  2064 I sensors-hal: activate:173, android.sensor.pressure/61 en=1
+03-09 22:32:54.474  5993  7698 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-09 22:32:54.474  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-09 22:32:54.475  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864463182000)
+03-09 22:32:54.475  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 4781 went down
+03-09 22:32:54.477  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 4782 went down
+03-09 22:32:54.478  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 4783 went down
+03-09 22:32:54.479  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-09 22:32:54.480  5993 10209 W SystemServiceRegistry: No service published for: wifirtt
+03-09 22:32:54.482  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 4784 went down
+03-09 22:32:54.483  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-09 22:32:54.483  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-09 22:32:54.484  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864471526000)
+03-09 22:32:54.485  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-09 22:32:54.485  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-09 22:32:54.485  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-09 22:32:54.487  2064 10999 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-09 22:32:54.487  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-09 22:32:54.487  2064  2064 I sensors-hal: activate:184, android.sensor.pressure/61 en=1 completed
+03-09 22:32:54.489  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:32:54.490  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:32:54.491  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:32:54.492  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864479869000)
+03-09 22:32:54.493  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-09 22:32:54.495  3721 28643 D LOWI-9.0.1.68: [LOWI-Scan] wait_event:Wait done with Cmd 33
+03-09 22:32:54.495  3721 28643 D LOWI-9.0.1.68: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+03-09 22:32:54.500  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=26864488212000)
+03-09 22:32:54.606  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-09 22:32:54.622  2064 10999 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-09 22:32:54.628  2064  4171 D slpi    : ICM201XX fac_cal bias -0.083130, ver 1, modity_time 1737182339, Sat Jan 18 01:38:59 2025
+03-09 22:32:54.660  9776  9809 I appium  : AppiumResponse: {"sessionId":"803d254f-8155-4902-a14a-d4e858a95314","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1ZjGTZfd75O3eNG3tERuRandVdXVXdTTbJZpNsmvSQVlOgKGsGEglpJEBjjEeWOIYAWrY0L5LlBz4MMA9jw4DlB1t+kAxLNmiPLcIDyLBE0TMWNRLFJttkq8Te2N215BqRsUfc/Zx5uBl…

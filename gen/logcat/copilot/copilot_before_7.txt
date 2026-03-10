@@ -1,0 +1,31 @@
+--------- beginning of main
+03-09 22:56:26.602 13906 13943 I appium  : channel read: GET /session/a96aac47-140c-4972-a91d-d635dd958cd0/source
+03-09 22:56:26.603 13906 13943 I appium  : Source command
+03-09 22:56:26.603 13906 13943 I appium  : Waiting up to 10000ms for the device to idle
+03-09 22:56:26.939 13906 13943 I appium  : The following child nodes of android.view.accessibility.AccessibilityNodeInfo@b473; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 276 - 1080, 2155); boundsInWindow: Rect(0, 276 - 1080, 2155); packageName: com.microsoft.copilot; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: true; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SCROLL_DOWN - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SCROLL_FORWARD - null]; isTextSelectable: false are nulls: [3]
+03-09 22:56:26.973 13906 13943 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 22:56:27.065 13906 13943 I appium  : AppiumResponse: {"sessionId":"a96aac47-140c-4972-a91d-d635dd958cd0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.microsoft.copilot\" class=\"an…
+03-09 22:56:27.079 13906 13943 I appium  : channel read: GET /session/a96aac47-140c-4972-a91d-d635dd958cd0/screenshot
+03-09 22:56:27.080 13906 13943 I appium  : CaptureScreenshot command
+03-09 22:56:27.082 13906 13943 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 22:56:27.082 13906 13943 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 22:56:27.231 14321 14321 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 22:56:27.232 14321 14321 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 22:56:27.424  2064  4171 D slpi    : tmd2712: Als lux: 3.30, ch0: 55, ch1: 4, scale: 1.08, atime:50.04, again:1024
+03-09 22:56:27.555  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-09 22:56:27.723 13906 13943 I appium  : AppiumResponse: {"sessionId":"a96aac47-140c-4972-a91d-d635dd958cd0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFPXHwbw996bxV6iIjjqwj1x71n3tu699667aq31Z7W2tdZqtdY661617j1a9164t+ylQgLJ/f0RCERAQYEQeT/P4yMhN/eehFzIee853yO4uBeUQURERERERERkxURLN4CIiIiIiIi…
+03-09 22:56:27.753  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-09 22:56:27.754  2064  4171 D slpi-TCS3720: ALS_REPORT lux 24.245375, ch0 11.578935-6.040612-4.315574-1.975723, scale 1.1878, fps 90, client 1
+03-09 22:56:27.754  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-09 22:56:27.754  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-09 22:56:27.757  2195 14333 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-09 22:56:27.757  2195 14333 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-09 22:56:27.757  2195 14333 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-09 22:56:27.766  2195 14333 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-09 22:56:27.766  2195 14333 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-09 22:56:27.767  2195 14333 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-09 22:56:27.767  2195 14333 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-09 22:56:27.773  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-09 22:56:27.781  2195 14338 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-09 22:56:27.782  2195 14338 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-09 22:56:27.782  2195 14338 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.

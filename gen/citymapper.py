@@ -53,7 +53,7 @@ tap(550, 2400, 2)
 tap(550, 1550, 2)
 tap(450, 1750, 2)
 tap(550, 1550, 2)
-tap(665, 645, 2)
+tap(665, 645, 7)
 tap(450, 1800, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))

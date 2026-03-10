@@ -1,0 +1,14 @@
+--------- beginning of main
+03-09 23:03:58.140 26235 26262 I appium  : channel read: GET /session/b1d63feb-1cc1-4c92-bee1-b4b77d54a18b/source
+03-09 23:03:58.142 26235 26262 I appium  : Source command
+03-09 23:03:58.145 26235 26262 I appium  : Waiting up to 10000ms for the device to idle
+03-09 23:03:58.222 26235 26262 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 23:03:58.277 26235 26262 I appium  : AppiumResponse: {"sessionId":"b1d63feb-1cc1-4c92-bee1-b4b77d54a18b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dominospizza\" class=\"android…
+03-09 23:03:58.288 26235 26262 I appium  : channel read: GET /session/b1d63feb-1cc1-4c92-bee1-b4b77d54a18b/screenshot
+03-09 23:03:58.288 26235 26262 I appium  : CaptureScreenshot command
+03-09 23:03:58.290 26235 26262 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 23:03:58.290 26235 26262 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 23:03:58.382 26702 26702 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 23:03:58.383 26702 26702 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 23:03:58.647 26278 26516 I MediaCodec: [0xb400006f53127720] enqueue 26 input frames in last 1027 ms, latest timeUs 1000024315958
+03-09 23:03:58.678 26235 26262 I appium  : AppiumResponse: {"sessionId":"b1d63feb-1cc1-4c92-bee1-b4b77d54a18b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fBRl/gfwz8z2tE3vHRJ6701AEQ5UsOvZPXv3bGe7s5zeeadn4U5/3lkQEc+GilhOQAWlSoeQhCRAeu+b3c3W+f2xycKSQhI2mx34vF8vX3e7OzvzLITszGe+z/cR8IcfJBARERERERE…

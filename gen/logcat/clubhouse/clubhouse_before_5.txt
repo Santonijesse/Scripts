@@ -1,0 +1,14 @@
+--------- beginning of main
+03-09 22:44:51.609 29148 29183 I appium  : channel read: GET /session/4eedcb22-1105-4ca9-80ff-a03f517d9b25/source
+03-09 22:44:51.611 29148 29183 I appium  : Source command
+03-09 22:44:51.612 29148 29183 I appium  : Waiting up to 10000ms for the device to idle
+03-09 22:44:51.680 29148 29183 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 22:44:51.729 29148 29183 I appium  : AppiumResponse: {"sessionId":"4eedcb22-1105-4ca9-80ff-a03f517d9b25","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.clubhouse.app\" class=\"androi…
+03-09 22:44:51.745 29148 29183 I appium  : channel read: GET /session/4eedcb22-1105-4ca9-80ff-a03f517d9b25/screenshot
+03-09 22:44:51.747 29148 29183 I appium  : CaptureScreenshot command
+03-09 22:44:51.748 29148 29183 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 22:44:51.749 29148 29183 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 22:44:51.893 29402 29402 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 22:44:51.893 29402 29402 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 22:44:51.926  7218  7218 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.inappreach.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+03-09 22:44:52.436 29148 29183 I appium  : AppiumResponse: {"sessionId":"4eedcb22-1105-4ca9-80ff-a03f517d9b25","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eBTVHsbxd3fTe0JNIBQhdAggTelVsYBKb9JRmqCIHQRFr/faQEG9olJFQGmiFEFAinQQ6RAISE9CGiEJSXb3/hHYSyRAgmkD38/z8Dzu7syZs0QyM++c8zum0mXuswsAAAAAAMDAzPn…
