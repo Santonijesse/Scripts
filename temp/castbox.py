@@ -9,6 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
+from playsound import playsound
 
 APP_NAME = "castbox"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -34,10 +35,6 @@ options.load_capabilities({
     "appium:connectHardwareKeyboard": True
 })
 
-driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
-
-time.sleep(5)
-
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
     actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
@@ -48,6 +45,11 @@ def tap(x, y, delay=2):
     actions.perform()
     if delay > 0:
         time.sleep(delay)
+
+
+driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
+
+time.sleep(5)
 
 tap(535, 2400, 2)
 tap(535, 1550, 2)
@@ -68,6 +70,7 @@ driver.save_screenshot(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_{instan
 with open(os.path.join(LOGCAT_DIR, f"{APP_NAME}_before_{instance}.txt"), "w", encoding="utf-8") as f:
     f.write(subprocess.run(["adb", "-s", "ZY22HS5QFQ", "logcat", "-d"], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout)
 
+playsound(os.path.join(os.path.dirname(BASE_DIR), 'auto_alarm.mp3'))
 print('please close & open phone in a second')
 time.sleep(10)
 

@@ -47,6 +47,7 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
+
 tap(550, 2200, 3)
 
 # Note: need a login

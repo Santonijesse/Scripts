@@ -9,6 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
+from playsound import playsound
 
 APP_NAME = "doordash"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -48,8 +49,9 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
-tap(535, 2250, 2)
-tap(550, 2400, 2)
+
+tap(535, 2250, 5)
+tap(550, 2400, 5)
 tap(330, 340, 2)
 tap(100, 2420, 2)
 tap(1020, 1950, 2)
@@ -70,6 +72,7 @@ driver.save_screenshot(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_{instan
 with open(os.path.join(LOGCAT_DIR, f"{APP_NAME}_before_{instance}.txt"), "w", encoding="utf-8") as f:
     f.write(subprocess.run(["adb", "-s", "ZY22HS5QFQ", "logcat", "-d"], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout)
 
+playsound(os.path.join(os.path.dirname(BASE_DIR), 'auto_alarm.mp3'))
 print('please close & open phone in a second')
 time.sleep(10)
 

@@ -9,6 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
+from playsound import playsound
 
 APP_NAME = "instagram"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -35,7 +36,7 @@ options.load_capabilities({
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(3)
+time.sleep(7)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -48,13 +49,14 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
-tap(550, 1400, 2)
-tap(550, 2400, 2)
-tap(530, 1540, 2)
-tap(550, 2350, 2)
-tap(750, 2450, 2)
-tap(500, 200, 2)
-tap(652, 2110, 2)
+
+tap(550, 1400, 3)
+tap(550, 2400, 3)
+tap(530, 1540, 3)
+tap(550, 2350, 3)
+tap(750, 2450, 3)
+tap(500, 200, 3)
+tap(652, 2110, 3)
 tap(800, 1950, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
@@ -71,6 +73,7 @@ driver.save_screenshot(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_{instan
 with open(os.path.join(LOGCAT_DIR, f"{APP_NAME}_before_{instance}.txt"), "w", encoding="utf-8") as f:
     f.write(subprocess.run(["adb", "-s", "ZY22HS5QFQ", "logcat", "-d"], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout)
 
+playsound(os.path.join(os.path.dirname(BASE_DIR), 'auto_alarm.mp3'))
 print('please close & open phone in a second')
 time.sleep(10)
 

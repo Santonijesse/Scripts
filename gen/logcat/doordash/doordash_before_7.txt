@@ -1,0 +1,16 @@
+--------- beginning of main
+03-09 23:30:23.059  4632  4662 I appium  : channel read: GET /session/271ccc68-def6-4899-903e-d620d2e569d8/source
+03-09 23:30:23.061  4632  4662 I appium  : Source command
+03-09 23:30:23.061  4632  4662 I appium  : Waiting up to 10000ms for the device to idle
+03-09 23:30:23.232  2064  4171 D slpi    : tmd2712: Als lux: 6.80, ch0: 116, ch1: 4, scale: 1.08, atime:50.04, again:1024
+--------- beginning of system
+03-09 23:30:23.256  3163  4238 D ActivityManager: freezing 24246 com.google.android.googlequicksearchbox:search, reason = oom_cached
+03-09 23:30:23.353  4632  4662 I appium  : AppiumResponse: {"sessionId":"271ccc68-def6-4899-903e-d620d2e569d8","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dd.doordash\" class=\"android.…
+03-09 23:30:23.367  4632  4662 I appium  : channel read: GET /session/271ccc68-def6-4899-903e-d620d2e569d8/screenshot
+03-09 23:30:23.368  4632  4662 I appium  : CaptureScreenshot command
+03-09 23:30:23.370  4632  4662 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 23:30:23.370  4632  4662 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 23:30:23.512  5691  5691 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 23:30:23.513  5691  5691 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 23:30:23.698  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-09 23:30:23.998  4632  4662 I appium  : AppiumResponse: {"sessionId":"271ccc68-def6-4899-903e-d620d2e569d8","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15VFNn/j/w9w0JW4AIKIsWREAUFEWtLOK+V6vddNS21ta2TvfOmc58OzOdaWc6PZ1p59uObWda2+l0txa7qVXcEXFFiwoiCLIJCgISdgIkuff3h7/cL4GAgEASfb/O8RzJ3Z4Qktz7vs/…

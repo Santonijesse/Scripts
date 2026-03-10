@@ -6,8 +6,10 @@ The following scripts are stubs — they cannot complete the before/after fold s
 
 - dunkin.py — can't download policies
 - earnify.py — needs login
+- edgeaura.py -- How to work around ads
 - freecash.py — needs Gmail
 - instacart.py — needs login
+- instagream -- won't load
 - mcdonalds.py — needs login
 - nextdoor.py — needs Gmail account
 - nytimes.py — needs login

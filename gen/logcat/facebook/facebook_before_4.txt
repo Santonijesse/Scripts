@@ -1,0 +1,30 @@
+--------- beginning of main
+03-10 00:17:04.178 16159 16192 I appium  : channel read: GET /session/276f823d-b0a9-466b-b116-64c6eca28716/source
+03-10 00:17:04.179 16159 16192 I appium  : Source command
+03-10 00:17:04.179 16159 16192 I appium  : Waiting up to 10000ms for the device to idle
+03-10 00:17:04.255 16159 16192 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 00:17:04.332 16159 16192 I appium  : AppiumResponse: {"sessionId":"276f823d-b0a9-466b-b116-64c6eca28716","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.facebook.katana\" class=\"andr…
+03-10 00:17:04.347 16159 16192 I appium  : channel read: GET /session/276f823d-b0a9-466b-b116-64c6eca28716/screenshot
+03-10 00:17:04.347 16159 16192 I appium  : CaptureScreenshot command
+03-10 00:17:04.349 16159 16192 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 00:17:04.349 16159 16192 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 00:17:04.445 16895 16895 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 00:17:04.445 16895 16895 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 00:17:04.746  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 00:17:04.746  2064  4171 D slpi-TCS3720: ALS_REPORT lux 32.247002, ch0 14.608937-8.270583-5.925137-2.561927, scale 1.1878, fps 90, client 1
+03-10 00:17:04.746  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 00:17:04.746  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 00:17:04.747  2195 16901 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 00:17:04.747  2195 16901 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 00:17:04.747  2195 16901 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 00:17:04.757  2195 16901 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 00:17:04.757  2195 16901 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 00:17:04.757  2195 16901 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 00:17:04.757  2195 16901 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 00:17:04.776  2195 16903 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 00:17:04.776  2195 16903 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 00:17:04.776  2195 16903 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 00:17:04.789  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 3.87 (32.25-28.38), pre 7.67, dbv 2919, dc 0, fps 90, chPanel 11.91-5.99-5.06-2.15, facCal:lux_s 1.19 cha_s 1.00-0.99-1.03-1.12, RunInfo: DPB 6097-20, TF 6097-0
+03-10 00:17:05.256  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 39.44. prev severity:0. cur severity:3 New severity:3
+03-10 00:17:05.319  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 00:17:05.369 16159 16192 I appium  : AppiumResponse: {"sessionId":"276f823d-b0a9-466b-b116-64c6eca28716","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dFPXvTf879HgQZLn2WAbbGNjxxhswNgYCEPCTJqbkJKhaZq0zU1Dk9y1uvq+vev9p89dd93b3j7N0/a5TdLcNG3mQDNAQpgN2ARsMMbYeMDzPGFbniVbwznvH6pOLTCDQbYk+H7WYmH…

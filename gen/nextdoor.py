@@ -47,6 +47,7 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
+
 tap(1000, 1660, 2)
 tap(540, 1840, 2)
 tap(540, 1540, 2)

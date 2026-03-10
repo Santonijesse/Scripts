@@ -47,6 +47,7 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
+
 # Note: need to sign in — no taps
 
 driver.quit()

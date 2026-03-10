@@ -1,0 +1,15 @@
+--------- beginning of main
+03-10 01:29:59.461  1850  1889 I appium  : channel read: GET /session/5d4a1de5-7dfe-484b-b9ea-0f1417b69cf7/source
+03-10 01:29:59.465  1850  1889 I appium  : Source command
+03-10 01:29:59.466  1850  1889 I appium  : Waiting up to 10000ms for the device to idle
+03-10 01:29:59.871  1850  1889 I appium  : AppiumResponse: {"sessionId":"5d4a1de5-7dfe-484b-b9ea-0f1417b69cf7","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.checkitt\" class=\"android.wid…
+03-10 01:29:59.891  1850  1889 I appium  : channel read: GET /session/5d4a1de5-7dfe-484b-b9ea-0f1417b69cf7/screenshot
+03-10 01:29:59.893  1850  1889 I appium  : CaptureScreenshot command
+03-10 01:29:59.895  1850  1889 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 01:29:59.895  1850  1889 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+--------- beginning of system
+03-10 01:30:00.005  5625  5625 V KeyguardStatusViewController: onTimeChanged
+03-10 01:30:00.048  2826  2826 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 01:30:00.049  2826  2826 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 01:30:00.257  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 33.155. prev severity:3. cur severity:0 New severity:0
+03-10 01:30:00.628  1850  1889 I appium  : AppiumResponse: {"sessionId":"5d4a1de5-7dfe-484b-b9ea-0f1417b69cf7","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFRV/j/+152ZJJNCeiAICUUJCahUhSzFIF1sa0EElaYYULq6IiBl1UVFQRBWBAvgYkOKrLAQfiCCJCggHQIinZCEFBJIMpny/v2Rb+bDMOmZduH1fDzeD8jcdu7ck8m57znnXAWAgIi…

@@ -1,0 +1,20 @@
+--------- beginning of main
+03-10 00:38:02.145  2195 25941 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 00:38:02.145  2195 25941 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 00:38:02.145  2195 25941 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 00:38:02.159  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 4.01 (20.77-16.77), pre 2.36, dbv 1979, dc 0, fps 90, chPanel 6.61-3.74-2.84-1.06, facCal:lux_s 1.19 cha_s 1.05-1.05-1.10-1.23, RunInfo: DPB 6253-22, TF 6253-0
+03-10 00:38:02.272 25253 25280 I appium  : channel read: GET /session/594dead7-991b-4500-8ac6-5a27164c0cc0/source
+03-10 00:38:02.271  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 00:38:02.277 25253 25280 I appium  : Source command
+03-10 00:38:02.278 25253 25280 I appium  : Waiting up to 10000ms for the device to idle
+03-10 00:38:02.369 13100 13443 W RealtimeClientManager: Channel state: MqttChannelState{mConnectionState=CONNECTING, mDisconnectionReason=null, mLastConnectionMs=47413986, mLastDisconnectMs=47437273}
+03-10 00:38:02.389 25253 25280 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 00:38:02.417  2064 24515 E sensors-hal: handle_sns_client_event:62, mot_disprot_event: now=47438322285557 ts=47438302814844, type=0, status=3
+03-10 00:38:02.465 25253 25280 I appium  : AppiumResponse: {"sessionId":"594dead7-991b-4500-8ac6-5a27164c0cc0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.facebook.katana\" class=\"andr…
+03-10 00:38:02.480 25253 25280 I appium  : channel read: GET /session/594dead7-991b-4500-8ac6-5a27164c0cc0/screenshot
+03-10 00:38:02.482 25253 25280 I appium  : CaptureScreenshot command
+03-10 00:38:02.483 25253 25280 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 00:38:02.483 25253 25280 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 00:38:02.582 25948 25948 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 00:38:02.582 25948 25948 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 00:38:03.465 25253 25280 I appium  : AppiumResponse: {"sessionId":"594dead7-991b-4500-8ac6-5a27164c0cc0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15UFR3vj/89+kN6GZHVmWRHQR3EVxwwS0umSxm1CxjksnNzWSdqqmpO7eeW3Vzp56qO3Pnl/ySeWaSTG6WSSYmwUmMJu7igkZFcQPZd2QTgWbvbujuc54/mD5DCyoiS7e+X1WpSHM4C3C…

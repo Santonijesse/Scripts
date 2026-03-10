@@ -1,0 +1,841 @@
+--------- beginning of main
+03-10 01:03:25.592  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:25.593  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.593  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.595  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.595  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:25.595  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:25.596  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:25.596  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.596  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.597  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.597  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:25.598  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:25.598  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:25.598  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.598  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.600  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.600  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:25.600  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:25.601  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:25.601  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.601  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.602  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.602  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:25.602  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:25.608  2747 10928 D AudioTrack: stop(149): called with 50688 frames delivered
+03-10 01:03:25.697 10236 10292 I appium  : channel read: GET /session/7709e767-e69a-42c3-b27f-60af9a22b934/source
+03-10 01:03:25.699 10236 10292 I appium  : Source command
+03-10 01:03:25.700 10236 10292 I appium  : Waiting up to 10000ms for the device to idle
+03-10 01:03:25.788  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 01:03:25.829 10324 10402 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@78e95e7
+03-10 01:03:25.937  2747  5111 D NuPlayerDriver: stop(0xb400006dca81d8d0)
+03-10 01:03:25.937 10324 10324 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+03-10 01:03:25.937 10324 10324 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+03-10 01:03:25.937  2747  5111 D NuPlayerDriver: reset(0xb400006dca81d8d0) at state 8
+03-10 01:03:25.939  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:25.939  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.939  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.941  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.941  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:25.941  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:25.941  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:25.941  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.941  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.942  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.943  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:25.943  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:25.945  5658  5658 I bluetooth: system/btif/avrcp/avrcp_service.cc:537 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+03-10 01:03:25.945  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:25.945  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.945  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.946  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.947  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:25.947  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:25.948  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:25.948  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:25.948  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:25.949  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:25.949  2747 10929 I MediaCodec: (0xb400006e8a8282c0) flush
+03-10 01:03:25.949  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:25.949  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:25.953  2747 10918 I NuPlayer: audioFlush latency : 13.60 ms
+--------- beginning of system
+03-10 01:03:25.953  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:25.955  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:25.956  2747 10929 I MediaCodec: (0xb400006e8a8282c0) release
+03-10 01:03:25.959  2747 10930 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+03-10 01:03:25.959  2809 14467 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+03-10 01:03:25.961  2809 14467 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+03-10 01:03:25.961  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:25.962  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:25.964  2747 10918 I NuPlayer: audioShutdown latency : 10.50 ms
+03-10 01:03:25.967  2809 14467 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000070fcb3e028 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+03-10 01:03:25.968  2747 10918 D NuPlayerDriver: notifyResetComplete(0xb400006dca81d8d0)
+03-10 01:03:25.969  2747  5111 W AMessage: failed to post message as target looper for handler 0 is gone.
+03-10 01:03:25.971  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:25.972  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:25.973  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:25.977  2067 11748 V DlbVolumeListener: effectCommand
+03-10 01:03:25.977  2067 11748 V DlbVolumeListener: effectCommand :: Command EFFECT_CMD_SET_CONFIG
+03-10 01:03:25.977  2289  5043 W APM_AudioPolicyManager: unregisterEffect effect 1811 enabled
+03-10 01:03:25.978 10324 10324 W MediaPlayer: mediaplayer went away with unhandled events
+03-10 01:03:25.980  2289  3220 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+03-10 01:03:25.981  2289  3220 D AudioFlinger: checkAudioTracks(flags=0x0) with audio track flags updated to 0x0 on audio output 13
+03-10 01:03:25.983  2067 11748 D DlbDapEffectContext: setParam() received parameter EFFECT_PARAM_SET_AUDIO_FLAG
+03-10 01:03:25.984  2067 11748 D DlbDapEffectContext: setAudioFlags(flag=0x00000000)
+03-10 01:03:25.985  2067 11748 D DlbDapEffectContext: updateInputFormat() mIsDmsContentProcEnabled: 1, channels: 0x3, mCurrentDevice: 0x2, mAudioFlags: 0x0
+03-10 01:03:25.985  2067 11748 D DlbDap2Process: setHTParam: mIsBinauralInput: 0
+03-10 01:03:25.985  2067 11748 D DlbDap2Process: DAP input format is 0x22 with input channel mask 0x3
+03-10 01:03:25.989  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:25.989  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:25.990  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:25.999  3163  6987 I MediaFocusControl: abandonAudioFocus() from uid/pid 10323/10324 clientId=android.media.AudioManager@291af4dbmch@ec88933
+03-10 01:03:25.999  3163  6987 I MediaFocusControl: removeFocusStackEntry client:android.media.AudioManager@291af4dbmch@ec88933
+03-10 01:03:26.007  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:26.009  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:26.012  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:26.012  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:26.012  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:26.012  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:26.013  2289  3220 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+03-10 01:03:26.013  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:26.013  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:26.014  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:26.014  2067 11748 V DlbVolumeListener: effectCommand
+03-10 01:03:26.014  2067 11748 V DlbVolumeListener: effectCommand :: Command EFFECT_CMD_DISABLE
+03-10 01:03:26.015  2067 11748 V DlbVolumeListener: release(handle=0xb400007c8404e1f0)
+03-10 01:03:26.018  2289  2854 W audioserver: Binder 0xb400006ddac5db60 destroyed after setInheritRt before being parceled.
+03-10 01:03:26.019  2289  2854 W audioserver: Binder 0xb400006ddac5db60 destroyed after setMinSchedulerPolicy before being parceled.
+03-10 01:03:26.020  2067  4530 D MotSpeakerHelper: Speaker ON: volume 0.500000 (step 12), usecase SAFE
+03-10 01:03:26.021  2067  4530 D MotSpeakerHelper: Setting speaker trim 84 (0 dB, 0 dB)
+03-10 01:03:26.021  2067  4530 D MotSpeakerHelper: Speaker ON: volume 0.500000 (step 12), usecase SAFE
+03-10 01:03:26.021  2067  4530 D MotSpeakerHelper: Setting speaker trim 84 (0 dB, 0 dB)
+03-10 01:03:26.021  2067  4530 D MotSpeakerHelper: Speaker ON: volume 0.500000 (step 12), usecase SAFE
+03-10 01:03:26.021  2067  4530 D MotSpeakerHelper: Setting speaker trim 84 (0 dB, 0 dB)
+03-10 01:03:26.021  2067  4530 D MotSpeakerHelper: Speaker ON: volume 0.500000 (step 12), usecase SAFE
+03-10 01:03:26.022  2067  4530 D MotSpeakerHelper: Setting speaker trim 84 (0 dB, 0 dB)
+03-10 01:03:26.022  2289  2854 W audioserver: Binder 0xb400006ddac5d9e0 destroyed after setInheritRt before being parceled.
+03-10 01:03:26.022  2289  2854 W audioserver: Binder 0xb400006ddac5d9e0 destroyed after setMinSchedulerPolicy before being parceled.
+03-10 01:03:26.022  2289  2854 D APM_AudioPolicyManager: stopOutput() output 13, stream 3, session 4161
+03-10 01:03:26.022  2289  2854 D APM_AudioPolicyManager: releaseOutput() 13
+03-10 01:03:26.170 10324 10329 I droid.apps.maps: Compiler allocated 6523KB to compile void bjyh.c(bjjw, bqwb, bjzq, bkek, boolean, bjyi, bjqp, android.graphics.Rect)
+03-10 01:03:26.285  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:26.286  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.286  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.288  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.288  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:26.288  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:26.289  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:26.289  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.289  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.290  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.290  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:26.290  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:26.291  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:26.291  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.291  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.291  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.292  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:26.292  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:26.293  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:26.293  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.293  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.294  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.294  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:26.294  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:26.458  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 01:03:26.640  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:26.640  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.640  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.642  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.643  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:26.643  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:26.644  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:26.645  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.645  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.645  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.646  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:26.646  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:26.647  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:26.647  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.647  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.648  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.648  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:26.648  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:26.649  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:26.649  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.649  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.650  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.650  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:26.650  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:26.986  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:26.987  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.987  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.988  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.989  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:26.989  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:26.990  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:26.990  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.990  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.992  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.992  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:26.992  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:26.993  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:26.993  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.994  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.994  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.994  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:26.994  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:26.996  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:26.996  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:26.996  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:26.997  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:26.997  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:26.997  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:27.005  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 406.348 on SvId 70 at time 29006.348443
+03-10 01:03:27.006  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 70 signal: 00000010
+03-10 01:03:27.006  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 406.342 on SvId 80 at time 29006.342437
+03-10 01:03:27.006  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 80 signal: 00000010
+03-10 01:03:27.006  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 406.348 on SvId 79 at time 29006.348477
+03-10 01:03:27.006  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 79 signal: 00000010
+03-10 01:03:27.006  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 406.350 on SvId 69 at time 29006.350348
+03-10 01:03:27.006  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 69 signal: 00000010
+03-10 01:03:27.006  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 406.348 on SvId 85 at time 29006.347341
+03-10 01:03:27.006  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 85 signal: 00000010
+03-10 01:03:27.006  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 406.340 on SvId 68 at time 29006.340670
+03-10 01:03:27.006  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 68 signal: 00000010
+03-10 01:03:27.014  3163  6987 D GnssMeasCbJni: gnssMeasurementCb
+03-10 01:03:27.021  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:27.025  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:27.026  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:27.028  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:27.033  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:27.033  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:27.033  7505  7505 D LocationTracker: Got a location update from Play Services
+03-10 01:03:27.035  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:27.038  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:27.114  2289  5043 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_WIRED_HEADSET, 00000004) address 
+03-10 01:03:27.334  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:27.335  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.335  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.336  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.338  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:27.338  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:27.342  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:27.342  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.342  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.343  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.344  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:27.344  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:27.346  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:27.346  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.347  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.347  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.348  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:27.348  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:27.349  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:27.349  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.349  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.350  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.350  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:27.350  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:27.686  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:27.686  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.686  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.688  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.692  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 5 ms to receive the response with 0
+03-10 01:03:27.692  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:27.694  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:27.694  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.694  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.695  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.696  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:27.696  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:27.698  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:27.698  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.698  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.699  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.699  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:27.699  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:27.700  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:27.700  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:27.700  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:27.700  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:27.701  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:27.701  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:28.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 407.348 on SvId 70 at time 29007.348444
+03-10 01:03:28.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 70 signal: 00000010
+03-10 01:03:28.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 407.342 on SvId 80 at time 29007.342440
+03-10 01:03:28.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 80 signal: 00000010
+03-10 01:03:28.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 407.348 on SvId 79 at time 29007.348478
+03-10 01:03:28.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 79 signal: 00000010
+03-10 01:03:28.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 407.350 on SvId 69 at time 29007.350348
+03-10 01:03:28.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 69 signal: 00000010
+03-10 01:03:28.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 407.348 on SvId 85 at time 29007.347341
+03-10 01:03:28.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 85 signal: 00000010
+03-10 01:03:28.011  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 407.340 on SvId 68 at time 29007.340669
+03-10 01:03:28.011  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 68 signal: 00000010
+03-10 01:03:28.019  3163  7402 D GnssMeasCbJni: gnssMeasurementCb
+03-10 01:03:28.028  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:28.030  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:28.031  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:28.032  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:28.036  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:28.036  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:28.036  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:28.038  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:28.038  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:28.038  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:28.038  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.038  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:28.038  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.039  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.041  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:28.041  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:28.041  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:28.041  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.042  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.042  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.044  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:28.044  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:28.045  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:28.045  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.045  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.046  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.046  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:28.046  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:28.047  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:28.047  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.047  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.048  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.048  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:28.048  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:28.092  2067  2067 D AHAL: AudioStream: astream_out_standby: 862: enter: stream (0xb400007cc4040cf0), usecase(1: low-latency-playback)
+03-10 01:03:28.093  2067  2067 D AHAL: AudioStream: Standby: 2246: Enter
+03-10 01:03:28.093  2067  2067 I PAL: API: pal_stream_stop: 337: Enter. Stream handle :0xb400007ca404b5d0K
+03-10 01:03:28.093  2188 10936 D AGM: graph: graph_stop: 955 entry graph_handle 0x247534c
+03-10 01:03:28.093  2188 10936 I gsl     : gsl_send_spf_cmd:169 Wait for Rsp opcode[0x1001003] src_port[0x2012] dst_port[0x1] token 0xbaa
+03-10 01:03:28.098  2188 10936 I gsl     : gsl_send_spf_cmd:183 rcvd pkt token : 0xbaa
+03-10 01:03:28.098  2188 10936 D AGM: graph: graph_stop: 1000 exit, ret 0
+03-10 01:03:28.101  2188 10935 I gsl     : gsl_send_spf_cmd:169 Wait for Rsp opcode[0x100100e] src_port[0x2012] dst_port[0x40c4] token 0xbab
+03-10 01:03:28.102  2188 10935 I gsl     : gsl_send_spf_cmd:183 rcvd pkt token : 0xbab
+03-10 01:03:28.104  2067  2067 I PAL: ResourceManager: voteSleepMonitor: 1439: Enter for stream type 1
+03-10 01:03:28.104  2067  2067 I PAL: ResourceManager: voteSleepMonitor: 1491: Unvoting done for nlpi use case, lpi votes 1, nlpi votes : 1
+03-10 01:03:28.104  2067  2067 I PAL: SpeakerProtection: spkrProtSetSpkrStatus: 242: Speaker used last time 48964
+03-10 01:03:28.104  2188 10935 D AGM: graph: graph_stop: 955 entry graph_handle 0x147534c
+03-10 01:03:28.105  2188 10935 I gsl     : gsl_send_spf_cmd:169 Wait for Rsp opcode[0x1001003] src_port[0x2011] dst_port[0x1] token 0xbac
+03-10 01:03:28.108  2188 10935 I gsl     : gsl_send_spf_cmd:183 rcvd pkt token : 0xbac
+03-10 01:03:28.108  2188 10935 D AGM: graph: graph_stop: 1000 exit, ret 0
+03-10 01:03:28.108  2188 10935 I AGM: API: agm_session_aif_connect: 651 disconnecting aifid:11 with session id=121
+03-10 01:03:28.108  2188 10935 D AGM: graph: graph_stop: 955 entry graph_handle 0x147534c
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 263 *************************Metadata*************************
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 264 GKV size:1
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 267 key:0xa3000000, value:0xa3000009(VI_TX)
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 271 
+03-10 01:03:28.108  2188 10935 D AGM: metadata: CKV count:1
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 274 key:0xbf000000, value:0x2 
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 276 
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 278 Property ID:134217744
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 279 property count:1
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 282 Property Values: 
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 284 0x2 
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 286 
+03-10 01:03:28.108  2188 10935 D AGM: metadata: metadata_print: 287 ****************Metadata Done***************************
+03-10 01:03:28.108  2188 10935 D AGM: metadata: 
+03-10 01:03:28.108  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2057 num_sgid= 1
+03-10 01:03:28.108  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2058 sg list:
+03-10 01:03:28.108  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2060 b00000d5
+03-10 01:03:28.108  2188 10935 I gsl     : gsl_print_sg_conn_info:186 num_sg_conn = 0
+03-10 01:03:28.108  2188 10935 I gsl     : gsl_send_spf_cmd:169 Wait for Rsp opcode[0x1001004] src_port[0x2011] dst_port[0x1] token 0xbad
+03-10 01:03:28.110  2188 10935 I gsl     : gsl_send_spf_cmd:183 rcvd pkt token : 0xbad
+03-10 01:03:28.111  2188 10935 D AGM: graph: graph_stop: 1000 exit, ret 0
+03-10 01:03:28.113  2188 10935 I AGM: device: device_set_metadata: 691 Setting device metadata for CODEC_DMA-LPAIF_WSA-TX-0
+03-10 01:03:28.114  2188 10935 D AGM: metadata: metadata_print: 263 *************************Metadata*************************
+03-10 01:03:28.114  2188 10935 D AGM: metadata: metadata_print: 264 GKV size:0
+03-10 01:03:28.114  2188 10935 D AGM: metadata: metadata_print: 271 
+03-10 01:03:28.114  2188 10935 D AGM: metadata: CKV count:0
+03-10 01:03:28.114  2188 10935 D AGM: metadata: metadata_print: 276 
+03-10 01:03:28.114  2188 10935 D AGM: metadata: metadata_print: 278 Property ID:134217744
+03-10 01:03:28.114  2188 10935 D AGM: metadata: metadata_print: 279 property count:2
+03-10 01:03:28.114  2188 10935 D AGM: metadata: metadata_print: 282 Property Values: 
+03-10 01:03:28.115  2188 10935 D AGM: metadata: metadata_print: 284 0x2 
+03-10 01:03:28.115  2188 10935 D AGM: metadata: metadata_print: 284 0x5 
+03-10 01:03:28.115  2188 10935 D AGM: metadata: metadata_print: 286 
+03-10 01:03:28.115  2188 10935 D AGM: metadata: metadata_print: 287 ****************Metadata Done***************************
+03-10 01:03:28.115  2188 10935 D AGM: metadata: 
+03-10 01:03:28.116  2067  2067 I PAL: ResourceManager: freeFrontEndIds: 6212: stream type 1, freeing 121
+03-10 01:03:28.116  2188 10935 D AGM: session: session_close: 1267 enter
+03-10 01:03:28.116  2188 10935 D AGM: graph: graph_close: 791 entry handle 0x147534c
+03-10 01:03:28.116  2188 10935 D AGM: graph: graph_close: 811 exit, ret 0
+03-10 01:03:28.116  2188 10935 D AGM: session: session_close: 1316 exit, ret 0
+03-10 01:03:28.118  2067  2067 I PAL: API: pal_stream_stop: 373: Exit. status 0
+03-10 01:03:28.118  2067  2067 I PAL: API: pal_stream_close: 236: Enter. Stream handle :0xb400007ca404b5d0K
+03-10 01:03:28.119  2188 10935 I AGM: API: agm_session_aif_connect: 651 disconnecting aifid:8 with session id=117
+03-10 01:03:28.119  2188 10935 D AGM: graph: graph_stop: 955 entry graph_handle 0x247534c
+03-10 01:03:28.119  2188 10935 D AGM: metadata: metadata_print: 263 *************************Metadata*************************
+03-10 01:03:28.119  2188 10935 D AGM: metadata: metadata_print: 264 GKV size:4
+03-10 01:03:28.119  2188 10935 D AGM: metadata: metadata_print: 267 key:0xa1000000, value:0xa100000e(PCM_LL_PLAYBACK)
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 267 key:0xab000000, value:0x1( )
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 267 key:0xa2000000, value:0xa2000001(SPEAKER)
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 267 key:0xac000000, value:0xac000002(DEVICEPP_RX_AUDIO_MBDRC)
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 271 
+03-10 01:03:28.120  2188 10935 D AGM: metadata: CKV count:3
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 274 key:0xa4000000, value:0x0 
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 274 key:0xd2000000, value:0x0 
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 274 key:0xbe000000, value:0x3 
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 276 
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 278 Property ID:134217744
+03-10 01:03:28.120  2188 10935 D AGM: metadata: metadata_print: 279 property count:3
+03-10 01:03:28.121  2188 10935 D AGM: metadata: metadata_print: 282 Property Values: 
+03-10 01:03:28.121  2188 10935 D AGM: metadata: metadata_print: 284 0x3 
+03-10 01:03:28.121  2188 10935 D AGM: metadata: metadata_print: 284 0x2 
+03-10 01:03:28.121  2188 10935 D AGM: metadata: metadata_print: 284 0x5 
+03-10 01:03:28.122  2188 10935 D AGM: metadata: metadata_print: 286 
+03-10 01:03:28.122  2188 10935 D AGM: metadata: metadata_print: 287 ****************Metadata Done***************************
+03-10 01:03:28.122  2188 10935 D AGM: metadata: 
+03-10 01:03:28.122  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2057 num_sgid= 3
+03-10 01:03:28.122  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2058 sg list:
+03-10 01:03:28.122  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2060 b0000002
+03-10 01:03:28.122  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2060 b0000025
+03-10 01:03:28.123  2188 10935 I gsl     : gsl_graph_close_sgids_and_connections:2060 b0000024
+03-10 01:03:28.123  2188 10935 I gsl     : gsl_print_sg_conn_info:186 num_sg_conn = 3
+03-10 01:03:28.123  2188 10935 I gsl     : gsl_print_sg_conn_info:188 sg b0000025 has 1 children:
+03-10 01:03:28.123  2188 10935 I gsl     : gsl_print_sg_conn_info:191 b0000002, 
+03-10 01:03:28.123  2188 10935 I gsl     : gsl_print_sg_conn_info:188 sg b0000024 has 1 children:
+03-10 01:03:28.123  2188 10935 I gsl     : gsl_print_sg_conn_info:191 b0000025, 
+03-10 01:03:28.123  2188 10935 I gsl     : gsl_print_sg_conn_info:188 sg b0000023 has 1 children:
+03-10 01:03:28.124  2188 10935 I gsl     : gsl_print_sg_conn_info:191 b0000024, 
+03-10 01:03:28.124  2188 10935 I gsl     : gsl_send_spf_cmd:169 Wait for Rsp opcode[0x1001004] src_port[0x2012] dst_port[0x1] token 0xbae
+03-10 01:03:28.126  2188 10935 I gsl     : gsl_send_spf_cmd:183 rcvd pkt token : 0xbae
+03-10 01:03:28.126  2188 10935 D AGM: graph: graph_stop: 1000 exit, ret 0
+03-10 01:03:28.135  2188 10936 I AGM: device: device_set_metadata: 691 Setting device metadata for CODEC_DMA-LPAIF_WSA-RX-0
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 263 *************************Metadata*************************
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 264 GKV size:0
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 271 
+03-10 01:03:28.135  2188 10936 D AGM: metadata: CKV count:0
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 276 
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 278 Property ID:134217744
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 279 property count:2
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 282 Property Values: 
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 284 0x2 
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 284 0x5 
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 286 
+03-10 01:03:28.135  2188 10936 D AGM: metadata: metadata_print: 287 ****************Metadata Done***************************
+03-10 01:03:28.135  2188 10936 D AGM: metadata: 
+03-10 01:03:28.135  2188  2768 I AGM: session: session_obj_set_sess_aif_metadata: 1772 Setting metadata for sess aif id 8
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 263 *************************Metadata*************************
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 264 GKV size:0
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 271 
+03-10 01:03:28.135  2188  2768 D AGM: metadata: CKV count:0
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 276 
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 278 Property ID:134217744
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 279 property count:1
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 282 Property Values: 
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 284 0x3 
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 286 
+03-10 01:03:28.135  2188  2768 D AGM: metadata: metadata_print: 287 ****************Metadata Done***************************
+03-10 01:03:28.135  2188  2768 D AGM: metadata: 
+03-10 01:03:28.135  2188  2768 I AGM: session: session_obj_set_sess_aif_metadata: 1792 Exit
+03-10 01:03:28.135  2188  2768 D AGM: session: session_close: 1267 enter
+03-10 01:03:28.135  2188  2768 D AGM: graph: graph_close: 791 entry handle 0x247534c
+03-10 01:03:28.135  2188  2768 I gsl     : gsl_graph_close_sgids_and_connections:2057 num_sgid= 1
+03-10 01:03:28.135  2188  2768 I gsl     : gsl_graph_close_sgids_and_connections:2058 sg list:
+03-10 01:03:28.135  2188  2768 I gsl     : gsl_graph_close_sgids_and_connections:2060 b0000023
+03-10 01:03:28.135  2188  2768 I gsl     : gsl_print_sg_conn_info:186 num_sg_conn = 0
+03-10 01:03:28.135  2188  2768 I gsl     : gsl_send_spf_cmd:169 Wait for Rsp opcode[0x1001004] src_port[0x2012] dst_port[0x1] token 0xbaf
+03-10 01:03:28.141  2188  2768 I gsl     : gsl_send_spf_cmd:183 rcvd pkt token : 0xbaf
+03-10 01:03:28.142  2188  2768 D AGM: graph: graph_close: 811 exit, ret 0
+03-10 01:03:28.142  2188  2768 D AGM: session: session_close: 1316 exit, ret 0
+03-10 01:03:28.144  2067  2067 I PAL: ResourceManager: freeFrontEndIds: 6212: stream type 1, freeing 117
+03-10 01:03:28.144  2067  2067 I PAL: Device: close: 470: Enter. deviceCount 1 for device id 3 (PAL_DEVICE_OUT_SPEAKER)
+03-10 01:03:28.145  2067  2067 I PAL: Device: close: 487: Exit. deviceCount 0 for device id 3 (PAL_DEVICE_OUT_SPEAKER), exit status 0
+03-10 01:03:28.145  2067  2067 I PAL: ResourceManager: GetConcurrencyInfo: 4482: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+03-10 01:03:28.145  2067  2067 I PAL: ResourceManager: GetConcurrencyInfo: 4482: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+03-10 01:03:28.145  2067  2067 I PAL: ResourceManager: GetConcurrencyInfo: 4482: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+03-10 01:03:28.145  2067  2067 I PAL: ResourceManager: deregisterStream: 2722: stream type 1
+03-10 01:03:28.145  2067  2067 I PAL: ResourceManager: getActiveStream_l: 5112: no active streams found for device 3 (PAL_DEVICE_OUT_SPEAKER) ret -2
+03-10 01:03:28.145  2067  2067 I PAL: ResourceManager: getSharedBEActiveStreamDevs: 6372: got dev 3 (PAL_DEVICE_OUT_SPEAKER) active streams on dev is 0
+03-10 01:03:28.145  2067  2067 I PAL: API: pal_stream_close: 271: Exit. status 0
+03-10 01:03:28.145  2067  2067 D AHAL: AudioStream: Standby: 2328: Exit ret: 0
+03-10 01:03:28.145  2067  2067 D AHAL: ext_speaker: audio_extn_extspk_update: 152: devices 0x0
+03-10 01:03:28.145  2067  2067 D AHAL: AudioStream: astream_out_standby: 878: Exit ret: 0
+03-10 01:03:28.381  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:28.381  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.382  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.384  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.385  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 3 ms to receive the response with 0
+03-10 01:03:28.385  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:28.385  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:28.386  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.386  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.388  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.388  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:28.389  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:28.390  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:28.390  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.390  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.392  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.392  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:28.392  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:28.392  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:28.392  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.393  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.394  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.394  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:28.394  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:28.480  2747  4482 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-10 01:03:28.736  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:28.736  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.736  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.739  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.741  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 4 ms to receive the response with 0
+03-10 01:03:28.742  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:28.743  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:28.744  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.745  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.746  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.747  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:28.747  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:28.747  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:28.747  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.747  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.748  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.749  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:28.749  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:28.750  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:28.750  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:28.750  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:28.752  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:28.752  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:28.752  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:28.815  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 01:03:29.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 408.343 on SvId 78 at time 29008.342584
+03-10 01:03:29.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 78 signal: 00000010
+03-10 01:03:29.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 408.348 on SvId 70 at time 29008.348445
+03-10 01:03:29.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 70 signal: 00000010
+03-10 01:03:29.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 408.342 on SvId 80 at time 29008.342442
+03-10 01:03:29.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 80 signal: 00000010
+03-10 01:03:29.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 408.348 on SvId 79 at time 29008.348479
+03-10 01:03:29.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 79 signal: 00000010
+03-10 01:03:29.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 408.350 on SvId 69 at time 29008.350347
+03-10 01:03:29.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 69 signal: 00000010
+03-10 01:03:29.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 408.348 on SvId 85 at time 29008.347340
+03-10 01:03:29.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 85 signal: 00000010
+03-10 01:03:29.012  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 408.340 on SvId 68 at time 29008.340667
+03-10 01:03:29.012  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 68 signal: 00000010
+03-10 01:03:29.029  3163  7451 D GnssMeasCbJni: gnssMeasurementCb
+03-10 01:03:29.033  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:29.035  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:29.036  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:29.038  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:29.042  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:29.043  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:29.043  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:29.046  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:29.046  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:29.047  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:29.089  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:29.089  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.089  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.091  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.094  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 4 ms to receive the response with 0
+03-10 01:03:29.094  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:29.096  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:29.096  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.096  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.098  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.099  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:29.099  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:29.099  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:29.099  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.099  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.100  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.100  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:29.100  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:29.101  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:29.101  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.101  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.103  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.103  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:29.103  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:29.441  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:29.441  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.441  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.444  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.446  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 4 ms to receive the response with 0
+03-10 01:03:29.446  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:29.447  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:29.447  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.447  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.449  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.449  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:29.450  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:29.451  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:29.451  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.451  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.452  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.452  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:29.452  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:29.452  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:29.452  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.452  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.453  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.453  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:29.453  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:29.479  2809  4319 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-10 01:03:29.532  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 01:03:29.586  2064  4171 D slpi-TCS3720: ALS_REPORT lux 13.017869, ch0 5.719128-3.400838-2.408943-0.966150, scale 1.1878, fps 90, client 1
+03-10 01:03:29.586  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 01:03:29.587  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 01:03:29.588  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 01:03:29.590  2195 10954 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 01:03:29.590  2195 10954 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 01:03:29.590  2195 10954 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 01:03:29.613  2195 10954 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 01:03:29.613  2195 10954 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 01:03:29.613  2195 10954 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 01:03:29.614  2195 10954 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 01:03:29.629  2195 10955 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 01:03:29.630  2195 10955 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 01:03:29.630  2195 10955 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 01:03:29.640  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 6.91 (13.02-6.11), pre 4.95, dbv 2994, dc 0, fps 90, chPanel 2.70-1.66-1.11-0.41, facCal:lux_s 1.19 cha_s 1.00-0.98-1.02-1.11, RunInfo: DPB 6860-26, TF 6860-0
+03-10 01:03:29.643  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 01:03:29.660 10324 10324 W View    : requestLayout() improperly called by android.widget.LinearLayout{b7aa362 V.E...... ......I. 0,0-1080,168 aid=1073741940} during layout: running second layout pass
+03-10 01:03:29.660 10324 10324 W View    : requestLayout() improperly called by com.google.android.libraries.geo.mapcore.internal.ui.CompassButtonView{7760db0 VFE...C.. ......I. 891,0-1059,168 #7f0b014c app:id/base_compass_button aid=1073742069} during layout: running second layout pass
+03-10 01:03:29.787  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:29.787  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.787  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.789  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.790  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:29.790  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:29.791  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:29.791  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.791  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.793  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.793  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:29.793  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:29.794  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:29.794  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.794  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.796  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.796  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:29.796  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:29.797  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:29.797  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:29.797  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:29.798  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:29.800  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:29.800  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:30.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 409.343 on SvId 78 at time 29009.342583
+03-10 01:03:30.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 78 signal: 00000010
+03-10 01:03:30.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 409.348 on SvId 70 at time 29009.348446
+03-10 01:03:30.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 70 signal: 00000010
+03-10 01:03:30.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 409.342 on SvId 80 at time 29009.342445
+03-10 01:03:30.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 80 signal: 00000010
+03-10 01:03:30.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 409.348 on SvId 79 at time 29009.348480
+03-10 01:03:30.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 79 signal: 00000010
+03-10 01:03:30.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 409.350 on SvId 69 at time 29009.350347
+03-10 01:03:30.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 69 signal: 00000010
+03-10 01:03:30.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 409.348 on SvId 85 at time 29009.347339
+03-10 01:03:30.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 85 signal: 00000010
+03-10 01:03:30.010  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 409.340 on SvId 68 at time 29009.340665
+03-10 01:03:30.010  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 68 signal: 00000010
+03-10 01:03:30.022  3163  7402 D GnssMeasCbJni: gnssMeasurementCb
+03-10 01:03:30.031  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:30.034  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:30.040  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:30.042  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:30.046  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:30.047  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:30.047  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:30.048  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:30.048  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:30.048  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:30.134  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:30.134  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.135  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.137  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.138  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:30.138  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:30.138  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:30.139  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.139  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.141  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.141  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:30.141  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:30.143  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:30.144  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.144  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.144  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.146  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:30.146  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:30.147  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:30.147  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.147  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.148  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.148  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:30.148  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:30.256  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 39.512. prev severity:3. cur severity:0 New severity:0
+03-10 01:03:30.466 10834 10834 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdownVoiceInternal():148 shutdownVoiceInternal()
+03-10 01:03:30.483  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:30.484  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.484  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.485  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.486  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:30.486  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:30.486  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:30.486  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.487  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.488  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.488  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:30.488  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:30.490  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:30.490  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.490  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.491  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.491  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:30.491  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:30.492  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:30.492  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.492  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.493  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.493  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:30.493  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:30.830  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:30.830  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.830  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.832  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.834  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 3 ms to receive the response with 0
+03-10 01:03:30.834  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:30.835  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:30.836  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.836  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.837  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.837  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:30.837  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:30.838  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:30.838  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.838  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.839  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.839  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:30.839  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:30.840  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:30.840  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:30.840  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:30.841  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:30.841  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-10 01:03:30.841  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:30.961 10236 10292 I appium  : AppiumResponse: {"sessionId":"7709e767-e69a-42c3-b27f-60af9a22b934","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.apps.maps\" cla…
+03-10 01:03:30.974 10236 10292 I appium  : channel read: GET /session/7709e767-e69a-42c3-b27f-60af9a22b934/screenshot
+03-10 01:03:30.975 10236 10292 I appium  : CaptureScreenshot command
+03-10 01:03:30.976 10236 10292 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 01:03:30.977 10236 10292 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 01:03:31.008  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 410.348 on SvId 70 at time 29010.348447
+03-10 01:03:31.008  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 70 signal: 00000010
+03-10 01:03:31.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 410.342 on SvId 80 at time 29010.342448
+03-10 01:03:31.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 80 signal: 00000010
+03-10 01:03:31.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 410.348 on SvId 79 at time 29010.348480
+03-10 01:03:31.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 79 signal: 00000010
+03-10 01:03:31.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 410.350 on SvId 69 at time 29010.350346
+03-10 01:03:31.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 69 signal: 00000010
+03-10 01:03:31.009  2075  3713 W android.hardware.gnss-aidl-service-qti: getSvState:exceeded dt limit 410.348 on SvId 85 at time 29010.347339
+03-10 01:03:31.009  2075  3713 W LocSvc_IzatApiV02: getSatellitePVT:579] unable to get SvState: prn: 85 signal: 00000010
+03-10 01:03:31.020  3163  7451 D GnssMeasCbJni: gnssMeasurementCb
+03-10 01:03:31.028  2064  4171 D slpi-TCS3720: ALS_REPORT lux 14.131883, ch0 6.454986-3.821286-2.581782-1.031284, scale 1.1878, fps 90, client 1
+03-10 01:03:31.028  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 01:03:31.028  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 01:03:31.030  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:31.033  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 01:03:31.034  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:31.034  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:31.035  2195 10979 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 01:03:31.035  2195 10979 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 01:03:31.035  2195 10979 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 01:03:31.038  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 01:03:31.044  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:31.044  2195 10979 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 01:03:31.044  2195 10979 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 01:03:31.044  2195 10979 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 01:03:31.044  2195 10979 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 01:03:31.046  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:31.047  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:31.049  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:31.050  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 01:03:31.050  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 01:03:31.063  2195 10980 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 01:03:31.064  2195 10980 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 01:03:31.064  2195 10980 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 01:03:31.072  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 8.02 (14.13-6.12), pre 6.91, dbv 2994, dc 0, fps 90, chPanel 2.78-1.73-1.12-0.42, facCal:lux_s 1.19 cha_s 1.00-0.98-1.02-1.11, RunInfo: DPB 6861-26, TF 6861-0
+03-10 01:03:31.076  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 01:03:31.094 10972 10972 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 01:03:31.095 10972 10972 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 01:03:31.178  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:31.178  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.178  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.181  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.181  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 3 ms to receive the response with 0
+03-10 01:03:31.181  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:31.183  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:31.183  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.183  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.185  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.185  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:31.185  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:31.186  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:31.186  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.186  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.188  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.188  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:31.188  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:31.189  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:31.189  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.190  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.192  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.193  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-10 01:03:31.193  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed
+03-10 01:03:31.319  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 01:03:31.319  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 01:03:31.320  2064  4171 D slpi-TCS3720: ALS_REPORT lux 15.625669, ch0 7.515486-4.486552-2.830239-1.139840, scale 1.1878, fps 90, client 1
+03-10 01:03:31.320  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 01:03:31.321  2195 10983 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 01:03:31.321  2195 10983 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 01:03:31.321  2195 10983 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 01:03:31.329  2195 10983 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 01:03:31.329  2195 10983 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 01:03:31.329  2195 10983 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 01:03:31.329  2195 10983 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 01:03:31.343  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 01:03:31.347  2195 10985 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 01:03:31.348  2195 10985 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 01:03:31.348  2195 10985 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 01:03:31.359  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 9.51 (15.63-6.12), pre 8.02, dbv 2994, dc 0, fps 90, chPanel 2.79-1.73-1.12-0.42, facCal:lux_s 1.19 cha_s 1.00-0.98-1.02-1.11, RunInfo: DPB 6862-26, TF 6862-0
+03-10 01:03:31.479  2809  4319 D BufferPoolAccessor2.0: bufferpool2 0xb4000070fcb3b8d8 : 0(0 size) total buffers - 0(0 size) used buffers - 85/89 (recycle/alloc) - 4/89 (fetch/transfer)
+03-10 01:03:31.480  2809  4319 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 1
+03-10 01:03:31.481  2747  4482 D BufferPoolAccessor2.0: bufferpool2 0xb400006e7a82b058 : 0(0 size) total buffers - 0(0 size) used buffers - 83/91 (recycle/alloc) - 8/176 (fetch/transfer)
+03-10 01:03:31.481  2747  4482 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+03-10 01:03:31.501 10236 10292 I appium  : AppiumResponse: {"sessionId":"7709e767-e69a-42c3-b27f-60af9a22b934","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7J13nBvVuf6/58yMurZX915wxQYbY2zAoSX0TiiplxCSXxLCzU1Ces9Nbm5uclNuQkIS0nsgEHqx6QYbMDa2cW/rtuutklZlZs7vj5G0u/Z6i7faPt8PYnel0eiMNB7NPOd5n1dMnXG6QqM…
+03-10 01:03:31.537  2064  2064 I sensors-hal: flush:235, android.sensor.magnetic_field_uncalibrated/141
+03-10 01:03:31.539  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.540  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.544  2064 10783 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.544  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 4 ms to receive the response with 0
+03-10 01:03:31.544  2064  2064 I sensors-hal: flush:241, android.sensor.magnetic_field_uncalibrated/141 completed
+03-10 01:03:31.545  2064  2064 I sensors-hal: flush:235, android.sensor.gravity/91
+03-10 01:03:31.545  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.545  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.546  2064 10888 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.547  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:31.547  2064  2064 I sensors-hal: flush:241, android.sensor.gravity/91 completed
+03-10 01:03:31.547  2064  2064 I sensors-hal: flush:235, android.sensor.linear_acceleration/101
+03-10 01:03:31.547  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.547  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.549  2064 10886 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.549  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:31.549  2064  2064 I sensors-hal: flush:241, android.sensor.linear_acceleration/101 completed
+03-10 01:03:31.550  2064  2064 I sensors-hal: flush:235, android.sensor.gyroscope_uncalibrated/161
+03-10 01:03:31.550  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 01:03:31.550  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 01:03:31.551  2064 10801 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 01:03:31.551  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 01:03:31.551  2064  2064 I sensors-hal: flush:241, android.sensor.gyroscope_uncalibrated/161 completed

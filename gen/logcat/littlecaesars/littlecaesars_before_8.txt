@@ -1,0 +1,42 @@
+--------- beginning of main
+03-10 02:13:10.581 11902 11929 I appium  : channel read: GET /session/0f15949e-e21f-450b-ab82-f35d92e2d27a/source
+03-10 02:13:10.582 11902 11929 I appium  : Source command
+03-10 02:13:10.583 11902 11929 I appium  : Waiting up to 10000ms for the device to idle
+03-10 02:13:10.594  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 02:13:10.666 11902 11929 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 02:13:10.704  5727  5777 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 02:13:10.705  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 02:13:10.736 11902 11929 I appium  : AppiumResponse: {"sessionId":"0f15949e-e21f-450b-ab82-f35d92e2d27a","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.littlecaesars\" class=\"androi…
+03-10 02:13:10.750 11902 11929 I appium  : channel read: GET /session/0f15949e-e21f-450b-ab82-f35d92e2d27a/screenshot
+03-10 02:13:10.751 11902 11929 I appium  : CaptureScreenshot command
+03-10 02:13:10.753 11902 11929 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 02:13:10.753 11902 11929 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 02:13:10.906 12451 12451 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 02:13:10.906 12451 12451 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 02:13:11.308  3163  3183 I system_server: Background concurrent mark compact GC freed 91MB AllocSpace bytes, 96(3232KB) LOS objects, 51% free, 89MB/185MB, paused 1.981ms,10.031ms total 606.003ms
+03-10 02:13:11.320  3163  3184 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+03-10 02:13:11.322  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 02:13:11.338  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/base.apk' with 1 weak references
+03-10 02:13:11.338  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_CronetDynamite_installtime.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_DynamiteLoader_installtime.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_DynamiteModulesA_installtime.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_DynamiteModulesC_installtime.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_GoogleCertificates_installtime.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_MapsDynamite_installtime.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_MeasurementDynamite_installtime.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_config.en.apk' with 1 weak references
+03-10 02:13:11.339  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~oh18E6OPe75t2j1pIlTLCA==/com.google.android.gms-WmJzXfiTA3epqGUme2kT3Q==/split_config.xxhdpi.apk' with 1 weak references
+03-10 02:13:11.340  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iGEBk7bJwQa3wR9pAAYTvQ==/com.google.android.inputmethod.latin-ioH-_yGpeWmbQvQM-XgGHA==/base.apk' with 1 weak references
+03-10 02:13:11.340  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iGEBk7bJwQa3wR9pAAYTvQ==/com.google.android.inputmethod.latin-ioH-_yGpeWmbQvQM-XgGHA==/split_brella_feature_split.apk' with 1 weak references
+03-10 02:13:11.340  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iGEBk7bJwQa3wR9pAAYTvQ==/com.google.android.inputmethod.latin-ioH-_yGpeWmbQvQM-XgGHA==/split_config.xxhdpi.apk' with 1 weak references
+03-10 02:13:11.340  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iGEBk7bJwQa3wR9pAAYTvQ==/com.google.android.inputmethod.latin-ioH-_yGpeWmbQvQM-XgGHA==/split_dictation_feature_split.apk' with 1 weak references
+03-10 02:13:11.340  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~iGEBk7bJwQa3wR9pAAYTvQ==/com.google.android.inputmethod.latin-ioH-_yGpeWmbQvQM-XgGHA==/split_tenoranimation_feature_split.apk' with 1 weak references
+03-10 02:13:11.341  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~f83RRyd2odkEq3iwODDfFA==/com.google.android.tts-7ugC9DcJJIjhqqLFuNLAQg==/base.apk' with 1 weak references
+03-10 02:13:11.341  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~f83RRyd2odkEq3iwODDfFA==/com.google.android.tts-7ugC9DcJJIjhqqLFuNLAQg==/split_config.arm64_v8a.apk' with 1 weak references
+03-10 02:13:11.341  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~f83RRyd2odkEq3iwODDfFA==/com.google.android.tts-7ugC9DcJJIjhqqLFuNLAQg==/split_config.en.apk' with 1 weak references
+03-10 02:13:11.341  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~f83RRyd2odkEq3iwODDfFA==/com.google.android.tts-7ugC9DcJJIjhqqLFuNLAQg==/split_config.xxhdpi.apk' with 1 weak references
+03-10 02:13:11.341  3163  3185 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~vblSUOIFmJMcd2iQozsMEw==/io.appium.settings-y_bUEUiCIapHWGJ1bK5L4w==/base.apk' with 1 weak references
+03-10 02:13:11.342  3163  3185 W System  : A resource failed to call release. 
+03-10 02:13:11.342  3163  3185 W System  : A resource failed to call HardwareBuffer.close. 
+03-10 02:13:11.343  3163  3185 W System  : A resource failed to call release. 
+03-10 02:13:11.476 11902 11929 I appium  : AppiumResponse: {"sessionId":"0f15949e-e21f-450b-ab82-f35d92e2d27a","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFR12sbxeya90wJIb4IUUaSJFSxYwbKWVVFxXevade1rW3dX13ftfXVdK3bFgooNUUSlCdIEpPcWSgoJSeb942F2ZjKTZJJMO8n3c125YM6Uc2YymTnnPs/v+bk8Y+URAAAAAACAg7n…

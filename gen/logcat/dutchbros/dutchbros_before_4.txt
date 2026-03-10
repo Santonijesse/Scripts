@@ -1,0 +1,34 @@
+--------- beginning of main
+03-09 23:46:58.813  2214  2254 W ANDR-PERF-LM: MetaMeter: handleSecondaryAsync() 151: LightningLaunches MetaMeterThread start(). No MeterMgr Available to handle this Secondary/Data Async. !!!! 
+03-09 23:46:58.894 22351 22381 I appium  : channel read: GET /session/ccf87514-9b6b-4991-864b-7676c5b18842/source
+03-09 23:46:58.895 22351 22381 I appium  : Source command
+03-09 23:46:58.896 22351 22381 I appium  : Waiting up to 10000ms for the device to idle
+03-09 23:46:58.975 22351 22381 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 23:46:59.037 22351 22381 I appium  : AppiumResponse: {"sessionId":"ccf87514-9b6b-4991-864b-7676c5b18842","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dutchbros.loyalty\" class=\"an…
+03-09 23:46:59.058 22351 22381 I appium  : channel read: GET /session/ccf87514-9b6b-4991-864b-7676c5b18842/screenshot
+03-09 23:46:59.059 22351 22381 I appium  : CaptureScreenshot command
+03-09 23:46:59.061 22351 22381 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 23:46:59.061 22351 22381 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 23:46:59.206 22886 22886 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 23:46:59.206 22886 22886 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 23:46:59.419  2214  2254 W ANDR-PERF-LM: MetaMeter: handleSecondaryAsync() 151: LightningLaunches MetaMeterThread start(). No MeterMgr Available to handle this Secondary/Data Async. !!!! 
+--------- beginning of system
+03-09 23:46:59.689  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=16666666, appVsyncOffsetNanos=1000000
+03-09 23:46:59.695  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10276/673
+03-09 23:46:59.695  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-09 23:46:59.696  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-09 23:46:59.708  2067 14471 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-09 23:46:59.710  2067 14471 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-09 23:46:59.713  2067 14471 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-09 23:46:59.714 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-09 23:46:59.714  2067 14471 D AHAL: FM: fm_set_parameters: 262: Enter
+03-09 23:46:59.714  2067 14471 D AHAL: FM: fm_set_parameters: 320: exit
+03-09 23:46:59.714  2067 14471 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-09 23:46:59.714  2067 14471 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-09 23:46:59.714  2067 14471 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-09 23:46:59.722 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.16477805 nit = 20.520638 level = br1
+03-09 23:46:59.722  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-09 23:46:59.722  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-09 23:46:59.722  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-09 23:46:59.722  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-09 23:46:59.783 22351 22381 I appium  : AppiumResponse: {"sessionId":"ccf87514-9b6b-4991-864b-7676c5b18842","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFR3ni/+d20sVewom4LIpiCKaEQQFxT3mHQ6Ma1Jx5ilJ52ObZKZzPymZ+bO7ZncO9M9Nzd9e8026WxOTDSJ0WjcZTMuqLggu+z7WiAUFFBV5/z+YOo0FZBFC6pK3q/nyROr6tSpbwl…

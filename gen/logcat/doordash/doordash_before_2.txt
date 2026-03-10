@@ -1,0 +1,14 @@
+--------- beginning of main
+03-09 23:26:27.682  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-09 23:26:27.791 27360 27388 I appium  : channel read: GET /session/20c17f10-ee5b-4d06-b1d5-f38acacf07cf/source
+03-09 23:26:27.792 27360 27388 I appium  : Source command
+03-09 23:26:27.793 27360 27388 I appium  : Waiting up to 10000ms for the device to idle
+03-09 23:26:28.075 27360 27388 I appium  : AppiumResponse: {"sessionId":"20c17f10-ee5b-4d06-b1d5-f38acacf07cf","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dd.doordash\" class=\"android.…
+03-09 23:26:28.090 27360 27388 I appium  : channel read: GET /session/20c17f10-ee5b-4d06-b1d5-f38acacf07cf/screenshot
+03-09 23:26:28.092 27360 27388 I appium  : CaptureScreenshot command
+03-09 23:26:28.093 27360 27388 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 23:26:28.094 27360 27388 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 23:26:28.240 28196 28196 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 23:26:28.241 28196 28196 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 23:26:28.394  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-09 23:26:28.710 27360 27388 I appium  : AppiumResponse: {"sessionId":"20c17f10-ee5b-4d06-b1d5-f38acacf07cf","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFR3vj/w9xlmaDOCgFI0IAKiYAONClYUu9EUNRoTY2KyKZsY99nsvdls7m7uZvMkd5O72SS7m7ZZN02NJjFW7DRjQ1FBmoUqRdrQGWDK+f3Bb85lQhEQmDn6fj2Pz+PMad9hYOac9/l…

@@ -1,0 +1,15 @@
+--------- beginning of main
+03-10 01:32:15.395  6412  6445 I appium  : channel read: GET /session/483b79c8-d122-46af-8f48-85080124a201/source
+03-10 01:32:15.399  6412  6445 I appium  : Source command
+03-10 01:32:15.400  6412  6445 I appium  : Waiting up to 10000ms for the device to idle
+03-10 01:32:15.778  6412  6445 I appium  : AppiumResponse: {"sessionId":"483b79c8-d122-46af-8f48-85080124a201","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.checkitt\" class=\"android.wid…
+03-10 01:32:15.799  6412  6445 I appium  : channel read: GET /session/483b79c8-d122-46af-8f48-85080124a201/screenshot
+03-10 01:32:15.801  6412  6445 I appium  : CaptureScreenshot command
+03-10 01:32:15.803  6412  6445 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 01:32:15.803  6412  6445 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 01:32:15.847  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 01:32:15.951  7555  7555 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 01:32:15.951  7555  7555 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+--------- beginning of system
+03-10 01:32:16.031  3163  4132 W ProcessStats: Tracking association SourceState{9ee95f7 com.google.android.gms.persistent/10240 BTop #173879} whose proc state 2 is better than process ProcessState{2016f6f com.google.android.adservices.api/10408 pkg=com.google.android.adservices.api} proc state 14 (31 skipped)
+03-10 01:32:16.543  6412  6445 I appium  : AppiumResponse: {"sessionId":"483b79c8-d122-46af-8f48-85080124a201","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fBPV/j/+1yRpmy50LxSh7BQKKoso9LLIDoqo1wUVVDaXgrIrV5RNrgsoCoJwRXABvLixXq4gyw9EEIpfQHYoiOyUUrpD27RJ3r8/+mkuIemeZDLwej4e74cyMzlzJjmEM++cOUcBICA…
