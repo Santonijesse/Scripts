@@ -1,0 +1,79 @@
+--------- beginning of main
+03-09 21:13:38.644  3541  3572 I appium  : channel read: GET /session/c07b324e-b0fa-43ed-a0d0-518129fd9ee2/source
+03-09 21:13:38.645  3541  3572 I appium  : Source command
+03-09 21:13:38.646  3541  3572 I appium  : Waiting up to 10000ms for the device to idle
+03-09 21:13:38.870  3617  4022 D Helios:Network-White: Block request editor-api.capcutapi.com
+03-09 21:13:38.877  3617  3865 D Helios:Network-TTNet: pop event true for 7c447b0c-6084-445a-aa2e-ff2bb7d79648
+03-09 21:13:39.208  3541  3572 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 21:13:39.213 13100 13443 W RealtimeClientManager: Channel state: MqttChannelState{mConnectionState=CONNECTING, mDisconnectionReason=null, mLastConnectionMs=35163120, mLastDisconnectMs=35174116}
+--------- beginning of system
+03-09 21:13:39.220  3163  4238 D ActivityManager: freezing 15605 com.android.rkpdapp, reason = oom_cached
+03-09 21:13:39.224  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 21:13:39.225  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 21:13:39.225  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10562} in 2ms
+03-09 21:13:39.382  3541  3572 I appium  : AppiumResponse: {"sessionId":"c07b324e-b0fa-43ed-a0d0-518129fd9ee2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.lemon.lvoverseas\" class=\"and…
+03-09 21:13:39.404  3541  3572 I appium  : channel read: GET /session/c07b324e-b0fa-43ed-a0d0-518129fd9ee2/screenshot
+03-09 21:13:39.405  3541  3572 I appium  : CaptureScreenshot command
+03-09 21:13:39.408  3541  3572 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 21:13:39.408  3541  3572 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 21:13:39.506  4605  4605 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 21:13:39.506  4605  4605 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 21:13:39.827  3617  3888 D Helios:Network-White: Block request feed-api.capcutapi.com
+03-09 21:13:39.836  3617  3865 D Helios:Network-TTNet: pop event true for 920fc397-98e9-4d9c-aec4-a2c816937dd9
+03-09 21:13:39.874  1362  3474 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+03-09 21:13:40.042  3541  3572 I appium  : AppiumResponse: {"sessionId":"c07b324e-b0fa-43ed-a0d0-518129fd9ee2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15cBT3nf//14xmJHSDhHWAJUAICWFubCHuy1zGRxyTNY7jkNhZx7FDkipXNnsnlc3+Kkc55Xh3vY5rN5djbHxic4lLXOY2NwgQOkBCEkInukZoNNO/P/iqV0IHAnRMo+ejylUeTav7M5K…
+03-09 21:13:40.109  3617  4022 W System.err: java.lang.NumberFormatException: For input string: ""
+03-09 21:13:40.110  3617  4022 W System.err: 	at java.lang.Integer.parseInt(Integer.java:800)
+03-09 21:13:40.110  3617  4022 W System.err: 	at java.lang.Integer.parseInt(Integer.java:908)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.launcher.network.interceptors.CrackingInterceptor.intercept(Native Method)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.launcher.network.interceptors.TimeOutSettingInterceptor.intercept(Unknown Source:17302191)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.launcher.network.interceptors.LynxSignVerifyInterceptor.intercept(Unknown Source:17170503)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.launcher.network.interceptors.SignVerifyInterceptor.intercept(Unknown Source:17104974)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.launcher.network.interceptors.AssistInterceptor.intercept(Unknown Source:17236333)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.effectplatform.artist.net.ArtistCollectInterceptor.intercept(Unknown Source:17105003)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.launcher.network.interceptors.RetrofitHeaderInterceptor.intercept(Unknown Source:17367931)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.libeffectapi.util.VimoNetHeaderInterceptor.intercept(Unknown Source:17170582)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.lm.components.network.extra.HttpHeaderInterceptor.intercept(Unknown Source:17302064)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.privacy.dispatch.monitor.BootDomainInterceptor.intercept(Unknown Source:17170460)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.privacy.region.CdnRegionInterceptor.intercept(Unknown Source:17235977)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at ms.bd.o.b3$a.intercept(Unknown Source:17170438)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.frameworks.baselib.network.http.retrofit.BaseSsInterceptor.intercept(Unknown Source:16973846)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.getResponseWithInterceptorChain(Unknown Source:327790)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.execute(Unknown Source:327713)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.bytedance.retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(Unknown Source:65538)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.lm.components.network.network.NetWorker.executeGetSync(Unknown Source:117833853)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.lm.components.network.network.INetWorker$DefaultImpls.a(Unknown Source:100794376)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.lm.components.network.network.NetWorker.d(Unknown Source:67305485)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.lm.components.network.NetworkManager.d(Unknown Source:7)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.core.net.NetworkManagerWrapper.g(Unknown Source:50528271)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.a(Unknown Source:33882199)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.execute(Unknown Source:17170548)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNNetworkClient.fetchFromNetwork(Unknown Source:17170482)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.FetchModelListTask.a(Unknown Source:393259)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.ModelConfigArbiter.a(Unknown Source:33947753)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.e(Unknown Source:33816581)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.a(Unknown Source:327693)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelAndEffectTask.g(Unknown Source:33947741)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.algorithm.AlgorithmEffectFetcher.c(Unknown Source:33947799)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.repository.AlgorithmRepository$fetchResourcesByRequirementsAndModelNames$1.a(Unknown Source:262158)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.ugc.effectplatform.task.TaskManager$commit$2.run(Unknown Source:262161)
+03-09 21:13:40.110  3617  4022 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNExecutor$execute$1.run(Unknown Source:65540)
+03-09 21:13:40.110  3617  4022 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(Unknown Source:327691)
+03-09 21:13:40.110  3617  4022 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Unknown Source:196610)
+03-09 21:13:40.110  3617  4022 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(Unknown Source:458805)

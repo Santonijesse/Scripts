@@ -11,8 +11,8 @@ from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 APP_NAME = "nextdoor"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots")
-XML_DIR = os.path.join(BASE_DIR, "ui_xml")
+SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
+XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 
 # Nextdoor
 # Note: need gmail account
@@ -36,7 +36,7 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(3)
 
-def tap(x, y, delay=0):
+def tap(x, y, delay=2):
     actions = ActionChains(driver)
     actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
     actions.w3c_actions.pointer_action.move_to_location(x, y)
@@ -47,10 +47,10 @@ def tap(x, y, delay=0):
     if delay > 0:
         time.sleep(delay)
 
-tap(1000, 1660, 1)
-tap(540, 1840, 1)
-tap(540, 1540, 1)
-tap(500, 960, 1)
+tap(1000, 1660, 2)
+tap(540, 1840, 2)
+tap(540, 1540, 2)
+tap(500, 960, 3)
 
 # Note: need gmail account
 

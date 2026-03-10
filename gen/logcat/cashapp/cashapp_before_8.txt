@@ -1,0 +1,31 @@
+--------- beginning of main
+03-09 21:22:24.396 17237 17298 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=51e69214-b4f7-48e5-8949-824f08315fd6, tags={ com.squareup.util.workmanager.SandboxedCoroutineWorker } ]
+03-09 21:22:24.402 17237 17237 D WM-Processor: Processor 51e69214-b4f7-48e5-8949-824f08315fd6 executed; reschedule = false
+03-09 21:22:24.402 17237 17237 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=51e69214-b4f7-48e5-8949-824f08315fd6, generation=0)
+03-09 21:22:24.407 17195 17222 I appium  : channel read: GET /session/d5ee03f9-34cf-432f-aa3e-c32d1c30c690/source
+03-09 21:22:24.408 17195 17222 I appium  : Source command
+03-09 21:22:24.409 17195 17222 I appium  : Waiting up to 10000ms for the device to idle
+03-09 21:22:24.415 17237 17298 D WM-GreedyScheduler: Cancelling work ID 51e69214-b4f7-48e5-8949-824f08315fd6
+03-09 21:22:24.417 17237 17279 D WM-NetworkStateTracker: Unregistering network callback
+03-09 21:22:24.423  3163  5216 W PackageManager: Missing required system package: com.squareup.cash, but found with extended search.
+03-09 21:22:24.423 17237 17279 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver disabled
+--------- beginning of system
+03-09 21:22:24.441  3163  4238 D ActivityManager: freezing 15605 com.android.rkpdapp, reason = oom_cached
+03-09 21:22:24.445  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-09 21:22:24.448  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-09 21:22:24.448  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10562} in 3ms
+03-09 21:22:24.552  3163  4188 D ActivityManager: unfreezing ProcessRecord{9444387 319:com.google.android.as.oss/u0a267}, reason = unfreezeTemporarily, adj = 915, adjType = cch-empty, adjSource = null
+03-09 21:22:24.553  3163  4188 D ActivityManager: sync unfroze 319 com.google.android.as.oss for 27
+03-09 21:22:24.556 17195 17222 I appium  : AppiumResponse: {"sessionId":"d5ee03f9-34cf-432f-aa3e-c32d1c30c690","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.squareup.cash\" class=\"androi…
+03-09 21:22:24.558  3163  4188 W JobServiceContext: Sending onNetworkChanged for a job that isn't started. JobStatus{3b0c8b5 #u0a267/-1459396391 com.google.android.as.oss/com.google.android.gms.learning.internal.training.InAppJobService u=0 s=10267 TIME=-11ms:none NET CHARGING PERSISTED READY}
+03-09 21:22:24.571 17195 17222 I appium  : channel read: GET /session/d5ee03f9-34cf-432f-aa3e-c32d1c30c690/screenshot
+03-09 21:22:24.572  3163  7441 W JobScheduler: Job didn't exist in JobStore: 3b0c8b5 #u0a267/-1459396391 com.google.android.as.oss/com.google.android.gms.learning.internal.training.InAppJobService
+03-09 21:22:24.572 17195 17222 I appium  : CaptureScreenshot command
+03-09 21:22:24.574 17195 17222 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 21:22:24.574 17195 17222 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 21:22:24.721 17900 17900 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 21:22:24.721 17900 17900 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 21:22:24.990  2064  4171 D slpi    : tmd2712: Als lux: 2.60, ch0: 43, ch1: 4, scale: 1.08, atime:50.04, again:1024
+03-09 21:22:25.000  5643 13675 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-09 21:22:25.256  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 33.324. prev severity:3. cur severity:0 New severity:0
+03-09 21:22:25.281 17195 17222 I appium  : AppiumResponse: {"sessionId":"d5ee03f9-34cf-432f-aa3e-c32d1c30c690","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl+v/x+8yENCAJSZBm6B2kBBD4SQldRUDdtbIriEoRYSmrC0iTBRddXZqy8pVVAUEXAUEEpHzp0hYUkN6RUEIKCWVInfv3R745myGFAJmZHHm/ruu+LpjTnpOZZM585nmeY4iICgA…

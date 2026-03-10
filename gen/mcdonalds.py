@@ -11,8 +11,8 @@ from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 APP_NAME = "mcdonalds"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots")
-XML_DIR = os.path.join(BASE_DIR, "ui_xml")
+SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
+XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 
 # McDonald's — check order items remain in cart
 # Note: need to sign in to add items to order
@@ -36,7 +36,7 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(3)
 
-def tap(x, y, delay=0):
+def tap(x, y, delay=2):
     actions = ActionChains(driver)
     actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
     actions.w3c_actions.pointer_action.move_to_location(x, y)
@@ -47,14 +47,14 @@ def tap(x, y, delay=0):
     if delay > 0:
         time.sleep(delay)
 
-tap(500, 750, 1)
-tap(275, 2240, 1)
-tap(300, 1300, 1)
-tap(500, 2440, 1)
-tap(750, 1185, 1)
-tap(520, 1550, 1)
-tap(550, 2100, 1)
-tap(550, 1900, 1)
+tap(500, 750, 2)
+tap(275, 2240, 2)
+tap(300, 1300, 2)
+tap(500, 2440, 2)
+tap(750, 1185, 2)
+tap(520, 1550, 2)
+tap(550, 2100, 2)
+tap(550, 1900, 3)
 
 # Note: need to sign in to add items to order — no close/open
 

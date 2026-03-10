@@ -11,8 +11,8 @@ from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 APP_NAME = "ubereats"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots")
-XML_DIR = os.path.join(BASE_DIR, "ui_xml")
+SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
+XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 
 # Uber Eats
 # Note: need to sign in — no interaction possible
@@ -36,7 +36,7 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(3)
 
-def tap(x, y, delay=0):
+def tap(x, y, delay=2):
     actions = ActionChains(driver)
     actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
     actions.w3c_actions.pointer_action.move_to_location(x, y)

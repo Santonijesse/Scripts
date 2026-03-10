@@ -1,6 +1,6 @@
 # App Actions Log
 
-Device: ZY22HS5QFQ | Android 15
+Device: ZY22HS5QFQ (Motorola Razr 2023) | Android 15
 Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---

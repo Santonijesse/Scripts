@@ -1,5 +1,26 @@
 # Appium Capabilities Reference — Food & Delivery Apps
 
+## Scripts requiring login (no capture block)
+
+The following scripts are stubs — they cannot complete the before/after fold sequence without an account:
+
+- dunkin.py — can't download policies
+- earnify.py — needs login
+- freecash.py — needs Gmail
+- instacart.py — needs login
+- mcdonalds.py — needs login
+- nextdoor.py — needs Gmail account
+- nytimes.py — needs login
+- reddit.py — needs Gmail account
+- substack.py — needs an account
+- toogoodtogo.py — needs login
+- ubereats.py — needs login
+- whatnot.py — needs Gmail
+- x_twitter.py — needs an account
+- yelp.py — needs login
+
+---
+
 This document provides `load_capabilities` blocks for 20 Android food/delivery apps.
 Replace `<PLATFORM_VERSION>`, `<DEVICE_NAME_OR_IP>`, and `<UDID>` with your device's actual values.
 

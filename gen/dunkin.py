@@ -11,8 +11,8 @@ from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 APP_NAME = "dunkin"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots")
-XML_DIR = os.path.join(BASE_DIR, "ui_xml")
+SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
+XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 
 # Dunkin'
 # Note: Can't download policies — no close/open
@@ -36,7 +36,7 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(3)
 
-def tap(x, y, delay=0):
+def tap(x, y, delay=2):
     actions = ActionChains(driver)
     actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
     actions.w3c_actions.pointer_action.move_to_location(x, y)
@@ -47,8 +47,8 @@ def tap(x, y, delay=0):
     if delay > 0:
         time.sleep(delay)
 
-tap(550, 1550, 1)
-tap(800, 2430, 1)
+tap(550, 1550, 2)
+tap(800, 2430, 3)
 
 # Note: Can't download policies
 
