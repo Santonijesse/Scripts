@@ -1,0 +1,14 @@
+--------- beginning of main
+03-10 16:52:48.899 28386 28417 I appium  : channel read: GET /session/fc7f70ed-7a9d-41eb-a379-6d409cf61f04/source
+03-10 16:52:48.903 28386 28417 I appium  : Source command
+03-10 16:52:48.904 28386 28417 I appium  : Waiting up to 10000ms for the device to idle
+03-10 16:52:48.999  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 16:52:49.391 28386 28417 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 16:52:49.591 28386 28417 I appium  : AppiumResponse: {"sessionId":"fc7f70ed-7a9d-41eb-a379-6d409cf61f04","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dunkinbrands.otgo\" class=\"an…
+03-10 16:52:49.617 28386 28417 I appium  : channel read: GET /session/fc7f70ed-7a9d-41eb-a379-6d409cf61f04/screenshot
+03-10 16:52:49.619 28386 28417 I appium  : CaptureScreenshot command
+03-10 16:52:49.620 28386 28417 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 16:52:49.620 28386 28417 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 16:52:49.769 29401 29401 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 16:52:49.770 29401 29401 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 16:52:50.331 28386 28417 I appium  : AppiumResponse: {"sessionId":"fc7f70ed-7a9d-41eb-a379-6d409cf61f04","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFT3vT/w9wwzbDMwCMiissgqqIAaEcSdROOSNE20msUYzdpak/u0d2l7t7a/2+3mpjftvc1ijEmamERN1MR9Q0FR0SCCIMgOIjvDPgPMzDm/PyjnMrLjsIy8X8/j88icM+d8xwXOeZ/…

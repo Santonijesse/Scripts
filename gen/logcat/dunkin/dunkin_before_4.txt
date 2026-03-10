@@ -1,0 +1,17 @@
+--------- beginning of main
+03-10 16:55:09.377 31915 31944 I appium  : channel read: GET /session/73532925-c10d-4460-a4f6-8f621f6cefa0/source
+03-10 16:55:09.379 31915 31944 I appium  : Source command
+03-10 16:55:09.380 31915 31944 I appium  : Waiting up to 10000ms for the device to idle
+03-10 16:55:09.527  2064  4171 D slpi    : tmd2712: Als lux: 2.10, ch0: 85, ch1: 46, scale: 1.08, atime:50.04, again:1024
+03-10 16:55:09.602  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 16:55:09.903 31915 31944 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 16:55:10.105 31915 31944 I appium  : AppiumResponse: {"sessionId":"73532925-c10d-4460-a4f6-8f621f6cefa0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dunkinbrands.otgo\" class=\"an…
+03-10 16:55:10.139 31915 31944 I appium  : channel read: GET /session/73532925-c10d-4460-a4f6-8f621f6cefa0/screenshot
+03-10 16:55:10.140 31915 31944 I appium  : CaptureScreenshot command
+03-10 16:55:10.142 31915 31944 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 16:55:10.142 31915 31944 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 16:55:10.289   303   303 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 16:55:10.289   303   303 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 16:55:10.527  2064  4171 I slpi-mot_tap : Apply inv Z reset: zpeak 7.966644 zmin -6.451848 lim -3.000000 zpeakn 14 zminn 13
+03-10 16:55:10.851 31915 31944 I appium  : AppiumResponse: {"sessionId":"73532925-c10d-4460-a4f6-8f621f6cefa0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFRXnj7wt4oqhKpiRxYVUDYFBSRGBHEniXFJujudtGYxRrN27Jh5pmd6enq2dP+ml0xPetI901mM0SxtEpdEE41LVBQUFRUVBEFkB9kp9iqgqu79/UFzm5IdqyhK3s/z+DxW3VvnnEK…
+03-10 16:55:10.877  2064  4171 D slpi    : tmd2712: Als lux: 4.60, ch0: 200, ch1: 113, scale: 1.08, atime:50.04, again:1024

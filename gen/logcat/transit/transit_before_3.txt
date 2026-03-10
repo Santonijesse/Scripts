@@ -1,0 +1,68 @@
+--------- beginning of main
+03-10 19:20:22.887 28251 28336 I appium  : channel read: GET /session/9b679454-a204-46db-976d-fb72d7fa97b0/source
+03-10 19:20:22.891 28251 28336 I appium  : Source command
+03-10 19:20:22.892 28251 28336 I appium  : Waiting up to 10000ms for the device to idle
+03-10 19:20:22.897  5993  7698 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-10 19:20:22.901  5993 28584 W SystemServiceRegistry: No service published for: wifirtt
+--------- beginning of system
+03-10 19:20:22.910  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:20:22.912  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:20:22.913  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:20:22.916  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:20:22.922  3721 10754 D LOWI-9.0.1.68: [LOWI-Scan] wait_event:Wait done with Cmd 33
+03-10 19:20:22.922  3721 10754 D LOWI-9.0.1.68: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+03-10 19:20:22.964 28353 28357 I ransitapp.droid: Compiler allocated 4169KB to compile m3.d androidx.compose.ui.platform.u.b(int)
+03-10 19:20:23.028  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:20:23.035  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:20:23.039  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:20:23.043  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 19:20:23.043  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:20:23.044  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:20:23.045  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:20:23.045  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:20:23.161  5993  6006 I .gms.persistent: Background concurrent mark compact GC freed 86MB AllocSpace bytes, 66(2928KB) LOS objects, 71% free, 38MB/134MB, paused 907us,8.990ms total 259.214ms
+03-10 19:20:23.181  5993  6007 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+03-10 19:20:23.185  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Y1B4mLlv36Wo5S7IdcNUjw==/com.google.android.apps.docs-IaCDxOwUHMfie8KXet_7pA==/base.apk' with 1 weak references
+03-10 19:20:23.186  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Y1B4mLlv36Wo5S7IdcNUjw==/com.google.android.apps.docs-IaCDxOwUHMfie8KXet_7pA==/split_config.arm64_v8a.apk' with 1 weak references
+03-10 19:20:23.186  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Y1B4mLlv36Wo5S7IdcNUjw==/com.google.android.apps.docs-IaCDxOwUHMfie8KXet_7pA==/split_config.en.apk' with 1 weak references
+03-10 19:20:23.186  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Y1B4mLlv36Wo5S7IdcNUjw==/com.google.android.apps.docs-IaCDxOwUHMfie8KXet_7pA==/split_config.xxhdpi.apk' with 1 weak references
+03-10 19:20:23.188  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/base.apk' with 1 weak references
+03-10 19:20:23.188  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/split_config.arm64_v8a.apk' with 1 weak references
+03-10 19:20:23.191  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/split_config.en.apk' with 1 weak references
+03-10 19:20:23.191  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/split_config.xxhdpi.apk' with 1 weak references
+03-10 19:20:23.193  5993  6008 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~DXHvEeUvATjzinG7xeksoQ==/com.google.android.partnersetup-tIvFLGEYg8yHcFFaPEIL6A==/base.apk' with 1 weak references
+03-10 19:20:23.364 28251 28336 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 19:20:23.462 28251 28336 I appium  : AppiumResponse: {"sessionId":"9b679454-a204-46db-976d-fb72d7fa97b0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.thetransitapp.droid\" class=\"…
+03-10 19:20:23.480 28251 28336 I appium  : channel read: GET /session/9b679454-a204-46db-976d-fb72d7fa97b0/screenshot
+03-10 19:20:23.481 28251 28336 I appium  : CaptureScreenshot command
+03-10 19:20:23.482 28251 28336 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 19:20:23.482 28251 28336 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 19:20:23.573 28925 28925 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 19:20:23.573 28925 28925 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 19:20:23.589  2064  4171 D slpi-TCS3720: ALS_REPORT lux 8.246400, ch0 3.906538-1.963864-1.447527-0.656765, scale 1.1878, fps 90, client 1
+03-10 19:20:23.589  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 19:20:23.589  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 19:20:23.590  2195  2586 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 19:20:23.591  2195 28931 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 19:20:23.591  2195 28931 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 19:20:23.591  2195 28931 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 19:20:23.600  2195 28931 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 19:20:23.600  2195 28931 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 19:20:23.600  2195 28931 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 19:20:23.600  2195 28931 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 19:20:23.608  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 19:20:23.618  2195 28933 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 19:20:23.618  2195 28933 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 19:20:23.619  2195 28933 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 19:20:23.639  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 3.77 (8.25-4.48), pre 4.75, dbv 1956, dc 0, fps 90, chPanel 1.42-0.39-0.68-0.23, facCal:lux_s 1.19 cha_s 1.05-1.05-1.10-1.23, RunInfo: DPB 15465-50, TF 15465-0
+03-10 19:20:23.681  5727  8012 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 19:20:23.681  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 19:20:24.024 28251 28336 I appium  : AppiumResponse: {"sessionId":"9b679454-a204-46db-976d-fb72d7fa97b0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7F13nNXE9v9O7t0CbKFL7006WBALoqL+VOyoz4IIlmevT332Xl6z9/6sz94rggiIoIIVUIqAIkVYtrDAtpv5/ZFMMplk0m5y713Y8/nAd7+ZlJlzzpw5dzJJSNeevalCCFRKIUNCCKjOKcd…
+03-10 19:20:24.033  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:20:24.039  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:20:24.042  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:20:24.043  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 19:20:24.044  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:20:24.046  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:20:24.047  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:20:24.048  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close

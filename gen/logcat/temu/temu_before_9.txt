@@ -1,0 +1,37 @@
+--------- beginning of main
+03-10 18:31:44.351  5592  5624 I appium  : channel read: GET /session/e299d913-5292-4ee9-be58-5abb82326973/source
+03-10 18:31:44.354  5592  5624 I appium  : Source command
+03-10 18:31:44.354  5592  5624 I appium  : Waiting up to 10000ms for the device to idle
+03-10 18:31:44.458  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 18:31:44.656  4953  5136 I ThermalEngine: ACTION: CPU - Setting CPU[7] to 2
+03-10 18:31:44.665  4953  5136 I ThermalEngine: ACTION: CPU - Setting CPU[4] to 2
+03-10 18:31:44.727  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 38.102. prev severity:3. cur severity:0 New severity:0
+03-10 18:31:45.001  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 18:31:45.002  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 18:31:45.002  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10267} in 2ms
+03-10 18:31:45.003  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 18:31:45.006  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 18:31:45.006  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20267} in 5ms
+03-10 18:31:45.054  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 18:31:45.056  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 18:31:45.056  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10584} in 3ms
+03-10 18:31:45.057  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 18:31:45.057  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 18:31:45.058  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20584} in 2ms
+03-10 18:31:45.400  5993  5993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-10 18:31:45.599  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 18:31:45.690  5592  5624 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 18:31:45.883  5592  5624 I appium  : AppiumResponse: {"sessionId":"e299d913-5292-4ee9-be58-5abb82326973","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.einnovation.temu\" class=\"and…
+03-10 18:31:45.904  5592  5624 I appium  : channel read: GET /session/e299d913-5292-4ee9-be58-5abb82326973/screenshot
+03-10 18:31:45.905  5592  5624 I appium  : CaptureScreenshot command
+03-10 18:31:45.906  5592  5624 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 18:31:45.906  5592  5624 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 18:31:46.013  7542  7542 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 18:31:46.013  7542  7542 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 18:31:46.443  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 18:31:46.444  3163  5168 D InetDiagMessage: Destroyed 3 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 18:31:46.444  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10650} in 2ms
+03-10 18:31:46.445  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 18:31:46.445  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 18:31:46.445  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={20650} in 2ms
+03-10 18:31:46.752  5592  5624 I appium  : AppiumResponse: {"sessionId":"e299d913-5292-4ee9-be58-5abb82326973","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15UFR3uj/+d3fTbM0myKaCiCyCoKhRwV0JLnEZk+hoEhMnJuMYzVaTeydz77dqMkvNkjvXqWTqJiZWlhszJhoTNXHDDQUVQVEBWQRlk31rkKUb6O5zfn/w63NpQUWFXuD9qrKK3s55WqA…

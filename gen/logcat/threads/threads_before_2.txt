@@ -1,0 +1,22 @@
+--------- beginning of main
+03-10 18:41:06.759 18986 19065 I appium  : channel read: GET /session/7e706e1a-1506-4529-9935-35ed05254c40/source
+03-10 18:41:06.760 18986 19065 I appium  : Source command
+03-10 18:41:06.761 18986 19065 I appium  : Waiting up to 10000ms for the device to idle
+03-10 18:41:06.824 19083 19083 W soft_error.cpp: [pando::graphql::PandoGraphQLRequestHybrid::assertValid] : Using a PandoGraphQLRequest after it has been consumed. Query name is PostLiveMetricsQuery
+03-10 18:41:06.991  3163  4132 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.
+03-10 18:41:07.119 18986 19065 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 18:41:07.334 18986 19065 I appium  : AppiumResponse: {"sessionId":"7e706e1a-1506-4529-9935-35ed05254c40","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instagram.barcelona\" class=\"…
+03-10 18:41:07.361 18986 19065 I appium  : channel read: GET /session/7e706e1a-1506-4529-9935-35ed05254c40/screenshot
+03-10 18:41:07.362 18986 19065 I appium  : CaptureScreenshot command
+03-10 18:41:07.363 18231 18408 I ThermalEngine: SS:INACTIVE:SS-CPU7:cpu-cluster2=0:FUSE_TEMP=36886
+03-10 18:41:07.363 18986 19065 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 18:41:07.364 18986 19065 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 18:41:07.370 18231 18408 I ThermalEngine: SS:INACTIVE:SS-CPU4:cpu-cluster1=0:FUSE_TEMP=36903
+03-10 18:41:07.537 19533 19533 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 18:41:07.537 19533 19533 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 18:41:07.571  5643 10714 D ApfFilter: (wlan0): Adding RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 18:41:07.735  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 18:41:08.003  3163  6975 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.
+03-10 18:41:08.374  5727  8012 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 18:41:08.374  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 18:41:08.680 18986 19065 I appium  : AppiumResponse: {"sessionId":"7e706e1a-1506-4529-9935-35ed05254c40","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFRl/z/w95kZGNYBRUERhRT3HZfU7FHTFDXLBTDNFDQNBFc07Mk008x9eVwxk1zJfSs1XCBzyyW3SgXR3NlX2QZmzu8PvpyfE6CoMMPA+3VdXlecOXPmM4kz57zP575vwdbWVgQRERE…

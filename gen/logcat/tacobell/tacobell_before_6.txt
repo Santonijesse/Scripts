@@ -1,0 +1,28 @@
+--------- beginning of system
+03-10 18:18:37.464  3163  6380 D WindowManager: captureDisplay
+--------- beginning of main
+03-10 18:18:37.509 10945 10980 I appium  : channel read: GET /session/796dbe0d-3868-4ea8-aec1-ef4566d1f38c/source
+03-10 18:18:37.511 10945 10980 I appium  : Source command
+03-10 18:18:37.512 10945 10980 I appium  : Waiting up to 10000ms for the device to idle
+03-10 18:18:37.562  3163  6380 D WindowManager: captureDisplay
+03-10 18:18:37.663  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:37.763  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:37.764  5727  8012 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 18:18:37.764  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 18:18:37.838 10945 10980 I appium  : AppiumResponse: {"sessionId":"796dbe0d-3868-4ea8-aec1-ef4566d1f38c","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tacobell.ordering\" class=\"an…
+03-10 18:18:37.854 10945 10980 I appium  : channel read: GET /session/796dbe0d-3868-4ea8-aec1-ef4566d1f38c/screenshot
+03-10 18:18:37.855 10945 10980 I appium  : CaptureScreenshot command
+03-10 18:18:37.857 10945 10980 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 18:18:37.857 10945 10980 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 18:18:37.864  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:37.964  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:38.013 12058 12058 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 18:18:38.013 12058 12058 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 18:18:38.064  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:38.166  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:38.265  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:38.367  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:38.467  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:38.567  3163  3202 D WindowManager: captureDisplay
+03-10 18:18:38.632 10945 10980 I appium  : AppiumResponse: {"sessionId":"796dbe0d-3868-4ea8-aec1-ef4566d1f38c","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1pdFTnme79q6pUAqk0gAQSAiQGgUBCAsQoRgswgw12EofY2G7bieN2u+MhOSur+5zzfjl9zpc+3f0my53uuBO3Y8f2srEcx2AbMwQQ84wYBWKS0DwPoKkklar2+4FXu1VIAgGSSmX+v7V…
+03-10 18:18:38.669  3163  6016 D WindowManager: captureDisplay

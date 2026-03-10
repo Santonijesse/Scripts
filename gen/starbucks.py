@@ -36,7 +36,7 @@ options.load_capabilities({
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(3)
+time.sleep(5)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -51,7 +51,8 @@ def tap(x, y, delay=2):
 
 
 tap(550, 1530, 3)
-tap(540, 2400, 3)
+tap(985, 230, 3)
+tap(410, 2400, 3)
 tap(756, 1566, 3)
 tap(750, 1185, 3)
 tap(520, 1550, 3)

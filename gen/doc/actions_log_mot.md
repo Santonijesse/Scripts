@@ -83,7 +83,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### Too Good To Go
+### Too Good To Go - check display after selecting a restaurant/location
 1. tap(550, 2240)
 2. tap(540, 2300)
 3. tap(82, 650)
@@ -115,7 +115,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### Dunkin'
+### Dunkin' - Selecting, & modifying an item to check for display change or selection change 
 1. tap(550, 1550)
 2. tap(800, 2430)
 > Note: Can't download policies

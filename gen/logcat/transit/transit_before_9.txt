@@ -1,0 +1,40 @@
+--------- beginning of main
+03-10 19:24:07.514  7255  7386 I appium  : channel read: GET /session/f3526b7e-5bfc-4a28-8be2-698906d22e22/source
+03-10 19:24:07.515  7255  7386 I appium  : Source command
+03-10 19:24:07.515  7255  7386 I appium  : Waiting up to 10000ms for the device to idle
+03-10 19:24:07.560  5993  7698 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-10 19:24:07.566  5993  1019 W SystemServiceRegistry: No service published for: wifirtt
+03-10 19:24:07.568  2064  2064 I sensors-hal: flush:235, android.sensor.pressure/61
+03-10 19:24:07.568  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-10 19:24:07.569  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-10 19:24:07.570  2064  7769 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-10 19:24:07.571  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-10 19:24:07.571  2064  2064 I sensors-hal: flush:241, android.sensor.pressure/61 completed
+--------- beginning of system
+03-10 19:24:07.572  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:24:07.582  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:24:07.583  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:24:07.584  7410  7416 I ransitapp.droid: Compiler allocated 4169KB to compile m3.d androidx.compose.ui.platform.u.b(int)
+03-10 19:24:07.585  2756  2756 W wificond: Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES
+03-10 19:24:07.587  3721 10754 D LOWI-9.0.1.68: [LOWI-Scan] wait_event:Wait done with Cmd 33
+03-10 19:24:07.587  3721 10754 D LOWI-9.0.1.68: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+03-10 19:24:07.925  7255  7386 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 19:24:08.028  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:24:08.032  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:24:08.037  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:24:08.040  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 19:24:08.041  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:08.043  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:08.044  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:08.047  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:08.048  7255  7386 I appium  : AppiumResponse: {"sessionId":"f3526b7e-5bfc-4a28-8be2-698906d22e22","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.thetransitapp.droid\" class=\"…
+03-10 19:24:08.063  7255  7386 I appium  : channel read: GET /session/f3526b7e-5bfc-4a28-8be2-698906d22e22/screenshot
+03-10 19:24:08.064  7255  7386 I appium  : CaptureScreenshot command
+03-10 19:24:08.066  7255  7386 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 19:24:08.066  7255  7386 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 19:24:08.096  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 19:24:08.178  8199  8199 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 19:24:08.178  8199  8199 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 19:24:08.382  5727  8012 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 19:24:08.382  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 19:24:08.691  7255  7386 I appium  : AppiumResponse: {"sessionId":"f3526b7e-5bfc-4a28-8be2-698906d22e22","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7F1nmN3E1X6PdLfZu+42tnG3wRTjAgYDpvfeezAlkNBJ+UISIHQIIY2EkkJ6SEhCT0joxWBjOoSAMcUGUwzuXntdtl3N90MaaTTSSCNd6d679p7nsd99VWfOOXPm3NFoRMNHj2UGESzGoEI…

@@ -1,0 +1,14 @@
+--------- beginning of main
+03-10 19:16:06.417 20370 20403 I appium  : channel read: GET /session/aa97b217-a09d-48d8-8f2d-47969f0177fc/source
+03-10 19:16:06.419 20370 20403 I appium  : Source command
+03-10 19:16:06.420 20370 20403 I appium  : Waiting up to 10000ms for the device to idle
+03-10 19:16:06.497 10834 10996 I ProtoXDBBufferWrapper: ProtoXDBBufferWrapper.flushToStorage():158 Flushed 12 data item(s) to storage.
+03-10 19:16:06.725 20370 20403 I appium  : AppiumResponse: {"sessionId":"aa97b217-a09d-48d8-8f2d-47969f0177fc","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.app.tgtg\" class=\"android.wid…
+03-10 19:16:06.738 20370 20403 I appium  : channel read: GET /session/aa97b217-a09d-48d8-8f2d-47969f0177fc/screenshot
+03-10 19:16:06.739 20370 20403 I appium  : CaptureScreenshot command
+03-10 19:16:06.740 20370 20403 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 19:16:06.740 20370 20403 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 19:16:06.820 21122 21122 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 19:16:06.820 21122 21122 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 19:16:07.442 20370 20403 I appium  : AppiumResponse: {"sessionId":"aa97b217-a09d-48d8-8f2d-47969f0177fc","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHicZLzZk2TZfd/3Odtdc6nKqt6X6VkxA0AACZICIZmiGBIdoVBYT47wP+MH/jUOhSNsR1ihB71YpmhKDJokMFgGmAGmZ3p6rS0rl7ue1Q83uwCG+zE762bec8/5/b7bL8X//G/uJaE0/ejZ9QO…
+03-10 19:16:07.549  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL

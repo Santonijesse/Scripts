@@ -1,0 +1,20 @@
+--------- beginning of main
+03-10 18:40:16.259  3163  7451 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.
+03-10 18:40:16.367 17440 17469 I appium  : channel read: GET /session/aa18a7b1-f4aa-4632-bf9a-40bd9d3bc163/source
+03-10 18:40:16.369 17440 17469 I appium  : Source command
+03-10 18:40:16.370 17440 17469 I appium  : Waiting up to 10000ms for the device to idle
+03-10 18:40:16.415 17485 17485 W soft_error.cpp: [pando::graphql::PandoGraphQLRequestHybrid::assertValid] : Using a PandoGraphQLRequest after it has been consumed. Query name is PostLiveMetricsQuery
+03-10 18:40:16.425  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 18:40:16.705 17440 17469 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 18:40:16.901  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 18:40:16.927 17440 17469 I appium  : AppiumResponse: {"sessionId":"aa18a7b1-f4aa-4632-bf9a-40bd9d3bc163","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instagram.barcelona\" class=\"…
+03-10 18:40:16.952 17440 17469 I appium  : channel read: GET /session/aa18a7b1-f4aa-4632-bf9a-40bd9d3bc163/screenshot
+03-10 18:40:16.954 17440 17469 I appium  : CaptureScreenshot command
+03-10 18:40:16.955 17440 17469 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 18:40:16.955 17440 17469 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 18:40:17.107 17953 17953 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 18:40:17.107 17953 17953 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 18:40:17.270  3163  8301 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.
+03-10 18:40:17.820 16556 16636 W stagram.android: Profile data size exceeds 500000 bytes. It has 715334 bytes.
+03-10 18:40:18.256 17440 17469 I appium  : AppiumResponse: {"sessionId":"aa18a7b1-f4aa-4632-bf9a-40bd9d3bc163","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFRl/z/w95kZGNYBRMEFhRQVd8Xd9FGTXLM0QXNL0EcDl1yQsLKsLPf1cV+SXHHLtdBIRU3NRHNPBfctAdkFYZiZ8/uDL+fnCCggzDDwfl1X19WcOXPmM5kz57zP575vwd7eXgQRERE…
+03-10 18:40:18.278  3163  7451 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.

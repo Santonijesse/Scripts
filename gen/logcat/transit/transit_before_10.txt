@@ -1,0 +1,35 @@
+--------- beginning of main
+03-10 19:24:45.231  9045  9076 I appium  : channel read: GET /session/03e5b8bc-3647-4e5d-92a8-7c5b9e11a6d0/source
+03-10 19:24:45.232  9045  9076 I appium  : Source command
+03-10 19:24:45.232  9045  9076 I appium  : Waiting up to 10000ms for the device to idle
+03-10 19:24:45.293  9098  9103 I ransitapp.droid: Compiler allocated 4169KB to compile m3.d androidx.compose.ui.platform.u.b(int)
+03-10 19:24:45.472  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 19:24:45.585  8496  8716 I ThermalEngine: Monitor:ACTIVE:MON-wlan:wlan-cutback=3:FUSE_TEMP=43062
+03-10 19:24:45.585  8496  8716 E ThermalEngine: wlan_request_v2:set WLAN mitigation to 3
+03-10 19:24:45.586  3084  3373 I Thermal-Lib: Thermal-Lib-Client: Client received msg wlan 3
+03-10 19:24:45.586  3065  3276 I Thermal-Lib: Thermal-Lib-Client: Client received msg wlan 3
+03-10 19:24:45.594  9045  9076 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 19:24:45.621  8496  8716 I ThermalEngine: Monitor:ACTIVE:PAUSE-CPU7:hotplug_7=1:FUSE_TEMP=43101
+03-10 19:24:45.628  8496  8716 I ThermalEngine: Monitor:ACTIVE:MON-CHG-BATT1:battery=3:BCHG_TEMP=43231
+03-10 19:24:45.638  8496  8716 I ThermalEngine: Monitor:ACTIVE:MON-wireless-charge:wireless_current=800:BCHG_TEMP=43262
+03-10 19:24:45.639  8496  8716 E ThermalEngine: Mitigation:WirelessCurrent:800
+03-10 19:24:45.707  9045  9076 I appium  : AppiumResponse: {"sessionId":"03e5b8bc-3647-4e5d-92a8-7c5b9e11a6d0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.thetransitapp.droid\" class=\"…
+03-10 19:24:45.724  9045  9076 I appium  : channel read: GET /session/03e5b8bc-3647-4e5d-92a8-7c5b9e11a6d0/screenshot
+03-10 19:24:45.725  9045  9076 I appium  : CaptureScreenshot command
+03-10 19:24:45.726  9045  9076 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 19:24:45.726  9045  9076 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 19:24:45.835  9806  9806 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 19:24:45.835  9806  9806 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 19:24:45.891  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+--------- beginning of system
+03-10 19:24:46.027  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:24:46.033  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:24:46.036  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:24:46.037  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 19:24:46.038  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:46.039  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:46.039  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:46.040  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:24:46.238  5727  8012 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-10 19:24:46.239  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-10 19:24:46.349  9045  9076 I appium  : AppiumResponse: {"sessionId":"03e5b8bc-3647-4e5d-92a8-7c5b9e11a6d0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7F1nmN3E1X6PdLfZu+42tnG3wRTjAgYDpvfeezAlkNBJ+UISIHQIIY2EkkJ6SEhCT0joxWBjOoSAMcUGUwzuXntdtl3N90MaaTTSSCNd6d679p7nsd99VWfOOXPm3NFoRMNHj2UGESzGoEI…

@@ -1,0 +1,33 @@
+--------- beginning of main
+03-10 16:14:54.999 26350 26381 I appium  : channel read: GET /session/b87af6af-4c43-4f8f-8538-3e74bd135d3d/source
+03-10 16:14:55.003 26350 26381 I appium  : Source command
+03-10 16:14:55.004 26350 26381 I appium  : Waiting up to 10000ms for the device to idle
+03-10 16:14:55.192  2300 25946 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 16:14:55.193  2300 25946 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-10 16:14:55.215  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 16:14:55.216  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 16:14:55.217  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 16:14:55.217  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 16:14:55.218  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 0
+03-10 16:14:55.226  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->8(cnt1)
+03-10 16:14:55.259  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 16:14:55.260  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt4)
+03-10 16:14:55.437 26350 26381 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 16:14:55.465  2300 25946 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 16:14:55.466  2300 25946 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-10 16:14:55.470  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 16:14:55.470  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 16:14:55.471  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 16:14:55.472  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 16:14:55.472  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 7
+03-10 16:14:55.477  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->41(cnt1)
+03-10 16:14:55.479  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 16:14:55.485  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt1)
+03-10 16:14:55.576 26350 26381 I appium  : AppiumResponse: {"sessionId":"b87af6af-4c43-4f8f-8538-3e74bd135d3d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.starbucks.mobilecard\" class=\…
+03-10 16:14:55.595 26350 26381 I appium  : channel read: GET /session/b87af6af-4c43-4f8f-8538-3e74bd135d3d/screenshot
+03-10 16:14:55.596 26350 26381 I appium  : CaptureScreenshot command
+03-10 16:14:55.599 26350 26381 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 16:14:55.599 26350 26381 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 16:14:55.693 27066 27066 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 16:14:55.694 27066 27066 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 16:14:56.072 26350 26381 I appium  : AppiumResponse: {"sessionId":"b87af6af-4c43-4f8f-8538-3e74bd135d3d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFNnvj/wT0JYw46yqCACouACahUQRVDrbveO2ta22tbaWm3vbWduZ+7M7f112um0M+20nenmtHYbtXYTrXUXFeuCiAKyKvu+BmRJgJCT3x9czhBBRQk5iXzer5evNicn53xDbTj5nO/…

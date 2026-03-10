@@ -1,0 +1,28 @@
+--------- beginning of system
+03-10 18:13:45.633  3163  4132 D WindowManager: captureDisplay
+--------- beginning of main
+03-10 18:13:45.683   800   838 I appium  : channel read: GET /session/062b11ee-3528-4ef1-8e8f-aebd0497d595/source
+03-10 18:13:45.686   800   838 I appium  : Source command
+03-10 18:13:45.688   800   838 I appium  : Waiting up to 10000ms for the device to idle
+03-10 18:13:45.734  3163  5853 D WindowManager: captureDisplay
+03-10 18:13:45.838  3163  4132 D WindowManager: captureDisplay
+03-10 18:13:45.941  3163  4132 D WindowManager: captureDisplay
+03-10 18:13:45.969  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 18:13:46.042  3163  4132 D WindowManager: captureDisplay
+03-10 18:13:46.071   800   838 I appium  : AppiumResponse: {"sessionId":"062b11ee-3528-4ef1-8e8f-aebd0497d595","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tacobell.ordering\" class=\"an…
+03-10 18:13:46.088   800   838 I appium  : channel read: GET /session/062b11ee-3528-4ef1-8e8f-aebd0497d595/screenshot
+03-10 18:13:46.089   800   838 I appium  : CaptureScreenshot command
+03-10 18:13:46.090   800   838 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 18:13:46.091   800   838 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 18:13:46.179  3163  4132 D WindowManager: captureDisplay
+03-10 18:13:46.246  2312  2312 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 18:13:46.247  2312  2312 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 18:13:46.282  3163  4132 D WindowManager: captureDisplay
+03-10 18:13:46.381  3163  7933 D WindowManager: captureDisplay
+03-10 18:13:46.480  3163  7933 D WindowManager: captureDisplay
+03-10 18:13:46.514  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 18:13:46.588  3163  7933 D WindowManager: captureDisplay
+03-10 18:13:46.688  3163  7933 D WindowManager: captureDisplay
+03-10 18:13:46.790  3163  7933 D WindowManager: captureDisplay
+03-10 18:13:46.892  3163  7933 D WindowManager: captureDisplay
+03-10 18:13:46.918   800   838 I appium  : AppiumResponse: {"sessionId":"062b11ee-3528-4ef1-8e8f-aebd0497d595","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1pVFR3vu//T1VRCBSDgDKo4ACiqKhoVByiROOQaHI6id0xyUnSnc7Nyc3UfVevM6z/o7POk3NO39tnpfuuzunO6pPuJCsDSTqaxDEqzjjigAoOgMgkY6FMhRTUvg/8sw8l4AgUFd+vtbJ…

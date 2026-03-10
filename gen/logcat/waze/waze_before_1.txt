@@ -1,0 +1,23 @@
+--------- beginning of system
+03-10 19:30:52.030  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-10 19:30:52.035  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+--------- beginning of main
+03-10 19:30:52.042  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-10 19:30:52.043  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:30:52.044  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:30:52.045  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:30:52.046  5993  7248 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-10 19:30:52.121 14347 14374 I appium  : channel read: GET /session/9011e88a-84ad-4839-8b5d-5310f2635b94/source
+03-10 19:30:52.123 14347 14374 I appium  : Source command
+03-10 19:30:52.124 14347 14374 I appium  : Waiting up to 10000ms for the device to idle
+03-10 19:30:52.173  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 19:30:52.181 14390 14390 E com.waze: No package ID 7a found for resource ID 0x7a2c3580.
+03-10 19:30:52.223 14390 14607 I RenderFPS: Avg render time in last 1000 millis: 4.438 (Actual: 32)
+03-10 19:30:52.318 14347 14374 I appium  : AppiumResponse: {"sessionId":"9011e88a-84ad-4839-8b5d-5310f2635b94","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.waze\" class=\"android.widget.…
+03-10 19:30:52.329 14347 14374 I appium  : channel read: GET /session/9011e88a-84ad-4839-8b5d-5310f2635b94/screenshot
+03-10 19:30:52.330 14347 14374 I appium  : CaptureScreenshot command
+03-10 19:30:52.331 14347 14374 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 19:30:52.331 14347 14374 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 19:30:52.431 15410 15410 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 19:30:52.432 15410 15410 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 19:30:52.789 14347 14374 I appium  : AppiumResponse: {"sessionId":"9011e88a-84ad-4839-8b5d-5310f2635b94","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFRl+z/wzwyr7AioqCChIu57YqkP7mapZS6llVtp7pbt7qW2aC74aFnu+2OumZpgamqCRqmk4pKKhrIPsq8z1+8PfpyvIyCDMgxjn/frdb0Kz33Ouc/MwNznOveiAiAgIiIiIiIiIjJ…

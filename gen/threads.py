@@ -27,7 +27,7 @@ options.load_capabilities({
     "appium:udid": "ZY22HS5QFQ",
     "appium:appPackage": "com.instagram.barcelona",
     "appium:automationName": "UiAutomator2",
-    #"appium:appActivity": "com.instagram.barcelona.MainActivity",
+    "appium:appActivity": ".mainactivity.BarcelonaActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -36,7 +36,7 @@ options.load_capabilities({
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(3)
+time.sleep(5)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -50,7 +50,7 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(550, 1300, 3)
+tap(550, 1300, 5)
 tap(550, 1000, 3)
 tap(350, 2450, 3)
 tap(200, 325, 3)
