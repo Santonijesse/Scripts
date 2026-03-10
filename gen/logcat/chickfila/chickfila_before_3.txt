@@ -1,0 +1,14 @@
+--------- beginning of main
+03-09 21:50:29.061 22157 22185 I appium  : channel read: GET /session/9954eee7-2d59-44d3-b2dc-eec524d93971/source
+03-09 21:50:29.063 22157 22185 I appium  : Source command
+03-09 21:50:29.064 22157 22185 I appium  : Waiting up to 10000ms for the device to idle
+03-09 21:50:29.133 22157 22185 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 21:50:29.137 22201 22206 I ila.cfaflagship: Compiler allocated 4194KB to compile androidx.core.view.accessibility.AccessibilityNodeInfoCompat androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$ComposeAccessibilityNodeProvider.createAccessibilityNodeInfo(int)
+03-09 21:50:29.176 22157 22185 I appium  : AppiumResponse: {"sessionId":"9954eee7-2d59-44d3-b2dc-eec524d93971","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.chickfila.cfaflagship\" class=…
+03-09 21:50:29.191 22157 22185 I appium  : channel read: GET /session/9954eee7-2d59-44d3-b2dc-eec524d93971/screenshot
+03-09 21:50:29.192 22157 22185 I appium  : CaptureScreenshot command
+03-09 21:50:29.194 22157 22185 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 21:50:29.194 22157 22185 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 21:50:29.342 22738 22738 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 21:50:29.342 22738 22738 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 21:50:29.841 22157 22185 I appium  : AppiumResponse: {"sessionId":"9954eee7-2d59-44d3-b2dc-eec524d93971","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dFT3nf//18xoBOoVFUAUISREFxgQ1RgMprgkaxxwT2zHcex1sme9yeaXjb1enOxu4q8dJ5vdOD5ptuOCG9jGgA0WzXSL3lGlSAj1OpJGM/f3B6u7GjQIAWqDno9zdI5m7sy9d1Rm7n3…

@@ -1,0 +1,16 @@
+--------- beginning of main
+03-09 21:43:13.962 10284 10288 I .openai.chatgpt: Background concurrent mark compact GC freed 39MB AllocSpace bytes, 328(7612KB) LOS objects, 75% free, 18MB/72MB, paused 1.974ms,5.036ms total 114.070ms
+03-09 21:43:13.964 10284 10289 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+03-09 21:43:14.043 10241 10269 I appium  : channel read: GET /session/7f91e602-13e4-463a-b17a-aa6824cc84bb/source
+03-09 21:43:14.044 10241 10269 I appium  : Source command
+03-09 21:43:14.044 10241 10269 I appium  : Waiting up to 10000ms for the device to idle
+03-09 21:43:14.118 10284 10287 I .openai.chatgpt: Compiler allocated 4158KB to compile h7.i a5.h0.m(int)
+03-09 21:43:14.240 10241 10269 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 21:43:14.362 10241 10269 I appium  : AppiumResponse: {"sessionId":"7f91e602-13e4-463a-b17a-aa6824cc84bb","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.openai.chatgpt\" class=\"andro…
+03-09 21:43:14.376 10241 10269 I appium  : channel read: GET /session/7f91e602-13e4-463a-b17a-aa6824cc84bb/screenshot
+03-09 21:43:14.377 10241 10269 I appium  : CaptureScreenshot command
+03-09 21:43:14.378 10241 10269 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 21:43:14.378 10241 10269 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 21:43:14.523 10617 10617 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 21:43:14.523 10617 10617 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 21:43:14.961 10241 10269 I appium  : AppiumResponse: {"sessionId":"7f91e602-13e4-463a-b17a-aa6824cc84bb","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w15lhYADZURAEBcMFTJE05bqkuWWmdVtssZum5ZJpLvd6zdyy8rZeTctbv7xlWdo1S63UXK7mklpfMzTU3DcWkR1kYIaZef/+4Mv5MgKKynAYeT0fj/fjATNneZ85w3DmfT6…

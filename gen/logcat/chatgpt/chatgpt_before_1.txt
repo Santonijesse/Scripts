@@ -1,0 +1,14 @@
+--------- beginning of main
+03-09 21:40:36.026  5850  5950 I appium  : channel read: GET /session/9cd6ad18-056c-43b2-b748-19522836823b/source
+03-09 21:40:36.028  5850  5950 I appium  : Source command
+03-09 21:40:36.028  5850  5950 I appium  : Waiting up to 10000ms for the device to idle
+03-09 21:40:36.109  5989  5995 I .openai.chatgpt: Compiler allocated 4163KB to compile h7.i a5.h0.m(int)
+03-09 21:40:36.238  5850  5950 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-09 21:40:36.365  5850  5950 I appium  : AppiumResponse: {"sessionId":"9cd6ad18-056c-43b2-b748-19522836823b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.openai.chatgpt\" class=\"andro…
+03-09 21:40:36.381  5850  5950 I appium  : channel read: GET /session/9cd6ad18-056c-43b2-b748-19522836823b/screenshot
+03-09 21:40:36.383  5850  5950 I appium  : CaptureScreenshot command
+03-09 21:40:36.384  5850  5950 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-09 21:40:36.384  5850  5950 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-09 21:40:36.533  6507  6507 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-09 21:40:36.533  6507  6507 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-09 21:40:37.007  5850  5950 I appium  : AppiumResponse: {"sessionId":"9cd6ad18-056c-43b2-b748-19522836823b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eBRl1jbwu7rTWcmeQEhI2EyABCEEECKgQWQTwZ1BUUFUFhEIoowisqm8OKMjgjA6MG4gOg6CqIAkvCCLbAICBhCQPfu+kKW7032+P/Kl3jQJkEA6lYb7d13nutLdtZzq6nRXnXqepxQ…
