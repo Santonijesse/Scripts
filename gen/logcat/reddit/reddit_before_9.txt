@@ -1,0 +1,62 @@
+--------- beginning of main
+03-10 20:26:35.351  2064  4171 D slpi    : tmd2712: Als lux: 1.90, ch0: 32, ch1: 2, scale: 1.08, atime:50.04, again:1024
+03-10 20:26:35.381  9131  9157 I appium  : channel read: GET /session/290d9cea-f452-45d3-9f87-adf6c60f41f8/source
+03-10 20:26:35.383  9131  9157 I appium  : Source command
+03-10 20:26:35.383  9131  9157 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-10 20:26:35.398  3163  4238 D ActivityManager: freezing 11416 com.google.android.permissioncontroller, reason = oom_cached
+03-10 20:26:35.401  3163  4238 D ActivityManager: freezing 15631 com.google.android.apps.messaging, reason = oom_cached
+03-10 20:26:35.404  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:26:35.405  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:26:35.405  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10416} in 1ms
+03-10 20:26:35.434  9172  9177 I eddit.frontpage: Compiler allocated 4126KB to compile n4.d androidx.compose.ui.platform.s.b(int)
+03-10 20:26:35.434  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 20:26:35.435  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 20:26:35.436  2064  4171 D slpi-TCS3720: ALS_REPORT lux 13.850711, ch0 8.262165-4.853778-2.495363-1.286391, scale 1.1878, fps 90, client 1
+03-10 20:26:35.436  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 20:26:35.436  2195  9797 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 20:26:35.436  2195  9797 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 20:26:35.436  2195  9797 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 20:26:35.442  2195  9797 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 20:26:35.442  2195  9797 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 20:26:35.442  2195  9797 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 20:26:35.442  2195  9797 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 20:26:35.461  2195  9798 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 20:26:35.461  2195  9798 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 20:26:35.461  2195  9798 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 20:26:35.472  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 7.80 (13.85-6.05), pre 6.07, dbv 3189, dc 0, fps 90, chPanel 3.72-1.68-1.05-0.68, facCal:lux_s 1.19 cha_s 0.99-0.97-1.01-1.09, RunInfo: DPB 16698-58, TF 16698-0
+03-10 20:26:35.474  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 20:26:35.588  9131  9157 I appium  : AppiumResponse: {"sessionId":"290d9cea-f452-45d3-9f87-adf6c60f41f8","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.reddit.frontpage\" class=\"and…
+03-10 20:26:35.604  9131  9157 I appium  : channel read: GET /session/290d9cea-f452-45d3-9f87-adf6c60f41f8/screenshot
+03-10 20:26:35.605  9131  9157 I appium  : CaptureScreenshot command
+03-10 20:26:35.606  9131  9157 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 20:26:35.606  9131  9157 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 20:26:35.684  9799  9799 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 20:26:35.684  9799  9799 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 20:26:35.880  3163  4238 D ActivityManager: freezing 7836 com.motorola.dolby.dolbyui, reason = oom_cached
+03-10 20:26:35.882  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:26:35.883  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:26:35.883  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10182} in 1ms
+03-10 20:26:35.912  2067  5898 D DlbDap2Process: process() called [383500] times with input format 0x22 and channel mask 0x3 (ProcessingMode=10), htEnable=0(0, 0, 0)
+03-10 20:26:35.959  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 20:26:36.022  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 20:26:36.023  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 20:26:36.023  2064  4171 D slpi-TCS3720: ALS_REPORT lux 15.708609, ch0 9.257737-5.492434-2.846442-1.449225, scale 1.1878, fps 90, client 1
+03-10 20:26:36.023  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 20:26:36.024  2195  9805 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 20:26:36.024  2195  9805 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 20:26:36.024  2195  9805 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 20:26:36.042  2195  9805 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 20:26:36.042  2195  9805 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 20:26:36.042  2195  9805 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 20:26:36.042  2195  9805 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 20:26:36.062  2195  9806 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 20:26:36.062  2195  9806 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 20:26:36.062  2195  9806 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 20:26:36.069  9131  9157 I appium  : AppiumResponse: {"sessionId":"290d9cea-f452-45d3-9f87-adf6c60f41f8","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13VJNnGwbwK5sZ9hAQVBzgAFdbZ4vWvffeilvraO2wWqu2tq5aW9u69x6tWvceuP3cE9G62XslkOT7A0lJGQJCBly/c3oOSd5xpwjkvd7nuR+B3M5BAyIiIiIiIiIiEyY0dAFERERERER…
+03-10 20:26:36.072  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 9.65 (15.71-6.05), pre 7.80, dbv 3189, dc 0, fps 90, chPanel 3.72-1.68-1.05-0.68, facCal:lux_s 1.19 cha_s 0.99-0.97-1.01-1.09, RunInfo: DPB 16699-58, TF 16699-0
+03-10 20:26:36.075  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 20:26:36.089  2224  9689 W C2BqBuffer: last successful dequeue was 7225823 us ago, 95 consecutive failures
+03-10 20:26:36.090  9172  9765 I MediaCodec: [0xb400006f53213da0] dequeue 31 output frames in last 1006 ms, latest timeUs 1000003466666, flags 128
+03-10 20:26:36.095  9172  9765 I MediaCodec: [0xb400006f53213da0] enqueue 30 input frames in last 1003 ms, latest timeUs 1000003666666
+03-10 20:26:36.130  2224  9690 W C2BqBuffer: last successful dequeue was 7221866 us ago, 94 consecutive failures

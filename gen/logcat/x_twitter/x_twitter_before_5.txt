@@ -1,0 +1,28 @@
+--------- beginning of main
+03-10 20:59:11.271 29304 29331 I appium  : channel read: GET /session/bb9f2e31-c4b1-479b-87ae-d22a18c05e71/source
+03-10 20:59:11.272 29304 29331 I appium  : Source command
+03-10 20:59:11.272 29304 29331 I appium  : Waiting up to 10000ms for the device to idle
+03-10 20:59:11.541 29304 29331 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 20:59:11.596 29304 29331 I appium  : AppiumResponse: {"sessionId":"bb9f2e31-c4b1-479b-87ae-d22a18c05e71","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.twitter.android\" class=\"andr…
+03-10 20:59:11.606 29304 29331 I appium  : channel read: GET /session/bb9f2e31-c4b1-479b-87ae-d22a18c05e71/screenshot
+03-10 20:59:11.607 29304 29331 I appium  : CaptureScreenshot command
+03-10 20:59:11.608 29304 29331 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 20:59:11.608 29304 29331 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 20:59:11.694 29757 29757 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 20:59:11.694 29757 29757 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 20:59:11.885  2064  4171 D slpi-TCS3720: ALS_REPORT lux 12.764731, ch0 7.964576-4.843134-2.322524-1.221257, scale 1.1878, fps 90, client 1
+03-10 20:59:11.885  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 20:59:11.885  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 20:59:11.886  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 20:59:11.886  2195 29764 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 20:59:11.886  2195 29764 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 20:59:11.886  2195 29764 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 20:59:11.909  2195 29764 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 20:59:11.909  2195 29764 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 20:59:11.909  2195 29764 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 20:59:11.909  2195 29764 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 20:59:11.926  2195 29766 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 20:59:11.927  2195 29766 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 20:59:11.927  2195 29766 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 20:59:11.932 29304 29331 I appium  : AppiumResponse: {"sessionId":"bb9f2e31-c4b1-479b-87ae-d22a18c05e71","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFTV2jbwe0oqpJGEACEhtABJBEIHDUbpIEXsgaMoSkdQjqj0oHL0gEoRjigoRZTXcj4B6UgAgQBSQ6gBQklI773MPN8febPfDAkpkMlkwv27rueCzG5rz6TsuWfttVQABERERERERER…
+03-10 20:59:11.937  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 8.40 (12.76-4.37), pre 7.05, dbv 3109, dc 0, fps 90, chPanel 2.85-1.21-0.74-0.53, facCal:lux_s 1.19 cha_s 0.99-0.97-1.01-1.10, RunInfo: DPB 17305-62, TF 17305-0

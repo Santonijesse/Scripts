@@ -1,0 +1,14 @@
+--------- beginning of main
+03-10 21:31:26.388 32721 32751 I appium  : channel read: GET /session/919f7d44-2a45-4f1c-b691-46fe86624a8e/source
+03-10 21:31:26.389 32721 32751 I appium  : Source command
+03-10 21:31:26.390 32721 32751 I appium  : Waiting up to 10000ms for the device to idle
+03-10 21:31:26.485 32721 32751 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 21:31:26.569 32721 32751 I appium  : AppiumResponse: {"sessionId":"919f7d44-2a45-4f1c-b691-46fe86624a8e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.subway.mobile.subwayapp03\" cl…
+03-10 21:31:26.581 32721 32751 I appium  : channel read: GET /session/919f7d44-2a45-4f1c-b691-46fe86624a8e/screenshot
+03-10 21:31:26.582 32721 32751 I appium  : CaptureScreenshot command
+03-10 21:31:26.583 32721 32751 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 21:31:26.583 32721 32751 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 21:31:26.656  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 21:31:26.658  1345  1345 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 21:31:26.658  1345  1345 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 21:31:26.932 32721 32751 I appium  : AppiumResponse: {"sessionId":"919f7d44-2a45-4f1c-b691-46fe86624a8e","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15VFT33T/w952FZYZFhbAooAKioKJERdCIK0Y0S5NojX2SmGZpE03SLO3pOX2e0/Oc9OnT9GmztTFJ06wabYxZTFwTBRXjgoACikRlB9lkkW0GmOX+/vA3t+AMyDLMzIX365ycE+/c+d4…

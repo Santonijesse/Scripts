@@ -1,0 +1,57 @@
+--------- beginning of main
+03-10 20:54:10.350 20987 21018 I appium  : channel read: GET /session/38913eac-72d2-4039-ae67-136e26173751/source
+03-10 20:54:10.350 20987 21018 I appium  : Source command
+03-10 20:54:10.351 20987 21018 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-10 20:54:10.446  3163  4238 D ActivityManager: freezing 15631 com.google.android.apps.messaging, reason = oom_cached
+03-10 20:54:10.468  5625 18470 D PowerUI : can't show warning due to - plugged: true status unknown: false
+03-10 20:54:10.472  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-10 20:54:10.473  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+03-10 20:54:10.474  3163  3163 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+03-10 20:54:10.475  3163  3163 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=com.android.server.UiModeManagerService$1@410d4bd; mNightModeCustomType=-1; uiMode=33
+03-10 20:54:10.492 20987 21018 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 20:54:10.613 20987 21018 I appium  : AppiumResponse: {"sessionId":"38913eac-72d2-4039-ae67-136e26173751","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.whatnot_mobile\" class=\"andro…
+03-10 20:54:10.614  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 20:54:10.616  2300 20592 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 20:54:10.616  2300 20592 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-10 20:54:10.627  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->8(cnt1)
+03-10 20:54:10.629 20987 21018 I appium  : channel read: GET /session/38913eac-72d2-4039-ae67-136e26173751/screenshot
+03-10 20:54:10.630 20987 21018 I appium  : CaptureScreenshot command
+03-10 20:54:10.631 20987 21018 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 20:54:10.631 20987 21018 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 20:54:10.633  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 20:54:10.633  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 20:54:10.634  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 20:54:10.635  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 20:54:10.635  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 0
+03-10 20:54:10.649  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 20:54:10.652  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt2)
+03-10 20:54:10.718 21695 21695 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 20:54:10.718 21695 21695 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 20:54:10.885  3163  4238 D ActivityManager: freezing 14185 com.google.android.gms.ui, reason = oom_cached
+03-10 20:54:11.232  3163  4238 D ActivityManager: freezing 10686 com.android.rkpdapp, reason = oom_cached
+03-10 20:54:11.235  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:54:11.236  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:54:11.236  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10562} in 3ms
+03-10 20:54:11.735 20987 21018 I appium  : AppiumResponse: {"sessionId":"38913eac-72d2-4039-ae67-136e26173751","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fEz3/j/w15yZyUyWySQj+4KGCCqItRS1XNIqSmtpK0ntpZZaerl6tVpudeHWrWqvautSSpGibmnJtdNYmipBqUS0guzrZJn990e+Ob+MBAnJTCZ5PR8Pj2ZmzpzzmYrknNd5f94fSVB…
+03-10 20:54:11.752  1362 21430 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+03-10 20:54:11.789  3163  4238 D ActivityManager: freezing 14856 com.duckduckgo.mobile.android, reason = oom_cached
+03-10 20:54:11.794  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:54:11.795  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:54:11.795  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10584} in 2ms
+03-10 20:54:11.796  7321  7559 E MQTTBypassDGWStreamGroupCallbacks.cpp: onStreamGroupError TransientError domain: MNSQUICConnection code: 0 detail: Error on socket write Operation not permitted, 
+03-10 20:54:11.798  7321  7559 W MQTTBypassDGWStreamGroupConnection.cpp: Restarting due to reason: StreamError
+03-10 20:54:11.802  7321  7733 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-10 20:54:11.812  7321  7733 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-10 20:54:11.812  7321  7733 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-10 20:54:11.815  7321  7733 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-10 20:54:11.818  2300 20592 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 20:54:11.818  2300 20592 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+03-10 20:54:11.822  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->16(cnt1)
+03-10 20:54:11.824  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 20:54:11.824  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 20:54:11.825  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 20:54:11.825  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 20:54:11.825  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 5
+03-10 20:54:11.831  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-10 20:54:11.847  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt2)

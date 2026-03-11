@@ -1,0 +1,72 @@
+--------- beginning of main
+03-10 20:49:24.074  2195 12722 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 20:49:24.074  2195 12722 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 20:49:24.074  2195 12722 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 20:49:24.074  2195 12722 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 20:49:24.094  2195 12725 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 20:49:24.095  2195 12725 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 20:49:24.095  2195 12725 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 20:49:24.105  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 8.03 (12.94-4.92), pre 7.00, dbv 2372, dc 0, fps 90, chPanel 2.10-0.79-0.81-0.41, facCal:lux_s 1.19 cha_s 1.03-1.03-1.07-1.19, RunInfo: DPB 17059-59, TF 17059-0
+03-10 20:49:24.167  3163  7402 D ConnectivityService: requestNetwork for uid/pid:10608/7321 activeRequest: null callbackRequest: 17787 [NetworkRequest [ REQUEST id=17788, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10608 RequestorUid: 10608 RequestorPkg: com.instagram.android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: ALL
+03-10 20:49:24.170  3163  5158 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=17788, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10608 RequestorUid: 10608 RequestorPkg: com.instagram.android UnderlyingNetworks: Null] ]
+03-10 20:49:24.171  3163  5158 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=17788, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10608 RequestorUid: 10608 RequestorPkg: com.instagram.android UnderlyingNetworks: Null] ]
+03-10 20:49:24.171  3163  5158 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=17788, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10608 RequestorUid: 10608 RequestorPkg: com.instagram.android UnderlyingNetworks: Null] ]
+03-10 20:49:24.171  3163  5158 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=17788, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10608 RequestorUid: 10608 RequestorPkg: com.instagram.android UnderlyingNetworks: Null] ]
+03-10 20:49:24.171  3163  5168 D ConnectivityService: NetReassign [17788 : null → 136] [c 0] [a 1] [i 1]
+03-10 20:49:24.176 12010 12037 I appium  : channel read: GET /session/144c6e30-a9b8-4f02-b403-895c5d0bcb4b/source
+03-10 20:49:24.177 12010 12037 I appium  : Source command
+03-10 20:49:24.177 12010 12037 I appium  : Waiting up to 10000ms for the device to idle
+03-10 20:49:24.194  7321 12726 E EmergencyPushPeriodicFetchWorker: Skipping fetch since app is backgrounded
+03-10 20:49:24.219  7321  7362 W stagram.android: Profile data size exceeds 500000 bytes. It has 715334 bytes.
+03-10 20:49:24.318 12010 12037 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 20:49:24.437 12010 12037 I appium  : AppiumResponse: {"sessionId":"144c6e30-a9b8-4f02-b403-895c5d0bcb4b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.whatnot_mobile\" class=\"andro…
+03-10 20:49:24.458 12010 12037 I appium  : channel read: GET /session/144c6e30-a9b8-4f02-b403-895c5d0bcb4b/screenshot
+03-10 20:49:24.459 12010 12037 I appium  : CaptureScreenshot command
+03-10 20:49:24.460 12010 12037 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 20:49:24.460 12010 12037 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 20:49:24.490  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 20:49:24.492  2300 11663 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 20:49:24.492  2300 11663 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-10 20:49:24.503  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->8(cnt1)
+03-10 20:49:24.509  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 20:49:24.509  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 20:49:24.510  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 20:49:24.510  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 20:49:24.510  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 0
+03-10 20:49:24.526  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 20:49:24.528  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt2)
+03-10 20:49:24.548 12727 12727 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 20:49:24.548 12727 12727 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+--------- beginning of system
+03-10 20:49:24.718  3163  4238 D ActivityManager: freezing 14185 com.google.android.gms.ui, reason = oom_cached
+03-10 20:49:24.726  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 38.586. prev severity:3. cur severity:0 New severity:0
+03-10 20:49:24.894  2064 11446 E sensors-hal: handle_sns_client_event:62, mot_disprot_event: now=120120798734784 ts=120120779262076, type=0, status=3
+03-10 20:49:25.061  3163  4238 D ActivityManager: freezing 10686 com.android.rkpdapp, reason = oom_cached
+03-10 20:49:25.064  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:49:25.064  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:49:25.065  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10562} in 2ms
+03-10 20:49:25.324  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 20:49:25.325  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 20:49:25.326  2064  4171 D slpi-TCS3720: ALS_REPORT lux 14.560948, ch0 8.040326-4.688793-2.630393-1.270108, scale 1.1878, fps 90, client 1
+03-10 20:49:25.326  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 20:49:25.327  2195 12735 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 20:49:25.327  2195 12735 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 20:49:25.327  2195 12735 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 20:49:25.331  2195 12735 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 20:49:25.331  2195 12735 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 20:49:25.332  2195 12735 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 20:49:25.332  2195 12735 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 20:49:25.337  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 20:49:25.346  2195 12736 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 20:49:25.346  2195 12736 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 20:49:25.346  2195 12736 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 20:49:25.357  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 9.65 (14.56-4.92), pre 8.03, dbv 2372, dc 0, fps 90, chPanel 2.10-0.79-0.81-0.41, facCal:lux_s 1.19 cha_s 1.03-1.03-1.07-1.19, RunInfo: DPB 17060-59, TF 17060-0
+03-10 20:49:25.450  7321  7561 E MQTTBypassDGWStreamGroupCallbacks.cpp: onStreamGroupError TransientError domain: MNSQUICConnection code: 0 detail: Error on socket write Operation not permitted, 
+03-10 20:49:25.450  7321  7733 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-10 20:49:25.451  7321  7561 W MQTTBypassDGWStreamGroupConnection.cpp: Restarting due to reason: StreamError
+03-10 20:49:25.463  7321  7733 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-10 20:49:25.463  7321  7733 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-10 20:49:25.465  7321  7733 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-10 20:49:25.471 12010 12037 I appium  : AppiumResponse: {"sessionId":"144c6e30-a9b8-4f02-b403-895c5d0bcb4b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w15yZYdiGHUEWVxA3VFyztDRTytS0XCqB3G+mkkvXrmVaerNFr5ZZmRZpmitXzZuWkiuWpqEpai4omqjs67DMen5/8OX8GEEFhRkGXs/Hg0eemTPnfEZs5pzX5/35fGQBAQE…
+03-10 20:49:25.521  2064  4171 D slpi    : tmd2712: Als lux: 2.00, ch0: 33, ch1: 4, scale: 1.08, atime:50.04, again:1024
+03-10 20:49:25.527  1362 12482 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.

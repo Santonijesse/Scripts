@@ -1,0 +1,89 @@
+--------- beginning of main
+03-10 20:54:58.651  2064 21951 E sensors-hal: handle_sns_client_event:62, mot_disprot_event: now=120454555517157 ts=120454536119676, type=0, status=3
+03-10 20:54:58.701 22509 22574 I appium  : channel read: GET /session/28987f66-0ada-460d-b128-93a8689bf74b/source
+03-10 20:54:58.702 22509 22574 I appium  : Source command
+03-10 20:54:58.702 22509 22574 I appium  : Waiting up to 10000ms for the device to idle
+03-10 20:54:58.836 22509 22574 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 20:54:58.954 22509 22574 I appium  : AppiumResponse: {"sessionId":"28987f66-0ada-460d-b128-93a8689bf74b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.whatnot_mobile\" class=\"andro…
+03-10 20:54:58.963  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-10 20:54:58.963  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-10 20:54:58.964  2195 23436 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-10 20:54:58.964  2195 23436 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-10 20:54:58.964  2195 23436 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-10 20:54:58.964  2064  4171 D slpi-TCS3720: ALS_REPORT lux 16.040598, ch0 9.257737-5.205039-2.851843-1.460081, scale 1.1878, fps 90, client 1
+03-10 20:54:58.965  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-10 20:54:58.971 22509 22574 I appium  : channel read: GET /session/28987f66-0ada-460d-b128-93a8689bf74b/screenshot
+03-10 20:54:58.972 22509 22574 I appium  : CaptureScreenshot command
+03-10 20:54:58.973 22509 22574 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 20:54:58.973 22509 22574 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 20:54:58.982  2195 23436 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-10 20:54:58.982  2195 23436 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-10 20:54:58.982  2195 23436 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-10 20:54:58.982  2195 23436 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-10 20:54:59.003  2195 23443 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-10 20:54:59.003  2195 23443 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-10 20:54:59.003  2195 23443 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-10 20:54:59.012  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 8.90 (16.04-7.14), pre 11.03, dbv 3409, dc 0, fps 90, chPanel 4.47-2.05-1.26-0.80, facCal:lux_s 1.19 cha_s 0.97-0.95-0.99-1.06, RunInfo: DPB 17204-61, TF 17204-0
+--------- beginning of system
+03-10 20:54:59.031  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=16666666, appVsyncOffsetNanos=1000000
+03-10 20:54:59.033  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-10 20:54:59.034  2067  4365 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-10 20:54:59.034  2067  4365 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-10 20:54:59.034  2067  4365 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-10 20:54:59.034  2067  4365 D AHAL: FM: fm_set_parameters: 262: Enter
+03-10 20:54:59.034  2067  4365 D AHAL: FM: fm_set_parameters: 320: exit
+03-10 20:54:59.034  2067  4365 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-10 20:54:59.034  2067  4365 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-10 20:54:59.034  2067  4365 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-10 20:54:59.034  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-10 20:54:59.037  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10303/14985
+03-10 20:54:59.041 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-10 20:54:59.042 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.18653548 nit = 26.022736 level = br1
+03-10 20:54:59.043  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-10 20:54:59.043  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-10 20:54:59.043  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-10 20:54:59.044  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-10 20:54:59.047  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-10 20:54:59.047  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-10 20:54:59.047  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 20:54:59.048  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 20:54:59.048  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 20:54:59.048  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 20:54:59.048  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 0
+03-10 20:54:59.050  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-10 20:54:59.057 23438 23438 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 20:54:59.057 23438 23438 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 20:54:59.062  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->8(cnt1)
+03-10 20:54:59.067  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-10 20:54:59.069  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-10 20:54:59.070  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-10 20:54:59.070  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-10 20:54:59.070  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt1)
+03-10 20:54:59.071  2067  4365 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-10 20:54:59.071  2067  4365 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-10 20:54:59.071  2067  4365 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-10 20:54:59.071  2067  4365 D AHAL: FM: fm_set_parameters: 262: Enter
+03-10 20:54:59.071  2067  4365 D AHAL: FM: fm_set_parameters: 320: exit
+03-10 20:54:59.071  2067  4365 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-10 20:54:59.071  2067  4365 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-10 20:54:59.071  2067  4365 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-10 20:54:59.071  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/11416
+03-10 20:54:59.071  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10303/14985
+03-10 20:54:59.077 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-10 20:54:59.079  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-10 20:54:59.079  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-10 20:54:59.079  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-10 20:54:59.079  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-10 20:54:59.079 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.18653548 nit = 26.022736 level = br1
+03-10 20:54:59.177  3163  4238 D ActivityManager: freezing 14185 com.google.android.gms.ui, reason = oom_cached
+03-10 20:54:59.602  3163  4238 D ActivityManager: freezing 10686 com.android.rkpdapp, reason = oom_cached
+03-10 20:54:59.605  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:54:59.605  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:54:59.605  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10562} in 2ms
+03-10 20:54:59.688  2064  4171 I slpi-mot_tap : cor_sums, 78.2, 70.1, 67.9,  0.0, sigzm,  5.4, pk,  3.8, pcor, 78.2, slps, 24.3, 49.1, -27.3, *ang,  39.7, tn,  2.7, Tap 26 000000000000000000000000000000000000000
+03-10 20:54:59.726  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 38.64. prev severity:3. cur severity:0 New severity:0
+03-10 20:54:59.956  1362 23197 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+03-10 20:54:59.972 22509 22574 I appium  : AppiumResponse: {"sessionId":"28987f66-0ada-460d-b128-93a8689bf74b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w15yZYYZlGBjZZFHDBTVRcU1Tc7lKmZqWSyWQe5pLLl29di1Lb7bozTIrs/JqmqaSmjct5bqi4RKZoqYJYorKvg7L7L8/+HJ+jKCCMgwDr+fj4SNm5sw5nwmFc17n/Xl/JIG…
+03-10 20:55:00.002  5625  5625 V KeyguardStatusViewController: onTimeChanged
+03-10 20:55:00.028  5625  5625 V KeyguardStatusViewController: onTimeChanged
+03-10 20:55:00.069  2064  4171 I slpi-mot_tap : cor_sums, 79.9, 77.4, 76.6,  0.0, sigzm,  5.0, pk,  3.5, pcor, 79.9, slps, 26.5, 37.3, -25.8, *ang,  44.6, tn,  2.1, Tap 26 000000000000000000000000000000000000000

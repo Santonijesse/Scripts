@@ -1,0 +1,27 @@
+--------- beginning of main
+03-10 21:20:21.084 23477 23503 I appium  : channel read: GET /session/30e2e0e8-c40d-4eae-8f7f-ec0acd434dfa/source
+03-10 21:20:21.086 23477 23503 I appium  : Source command
+03-10 21:20:21.086 23477 23503 I appium  : Waiting up to 10000ms for the device to idle
+03-10 21:20:21.106  2064 22952 E sensors-hal: handle_sns_client_event:62, mot_disprot_event: now=121977011066368 ts=121976972387219, type=16, status=3
+03-10 21:20:21.196  2064  4171 I slpi-mot_tap : cor_sums, 81.8, 83.2, 83.4,  0.0, sigzm,  8.3, pk,  6.0, pcor, 83.4, slps, 32.3, 24.5, -48.4, *ang,  33.6, tn,  3.7, Tap 26 22222222222222222222222222222222222222222
+03-10 21:20:21.365  2300 23173 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 21:20:21.365  2300 23173 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-10 21:20:21.368  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 21:20:21.368  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 21:20:21.368  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->41(cnt1)
+03-10 21:20:21.369  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 21:20:21.369  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 21:20:21.370  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 7
+03-10 21:20:21.377  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 21:20:21.393  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt2)
+03-10 21:20:21.830  2064 22952 E sensors-hal: handle_sns_client_event:62, mot_disprot_event: now=121977735030847 ts=121977696407427, type=0, status=3
+03-10 21:20:21.896 23477 23503 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 21:20:21.978  3163  4129 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.
+03-10 21:20:22.000 23477 23503 I appium  : AppiumResponse: {"sessionId":"30e2e0e8-c40d-4eae-8f7f-ec0acd434dfa","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.yelp.android\" class=\"android…
+03-10 21:20:22.017 23477 23503 I appium  : channel read: GET /session/30e2e0e8-c40d-4eae-8f7f-ec0acd434dfa/screenshot
+03-10 21:20:22.018 23477 23503 I appium  : CaptureScreenshot command
+03-10 21:20:22.020 23477 23503 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 21:20:22.020 23477 23503 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 21:20:22.099 24457 24457 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 21:20:22.099 24457 24457 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 21:20:22.641 23477 23503 I appium  : AppiumResponse: {"sessionId":"30e2e0e8-c40d-4eae-8f7f-ec0acd434dfa","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L33c1zXle/7ObkjupEjERgQSDBJYhAl0pLT2JZsy+NxkOUZ5/Hcqfte3albt169f+K9WzX17h2HsT32aCxZltNIspUjcxAzCYIBOTfQ6Nx90vvhdDcCARIgkUj1t6olEDhnn3X26bP32t+…

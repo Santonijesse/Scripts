@@ -1,0 +1,13 @@
+--------- beginning of main
+03-10 21:35:24.977 11120 11156 I appium  : channel read: GET /session/cf87f1c8-6e12-4910-89d0-deb220219879/source
+03-10 21:35:24.978 11120 11156 I appium  : Source command
+03-10 21:35:24.979 11120 11156 I appium  : Waiting up to 10000ms for the device to idle
+03-10 21:35:25.070 11120 11156 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 21:35:25.154 11120 11156 I appium  : AppiumResponse: {"sessionId":"cf87f1c8-6e12-4910-89d0-deb220219879","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.subway.mobile.subwayapp03\" cl…
+03-10 21:35:25.167 11120 11156 I appium  : channel read: GET /session/cf87f1c8-6e12-4910-89d0-deb220219879/screenshot
+03-10 21:35:25.168 11120 11156 I appium  : CaptureScreenshot command
+03-10 21:35:25.169 11120 11156 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 21:35:25.169 11120 11156 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 21:35:25.244 11997 11997 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 21:35:25.244 11997 11997 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 21:35:25.518 11120 11156 I appium  : AppiumResponse: {"sessionId":"cf87f1c8-6e12-4910-89d0-deb220219879","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15VBRnvj/+dzXdLN0sCsiiLLKIgIIaFUHjHoxolkmiY5xrYibJTBJNMlkmZ86595459+R+507m3kkmmck2mWxqdGJMoolroqBgXBBRQBEXdpBN9q2BXur3h7+uoe0GWRq6S96vczxHq2t…

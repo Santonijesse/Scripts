@@ -51,8 +51,16 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(750, 1185, 3)  # location permission: while using the app
-tap(520, 1550, 3)  # location precision: use precise
+tap(600, 1125, 3)
+tap(135, 2125, .2)
+tap(400, 2125, .2)
+tap(700, 2125, .2)
+tap(135, 2125, .2)
+tap(400, 2125, .2)
+tap(700, 2125, .2)
+tap(135, 2125, .2)
+tap(400, 2125, .2)
+tap(700, 2125, .2)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

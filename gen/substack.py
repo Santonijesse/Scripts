@@ -53,6 +53,12 @@ def tap(x, y, delay=2):
 
 tap(550, 2000, 3)
 tap(480, 1340, 3)
+tap(550, 1200, 3)
+tap(550, 2400, 3)
+tap(550, 1550, 3)
+tap(975, 200, 3)
+tap(500, 2400, 3)
+tap(530, 2400, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

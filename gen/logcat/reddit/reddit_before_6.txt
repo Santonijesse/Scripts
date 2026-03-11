@@ -1,0 +1,28 @@
+--------- beginning of main
+03-10 20:24:24.080  2912  2945 I appium  : channel read: GET /session/d9b12366-82c0-4879-98f5-d9872428eb1e/source
+03-10 20:24:24.080  2912  2945 I appium  : Source command
+03-10 20:24:24.081  2912  2945 I appium  : Waiting up to 10000ms for the device to idle
+03-10 20:24:24.121  2966  2972 I eddit.frontpage: Compiler allocated 4128KB to compile n4.d androidx.compose.ui.platform.s.b(int)
+--------- beginning of system
+03-10 20:24:24.125  3163  4238 D ActivityManager: freezing 11416 com.google.android.permissioncontroller, reason = oom_cached
+03-10 20:24:24.128  3163  4238 D ActivityManager: freezing 15631 com.google.android.apps.messaging, reason = oom_cached
+03-10 20:24:24.131  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:24:24.132  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:24:24.132  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10416} in 2ms
+03-10 20:24:24.265  2067  5898 D DlbDap2Process: process() called [373000] times with input format 0x22 and channel mask 0x3 (ProcessingMode=10), htEnable=0(0, 0, 0)
+03-10 20:24:24.308  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 20:24:24.348  2912  2945 I appium  : AppiumResponse: {"sessionId":"d9b12366-82c0-4879-98f5-d9872428eb1e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.reddit.frontpage\" class=\"and…
+03-10 20:24:24.359  2912  2945 I appium  : channel read: GET /session/d9b12366-82c0-4879-98f5-d9872428eb1e/screenshot
+03-10 20:24:24.360  2912  2945 I appium  : CaptureScreenshot command
+03-10 20:24:24.360  2912  2945 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 20:24:24.360  2912  2945 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 20:24:24.436  3957  3957 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 20:24:24.436  3957  3957 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 20:24:24.713  2224  3866 W C2BqBuffer: last successful dequeue was 7164342 us ago, 95 consecutive failures
+03-10 20:24:24.726  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 36.54. prev severity:3. cur severity:0 New severity:0
+03-10 20:24:24.767  3163  4238 D ActivityManager: freezing 7836 com.motorola.dolby.dolbyui, reason = oom_cached
+03-10 20:24:24.770  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-10 20:24:24.770  3163  5168 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-10 20:24:24.770  3163  5168 D InetDiagMessage: Destroyed live tcp sockets for uids={10182} in 1ms
+03-10 20:24:24.813  2912  2945 I appium  : AppiumResponse: {"sessionId":"d9b12366-82c0-4879-98f5-d9872428eb1e","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13VJNnGwbwKzussIeA4FZExdm62qJ1zzpwt+496rbbOlpbd91779FWrXvhwO2nuBVxD/aUkUCS7w8khYIIGEgC1++cnkOSd9yRAnmv93nuR6CwtdeCiIiIiIiIiMiECQ1dABERERERERH…
+03-10 20:24:24.814  2966  3935 I MediaCodec: [0xb400006f531e6a80] enqueue 31 input frames in last 1066 ms, latest timeUs 1000003733333

@@ -1,0 +1,27 @@
+--------- beginning of main
+03-10 21:14:43.538 15992 16021 I appium  : channel read: GET /session/f7e095b5-f269-43ce-8916-a22a7849585f/source
+03-10 21:14:43.539 15992 16021 I appium  : Source command
+03-10 21:14:43.539 15992 16021 I appium  : Waiting up to 10000ms for the device to idle
+03-10 21:14:43.557  2300 15547 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-10 21:14:43.558  2300 15547 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=false, force=false}
+03-10 21:14:43.562  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 21:14:43.562  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-10 21:14:43.563  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-10 21:14:43.563  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-10 21:14:43.564  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->41(cnt1)
+03-10 21:14:43.564  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 7
+03-10 21:14:43.567  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-10 21:14:43.572  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt1)
+03-10 21:14:43.933  5643 10714 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-10 21:14:44.053 15992 16021 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-10 21:14:44.163 15992 16021 I appium  : AppiumResponse: {"sessionId":"f7e095b5-f269-43ce-8916-a22a7849585f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.yelp.android\" class=\"android…
+03-10 21:14:44.178 15992 16021 I appium  : channel read: GET /session/f7e095b5-f269-43ce-8916-a22a7849585f/screenshot
+03-10 21:14:44.179 15992 16021 I appium  : CaptureScreenshot command
+03-10 21:14:44.181 15992 16021 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-10 21:14:44.181 15992 16021 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-10 21:14:44.268 16696 16696 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-10 21:14:44.268 16696 16696 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-10 21:14:44.726  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 36.066. prev severity:3. cur severity:0 New severity:0
+03-10 21:14:44.727  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-10 21:14:44.862 15992 16021 I appium  : AppiumResponse: {"sessionId":"f7e095b5-f269-43ce-8916-a22a7849585f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L33c1zXle/7Ofl0QjdyJAIDAJJglBhEibTkNLYl2/J4HGR5xnk8d+q+V3fq1q1X759471ZNvXvHYWyPPRpLluU0kmzlSIpZzCQIBhA5o9G5+6T3w+luBAIkQCKR6m9VSyBwzt7rnNNn77W…
+03-10 21:14:44.883  2224 16493 W C2BqBuffer: last successful dequeue was 18232538 us ago, 195 consecutive failures
