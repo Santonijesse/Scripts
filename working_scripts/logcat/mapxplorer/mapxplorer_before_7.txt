@@ -1,0 +1,73 @@
+--------- beginning of main
+03-11 14:34:25.699  2064  4171 D slpi    : tmd2712: Als lux: 6.00, ch0: 102, ch1: 5, scale: 1.08, atime:50.04, again:1024
+03-11 14:34:25.749  2064  4171 D slpi    : tmd2712: Als lux: 8.60, ch0: 147, ch1: 7, scale: 1.08, atime:50.04, again:1024
+03-11 14:34:25.776 10669 10731 I appium  : channel read: GET /session/51adb95f-3b16-4b06-bd1f-9ee007d8f118/source
+03-11 14:34:25.777 10669 10731 I appium  : Source command
+03-11 14:34:25.778 10669 10731 I appium  : Waiting up to 10000ms for the device to idle
+03-11 14:34:25.782  2064  4171 D slpi-TCS3720: ALS_REPORT lux 194.352020, ch0 104.269936-61.321529-35.334770-16.652523, scale 1.1878, fps 90, client 1
+03-11 14:34:25.782  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-11 14:34:25.782  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-11 14:34:25.783  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-11 14:34:25.785  2195 11604 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-11 14:34:25.785  2195 11604 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-11 14:34:25.785  2195 11604 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-11 14:34:25.791  2195 11604 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-11 14:34:25.791  2195 11604 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-11 14:34:25.792  2195 11604 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-11 14:34:25.792  2195 11604 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-11 14:34:25.799  2064  4171 D slpi    : tmd2712: Als lux: 11.00, ch0: 188, ch1: 9, scale: 1.08, atime:50.04, again:1024
+03-11 14:34:25.810  2195 11605 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-11 14:34:25.811  2195 11605 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-11 14:34:25.811  2195 11605 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-11 14:34:25.818  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 178.08 (194.35-16.27), pre 130.84, dbv 6866, dc 0, fps 90, chPanel 9.75-4.90-3.19-1.67, facCal:lux_s 1.19 cha_s 0.95-0.96-0.89-0.95, RunInfo: DPB 20486-89, TF 20486-0
+03-11 14:34:25.886 10669 10731 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 14:34:25.899  2064  4171 D slpi    : tmd2712: Als lux: 13.10, ch0: 223, ch1: 12, scale: 1.08, atime:50.04, again:1024
+03-11 14:34:25.902  2300 10334 I Scheduler: applyPolicy: UpdateRefreshRate 90 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 14:34:25.902  2300 10334 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 14:34:25.913  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 4(90.00 Hz:5) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 14:34:25.913  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 14:34:25.914  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 14:34:25.914  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 14:34:25.914  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 11->8(cnt1)
+03-11 14:34:25.914  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 4 to 3
+03-11 14:34:25.916  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-11 14:34:25.924  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 14:34:25.925  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt1)
+03-11 14:34:25.982 10669 10731 I appium  : AppiumResponse: {"sessionId":"51adb95f-3b16-4b06-bd1f-9ee007d8f118","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.maps.radar.navigation.android2…
+03-11 14:34:26.008 10669 10731 I appium  : channel read: GET /session/51adb95f-3b16-4b06-bd1f-9ee007d8f118/screenshot
+03-11 14:34:26.009 10669 10731 I appium  : CaptureScreenshot command
+03-11 14:34:26.010 10669 10731 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 14:34:26.010 10669 10731 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 14:34:26.049  2064  4171 D slpi    : tmd2712: Als lux: 15.40, ch0: 260, ch1: 17, scale: 1.08, atime:50.04, again:1024
+--------- beginning of system
+03-11 14:34:26.060  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 14:34:26.061  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 14:34:26.062  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 14:34:26.062  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 14:34:26.071  8373  8438 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-11 14:34:26.071  8373  8438 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 14:34:26.072  8373  8438 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-11 14:34:26.073  8373  8438 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 14:34:26.074  8373  8438 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 14:34:26.075  8373  8438 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 14:34:26.106  2300 10334 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 90 of group 5: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 14:34:26.107  2300 10334 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=90.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}}, emitEvent=true, force=false}
+03-11 14:34:26.110  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 4(90.00 Hz:5) for display 4630947043778501762
+03-11 14:34:26.110  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 4(90.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 14:34:26.111  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 14:34:26.111  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 14:34:26.112  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 4
+03-11 14:34:26.117  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 4(90.00 Hz:5) to 4(90.00 Hz:5) for display 4630947043778501762
+03-11 14:34:26.128 11607 11607 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 14:34:26.129 11607 11607 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 14:34:26.464  2300 10334 I Scheduler: applyPolicy: UpdateRefreshRate 90 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 14:34:26.464  2300 10334 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 14:34:26.473  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 4(90.00 Hz:5) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 14:34:26.473  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 14:34:26.473  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 11->8(cnt1)
+03-11 14:34:26.474  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 14:34:26.474  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 14:34:26.475  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 4 to 3
+03-11 14:34:26.483  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 14:34:26.485  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt1)
+03-11 14:34:26.501 10669 10731 I appium  : AppiumResponse: {"sessionId":"51adb95f-3b16-4b06-bd1f-9ee007d8f118","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N11dBRXGwbwZ1biLsQDSdAEC+7uXqS4BtdCsVKKldL2a0uhFGgpFIq7u7tDoJAgSQhO3Iltduf7Y2HKNgmaZLPl+Z3DOd3d2Zm7pGxmnnnvewVP75IiiIiIiIiIiIgMmEzfAyAiIiIiIiI…

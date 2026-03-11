@@ -1,0 +1,81 @@
+--------- beginning of main
+03-11 15:56:03.824 25506 25533 I appium  : channel read: GET /session/78355cc1-df41-46bb-a932-cc38af12abcd/source
+03-11 15:56:03.825 25506 25533 I appium  : Source command
+03-11 15:56:03.826 25506 25533 I appium  : Waiting up to 10000ms for the device to idle
+03-11 15:56:03.837  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-11 15:56:03.837  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-11 15:56:03.838  2195 25871 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-11 15:56:03.838  2195 25871 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-11 15:56:03.838  2195 25871 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-11 15:56:03.838  2064  4171 D slpi-TCS3720: ALS_REPORT lux 169.343521, ch0 97.192711-58.240017-30.597900-14.758217, scale 1.1878, fps 90, client 1
+03-11 15:56:03.838  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-11 15:56:03.847  2195 25871 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-11 15:56:03.847  2195 25871 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-11 15:56:03.847  2195 25871 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-11 15:56:03.847  2195 25871 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-11 15:56:03.856  2195 25873 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-11 15:56:03.856  2195 25873 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-11 15:56:03.856  2195 25873 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-11 15:56:03.864  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 141.06 (169.34-28.29), pre 120.82, dbv 7200, dc 0, fps 90, chPanel 17.40-8.38-5.51-3.03, facCal:lux_s 1.19 cha_s 0.95-0.96-0.89-0.94, RunInfo: DPB 20720-90, TF 20720-0
+03-11 15:56:03.972  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-11 15:56:04.080  2300 25031 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 15:56:04.081  2300 25031 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-11 15:56:04.086 25506 25533 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 15:56:04.087  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 15:56:04.088  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 15:56:04.088  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 15:56:04.088  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 15:56:04.089  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 0
+--------- beginning of system
+03-11 15:56:04.095  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-11 15:56:04.096  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 15:56:04.097  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-11 15:56:04.097  2067  2067 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-11 15:56:04.097  2067  2067 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-11 15:56:04.097  2067  2067 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-11 15:56:04.097  2067  2067 D AHAL: FM: fm_set_parameters: 262: Enter
+03-11 15:56:04.097  2067  2067 D AHAL: FM: fm_set_parameters: 320: exit
+03-11 15:56:04.097  2067  2067 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-11 15:56:04.097  2067  2067 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-11 15:56:04.097  2067  2067 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-11 15:56:04.098  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10276/6616
+03-11 15:56:04.099  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10559/10258
+03-11 15:56:04.100  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-11 15:56:04.101 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-11 15:56:04.104  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-11 15:56:04.104  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-11 15:56:04.104  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-11 15:56:04.105  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-11 15:56:04.105 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.42431873 nit = 117.08804 level = br2
+03-11 15:56:04.179  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 35.566. prev severity:3. cur severity:0 New severity:0
+03-11 15:56:04.230 25506 25533 I appium  : AppiumResponse: {"sessionId":"78355cc1-df41-46bb-a932-cc38af12abcd","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.mta.mobileapp\" class=\"androi…
+03-11 15:56:04.258 25506 25533 I appium  : channel read: GET /session/78355cc1-df41-46bb-a932-cc38af12abcd/screenshot
+03-11 15:56:04.259 25506 25533 I appium  : CaptureScreenshot command
+03-11 15:56:04.261 25506 25533 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 15:56:04.261 25506 25533 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 15:56:04.354  2300 25031 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 15:56:04.354  2300 25031 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 15:56:04.356 25876 25876 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 15:56:04.356 25876 25876 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 15:56:04.362  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 15:56:04.363  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 15:56:04.363  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 15:56:04.364  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 15:56:04.364  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 3
+03-11 15:56:04.371  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 15:56:04.424  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-11 15:56:04.425  2195  2386 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-11 15:56:04.425  2195 25883 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-11 15:56:04.425  2195 25883 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-11 15:56:04.425  2195 25883 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-11 15:56:04.426  2064  4171 D slpi-TCS3720: ALS_REPORT lux 189.535645, ch0 107.700333-64.142258-34.232922-16.478832, scale 1.1878, fps 90, client 1
+03-11 15:56:04.426  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-11 15:56:04.431  2195 25883 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-11 15:56:04.431  2195 25883 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-11 15:56:04.432  2195 25883 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-11 15:56:04.432  2195 25883 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-11 15:56:04.440  2195 25884 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-11 15:56:04.440  2195 25884 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-11 15:56:04.440  2195 25884 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-11 15:56:04.449  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 161.25 (189.54-28.29), pre 141.06, dbv 7200, dc 0, fps 90, chPanel 17.40-8.38-5.51-3.03, facCal:lux_s 1.19 cha_s 0.95-0.96-0.89-0.94, RunInfo: DPB 20721-90, TF 20721-0
+03-11 15:56:04.728 25506 25533 I appium  : AppiumResponse: {"sessionId":"78355cc1-df41-46bb-a932-cc38af12abcd","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1JrzTJXT18IuesrOHeqjs87fYAf780TUsg427Dxiz4AlhCICTcsjBgdiz5BuyQ2PANsGkLJMsLIxYIBMKsXnfDn43lt+0G3Ha771hTzkNEvIsYMqtuZt2qe+uZ75Fa3f08NWRlRkbG78T…

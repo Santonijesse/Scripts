@@ -1,0 +1,32 @@
+--------- beginning of main
+03-11 17:10:55.211   488   514 I appium  : channel read: GET /session/5aef8cc8-167e-4886-9dc6-66b07f88504d/source
+03-11 17:10:55.212   488   514 I appium  : Source command
+03-11 17:10:55.212   488   514 I appium  : Waiting up to 10000ms for the device to idle
+03-11 17:10:55.331   538   538 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@e90cdff
+--------- beginning of system
+03-11 17:10:55.331  3163  7000 D CoreBackPreview: Window{b639386 u0 Pop-Up Window}: Setting back callback null
+03-11 17:10:55.334   538   650 D Surface : Surface::disconnect
+03-11 17:10:55.334   538   650 D BufferQueueProducer: [Pop-Up Window#105536(BLAST Consumer)pid:538](id:21a00000004,api:1,p:538,c:538) disconnect: api 1
+03-11 17:10:55.334  3163  5528 W InputManager-JNI: Input channel object 'b639386 Pop-Up Window (client)' was disposed without first being removed with the input manager!
+03-11 17:10:55.359   488   514 I appium  : AppiumResponse: {"sessionId":"5aef8cc8-167e-4886-9dc6-66b07f88504d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.parkwhiz.driverApp\" class=\"a…
+03-11 17:10:55.380   488   514 I appium  : channel read: GET /session/5aef8cc8-167e-4886-9dc6-66b07f88504d/screenshot
+03-11 17:10:55.381   488   514 I appium  : CaptureScreenshot command
+03-11 17:10:55.382   488   514 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 17:10:55.382   488   514 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 17:10:55.396   538  1309 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.396   538  1309 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.396   538  1309 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.396   538  1309 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.397   538  1309 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.399   538  1309 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.415   538  1418 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.416   538  1417 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.416   538  1417 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.416   538  1417 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.416   538  1419 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.416   538  1418 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.461  1392  1392 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 17:10:55.462  1392  1392 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 17:10:55.675   488   514 I appium  : AppiumResponse: {"sessionId":"5aef8cc8-167e-4886-9dc6-66b07f88504d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eFPnnTb++2ixZck73rDxvgHGLF7Y9yRAlkJCIAkJSdMkTZp23rf9tdPOm7k6bbrNXJ12+r7TabamS1KyEBICIQmQsC8GzL7Z2MbG+76vki3pnN8fsoVlybZkS7YE9+e6uLCOjs45Msj…
+03-11 17:10:55.724   538  1418 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.
+03-11 17:10:55.727   538  1418 W ProxyAndroidLoggerBackend: Too many Flogger logs received before configuration. Dropping old logs.

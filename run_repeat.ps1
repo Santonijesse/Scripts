@@ -5,7 +5,7 @@ param(
 
 # Find the script in gen/ or temp/ directories
 $scriptPath = $null
-foreach ($dir in @("gen", "temp")) {
+foreach ($dir in @("working_scripts", "temp")) {
     $candidate = Join-Path $PSScriptRoot "$dir\$ScriptName.py"
     if (Test-Path $candidate) {
         $scriptPath = $candidate

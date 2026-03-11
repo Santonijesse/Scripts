@@ -1,0 +1,69 @@
+--------- beginning of main
+03-11 16:46:21.345 13828 13857 I appium  : channel read: GET /session/8d5bb0c3-0fa2-40b2-b6ae-1eef61f20536/source
+03-11 16:46:21.346 13828 13857 I appium  : Source command
+03-11 16:46:21.347 13828 13857 I appium  : Waiting up to 10000ms for the device to idle
+03-11 16:46:21.427  2300 11361 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 16:46:21.427  2300 11361 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 16:46:21.435  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 16:46:21.436  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 16:46:21.437  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 16:46:21.437  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 16:46:21.437  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 3
+03-11 16:46:21.444  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 16:46:21.485  2214  2254 W ANDR-PERF-LM: MetaMeter: handleSecondaryAsync() 151: LightningLaunches MetaMeterThread start(). No MeterMgr Available to handle this Secondary/Data Async. !!!! 
+03-11 16:46:21.555  2064 12994 E sensors-hal: handle_sns_client_event:62, mot_disprot_event: now=191937459566759 ts=191937449691417, type=0, status=3
+--------- beginning of system
+03-11 16:46:21.555  3163  3229 W BoostOptController: not supported hint: 118
+03-11 16:46:21.556  3163  3229 D CLI/Rotation: Set volume keyswap sysprop for rotation 2 lidState OPEN
+03-11 16:46:21.556  2300  2597 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 90 of group 5: [touch=1:1 touchBoost=1 scroll=0:0 idle=1:0] for display 4630947043778501762
+03-11 16:46:21.556  2300  2597 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=90.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}}, emitEvent=true, force=false}
+03-11 16:46:21.557  3163  3229 W BoostOptController: not supported hint: 118
+03-11 16:46:21.557  3163  3229 D CLI/Rotation: Set volume keyswap sysprop for rotation 2 lidState OPEN
+03-11 16:46:21.559  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 4(90.00 Hz:5) for display 4630947043778501762
+03-11 16:46:21.559  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 4(90.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 16:46:21.560  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 16:46:21.560  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 16:46:21.560  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 4
+03-11 16:46:21.563  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->11(cnt1)
+03-11 16:46:21.564  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=90.0, presentationDeadlineNanos=17111110, appVsyncOffsetNanos=1000000
+03-11 16:46:21.565  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 4(90.00 Hz:5) to 4(90.00 Hz:5) for display 4630947043778501762
+03-11 16:46:21.566  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-11 16:46:21.567  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-11 16:46:21.568  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/12833
+03-11 16:46:21.568  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10584/22044
+03-11 16:46:21.569  2067  2174 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-11 16:46:21.569  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-11 16:46:21.569  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-11 16:46:21.569  2067  2174 D AHAL: FM: fm_set_parameters: 262: Enter
+03-11 16:46:21.569  2067  2174 D AHAL: FM: fm_set_parameters: 320: exit
+03-11 16:46:21.569  2067  2174 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-11 16:46:21.569  2067  2174 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-11 16:46:21.569  2067  2174 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-11 16:46:21.572  2300  2436 D VSyncReactor: 4630947043778501762: period 11 confirmed(cnt1)
+03-11 16:46:21.573 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-11 16:46:21.575  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-11 16:46:21.576  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-11 16:46:21.576  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-11 16:46:21.576  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-11 16:46:21.577 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.4161786 nit = 112.43288 level = br2
+03-11 16:46:21.765  2064  4171 D slpi    : tmd2712: Als lux: 17.80, ch0: 303, ch1: 15, scale: 1.08, atime:50.04, again:1024
+03-11 16:46:21.776 13828 13857 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 16:46:21.858 13828 13857 I appium  : AppiumResponse: {"sessionId":"8d5bb0c3-0fa2-40b2-b6ae-1eef61f20536","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"app.organicmaps\" class=\"android.…
+03-11 16:46:21.885 13828 13857 I appium  : channel read: GET /session/8d5bb0c3-0fa2-40b2-b6ae-1eef61f20536/screenshot
+03-11 16:46:21.885 13828 13857 I appium  : CaptureScreenshot command
+03-11 16:46:21.886 13828 13857 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 16:46:21.887 13828 13857 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 16:46:21.976 14312 14312 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 16:46:21.976 14312 14312 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 16:46:22.046  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 16:46:22.047  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 16:46:22.048  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 16:46:22.048  3163  3227 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1273 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1070 com.android.server.location.provider.LocationProviderManager$LocationRegistration$1.test:1019 android.location.LocationResult.filter:253 com.android.server.location.provider.LocationProviderManager$LocationRegistration.acceptLocationChange:1018 
+03-11 16:46:22.050  2214  2254 W ANDR-PERF-LM: MetaMeter: handleSecondaryAsync() 151: LightningLaunches MetaMeterThread start(). No MeterMgr Available to handle this Secondary/Data Async. !!!! 
+03-11 16:46:22.055 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:46:22.055 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:46:22.056 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:46:22.056 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:46:22.057 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-11 16:46:22.060 28905 14216 W ChipsetCorrectionsCompu: Pixel is inside building or within UNKNOWN clutter type
+03-11 16:46:22.235 13828 13857 I appium  : AppiumResponse: {"sessionId":"8d5bb0c3-0fa2-40b2-b6ae-1eef61f20536","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13VBRXGwbwZ3ZZeu9FQFCxYMPeNdbYjb333k3UGGNsMaYbjTHJZ0zsvffee8UGRql2OkuHXXbn+2N1IhEUIyysPr9zPCe7O3Pnjhh25pl73yt4+fqJICIiIiIiIiIyYLKi7gARERERERE…

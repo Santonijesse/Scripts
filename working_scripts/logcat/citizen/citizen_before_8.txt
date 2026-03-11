@@ -1,0 +1,80 @@
+--------- beginning of main
+03-11 13:44:05.337 25560 25587 I appium  : channel read: GET /session/4a0ee375-2e8e-4d97-bf27-94da68e7fc6b/source
+03-11 13:44:05.338 25560 25587 I appium  : Source command
+03-11 13:44:05.339 25560 25587 I appium  : Waiting up to 10000ms for the device to idle
+03-11 13:44:05.379  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 13:44:05.379  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=true, force=false}
+03-11 13:44:05.379  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-11 13:44:05.380  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 13:44:05.380  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 13:44:05.380  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 13:44:05.381  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 7
+--------- beginning of system
+03-11 13:44:05.384  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=24.000002, presentationDeadlineNanos=41666666, appVsyncOffsetNanos=1000000
+03-11 13:44:05.384  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-11 13:44:05.385  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-11 13:44:05.385  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-11 13:44:05.385  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/7870
+03-11 13:44:05.386  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10608/11774
+03-11 13:44:05.388  2067  2174 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-11 13:44:05.388  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-11 13:44:05.388  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-11 13:44:05.388  2067  2174 D AHAL: FM: fm_set_parameters: 262: Enter
+03-11 13:44:05.388  2067  2174 D AHAL: FM: fm_set_parameters: 320: exit
+03-11 13:44:05.388  2067  2174 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-11 13:44:05.388  2067  2174 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-11 13:44:05.388  2067  2174 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-11 13:44:05.389 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-11 13:44:05.391  3163  3232 W Choreographer: Frame time is 0.041065 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+03-11 13:44:05.391  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-11 13:44:05.392  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-11 13:44:05.392  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-11 13:44:05.392  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-11 13:44:05.393 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.39790636 nit = 102.46039 level = br2
+03-11 13:44:05.421 25560 25587 I appium  : AppiumResponse: {"sessionId":"4a0ee375-2e8e-4d97-bf27-94da68e7fc6b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"sp0n.citizen\" class=\"android.wid…
+03-11 13:44:05.437 25560 25587 I appium  : channel read: GET /session/4a0ee375-2e8e-4d97-bf27-94da68e7fc6b/screenshot
+03-11 13:44:05.438 25560 25587 I appium  : CaptureScreenshot command
+03-11 13:44:05.439 25560 25587 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 13:44:05.439 25560 25587 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 13:44:05.527 26177 26177 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 13:44:05.527 26177 26177 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 13:44:05.630  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-11 13:44:05.642  2300 25225 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 13:44:05.642  2300 25225 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 13:44:05.662  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 13:44:05.663  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 13:44:05.663  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 13:44:05.663  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 13:44:05.664  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 3
+03-11 13:44:05.674  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->8(cnt1)
+03-11 13:44:05.674  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736739231000)
+03-11 13:44:05.682  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736747578000)
+03-11 13:44:05.691  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736755923000)
+03-11 13:44:05.695  2300 25225 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 13:44:05.696  2300 25225 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=true, force=false}
+03-11 13:44:05.699  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736764268000)
+03-11 13:44:05.704  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 7(24.00 Hz:3) for display 4630947043778501762
+03-11 13:44:05.705  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 13:44:05.705  2195  2386 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 13:44:05.705  2195  2386 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 13:44:05.705  2195  2386 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 7
+03-11 13:44:05.708  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt4)
+03-11 13:44:05.708  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736772616000)
+03-11 13:44:05.716  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736780961000)
+03-11 13:44:05.721  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-11 13:44:05.733  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736797656000)
+03-11 13:44:05.746  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-11 13:44:05.747  2064  4171 D slpi-TCS3720: ALS_REPORT lux 182.461243, ch0 100.855766-64.174187-34.076286-15.870918, scale 1.1878, fps 90, client 1
+03-11 13:44:05.747  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-11 13:44:05.749  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736814351000)
+03-11 13:44:05.791  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736856076000)
+03-11 13:44:05.791  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-11 13:44:05.792 25560 25587 I appium  : AppiumResponse: {"sessionId":"4a0ee375-2e8e-4d97-bf27-94da68e7fc6b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13XJXl4//x9xksU0DBnKCSI7HcK83MQZnhKi3N3KZWrkxzlPZJzcxSc2GaI83Zx5WVpmI5UytniTgqJyIbXIDA+f3B1/OTj6CYh3Hb6/l48HjEue/7uq4jp/u+z/u+hslisdgEAAAAAAB…
+03-11 13:44:05.792  2195 26185 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-11 13:44:05.792  2195 26185 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-11 13:44:05.792  2195 26185 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-11 13:44:05.833  2300  2436 W HWComposer: Ignoring duplicate VSYNC event from HWC for display 4630947043778501762 (t=103736897807000)
+03-11 13:44:05.855  2195 26185 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-11 13:44:05.856  2195 26185 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-11 13:44:05.856  2195 26185 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-11 13:44:05.856  2195 26185 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.

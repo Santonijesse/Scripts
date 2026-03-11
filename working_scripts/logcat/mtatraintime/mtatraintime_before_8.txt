@@ -1,0 +1,147 @@
+--------- beginning of main
+03-11 16:00:46.249   845   893 I appium  : channel read: GET /session/74d8a5ff-dfe6-458a-8ce8-2c15f16a2476/source
+03-11 16:00:46.250   845   893 I appium  : Source command
+03-11 16:00:46.250   845   893 I appium  : Waiting up to 10000ms for the device to idle
+03-11 16:00:46.350  2929  3587 I qcc-trd : qdmaConnectivityInfoProvider: Into parseLTESysInfo()
+03-11 16:00:46.350  5695  6109 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=16
+03-11 16:00:46.351  5695  5695 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+03-11 16:00:46.353  3065  3316 E RIL-MOTEXT: qcrilUpdRegRAT, called , rat =0
+03-11 16:00:46.354  2929  3587 I qcc-trd : qdmaConnectivityInfoProvider: Into parseNR5GSysInfo()
+03-11 16:00:46.360  5727  8099 I QImsService: ImsRadioIndicationAidl : onServiceDomainChanged()[SUB0]
+03-11 16:00:46.360  5727  8099 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SERVICE_DOMAIN_CHANGED 0[SUB0]
+03-11 16:00:46.361  5727  5727 I QImsService: ImsRegistrationController : Message received: what = 5
+03-11 16:00:46.362  5727  5727 I QImsService: ImsRegistrationController : handleSrvDomainChanged
+03-11 16:00:46.363  3065  3316 E RIL-MOTEXT: qcrilUpdRegRAT, called , rat =0
+03-11 16:00:46.364  2075  3560 E LOCRIL_SESSION: operator():189] SubId: 0 Failed to get sim IO with error: 11
+03-11 16:00:46.365  2075  3560 E LOCRIL_SESSION: operator():227] SubId: 0 Failed to get sim IMSI with error: 11
+03-11 16:00:46.366  5695  6109 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=16
+03-11 16:00:46.367  5695  5695 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+03-11 16:00:46.367  5727  8099 I QImsService: ImsRadioIndicationAidl : onServiceDomainChanged()[SUB0]
+03-11 16:00:46.368  5727  8099 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SERVICE_DOMAIN_CHANGED 0[SUB0]
+03-11 16:00:46.369  5727  5727 I QImsService: ImsRegistrationController : Message received: what = 5
+03-11 16:00:46.369  5727  5727 I QImsService: ImsRegistrationController : handleSrvDomainChanged
+03-11 16:00:46.369  5695  6109 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=16
+03-11 16:00:46.370  5695  5695 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+03-11 16:00:46.371  5693  6250 W IWlanNetworkService: 661 > Response Processed
+03-11 16:00:46.372  5695  6109 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=12
+03-11 16:00:46.372  5695  6109 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=28
+03-11 16:00:46.372  5695  6109 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=21
+03-11 16:00:46.372  5695  5695 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+03-11 16:00:46.373  5695  5695 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+03-11 16:00:46.374  5695  5695 D QcrilMsgTunnelIfaceManager: handleMessage what = 0
+03-11 16:00:46.375  2075  3560 E LOCRIL_SESSION: operator():189] SubId: 0 Failed to get sim IO with error: 11
+03-11 16:00:46.377  2075  3560 E LOCRIL_SESSION: operator():227] SubId: 0 Failed to get sim IMSI with error: 11
+03-11 16:00:46.377  5695  5695 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+03-11 16:00:46.377  5695  5695 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+03-11 16:00:46.377  5695  5695 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+03-11 16:00:46.377  5695  5695 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+03-11 16:00:46.379  5693  6250 W IWlanNetworkService: 662 > Response Processed
+03-11 16:00:46.379  5802  5802 D QC_RIL_OEM_HOOK: Received Broadcast Intent ACTION_UNSOL_RESPONSE_OEM_HOOK_RAW
+03-11 16:00:46.379  5802  5802 D QC_RIL_OEM_HOOK: Oem ID in QCRILHOOK UNSOL RESP is QOEMHOOK
+03-11 16:00:46.379  2075  3560 E LOCRIL_SESSION: operator():189] SubId: 0 Failed to get sim IO with error: 11
+03-11 16:00:46.381  2075  3560 E LOCRIL_SESSION: operator():227] SubId: 0 Failed to get sim IMSI with error: 11
+03-11 16:00:46.382  5802  6113 D QtiCellularNetworkService: getRegistrationStateFromResult, domain: 2
+03-11 16:00:46.382  5802  6113 D QtiCellularNetworkService: Domain: 2, NRI: NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=NOT_REG_SEARCHING networkRegistrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=NR rejectCause=0 emergencyEnabled=true availableServices=[EMERGENCY] cellIdentity=CellIdentityNr:{ mPci = 418 mTac = 1058080 mNrArfcn = 174770 mBands = [5] mMcc = 310 mMnc = 410 mNci = 16581678137 mAlphaLong = AT&T mAlphaShort = AT&T mAdditionalPlmns = {} mSnpnInfo = null mCagInfo = null } voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 16 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false mLteAttachResultType = 0 mLteAttachExtraInfo = 0 NrVopsSupportInfo :  mVopsSupport = 0 mEmcSupport = 0 mEmfSupport = 0 } nrState=**** rRplmn=310410 isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}
+03-11 16:00:46.383  3065  1413 E RIL-MOTEXT: qcrilUpdRegRAT, called , rat =0
+03-11 16:00:46.385  5693  6250 W IWlanNetworkService: 663 > Response Processed
+03-11 16:00:46.386  3065  1415 E RIL-MOTEXT: qcrilUpdateOperator, called
+03-11 16:00:46.386  5802  6113 D QtiCellularNetworkService: getRegistrationStateFromResult, domain: 1
+03-11 16:00:46.387  5802  6113 D QtiCellularNetworkService: Domain: 1, NRI: NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=NOT_REG_SEARCHING networkRegistrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0} dataSpecificInfo=null nrState=**** rRplmn= isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}
+03-11 16:00:46.389  5802  6113 D QtiCellularNetworkService: getRegistrationStateFromResult, domain: 2
+03-11 16:00:46.389  5802  6113 D QtiCellularNetworkService: Domain: 2, NRI: NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=NOT_REG_SEARCHING networkRegistrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=NR rejectCause=0 emergencyEnabled=true availableServices=[EMERGENCY] cellIdentity=CellIdentityNr:{ mPci = 418 mTac = 1058080 mNrArfcn = 174770 mBands = [5] mMcc = 310 mMnc = 410 mNci = 16581678137 mAlphaLong = AT&T mAlphaShort = AT&T mAdditionalPlmns = {} mSnpnInfo = null mCagInfo = null } voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 16 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false mLteAttachResultType = 0 mLteAttachExtraInfo = 0 NrVopsSupportInfo :  mVopsSupport = 0 mEmcSupport = 0 mEmfSupport = 0 } nrState=**** rRplmn=310410 isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}
+03-11 16:00:46.391  3065   621 E RIL-MOTEXT: qcrilUpdRegRAT, called , rat =0
+03-11 16:00:46.395  5802  6113 D QtiCellularNetworkService: getRegistrationStateFromResult, domain: 1
+03-11 16:00:46.395  5802  6113 D QtiCellularNetworkService: Domain: 1, NRI: NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=NOT_REG_SEARCHING networkRegistrationState=NOT_REG_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0} dataSpecificInfo=null nrState=**** rRplmn= isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}
+--------- beginning of system
+03-11 16:00:46.407  3163  7402 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1308 android.content.Context.sendBroadcastMultiplePermissions:2522 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3764 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1765 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:562 
+03-11 16:00:46.408  3163  7402 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1341 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3769 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1765 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:562 android.os.Binder.execTransactInternal:1515 
+03-11 16:00:46.409  3163  7402 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1341 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3778 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1765 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:562 android.os.Binder.execTransactInternal:1515 
+03-11 16:00:46.410  3163  7402 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1341 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3784 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1765 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:562 android.os.Binder.execTransactInternal:1515 
+03-11 16:00:46.410  5625  5625 W KeyguardUpdateMonitorLog: invalid subId in handleServiceStateChange()
+03-11 16:00:46.411  5802  5802 D ServiceStateProvider: subId=-1
+03-11 16:00:46.413 18030 18030 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.google.android.cellbroadcastreceiver/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+03-11 16:00:46.414 18030 18030 D CellBroadcastReceiver: onServiceStateChanged, ss: 1
+03-11 16:00:46.414 18030 18030 D CellBroadcastReceiver: networkOperator: 
+03-11 16:00:46.414 18030 18030 D CellBroadcastReceiver: networkOperator on emergency mode: 310 for the country code: us
+03-11 16:00:46.414 18030 18030 D CellBroadcastReceiver: roamingNetworks: [XXX]
+03-11 16:00:46.415 18030 18030 D CellBroadcastReceiver: update supported roaming operator as 310
+03-11 16:00:46.529  2300   493 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 16:00:46.529  2300   493 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-11 16:00:46.532  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 16:00:46.532  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 16:00:46.532  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 16:00:46.533  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 16:00:46.533  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 0
+03-11 16:00:46.540  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-11 16:00:46.541  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-11 16:00:46.541  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 16:00:46.542  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10276/6616
+03-11 16:00:46.542  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-11 16:00:46.542  2067  2174 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-11 16:00:46.542  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-11 16:00:46.542  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-11 16:00:46.542  2067  2174 D AHAL: FM: fm_set_parameters: 262: Enter
+03-11 16:00:46.542  2067  2174 D AHAL: FM: fm_set_parameters: 320: exit
+03-11 16:00:46.542  2067  2174 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-11 16:00:46.542  2067  2174 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-11 16:00:46.542  2067  2174 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-11 16:00:46.542  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10559/10258
+03-11 16:00:46.546 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-11 16:00:46.548  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-11 16:00:46.548  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-11 16:00:46.548  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-11 16:00:46.548  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-11 16:00:46.549 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.4306361 nit = 120.782295 level = br2
+03-11 16:00:46.579   845   893 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 16:00:46.688  3065  3316 D QC-time-services: Lib:time_genoff_operation: pargs->base = 12
+03-11 16:00:46.688  3065  3316 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 0
+03-11 16:00:46.688  3065  3316 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 1773259264646
+03-11 16:00:46.688  3065  3316 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+03-11 16:00:46.688  1878  1888 D QC-time-services: Daemon: Connection accepted:time_genoff
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:Received base = 12, unit = 1, operation = 0,value = 1773259264646
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:genoff_opr: Base = 12, val = 1773259264646, operation = 0
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:Value read from QTimer mseconds = 189207108
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:Value read from RTC mseconds on boot = 1081413000
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:Delta read on boot mseconds = 1081364354
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:new time 1773259264646 
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon: delta 1771988693184 genoff 1771988693184 
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:genoff_persistent_update: Writing genoff = 1771988693184 to memory
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:Opening File: /mnt/vendor/persist/time/ats_12 /data/vendor/time/ats_12
+03-11 16:00:46.689  1878  1424 D QC-time-services: Daemon:time_persistent_memory_opr:Genoff write operation 
+03-11 16:00:46.693  3065  3316 E QC-time-services: Receive Passed == base = 12, unit = 1, operation = 0, result = 0
+03-11 16:00:46.693  3065  3316 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+03-11 16:00:46.693  3065  3316 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 0
+03-11 16:00:46.693  3065  3316 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 1773259264646
+03-11 16:00:46.693  3065  3316 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+03-11 16:00:46.693  1878  1888 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+03-11 16:00:46.693  1878  1888 D QC-time-services: Daemon: Connection accepted:time_genoff
+03-11 16:00:46.693  1878  1426 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 0,value = 1773259264646
+03-11 16:00:46.693  1878  1426 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 1773259264646, operation = 0
+03-11 16:00:46.693  1878  1426 D QC-time-services: Daemon:Value read from QTimer mseconds = 189207112
+03-11 16:00:46.694  1878  1426 D QC-time-services: Daemon:Value read from RTC mseconds on boot = 1081413000
+03-11 16:00:46.694  1878  1426 D QC-time-services: Daemon:Delta read on boot mseconds = 1081364354
+03-11 16:00:46.694  1878  1426 D QC-time-services: Daemon:new time 1773259264646 
+03-11 16:00:46.694  1878  1426 D QC-time-services: Daemon: delta 1771988693180 genoff 1771988693180 
+03-11 16:00:46.694  1878  1426 D QC-time-services: Daemon:genoff_persistent_update: Writing genoff = 1771988693180 to memory
+03-11 16:00:46.694  1878  1426 D QC-time-services: Daemon:Opening File: /mnt/vendor/persist/time/ats_13 /data/vendor/time/ats_13
+03-11 16:00:46.694  1878  1426 D QC-time-services: Daemon:time_persistent_memory_opr:Genoff write operation 
+03-11 16:00:46.696  3065  3316 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 0, result = 0
+03-11 16:00:46.696  1878  1888 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+03-11 16:00:46.738   845   893 I appium  : AppiumResponse: {"sessionId":"74d8a5ff-dfe6-458a-8ce8-2c15f16a2476","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.mta.mobileapp\" class=\"androi…
+03-11 16:00:46.764   845   893 I appium  : channel read: GET /session/74d8a5ff-dfe6-458a-8ce8-2c15f16a2476/screenshot
+03-11 16:00:46.765   845   893 I appium  : CaptureScreenshot command
+03-11 16:00:46.766   845   893 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 16:00:46.766   845   893 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 16:00:46.803  2300   493 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 16:00:46.803  2300   493 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 16:00:46.807   936   936 W Choreographer: Frame time is 0.060224 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+03-11 16:00:46.811  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 16:00:46.812  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 16:00:46.812  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 16:00:46.812  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 16:00:46.813  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 3
+03-11 16:00:46.820  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 16:00:46.862  1427  1427 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 16:00:46.862  1427  1427 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 16:00:47.255  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-11 16:00:47.282   845   893 I appium  : AppiumResponse: {"sessionId":"74d8a5ff-dfe6-458a-8ce8-2c15f16a2476","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1LryTZWTb6rLhHRmTmvpfbjd3f+ThuTOtY2HT7oCNZFhKM+QYegGwsbAszZ8hvQGKAxJCR3S0GSDBggBBIRnhE28JIHGPat88+7qarau/cuTPjHutyBiveFZG5IzJz751VXVW9H6lUVXv…

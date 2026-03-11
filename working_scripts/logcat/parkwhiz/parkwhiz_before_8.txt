@@ -1,0 +1,87 @@
+--------- beginning of main
+03-11 17:14:44.144  8789  8820 I appium  : channel read: GET /session/1471052a-b91e-4d33-bccf-d8acad7811b4/source
+03-11 17:14:44.145  8789  8820 I appium  : Source command
+03-11 17:14:44.145  8789  8820 I appium  : Waiting up to 10000ms for the device to idle
+03-11 17:14:44.179  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 37.696. prev severity:3. cur severity:0 New severity:0
+03-11 17:14:44.261  8789  8820 I appium  : AppiumResponse: {"sessionId":"1471052a-b91e-4d33-bccf-d8acad7811b4","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.parkwhiz.driverApp\" class=\"a…
+03-11 17:14:44.284  8789  8820 I appium  : channel read: GET /session/1471052a-b91e-4d33-bccf-d8acad7811b4/screenshot
+03-11 17:14:44.285  8789  8820 I appium  : CaptureScreenshot command
+03-11 17:14:44.286  8789  8820 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 17:14:44.286  8789  8820 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 17:14:44.295  8839  8839 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@7f9011e
+--------- beginning of system
+03-11 17:14:44.296  3163  7414 D CoreBackPreview: Window{c05fac0 u0 Pop-Up Window}: Setting back callback null
+03-11 17:14:44.298  8839  8941 D Surface : Surface::disconnect
+03-11 17:14:44.298  8839  8941 D BufferQueueProducer: [Pop-Up Window#105864(BLAST Consumer)pid:8839](id:228700000004,api:1,p:8839,c:8839) disconnect: api 1
+03-11 17:14:44.299  3163  7402 W InputManager-JNI: Input channel object 'c05fac0 Pop-Up Window (client)' was disposed without first being removed with the input manager!
+03-11 17:14:44.302  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=10722222, appVsyncOffsetNanos=1000000
+03-11 17:14:44.303  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-11 17:14:44.306  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/12833
+03-11 17:14:44.306  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-11 17:14:44.306  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10584/22044
+03-11 17:14:44.307  2067  2174 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-11 17:14:44.307  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-11 17:14:44.307  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-11 17:14:44.308  2067  2174 D AHAL: FM: fm_set_parameters: 262: Enter
+03-11 17:14:44.308  2067  2174 D AHAL: FM: fm_set_parameters: 320: exit
+03-11 17:14:44.308  2067  2174 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-11 17:14:44.308  2067  2174 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-11 17:14:44.308  2067  2174 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-11 17:14:44.311 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-11 17:14:44.312 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.4161653 nit = 112.425354 level = br2
+03-11 17:14:44.313  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-11 17:14:44.313  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-11 17:14:44.313  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-11 17:14:44.313  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-11 17:14:44.318  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 17:14:44.318  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-11 17:14:44.318  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 17:14:44.318  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 17:14:44.319  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 17:14:44.319  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 17:14:44.319  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 0
+03-11 17:14:44.321  3163  3232 W Choreographer: Frame time is 0.040971 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+03-11 17:14:44.322  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-11 17:14:44.323  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-11 17:14:44.324  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-11 17:14:44.324  2067  5073 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-11 17:14:44.324  2067  5073 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-11 17:14:44.324  2067  5073 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-11 17:14:44.324  2067  5073 D AHAL: FM: fm_set_parameters: 262: Enter
+03-11 17:14:44.324  2067  5073 D AHAL: FM: fm_set_parameters: 320: exit
+03-11 17:14:44.324  2067  5073 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-11 17:14:44.324  2067  5073 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-11 17:14:44.324  2067  5073 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-11 17:14:44.324  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 17:14:44.325  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/12833
+03-11 17:14:44.325  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10584/22044
+03-11 17:14:44.327 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-11 17:14:44.329  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-11 17:14:44.329  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-11 17:14:44.329  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-11 17:14:44.329  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-11 17:14:44.329 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.4161653 nit = 112.425354 level = br2
+03-11 17:14:44.382  9499  9499 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 17:14:44.382  9499  9499 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 17:14:44.403 28905  9103 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_HB_ALARM type: 2 triggerAtMillis: 195440307]
+03-11 17:14:44.408  3163  6909 W PackageManager: Missing required system package: com.foxnews.android, but found with extended search.
+03-11 17:14:44.410 28905 28905 W GCM     : broadcast intent callback: result=CANCELLED forIntent { act=com.google.android.c2dm.intent.RECEIVE pkg=com.foxnews.android (has extras) }
+03-11 17:14:44.411  3163  7414 W PackageManager: Missing required system package: com.foxnews.android, but found with extended search.
+03-11 17:14:44.430 28905  9506 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-11 17:14:44.435 28905 28905 D BoundBrokerSvc: onBind: Intent { act=com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+03-11 17:14:44.435 28905 28905 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+03-11 17:14:44.435 28905  9506 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+03-11 17:14:44.438 28905  9506 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-11 17:14:44.439 28905 28905 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+03-11 17:14:44.439 28905  9506 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+03-11 17:14:44.454 28905  9103 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-11 17:14:44.458 28905  9103 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+03-11 17:14:44.580  2300  8460 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 17:14:44.581  2300  8460 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 17:14:44.584  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 17:14:44.584  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 17:14:44.585  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 17:14:44.585  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 17:14:44.585  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 3
+03-11 17:14:44.592  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 17:14:44.696  8789  8820 I appium  : AppiumResponse: {"sessionId":"1471052a-b91e-4d33-bccf-d8acad7811b4","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7J1pUFzXmf6fe2/vK/siQEIsAgmt1m5LkeR4TybxWHYSe7LYlZTHman5kE/zeb7NUlOpqaQyM1Wev5NylR3HsRI7suPYjmWtRjaStSAEEhL7Dt1A7323/4fb53Bv00ADDTRwflWURNN36+W…

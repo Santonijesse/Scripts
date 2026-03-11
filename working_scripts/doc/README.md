@@ -4,17 +4,6 @@
 
 The following scripts were recently moved to gen/ and need to be auto tested:
 
-- amapglobal.py
-- apnews.py
-- buffalowildwings.py
-- citizen.py
-- crimeradar.py
-- crumbl.py
-- mapxplorer.py
-- metropolis.py
-- mtatraintime.py
-- neshanmaps.py
-- onxhunt.py
 - onxoffroad.py
 - organicmaps.py
 - parkmobile.py
@@ -703,7 +692,7 @@ options.load_capabilities({
     "appium:platformVersion": "<PLATFORM_VERSION>",
     "appium:deviceName": "<DEVICE_NAME_OR_IP>",
     "appium:udid": "<UDID>",
-    "appium:appPackage": "com.metropolis.parking",
+    "appium:appPackage": "com.teulys.metropolis",
     "appium:automationName": "UiAutomator2",
     "appium:appActivity": "",
     "appium:ensureWebviewsHavePages": True,

@@ -1,0 +1,35 @@
+--------- beginning of main
+03-11 13:39:46.630 19579 19608 I appium  : channel read: GET /session/7ea707d5-8a17-4d08-a5bd-e2e3609e04cc/source
+03-11 13:39:46.631 19579 19608 I appium  : Source command
+03-11 13:39:46.632 19579 19608 I appium  : Waiting up to 10000ms for the device to idle
+03-11 13:39:46.702 19579 19608 I appium  : AppiumResponse: {"sessionId":"7ea707d5-8a17-4d08-a5bd-e2e3609e04cc","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"sp0n.citizen\" class=\"android.wid…
+03-11 13:39:46.720 19579 19608 I appium  : channel read: GET /session/7ea707d5-8a17-4d08-a5bd-e2e3609e04cc/screenshot
+03-11 13:39:46.721 19579 19608 I appium  : CaptureScreenshot command
+03-11 13:39:46.722 19579 19608 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 13:39:46.722 19579 19608 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 13:39:46.812 20256 20256 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 13:39:46.813 20256 20256 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 13:39:46.891  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-11 13:39:46.893  3163  5168 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+03-11 13:39:46.911  2300 19266 I Scheduler: applyPolicy: UpdateRefreshRate 24 to 120 of group 16: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-11 13:39:46.912  2300 19266 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+03-11 13:39:46.937  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 13:39:46.938  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 1(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 13:39:46.938  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 13:39:46.938  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 13:39:46.938  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 7 to 3
+03-11 13:39:46.949  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 41->8(cnt1)
+03-11 13:39:46.979  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 1(120.00 Hz:16) for display 4630947043778501762
+03-11 13:39:46.983  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt4)
+03-11 13:39:46.987  2300 19266 W RefreshRateSelector: Can't find min refresh rate by policy with the same mode group as the mode group 16
+03-11 13:39:46.987  2300 19266 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 24 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 13:39:46.987  2300 19266 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}}, emitEvent=true, force=false}
+03-11 13:39:46.991  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->41(cnt1)
+03-11 13:39:46.996  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 1(120.00 Hz:16) to 7(24.00 Hz:3) for display 4630947043778501762
+03-11 13:39:46.996  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 7(24.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 13:39:46.997  2195  2392 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 13:39:46.997  2195  2392 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 13:39:46.997  2195  2392 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 7
+03-11 13:39:47.001  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 7(24.00 Hz:3) to 7(24.00 Hz:3) for display 4630947043778501762
+03-11 13:39:47.008  2300  2436 D VSyncReactor: 4630947043778501762: period 41 confirmed(cnt2)
+03-11 13:39:47.082 19579 19608 I appium  : AppiumResponse: {"sessionId":"7ea707d5-8a17-4d08-a5bd-e2e3609e04cc","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dFTV/v7xZ2bSgSSQhE4oUhSQEqSIIEoRxFCigJRLUQREipFyKYpeQFARRIrxghRD5ypFFFABFaWrNCVUlRpaOpCQOr8/8s35MSahph18v9bKWsyctg+EM2ees/dnW2w2m10AAAAAAAA…

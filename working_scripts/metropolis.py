@@ -26,7 +26,7 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.metropolis.parking",
+    "appium:appPackage": "com.teulys.metropolis",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,

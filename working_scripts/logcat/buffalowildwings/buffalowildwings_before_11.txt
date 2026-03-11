@@ -1,0 +1,18 @@
+--------- beginning of main
+03-11 11:45:33.455  1317  1358 I appium  : channel read: GET /session/5e2e885e-b184-4827-8af8-ff97c1ef8566/source
+03-11 11:45:33.456  1317  1358 I appium  : Source command
+03-11 11:45:33.456  1317  1358 I appium  : Waiting up to 10000ms for the device to idle
+03-11 11:45:33.479  1387  1387 I cr_A11yState: Enabled accessibility services list updated. []
+03-11 11:45:33.481  1387  1387 I cr_A11yState: Informing listeners of changes.
+03-11 11:45:33.481  1387  1387 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=true, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-11 11:45:33.552  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 38.614. prev severity:0. cur severity:3 New severity:3
+03-11 11:45:33.680  1317  1358 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 11:45:33.816  1317  1358 I appium  : AppiumResponse: {"sessionId":"5e2e885e-b184-4827-8af8-ff97c1ef8566","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.buffalowildwings.blazinrewards…
+03-11 11:45:33.832  1317  1358 I appium  : channel read: GET /session/5e2e885e-b184-4827-8af8-ff97c1ef8566/screenshot
+03-11 11:45:33.833  1317  1358 I appium  : CaptureScreenshot command
+03-11 11:45:33.835  1317  1358 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 11:45:33.835  1317  1358 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 11:45:33.913  2482  2482 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 11:45:33.913  2482  2482 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 11:45:34.247  1317  1358 I appium  : AppiumResponse: {"sessionId":"5e2e885e-b184-4827-8af8-ff97c1ef8566","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFPXHwbwNzeQMAIEQbYbRRFwgXth3aNunHXvtlbrqNWqbV21rg6t1lp/tc66t9a6F27FjQqCA5U9hSSQ/P5AUylBRTOIvp/n8XnMnSeMcO97z/keUc0APw2IiIiIiIiIiMyYYOoGEBE…
+03-11 11:45:34.272  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL

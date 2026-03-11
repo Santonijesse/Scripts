@@ -1,0 +1,43 @@
+--------- beginning of main
+03-11 16:10:36.604 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:10:36.604 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:10:36.604 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:10:36.604 28905 29259 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-11 16:10:36.605  7505  7505 D LocationTracker: Got a location update from Play Services
+03-11 16:10:36.607 28905  7809 W DynamiteModule: Local module descriptor class for com.google.android.gms.tflite_dynamite not found.
+03-11 16:10:36.607 28905  7809 I DynamiteModule: Considering local module com.google.android.gms.tflite_dynamite:0 and remote module com.google.android.gms.tflite_dynamite:252130102
+03-11 16:10:36.607 28905  7809 I DynamiteModule: Selected remote version of com.google.android.gms.tflite_dynamite, version >= 252130102
+03-11 16:10:36.633 28905  7809 D nativeloader: Load /data/app/~~DSIlNDfEavH9MPLesOd5ng==/com.google.android.gms-WsdupvUBHZ4Ec_hL4vPP4A==/base.apk!/lib/arm64-v8a/libtensorflowlite_jni.so using ns clns-9 from class loader (caller=/data/app/~~DSIlNDfEavH9MPLesOd5ng==/com.google.android.gms-WsdupvUBHZ4Ec_hL4vPP4A==/base.apk!classes15.dex): ok
+03-11 16:10:36.634 28905  7809 I TensorFlowLite: Loaded native library: tensorflowlite_jni
+03-11 16:10:36.636 28905  7809 D nativeloader: Load /data/app/~~DSIlNDfEavH9MPLesOd5ng==/com.google.android.gms-WsdupvUBHZ4Ec_hL4vPP4A==/base.apk!/lib/arm64-v8a/libtensorflowlite_jni_gms_client.so using ns clns-9 from class loader (caller=/data/app/~~DSIlNDfEavH9MPLesOd5ng==/com.google.android.gms-WsdupvUBHZ4Ec_hL4vPP4A==/base.apk!classes15.dex): ok
+03-11 16:10:36.636 28905  7809 I TensorFlowLite: Loaded native library: tensorflowlite_jni_gms_client
+03-11 16:10:36.642 28905  7809 I TFLite-in-PlayServices: Initialized module.
+03-11 16:10:36.642 28905  5977 I TfLiteModuleManagerImpl: TFlite-in-GmsCore Java API is successfully initialized.
+03-11 16:10:36.665 28905  5977 I GoogleSignatureVerifier: package info is not set correctly
+03-11 16:10:36.667 28905  5977 W libc    : Access denied finding property "ro.hardware.chipname"
+03-11 16:10:36.671 28905  5977 I tflite  : Created TensorFlow Lite XNNPACK delegate for CPU.
+03-11 16:10:36.681 28905  5977 I tflite  : Initialized TensorFlow Lite runtime.
+03-11 16:10:36.682 28905  5977 W tflite  : Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#38 is a dynamic-sized tensor).
+03-11 16:10:36.683 28905  5977 I TFLite-in-PlayServices: Created interpreter.
+03-11 16:10:36.683 28905  5977 I GoogleSignatureVerifier: package info is not set correctly
+03-11 16:10:36.684 28905  5977 I TFLite-in-PlayServices: Created interpreter.
+03-11 16:10:36.689 28905  5977 I TFLiteDeviceML: Device ML initialization succeeded.
+03-11 16:10:36.702  6859  6982 I appium  : channel read: GET /session/062a6600-b35c-449e-93ae-33d2b1c1e7ae/source
+03-11 16:10:36.703  6859  6982 I appium  : Source command
+03-11 16:10:36.703  6859  6982 I appium  : Waiting up to 10000ms for the device to idle
+03-11 16:10:36.722  6859  6982 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 16:10:36.736  6859  6982 I appium  : AppiumResponse: {"sessionId":"062a6600-b35c-449e-93ae-33d2b1c1e7ae","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"org.rajman.neshan.traffic.tehran.n…
+03-11 16:10:36.757  6859  6982 I appium  : channel read: GET /session/062a6600-b35c-449e-93ae-33d2b1c1e7ae/screenshot
+03-11 16:10:36.758  6859  6982 I appium  : CaptureScreenshot command
+03-11 16:10:36.760  6859  6982 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 16:10:36.761  6859  6982 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 16:10:36.856 28905 28910 I .gms.persistent: Background concurrent mark compact GC freed 51MB AllocSpace bytes, 114(21MB) LOS objects, 63% free, 54MB/150MB, paused 2.199ms,3.178ms total 114.190ms
+03-11 16:10:36.856  7951  7951 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 16:10:36.857  7951  7951 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 16:10:36.873 28905 28912 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/base.apk' with 1 weak references
+03-11 16:10:36.873 28905 28912 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/split_config.arm64_v8a.apk' with 1 weak references
+03-11 16:10:36.873 28905 28912 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/split_config.en.apk' with 1 weak references
+03-11 16:10:36.873 28905 28912 W .gms.persistent: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~M0DDuS2UiVmE1_-shIQEnw==/com.google.android.apps.photos-BYT18ERT8B-p64U6pv1ohA==/split_config.xxhdpi.apk' with 1 weak references
+03-11 16:10:37.035 28905  5977 W ChipsetCorrectionsCompu: Pixel is inside building or within UNKNOWN clutter type
+03-11 16:10:37.138  6859  6982 I appium  : AppiumResponse: {"sessionId":"062a6600-b35c-449e-93ae-33d2b1c1e7ae","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dBRl+8bxa1sSSE/ooffem4iAiAJWpIOI9F4EQRDb+/pTBAHBBlJEmkgVRRDpRUAFlCodpJMCKQRIssnu/v4IrOQl9LSR7+ecnMNmZ2afJZCdueZ+7sfknyOXSwAAAAAAAAZmzuwBAAA…
+03-11 16:10:37.189  2064  4171 D slpi    : tmd2712: Als lux: 17.30, ch0: 294, ch1: 14, scale: 1.08, atime:50.04, again:1024
