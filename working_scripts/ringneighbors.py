@@ -11,14 +11,13 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "wingstop"
+APP_NAME = "ringneighbors"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# Wingstop — browse menu, add item to cart
-# Note: appActivity removed — let Appium auto-resolve (try com.wingstop.mobile.MainActivity if needed)
+# Ring Neighbors — browse neighborhood alerts, view alert details
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -26,7 +25,8 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.wingstop.mobile",
+    "appium:appPackage": "com.ring.neighborhoods",
+    "appium:appActivity": ".feature.splash.SplashActivity",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -50,15 +50,19 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("ws4x")
-time.sleep(1)
-tap(535, 2380, 3)
 tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1400, 3)
-tap(535, 2350, 3)
+tap(535, 2200, 3)
+tap(400, 875, 2)
+tap(650, 2250, .2)
+tap(920, 1950, .2)
+tap(400, 1150, 2)
+tap(650, 2250, .2)
+tap(920, 1950, .2)
+tap(650, 2250, .2)
+tap(220, 2100, .2)
+tap(920, 1950, .2)
+tap(750, 2250, 3)
+
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

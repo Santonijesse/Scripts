@@ -11,13 +11,13 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "wsj"
+APP_NAME = "tiktok"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# Wall Street Journal — browse headlines, open article
+# TikTok — browse for-you feed, switch to discover tab
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -25,8 +25,8 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.wsj.android",
-    "appium:appActivity": "com.wsj.android.LaunchActivity",
+    "appium:appPackage": "com.zhiliaoapp.musically",
+    "appium:appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -50,14 +50,26 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("wsj5")
-time.sleep(1)
-tap(535, 2400, 3)
-tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1200, 3)
+def swipe_up(x, y, distance=300, delay=2):
+    actions = ActionChains(driver)
+    actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+    actions.w3c_actions.pointer_action.move_to_location(x, y)
+    actions.w3c_actions.pointer_action.pointer_down()
+    actions.w3c_actions.pointer_action.pause(0.1)
+    actions.w3c_actions.pointer_action.move_to_location(x, y - distance)
+    actions.w3c_actions.pointer_action.pause(0.1)
+    actions.w3c_actions.pointer_action.release()
+    actions.perform()
+    if delay > 0:
+        time.sleep(delay)
+
+
+tap(875, 2300, 3)
+tap(535, 1600, 3)
+tap(300, 2400, 3)
+tap(300, 2400, 3)
+swipe_up(535, 1550)
+tap(300, 2450, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

@@ -11,13 +11,14 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "tiktok"
+APP_NAME = "parkmobile"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# TikTok — browse for-you feed, switch to discover tab
+# ParkMobile — find nearby parking, view spot details
+# Note: package may be com.parkmobile.zone — verify with: adb shell pm list packages | grep parkmobile
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -25,9 +26,9 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.ss.android.ugc.trill",
-    "appium:appActivity": "com.ss.android.ugc.trill.splash.SplashActivity",
+    "appium:appPackage": "net.sharewire.parkmobilev2",
     "appium:automationName": "UiAutomator2",
+    "appium.appActivity": "net.easypark.android.mvp.splash.SplashActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -50,14 +51,8 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("tk9a")
-time.sleep(1)
-tap(535, 2400, 3)
-tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(750, 2400, 3)
+tap(535, 850, 3) 
+tap(535, 1825, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

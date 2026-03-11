@@ -77,7 +77,7 @@ Device: ZY22HS5QFQ | Android 15
 | AP News | n | com.apnews | Package may be wrong. AP News actual package is `mnn.Android`. Try that instead. |
 | Wall Street Journal | n | com.wsj.android | Package correct. No activity set — Appium may fail to auto-resolve. Try `com.wsj.android.LaunchActivity`. |
 | The Pour Over | n? | com.thepourover.app | App may have changed name or been removed. Verify on device. |
-| Podcasts | timeout | com.podcast.podcasts | Timed out (not an error crash). Package may be wrong or app was slow to launch. This package belongs to CastBox. Verify which podcast app is installed. |
+| Podcasts | timeout | com.podcast.podcasts | Timed out (not an error crash). Package may be wrong or app was slow to launch. Verify which podcast app is installed. |
 | Clubhouse | y | com.clubhouse.app | OK |
 | Police Scanner: Fire Radio | n? | com.bstore.android.policescanner | App may have changed. Verify on device. |
 | Ring Neighbors | n | com.ring.neighbors | Package correct. No activity set — try `com.ring.neighbors.activities.MainActivity`. |

@@ -11,13 +11,14 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "organicmaps"
+APP_NAME = "parkwhiz"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# Organic Maps — search for location, start navigation
+# ParkWhiz — search for parking, view available spots
+# Note: package may be com.parkwhiz.android — verify with: adb shell pm list packages | grep parkwhiz
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -25,9 +26,9 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.organicmaps",
-    "appium:appActivity": "app.organicmaps.MwmActivity",
+    "appium:appPackage": "com.parkwhiz.driverApp",
     "appium:automationName": "UiAutomator2",
+    "appium:appActivity": ".main.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -50,11 +51,15 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 2400, 3)
-tap(100, 350, 3)
-tap(535, 600, 3)
 tap(535, 1550, 3)
-tap(150, 2450, 3)
+tap(960, 1875, 3)
+tap(535, 575, 3)
+tap(750, 2300, 3)
+tap(200, 580, 3)
+tap(600, 680, 3)
+tap(535, 1600, 3)
+tap(910, 1985, 3)
+tap(535, 2400, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

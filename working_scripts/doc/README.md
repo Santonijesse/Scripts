@@ -12,6 +12,19 @@ The following scripts were recently moved to gen/ and need to be auto tested:
 - crumbl.py
 - mapxplorer.py
 - metropolis.py
+- mtatraintime.py
+- neshanmaps.py
+- onxhunt.py
+- onxoffroad.py
+- organicmaps.py
+- parkmobile.py
+- parkwhiz.py
+- ringneighbors.py
+- tiktok.py
+- tiktoklite.py
+- tubi.py
+- wingstop.py
+- wsj.py
 
 ---
 
@@ -1242,7 +1255,7 @@ options.load_capabilities({
     "appium:udid": "<UDID>",
     "appium:appPackage": "com.podcast.podcasts",
     "appium:automationName": "UiAutomator2",
-    "appium:appActivity": "fm.castbox.ui.main.MainActivity",
+    "appium:appActivity": "fm.podcasts.ui.main.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,

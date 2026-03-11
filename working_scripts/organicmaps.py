@@ -11,13 +11,13 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "mtatraintime"
+APP_NAME = "organicmaps"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# MTA TrainTime — check train schedules, select line and station
+# Organic Maps — search for location, start navigation
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -25,8 +25,8 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.mta.trait",
-    "appium:appActivity": "com.mta.trait.activities.MainActivity",
+    "appium:appPackage": "app.organicmaps",
+    "appium:appActivity": ".DownloadResourcesActivity",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -50,10 +50,11 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 2400, 3)
-tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1200, 3)
+tap(535, 1550, 30)
+tap(450, 2425, 3)
+tap(850, 350, 3)
+tap(250, 950, 3)
+tap(535, 1675, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

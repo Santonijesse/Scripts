@@ -11,13 +11,15 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "onxoffroad"
+APP_NAME = "podcasts"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# onX Offroad — browse trails map, toggle trail layer
+# Podcasts — browse podcasts, open episode
+# Note: com.podcast.podcasts timed out previously — package may be wrong.
+# Verify installed podcast app with: adb shell pm list packages | grep podcast
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -25,17 +27,14 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.onxmaps.offroad",
+    "appium:appPackage": "com.podcast.podcasts",
     "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "fm.castbox.ui.main.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
     "appium:connectHardwareKeyboard": True
 })
-
-driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
-
-time.sleep(3)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -49,14 +48,18 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
+driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
+
+time.sleep(5)
+
+tap(535, 2350, 3) 
 tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("ox9r")
+driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("cb8k")
 time.sleep(1)
 tap(535, 2400, 3)
-tap(800, 350, 3)
+tap(535, 1550, 3)
 tap(535, 950, 3)
-tap(200, 1550, 3)
+tap(535, 1200, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

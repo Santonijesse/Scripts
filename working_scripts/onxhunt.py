@@ -11,13 +11,13 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "tubi"
+APP_NAME = "onxhunt"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# Tubi — browse categories, navigate to a show
+# onX Hunt — browse map layers, toggle hunting layer
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -25,8 +25,9 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.tubitv",
-    "appium:automationName": "UiAutomator2",
+    "appium:appPackage": "com.onxmaps.hunt",
+    "appium:appActivity": "com.onxmaps.hunt.ui.activity.SplashActivity",
+    #"appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -49,14 +50,15 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("tb2v")
-time.sleep(1)
-tap(535, 2400, 3)
-tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1200, 3)
+tap(535, 2200, 3)
+tap(130, 830, 3)
+tap(450, 1830, 3)
+tap(130, 990, 3)
+tap(110, 2100, 3)
+tap(220, 2100, 3)
+tap(330, 2100, 3)
+tap(440, 2100, 3)
+tap(550, 2100, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

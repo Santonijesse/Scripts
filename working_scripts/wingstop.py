@@ -11,13 +11,14 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "neshanmaps"
+APP_NAME = "wingstop"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# Neshan Maps — search for location, view on map
+# Wingstop — browse menu, add item to cart
+# Note: appActivity removed — let Appium auto-resolve (try com.wingstop.mobile.MainActivity if needed)
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -25,8 +26,7 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.neshan.maps",
-    "appium:appActivity": "ir.neshan.maps.activity.SplashActivity",
+    "appium:appPackage": "com.mobilaurus.wingstopandroid",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -49,11 +49,18 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
-
+tap(535, 2440, 3)
+tap(535, 2275, 3)
+tap(535, 1675, 3)
 tap(535, 2400, 3)
-tap(100, 350, 3)
 tap(535, 600, 3)
-tap(535, 950, 3)
+tap(750, 2250, 3)
+tap(590, 1950, 3)
+tap(440, 2250, 3)
+tap(300, 740, 3)
+tap(750, 1150, 3)
+tap(750, 1150, 3)
+
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

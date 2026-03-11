@@ -26,7 +26,7 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.zhiliaoapp.musically.go",
+    "appium:appPackage": "com.tiktok.lite.go",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -49,15 +49,24 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
+def swipe_up(x, y, distance=300, delay=2):
+    actions = ActionChains(driver)
+    actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+    actions.w3c_actions.pointer_action.move_to_location(x, y)
+    actions.w3c_actions.pointer_action.pointer_down()
+    actions.w3c_actions.pointer_action.pause(0.1)
+    actions.w3c_actions.pointer_action.move_to_location(x, y - distance)
+    actions.w3c_actions.pointer_action.pause(0.1)
+    actions.w3c_actions.pointer_action.release()
+    actions.perform()
+    if delay > 0:
+        time.sleep(delay)
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("tl3b")
-time.sleep(1)
 tap(535, 2400, 3)
 tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(750, 2400, 3)
+swipe_up(535, 1550)
+tap(325, 2440, 3)
+
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

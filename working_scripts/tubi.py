@@ -11,15 +11,13 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "castbox"
+APP_NAME = "tubi"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# Podcasts (CastBox) — browse podcasts, open episode
-# Note: com.podcast.podcasts belongs to CastBox. Timed out previously — package may be wrong.
-# Verify installed podcast app with: adb shell pm list packages | grep podcast
+# Tubi — browse categories, navigate to a show
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -27,14 +25,17 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.podcast.podcasts",
+    "appium:appPackage": "com.tubitv",
     "appium:automationName": "UiAutomator2",
-    "appium:appActivity": "fm.castbox.ui.main.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
     "appium:connectHardwareKeyboard": True
 })
+
+driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
+
+time.sleep(10)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -47,19 +48,11 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
-
-driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
-
-time.sleep(5)
-
-tap(535, 2350, 3) 
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("cb8k")
-time.sleep(1)
-tap(535, 2400, 3)
+tap(950, 170, 3)
 tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1200, 3)
+tap(535, 2440, 3)
+tap(325, 2325, 3)
+tap(780, 1615, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

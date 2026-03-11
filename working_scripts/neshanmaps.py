@@ -11,14 +11,13 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from playsound import playsound
 
-APP_NAME = "parkwhiz"
+APP_NAME = "neshanmaps"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots", APP_NAME)
 XML_DIR = os.path.join(BASE_DIR, "ui_xml", APP_NAME)
 LOGCAT_DIR = os.path.join(BASE_DIR, "logcat", APP_NAME)
 
-# ParkWhiz — search for parking, view available spots
-# Note: package may be com.parkwhiz.android — verify with: adb shell pm list packages | grep parkwhiz
+# Neshan Maps — search for location, view on map
 
 options = AppiumOptions()
 options.load_capabilities({
@@ -26,7 +25,8 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.parkwhiz",
+    "appium:appPackage": "org.rajman.neshan.traffic.tehran.navigator",
+    #"appium:appActivity": "ir.neshan.maps.activity.SplashActivity",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -50,15 +50,14 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("pw7n")
-time.sleep(1)
-tap(535, 2400, 3)
+tap(535, 2100, 3)
+tap(535, 2100, 3)
+tap(535, 2100, 3)
+tap(535, 2250, 3)
+tap(535, 2250, 3)
 tap(535, 1550, 3)
-tap(535, 500, 3)
-tap(535, 950, 3)
-tap(535, 2300, 3)
+tap(535, 1550, 3)
+tap(750, 2275, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1
