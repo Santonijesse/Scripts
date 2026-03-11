@@ -29,6 +29,7 @@ options.load_capabilities({
     "appium:udid": "ZY22HS5QFQ",
     "appium:appPackage": "com.podcast.podcasts",
     "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "fm.castbox.ui.main.MainActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -51,7 +52,7 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(5)
 
-tap(535, 1900, 3)  # sign in / login with email
+tap(535, 2350, 3) 
 tap(535, 900, 2)   # email address field
 driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("cb8k")
 time.sleep(1)

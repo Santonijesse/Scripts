@@ -26,7 +26,7 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.mapxplorer.app",
+    "appium:appPackage": "com.maps.radar.navigation.android2023",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -49,11 +49,17 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
-
+tap(535, 2150, 3)
 tap(535, 2400, 3)
+tap(535, 2400, 3)
+tap(535, 1725, 3)
+tap(535, 2400, 5)
+tap(85, 225, 3)
 tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1200, 3)
+tap(535, 1550, 3)
+tap(700, 1400, 3)
+tap(300, 250, 3)
+tap(300, 500, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

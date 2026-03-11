@@ -1,5 +1,20 @@
 # Appium Capabilities Reference — Food & Delivery Apps
 
+## TODO: Scripts needing auto test
+
+The following scripts were recently moved to gen/ and need to be auto tested:
+
+- amapglobal.py
+- apnews.py
+- buffalowildwings.py
+- citizen.py
+- crimeradar.py
+- crumbl.py
+- mapxplorer.py
+- metropolis.py
+
+---
+
 ## Scripts requiring login (no capture block)
 
 The following scripts are stubs — they cannot complete the before/after fold sequence without an account:

@@ -26,7 +26,7 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.buffalowildwings.ordering",
+    "appium:appPackage": "com.buffalowildwings.blazinrewards",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -36,7 +36,7 @@ options.load_capabilities({
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(3)
+time.sleep(10)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -50,15 +50,13 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("bw7f")
-time.sleep(1)
-tap(535, 2400, 3)
-tap(535, 1200, 3)
-tap(800, 2400, 3)
-tap(535, 950, 3)
-tap(535, 2300, 3)
+tap(550, 1500, 3) 
+tap(300, 2300, 3)
+tap(550, 1870, 3)
+tap(760, 2260, 3)
+tap(275, 1950, 3)
+tap(160, 1950, 3)
+tap(970, 2450, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

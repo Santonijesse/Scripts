@@ -50,14 +50,17 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("mp3t")
-time.sleep(1)
-tap(535, 2400, 3)
-tap(535, 1550, 3)
-tap(535, 1000, 3)
-tap(535, 2350, 3)
+tap(535, 975, 3)
+tap(400, 700, 3)
+tap(115, 2100, .2)
+tap(220, 2100, .2)
+tap(330, 2100, .2)
+tap(440, 2100, .2)
+tap(300, 950, 3)
+tap(775, 2275, .2)
+tap(270, 1950, .2)
+tap(160, 1950, .2)
+
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

@@ -26,7 +26,7 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.crumbl.app",
+    "appium:appPackage": "crumbl.cookies",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -49,16 +49,23 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
-
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("cr2m")
-time.sleep(1)
-tap(535, 2380, 3)
 tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(300, 1300, 3)
-tap(535, 2350, 3)
+tap(535, 1730, 3) 
+tap(320, 2400, 3)
+tap(800, 500, 3)
+tap(535, 1870, 3)
+tap(535, 1700, 3)
+tap(300, 300, 3)
+tap(775, 2275, 3)
+tap(270, 1950, 3)
+tap(160, 1950, 3)
+tap(475, 625, 3)
+tap(940, 1935, 3)
+tap(980, 1180, 2)
+tap(980, 1575, 2)
+tap(980, 2135, 2)
+tap(980, 1575, 2)
+tap(980, 2135, 2)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

@@ -26,8 +26,9 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.crimeradar.app",
+    "appium:appPackage": "com.newsbreak.crimeradar",
     "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.particlemedia.ui.guide.UserGuideActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -49,11 +50,14 @@ def tap(x, y, delay=2):
     if delay > 0:
         time.sleep(delay)
 
-
-tap(535, 2400, 3)
 tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1200, 3)
+tap(535, 1875, 3)
+tap(445, 1640, 3)
+tap(775, 2275, 3)
+tap(270, 1950, 3)
+tap(160, 1950, 3)
+tap(200, 520, 3)
+tap(535, 2400, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1
