@@ -1,0 +1,17 @@
+--------- beginning of main
+03-11 23:51:21.923 24545 24635 I appium  : channel read: GET /session/8acd7583-2245-414c-ae33-8f56d9b969a2/source
+03-11 23:51:21.924 24545 24635 I appium  : Source command
+03-11 23:51:21.924 24545 24635 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:51:22.204 24656 24825 D CCodecBuffers: [c2.android.aac.decoder#696:EncryptedInput.Impl[N]] codec released a buffer owned by client (index 0)
+03-11 23:51:22.301 24545 24635 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:51:22.399 24656 25370 I MediaCodec: [0xb400006f53234e10] enqueue 24 input frames in last 1003 ms, latest timeUs 1000002919588
+03-11 23:51:22.425 24545 24635 I appium  : AppiumResponse: {"sessionId":"8acd7583-2245-414c-ae33-8f56d9b969a2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tubitv\" class=\"android.widge…
+03-11 23:51:22.439 24545 24635 I appium  : channel read: GET /session/8acd7583-2245-414c-ae33-8f56d9b969a2/screenshot
+03-11 23:51:22.440 24545 24635 I appium  : CaptureScreenshot command
+03-11 23:51:22.442 24545 24635 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:51:22.442 24545 24635 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:51:22.524 24656 25370 I MediaCodec: [0xb400006f53234e10] dequeue 26 output frames in last 1008 ms, latest timeUs 1000002752755, flags 128
+03-11 23:51:22.529 25392 25392 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:51:22.529 25392 25392 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:51:22.803  5643 20593 D ApfFilter: (wlan1): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-11 23:51:23.091 24545 24635 I appium  : AppiumResponse: {"sessionId":"8acd7583-2245-414c-ae33-8f56d9b969a2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dFRVuvfx51RlZMiMhCFMMgdF4gBcQaMIqDRK292ooIJiA4oMwpULyiStXOzWBlFoaWgnEGkbEFRAAheMBAJepAEDCIiABEjIwJy56nn/yJtzKZNAgKQqW7+ftZ61IHXqnL0rValTv9p…

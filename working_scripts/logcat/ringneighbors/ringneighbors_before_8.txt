@@ -1,0 +1,17 @@
+--------- beginning of main
+03-11 23:11:50.165 24641 24667 I appium  : channel read: GET /session/b81472b0-ca44-4196-8545-6d5481f1a589/source
+03-11 23:11:50.166 24641 24667 I appium  : Source command
+03-11 23:11:50.166 24641 24667 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:11:50.216 24641 24667 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:11:50.256 24641 24667 I appium  : AppiumResponse: {"sessionId":"b81472b0-ca44-4196-8545-6d5481f1a589","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ring.neighborhoods\" class=\"a…
+03-11 23:11:50.264 24641 24667 I appium  : channel read: GET /session/b81472b0-ca44-4196-8545-6d5481f1a589/screenshot
+03-11 23:11:50.265 24641 24667 I appium  : CaptureScreenshot command
+03-11 23:11:50.266 24641 24667 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:11:50.266 24641 24667 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:11:50.314  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-11 23:11:50.366 24970 24970 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:11:50.366 24970 24970 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:11:50.429 12395 12395 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-11 23:11:50.440 12395 12395 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-11 23:11:50.460 28905 28905 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-11 23:11:50.605 24641 24667 I appium  : AppiumResponse: {"sessionId":"b81472b0-ca44-4196-8545-6d5481f1a589","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13VBTnGgbwZ2YXFmFpghTBCliQYu+99xZ7792YZo1JTGKipjcTY+/GEnuJNXbsig0sgFhReoeF3bl/rO6VUASELfr8zvGc687szLvc4M48833vJ1Sp5i+BiIiIiIiIiMiEiYYugIiIiIi…

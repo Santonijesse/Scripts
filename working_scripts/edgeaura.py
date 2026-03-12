@@ -48,7 +48,7 @@ def tap(x, y, delay=2):
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(30)  # wait for app to fully load
+time.sleep(10)  # wait for app to fully load
 
 tap(985, 175, 3)
 time.sleep(5)

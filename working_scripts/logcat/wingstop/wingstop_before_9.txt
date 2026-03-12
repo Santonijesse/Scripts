@@ -1,0 +1,76 @@
+--------- beginning of main
+03-12 00:08:13.714 18893 18921 I appium  : channel read: GET /session/7426165c-181c-4129-97a1-f4f9181badb4/source
+03-12 00:08:13.715 18893 18921 I appium  : Source command
+03-12 00:08:13.715 18893 18921 I appium  : Waiting up to 10000ms for the device to idle
+03-12 00:08:13.749 18893 18921 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-12 00:08:13.754  2300  2446 E ComposerExtn: SmoMoState::FrameIsLate: queued_frames >= 2
+--------- beginning of system
+03-12 00:08:13.756  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=16666666, appVsyncOffsetNanos=1000000
+03-12 00:08:13.756  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-12 00:08:13.757  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-12 00:08:13.757  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-12 00:08:13.757  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-12 00:08:13.758  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-12 00:08:13.758  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-12 00:08:13.758  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 0
+03-12 00:08:13.759  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-12 00:08:13.760  2067  2174 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-12 00:08:13.760  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-12 00:08:13.760  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-12 00:08:13.760  2067  2174 D AHAL: FM: fm_set_parameters: 262: Enter
+03-12 00:08:13.760  2067  2174 D AHAL: FM: fm_set_parameters: 320: exit
+03-12 00:08:13.760  2067  2174 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-12 00:08:13.760  2067  2174 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-12 00:08:13.760  2067  2174 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-12 00:08:13.761  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-12 00:08:13.762  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10276/18586
+03-12 00:08:13.763  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/20010
+03-12 00:08:13.763  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10303/24871
+03-12 00:08:13.770  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-12 00:08:13.771  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->8(cnt1)
+03-12 00:08:13.772 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-12 00:08:13.775 18893 18921 I appium  : AppiumResponse: {"sessionId":"7426165c-181c-4129-97a1-f4f9181badb4","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.mobilaurus.wingstopandroid\" c…
+03-12 00:08:13.776  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-12 00:08:13.776  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-12 00:08:13.776  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-12 00:08:13.776  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-12 00:08:13.777  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-12 00:08:13.778  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-12 00:08:13.778  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10276/18586
+03-12 00:08:13.778  2067  2174 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-12 00:08:13.778  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/20010
+03-12 00:08:13.778  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-12 00:08:13.778  2067  2174 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-12 00:08:13.778  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10303/24871
+03-12 00:08:13.778  2067  2174 D AHAL: FM: fm_set_parameters: 262: Enter
+03-12 00:08:13.778  2067  2174 D AHAL: FM: fm_set_parameters: 320: exit
+03-12 00:08:13.778  2067  2174 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-12 00:08:13.778  2067  2174 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-12 00:08:13.778  2067  2174 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-12 00:08:13.779  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt1)
+03-12 00:08:13.780  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-12 00:08:13.782 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.16006273 nit = 19.489681 level = br1
+03-12 00:08:13.783  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-12 00:08:13.783  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-12 00:08:13.783  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-12 00:08:13.783  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-12 00:08:13.787 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-12 00:08:13.789 18893 18921 I appium  : channel read: GET /session/7426165c-181c-4129-97a1-f4f9181badb4/screenshot
+03-12 00:08:13.789 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.16006273 nit = 19.489681 level = br1
+03-12 00:08:13.790 18893 18921 I appium  : CaptureScreenshot command
+03-12 00:08:13.793 18893 18921 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-12 00:08:13.793 18893 18921 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-12 00:08:13.864 19353 19353 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 00:08:13.865 19353 19353 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 00:08:14.043  2300 18454 I Scheduler: applyPolicy: UpdateRefreshRate 120 to 60 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501762
+03-12 00:08:14.043  2300 18454 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+03-12 00:08:14.046  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 8->16(cnt1)
+03-12 00:08:14.048  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-12 00:08:14.048  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 5(60.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-12 00:08:14.049  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-12 00:08:14.049  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-12 00:08:14.050  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 5
+03-12 00:08:14.056  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 5(60.00 Hz:3) for display 4630947043778501762
+03-12 00:08:14.063  2300  2436 D VSyncReactor: 4630947043778501762: period 16 confirmed(cnt2)
+03-12 00:08:14.313  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-12 00:08:14.375 18893 18921 I appium  : AppiumResponse: {"sessionId":"7426165c-181c-4129-97a1-f4f9181badb4","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1Zc2PpfSb45xzsAAliIUECBPdMJpkrK7NKJam0WN2WZMX0uN0dHT3T4+6LmZiYmS+ge3+GuZmYGEfMxUzbbUc73A572pZsy5KtUqlUmZWVG/edIEHs+3q2uQDPSYAEt0wuQObzU2SUCAI…

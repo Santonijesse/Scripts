@@ -1,0 +1,43 @@
+--------- beginning of main
+03-11 23:57:31.554  3940  3967 I appium  : channel read: GET /session/5d95f98e-195b-418a-889b-750d028eb7e0/source
+03-11 23:57:31.555  3940  3967 I appium  : Source command
+03-11 23:57:31.555  3940  3967 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:57:31.860  3984  4162 D CCodecBuffers: [c2.android.aac.decoder#678:EncryptedInput.Impl[N]] codec released a buffer owned by client (index 0)
+03-11 23:57:31.872  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-11 23:57:31.875  3163  5203 I WifiDataStallService: onCapabilitiesChanged NET_CAPABILITY_VALIDATED=true
+03-11 23:57:31.875  3163  5203 I WifiDataStallService: WIFI state:true
+03-11 23:57:31.875  3163  5203 I WifiDataStallService: WIFI valid state:true
+03-11 23:57:31.875  3163  5203 I WifiDataStallService: on-off:false,mScreenOn:true
+03-11 23:57:31.879  3163  3163 D WiFiBlocklistController: Wifi onCapabilitiesChanged
+03-11 23:57:31.879  3163  3163 D WiFiBlocklistController: Default net onCapabilitiesChanged
+03-11 23:57:31.879  3163  3163 D WiFiBlocklistController: updateDefaultNet:146
+03-11 23:57:31.879  3163  3163 D WiFiBlocklistController: mayUpdateNotification: shouldShow=false,UidsBlocked=false, net info=net:146,ifName=wlan1,securityType=2,isDefault=true,ssid="micasa",notificationId=0
+03-11 23:57:31.881  6932  7504 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=54 ]
+03-11 23:57:31.881  6932  8142 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[82ee5969-a086]>Handler" thread_id=61 ]
+03-11 23:57:31.882  6932  8142 I BugleRcsEngine: Cannot use CS.apk as it's battery optimized [CONTEXT thread_id=61 ]
+03-11 23:57:31.883  5802  6695 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-11 23:57:31.885  5693  6968 D QCNEJ/NativeHalConnector: -> SND notifyDefaultNetworkChanged(1)
+03-11 23:57:31.887  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged networkCapabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=5852Kbps LinkDnBandwidth>=26000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.0.0.248, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -61, Link speed: 626Mbps, Tx Link speed: 626Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 576Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -61 UnderlyingNetworks: Null]
+03-11 23:57:31.887  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged NET_CAPABILITY_VALIDATED=true
+03-11 23:57:31.887  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged mDataStallManager.mDataStallInstance=null
+03-11 23:57:31.889  7091 21947 I ModemStats: [DataStallDetectService] onCapabilitiesChanged mDataStallSmart5gManager.mDataStallInstance=null
+--------- beginning of system
+03-11 23:57:31.892  3163  7000 D ActivityManager: unfreezing ProcessRecord{fe120c4 27151:com.google.android.apps.messaging/u0a244}, reason = oom_uncached, adj = 200, adjType = provider, adjSource = ProcessRecord{4d599b9 6932:com.google.android.apps.messaging:rcs/u0a244}
+03-11 23:57:31.895  3163  7000 D ActivityManager: sync unfroze 27151 com.google.android.apps.messaging for 7
+03-11 23:57:31.902 28905 28914 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-11 23:57:31.902 28905 28914 W Binder  : reply too large data on java level: InterfaceDescriptor = null, code = 1
+03-11 23:57:31.902 28905 28914 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-11 23:57:31.908  3984  4706 I MediaCodec: [0xb400006f5323bd50] enqueue 24 input frames in last 1004 ms, latest timeUs 1000002627625
+03-11 23:57:31.936  3940  3967 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:57:32.033  3984  4706 I MediaCodec: [0xb400006f5323bd50] dequeue 25 output frames in last 1003 ms, latest timeUs 1000002544208, flags 128
+03-11 23:57:32.058  3940  3967 I appium  : AppiumResponse: {"sessionId":"5d95f98e-195b-418a-889b-750d028eb7e0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tubitv\" class=\"android.widge…
+03-11 23:57:32.072  5643 20593 D ApfFilter: (wlan1): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-11 23:57:32.076  3940  3967 I appium  : channel read: GET /session/5d95f98e-195b-418a-889b-750d028eb7e0/screenshot
+03-11 23:57:32.077  3940  3967 I appium  : CaptureScreenshot command
+03-11 23:57:32.078  3940  3967 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:57:32.078  3940  3967 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:57:32.166  4736  4736 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:57:32.166  4736  4736 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:57:32.404  5727  8099 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-11 23:57:32.405  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-11 23:57:32.625  3940  3967 I appium  : AppiumResponse: {"sessionId":"5d95f98e-195b-418a-889b-750d028eb7e0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17nI3l/v/xz73WHB3mLOMwTjlTogO+UUqobFJ7bxWJ0kbJIb7Z5Jhdvtq7Nil2oiNhtxEJGb40GYa+EhqEhAxmzMF5zrM+vz/mN/e2zBgzzKw11+71fDw+j8fMrHvd93WttWbmXu913dd…

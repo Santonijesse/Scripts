@@ -1,0 +1,20 @@
+--------- beginning of main
+03-11 23:56:39.078  1634  1665 I appium  : channel read: GET /session/6602bd89-7a8d-4ad7-88fe-338e57e7ca20/source
+03-11 23:56:39.079  1634  1665 I appium  : Source command
+03-11 23:56:39.080  1634  1665 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:56:39.162   837  1090 I ThermalEngine: ACTION: CPU - Setting CPU[7] to 2
+03-11 23:56:39.169   837  1090 I ThermalEngine: ACTION: CPU - Setting CPU[4] to 2
+03-11 23:56:39.571  1634  1665 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:56:39.692  1634  1665 I appium  : AppiumResponse: {"sessionId":"6602bd89-7a8d-4ad7-88fe-338e57e7ca20","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tubitv\" class=\"android.widge…
+03-11 23:56:39.706  1634  1665 I appium  : channel read: GET /session/6602bd89-7a8d-4ad7-88fe-338e57e7ca20/screenshot
+03-11 23:56:39.707  1634  1665 I appium  : CaptureScreenshot command
+03-11 23:56:39.708  1634  1665 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:56:39.708  1634  1665 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:56:39.715  1684  2560 I MediaCodec: [0xb400006f531f64d0] dequeue 24 output frames in last 1000 ms, latest timeUs 1000002627625, flags 128
+03-11 23:56:39.719  1684  2560 I MediaCodec: [0xb400006f531f64d0] enqueue 25 input frames in last 1000 ms, latest timeUs 1000003044708
+03-11 23:56:39.796  2608  2608 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:56:39.797  2608  2608 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:56:40.054  5727  8099 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-11 23:56:40.054  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-11 23:56:40.222  1634  1665 I appium  : AppiumResponse: {"sessionId":"6602bd89-7a8d-4ad7-88fe-338e57e7ca20","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dBRV+v/xpzohC0sSkiBhX0R2RRAFjqAgAiqDMo6DCCIoCiiCiCPDJiCjDDoqiMKAoA6CiAoIyjIsAwTC5iCyBQQGAdmzsQSSdJLu5/dHvqlfmuyQpHPl/TrnOQfS1VX3dqfT1Z++da8…
+03-11 23:56:40.228  1684  1868 D CCodecBuffers: [c2.android.aac.decoder#758:EncryptedInput.Impl[N]] codec released a buffer owned by client (index 0)

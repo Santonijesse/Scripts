@@ -1,0 +1,21 @@
+--------- beginning of main
+03-11 23:50:29.020 22885 23572 I MediaCodec: [0xb400006f53228b60] dequeue 38 output frames in last 1014 ms, latest timeUs 1000001543208, flags 128
+03-11 23:50:29.062  5727  8099 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-11 23:50:29.063  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152
+03-11 23:50:29.118 22839 22868 I appium  : channel read: GET /session/d9d2fbfd-f5d4-4a13-81d7-868aad0c0bc2/source
+03-11 23:50:29.120 22839 22868 I appium  : Source command
+03-11 23:50:29.120 22839 22868 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:50:29.141 22885 23075 D CCodecBuffers: [c2.android.aac.decoder#310:EncryptedInput.Impl[N]] codec released a buffer owned by client (index 0)
+03-11 23:50:29.592 22839 22868 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:50:29.714 22839 22868 I appium  : AppiumResponse: {"sessionId":"d9d2fbfd-f5d4-4a13-81d7-868aad0c0bc2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tubitv\" class=\"android.widge…
+03-11 23:50:29.728 22839 22868 I appium  : channel read: GET /session/d9d2fbfd-f5d4-4a13-81d7-868aad0c0bc2/screenshot
+03-11 23:50:29.728 22839 22868 I appium  : CaptureScreenshot command
+03-11 23:50:29.730 22839 22868 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:50:29.730 22839 22868 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:50:29.821 23616 23616 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:50:29.821 23616 23616 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:50:29.929 22885 23572 I MediaCodec: [0xb400006f53228b60] enqueue 25 input frames in last 1022 ms, latest timeUs 1000002711041
+03-11 23:50:29.979  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-11 23:50:30.050 22885 23572 I MediaCodec: [0xb400006f53228b60] dequeue 25 output frames in last 1029 ms, latest timeUs 1000002585916, flags 128
+03-11 23:50:30.190 22885 23075 D CCodecBuffers: [c2.android.aac.decoder#310:EncryptedInput.Impl[N]] codec released a buffer owned by client (index 1)
+03-11 23:50:30.272 22839 22868 I appium  : AppiumResponse: {"sessionId":"d9d2fbfd-f5d4-4a13-81d7-868aad0c0bc2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFTV/f/xz53sQPYgYQmb7CCrCnwFDSKLUpRaiwoqKBZQZK8UZJUiX2y1IAqVgmsQqQUEEZDAF4wsAUUKGEBABCRAQhb27Mnn90d+uc2QhCSQZHLq6/l4fB6PJHPn3nNmJsmd95x7jiU…

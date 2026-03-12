@@ -25,8 +25,9 @@ options.load_capabilities({
     "appium:platformVersion": "15",
     "appium:deviceName": "ZY22HS5QFQ",
     "appium:udid": "ZY22HS5QFQ",
-    "appium:appPackage": "com.shell.sitibv.motorist",
+    "appium:appPackage": "com.shell.sitibv.motorist.america",
     "appium:automationName": "UiAutomator2",
+    "appium:appActivity": "com.mobgen.fireblade.presentation.splash.SplashActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -49,14 +50,7 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 1900, 3)  # sign in / login with email
-tap(535, 900, 2)   # email address field
-driver.find_element(AppiumBy.CLASS_NAME, "android.widget.EditText").send_keys("sh5m")
-time.sleep(1)
-tap(535, 2400, 3)
-tap(535, 1550, 3)
-tap(535, 950, 3)
-tap(535, 1700, 3)
+tap(300, 875, 0)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

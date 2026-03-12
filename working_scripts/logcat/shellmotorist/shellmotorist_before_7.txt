@@ -1,0 +1,278 @@
+--------- beginning of main
+03-12 00:32:55.756  3163  5853 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@10d94a95 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+03-12 00:32:55.759  3163  5853 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+--------- beginning of system
+03-12 00:32:55.767  3163  5853 I ActivityTaskManager: START u0 {flg=0x1000c000 cmp=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity (has extras)} with LAUNCH_MULTIPLE from uid 10639 (startActivities) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+03-12 00:32:55.771  5625  5669 V WindowManagerShell: Transition requested (#9693): android.os.BinderProxy@cc2e16e TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=1824 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10204000 cmp=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity } baseActivity=ComponentInfo{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} topActivity=ComponentInfo{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} origActivity=null realActivity=ComponentInfo{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} numActivities=1 lastActiveTime=219931665 supportsMultiWindow=false supportsGlobalFreeform=false resizeMode=0 isResizeable=false isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=false minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@8bdb00f} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 108 - 0, 0) topActivityInfo=ActivityInfo{f02b89c com.mobgen.fireblade.presentation.splash.SplashActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 9693 }
+03-12 00:32:55.774 27260 27260 I BMP:BackgroundEventManager: Activity paused: com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity
+03-12 00:32:55.774 27260 27260 I BMP:LifecycleCallbacks: Activity Paused: com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity
+03-12 00:32:55.774 27260 27260 I BMP:CYFMonitor: Stop collecting sensor data
+03-12 00:32:55.775  2064  2064 I sensors-hal: activate:173, android.sensor.gyroscope/41 en=0
+03-12 00:32:55.776  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62dd went down
+03-12 00:32:55.776  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62d8 went down
+03-12 00:32:55.777  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62d3 went down
+03-12 00:32:55.778  2064  2064 I sensors-hal: activate:184, android.sensor.gyroscope/41 en=0 completed
+03-12 00:32:55.781  2064  2064 I sensors-hal: batch:206, android.sensor.accelerometer/11, period=20000000, max_latency=0
+03-12 00:32:55.781  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-12 00:32:55.781  2064  2064 I sensors-hal: batch:215, android.sensor.accelerometer/11, period=20000000, max_latency=0 request completed
+03-12 00:32:55.782  2064  2064 I sensors-hal: activate:173, android.sensor.magnetic_field/21 en=0
+03-12 00:32:55.783  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62e7 went down
+03-12 00:32:55.783  2064  2064 I sensors-hal: activate:184, android.sensor.magnetic_field/21 en=0 completed
+03-12 00:32:55.784  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62e2 went down
+03-12 00:32:55.785  2064  2064 I sensors-hal: activate:173, android.sensor.gravity/91 en=0
+03-12 00:32:55.786  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62ec went down
+03-12 00:32:55.786  2064  2064 I sensors-hal: activate:184, android.sensor.gravity/91 en=0 completed
+03-12 00:32:55.790  2300  2300 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+03-12 00:32:55.791  3163  7445 I ActivityTaskManager: The Process com.shell.sitibv.motorist.america Already Exists in BG. So sending its PID: 27260
+03-12 00:32:55.791  7314  7314 D GameMode: isScreenUnlocked: true
+03-12 00:32:55.792  3163  3249 W MotoBatteryCareService: uid: 10639 pkgName:com.shell.sitibv.motorist.america come to foreground
+03-12 00:32:55.794  7314  7314 D GameMode: onStartedActivityChange: componnent: ComponentInfo{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} entered launcher screen? true
+03-12 00:32:55.794  7314  7314 D GameMode: isScreenUnlocked: true
+03-12 00:32:55.794  7314  7314 D GameMode: isScreenUnlocked: true
+03-12 00:32:55.798  3163  7445 W AutofillManagerServiceImpl: getFillEventHistory() called by UID 10195, but service UID is 10240
+03-12 00:32:55.800  3163  7471 D CoreBackPreview: Window{fd8f6f3 u0 Splash Screen com.shell.sitibv.motorist.america}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@a020f4f, mPriority=0, mIsAnimationCallback=false}
+03-12 00:32:55.801  7314  7314 D GameMode: isScreenUnlocked: true
+03-12 00:32:55.801  5625  5806 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-12 00:32:55.801  5625  5806 W libc    : Access denied finding property "vendor.gpp.create_frc_extension"
+03-12 00:32:55.802  7314  7314 D GameMode: exiting game mode
+03-12 00:32:55.800  5625  5625 W ll.splashscreen: type=1400 audit(0.0:2021703): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=519 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.android.systemui
+03-12 00:32:55.802  7314  7314 D GameMode: isFeatureSupported: true
+03-12 00:32:55.803  7314  7314 D GameMode: isFeatureSupported: true
+03-12 00:32:55.803  7314  7314 D GameMode: reset : false
+03-12 00:32:55.805  7314  7314 D GameMode: isFeatureSupported: true
+03-12 00:32:55.810 27260 27260 I BMP:LifecycleCallbacks: Activity Created: com.mobgen.fireblade.presentation.splash.SplashActivity
+03-12 00:32:55.810  5705  5705 D GameModeDetector: notifyGameModeStatusValue, value=false
+03-12 00:32:55.811  5705  5705 D DaxService: sendGameModeIntent, state=false
+03-12 00:32:55.814  3163  3227 V WindowManager: Sent Transition (#9693) createdAt=03-12 00:32:55.756 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=1824 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10204000 cmp=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity } baseActivity=ComponentInfo{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} topActivity=ComponentInfo{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} origActivity=null realActivity=ComponentInfo{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} numActivities=1 lastActiveTime=219931665 supportsMultiWindow=false supportsGlobalFreeform=false resizeMode=0 isResizeable=false isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{RemoteToken{cd6c71f Task{dd7255e #1824 type=standard A=10639:com.shell.sitibv.motorist.america}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 108 - 0, 0) topActivityInfo=ActivityInfo{749feba com.mobgen.fireblade.presentation.splash.SplashActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 9693 }
+03-12 00:32:55.814  5625 20429 V WindowManagerShell: onTransitionReady(transaction=13584982152711)
+03-12 00:32:55.815  5625  5669 V WindowManagerShell: onTransitionReady (#9693) android.os.BinderProxy@cc2e16e: {id=9693 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{1dec1d6 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x2e35aa0 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2640) d=-1->0 r=-1->0:-1 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity},{null m=CLOSE f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{ff644e3 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity)/@0x82a8659 sb=Rect(0, 0 - 1080, 2640) eb=Rect(0, 0 - 1080, 2640) d=0 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}]}
+03-12 00:32:55.815  5625  5669 V WindowManagerShell: Playing animation for (#9693) android.os.BinderProxy@cc2e16e@0
+03-12 00:32:55.815  3163  3227 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@3a635b8
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@6731f91
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@dc8cef6
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@5d342f7
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@b64f564
+03-12 00:32:55.815  5625  5669 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@c1923cd
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@d2ae482
+03-12 00:32:55.815  5625  5669 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=9693 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{1dec1d6 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x2e35aa0 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2640) d=-1->0 r=-1->0:-1 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity},{null m=CLOSE f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{ff644e3 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity)/@0x82a8659 sb=Rect(0, 0 - 1080, 2640) eb=Rect(0, 0 - 1080, 2640) d=0 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}]}
+03-12 00:32:55.815  3163  3227 V WindowManager:     info={id=9693 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+03-12 00:32:55.815  3163  3227 V WindowManager:         {null m=OPEN f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{1dec1d6 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x9a4c6dc sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2640) d=-1->0 r=-1->0:-1 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity},
+03-12 00:32:55.815  3163  3227 V WindowManager:         {null m=CLOSE f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{ff644e3 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity)/@0xf3f3f7a sb=Rect(0, 0 - 1080, 2640) eb=Rect(0, 0 - 1080, 2640) d=0 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}
+03-12 00:32:55.815  3163  3227 V WindowManager:     ]}
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.motorola.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@a332a19, appThread = android.app.IApplicationThread$Stub$Proxy@6f2bade, debugName = QuickstepLaunchHome }}
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  Delegate animation for (#9693) to null
+03-12 00:32:55.815  5625  5669 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@b6f1793
+03-12 00:32:55.815  5625  5669 V WindowManagerShell: start default transition animation, info = {id=9693 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{1dec1d6 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x2e35aa0 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2640) d=-1->0 r=-1->0:-1 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity},{null m=CLOSE f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{ff644e3 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity)/@0x82a8659 sb=Rect(0, 0 - 1080, 2640) eb=Rect(0, 0 - 1080, 2640) d=0 bc=ff303030 component=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}]}
+03-12 00:32:55.816  5625  5669 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@68ea22a animAttr=0x5 type=OPEN isEntrance=false
+03-12 00:32:55.817  3163  7471 W UserManagerService: Requested status bar icon for non-badged user 0
+03-12 00:32:55.820 22811 23094 D DolbyDaxUI: getDeviceType, active device is 0x2
+03-12 00:32:55.820 22811 23094 D DolbyDaxUI: getDeviceType, active device is 0x2
+03-12 00:32:55.823  2067 11748 D DlbDapEffectContext: DapEffectContext[0xb400007ca4048450] getDapParameter() outval size = 12, ret = 0
+03-12 00:32:55.824  2067 11748 D DlbDapEffectContext: DapEffectContext[0xb400007ca4048450] getDapParameter() outval size = 12, ret = 0
+03-12 00:32:55.824  5705 23346 D DolbyAudioEffectHelper: getDolbyStatus enabled=true profile=0
+03-12 00:32:55.824  5705 23346 D DolbyProvider: true, profile=0
+03-12 00:32:55.825  5625  5669 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-12 00:32:55.825  5625  5669 W libc    : Access denied finding property "vendor.gpp.create_frc_extension"
+03-12 00:32:55.824  5625  5625 W wmshell.main: type=1400 audit(0.0:2021704): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=519 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.android.systemui
+03-12 00:32:55.828  5625  5922 D Surface : Surface::disconnect
+03-12 00:32:55.828  5625  5922 D BufferQueueProducer: [[BBQ] Right Edge Extension#115379#115380(BLAST Consumer)pid:5625](id:15f9000013ca,api:1,p:5625,c:5625) disconnect: api 1
+03-12 00:32:55.829  5625  5669 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@5ad0af7 animAttr=0x4 type=OPEN isEntrance=true
+03-12 00:32:55.831 27260 27260 I BMP:BackgroundEventManager: Activity resumed: com.mobgen.fireblade.presentation.splash.SplashActivity
+03-12 00:32:55.831 27260 27260 I BMP:LifecycleCallbacks: Activity Resumed:com.mobgen.fireblade.presentation.splash.SplashActivity
+03-12 00:32:55.831 27260 27260 I BMP:CYFMonitor: Start collecting sensor data
+03-12 00:32:55.832  2064  2064 I sensors-hal: flush:235, android.sensor.accelerometer/11
+03-12 00:32:55.832  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-12 00:32:55.832  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-12 00:32:55.834  2064  5194 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-12 00:32:55.834  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-12 00:32:55.834  2064  2064 I sensors-hal: flush:241, android.sensor.accelerometer/11 completed
+03-12 00:32:55.835  2064  2064 I sensors-hal: batch:206, android.sensor.gyroscope/41, period=20000000, max_latency=0
+03-12 00:32:55.835  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-12 00:32:55.835  2064  2064 I sensors-hal: batch:215, android.sensor.gyroscope/41, period=20000000, max_latency=0 request completed
+03-12 00:32:55.835  2064  2064 I sensors-hal: activate:173, android.sensor.gyroscope/41 en=1
+03-12 00:32:55.835  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-12 00:32:55.838  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62ed went down
+03-12 00:32:55.838  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62ee went down
+03-12 00:32:55.838  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62ef went down
+03-12 00:32:55.838  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-12 00:32:55.838  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-12 00:32:55.838  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-12 00:32:55.839  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 1000000000 based on min/max delay_ns
+03-12 00:32:55.839  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-12 00:32:55.839  3163  7441 D WindowManager: captureDisplay
+03-12 00:32:55.839  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f0 went down
+03-12 00:32:55.840  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f2 went down
+03-12 00:32:55.841  2064 27757 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-12 00:32:55.842  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f3 went down
+03-12 00:32:55.842  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f4 went down
+03-12 00:32:55.840  5625  5625 W wmshell.main: type=1400 audit(0.0:2021705): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=519 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.android.systemui
+03-12 00:32:55.842  5625  5669 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-12 00:32:55.842  5625  5669 W libc    : Access denied finding property "vendor.gpp.create_frc_extension"
+03-12 00:32:55.842  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-12 00:32:55.842  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-12 00:32:55.842  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-12 00:32:55.842  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-12 00:32:55.843  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-12 00:32:55.843  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f5 went down
+03-12 00:32:55.844 27212 27244 I appium  : channel read: GET /session/b9f24759-25f5-4a1a-976b-1d21fb8f2993/source
+03-12 00:32:55.845  2064 27760 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-12 00:32:55.845  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-12 00:32:55.845 27212 27244 I appium  : Source command
+03-12 00:32:55.845  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-12 00:32:55.845  2064 27760 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-12 00:32:55.846 27212 27244 I appium  : Waiting up to 10000ms for the device to idle
+03-12 00:32:55.847  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f7 went down
+03-12 00:32:55.847  5625  5922 D Surface : Surface::disconnect
+03-12 00:32:55.847  5625  5922 D BufferQueueProducer: [[BBQ] Left Edge Extension#115381#115382(BLAST Consumer)pid:5625](id:15f9000013cb,api:1,p:5625,c:5625) disconnect: api 1
+03-12 00:32:55.849  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f8 went down
+03-12 00:32:55.849  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62f9 went down
+03-12 00:32:55.849  5625  5669 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@b6f1793
+03-12 00:32:55.850  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-12 00:32:55.850  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-12 00:32:55.850  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-12 00:32:55.850  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62fa went down
+03-12 00:32:55.850  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-12 00:32:55.850  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-12 00:32:55.850  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-12 00:32:55.852  2064 27762 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-12 00:32:55.853  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-12 00:32:55.853  2064  2064 I sensors-hal: activate:184, android.sensor.gyroscope/41 en=1 completed
+03-12 00:32:55.853 27260 27260 I BMP:MotionListener: GyroScope status true and Accelerometer status true
+03-12 00:32:55.853  2064 27762 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-12 00:32:55.854  2064  2064 I sensors-hal: flush:235, android.sensor.accelerometer/11
+03-12 00:32:55.855  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-12 00:32:55.855  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-12 00:32:55.856  2064  5194 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-12 00:32:55.856  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 1 ms to receive the response with 0
+03-12 00:32:55.856  2064  2064 I sensors-hal: flush:241, android.sensor.accelerometer/11 completed
+03-12 00:32:55.857  2064  2064 I sensors-hal: batch:206, android.sensor.magnetic_field/21, period=20000000, max_latency=0
+03-12 00:32:55.857  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-12 00:32:55.857  2064  2064 I sensors-hal: batch:215, android.sensor.magnetic_field/21, period=20000000, max_latency=0 request completed
+03-12 00:32:55.858  2064  2064 I sensors-hal: activate:173, android.sensor.magnetic_field/21 en=1
+03-12 00:32:55.858  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-12 00:32:55.858  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62fc went down
+03-12 00:32:55.860  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62fd went down
+03-12 00:32:55.861  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62fe went down
+03-12 00:32:55.862  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-12 00:32:55.862  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-12 00:32:55.862  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-12 00:32:55.863  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-12 00:32:55.863  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 62ff went down
+03-12 00:32:55.865  2064 27765 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-12 00:32:55.865  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6301 went down
+03-12 00:32:55.866  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6302 went down
+03-12 00:32:55.868  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6303 went down
+03-12 00:32:55.869  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-12 00:32:55.869  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-12 00:32:55.869  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-12 00:32:55.869  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6304 went down
+03-12 00:32:55.869  2064  2064 I sensors-hal: send_sensor_config_request:395, resampler is used, set resampler config
+03-12 00:32:55.869  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-12 00:32:55.869  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-12 00:32:55.870  2064 27768 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-12 00:32:55.870  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 0 ms to receive the response with 0
+03-12 00:32:55.870  2064  2064 I sensors-hal: activate:294, mag_filter is enabled
+03-12 00:32:55.870  2064  2064 I sensors-hal: activate:184, android.sensor.magnetic_field/21 en=1 completed
+03-12 00:32:55.871  2064  2064 I sensors-hal: batch:206, android.sensor.gravity/91, period=20000000, max_latency=0
+03-12 00:32:55.871  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-12 00:32:55.871  2064  2064 I sensors-hal: batch:215, android.sensor.gravity/91, period=20000000, max_latency=0 request completed
+03-12 00:32:55.871  2064  2064 I sensors-hal: activate:173, android.sensor.gravity/91 en=1
+03-12 00:32:55.871  2064  2064 I sensors-hal: get_qmi_debug_flag:239, support_qmi_debug : false
+03-12 00:32:55.871  2064 27768 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-12 00:32:55.872  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6306 went down
+03-12 00:32:55.874  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6307 went down
+03-12 00:32:55.875  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6308 went down
+03-12 00:32:55.876  2064  2064 E Diag_Lib: diag: Diag_LSM_Init: invoked for pid: 2064 with init_count: 0
+03-12 00:32:55.876  2064  2064 E Diag_Lib: diag:failed to connect to diag socket
+03-12 00:32:55.876  2064  2064 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+03-12 00:32:55.876  2061  2108 E minksocket: MinkIPC_QRTR_Service: client with node 1 port 6309 went down
+03-12 00:32:55.876  2064  2064 I sensors-hal: send_sync_sensor_request:341, send sync request
+03-12 00:32:55.876  2064  2064 I sensors-hal: send_sync_sensor_request:367, wait for notification of response
+03-12 00:32:55.878  2064 27770 I sensors-hal: ssc_conn_resp_cb:632, resp_value = 0
+03-12 00:32:55.878  2064  2064 I sensors-hal: send_sync_sensor_request:373, takes 2 ms to receive the response with 0
+03-12 00:32:55.878  2064  2064 I sensors-hal: activate:184, android.sensor.gravity/91 en=1 completed
+03-12 00:32:55.879  2064  2064 I sensors-hal: batch:206, android.sensor.accelerometer/11, period=20000000, max_latency=0
+03-12 00:32:55.879  2064  2064 I sensors-hal: set_config:57, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-12 00:32:55.879  2064  2064 I sensors-hal: batch:215, android.sensor.accelerometer/11, period=20000000, max_latency=0 request completed
+03-12 00:32:55.880 27260 27260 I BMP:TouchManager: Listening on window
+03-12 00:32:55.892  3163  7441 D CoreBackPreview: Window{637d961 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@4811574, mPriority=0, mIsAnimationCallback=false}
+03-12 00:32:55.896  3163  5235 E MotoSxfService: ModeUsage or ActivityState is null.
+03-12 00:32:55.909 27260 27260 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-12 00:32:55.909 27260 27260 W libc    : Access denied finding property "vendor.gpp.create_frc_extension"
+03-12 00:32:55.904 27260 27260 W otorist.america: type=1400 audit(0.0:2021706): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=519 scontext=u:r:untrusted_app:s0:c127,c258,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.shell.sitibv.motorist.america
+03-12 00:32:55.916  2064 27770 I sensors-hal: handle_indication_realtime:467,  SCHED_FIFO(10) for qmi_cbk
+03-12 00:32:55.919  3163  3227 I ActivityTaskManager: Displayed com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity for user 0: +163ms
+03-12 00:32:55.939  3163  7471 D WindowManager: captureDisplay
+03-12 00:32:55.984  5625  5922 D Surface : Surface::disconnect
+03-12 00:32:55.984  5625  5922 D BufferQueueProducer: [Splash Screen com.shell.sitibv.motorist.america#115376(BLAST Consumer)pid:5625](id:15f9000013c9,api:1,p:5625,c:5625) disconnect: api 1
+03-12 00:32:55.989  3163  3233 W BoostOptController: not supported hint: 118
+03-12 00:32:55.990  5625  5806 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@ad0c288
+03-12 00:32:55.990  3163  7471 D CoreBackPreview: Window{fd8f6f3 u0 Splash Screen com.shell.sitibv.motorist.america EXITING}: Setting back callback null
+03-12 00:32:55.991  3163  7441 W InputManager-JNI: Input channel object 'fd8f6f3 Splash Screen com.shell.sitibv.motorist.america (client)' was disposed without first being removed with the input manager!
+03-12 00:32:56.005  3163  7471 D PowerManagerService: nativeSetPowerMode ret:false mode:5 enabled:false duration ms: 0
+03-12 00:32:56.006  3163  3249 W MotoBatteryCareService: uid: 10639 pkgName:com.shell.sitibv.motorist.america come to foreground
+03-12 00:32:56.007  3163  4298 I ImeTracker: com.shell.sitibv.motorist.america:dd7c6966: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+03-12 00:32:56.008  3163  4298 I ImeTracker: com.shell.sitibv.motorist.america:dd7c6966: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-12 00:32:56.011 10834 10834 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2097 
+03-12 00:32:56.011 10834 10834 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+03-12 00:32:56.012 10834 10834 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1347 onStartInput(EditorInfo{EditorInfo{packageName=com.shell.sitibv.motorist.america, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+03-12 00:32:56.012 10834 10834 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+03-12 00:32:56.013  3163  7471 W PackageConfigPersister: App-specific configuration not found for packageName: com.shell.sitibv.motorist.america and userId: 0
+03-12 00:32:56.039  3163  7496 D WindowManager: captureDisplay
+03-12 00:32:56.140  3163  7471 D WindowManager: captureDisplay
+03-12 00:32:56.240  3163  7496 D WindowManager: captureDisplay
+03-12 00:32:56.304  3163  3163 W AccessibilityManagerService:  wait for adding window timeout: 23893
+03-12 00:32:56.309  5625  5669 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#9693) android.os.BinderProxy@cc2e16e@0
+03-12 00:32:56.312  3163  3227 V WindowManager: Finish Transition (#9693): created at 03-12 00:32:55.756 collect-started=0.052ms request-sent=10.443ms started=16.657ms ready=38.466ms sent=56.429ms finished=554.922ms
+03-12 00:32:56.314  5625  5669 V WindowManagerShell: Track 0 became idle
+03-12 00:32:56.314  5625  5669 V WindowManagerShell: All active transition animations finished
+03-12 00:32:56.314 27260 27260 D VRI[CountrySelectionActivity]: visibilityChanged oldVisibility=true newVisibility=false
+03-12 00:32:56.316  3163  7445 W UserManagerService: Requested status bar icon for non-badged user 0
+03-12 00:32:56.317  3163  7445 W UserManagerService: Requested status bar icon for non-badged user 0
+03-12 00:32:56.319 27260 27454 D Surface : Surface::disconnect
+03-12 00:32:56.319 27260 27454 D BufferQueueProducer: [com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#115364(BLAST Consumer)pid:27260](id:6a7c00000001,api:1,p:27260,c:27260) disconnect: api 1
+03-12 00:32:56.319 27260 27454 D HWUI    : endAllActiveAnimators on 0xb400006fc3024ae0 (ShellListComponent) with handle 0xb400006eb3084760
+03-12 00:32:56.328 27260 27260 I BMP:LifecycleCallbacks: Activity Destroyed: com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity
+03-12 00:32:56.328 27260 27260 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@760bb6b
+03-12 00:32:56.329  3163  7441 D CoreBackPreview: Window{e6ff0c3 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}: Setting back callback null
+03-12 00:32:56.332  3163  7441 W InputManager-JNI: Input channel object 'e6ff0c3 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity (client)' was disposed without first being removed with the input manager!
+03-12 00:32:56.340  3163  7441 D WindowManager: captureDisplay
+03-12 00:32:56.358  2163  2163 D motorola.hardware.sensorext-service: handle id:13 wxh:1088x2640 uwxuh:1080x2640 size: 11489280 fd:11 fd_meta:12 flags:0x4000228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+03-12 00:32:56.359  2064  4171 D slpi-TCS3720: ALS_REPORT lux 14.662166, ch0 5.794878-2.847337-2.619591-1.047567, scale 1.1878, fps 90, client 1
+03-12 00:32:56.359  2064  4171 D slpi-TCS3720: PRX_OC info Far, Total 0, pdata 0, offset 0 step 0.63, ore 0:0 step 21.00, TH_H 1020, TH_L 0, client 0
+03-12 00:32:56.359  2195  2392 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (210.000000 26.000000 274.000000 90.000000) for display [1 0 0]
+03-12 00:32:56.361  2195 27776 I SDM     : HWCDisplay::SetReadbackBuffer: CWB config from client: tap_point 1, CWB ROI Rect(210.000000 26.000000 274.000000 90.000000), PU_as_CWB_ROI 0, Cwb full rect : (0.000000 0.000000 1080.000000 2640.000000)
+03-12 00:32:56.361  2195 27776 I SDM     : HWCDisplay::SetReadbackBuffer: Successfully configured the output buffer: readback_buffer_queued_ 1, readback_configured_ 0, cwb_client 3
+03-12 00:32:56.361  2195 27776 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+03-12 00:32:56.372  2195 27776 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+03-12 00:32:56.372  2195 27776 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+03-12 00:32:56.372  2195 27776 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+03-12 00:32:56.372  2195 27776 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+03-12 00:32:56.380  2195  2269 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+03-12 00:32:56.391  2195 27777 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+03-12 00:32:56.391  2195 27777 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+03-12 00:32:56.391  2195 27777 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+03-12 00:32:56.406  2163  2163 D SENSOREXT_ALS_COMP: FrontLight: ReportLux 0.45 (14.66-14.22), pre 0.67, dbv 973, dc 0, fps 90, chPanel 5.79-2.93-2.38-1.01, facCal:lux_s 1.19 cha_s 1.05-1.05-1.10-1.23, RunInfo: DPB 23682-165, TF 23682-0
+03-12 00:32:56.440  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:56.541  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:56.575  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-12 00:32:56.641  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:56.741  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:56.843  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:56.940 27212 27244 I appium  : AppiumResponse: {"sessionId":"b9f24759-25f5-4a1a-976b-1d21fb8f2993","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.shell.sitibv.motorist.america\…
+03-12 00:32:56.943  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:56.956 27212 27244 I appium  : channel read: GET /session/b9f24759-25f5-4a1a-976b-1d21fb8f2993/screenshot
+03-12 00:32:56.956 27212 27244 I appium  : CaptureScreenshot command
+03-12 00:32:56.957 27212 27244 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-12 00:32:56.958 27212 27244 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-12 00:32:57.042  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:57.052 27779 27779 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 00:32:57.053 27779 27779 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 00:32:57.143  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:57.243  3163  7445 D WindowManager: captureDisplay
+03-12 00:32:57.290 27212 27244 I appium  : AppiumResponse: {"sessionId":"b9f24759-25f5-4a1a-976b-1d21fb8f2993","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15jN4Hfefx7xx2HMdx7jtOnOCEJJCEsA2Ua1OkVsCyZdVIu6gsQgssPWjLrrg2FG3ZtkshCmlVCqWltJQUAYuWtumq3CgbAqS5cGwnPmJ78DE+Etshtuc+9w+HbGyPzzl+z2fm9ZLmj+c…
+03-12 00:32:57.294 28905 28905 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-12 00:32:57.301  5727  8099 I QImsService: VtDataUsageProvider : onSetAlert:2097152
+03-12 00:32:57.301  5727  5727 I QImsService: ImsServiceClassTracker : updateAlertQuota:newQuota=2097152,Remaining=2097152

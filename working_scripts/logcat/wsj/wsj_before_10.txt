@@ -1,0 +1,16 @@
+--------- beginning of main
+03-12 00:16:11.169  5383  5410 I appium  : channel read: GET /session/5299e09c-c661-4f93-8d2a-1d6b670a1788/source
+03-12 00:16:11.170  5383  5410 I appium  : Source command
+03-12 00:16:11.170  5383  5410 I appium  : Waiting up to 10000ms for the device to idle
+03-12 00:16:11.238  5436  5441 W wsj.reader_sp: Missing inline cache for android.text.SpannableString androidx.compose.ui.text.platform.AndroidAccessibilitySpannableString_androidKt.toAccessibilitySpannableString(androidx.compose.ui.text.AnnotatedString, androidx.compose.ui.unit.Density, androidx.compose.ui.text.font.FontFamily$Resolver, androidx.compose.ui.text.platform.URLSpanCache)
+03-12 00:16:11.308  5383  5410 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-12 00:16:11.422  5383  5410 I appium  : AppiumResponse: {"sessionId":"5299e09c-c661-4f93-8d2a-1d6b670a1788","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"wsj.reader_sp\" class=\"android.wi…
+03-12 00:16:11.436  5383  5410 I appium  : channel read: GET /session/5299e09c-c661-4f93-8d2a-1d6b670a1788/screenshot
+03-12 00:16:11.437  5383  5410 I appium  : CaptureScreenshot command
+03-12 00:16:11.439  5383  5410 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-12 00:16:11.439  5383  5410 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-12 00:16:11.556  6638  6638 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 00:16:11.556  6638  6638 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 00:16:11.848  3163  6909 W PackageManager: Missing required system package: com.instagram.android, but found with extended search.
+03-12 00:16:12.012  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-12 00:16:12.290  5383  5410 I appium  : AppiumResponse: {"sessionId":"5299e09c-c661-4f93-8d2a-1d6b670a1788","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl+sbxe5JgCqEEAgQFKSK9d2mKAhb8uRRdCyIqKuhaULCsuq6sq2vbxbLKorAroigRbAusisIKSjFUAZXAUhQRSegtgZD5/ZE5w5k+k6kn+X6uy8tk5syZd0Iyc859nvd5baXH7XY…

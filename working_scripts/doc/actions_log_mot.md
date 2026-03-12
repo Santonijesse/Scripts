@@ -19,7 +19,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### McDonald's — check screen status after entering item category
+### McDonald's — check order items remain in cart
 1. tap(500, 750)
 2. tap(275, 2240)
 3. tap(300, 1300)
@@ -28,6 +28,8 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 6. tap(520, 1550)
 7. tap(550, 2100)
 8. tap(550, 1900)
+9. tap(450, 420)
+10. **close → open**
 > Note: need to sign in to add items to order
 
 ---
@@ -39,29 +41,35 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ### Starbucks — check selected location remains
 1. tap(550, 1530)
-2. tap(540, 2400)
-3. tap(756, 1566)
-4. tap(750, 1185)
-5. tap(520, 1550)
-6. tap(375, 1775)
-7. **close → open**
+2. tap(985, 230)
+3. tap(410, 2400)
+4. tap(756, 1566)
+5. tap(750, 1185)
+6. tap(520, 1550)
+7. tap(375, 1775)
+8. **close → open**
 
 ---
 
 ### Taco Bell — check search bar when entering zip
 > Note: SEE WHAT ERROR WAS
-1. tap(545, 1200)
-2. tap(750, 1185)
-3. tap(520, 1550)
-4. tap(525, 1430)
-5. tap(540, 2300)
-6. tap(525, 2200)
-7. tap(480, 560)
-8. tap(100, 2420)
-9. tap(1020, 1950)
-10. tap(703, 1950)
-11. tap(1020, 1950)
-12. **close → open**
+1. tap(500, 2400)
+2. tap(545, 1200)
+3. tap(750, 1185)
+4. tap(520, 1550)
+5. tap(525, 1430)
+6. tap(540, 2300)
+7. tap(525, 2200)
+8. tap(480, 560)
+9. tap(100, 2420)
+10. tap(1020, 1950)
+11. tap(703, 1950)
+12. tap(1020, 1950)
+13. tap(380, 1950)
+14. tap(260, 1950)
+15. tap(1000, 2400)
+16. tap(920, 1860)
+17. **close → open**
 
 ---
 
@@ -77,18 +85,36 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### Instacart - close after selecting pets tab(aisle)
+### Instacart — close after selecting item in store
 1. tap(550, 2250)
+2. tap(550, 950)
+3. tap(500, 1350)
+4. tap(550, 1550)
+5. tap(540, 2400)
+6. tap(550, 2450)
+7. tap(680, 1280)
+8. **close → open**
 > Note: need a login
 
 ---
 
-### Too Good To Go - check display after selecting a restaurant/location
-1. tap(550, 2240)
+### Too Good To Go — check display after selecting a restaurant/location
+1. tap(550, 1900)
 2. tap(540, 2300)
-3. tap(82, 650)
+3. tap(85, 2050)
+4. tap(85, 2250)
+5. tap(550, 2400)
+6. tap(500, 1400)
+7. tap(300, 2400)
+8. tap(550, 2300)
+9. tap(740, 2250)
+10. tap(275, 1950)
+11. tap(160, 1950)
+12. tap(530, 670)
+13. tap(550, 2400)
+14. tap(1000, 1500)
+15. **close → open**
 > Note: need a login
-4. tap(500, 935)
 
 ---
 
@@ -108,29 +134,43 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ### Yelp
 1. tap(530, 2222)
 2. tap(750, 1185)
-3. tap(520, 1550)
+3. tap(520, 1670)
 4. tap(550, 1550)
 5. tap(650, 1530)
-> Note: need login
+6. tap(950, 230)
+7. tap(125, 185)
+8. tap(630, 1465)
+9. tap(750, 1250)
+10. tap(225, 2225)
+11. tap(550, 2400)
+12. **close → open**
 
 ---
 
-### Dunkin' - Selecting, & modifying an item to check for display change or selection change 
+### Dunkin' — select & modify an item to check display
 1. tap(550, 1550)
-2. tap(800, 2430)
-> Note: Can't download policies
+2. tap(700, 2400)
+3. tap(990, 190)
+4. tap(800, 2400)
+5. tap(500, 1615)
+6. tap(520, 1650)
+7. tap(450, 1350)
+8. tap(915, 1780)
+9. tap(580, 1820)
+10. tap(630, 500)
+11. tap(1000, 1025)
+12. **close → open**
 
 ---
 
-### ReciMe - check home screen consistancy after help pulldown
+### ReciMe — check home screen consistency after help pulldown
 1. tap(880, 810)
-2. tap(540, 2330)
-3. tap(540, 2330)
-4. tap(500, 970)
-5. tap(540, 2330)
-6. tap(540, 2330)
-7. tap(490, 940)
-8. **close → open**
+2. tap(750, 2450)
+3. tap(540, 600)
+4. tap(870, 2300)
+5. tap(540, 1550)
+6. tap(900, 320)
+7. **close → open**
 
 ---
 
@@ -162,10 +202,10 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ### Chipotle
 1. tap(280, 2480)
 2. tap(600, 1000)
-3. tap(880, 1475)
+3. tap(890, 1480)
 4. tap(750, 1185)
 5. tap(520, 1550)
-6. tap(120, 860)
+6. tap(400, 980)
 7. tap(520, 2300)
 8. tap(600, 1000)
 9. tap(400, 1900)
@@ -173,10 +213,10 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 11. tap(475, 1280)
 12. tap(535, 2400)
 13. tap(475, 1280)
-14. tap(535, 1280)
-15. tap(500, 980)
-16. tap(760, 2100)
-17. tap(930, 1950)
+14. tap(535, 2400)
+15. tap(760, 2100)
+16. tap(930, 1950)
+17. tap(900, 1150)
 18. **close → open**
 
 ---
@@ -187,11 +227,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 3. tap(535, 1370)
 4. tap(750, 1185)
 5. tap(520, 1550)
-6. tap(925, 1850)
-7. tap(700, 700)
-8. tap(660, 2400)
-9. tap(560, 2400)
-10. **close → open**
+6. **close → open**
 
 ---
 
@@ -216,6 +252,22 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
+### Wingstop — browse menu, add item to cart
+1. tap(535, 2440)
+2. tap(535, 2275)
+3. tap(535, 1675)
+4. tap(535, 2400)
+5. tap(535, 600)
+6. tap(750, 2250)
+7. tap(590, 1950)
+8. tap(440, 2250)
+9. tap(300, 740)
+10. tap(750, 1150)
+11. tap(750, 1150)
+12. **close → open**
+
+---
+
 ## Maps, Navigation & Parking
 
 ### Google Maps — close during nav
@@ -230,7 +282,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 9. tap(150, 2450)
 10. tap(900, 1940)
 11. tap(530, 1570)
-12. tap(530, 2090)
+12. tap(530, 2100)
 13. **close → open**
 
 ---
@@ -247,9 +299,10 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 9. tap(485, 350)
 10. tap(535, 2400)
 11. tap(780, 2400)
-12. tap(550, 1720)
-13. tap(550, 1550)
-14. **close → open**
+12. tap(550, 1500)
+13. tap(550, 1720)
+14. tap(550, 1550)
+15. **close → open**
 
 ---
 
@@ -290,9 +343,12 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ---
 
 ### Earnify
-1. tap(550, 1550)
-2. tap(550, 1550)
-3. tap(790, 2350)
+1. tap(750, 1185)
+2. tap(520, 1550)
+3. tap(550, 1550)
+4. tap(790, 2350)
+5. tap(560, 900)
+6. tap(140, 2120) ×9
 > Note: need login
 
 ---
@@ -319,6 +375,27 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 7. tap(450, 600)
 8. tap(550, 600)
 9. tap(550, 1200)
+10. tap(550, 2400)
+11. **close → open**
+
+---
+
+### Shell Motorist — find nearby station, view details
+1. tap(300, 875)
+2. **close → open**
+
+---
+
+### onX Offroad — browse trails map, toggle trail layer
+1. tap(535, 2200)
+2. tap(130, 830)
+3. tap(450, 1830)
+4. tap(130, 990)
+5. tap(110, 2100)
+6. tap(220, 2100)
+7. tap(330, 2100)
+8. tap(440, 2100)
+9. tap(550, 2100)
 10. **close → open**
 
 ---
@@ -331,23 +408,40 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ---
 
 ### Substack
-1. tap(550, 2160)
-2. tap(380, 550)
+1. tap(550, 2000)
+2. tap(480, 1340)
+3. tap(550, 1200)
+4. tap(550, 2400)
+5. tap(550, 1550)
+6. tap(975, 200)
+7. tap(500, 2400)
+8. tap(530, 2400)
+9. **close → open**
 > Note: needs an account
 
 ---
 
 ### Reddit
-1. tap(550, 1280)
+1. wait 10s
+2. tap(550, 1550)
+3. tap(500, 185)
+4. tap(450, 420)
+5. **close → open**
 > Note: need gmail account
 
 ---
 
-### Nextdoor - check display after entering partial address
-1. tap(1000, 1660)
-2. tap(540, 1840)
-3. tap(540, 1540)
-4. tap(500, 960)
+### Nextdoor — check display after entering partial address
+1. wait 10s
+2. tap(550, 2400)
+3. tap(750, 1185)
+4. tap(520, 1550)
+5. tap(540, 750)
+6. tap(90, 2450)
+7. tap(915, 1950)
+8. tap(170, 1950)
+9. tap(700, 1950)
+10. **close → open**
 > Note: need gmail account
 
 ---
@@ -366,7 +460,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### New York Times - check display during acct creation
+### New York Times — check display during acct creation
 1. tap(550, 2200)
 > Note: need a login
 
@@ -378,11 +472,16 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 3. tap(1000, 690)
 4. tap(1000, 860)
 5. tap(550, 2300)
-6. tap(80, 200)
-7. tap(70, 2120)
-8. tap(950, 550)
-9. tap(500, 1600)
-10. **close → open**
+6. tap(550, 2300)
+7. tap(550, 2300)
+8. tap(550, 2300)
+9. tap(550, 2300)
+10. tap(80, 200)
+11. tap(70, 2120)
+12. tap(550, 2400)
+13. tap(950, 550)
+14. tap(500, 1600)
+15. **close → open**
 
 ---
 
@@ -391,6 +490,52 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 2. tap(400, 2100) ×10
 > Note: needs phone number — script navigates to phone entry screen
 11. **close → open**
+
+---
+
+### Ring Neighbors — browse neighborhood alerts, view alert detail
+1. tap(535, 1550)
+2. tap(535, 2200)
+3. tap(400, 875)
+4. tap(650, 2250)
+5. tap(920, 1950)
+6. tap(400, 1150)
+7. tap(650, 2250)
+8. tap(920, 1950)
+9. tap(650, 2250)
+10. tap(220, 2100)
+11. tap(920, 1950)
+12. tap(750, 2250)
+13. **close → open**
+
+---
+
+### Wall Street Journal — browse headlines, open article
+1. tap(535, 1550)
+2. tap(650, 340)
+3. swipe up (535, 1550)
+4. **close → open**
+
+---
+
+### TikTok — browse for-you feed, switch to discover tab
+1. wait 5s
+2. tap(875, 2300)
+3. tap(535, 1550)
+4. tap(300, 2400)
+5. tap(300, 2400)
+6. swipe up (535, 1550)
+7. tap(300, 2450)
+8. **close → open**
+
+---
+
+### TikTok Lite — browse for-you feed, switch to explore tab
+1. tap(535, 2400)
+2. tap(535, 1550)
+3. swipe up (535, 1550)
+4. tap(325, 2440)
+5. **close → open**
 
 ---
 
@@ -415,6 +560,17 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ---
 
 ## Other
+
+### Tubi — browse categories, navigate to a show
+1. wait 10s
+2. tap(950, 170)
+3. tap(535, 1550)
+4. tap(535, 2440)
+5. tap(325, 2325)
+6. tap(780, 1615)
+7. **close → open**
+
+---
 
 ### Microsoft Copilot — close while responding to prompt
 1. tap(490, 1950)
@@ -483,23 +639,22 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ---
 
-### Instagram — close after viewing post
-1. tap(550, 1400)
-2. tap(550, 2400)
-3. tap(530, 1540)
-4. tap(550, 2350)
-5. tap(750, 2450)
-6. tap(500, 200)
-7. tap(652, 2110)
-8. tap(800, 1950)
-9. **close → open**
+### Instagram — close after beginning search
+1. wait 7s
+2. tap(550, 1400)
+3. tap(550, 2400)
+4. tap(530, 1540)
+5. tap(550, 2350)
+6. tap(750, 2450)
+7. tap(550, 2000)
+8. **close → open**
 
 ---
 
 ### WhatsApp — close after entering phone number
 1. tap(535, 2060)
 2. tap(550, 1550)
-3. tap(525, 620)
+3. tap(840, 620)
 4. tap(300, 1040)
 5. tap(540, 730)
 6. tap(400, 2100) ×10
@@ -509,7 +664,7 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ---
 
 ### Edge Aura — close after changing tab
-1. wait 30s
+1. wait 10s
 2. tap(985, 175)
 3. wait 5s
 4. tap(985, 175)
@@ -524,28 +679,33 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 
 ### FreeCash
 1. tap(280, 1620)
+2. tap(100, 200)
+3. tap(1020, 980)
+4. **close → open**
 > Note: needs gmail
 
 ---
 
 ### ReelShort — close after starting a video
-1. tap(550, 1550)
-2. tap(1000, 195)
-3. tap(540, 1875)
+1. wait 10s
+2. tap(550, 1550)
+3. tap(1000, 195)
 4. tap(540, 1875)
 5. tap(540, 1875)
-6. tap(860, 1200)
-7. **close → open**
+6. tap(540, 1875)
+7. tap(860, 1200)
+8. **close → open**
 
 ---
 
 ### Threads — close after selecting a topic/tag
-1. tap(550, 1300)
-2. tap(550, 1000)
-3. tap(350, 2450)
-4. tap(200, 325)
-5. tap(690, 530)
-6. **close → open**
+1. wait 5s
+2. tap(550, 1300)
+3. tap(550, 1000)
+4. tap(350, 2450)
+5. tap(200, 325)
+6. tap(690, 530)
+7. **close → open**
 
 ---
 
@@ -558,53 +718,50 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ---
 
 ### SHEIN — close after setting display filter
-1. tap(550, 1550)
-2. tap(550, 1210)
-3. tap(980, 875)
-4. tap(975, 600)
-5. tap(1015, 1200)
-6. tap(750, 665)
-7. tap(210, 1500)
-8. tap(810, 2300)
-9. **close → open**
+1. wait 10s
+2. tap(550, 1550)
+3. tap(550, 1210)
+4. tap(980, 875)
+5. tap(975, 600)
+6. tap(1015, 1200)
+7. tap(750, 665)
+8. tap(210, 1500)
+9. tap(810, 2300)
+10. **close → open**
 
 ---
 
 ### Peacock — close after entering info for account creation
 1. tap(550, 2325)
 2. tap(530, 1050)
-3. tap(650, 2250) ×3
-4. tap(900, 1950) ×3
-5. tap(650, 2250) ×3
+3. tap(650, 2250)
+4. tap(900, 1950)
+5. tap(650, 2250)
 6. tap(200, 1050)
 7. tap(650, 2120)
 8. tap(280, 1950)
-9. tap(970, 2100) ×2
-10. tap(920, 1950)
-11. tap(65, 1820)
-12. tap(160, 1820)
-13. tap(275, 1820)
-14. tap(200, 1250)
-15. tap(650, 2120)
-16. tap(280, 1950)
-17. tap(970, 2100) ×2
-18. tap(920, 1950)
-19. tap(65, 1820)
-20. tap(160, 1820)
-21. tap(275, 1820)
-22. tap(910, 950)
-23. tap(910, 1110)
-24. **close → open**
+9. tap(970, 2100)
+10. tap(970, 2100)
+11. tap(920, 1950)
+12. tap(65, 1820)
+13. tap(160, 1820)
+14. tap(275, 1820)
+15. tap(910, 950)
+16. **close → open**
 
 ---
 
 ### PayPal — close after entering email
-1. tap(550, 2400)
-2. tap(1000, 1675)
-3. tap(650, 2250) ×3
-4. tap(900, 1950) ×3
-5. tap(650, 2250) ×3
-6. **close → open**
+1. wait 10s
+2. tap(550, 2400)
+3. tap(1000, 1675)
+4. tap(650, 2250)
+5. tap(900, 1950)
+6. tap(650, 2250)
+7. tap(900, 1950)
+8. tap(650, 2250)
+9. tap(900, 1950)
+10. **close → open**
 
 ---
 
@@ -615,13 +772,18 @@ Format: tap(x, y) coordinates, close = fold device, open = unfold device
 ---
 
 ### Whatnot
-1. tap(540, 1740)
+1. wait 10s
+2. tap(540, 1740)
+3. tap(460, 1325)
+4. tap(530, 1630)
+5. tap(550, 1550)
+6. **close → open**
 > Note: needs gmail
 
 ---
 
 ### Facebook — close after opening reels
-1. wait 30s
+1. wait 15s
 2. tap(550, 1550)
 3. tap(550, 2400)
 4. tap(1000, 180)

@@ -1,0 +1,15 @@
+--------- beginning of main
+03-11 23:44:28.462  2224 12304 I QC2Comp : [hevcD_483] Stats: Pending(8) i/p-done(4) Works: Q: 184/Done 177|Work-Rate: Q(0.0/s Avg=9.0/s) Done(0.000/s Avg=8.620/s)| Stream: 20.00fps 25.3Kbps
+03-11 23:44:28.462  2224 12304 I QC2Comp : [hevcD_483] Mem-usage:  [In-1D: 5 bufs 18.691 MB] [1D-773: 18 bufs 0.281 MB] [2D-774: 22 bufs 8.594 MB] | Total: 27.566 MB
+03-11 23:44:28.486  5643 20593 D ApfFilter: (wlan1): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-11 23:44:28.565 11412 11438 I appium  : channel read: GET /session/3f8fa8b2-bbbd-4436-8fc8-f843f8f76441/source
+03-11 23:44:28.567 11412 11438 I appium  : Source command
+03-11 23:44:28.567 11412 11438 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:44:28.838 11412 11438 I appium  : AppiumResponse: {"sessionId":"3f8fa8b2-bbbd-4436-8fc8-f843f8f76441","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.zhiliaoapp.musically\" class=\…
+03-11 23:44:28.851 11412 11438 I appium  : channel read: GET /session/3f8fa8b2-bbbd-4436-8fc8-f843f8f76441/screenshot
+03-11 23:44:28.851 11412 11438 I appium  : CaptureScreenshot command
+03-11 23:44:28.853 11412 11438 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:44:28.853 11412 11438 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:44:28.942 12584 12584 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:44:28.942 12584 12584 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:44:29.267 11412 11438 I appium  : AppiumResponse: {"sessionId":"3f8fa8b2-bbbd-4436-8fc8-f843f8f76441","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFTlujbwe81MeiUFQgsh9IBSleQIGjqKKG4V3aAUFQkWiny6FZG2lYMVBETZsEUFUdlUETiUQwiE5gEEpCkiAYEkpJKQMvX5/hizzJBJZTKTgft3Xc9FMrNmrXdNSGbNPW9RAAiIiIi…

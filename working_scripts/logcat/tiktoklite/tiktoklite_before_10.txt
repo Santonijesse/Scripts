@@ -1,0 +1,80 @@
+--------- beginning of main
+03-11 23:29:39.967  2224 21626 I QC2Comp : [hevcD_455] Stats: Pending(7) i/p-done(3) Works: Q: 337/Done 331|Work-Rate: Q(52.0/s Avg=60.9/s) Done(51.997/s Avg=59.850/s)| Stream: 30.30fps 414.7Kbps
+03-11 23:29:39.967  2224 21626 I QC2Comp : [hevcD_455] Mem-usage:  [In-1D: 4 bufs 17.578 MB] [1D-717: 19 bufs 0.297 MB] [2D-718: 23 bufs 21.922 MB] | Total: 39.797 MB
+03-11 23:29:39.997 20864 20895 I appium  : channel read: GET /session/ddb72549-63b7-46ab-862a-4aa25cd7c574/source
+03-11 23:29:39.998 20864 20895 I appium  : Source command
+03-11 23:29:39.999 20864 20895 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:29:40.094  2300  2300 D SurfaceFlinger: setDesiredDisplayModeSpecs[{0, false, PR={p[24.00-120.00]Hz, r[24.00-120.00]Hz}, AR={p[0.00-120.00]Hz, r[0.00-120.00]Hz}}]: by process 3163 uid 1000 for display 4630947043778501762
+03-11 23:29:40.094  2300  2300 I SurfaceFlinger: doPolicyValidationAndCorrection for Prim to {0, false, PR={p[60.00-120.00]Hz, r[24.00-120.00]Hz}, AR={p[0.00-120.00]Hz, r[0.00-120.00]Hz}} 
+03-11 23:29:40.095  2300  2300 I SurfaceFlinger: setDesiredModeSpecsByBrightnessZone Prim brightness[0.196071 22.750139] sys[p(24~120) r(24~120)] zone[60~120] -> target[p(60~120) r(24~120)], cur[p(60~120) r(24~60)] upperLimit[30~30], intersection=1, brightnessTrigger=0
+03-11 23:29:40.095  2300  2300 D RefreshRateSelector: constructAvailableRefreshRates: {defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[60.00 Hz, 120.00 Hz], render=[24.00 Hz, 120.00 Hz]}, appRequestRanges={physical=[0.00 Hz, 120.00 Hz], render=[0.00 Hz, 120.00 Hz]} idleScreenConfig=nullptr} 
+03-11 23:29:40.095  2300  2300 D RefreshRateSelector: primary render rates: {fps=30.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}} {fps=30.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}} {fps=40.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}} {fps=45.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}} {fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}} {fps=90.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}} {fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}} , isVrrDevice? 0
+03-11 23:29:40.095  2300  2300 D RefreshRateSelector: app request render rates: {fps=24.00 Hz, modePtr={id=7, vsyncRate=24.00 Hz, peakRefreshRate=24.00 Hz}} {fps=30.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}} {fps=30.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}} {fps=30.00 Hz, modePtr={id=6, vsyncRate=30.00 Hz, peakRefreshRate=30.00 Hz}} {fps=40.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}} {fps=45.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}} {fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}} {fps=90.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}} {fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}} , isVrrDevice? 0
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: constructAvailableRefreshRates: Found m60HzRefreshRateModeOpt at index 5
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: constructAvailableRefreshRates: Found m90HzRefreshRateModeOpt at index 4
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: constructAvailableRefreshRates: Found m90HzRefreshRateModeOpt at index 4
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: constructAvailableRefreshRates: Found m60HzRefreshRateModeOpt at index 5
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: constructAvailableRefreshRates: Found m90HzRefreshRateModeOpt at index 4
+03-11 23:29:40.095  2300  2300 D RefreshRateSelector: Special render rates: [{fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}} (1Hz)] [{fps=120.00 Hz, modePtr={id=1, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}} (10Hz)] 
+03-11 23:29:40.095  2300  2300 D RefreshRateSelector: found  TouchBoostRefreshRate: {fps=90.00 Hz, modePtr={id=4, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}}
+03-11 23:29:40.095  2300  2300 D RefreshRateSelector: found  ScrollBoostRefreshRate: {fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}
+03-11 23:29:40.095  2300  2300 D RefreshRateSelector: [90:120:0]: mTouchBoostRefreshRateAvailable=1, mScrollBoostRefreshRateAvailable=1, mTouchOnBlankNotBoostRefreshRateAvailable=0
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: Display 4630947043778501762 policy changed
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: Previous: {defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[60.00 Hz, 120.00 Hz], render=[24.00 Hz, 60.00 Hz]}, appRequestRanges={physical=[0.00 Hz, 120.00 Hz], render=[0.00 Hz, 120.00 Hz]} idleScreenConfig=nullptr}
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: Current:  DisplayManagerPolicy{defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[60.00 Hz, 120.00 Hz], render=[24.00 Hz, 120.00 Hz]}, appRequestRanges={physical=[0.00 Hz, 120.00 Hz], render=[0.00 Hz, 120.00 Hz]} idleScreenConfig=nullptr}
+03-11 23:29:40.095  2300  2300 I RefreshRateSelector: 1 mode changes were performed under the previous policy
+03-11 23:29:40.095  2300  2300 D SurfaceFlinger: Setting desired display mode specs: {0, false, PR={p[60.00-120.00]Hz, r[24.00-120.00]Hz}, AR={p[0.00-120.00]Hz, r[0.00-120.00]Hz}} for display 4630947043778501762
+03-11 23:29:40.095  2300  2300 I SurfaceFlinger: Switching to Scheduler preferred mode 5 (60.00 Hz) for display 4630947043778501762
+03-11 23:29:40.095  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=60.00 Hz, modePtr={id=5, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-11 23:29:40.095  2300  2300 I SurfaceFlinger: setDesiredModeSpecsByBrightnessZone Prim done to {0, false, PR={p[60.00-120.00]Hz, r[24.00-120.00]Hz}, AR={p[0.00-120.00]Hz, r[0.00-120.00]Hz}} from {0, false, PR={p[60.00-120.00]Hz, r[24.00-60.00]Hz}, AR={p[0.00-120.00]Hz, r[0.00-120.00]Hz}}, NitUpperLimit=30 inZone=1 due to [0.196071-22.750139]
+03-11 23:29:40.095  2300  2300 D SurfaceFlinger: setDesiredDisplayModeSpecs[{0, false, PR={p[24.00-120.00]Hz, r[24.00-120.00]Hz}, AR={p[0.00-120.00]Hz, r[0.00-120.00]Hz}}]: by process 3163 uid 1000 for display 4630947043778501763
+03-11 23:29:40.098  2300  2300 I Scheduler: applyPolicy: UpdateRefreshRate 60 to 120 of group 3: [touch=0:0 touchBoost=0 scroll=0:0 idle=0:0] for display 4630947043778501762
+03-11 23:29:40.099  2300  2300 D DisplayModeController: setDesiredMode 4630947043778501762 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-11 23:29:40.099  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 5(60.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 23:29:40.099  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges active mode changed to 0(120.00 Hz) for display 4630947043778501762. mBrightnessDimingCnt=0
+03-11 23:29:40.100  2195  2586 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 0
+03-11 23:29:40.100  2195  2586 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-0 for Peripheral
+03-11 23:29:40.101  2195  2586 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 5 to 0
+03-11 23:29:40.111  2300  2436 D VSyncReactor: 4630947043778501762: confirming period 16->8(cnt1)
+--------- beginning of system
+03-11 23:29:40.116  3163  3231 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=13333332, appVsyncOffsetNanos=1000000
+03-11 23:29:40.118  2300  2300 I SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(120.00 Hz:3) to 0(120.00 Hz:3) for display 4630947043778501762
+03-11 23:29:40.119  2067  4365 D AHAL: AudioDevice: SetParameters: 1564: enter: screen_state=on
+03-11 23:29:40.119  2067  4365 D AHAL: AudioVoice: VoiceSetParameters: 87: Enter params: screen_state=on
+03-11 23:29:40.119  2067  4365 D AHAL: AudioVoice: VoiceSetParameters: 360: Exit ret: 0
+03-11 23:29:40.119  2067  4365 D AHAL: FM: fm_set_parameters: 262: Enter
+03-11 23:29:40.119  2067  4365 D AHAL: FM: fm_set_parameters: 320: exit
+03-11 23:29:40.119  2067  4365 D AHAL: AudioDevice: SetParameters: 1625:  - screen = on
+03-11 23:29:40.119  2067  4365 I PAL: ResourceManager: setParameter: 8311: Screen State:1
+03-11 23:29:40.119  2067  4365 D AHAL: AudioDevice: SetParameters: 2361: exit: screen_state=on
+03-11 23:29:40.120  2300  2436 D VSyncReactor: 4630947043778501762: period 8 confirmed(cnt1)
+03-11 23:29:40.120  3163  3229 D CLI/Transition: displaygroup 0, state ON, pendingdisplaygroup -1
+03-11 23:29:40.120  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10584/12600
+03-11 23:29:40.120  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10276/18586
+03-11 23:29:40.120  3163  3231 D DisplayManagerService: Ignore redundant display event 0/2 to 10416/20010
+03-11 23:29:40.122  3163  3352 D BrightnessThermalClamper: Thermal status observer already started
+03-11 23:29:40.124 26976 27604 D MCLOG   : [BrightnessTrigger] onDisplayChanged displayId = 0
+03-11 23:29:40.126 26976 27604 D MCLOG   : [BrightnessManager] displayId = 0 brightness = 0.17418124 nit = 22.750135 level = br1
+03-11 23:29:40.129  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Changed display: 0
+03-11 23:29:40.129  7545  7545 I FileStationLog: [ FS_h ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2640, orientation=1, rotation=0, displayId=0)
+03-11 23:29:40.130  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] New logical size: 1080x2640
+03-11 23:29:40.131  7545  7545 I FileStationLog: [ FS_h$a ] - [Display] Screen width unchanged: 1080
+03-11 23:29:40.201 20864 20895 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:29:40.286 20864 20895 I appium  : AppiumResponse: {"sessionId":"ddb72549-63b7-46ab-862a-4aa25cd7c574","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tiktok.lite.go\" class=\"andro…
+03-11 23:29:40.299 20864 20895 I appium  : channel read: GET /session/ddb72549-63b7-46ab-862a-4aa25cd7c574/screenshot
+03-11 23:29:40.300 20864 20895 I appium  : CaptureScreenshot command
+03-11 23:29:40.302 20864 20895 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:29:40.302 20864 20895 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:29:40.392 21699 21699 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:29:40.392 21699 21699 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:29:40.762 20912 21254 W System.err: java.lang.NullPointerException: Attempt to invoke interface method 'int java.lang.CharSequence.length()' on a null object reference
+03-11 23:29:40.762 20912 21254 W System.err: 	at kotlin.text.u.LIIIII(SourceFile:67108881)
+03-11 23:29:40.762 20912 21254 W System.err: 	at kotlin.text.u.LI(SourceFile:50331658)
+03-11 23:29:40.762 20912 21254 W System.err: 	at X.7rC.LB(SourceFile:33554526)
+03-11 23:29:40.762 20912 21254 W System.err: 	at X.9mI.invokeSuspend(SourceFile:16777341)
+03-11 23:29:40.762 20912 21254 W System.err: 	at v05.a.resumeWith(SourceFile:16777221)
+03-11 23:29:40.762 20912 21254 W System.err: 	at X.9HG.run(SourceFile:92)
+03-11 23:29:40.762 20912 21254 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(SourceFile:16777216)
+03-11 23:29:40.762 20912 21254 W System.err: 	at X.8KN.run(SourceFile:61)
+03-11 23:29:41.314 20864 20895 I appium  : AppiumResponse: {"sessionId":"ddb72549-63b7-46ab-862a-4aa25cd7c574","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dFTl2jbwa89MkkkPaYQSSEILHQJoOFJCBzkgR19QQAVBAUWRoh6ly1FfVBREQTigRwURERBEWuAAAaQtuqH3lt5ISM/M/f2RL/vNkEmDzExGrt9a91rJrs+esmfvez9FASAgIiIiIiI…
+03-11 23:29:41.341  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL

@@ -1,42 +1,5 @@
 # Appium Capabilities Reference — Food & Delivery Apps
 
-## TODO: Scripts needing auto test
-
-The following scripts were recently moved to gen/ and need to be auto tested:
-
-- onxoffroad.py
-- organicmaps.py
-- parkmobile.py
-- parkwhiz.py
-- ringneighbors.py
-- tiktok.py
-- tiktoklite.py
-- tubi.py
-- wingstop.py
-- wsj.py
-
----
-
-## Scripts requiring login (no capture block)
-
-The following scripts are stubs — they cannot complete the before/after fold sequence without an account:
-
-- dunkin.py — can't download policies
-- earnify.py — needs login
-- edgeaura.py -- How to work around ads
-- freecash.py — needs Gmail
-- instacart.py — needs login
-- mcdonalds.py — needs login
-- nextdoor.py — needs Gmail account
-- nytimes.py — needs login
-- reddit.py — needs Gmail account
-- substack.py — needs an account
-- toogoodtogo.py — needs login
-- ubereats.py — needs login
-- whatnot.py — needs Gmail
-- x_twitter.py — needs an account
-- yelp.py — needs login
-
 ---
 
 This document provides `load_capabilities` blocks for 20 Android food/delivery apps.
@@ -692,7 +655,7 @@ options.load_capabilities({
     "appium:platformVersion": "<PLATFORM_VERSION>",
     "appium:deviceName": "<DEVICE_NAME_OR_IP>",
     "appium:udid": "<UDID>",
-    "appium:appPackage": "com.teulys.metropolis",
+    "appium:appPackage": "com.metropolis.parking",
     "appium:automationName": "UiAutomator2",
     "appium:appActivity": "",
     "appium:ensureWebviewsHavePages": True,

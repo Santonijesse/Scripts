@@ -1,0 +1,17 @@
+--------- beginning of main
+03-12 00:11:26.418 24533 24702 I ThermalEngine: ACTION: CPU - Setting CPU[7] to 0
+03-12 00:11:26.430 24533 24702 I ThermalEngine: ACTION: CPU - Setting CPU[4] to 0
+03-12 00:11:26.460 25168 25198 I appium  : channel read: GET /session/d80dd1f5-8025-4d64-9892-d289da2b0c5c/source
+03-12 00:11:26.461 25168 25198 I appium  : Source command
+03-12 00:11:26.462 25168 25198 I appium  : Waiting up to 10000ms for the device to idle
+03-12 00:11:26.520 25217 25221 W wsj.reader_sp: Missing inline cache for android.text.SpannableString androidx.compose.ui.text.platform.AndroidAccessibilitySpannableString_androidKt.toAccessibilitySpannableString(androidx.compose.ui.text.AnnotatedString, androidx.compose.ui.unit.Density, androidx.compose.ui.text.font.FontFamily$Resolver, androidx.compose.ui.text.platform.URLSpanCache)
+03-12 00:11:26.578 25168 25198 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-12 00:11:26.663 25168 25198 I appium  : AppiumResponse: {"sessionId":"d80dd1f5-8025-4d64-9892-d289da2b0c5c","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"wsj.reader_sp\" class=\"android.wi…
+03-12 00:11:26.675 25168 25198 I appium  : channel read: GET /session/d80dd1f5-8025-4d64-9892-d289da2b0c5c/screenshot
+03-12 00:11:26.675 25168 25198 I appium  : CaptureScreenshot command
+03-12 00:11:26.676 25168 25198 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-12 00:11:26.676 25168 25198 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-12 00:11:26.755 25833 25833 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 00:11:26.755 25833 25833 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 00:11:26.933  3163  5158 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+03-12 00:11:27.358 25168 25198 I appium  : AppiumResponse: {"sessionId":"d80dd1f5-8025-4d64-9892-d289da2b0c5c","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRV/sfxzySBFEIJBAgIUqX3Lk1RwII/pehaEFFRQdeCgmWVdWVdXQu7WFZZFFwRRYlgW2BVEFZAiqEKqASWoohIEnpJIMn8/kjucKfPJJPM3Mn79Tw+Zmbu3HsmZGbO/dxzvsdWeNp…

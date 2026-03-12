@@ -1,0 +1,29 @@
+--------- beginning of main
+03-11 23:06:28.022 16088 16125 I appium  : channel read: GET /session/ffa8ef10-9be3-4a21-bd97-00710c01b9e0/source
+03-11 23:06:28.023 16088 16125 I appium  : Source command
+03-11 23:06:28.023 16088 16125 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:06:28.061 16088 16125 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:06:28.097 16088 16125 I appium  : AppiumResponse: {"sessionId":"ffa8ef10-9be3-4a21-bd97-00710c01b9e0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ring.neighborhoods\" class=\"a…
+03-11 23:06:28.106 16088 16125 I appium  : channel read: GET /session/ffa8ef10-9be3-4a21-bd97-00710c01b9e0/screenshot
+03-11 23:06:28.107 16088 16125 I appium  : CaptureScreenshot command
+03-11 23:06:28.108 16088 16125 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:06:28.108 16088 16125 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+--------- beginning of system
+03-11 23:06:28.142  3163  4169 D BatteryService: uevent={POWER_SUPPLY_POWER_AVG=0, POWER_SUPPLY_VOLTAGE_NOW=4451000, POWER_SUPPLY_POWER_NOW=934710, POWER_SUPPLY_CHARGE_CONTROL_LIMIT_MAX=7, POWER_SUPPLY_TYPE=Battery, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGE_FULL_DESIGN=4015000, SEQNUM=129933, POWER_SUPPLY_CHARGE_CONTROL_LIMIT=0, POWER_SUPPLY_MODEL_NAME=LN120X_ATL_2850MAH, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_CYCLE_COUNT=3, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/battery, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CURRENT_NOW=224000, POWER_SUPPLY_TIME_TO_FULL_AVG=4451, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_CHARGE_FULL=4015000, POWER_SUPPLY_TIME_TO_FULL_NOW=4451, SUBSYSTEM=power_supply, POWER_SUPPLY_VOLTAGE_OCV=4451000, POWER_SUPPLY_TEMP=290, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=4487000, POWER_SUPPLY_CHARGE_COUNTER=4015000, POWER_SUPPLY_TIME_TO_EMPTY_AVG=3600}
+03-11 23:06:28.143  3163  4169 D BatteryService: uevent={POWER_SUPPLY_POWER_AVG=0, POWER_SUPPLY_VOLTAGE_NOW=4451000, POWER_SUPPLY_POWER_NOW=934710, POWER_SUPPLY_CHARGE_CONTROL_LIMIT_MAX=7, POWER_SUPPLY_TYPE=Battery, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_TECHNOLOGY=Li-ion, POWER_SUPPLY_CHARGE_FULL_DESIGN=4015000, SEQNUM=129933, POWER_SUPPLY_CHARGE_CONTROL_LIMIT=0, POWER_SUPPLY_MODEL_NAME=LN120X_ATL_2850MAH, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_CYCLE_COUNT=3, POWER_SUPPLY_CAPACITY=100, DEVPATH=/devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/battery, POWER_SUPPLY_CHARGE_TYPE=Fast, POWER_SUPPLY_CURRENT_NOW=224000, POWER_SUPPLY_TIME_TO_FULL_AVG=4451, POWER_SUPPLY_PRESENT=1, POWER_SUPPLY_CHARGE_FULL=4015000, POWER_SUPPLY_TIME_TO_FULL_NOW=4451, SUBSYSTEM=power_supply, POWER_SUPPLY_VOLTAGE_OCV=4451000, POWER_SUPPLY_TEMP=290, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_VOLTAGE_MAX=4487000, POWER_SUPPLY_CHARGE_COUNTER=4015000, POWER_SUPPLY_TIME_TO_EMPTY_AVG=3600}
+03-11 23:06:28.147  5625  6274 D PowerUI : can't show warning due to - plugged: true status unknown: false
+03-11 23:06:28.149  5625  6677 D PowerUI : can't show warning due to - plugged: true status unknown: false
+03-11 23:06:28.151  3163  3163 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+03-11 23:06:28.151  3163  3163 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=com.android.server.UiModeManagerService$1@410d4bd; mNightModeCustomType=-1; uiMode=33
+03-11 23:06:28.152  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-11 23:06:28.152  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+03-11 23:06:28.182  5625 18470 D PowerUI : can't show warning due to - plugged: true status unknown: false
+03-11 23:06:28.183  3163  3163 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+03-11 23:06:28.183  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+03-11 23:06:28.183  5727  5727 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+03-11 23:06:28.184  3163  3163 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=com.android.server.UiModeManagerService$1@410d4bd; mNightModeCustomType=-1; uiMode=33
+03-11 23:06:28.195 16444 16444 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:06:28.196 16444 16444 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:06:28.308 12395 12395 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-11 23:06:28.424 16088 16125 I appium  : AppiumResponse: {"sessionId":"ffa8ef10-9be3-4a21-bd97-00710c01b9e0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFPn+wbw+5wAYYQlyBCcgKIy3Hvvvffee3Q5a61t/dVa7fq2Vmut1brq3nvvPXCBAwQnssMSAsn5/RFJjQxBgRC9P9fldRHOyTlvaCE593ne5xW8K/tLICIiIiIiIiIyYqKhB0BERER…
+03-11 23:06:28.453  3706  3714 I android.hardware.thermal@2.0-service.qti-v2: Sensor Name:skin1 temp: 32.771. prev severity:3. cur severity:0 New severity:0

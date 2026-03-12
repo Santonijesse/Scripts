@@ -1,0 +1,14 @@
+--------- beginning of main
+03-11 23:09:32.017 20972 21015 I appium  : channel read: GET /session/9983ca4d-d4bf-46c0-afad-1a71afe2f5e3/source
+03-11 23:09:32.018 20972 21015 I appium  : Source command
+03-11 23:09:32.019 20972 21015 I appium  : Waiting up to 10000ms for the device to idle
+03-11 23:09:32.068 20972 21015 D CompatChangeReporter: Compat change id reported: 247079863; UID 10620; state: ENABLED
+03-11 23:09:32.105 20972 21015 I appium  : AppiumResponse: {"sessionId":"9983ca4d-d4bf-46c0-afad-1a71afe2f5e3","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ring.neighborhoods\" class=\"a…
+03-11 23:09:32.117 20972 21015 I appium  : channel read: GET /session/9983ca4d-d4bf-46c0-afad-1a71afe2f5e3/screenshot
+03-11 23:09:32.117 20972 21015 I appium  : CaptureScreenshot command
+03-11 23:09:32.119 20972 21015 W tomator2.server: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (blocked, reflection, allowed)
+03-11 23:09:32.119 20972 21015 W tomator2.server: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (blocked, reflection, allowed)
+03-11 23:09:32.209 21307 21307 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-11 23:09:32.210 21307 21307 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-11 23:09:32.294 12395 12395 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.wallet.service.BIND pkg=com.google.android.gms }
+03-11 23:09:32.445 20972 21015 I appium  : AppiumResponse: {"sessionId":"9983ca4d-d4bf-46c0-afad-1a71afe2f5e3","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbw+5wEwghLkCGoKKCIDPfee++997Z2Wau121bt7tdqra221r231j0rbsUFLhDrQNkbAsn5/oikRIaAQIjev+viukzOyTlvbDE593ne5xW8awZIICIiIiIiIiIyYqKhB0BERER…
