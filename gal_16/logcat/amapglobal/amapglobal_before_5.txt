@@ -1,0 +1,122 @@
+--------- beginning of main
+03-12 20:58:25.664  2105  2836 I VSyncReactor: Current= 120, Period= 60, hwcPeriod= 60
+03-12 20:58:25.673  2105  2324 I VSyncReactor: Current= 60, Period= 60, Distance= 24
+03-12 20:58:25.689  2105  2324 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+--------- beginning of system
+03-12 20:58:25.701  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:58:25.701  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:58:25.702  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:58:25.702  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:58:25.714  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.samsung.android.app.dressroom(pid 24981) ret:19284443136 adj:915
+03-12 20:58:25.715  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-12 20:58:25.715  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-12 20:58:25.715  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-12 20:58:25.716  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-12 20:58:25.716  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.sec.android.daemonapp:weather_content_provider(pid 6602) action:14 adj:915 type:1
+03-12 20:58:25.719  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:58:25.720  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:58:25.720  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:58:25.720  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:58:25.737  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-12 20:58:25.737  2059  2086 E BatteryDump: !@new_battery_dump : 4227,-296,475,550,89,342,269,409,278,0,373,390,278,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,11400,0x0,0x10000,0x0,0,0,0000,0000,00000000,4227,4194,0,-296,10,0,883,990,0,
+03-12 20:58:25.737  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.sec.android.daemonapp:weather_content_provider(pid 6602) ret:19383308288 adj:915
+03-12 20:58:25.738  2059  2059 I sehhealth-service: updateLrpSysfs: write: 371
+03-12 20:58:25.739  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.android.systemui:screenshot(pid 18331) action:14 adj:925 type:1
+03-12 20:58:25.759  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.android.systemui:screenshot(pid 18331) ret:18764800000 adj:925
+03-12 20:58:25.761  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.facebook.services(pid 13270) action:1 adj:800 type:3
+03-12 20:58:25.779 29396 29422 I appium  : channel read: GET /session/6c9af67d-69a2-4152-b391-76794dd5fd16/source
+03-12 20:58:25.780  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773363505
+03-12 20:58:25.780 29396 29422 I appium  : Source command
+03-12 20:58:25.780 29396 29422 I appium  : Waiting up to 10000ms for the device to idle
+03-12 20:58:25.786  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 20:58:25.786  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 342 
+03-12 20:58:25.787  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556058
+03-12 20:58:25.787  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556042
+03-12 20:58:25.787  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556047
+03-12 20:58:25.787  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 20:58:25.788  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 20:58:25.825  3003 21180 D PerProcessNandswapNative: enable WriteBooster
+03-12 20:58:25.832  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.facebook.services(pid 13270) ret:18974285824 adj:800
+03-12 20:58:25.840  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.samsung.android.privateaccesstokens(pid 24281) action:14 adj:925 type:1
+03-12 20:58:25.852  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.samsung.android.privateaccesstokens(pid 24281) ret:18200887296 adj:925
+03-12 20:58:25.854  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.google.android.as(pid 6243) action:6 adj:100 type:2
+03-12 20:58:25.859  3003 21180 D PerProcessNandswapNative: enable WriteBooster
+03-12 20:58:25.863  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.google.android.as(pid 6243) ret:19098484736 adj:100
+03-12 20:58:25.865  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.samsung.android.globalpostprocmgr(pid 26099) action:14 adj:925 type:1
+03-12 20:58:25.875  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:58:25.875  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:58:25.881  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.samsung.android.globalpostprocmgr(pid 26099) ret:19289944064 adj:925
+03-12 20:58:25.883  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.samsung.android.mcfserver(pid 5938) action:6 adj:100 type:2
+03-12 20:58:25.883  3003  5506 D MARs:ActiveTrafficFilter: filter : com.facebook.katana(0)
+03-12 20:58:25.883  3003  5506 D FreecessHandler: freeze com.facebook.katana(10340) result : 8
+03-12 20:58:25.888  3003 21180 D PerProcessNandswapNative: enable WriteBooster
+03-12 20:58:25.891  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.samsung.android.mcfserver(pid 5938) ret:18414616576 adj:100
+03-12 20:58:25.893  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.samsung.android.beaconmanager(pid 14556) action:5 adj:200 type:2
+03-12 20:58:25.898  3003 21180 D PerProcessNandswapNative: enable WriteBooster
+03-12 20:58:25.901  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:58:25.902  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.samsung.android.beaconmanager(pid 14556) ret:18298626048 adj:200
+03-12 20:58:25.907  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:58:25.909  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:58:25.909  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:58:25.914 29396 29422 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 20:58:26.017 29396 29422 I appium  : AppiumResponse: {"sessionId":"6c9af67d-69a2-4152-b391-76794dd5fd16","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.autonavi.minimap\" class=\"and…
+03-12 20:58:26.044 29396 29422 I appium  : channel read: GET /session/6c9af67d-69a2-4152-b391-76794dd5fd16/screenshot
+03-12 20:58:26.046 29396 29422 I appium  : CaptureScreenshot command
+03-12 20:58:26.048 29396 29422 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:58:26.048 29396 29422 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:58:26.102  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:58:26.102  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:58:26.103  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:58:26.103  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:58:26.173 31917 31917 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 20:58:26.173 31917 31917 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 20:58:26.174 31917 31917 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 20:58:26.174  3003  3046 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 20:58:26.174  3003  3046 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 20:58:26.174 31917 31917 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 20:58:26.174 31917 31917 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 20:58:26.177  2105  2324 I SurfaceFlinger: Capture layer list: 	 Background for 3bccf7 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0#10779(seamlessTransition:0)
+03-12 20:58:26.177  2105  2324 I SurfaceFlinger: Capture layer list: 	 3bccf7 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10778(seamlessTransition:0)
+03-12 20:58:26.177  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_30904#10770(seamlessTransition:0)
+03-12 20:58:26.177  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 20:58:26.177  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10675(seamlessTransition:0)
+03-12 20:58:26.177  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 20:58:26.178  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 20:58:26.179  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 20:58:26.179  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 3bccf7 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10778 at index 1
+03-12 20:58:26.179  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_30904#10770 at index 2
+03-12 20:58:26.179  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 20:58:26.179  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10675 at index 4
+03-12 20:58:26.180  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 20:58:26.218 31917 31922 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 20:58:26.218 31917 31917 W qdgralloc: Failed to load libubwcp.so
+03-12 20:58:26.295  3003  3046 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-12 20:58:26.301  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:58:26.302  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:58:26.302  3003  3046 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-12 20:58:26.302  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:58:26.303  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:58:26.303  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:58:26.303  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:58:26.303  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:58:26.304  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:58:26.356  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:58:26.362  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:58:26.369  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.gallery3d(0)
+03-12 20:58:26.369  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 8
+03-12 20:58:26.370  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:58:26.370  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:58:26.373  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.app.reminder(0)
+03-12 20:58:26.373  3003  5506 D FreecessHandler: freeze com.samsung.android.app.reminder(10316) result : 8
+03-12 20:58:26.373  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:58:26.373  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:58:26.377  3003  5506 D MARs:ActiveTrafficFilter: filter : com.usatoday.android.news(0)
+03-12 20:58:26.377  3003  5506 D FreecessHandler: freeze com.usatoday.android.news(10413) result : 8
+03-12 20:58:26.503  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:58:26.504  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:58:26.505  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:58:26.506  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:58:26.527 29396 29422 I appium  : AppiumResponse: {"sessionId":"6c9af67d-69a2-4152-b391-76794dd5fd16","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl3j7we2ommfRCeoEkJAQIAUKvuhRRRHdF1FWaYEVefXVxV113fa993WaXXRSQKq4UFX8SEXRF6SUJkJAQQoD0hPQymZRp5/dH3jmbyUySCaQN3J/r4tKcTE6eSZmc5z7f5/tIBEE…
+03-12 20:58:26.601  2007 29792 I sensors-hal: handle_sns_client_event:375, [0][255458] accel_sample [ 0.427, -1.125,  9.805] 190707154418280
+03-12 20:58:26.615  1993  6691 I vendor.qti.bluetooth@1.1-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+03-12 20:58:26.615  1993  6691 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF

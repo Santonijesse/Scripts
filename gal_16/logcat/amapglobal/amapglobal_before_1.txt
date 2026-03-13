@@ -1,0 +1,240 @@
+--------- beginning of main
+03-12 20:52:16.844  2105  2921 I VSyncReactor: Current= 120, Period= 60, hwcPeriod= 60
+03-12 20:52:16.851  2105  2321 I VSyncReactor: Current= 60, Period= 60, Distance= 30
+03-12 20:52:16.868  2105  2321 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+--------- beginning of system
+03-12 20:52:16.878  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:52:16.878  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:52:16.879  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:52:16.879  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:52:16.898  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.899  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.904  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.gallery3d(0)
+03-12 20:52:16.904  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 8
+03-12 20:52:16.904  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.904  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.909  3003  5506 D MARs:ActiveTrafficFilter: filter : com.whatnot_mobile(0)
+03-12 20:52:16.909  3003  5506 D FreecessHandler: freeze com.whatnot_mobile(10235) result : 8
+03-12 20:52:16.909  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.909  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.913  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.app.reminder(0)
+03-12 20:52:16.914  3003  5506 D FreecessHandler: freeze com.samsung.android.app.reminder(10316) result : 8
+03-12 20:52:16.914  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.914  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.918  3003  5506 D MARs:ActiveTrafficFilter: filter : com.einnovation.temu(0)
+03-12 20:52:16.918  3003  5506 D FreecessHandler: freeze com.einnovation.temu(10350) result : 8
+03-12 20:52:16.918  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.919  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.923  3003  5506 D MARs:ActiveTrafficFilter: filter : com.kohls.mcommerce.opal(0)
+03-12 20:52:16.923  3003  5506 D FreecessHandler: freeze com.kohls.mcommerce.opal(10356) result : 8
+03-12 20:52:16.923  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.923  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.927  3003  5506 D MARs:ActiveTrafficFilter: filter : com.usatoday.android.news(0)
+03-12 20:52:16.927  3003  5506 D FreecessHandler: freeze com.usatoday.android.news(10413) result : 8
+03-12 20:52:16.927  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.928  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.930  3003  5506 D MARs:ActiveTrafficFilter: filter : com.duckduckgo.mobile.android(0)
+03-12 20:52:16.930  3003  5506 D FreecessHandler: freeze com.duckduckgo.mobile.android(10417) result : 8
+03-12 20:52:16.930  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:16.931  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:16.933  3003  5506 D MARs:ActiveTrafficFilter: filter : com.microsoft.copilot(0)
+03-12 20:52:16.933  3003  5506 D FreecessHandler: freeze com.microsoft.copilot(10455) result : 8
+03-12 20:52:16.956 10648 10710 I appium  : channel read: GET /session/b0b0efcf-922b-4e27-8284-39338063de4d/source
+03-12 20:52:16.957 10648 10710 I appium  : Source command
+03-12 20:52:16.958 10648 10710 I appium  : Waiting up to 10000ms for the device to idle
+03-12 20:52:16.994 12406 12896 E XcdnEngine-N: xcdn_task[150]init download file https://c3.amap.com/acis/packageDiff/resource/diff/amap/A529/main/6d20addb5c211654e6d6e32ac5e27d10/22.76.71.14_22.84.12.6.ajx /data/user/0/com.autonavi.minimap/files/ajx-biz/download/0_6d20addb5c211654e6d6e32ac5e27d10, params:biz_id=-1&dwn_prio=1&freeflow_service=0&http_conn_timeout=10000.0&http_read_timeout=10000.0&ipv6_conn_timeout=600&is_freeflow=1&max_http_trunk=50&miner_conn_timeout=1500&miner_read_timeout=3000&retry_count=1&start_timeMS=1773363136994&support_http=1&use_miner=1&without_cache=0&without_range=1
+
+03-12 20:52:16.994 12406 12791 E XcdnEngine-N: xcdn_task[150]start download file
+
+03-12 20:52:16.995 12406 12791 E XcdnEngine-N: task[150] use cdn url https://c3-ykx.amap.com/acis/packageDiff/resource/diff/amap/A529/main/6d20addb5c211654e6d6e32ac5e27d10/22.76.71.14_22.84.12.6.ajx
+
+03-12 20:52:16.996 12406 12791 E XcdnEngine-N: task[150] do not request cdn
+
+03-12 20:52:16.996 12406 13683 E XcdnEngine-N: task[150] start download 1773363136996
+
+03-12 20:52:16.997  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10461(com.autonavi.minimap), SUCCESS, 0ms
+03-12 20:52:17.039 12406 13683 E XcdnEngine-N: task[150] end create client socket 254 with host c3-ykx.amap.com, port 443
+
+03-12 20:52:17.045 10648 10710 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 20:52:17.060 12406 13683 E XcdnEngine-N: task[150] begin read response for socket 254
+
+03-12 20:52:17.066  1171  1171 D io_stats: !@   8,0 r 2468319 85678088 w 1781022 46922080 d 209802 51723848 f 70022 204637 iot 815316 0 th 0 0 0 pt 0 inp 0 0 32059.481
+03-12 20:52:17.078  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:52:17.078  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:52:17.079  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:52:17.079  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:52:17.113 12406 13683 E XcdnEngine-N: task[150] begin read body for socket 254
+
+03-12 20:52:17.113 12406 13683 E XcdnEngine-N: task[150] set2 peer ip 47.246.22.194, host c3-ykx.amap.com, for request /acis/packageDiff/resource/diff/amap/A529/main/6d20addb5c211654e6d6e32ac5e27d10/22.76.71.14_22.84.12.6.ajx, remote addr 
+
+03-12 20:52:17.113 12406 13683 E XcdnEngine-N: task[150] response host:47.246.22.194 with miner_ip 
+
+03-12 20:52:17.121 10648 10710 I appium  : AppiumResponse: {"sessionId":"b0b0efcf-922b-4e27-8284-39338063de4d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.autonavi.minimap\" class=\"and…
+03-12 20:52:17.183 10648 10710 I appium  : channel read: GET /session/b0b0efcf-922b-4e27-8284-39338063de4d/screenshot
+03-12 20:52:17.184 10648 10710 I appium  : CaptureScreenshot command
+03-12 20:52:17.185 10648 10710 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:52:17.185 10648 10710 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:52:17.209 12406 12791 E XcdnEngine-N: xcdn_task[150]===write chunk_index 0, from 2 result 179200 crc 81 ip: 
+
+03-12 20:52:17.256 12406 12791 E XcdnEngine-N: xcdn_task[150]===write chunk_index 1, from 2 result 179200 crc 208 ip: 
+
+03-12 20:52:17.266 13688 13688 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 20:52:17.266 13688 13688 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 20:52:17.267 13688 13688 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 20:52:17.267  3003  4748 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 20:52:17.267  3003  4748 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 20:52:17.267 13688 13688 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 20:52:17.267 13688 13688 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 20:52:17.271  2105  2321 I SurfaceFlinger: Capture layer list: 	 Background for 2a5107a SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0#10200(seamlessTransition:0)
+03-12 20:52:17.271  2105  2321 I SurfaceFlinger: Capture layer list: 	 2a5107a SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10199(seamlessTransition:0)
+03-12 20:52:17.271  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_12406#10191(seamlessTransition:0)
+03-12 20:52:17.271  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 20:52:17.271  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#9997(seamlessTransition:0)
+03-12 20:52:17.271  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 20:52:17.271  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 20:52:17.272  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 20:52:17.272  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 2a5107a SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10199 at index 1
+03-12 20:52:17.272  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_12406#10191 at index 2
+03-12 20:52:17.272  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 20:52:17.272  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#9997 at index 4
+03-12 20:52:17.272  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 20:52:17.278  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:52:17.278 12406 12791 E XcdnEngine-N: xcdn_task[150]===write chunk_index 2, from 2 result 179200 crc 223 ip: 
+
+03-12 20:52:17.279  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:52:17.279  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:52:17.280  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:52:17.298 12406 12791 E XcdnEngine-N: xcdn_task[150]===write chunk_index 3, from 2 result 179200 crc 248 ip: 
+
+03-12 20:52:17.304 12406 12791 E XcdnEngine-N: xcdn_task[150]===write chunk_index 4, from 2 result 179200 crc 140 ip: 
+
+03-12 20:52:17.306 12406 12791 E XcdnEngine-N: xcdn_task[150]===write chunk_index 5, from 2 result 49998 crc 11 ip: 
+
+03-12 20:52:17.308  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 7205, isSameBssidAndFreq true
+03-12 20:52:17.309 12406 12791 E XcdnEngine-N: task[150] file hash=6d20addb5c211654e6d6e32ac5e27d10
+
+03-12 20:52:17.309  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2590 / 15 / 1.23 (943) / 144 / -71.0 || 100.0 : 144.00 / 0.5 : 0.81 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.128 / 62.512 / N || N N / 0 0 / Y 2.0 / Y X 0 / 32059723 0 || Invalid
+03-12 20:52:17.309 12406 12791 E XcdnEngine-N: xcdn_task[150] download success  md5:;size:945998;cost:315;speed:3003;share:0;t1:0;t2:945998;t3:0;t8:945998;name:peercount=0,edge_count=0,request_edge=0,edge_error=0,write_error_count=0,connectnum=0,login=1,relay_join=0,csn_errcode=-5,nat_type=0,csn_cost=-1,fromCache=0,hash_cost=0,use_super_miner=1,schedule_time1=0,net_state=1,miner_used=0,miner_ip=,miner_cached=0,miner_redirect=0,miner_err=0,http_socket_cost=43,http_res_read_cost=64,http_body_cost=117,http_res_cost=117,http_data_cost=117,schedule_time2=2,download_cost=310,download_cost2_=313,use_cdn=1,cdn_err=0,peer_ip=47.246.22.194,freeflow_serv=0,asn=0;bizId:-1;
+
+03-12 20:52:17.309 12406 12791 E XcdnEngine-N: xcdn_task[150] stopped
+
+03-12 20:52:17.309 12406 12791 E XcdnEngine-N: xcdn_task[150] released
+
+03-12 20:52:17.310  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-12 20:52:17.310  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-12 20:52:17.310  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 42
+03-12 20:52:17.310  3003  4030 D InsDataManager: trimBuffers start.
+03-12 20:52:17.310  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 83
+03-12 20:52:17.311  3003  4047 D SGM:GameManager: identifyGamePackage. com.autonavi.minimap, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-12 20:52:17.311  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.autonavi.minimap, ret=false
+03-12 20:52:17.311  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-12 20:52:17.311  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-12 20:52:17.311  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -71.0,"latency": 0.12797497303128372,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2590 / 15 / 1.23 (943) / 144 / -71.0 || 100.0 : 144.00 / 0.5 : 0.81 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.128 / 62.512 / N || N N / 0 0 / Y 2.0 / Y X 0 / 32059723 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-12 20:52:17.317 13688 13693 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 20:52:17.319 13688 13688 W qdgralloc: Failed to load libubwcp.so
+03-12 20:52:17.362 13920 14171 W System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String[] java.lang.String.split(java.lang.String)' on a null object reference
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.9ju.LD(SourceFile:33554436)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.9ju.LBL(SourceFile:134218793)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.9HN.LB(SourceFile:100663476)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.0al.LBL(SourceFile:100663339)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2Xn.LFF(SourceFile:167772337)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2CZ.execute(SourceFile:588)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.1wm.L(SourceFile:16777393)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.28T.L(SourceFile:16777588)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.ss.android.ugc.aweme.compliance.sandbox.network.OrbuSandboxTTNetInterceptor.L(SourceFile:16777365)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.bytedance.hybrid.spark.security.impl.SparkSecurityTTNetIntercept.L(SourceFile:16777655)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.247.L(SourceFile:16777278)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.ss.android.ugc.aweme.net.interceptor.TTNetInitInterceptor.L(SourceFile:16777279)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.ss.android.ugc.aweme.net.datasaver.LowImageResolutionInterceptor.L(SourceFile:16777406)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.ss.android.ugc.aweme.net.timeout.TTnetTimeoutInterceptor.L(SourceFile:16777328)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.bytedance.frameworks.baselib.network.http.retrofit.BaseSsInterceptor.L(SourceFile:16777287)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.getResponseWithInterceptorChain(SourceFile:48)
+03-12 20:52:17.362 13920 14171 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.execute(SourceFile:128)
+03-12 20:52:17.362 13920 14171 W System.err: 	at X.1wt.execute(SourceFile:2)
+03-12 20:52:17.362 13920 14171 W System.err: 	at ms.bd.o.q.LF(SourceFile:83886589)
+03-12 20:52:17.362 13920 14171 W System.err: 	at ms.bd.o.q.LCI(Unknown Source:6)
+03-12 20:52:17.362 13920 14171 W System.err: 	at ms.bd.o.o.L(SourceFile:83886185)
+03-12 20:52:17.362 13920 14171 W System.err: 	at ms.bd.o.k.b(SourceFile:83886095)
+03-12 20:52:17.364  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:52:17.364  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:52:17.368 13920 14172 W System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String[] java.lang.String.split(java.lang.String)' on a null object reference
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.9ju.LD(SourceFile:33554436)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.9ju.LBL(SourceFile:134218793)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.9HN.LB(SourceFile:100663476)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.0al.LBL(SourceFile:100663339)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2Xn.LFF(SourceFile:167772337)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2CZ.execute(SourceFile:588)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.1wm.L(SourceFile:16777393)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.28T.L(SourceFile:16777588)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.ss.android.ugc.aweme.compliance.sandbox.network.OrbuSandboxTTNetInterceptor.L(SourceFile:16777365)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.bytedance.hybrid.spark.security.impl.SparkSecurityTTNetIntercept.L(SourceFile:16777655)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.247.L(SourceFile:16777278)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.ss.android.ugc.aweme.net.interceptor.TTNetInitInterceptor.L(SourceFile:16777279)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.ss.android.ugc.aweme.net.datasaver.LowImageResolutionInterceptor.L(SourceFile:16777406)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.ss.android.ugc.aweme.net.timeout.TTnetTimeoutInterceptor.L(SourceFile:16777328)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.5Zc.L(SourceFile:16777278)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.bytedance.frameworks.baselib.network.http.retrofit.BaseSsInterceptor.L(SourceFile:16777287)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.2RB.L(SourceFile:16777350)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.getResponseWithInterceptorChain(SourceFile:48)
+03-12 20:52:17.368 13920 14172 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.execute(SourceFile:128)
+03-12 20:52:17.368 13920 14172 W System.err: 	at X.1wt.execute(SourceFile:2)
+03-12 20:52:17.368 13920 14172 W System.err: 	at ms.bd.o.q.LF(SourceFile:83886589)
+03-12 20:52:17.368 13920 14172 W System.err: 	at ms.bd.o.q.LCI(Unknown Source:6)
+03-12 20:52:17.368 13920 14172 W System.err: 	at ms.bd.o.o.L(SourceFile:83886185)
+03-12 20:52:17.368 13920 14172 W System.err: 	at ms.bd.o.k.b(SourceFile:83886095)
+03-12 20:52:17.368  3003  5506 D MARs:ActiveTrafficFilter: filter : com.facebook.katana(0)
+03-12 20:52:17.369  3003  5506 D FreecessHandler: freeze com.facebook.katana(10340) result : 8
+03-12 20:52:17.412  2007  4578 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 147(147),c:219,b:90,m:13,cl:55,l:117,s:129,l0:13936,l1:32,s0:10286,s1:0,acl:1,opr:0.90,f(r):97,u(bl):111,if:0,wi:2,si:8,po:123(N:0)
+03-12 20:52:17.479  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:52:17.479  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:52:17.479  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:52:17.480  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:52:17.521  2007 13082 I sensors-hal: handle_sns_std_sensor_event:158, [225] Pressure 982.789, cal 0.047, sw_offset 0.000 (lsb(bit) 0xe7 0xfa 0x5f)
+03-12 20:52:17.545  3003  4920 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-12 20:52:17.549  3003  4405 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-12 20:52:17.551  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:52:17.551 12406 12896 E XcdnEngine-N: xcdn_task[151]init download file https://c3.amap.com/acis/resource/pkg/amap/H2376/32/1/0/86b10feccad94734bc96a3431ede2690/h5_bundle_c3_mp_1.0.0.11.zip /data/user/0/com.autonavi.minimap/files/ajx-biz/download/0_9ad5c257a1faa94c4eecf6f38499953b, params:biz_id=-1&dwn_prio=1&freeflow_service=0&http_conn_timeout=10000.0&http_read_timeout=10000.0&ipv6_conn_timeout=600&is_freeflow=1&max_http_trunk=50&miner_conn_timeout=1500&miner_read_timeout=3000&retry_count=1&start_timeMS=1773363137550&support_http=1&use_miner=1&without_cache=0&without_range=1
+
+03-12 20:52:17.552  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:52:17.552 12406 12791 E XcdnEngine-N: xcdn_task[151]start download file
+
+03-12 20:52:17.552  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:52:17.552 12406 12791 E XcdnEngine-N: task[151] use cdn url https://c3-ykx.amap.com/acis/resource/pkg/amap/H2376/32/1/0/86b10feccad94734bc96a3431ede2690/h5_bundle_c3_mp_1.0.0.11.zip
+
+03-12 20:52:17.552  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:52:17.552 10648 10710 I appium  : AppiumResponse: {"sessionId":"b0b0efcf-922b-4e27-8284-39338063de4d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFN1/j/610nSdN/ovhe6AqUUqWxlcWFRwWUct1GWouDud8YFx9HfzJ1753rnzldlxuEOKCCbqCyifgdEEVmsFARaoJRSoFC6l+5706zn9wc3Z5ombROaNg28no8HD83JycknbZqcz+t…
+03-12 20:52:17.553 12406 12791 E XcdnEngine-N: task[151] do not request cdn
+
+03-12 20:52:17.553 12406 13694 E XcdnEngine-N: task[151] start download 1773363137553
+
+03-12 20:52:17.555  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10461(com.autonavi.minimap), SUCCESS, 0ms
+03-12 20:52:17.572  2007  4578 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 70(70),c:219,b:90,m:13,cl:55,l:57,s:58,l0:9024,l1:16,s0:4687,s1:0,acl:1,opr:0.90,f(r):97,u(bl):111,if:0,wi:1,si:8,po:123(N:0)
+03-12 20:52:17.587 12406 13694 E XcdnEngine-N: task[151] end create client socket 168 with host c3-ykx.amap.com, port 443
+
+03-12 20:52:17.611 12406 13694 E XcdnEngine-N: task[151] begin read response for socket 168
+
+03-12 20:52:17.628  2007 13074 I sensors-hal: handle_sns_client_event:422, [0][170] gyro_sample_cal(cal_available:1)(3) [-0.000, 0.000,-0.000] bias[-0.003,-0.006, 0.003] 190338090846853

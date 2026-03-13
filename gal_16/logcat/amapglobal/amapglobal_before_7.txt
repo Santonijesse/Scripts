@@ -1,0 +1,83 @@
+--------- beginning of main
+03-12 21:01:30.921  9158  9165 W ogle.android.gm: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+03-12 21:01:31.037  6175  6205 I appium  : channel read: GET /session/fd9d9232-52ae-489b-978c-77872f8f611e/source
+03-12 21:01:31.040  6175  6205 I appium  : Source command
+03-12 21:01:31.041  6175  6205 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-12 21:01:31.086  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:01:31.087  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:01:31.087  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:01:31.088  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:01:31.156  6175  6205 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 21:01:31.242  6175  6205 I appium  : AppiumResponse: {"sessionId":"fd9d9232-52ae-489b-978c-77872f8f611e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.autonavi.minimap\" class=\"and…
+03-12 21:01:31.285  6175  6205 I appium  : channel read: GET /session/fd9d9232-52ae-489b-978c-77872f8f611e/screenshot
+03-12 21:01:31.286  6175  6205 I appium  : CaptureScreenshot command
+03-12 21:01:31.288  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:01:31.288  6175  6205 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:01:31.288  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:01:31.288  6175  6205 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:01:31.289  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:01:31.289  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:01:31.405  9331  9331 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 21:01:31.405  9331  9331 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 21:01:31.406  9331  9331 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 21:01:31.406  3003  6500 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 21:01:31.406  3003  6500 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 21:01:31.406  9331  9331 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 21:01:31.406  9331  9331 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 21:01:31.410  2105  2922 I SurfaceFlinger: Capture layer list: 	 Background for 6c7682 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0#11053(seamlessTransition:0)
+03-12 21:01:31.410  2105  2922 I SurfaceFlinger: Capture layer list: 	 6c7682 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#11052(seamlessTransition:0)
+03-12 21:01:31.410  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_7982#11044(seamlessTransition:0)
+03-12 21:01:31.410  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 21:01:31.410  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10951(seamlessTransition:0)
+03-12 21:01:31.410  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 21:01:31.411  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 21:01:31.411  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 21:01:31.411  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 6c7682 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#11052 at index 1
+03-12 21:01:31.411  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_7982#11044 at index 2
+03-12 21:01:31.412  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 21:01:31.412  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10951 at index 4
+03-12 21:01:31.412  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 21:01:31.466  9331  9336 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 21:01:31.467  9331  9331 W qdgralloc: Failed to load libubwcp.so
+03-12 21:01:31.488  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:01:31.489  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:01:31.490  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:01:31.490  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:01:31.539  1171  1171 D io_stats: !@   8,0 r 2560189 87952452 w 1929780 51191676 d 220143 56536020 f 75773 216144 iot 858168 0 th 0 0 0 pt 0 inp 0 0 32613.954
+03-12 21:01:31.539  1171  1171 D io_stats: !@ Read_top(KB): hbox:interactor(6246) 16
+03-12 21:01:31.540  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:9(29658) 62948 f2fs_ckpt-254:6(5380) 16344 utonavi.minimap(7982) 164
+03-12 21:01:31.551  3003  3048 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-12 21:01:31.558  3003  3048 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-12 21:01:31.559  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:01:31.561  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:01:31.561  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:01:31.561  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:01:31.690  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:01:31.690  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:01:31.691  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:01:31.691  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:01:31.727  2007 29792 I sensors-hal: handle_sns_client_event:375, [0][264232] accel_sample [ 0.548, -1.132,  9.803] 190892279720462
+03-12 21:01:31.780  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773363691
+03-12 21:01:31.785  3003  4027 I SemWifiServiceDetector: Service det. suspended: T / T / 32187
+03-12 21:01:31.792  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:01:31.792  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 344 
+03-12 21:01:31.792  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556061
+03-12 21:01:31.792  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556042
+03-12 21:01:31.792  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556047
+03-12 21:01:31.793  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:01:31.793  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 21:01:31.891  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:01:31.892  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:01:31.893  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:01:31.893  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:01:32.091  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:01:32.092  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:01:32.093  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:01:32.093  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:01:32.155  6175  6205 I appium  : AppiumResponse: {"sessionId":"fd9d9232-52ae-489b-978c-77872f8f611e","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17dJblnS/835MEiMghHjh4AIO2SKnagNaKh4I92XfaPQM9OeOgA119d6tdM0Jtu+zb2kB3u+1atYp7b62d2Wthq9M1utvKO539rm2tBdsqomhQWykemnCSM4RzICH3+wcEQvIkeTjkuZ+…
+03-12 21:01:32.229  3003  4049 V SemStrongRssiRoaming: POLL (Rssi:-57 MinRssi:-55 Guard:0)
+03-12 21:01:32.292  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:01:32.292  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:01:32.293  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:01:32.294  3003  3130 D PowerManagerService: displayReady: true groupId=0

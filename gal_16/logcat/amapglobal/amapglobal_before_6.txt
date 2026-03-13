@@ -1,0 +1,236 @@
+--------- beginning of main
+03-12 20:59:58.421  2600  3206 E XcdnEngine-N: xcdn_task[156]===write chunk_index 64, from 2 result 89714 crc 227 ip: 
+
+03-12 20:59:58.474  2600  3206 E XcdnEngine-N: task[156] file hash=1064cbecf887532de15b8c3127cb2ffc
+
+03-12 20:59:58.474  2600  3206 E XcdnEngine-N: xcdn_task[156] download success  md5:;size:11558514;cost:11503;speed:1004;share:0;t1:0;t2:11558514;t3:0;t8:11558514;name:peercount=0,edge_count=0,request_edge=0,edge_error=0,write_error_count=0,connectnum=0,login=1,relay_join=0,csn_errcode=-5,nat_type=0,csn_cost=-1,fromCache=0,hash_cost=0,use_super_miner=1,schedule_time1=1,net_state=1,miner_used=0,miner_ip=,miner_cached=0,miner_redirect=0,miner_err=0,http_socket_cost=237,http_res_read_cost=479,http_body_cost=945,http_res_cost=946,http_data_cost=946,schedule_time2=3,download_cost=11446,download_cost2_=11500,use_cdn=1,cdn_err=0,peer_ip=61.170.77.84,freeflow_serv=0,asn=0;bizId:-1;
+
+03-12 20:59:58.474  2600  3206 E XcdnEngine-N: xcdn_task[156] stopped
+
+03-12 20:59:58.474  2600  3206 E XcdnEngine-N: xcdn_task[156] released
+
+03-12 20:59:58.515 32746   327 I appium  : channel read: GET /session/e1c782d7-bcae-438a-9908-02d64538b78f/source
+03-12 20:59:58.516 32746   327 I appium  : Source command
+03-12 20:59:58.517 32746   327 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-12 20:59:58.594  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:59:58.595  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:59:58.596  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:59:58.596  2600  3387 E XcdnEngine-N: xcdn_task[157]init download file https://c1.amap.com/titan/chunk/pro/nci/3dc5b620a5395fbc493e846acbe1d090/pkg/A350/amap_bundle_foot/16.10.1000.59/amap_bundle_foot-main-16.10.1000.59.ajx /data/user/0/com.autonavi.minimap/files/ajx-biz/download/0_e26dc4b3b1d2760a75a68618615147e5, params:biz_id=-1&dwn_prio=1&freeflow_service=0&http_conn_timeout=10000.0&http_read_timeout=10000.0&ipv6_conn_timeout=600&is_freeflow=1&max_http_trunk=50&miner_conn_timeout=1500&miner_read_timeout=3000&retry_count=1&start_timeMS=1773363598596&support_http=1&use_miner=1&without_cache=0&without_range=1
+
+03-12 20:59:58.597  2600  3206 E XcdnEngine-N: xcdn_task[157]start download file
+
+03-12 20:59:58.597  2600  3206 E XcdnEngine-N: task[157] use cdn url https://c1-ykx.amap.com/titan/chunk/pro/nci/3dc5b620a5395fbc493e846acbe1d090/pkg/A350/amap_bundle_foot/16.10.1000.59/amap_bundle_foot-main-16.10.1000.59.ajx
+
+03-12 20:59:58.599  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:59:58.599  2600  3206 E XcdnEngine-N: task[157] do not request cdn
+
+03-12 20:59:58.599  2600  5107 E XcdnEngine-N: task[157] start download 1773363598599
+
+03-12 20:59:58.619 32746   327 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 20:59:58.633  3003  4031 I SemWifiCtlFeatureMediator: Trf ratio: 8.4% (12.30 / 146.49) v ( NR) || Query: BW false (false) 1.0 1.0 1.0 / NSS true (false) 1.0 1.0 1.0 
+03-12 20:59:58.707 32746   327 I appium  : AppiumResponse: {"sessionId":"e1c782d7-bcae-438a-9908-02d64538b78f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.autonavi.minimap\" class=\"and…
+03-12 20:59:58.730 32746   327 I appium  : channel read: GET /session/e1c782d7-bcae-438a-9908-02d64538b78f/screenshot
+03-12 20:59:58.731 32746   327 I appium  : CaptureScreenshot command
+03-12 20:59:58.733 32746   327 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:59:58.733 32746   327 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:59:58.777  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-12 20:59:58.778  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-12 20:59:58.778  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-12 20:59:58.779  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-12 20:59:58.781  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773363598
+03-12 20:59:58.783  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:59:58.783  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:59:58.783  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:59:58.783  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 20:59:58.789  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 20:59:58.789  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 344 
+03-12 20:59:58.789  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556059
+03-12 20:59:58.789  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556042
+03-12 20:59:58.789  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556047
+03-12 20:59:58.789  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 20:59:58.789  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 20:59:58.794  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:59:58.794  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:59:58.795  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:59:58.795  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:59:58.851  5112  5112 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 20:59:58.851  5112  5112 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 20:59:58.852  5112  5112 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 20:59:58.852  3003  4931 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 20:59:58.852  3003  4931 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 20:59:58.852  5112  5112 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 20:59:58.852  5112  5112 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 20:59:58.855  2105  2921 I SurfaceFlinger: Capture layer list: 	 Background for 3bccf7 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0#10933(seamlessTransition:0)
+03-12 20:59:58.855  2105  2921 I SurfaceFlinger: Capture layer list: 	 3bccf7 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10932(seamlessTransition:0)
+03-12 20:59:58.855  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_2600#10924(seamlessTransition:0)
+03-12 20:59:58.855  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 20:59:58.855  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10829(seamlessTransition:0)
+03-12 20:59:58.855  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 20:59:58.856  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 20:59:58.856  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 20:59:58.856  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 3bccf7 SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10932 at index 1
+03-12 20:59:58.856  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_2600#10924 at index 2
+03-12 20:59:58.857  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 20:59:58.857  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10829 at index 4
+03-12 20:59:58.857  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 20:59:58.892  5112  5117 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 20:59:58.894  5112  5112 W qdgralloc: Failed to load libubwcp.so
+03-12 20:59:58.916  3003  4931 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-12 20:59:58.925  3003  4049 V SemStrongRssiRoaming: POLL (Rssi:-59 MinRssi:-55 Guard:0)
+03-12 20:59:58.929  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:59:58.930  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:59:58.930  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:59:58.930  3003  4931 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-12 20:59:58.931  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 20:59:58.995  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:59:58.995  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:59:58.997  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:59:58.998  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:59:59.004  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-12 20:59:59.072  3003  3097 D BatteryExternalStatsWorker: update stats : procstate-change (10)
+03-12 20:59:59.072  3003  3097 D BatteryExternalStatsWorker: Fetch WiFi data
+03-12 20:59:59.072  3003  3097 D BatteryExternalStatsWorker: Update Rail Energy data
+03-12 20:59:59.087  3003  3097 D BatteryExternalStatsWorker: mStats lock released
+03-12 20:59:59.098  3003  3097 D BatteryExternalStatsWorker: Update wifi state
+03-12 20:59:59.098  3003  3097 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+03-12 20:59:59.139  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10461(com.autonavi.minimap), SUCCESS, 532ms
+03-12 20:59:59.153  2007 29792 I sensors-hal: handle_sns_client_event:375, [0][259844] accel_sample [ 0.642, -1.023,  9.811] 190799706470641
+03-12 20:59:59.197  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:59:59.197  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:59:59.198  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:59:59.201  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:59:59.291  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 7353, isSameBssidAndFreq true
+03-12 20:59:59.294  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2569 / 264 / 1.16 (498) / 206 / -58.0 || 100.0 : 206.00 / 0.5 : 0.86 / 0.55 : 0.10 / G (G) || 357184fe2437: 0.119 / 67.181 / N || N N / 0 0 / Y 2.0 / Y X 0 / 32521707 0 || Invalid
+03-12 20:59:59.295  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-12 20:59:59.295  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-12 20:59:59.295  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 42
+03-12 20:59:59.295  3003  4030 D InsDataManager: trimBuffers start.
+03-12 20:59:59.295  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 83
+03-12 20:59:59.296  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-12 20:59:59.296  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-12 20:59:59.296  3003  4030 D SemInsManager: {"bssid": "357184fe2437","rssi": -58.0,"latency": 0.11908137228060568,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2569 / 264 / 1.16 (498) / 206 / -58.0 || 100.0 : 206.00 / 0.5 : 0.86 / 0.55 : 0.10 / G (G) || 357184fe2437: 0.119 / 67.181 / N || N N / 0 0 / Y 2.0 / Y X 0 / 32521707 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-12 20:59:59.300  3003  4047 D SGM:GameManager: identifyGamePackage. com.autonavi.minimap, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-12 20:59:59.300  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.autonavi.minimap, ret=false
+03-12 20:59:59.397  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:59:59.398  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:59:59.399  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:59:59.400  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:59:59.400  2600  5107 E XcdnEngine-N: task[157] end create client socket 221 with host c1-ykx.amap.com, port 443
+
+03-12 20:59:59.462  2007  2842 I sensors-hal: handle_sns_client_event:455, [0][1861] gyro_sample_uncal [-0.004,-0.006, 0.003] [-0.004,-0.006, 0.002] 190800015230746
+03-12 20:59:59.464  1171  1171 D io_stats: !@   8,0 r 2554961 87800908 w 1909408 50604180 d 219250 55851136 f 74977 214603 iot 852464 0 th 0 0 0 pt 0 inp 0 0 32521.879
+03-12 20:59:59.465  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:1(30803) 15448 utonavi.minimap(2600) 32 system_server(3003) 32
+03-12 20:59:59.551  2007  4219 I sensors-hal: handle_sns_client_event:422, [0][167] gyro_sample_cal(cal_available:1)(3) [ 0.000, 0.000, 0.000] bias[-0.004,-0.006, 0.002] 190800014088871
+03-12 20:59:59.591 32746   327 I appium  : AppiumResponse: {"sessionId":"e1c782d7-bcae-438a-9908-02d64538b78f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17dJblnS/835MEiMghHjh4AIO2SKnagNaKh4I92XfaPQM9OeOgA119d6tdM0Jtu+zb2kB3u+1atYp7b62d2Wthq9M1utvKO539rm2tBdsqomhQWykemnCSM4RzICH3+wcEQvIkeTjkuZ+…
+03-12 20:59:59.599  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:59:59.599  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:59:59.600  2007  4225 I sensors-hal: handle_sns_std_sensor_event:158, [222] Pressure 982.855, cal 0.047, sw_offset 0.000 (lsb(bit) 0x8c 0xfc 0x5f)
+03-12 20:59:59.600  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:59:59.601  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:59:59.640  2600  5107 E XcdnEngine-N: task[157] begin read response for socket 221
+
+03-12 20:59:59.664 16161 19282 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-12 20:59:59.666 16161 19282 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-12 20:59:59.667 16161 19282 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-12 20:59:59.672  7048  7048 D LocationTracker: Got a location update from Play Services
+03-12 20:59:59.675  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.0 / time=1773363599663 / elapsed=190800228859642
+03-12 20:59:59.675 16161 19282 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-12 20:59:59.677  2007  4215 I sensors-hal: handle_sns_client_event:341, [178] mag_sample_cal(magcal_available:1): ts=190800147775954 ns; cal = [-23.649048, 20.112579, -30.654663], uncal = [-291.129028, 150.732574, -364.314667], bias = [-267.479980, 130.619995, -333.660004], status=1
+03-12 20:59:59.678  3003  4415 D ActivityManager: Received BROADCAST intent 0xb218c3 Key{broadcastIntent pkg=com.samsung.android.mcfds intent=act=com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT xflg=0x4 pkg=com.samsung.android.mcfds flags=0x2000000 u=0} requestCode=20247613 sent=0 from uid 1000
+03-12 20:59:59.679  2105  2922 I VSyncReactor: Current= 60, Period= 60, Distance= 1
+03-12 20:59:59.679  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)
+03-12 20:59:59.679  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)
+03-12 20:59:59.679  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)
+03-12 20:59:59.679  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 100.00, T : 1773363599663, ET : 190800228, h : 21/25]
+03-12 20:59:59.680  3003  4411 D SLocation: PositionManager - receive fused location
+03-12 20:59:59.680  3003  4411 W SLocation: GeopointGeofenceManger - refresh wifi to receive loc
+03-12 20:59:59.680  3003  4411 D SLocation: GeopointGeofenceManger - Location reported : fix method = 14 / 100.0
+03-12 20:59:59.680  3003  4411 D SLocation: LocationBuffer - input buffer, size : 1
+03-12 20:59:59.680  3003  4411 D SLocation: BatchManager - received batch location buffered = true
+03-12 20:59:59.680  3003  4411 D SLocation: SLocationCoreSem - send to coreSem, packet length : 23 / [2, 24, 58, 77, 226, 211, 66, 231, 214, 0, 0, 0, 100, 2, 0, 0, 1, 156, 228, 181, 25, 47, 0]
+03-12 20:59:59.680  3003  4411 D SemContextLocationCoreAttribute: setAttribute() mode : 0 action : 23
+03-12 20:59:59.680  3003  4411 D SemContextService: lock : changeParameters
+03-12 20:59:59.680  3003  4411 D SemContext.CaeProvider.LocationCoreImpl: setAttribute() mode : 0 action : 23
+03-12 20:59:59.680  3003  4415 D ActivityManager: Received BROADCAST intent 0x5626f03 Key{broadcastIntent pkg=com.samsung.android.mcfds intent=act=com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION xflg=0x4 pkg=com.samsung.android.mcfds flags=0x2000000 u=0} requestCode=2024320 sent=0 from uid 1000
+03-12 20:59:59.685  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for SLOCATION_RUNNER
+03-12 20:59:59.685 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT
+03-12 20:59:59.685  3003  4411 I CAE     : setPropertyValue(SLocationRunner.java:116) - SLocationRunner setProperty header : 2, len : 23
+03-12 20:59:59.685 32228 32228 I [CE]_ContextEngineReceiver: onReceive - SLocation intent : com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT
+03-12 20:59:59.685  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)
+03-12 20:59:59.685  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)
+03-12 20:59:59.685  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)
+03-12 20:59:59.685 32228 32228 I [CE]_i  : OnReceive - [Passive Location] 20247613
+03-12 20:59:59.685  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)false)
+03-12 20:59:59.685  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)
+03-12 20:59:59.685  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)
+03-12 20:59:59.685  3003  3911 D SensorService: setSContextDataLocked ints length 8 , byte length 26
+03-12 20:59:59.685  3003  3911 D SensorService: setSContextDataLocked 23717c1
+03-12 20:59:59.686  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-12 20:59:59.686  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-12 20:59:59.686  2007  2007 I sensors-hal: sendContextData:290, sensor hal 26, (0xc1, 0x17, 0x37, 0x2)
+03-12 20:59:59.686  2007  2007 E sensors-hal: sendContextData:133, slocationcore h 193 m 23 s 55
+03-12 20:59:59.686  2007  2007 I sensors-hal: sendUserData:119, slocationcore sendUserData
+03-12 20:59:59.686  2007  2007 E sensors-hal: create_send_context_data:64, slocationcore create_send_context_data
+03-12 20:59:59.686  2007  2007 I sensors-hal: send_context_data:694, slocationcore, 4986366670857974562, 1320970896291267344, msgid:700
+03-12 20:59:59.687  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for slocationcore 
+03-12 20:59:59.687  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for SLOCATION_RUNNER
+03-12 20:59:59.687  3003  4411 D SemContextService: unlock : changeParameters
+03-12 20:59:59.687  3003  4411 D SemContextManager:   .changeParameters : listener = Z.i@46c9840, service=SLocation Core
+03-12 20:59:59.687  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:slocationcore  Wakeup, msg_id=1025, ts=3663465472663
+03-12 20:59:59.687  2007  3909 E sensors-hal: handle_sns_client_event:78, slocationcore_event: msgid:1025
+03-12 20:59:59.688  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 3
+03-12 20:59:59.688  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-12 20:59:59.688  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:slocationcore  Wakeup, msg_id=1025, ts=3663465473033
+03-12 20:59:59.688  2007  3909 E sensors-hal: handle_sns_client_event:78, slocationcore_event: msgid:1025
+03-12 20:59:59.689  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 3
+03-12 20:59:59.689  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-12 20:59:59.690  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 3
+03-12 20:59:59.690  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-12 20:59:59.691 32228 32228 I [CE]_SpatialContextManager: isNHInternal - ID = 13 label = 1 conf = 0.19985634
+03-12 20:59:59.691  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :46], AP_WAKEUP
+03-12 20:59:59.691  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 46
+03-12 20:59:59.691  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 41, 5, 7, 2, 0, 0, 0, 0, 0, 53, -4, 80, 15, 5, 0, 0, 0, -56, 0, 53, -4, 80, 15, 5, 0, 0, 0, -56, 0, 53, -4, 80, 7, 2, 0, 0, 0, 10, 0, 54, 35, 96,
+03-12 20:59:59.691  3003  3907 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-12 20:59:59.691  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-12 20:59:59.691  3003  3907 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 41, 5, 7, 2, 0, 0, 0, 0, 0, 53, -4, 80, 15, 5, 0, 0, 0, -56, 0, 53, -4, 80, 15, 5, 0, 0, 0, -56, 0, 53, -4, 80, 7, 2, 0, 0, 0, 10, 0, 54, 35, 96]
+03-12 20:59:59.692  3003  3907 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:46
+03-12 20:59:59.692  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :10], AP_WAKEUP
+03-12 20:59:59.692  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 10
+03-12 20:59:59.692 32228 32228 I [CE]_SpatialContextManager: isNWInternal - ID = 7 label = 2 conf = 0.47339362
+03-12 20:59:59.692  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 5, 2, 2, 0, 0, 0,
+03-12 20:59:59.692 32228 32228 I [CE]_LocationPatternManager: pvpUpdate - hit
+03-12 20:59:59.692  3003  3907 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-12 20:59:59.692  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-12 20:59:59.692  3003  3907 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 5, 2, 2, 0, 0, 0]
+03-12 20:59:59.693  3003  3904 D SemContextService: Service.updateContext() : service = SLocation Core
+03-12 20:59:59.693 32228 32228 I [CE]_LocationPatternManager: pvpUpdate - Result: 3
+03-12 20:59:59.693  3003  3907 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:10
+03-12 20:59:59.693  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)false)false)
+03-12 20:59:59.693  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)false)
+03-12 20:59:59.693  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)false)
+03-12 20:59:59.693  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)
+03-12 20:59:59.693 32228 32228 I [CE]_LocationPatternManager: loadPvpState - State : 0 / 1773363479660
+03-12 20:59:59.694  3003  3003 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-12 20:59:59.694  3003  3003 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-12 20:59:59.694 32228 32228 I [CE]_LocationPatternManager: savePvpState - State : 0 / 1773363599663
+03-12 20:59:59.694 32228 32228 I [CE]_LocationPatternManager: onNewLocation - isInFamiliar/time : true / 1773363599663
+03-12 20:59:59.694  3003  3904 D SemContextService: Service.updateContext() : service = SLocation Core
+03-12 20:59:59.694 32228 32273 I [CE]_PrimaryLocationManager: onNewlocation - State: 13 / 13
+03-12 20:59:59.694  3003  4411 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 41
+03-12 20:59:59.694  3003  4411 D SLocation: CommonCoreManager - received Extra Data from core, len : 41
+03-12 20:59:59.695  3003  3003 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-12 20:59:59.695  3003  3003 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-12 20:59:59.696  2105  2921 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+03-12 20:59:59.696  3003  4411 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 5
+03-12 20:59:59.696  3003  4411 D SLocation: GeofenceCoreManager - handleCommandCallback - UNKNOWN_CALLBACK 2 SUCCESS
+03-12 20:59:59.696  3003  4411 D SLocation: CommonCoreManager - received Extra Data from core, len : 5
+03-12 20:59:59.696  3003  4411 D SLocation: CommonCoreManager - handleCommandCallback - FUNC_TYPE : SET_LOCATION  ERROR_CODE : ERROR_NONE
+03-12 20:59:59.696 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION
+03-12 20:59:59.696 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION
+03-12 20:59:59.697  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-12 20:59:59.697  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-12 20:59:59.697  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-12 20:59:59.697  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-12 20:59:59.698  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-12 20:59:59.698  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null

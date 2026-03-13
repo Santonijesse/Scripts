@@ -1,0 +1,97 @@
+--------- beginning of main
+03-12 20:56:53.954  2105  2836 I VSyncReactor: Current= 60, Period= 60, Distance= 120
+03-12 20:56:53.971  2105  2836 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+--------- beginning of system
+03-12 20:56:54.022  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:56:54.024  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:56:54.025  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:56:54.025  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:56:54.034  2007 29792 I sensors-hal: handle_sns_client_event:375, [0][251180] accel_sample [ 0.557, -1.083,  9.795] 190614588253419
+03-12 20:56:54.071 25236 25265 I appium  : channel read: GET /session/4375582b-fe07-4663-a2a3-38eb80134dee/source
+03-12 20:56:54.072 25236 25265 I appium  : Source command
+03-12 20:56:54.074 25236 25265 I appium  : Waiting up to 10000ms for the device to idle
+03-12 20:56:54.178 27246 27638 E XcdnEngine-N: xcdn_task[157]===write chunk_index 1, from 2 result 179200 crc 23 ip: 
+
+03-12 20:56:54.204 25236 25265 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 20:56:54.224  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:56:54.225  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:56:54.225  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:56:54.226  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:56:54.306 25236 25265 I appium  : AppiumResponse: {"sessionId":"4375582b-fe07-4663-a2a3-38eb80134dee","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.autonavi.minimap\" class=\"and…
+03-12 20:56:54.334 25236 25265 I appium  : channel read: GET /session/4375582b-fe07-4663-a2a3-38eb80134dee/screenshot
+03-12 20:56:54.335 25236 25265 I appium  : CaptureScreenshot command
+03-12 20:56:54.337 25236 25265 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:56:54.337 25236 25265 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 20:56:54.413 27246 27638 E XcdnEngine-N: xcdn_task[157]===write chunk_index 2, from 2 result 179200 crc 103 ip: 
+
+03-12 20:56:54.426  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:56:54.426  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:56:54.427  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:56:54.427  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:56:54.456 28602 28602 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 20:56:54.456 28602 28602 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 20:56:54.457 28602 28602 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 20:56:54.457  3003  4598 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 20:56:54.458  3003  4598 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 20:56:54.458 28602 28602 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 20:56:54.458 28602 28602 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 20:56:54.459  2105  2836 I SurfaceFlinger: Capture layer list: 	 Background for f6f78ce SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0#10625(seamlessTransition:0)
+03-12 20:56:54.459  2105  2836 I SurfaceFlinger: Capture layer list: 	 f6f78ce SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10624(seamlessTransition:0)
+03-12 20:56:54.459  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_27246#10616(seamlessTransition:0)
+03-12 20:56:54.459  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 20:56:54.459  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10522(seamlessTransition:0)
+03-12 20:56:54.459  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 20:56:54.460  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 20:56:54.461  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 20:56:54.461  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer f6f78ce SurfaceView[com.autonavi.minimap/com.autonavi.map.activity.SplashActivity]@0(BLAST)#10624 at index 1
+03-12 20:56:54.461  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.autonavi.minimap/com.autonavi.map.activity.SplashActivity$_27246#10616 at index 2
+03-12 20:56:54.462  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 20:56:54.462  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#10522 at index 4
+03-12 20:56:54.462  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 20:56:54.500 28602 28607 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 20:56:54.501 28602 28602 W qdgralloc: Failed to load libubwcp.so
+03-12 20:56:54.536 27246 27638 E XcdnEngine-N: xcdn_task[157]===write chunk_index 3, from 2 result 179200 crc 34 ip: 
+
+03-12 20:56:54.572  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:56:54.572  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:56:54.580  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.gallery3d(0)
+03-12 20:56:54.580  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 8
+03-12 20:56:54.580  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:56:54.580  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:56:54.585  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.app.reminder(0)
+03-12 20:56:54.585  3003  5506 D FreecessHandler: freeze com.samsung.android.app.reminder(10316) result : 8
+03-12 20:56:54.585  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:56:54.585  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:56:54.589  3003  5506 D MARs:ActiveTrafficFilter: filter : com.usatoday.android.news(0)
+03-12 20:56:54.589  3003  5506 D FreecessHandler: freeze com.usatoday.android.news(10413) result : 8
+03-12 20:56:54.590  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 20:56:54.590  5490 29721 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 20:56:54.594  3003  5506 D MARs:ActiveTrafficFilter: filter : com.microsoft.copilot(0)
+03-12 20:56:54.594  3003  5506 D FreecessHandler: freeze com.microsoft.copilot(10455) result : 8
+03-12 20:56:54.628  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:56:54.629  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:56:54.630  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:56:54.630  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:56:54.726 27246 27638 E XcdnEngine-N: xcdn_task[157]===write chunk_index 4, from 2 result 179200 crc 169 ip: 
+
+03-12 20:56:54.780  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773363414
+03-12 20:56:54.787  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 20:56:54.788  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 338 
+03-12 20:56:54.788  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556056
+03-12 20:56:54.788  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556042
+03-12 20:56:54.788  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556047
+03-12 20:56:54.788  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 20:56:54.788  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 20:56:54.792 25236 25265 I appium  : AppiumResponse: {"sessionId":"4375582b-fe07-4663-a2a3-38eb80134dee","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl3j7we2rKhBSSQHoCgSQECAFCDcWCYEFk166UIMWCrG1RV1eX99rX3XURLKwgRZqoFBVXEEUEEQkISYBACpBAekJ6m7Rp5/dHfnPeTGaSTGBSBu7PdXHpnJw5eSYzOTnPfZ7n+0g…
+03-12 20:56:54.829  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 20:56:54.829  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 20:56:54.830  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 20:56:54.830  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 20:56:54.851  3003  4598 D CustomizedBinderCallsStatsInternal: reportCpuUsage() : 2%
+03-12 20:56:54.851  3003  3082 I BinderCallsStats: Collected cpu time : 0us, collected call count : 0 for 5421315 ms
+03-12 20:56:54.853  3003  4598 D ProcessCpuUsage: [0] 1047, {556=1520, 672=2420, 787=26490, 902=5030, 1017=2260, 1132=2350, 1248=1720, 1344=10790, 1459=590, 1574=1410, 1689=3330, 1804=520, 2265=1720}
+03-12 20:56:54.853  3003  4598 D ProcessCpuUsage: [2] 1170, {614=5870, 729=340, 844=32080, 960=1460, 1075=800, 1190=2440, 1286=390, 1401=340, 1497=330, 1612=1540, 1708=1290, 1824=4860, 1920=2020, 2035=2080, 2131=440, 2323=480, 2572=910, 2707=2080, 3148=180}
+03-12 20:56:54.853  3003  4598 D ProcessCpuUsage: [5] 939, {499=30980, 614=2920, 729=2110, 844=5430, 960=1490, 1075=1060, 1190=2680, 1286=290, 1401=280, 1497=260, 1612=1320, 1708=580, 1824=3850, 1920=1060, 2035=2050, 2323=620, 2572=940, 2707=1830, 2956=180}
+03-12 20:56:54.853  3003  4598 D ProcessCpuUsage: [7] 1194, {672=8650, 902=34220, 1248=610, 1708=3240, 1824=4090, 1939=3460, 2035=2020, 2304=710, 2630=1490, 3398=1130}
+03-12 20:56:54.885 27246 27638 E XcdnEngine-N: xcdn_task[157]===write chunk_index 5, from 2 result 179200 crc 152 ip: 
+
