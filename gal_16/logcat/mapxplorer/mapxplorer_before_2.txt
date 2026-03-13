@@ -1,0 +1,257 @@
+--------- beginning of main
+03-13 09:45:51.600 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.600 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.600 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.616 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.616 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.616 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.633 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.633 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.633 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.650 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.650 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.650 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.666 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.666 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.666 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.666  4184  6555 D Am      : Broadcasting: Intent { act=com.samsung.android.intent.action.CELL_INFO_RES_V2 cmp=com.samsung.android.networkdiagnostic/.receiver.NetworkDiagnosticReceiver (has extras) }
+--------- beginning of system
+03-13 09:45:51.671  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:45:51.671 28937 28937 I [ND]NetworkDiagnosticReceiver: main | onReceive: com.samsung.android.intent.action.CELL_INFO_RES_V2
+03-13 09:45:51.671 28937 28937 I [ND]NetworkDiagnosticReceiver: main | onReceive: Bundle[mParcelledData.dataSize=704]
+03-13 09:45:51.672 28937 28937 I [ND]JobScheduleUtilityImpl: main | schedule
+03-13 09:45:51.672 28937 28937 I [ND]JobScheduleUtilityImpl: main | INTENT_FROM_CP_CELL_INFO_RES_V2
+03-13 09:45:51.672 28937 28937 I [ND]JobScheduleUtilityImpl: main | CELL_INFO
+03-13 09:45:51.674  4184  6555 D Am      : Broadcast completed: result=0
+03-13 09:45:51.681 28937 16283 E [ND]CellMeasurementWorker: RxCachedThreadScheduler-19 | onError: Location policy not satisfied: 200.0 / 20
+03-13 09:45:51.683 28937 16283 I [ND]CellMeasurementWorker: RxCachedThreadScheduler-19 | End Work: Failure {mOutputData=Data {}}
+03-13 09:45:51.683 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.683 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.683 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.686 28937 29031 I WM-WorkerWrapper: Worker result FAILURE for Work [ id=1c07a4a3-9d5c-4ede-8eeb-ecfc5e50d84e, tags={ com.samsung.android.networkdiagnostic.core.background.collect.CellMeasurementWorker,Measurements } ]
+03-13 09:45:51.699 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.699 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.699 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.715 15030 15071 I appium  : channel read: GET /session/226739c3-23ee-4862-8528-5c8cbb104f23/source
+03-13 09:45:51.715 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.715 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.715 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.716 15030 15071 I appium  : Source command
+03-13 09:45:51.717 15030 15071 I appium  : Waiting up to 10000ms for the device to idle
+03-13 09:45:51.737 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.737 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.737 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.749 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.749 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.749 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.766 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.766 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.766 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.782 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.782 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.782 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.799 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.799 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.799 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.816 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.816 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.816 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.832 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.832 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.832 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.850 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.850 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.850 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: SV Count : 31 / 43      (PRN, Constellation, Type, SNR, Used)
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (2, GPS, L1, 22.9, 1) (7, GPS, L1, 32.0, 1) (8, GPS, L1, 31.4, 1) (9, GPS, L1, 26.4, 1) (16, GPS, L1, 21.0, 1) (27, GPS, L1, 30.6, 1) 
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (30, GPS, L1, 19.2, 0) (16, GLONASS, L1, 17.2, 0) (15, GLONASS, L1, 23.7, 1) (5, GLONASS, L1, 19.4, 0) (24, GLONASS, L1, 22.2, 1) (44, BEIDOU, L1, 26.5, 1) 
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (35, BEIDOU, L1, 19.7, 0) (26, BEIDOU, L1, 17.8, 1) (25, BEIDOU, L1, 20.2, 0) (24, BEIDOU, L1, 23.6, 1) (4, GALILEO, L1, 22.0, 1) (6, GALILEO, L1, 15.5, 0) 
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (13, GALILEO, L1, 16.6, 0) (18, GALILEO, L1, 23.8, 1) (19, GALILEO, L1, 13.9, 0) (23, GALILEO, L1, 28.5, 1) (26, GALILEO, L1, 20.9, 1) (27, GALILEO, L1, 15.7, 1) 
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (4, GPS, L5, 17.8, 1) (8, GPS, L5, 26.6, 1) (27, GPS, L5, 24.6, 1) (30, GPS, L5, 24.8, 1) (6, GALILEO, L5, 18.4, 0) (13, GALILEO, L5, 21.1, 1) 
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (18, GALILEO, L5, 17.5, 0) (21, GALILEO, L5, 27.2, 1) (26, GALILEO, L5, 18.4, 0) (24, BEIDOU, L5, 23.1, 1) (25, BEIDOU, L5, 22.6, 1) (34, BEIDOU, L5, 17.8, 1) 
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (44, BEIDOU, L5, 24.6, 1) (24, BEIDOU, L1, 23.4, 1) (25, BEIDOU, L1, 22.7, 1) (26, BEIDOU, L1, 24.8, 1) (34, BEIDOU, L1, 25.0, 1) (35, BEIDOU, L1, 15.8, 0) 
+03-13 09:45:51.853  3003  3951 D GnssLocationProvider_ex: (44, BEIDOU, L1, 20.5, 1) 
+03-13 09:45:51.859  5490  5568 I GnssEngineManager_FLP: updateSatelliteStatus, top4=30, top6=29, visibleSv=43, usedSv=31, usedL5Sv=10 (usedGps=10, usedGlo=2, usedBds=12, usedGal=7)
+03-13 09:45:51.860  3003  3951 D GnssLocationProvider: reportLocation
+03-13 09:45:51.863  5490  5568 I GnssEngineManager_FLP: onGpsLocationChanged, provider=gps / isMock=false / speed=0.0 / time=1773409552000 / elapsed=236752407026444
+03-13 09:45:51.864  5490  5568 I NewStopController_FLP: isAvailableLastLoc, KeepStationary : false , timeGap : 23 , mStraightFixCount : 0
+03-13 09:45:51.865  5490  5568 I NewStopController_FLP: onChangedGlpLocation, isGpsStopped= false, isReportingLL= false, isAvailableLastLoc : true
+03-13 09:45:51.865 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.865 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-13 09:45:51.865 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.865 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.865 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 09:45:51.867 15030 15071 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 09:45:51.868 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 09:45:51.868 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 09:45:51.869  7048  7048 D LocationTracker: Got a location update from Play Services
+03-13 09:45:51.869  3003 21012 I Mocca_VehicleDetectionHelper: (1.1.04.1)GPS: Avg speed: 0.0 Speed: 0.0 LIST: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+03-13 09:45:51.869  3003 21012 D VehicleSensorHub: vehicleSendToSensorHub status : 2 type : 18
+03-13 09:45:51.870  3003 21012 I SensorManager: Get Sensor type = 65586
+03-13 09:45:51.870  3003 21012 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-13 09:45:51.870  3003 21012 D SensorService: setSContextDataLocked 123c17c1
+03-13 09:45:51.871  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 09:45:51.871  2007  2007 I sensors-hal: sendContextData:290, sensor hal 5, (0xc1, 0x17, 0x3c, 0x12)
+03-13 09:45:51.871  2007  2007 I sensors-hal: sendContextData:230, activities 5 c1, 1
+03-13 09:45:51.871  2007  2007 I sensors-hal: sendUserData:251, Activities cmd 0xc1 0x17
+03-13 09:45:51.871  2007  2007 I sensors-hal: create_send_context_data:80, sending create_send_context_data
+03-13 09:45:51.871  2007  2007 I sensors-hal: send_context_data:694, activities, 4914309220830019584, 1320970896291267344, msgid:700
+03-13 09:45:51.872  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.5992492 / time=1773409551841 / elapsed=236752407026444
+03-13 09:45:51.870  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [G, A : 3.79, T : 1773409552000, ET : 236752407, E : SH, h : 21/26]
+03-13 09:45:51.872  3003  4411 D SLocation: PositionManager - receive gps location
+03-13 09:45:51.872  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 3.96, T : 1773409551841, ET : 236752407, h : 21/26]
+03-13 09:45:51.872  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for activities 
+03-13 09:45:51.872  3003  4411 D SLocation: PositionManager - receive fused location
+03-13 09:45:51.872  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 0.06546265 diffTime : 1000 filtered Location
+03-13 09:45:51.872  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-13 09:45:51.872  3003  4411 D SLocation: DuplicateLocationChecker_GeofenceLocationFilter - fused is duplicated last fused location
+03-13 09:45:51.872  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 0.06405557 diffTime : 1000 filtered Location
+03-13 09:45:51.872  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-13 09:45:51.873  3003 21012 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1335 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.reportAdvancedVehicleEvent:185 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.handleLocEvent:277 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.p:0 D.e.h:136 
+03-13 09:45:51.876 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 09:45:51.876 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 09:45:51.876 32228 32228 I [CE]_MovingContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 09:45:51.876 32228 32228 I [CE]_CarContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 09:45:51.885  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 145255464  [2025 / 15018]    HINT :      list : [UCLAMP_MIN_BOOST / 50] [TID / 15360] [TID / 15361] [TID / 15176] [TID / 15329] 
+03-13 09:45:51.886  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 145255464  [2025 / 15018]    HINT :      list : [UCLAMP_MIN_BOOST / 100] [TID / 15360] [TID / 15361] [TID / 15176] [TID / 15329] 
+03-13 09:45:51.887  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 145255464  [2025 / 15018]    HINT :      list : [UCLAMP_MIN_BOOST / 150] [TID / 15360] [TID / 15361] [TID / 15176] [TID / 15329] 
+03-13 09:45:51.890  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 145255464  [2025 / 15018]    HINT :      list : [UCLAMP_MIN_BOOST / 200] [TID / 15360] [TID / 15361] [TID / 15176] [TID / 15329] 
+03-13 09:45:51.892 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.892 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.892 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.899 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.899 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.899 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.907 15030 15071 I appium  : AppiumResponse: {"sessionId":"226739c3-23ee-4862-8528-5c8cbb104f23","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.maps.radar.navigation.android2…
+03-13 09:45:51.915 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.915 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.915 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.915 15030 15071 I appium  : channel read: GET /session/226739c3-23ee-4862-8528-5c8cbb104f23/screenshot
+03-13 09:45:51.915 15030 15071 I appium  : CaptureScreenshot command
+03-13 09:45:51.916 15030 15071 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:45:51.916 15030 15071 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:45:51.932 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.932 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.932 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.948 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.948 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.948 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.965 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.966 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.966 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.982 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.982 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.982 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:51.999 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:51.999 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:51.999 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.000 16286 16286 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 09:45:52.000 16286 16286 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 09:45:52.001 16286 16286 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 09:45:52.001  3003  7292 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 09:45:52.001  3003  7292 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 09:45:52.001 16286 16286 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 09:45:52.001 16286 16286 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 09:45:52.003  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.maps.radar.navigation.android2023/com.maps.radar.navigation.android2023.search.SearchActivity$_15176#43731(seamlessTransition:0)
+03-13 09:45:52.003  2105  2321 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#43739(seamlessTransition:0)
+03-13 09:45:52.003  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 09:45:52.003  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#43734(seamlessTransition:0)
+03-13 09:45:52.003  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 09:45:52.004  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 09:45:52.004  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 09:45:52.004  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.maps.radar.navigation.android2023/com.maps.radar.navigation.android2023.search.SearchActivity$_15176#43731 at index 1
+03-13 09:45:52.004  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#43739 at index 2
+03-13 09:45:52.005  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 09:45:52.005  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#43734 at index 4
+03-13 09:45:52.005  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 09:45:52.015 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.015 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.015 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.032 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.032 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.032 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.039 16286 16291 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 09:45:52.040 16286 16286 W qdgralloc: Failed to load libubwcp.so
+03-13 09:45:52.041  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 145255464  [2025 / 15018]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TID / 15360] [TID / 15361] [TID / 15176] [TID / 15329] 
+03-13 09:45:52.049 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.049 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.049 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.066 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.066 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.066 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.082 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.082 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.082 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.099 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.099 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.099 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.115 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.115 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.115 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773409552
+03-13 09:45:52.132 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.132 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.132 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.136  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 09:45:52.136  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 312 
+03-13 09:45:52.137  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556825
+03-13 09:45:52.138  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556800
+03-13 09:45:52.139  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 09:45:52.139  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556810
+03-13 09:45:52.139  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 09:45:52.140  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 09:45:52.148 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.149 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.149 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.166 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.166 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.166 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.182 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.182 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.182 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.198 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.199 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.199 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.206  3003  7292 D SemContextService: lock : requestToUpdate
+03-13 09:45:52.206  3003  7292 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for CH_LOC_TRIGGER
+03-13 09:45:52.207  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 09:45:52.207  3003  3911 D SensorService: setSContextDataLocked 3db8
+03-13 09:45:52.207  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 09:45:52.207  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb8, 0x3d, 0x0, 0x0)
+03-13 09:45:52.207  2007  2007 I sensors-hal: sendContextData:131, change_location_trigger 4,184
+03-13 09:45:52.207  2007  2007 I sensors-hal: sendUserData:118, change_location_trigger h 184 m 61 s 0
+03-13 09:45:52.207  2007  2007 I sensors-hal: create_send_context_data:66, change_location_trigger create_send_context_data
+03-13 09:45:52.207  2007  2007 I sensors-hal: send_context_data:694, change_location_trigger, -244018566922240, 1320970896291267344, msgid:700
+03-13 09:45:52.208  3003  7292 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for CH_LOC_TRIGGER
+03-13 09:45:52.208  3003  7292 D SemContextService:     .requestToUpdate() : service = Location Change Trigger
+03-13 09:45:52.208  3003  7292 D SemContextService: unlock : requestToUpdate
+03-13 09:45:52.208  3003  7292 D SemContextManager:   .requestToUpdate : listener = com.android.server.location.nsflp.NSLocationMonitor$5@d8278d1, service=Location Change Trigger
+03-13 09:45:52.209  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for change_location_trigger 
+03-13 09:45:52.213  5490  7699 I NewStopController_FLP: StateChecker, check stationary message
+03-13 09:45:52.215 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.215 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.215 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.218 15030 15071 I appium  : AppiumResponse: {"sessionId":"226739c3-23ee-4862-8528-5c8cbb104f23","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N11WFRpGwbwe4KWbiQUBTuwELvW7ta1O7C7N12743N1XdfuWGPXbsVuBQkDkRQRkBxmvj9YZhlnhhxi3Pt3XV7fcubMO+/4IZy5z/s+j8DZ1V0GIiIiIiIiIiItJizqCRARERERERER5Rc…
+03-13 09:45:52.232 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.232 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.232 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.249 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.249 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.249 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.266 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.266 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.266 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately
+03-13 09:45:52.273  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:change_location_trigger  Wakeup, msg_id=1025, ts=4545755116869
+03-13 09:45:52.273  2007  3909 I sensors-hal: handle_sns_client_event:85, change_location_trigger_event: msgid:1025
+03-13 09:45:52.273  2007  3909 I sensors-hal: handle_sns_client_event:108, change_location_trigger_event: 255, 255
+03-13 09:45:52.276  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :15], AP_WAKEUP
+03-13 09:45:52.276  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 15
+03-13 09:45:52.276  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 61, -1, 0, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0,
+03-13 09:45:52.276  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= CH_LOC_TRIGGER =================
+03-13 09:45:52.276  3003  3907 I CAE     : display(ContextProvider.java:391) - duration=[1], property=[1], result=[2], reserved=[0]
+03-13 09:45:52.277  3003  3904 D SemContextService: Service.updateContext() : service = Location Change Trigger
+03-13 09:45:52.277  3003  3952 D SemContextManager: onSemContextChanged() : event = Location Change Trigger
+03-13 09:45:52.277  3003  3952 D NSLocationMonitor: onSemContextChanged, activity : 1 result : 2 movement : 1
+03-13 09:45:52.281 15176 15176 D SV[92278543 MwmActivity]: updateSurface: surface is not valid
+03-13 09:45:52.281 15176 15176 I SV[92278543 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@e059649
+03-13 09:45:52.281 15176 15176 D VRI[MwmActivity]@e059649: applyTransactionOnDraw applyImmediately

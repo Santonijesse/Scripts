@@ -1,0 +1,53 @@
+--------- beginning of main
+03-13 07:46:27.729 21721 21749 I appium  : channel read: GET /session/0733ea11-0887-44e8-a505-3671c6825e34/source
+03-13 07:46:27.730 21721 21749 I appium  : Source command
+03-13 07:46:27.732 21721 21749 I appium  : Waiting up to 10000ms for the device to idle
+03-13 07:46:27.800  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 13674, isSameBssidAndFreq true
+03-13 07:46:27.802  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 875 / 13 / 1.10 (68) / 360 / -60.0 || 100.0 : 360.00 / 0.5 : 0.91 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.095 / 83.938 / N || N N / 0 0 / Y 2.0 / Y X 0 / 53671868 0 || Invalid
+--------- beginning of system
+03-13 07:46:27.804  3003  4047 D SGM:GameManager: identifyGamePackage. com.google.android.apps.maps, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 07:46:27.805  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.google.android.apps.maps, ret=false
+03-13 07:46:27.806  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 07:46:27.806  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 07:46:27.806  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 49
+03-13 07:46:27.806  3003  4030 D InsDataManager: trimBuffers start.
+03-13 07:46:27.806  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 85
+03-13 07:46:27.807  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 07:46:27.807  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 07:46:27.807  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -60.0,"latency": 0.09530806908997164,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 875 / 13 / 1.10 (68) / 360 / -60.0 || 100.0 : 360.00 / 0.5 : 0.91 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.095 / 83.938 / N || N N / 0 0 / Y 2.0 / Y X 0 / 53671868 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 07:46:27.842 21721 21749 I appium  : AppiumResponse: {"sessionId":"0733ea11-0887-44e8-a505-3671c6825e34","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.apps.maps\" cla…
+03-13 07:46:27.851 21721 21749 I appium  : channel read: GET /session/0733ea11-0887-44e8-a505-3671c6825e34/screenshot
+03-13 07:46:27.851 21721 21749 I appium  : CaptureScreenshot command
+03-13 07:46:27.852 21721 21749 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 07:46:27.852 21721 21749 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 07:46:27.940 22363 22363 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 07:46:27.940 22363 22363 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 07:46:27.941 22363 22363 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 07:46:27.941  3003  6500 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 07:46:27.941  3003  6500 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 07:46:27.941 22363 22363 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 07:46:27.941 22363 22363 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 07:46:27.946  2105  2836 I SurfaceFlinger: Capture layer list: 	 Background for 3ad85aa SurfaceView[com.google.android.apps.maps/com.google.android.maps.MapsActivity]@0#37006(seamlessTransition:0)
+03-13 07:46:27.946  2105  2836 I SurfaceFlinger: Capture layer list: 	 3ad85aa SurfaceView[com.google.android.apps.maps/com.google.android.maps.MapsActivity]@0(BLAST)#37005(seamlessTransition:0)
+03-13 07:46:27.946  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.google.android.apps.maps/com.google.android.maps.MapsActivity$_21787#37000(seamlessTransition:0)
+03-13 07:46:27.946  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 07:46:27.946  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#36958(seamlessTransition:0)
+03-13 07:46:27.946  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 07:46:27.947  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 07:46:27.947  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 07:46:27.947  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 3ad85aa SurfaceView[com.google.android.apps.maps/com.google.android.maps.MapsActivity]@0(BLAST)#37005 at index 1
+03-13 07:46:27.948  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.google.android.apps.maps/com.google.android.maps.MapsActivity$_21787#37000 at index 2
+03-13 07:46:27.948  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 07:46:27.948  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#36958 at index 4
+03-13 07:46:27.948  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 07:46:28.007 22363 22368 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 07:46:28.008 22363 22363 W qdgralloc: Failed to load libubwcp.so
+03-13 07:46:28.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773402388
+03-13 07:46:28.134  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 07:46:28.135  2097  2125 D HeatmapThread: !@ batteryLevel : 98  batteryTemperature : 262 
+03-13 07:46:28.135  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556706
+03-13 07:46:28.136  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556680
+03-13 07:46:28.136  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 07:46:28.136  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556690
+03-13 07:46:28.137  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 07:46:28.271 21721 21749 I appium  : AppiumResponse: {"sessionId":"0733ea11-0887-44e8-a505-3671c6825e34","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl3j/+97R00kN6IwFCSSAQJHSlKVVXWZRFICiIiOt+FdlndV1dd9dCteCDCgihLVVQAUGigHRIqAkESAhpJARCep12fn/wm/NkMhMyE5JMJrxf1+V1Ofecc+aeYTIz533u+3NLBEE…

@@ -1,0 +1,437 @@
+--------- beginning of main
+03-13 10:13:58.453  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 10:13:58.453  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 10:13:58.455  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 10:13:58.455  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 10:13:58.456  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 10:13:58.456  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 10:13:58.456   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:58.458  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 10:13:58.458  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 10:13:58.459  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 10:13:58.459  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 10:13:58.463  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 10:13:58.463  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 10:13:58.463  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 10:13:58.464  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 10:13:58.471  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-13 10:13:58.479  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+--------- beginning of system
+03-13 10:13:58.492  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:58.493  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:58.495  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:58.495  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:58.495  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:58.495  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:58.495  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:58.495  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:58.496  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:58.496  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:58.496  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:58.500   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:58.548   329   366 I appium  : channel read: GET /session/c6b8b988-d498-42b3-90c0-b1fd39ccd92a/source
+03-13 10:13:58.550   329   366 I appium  : Source command
+03-13 10:13:58.551   329   366 I appium  : Waiting up to 10000ms for the device to idle
+03-13 10:13:58.562  1171  1171 D io_stats: !@   8,0 r 3714014 118049204 w 4285968 92992668 d 384981 103497800 f 177804 421681 iot 1786820 0 th 0 0 0 pt 0 inp 0 0 62522.629
+03-13 10:13:58.563  1171  1171 D io_stats: !@ Write_top(KB): m.mcdonalds.app(404) 5232 kworker/u16:1(20226) 3188
+03-13 10:13:58.593  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:58.594  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:58.603  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:58.603  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:58.603  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:58.603  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:58.604  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:58.604  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:58.605  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:58.605  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:58.605  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:58.619   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:58.694  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:58.695  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:58.701  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:58.701  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:58.701  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:58.701  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:58.702  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:58.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:58.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:58.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:58.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:58.718  2007 25190 I sensors-hal: handle_sns_client_event:375, [0][9646] accel_sample [ 0.324, -0.010,  9.857] 238439270422381
+03-13 10:13:58.738   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:58.762   404  3207 I BMP:CYFManager: Getting sensor data
+03-13 10:13:58.762   404  3207 I BMP:CYFManager: Building sensor data: Thread[Timer-1,5,main]
+03-13 10:13:58.764  2007  2007 I sensors-hal: activate:300, android.sensor.magnetic_field/21 en=0
+03-13 10:13:58.764  2007  2007 I sensors-hal: ~calibration:61, ~calibration: START
+03-13 10:13:58.764  2007  2007 I sensors-hal: register_cb:312, suid(low=10350532229688825456,high=14322911740044289799) is alread registered
+03-13 10:13:58.764  2007  2007 I sensors-hal: register_cb:317, update callbacks with new one
+03-13 10:13:58.764  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d2d10) send sig to tid= 3215
+03-13 10:13:58.764  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d2d10) is destroyed, remaining task = 0, tid= 3215
+03-13 10:13:58.764  2007  2007 I sensors-hal: send_req:220, send_req before send_request mag_cal with SUID low=10350532229688825456 high=14322911740044289799
+03-13 10:13:58.765  2007  2007 I sensors-hal: ~calibration:77, sent disable request. wait for response for it
+03-13 10:13:58.765  2007  2007 I sensors-hal: operator():80, resp_received = 0 in wait_for
+03-13 10:13:58.766  2007  3214 I sensors-hal: handle_resp_cb:230, resp_value = 0 for mag_cal before acuiring the lock _cal_mutex
+03-13 10:13:58.767  2007  2007 I sensors-hal: operator():80, resp_received = 1 in wait_for
+03-13 10:13:58.768  2007  2007 I sensors-hal: ~calibration:107, ~calibration: END
+03-13 10:13:58.768  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.768  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for mag with SUID low=11911404398489902607 high=16993594652946037180
+03-13 10:13:58.768  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.769  2007  3214 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for mag 
+03-13 10:13:58.770  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 2 ms to receive the response with 0
+03-13 10:13:58.771  2007  2007 I sensors-hal: deactivate:242, (magnetometer) , _pending_flush_requests=0 
+03-13 10:13:58.772  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d5230) send sig to tid= 3213
+03-13 10:13:58.773  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d5230) is destroyed, remaining task = 0, tid= 3213
+03-13 10:13:58.773  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6810 went down
+03-13 10:13:58.773  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6810 went down
+03-13 10:13:58.773  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-13 10:13:58.773  2007  2007 I sensors-hal: activate:330, android.sensor.magnetic_field/21 en=0 completed
+03-13 10:13:58.774  2007  2007 I sensors-hal: activate:300, android.sensor.gravity/91 en=0
+03-13 10:13:58.775  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.775  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gravity with SUID low=12052644982307943726 high=14255117871604606629
+03-13 10:13:58.775  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.775  2007  3218 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gravity 
+03-13 10:13:58.776  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 10:13:58.776  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d8950) send sig to tid= 3217
+03-13 10:13:58.777  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d8950) is destroyed, remaining task = 0, tid= 3217
+03-13 10:13:58.777  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-13 10:13:58.777  2007  2007 I sensors-hal: activate:330, android.sensor.gravity/91 en=0 completed
+03-13 10:13:58.778  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6815 went down
+03-13 10:13:58.779  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6815 went down
+03-13 10:13:58.783   404  3207 D SensorManager: unregisterListener
+03-13 10:13:58.784   404  3207 I BMP:OrientationManager: Orientation Event Count: 32/50
+03-13 10:13:58.784   404  3207 I BMP:OrientationManager: Orientation SDCalc-Time: 0ms
+03-13 10:13:58.785  2007  2007 I sensors-hal: activate:300, android.sensor.gyroscope/41 en=0
+03-13 10:13:58.785  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.785  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for sensor_temperature with SUID low=2469432388859779188 high=2270547140419222672
+03-13 10:13:58.785  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.786  2007  3210 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for sensor_temperature 
+03-13 10:13:58.786  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 10:13:58.786  2007  2007 I sensors-hal: ~calibration:61, ~calibration: START
+03-13 10:13:58.786  2007  2007 I sensors-hal: register_cb:312, suid(low=10025908976994887838,high=13187306796670928542) is alread registered
+03-13 10:13:58.786  2007  2007 I sensors-hal: register_cb:317, update callbacks with new one
+03-13 10:13:58.786  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d34f0) send sig to tid= 3211
+03-13 10:13:58.786  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d34f0) is destroyed, remaining task = 0, tid= 3211
+03-13 10:13:58.787  2007  2007 I sensors-hal: send_req:220, send_req before send_request gyro_cal with SUID low=10025908976994887838 high=13187306796670928542
+03-13 10:13:58.787  2007  2007 I sensors-hal: ~calibration:77, sent disable request. wait for response for it
+03-13 10:13:58.787  2007  2007 I sensors-hal: operator():80, resp_received = 0 in wait_for
+03-13 10:13:58.787  2007  3210 I sensors-hal: handle_resp_cb:230, resp_value = 0 for gyro_cal before acuiring the lock _cal_mutex
+03-13 10:13:58.787  2007  2007 I sensors-hal: operator():80, resp_received = 1 in wait_for
+03-13 10:13:58.787  2007  2007 I sensors-hal: ~calibration:107, ~calibration: END
+03-13 10:13:58.788  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.788  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gyro with SUID low=11331203967455886618 high=2227687939882802101
+03-13 10:13:58.789  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.790  2007  3210 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gyro 
+03-13 10:13:58.790  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 10:13:58.790  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 680b went down
+03-13 10:13:58.791  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 680b went down
+03-13 10:13:58.791  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d1f90) send sig to tid= 3209
+03-13 10:13:58.792  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d1f90) is destroyed, remaining task = 0, tid= 3209
+03-13 10:13:58.792  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-13 10:13:58.792  2007  2007 I sensors-hal: activate:330, android.sensor.gyroscope/41 en=0 completed
+03-13 10:13:58.793  3003  4343 D WindowManager: captureDisplay
+03-13 10:13:58.793  3003  4343 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:58.794  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 10:13:58.794  2007  2007 I sensors-hal: batch:363, android.sensor.accelerometer/11, period=20000000, max_latency=0 request completed
+03-13 10:13:58.795   404  3207 D SensorManager: unregisterListener
+03-13 10:13:58.795  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:58.795  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:58.795  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:58.795  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:58.796   404  3207 I BMP:MotionManager: Motion Event Count: 32/49
+03-13 10:13:58.796   404  3207 I BMP:MotionManager: Motion SDCalc-Time: 1ms
+03-13 10:13:58.796   404  3207 I BMP:TouchManager: Touch Event Count: 2 (move: 0, updown: 2)
+03-13 10:13:58.796   404  3207 I BMP:TouchManager: Touch SDCalc-Time: 0ms
+03-13 10:13:58.796  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:58.796  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:58.796   404  3207 I BMP:FeistelCipher: FeistelCipherEncode-Time: 0ms
+03-13 10:13:58.796  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:58.796  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:58.796  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:58.796   404  3207 I BMP:CYFManager: Plain-BuildSensorData-Time: 34ms
+03-13 10:13:58.797   404  3207 I BMP:EventResult: Resetting values
+03-13 10:13:58.798   404  3207 I BMP:Constants: Resetting values
+03-13 10:13:58.798   404  3207 I BMP:CYFManager: Sensor Data: 6,a,MAxHIfm4dSTsdpss/+PpZICgevfp5euDFA1RMQVmazZSKYkjh3iLL8iAE66BgClaNC97eQ5EqTuUuLj3e2auJE4cikK32rQmiUxcVuHGGW0TLFLZrv2UlQXVboosqfQu3XL6LcOc81sIR//K3CaQiwxHd+TlIBXU3hTWMGe282g=,d+dgs+qKxc3u+bffwNbVKUWSkJ+uw0gA4RUjA0gno5wK1RiN4FcuN/8cbKFNfJTqVCBMpR6KsMOLKFjoGQI1hJ8HRQTVLhNtp5pv/kkca1Jni3BdO7w/2RTOkes+mk5uDAxIZwWNAvgk0M2cdNpK1Tq5ITvixKe7vZ1Qpze6NOQ=$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$118,31,42$$$
+03-13 10:13:58.799  2007  2007 I sensors-hal: flush:383, android.sensor.accelerometer/11
+03-13 10:13:58.799  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.800  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for accel with SUID low=7080276908576992050 high=13131023702051637398
+03-13 10:13:58.800  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.800   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:58.802  2007 25190 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for accel 
+03-13 10:13:58.802  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 10:13:58.802  2007  2007 I sensors-hal: flush:389, android.sensor.accelerometer/11 completed
+03-13 10:13:58.803   404   404 D SensorManager: registerListener :: 11, lsm6dsv LSM6DSV Accelerometer Non-wakeup, 20000, 0, 
+03-13 10:13:58.803  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 10:13:58.804  2007  2007 I sensors-hal: batch:363, android.sensor.gyroscope/41, period=20000000, max_latency=0 request completed
+03-13 10:13:58.804  2007  2007 I sensors-hal: activate:300, android.sensor.gyroscope/41 en=1
+03-13 10:13:58.804  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 34 , conn_type 3 
+03-13 10:13:58.805  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4da0f0) is created with tid= 3696
+03-13 10:13:58.806  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6816 went down
+03-13 10:13:58.806  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6816 went down
+03-13 10:13:58.807  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6817 went down
+03-13 10:13:58.807  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6817 went down
+03-13 10:13:58.810  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-13 10:13:58.810  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6818 went down
+03-13 10:13:58.810  2007  2007 I sensors-hal: register_cb:304, suid(low=11331203967455886618,high=2227687939882802101) is new. register callbacks
+03-13 10:13:58.810  2007  2007 I sensors-hal: register_cb:304, suid(low=10025908976994887838,high=13187306796670928542) is new. register callbacks
+03-13 10:13:58.810  2007  2007 I sensors-hal: calibration:48, registerd callback for gyro_cal
+03-13 10:13:58.811  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d0b50) is created with tid= 3698
+03-13 10:13:58.811  2007  2007 I sensors-hal: calibration:55, created worker for gyro_cal
+03-13 10:13:58.811  2007  2007 I sensors-hal: send_req:220, send_req before send_request gyro_cal with SUID low=10025908976994887838 high=13187306796670928542
+03-13 10:13:58.812  2007  2007 I sensors-hal: activate:274, started gyro cal
+03-13 10:13:58.811  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6818 went down
+03-13 10:13:58.812  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 1000000000 based on min/max delay_ns
+03-13 10:13:58.813  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 34 , conn_type 3 
+03-13 10:13:58.813  2007  2007 I sensors-hal: register_cb:304, suid(low=2469432388859779188,high=2270547140419222672) is new. register callbacks
+03-13 10:13:58.813  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.813  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for sensor_temperature with SUID low=2469432388859779188 high=2270547140419222672
+03-13 10:13:58.814  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.814  2007  3697 I sensors-hal: handle_resp_cb:230, resp_value = 0 for gyro_cal before acuiring the lock _cal_mutex
+03-13 10:13:58.814  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6819 went down
+03-13 10:13:58.815  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6819 went down
+03-13 10:13:58.815  2007  3697 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for sensor_temperature 
+03-13 10:13:58.816  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 10:13:58.816  2007  2007 I sensors-hal: send_sensor_config_request:575, resampler is used, set resampler config
+03-13 10:13:58.816  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.816  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gyro with SUID low=11331203967455886618 high=2227687939882802101
+03-13 10:13:58.816  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.816  2007  3697 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-13 10:13:58.817  2007  3697 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gyro 
+03-13 10:13:58.817  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 10:13:58.818  2007  2007 I sensors-hal: activate:330, android.sensor.gyroscope/41 en=1 completed
+03-13 10:13:58.818   404   404 D SensorManager: registerListener :: 41, lsm6dsv LSM6DSV Gyroscope Non-wakeup, 20000, 0, jP.PP@43822f4
+03-13 10:13:58.818   404   404 I BMP:MotionListener: GyroScope status true and Accelerometer status true
+03-13 10:13:58.819  2007  3698 I sensors-hal: operator():288, operator() in worker.. sending cal request again
+03-13 10:13:58.819  2007  3698 I sensors-hal: send_req:220, send_req before send_request gyro_cal with SUID low=10025908976994887838 high=13187306796670928542
+03-13 10:13:58.819  2007  3697 I sensors-hal: handle_resp_cb:230, resp_value = 0 for gyro_cal before acuiring the lock _cal_mutex
+03-13 10:13:58.820  2007  2007 I sensors-hal: flush:383, android.sensor.accelerometer/11
+03-13 10:13:58.820  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.820  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for accel with SUID low=7080276908576992050 high=13131023702051637398
+03-13 10:13:58.820  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.821  2007 25190 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for accel 
+03-13 10:13:58.822  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 10:13:58.822  2007  2007 I sensors-hal: flush:389, android.sensor.accelerometer/11 completed
+03-13 10:13:58.822   404   404 D SensorManager: registerListener :: 11, lsm6dsv LSM6DSV Accelerometer Non-wakeup, 20000, 0, 
+03-13 10:13:58.822  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 10:13:58.823  2007  2007 I sensors-hal: batch:363, android.sensor.magnetic_field/21, period=20000000, max_latency=0 request completed
+03-13 10:13:58.823  2007  2007 I sensors-hal: activate:300, android.sensor.magnetic_field/21 en=1
+03-13 10:13:58.823  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 40 , conn_type 3 
+03-13 10:13:58.824  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4da570) is created with tid= 3700
+03-13 10:13:58.826  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 681b went down
+03-13 10:13:58.826  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 681b went down
+03-13 10:13:58.826  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 681c went down
+03-13 10:13:58.826  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 681c went down
+03-13 10:13:58.828  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 681d went down
+03-13 10:13:58.828  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 681d went down
+03-13 10:13:58.829  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-13 10:13:58.829  2007  2007 I sensors-hal: register_cb:304, suid(low=11911404398489902607,high=16993594652946037180) is new. register callbacks
+03-13 10:13:58.829  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 681e went down
+03-13 10:13:58.829  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 681e went down
+03-13 10:13:58.830  2007  2007 I sensors-hal: register_cb:304, suid(low=10350532229688825456,high=14322911740044289799) is new. register callbacks
+03-13 10:13:58.830  2007  2007 I sensors-hal: calibration:48, registerd callback for mag_cal
+03-13 10:13:58.830  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d5a10) is created with tid= 3704
+03-13 10:13:58.830  2007  2007 I sensors-hal: calibration:55, created worker for mag_cal
+03-13 10:13:58.830  2007  2007 I sensors-hal: send_req:220, send_req before send_request mag_cal with SUID low=10350532229688825456 high=14322911740044289799
+03-13 10:13:58.831  2007  2007 I sensors-hal: activate:174, mag cal started
+03-13 10:13:58.831  2007  2007 I sensors-hal: send_sensor_config_request:575, resampler is used, set resampler config
+03-13 10:13:58.831  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.831  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for mag with SUID low=11911404398489902607 high=16993594652946037180
+03-13 10:13:58.831  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.832  2007  3702 I sensors-hal: handle_resp_cb:230, resp_value = 0 for mag_cal before acuiring the lock _cal_mutex
+03-13 10:13:58.833  2007  3702 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for mag 
+03-13 10:13:58.833  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 10:13:58.833  2007  2007 I sensors-hal: activate:183, mag_filter is disabled
+03-13 10:13:58.833  2007  2007 I sensors-hal: activate:330, android.sensor.magnetic_field/21 en=1 completed
+03-13 10:13:58.833   404   404 D SensorManager: registerListener :: 21, AK09918 Magnetometer, 20000, 0, jP.Tg@8b560c6
+03-13 10:13:58.834  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 10:13:58.834  2007  2007 I sensors-hal: batch:363, android.sensor.gravity/91, period=20000000, max_latency=0 request completed
+03-13 10:13:58.834  2007  2007 I sensors-hal: activate:300, android.sensor.gravity/91 en=1
+03-13 10:13:58.834  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 32 , conn_type 3 
+03-13 10:13:58.835  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d4930) is created with tid= 3706
+03-13 10:13:58.836  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6820 went down
+03-13 10:13:58.836  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6820 went down
+03-13 10:13:58.837  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6821 went down
+03-13 10:13:58.837  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6821 went down
+03-13 10:13:58.837  2007  3697 I sensors-hal: handle_sns_client_event:422, [0][0] gyro_sample_cal(cal_available:1)(3) [-0.000, 0.000, 0.000] bias[-0.003,-0.006, 0.002] 238439389035142
+03-13 10:13:58.837  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6822 went down
+03-13 10:13:58.837  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6822 went down
+03-13 10:13:58.837  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-13 10:13:58.838  2007  2007 I sensors-hal: register_cb:304, suid(low=12052644982307943726,high=14255117871604606629) is new. register callbacks
+03-13 10:13:58.838  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6823 went down
+03-13 10:13:58.838  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 10:13:58.838  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gravity with SUID low=12052644982307943726 high=14255117871604606629
+03-13 10:13:58.838  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 10:13:58.838  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6823 went down
+03-13 10:13:58.839  2007  3707 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gravity 
+03-13 10:13:58.839  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 10:13:58.839  2007  2007 I sensors-hal: activate:330, android.sensor.gravity/91 en=1 completed
+03-13 10:13:58.839   404   404 D SensorManager: registerListener :: 91, gravity  Non-wakeup, 20000, 0, jP.Tg@8b560c6
+03-13 10:13:58.839  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 10:13:58.840  2007  2007 I sensors-hal: batch:363, android.sensor.accelerometer/11, period=20000000, max_latency=0 request completed
+03-13 10:13:58.855  2007  3702 I sensors-hal: handle_sns_client_event:341, [0] mag_sample_cal(magcal_available:1): ts=238439413850663 ns; cal = [-22.629150, -12.387421, -36.012665], uncal = [-296.709137, 116.852570, -366.192657], bias = [-274.079987, 129.239990, -330.179993], status=2
+03-13 10:13:58.855  2007  3704 I sensors-hal: operator():288, operator() in worker.. sending cal request again
+03-13 10:13:58.855  2007  3704 I sensors-hal: send_req:220, send_req before send_request mag_cal with SUID low=10350532229688825456 high=14322911740044289799
+03-13 10:13:58.856  2007  3702 I sensors-hal: handle_resp_cb:230, resp_value = 0 for mag_cal before acuiring the lock _cal_mutex
+03-13 10:13:58.881  2007  3707 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-13 10:13:58.894  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:58.895  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:58.901  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:58.901  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:58.901  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:58.901  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:58.902  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:58.902  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:58.902  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:58.902  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:58.902  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:58.915   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:58.994  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:58.995  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.000  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.001  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.001  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.001  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.003  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.003  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.003  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.003  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.004  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.039   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:59.094  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:59.095  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.104  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.104  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.104  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.104  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.106  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.106  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.106  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.106  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.106  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.112   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:59.112  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-13 10:13:59.120  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 10:13:59.131  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773411239
+03-13 10:13:59.140  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 10:13:59.140  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 346 
+03-13 10:13:59.140  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556853
+03-13 10:13:59.140  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556830
+03-13 10:13:59.140  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 10:13:59.140  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556840
+03-13 10:13:59.141  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 10:13:59.141  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 10:13:59.194   404  2413 I Kumiho-Kumiho: getPackageName: com.mcdonalds.app
+03-13 10:13:59.194  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:59.194  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.195   404  2413 I Kumiho-Kumiho: getPackageName: com.mcdonalds.app
+03-13 10:13:59.198  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.198  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.198  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.198  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.199  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.199  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.199  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.199  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.199  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.203   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:59.231   329   366 I appium  : AppiumResponse: {"sessionId":"c6b8b988-d498-42b3-90c0-b1fd39ccd92a","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.mcdonalds.app\" class=\"androi…
+03-13 10:13:59.244   329   366 I appium  : channel read: GET /session/c6b8b988-d498-42b3-90c0-b1fd39ccd92a/screenshot
+03-13 10:13:59.244   329   366 I appium  : CaptureScreenshot command
+03-13 10:13:59.245   329   366 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:13:59.245   329   366 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:13:59.295  3003  4343 D WindowManager: captureDisplay
+03-13 10:13:59.297  3003  4343 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.305  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.305  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.305  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.305  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.306  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.306  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.306  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.306  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.306  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.317   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:59.374  3710  3710 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 10:13:59.374  3710  3710 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 10:13:59.375  3710  3710 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 10:13:59.375  3003  4343 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 10:13:59.375  3003  4343 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 10:13:59.375  3710  3710 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 10:13:59.375  3710  3710 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 10:13:59.377  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.377  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.377  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.377  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.378  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 10:13:59.378  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.379  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.379  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.379  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.379  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.395  3003  6708 D WindowManager: captureDisplay
+03-13 10:13:59.396  3003  6708 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.398  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.398  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.398  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.398  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.400  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.400  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.400  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.400  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.401  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.405   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:59.415  3710  3715 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 10:13:59.416  3710  3710 W qdgralloc: Failed to load libubwcp.so
+03-13 10:13:59.496  3003  4343 D WindowManager: captureDisplay
+03-13 10:13:59.497  3003  4343 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.506  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.506  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.506  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.506  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.507  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.507  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.508  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.508  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.508  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.522   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:59.529  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 16132, isSameBssidAndFreq true
+03-13 10:13:59.529  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 483 / 71 / 1.09 (62) / 432 / -57.0 || 100.0 : 432.00 / 0.5 : 0.92 / 0.55 : 0.15 / G (G) || 357184ff5785: 0.103 / 77.726 / N || N N / 0 0 / Y 2.0 / Y X 0 / 62523596 0 || Invalid
+03-13 10:13:59.530  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 10:13:59.530  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 10:13:59.530  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 10:13:59.530  3003  4030 D InsDataManager: trimBuffers start.
+03-13 10:13:59.530  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 10:13:59.530  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 10:13:59.530  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -57.0,"latency": 0.10292628550880978,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 483 / 71 / 1.09 (62) / 432 / -57.0 || 100.0 : 432.00 / 0.5 : 0.92 / 0.55 : 0.15 / G (G) || 357184ff5785: 0.103 / 77.726 / N || N N / 0 0 / Y 2.0 / Y X 0 / 62523596 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 10:13:59.531  3003  4047 D SGM:GameManager: identifyGamePackage. com.mcdonalds.app, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 10:13:59.531  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.mcdonalds.app, ret=false
+03-13 10:13:59.597  3003  4343 D WindowManager: captureDisplay
+03-13 10:13:59.597  3003  4343 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.606  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.606  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.606  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.606  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.607  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.607  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.608  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.608  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.608  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.646   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 10:13:59.676  3003  4343 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 10:13:59.680  3003  4343 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 10:13:59.682  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:13:59.682  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:13:59.682  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:13:59.682  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:13:59.695   329   366 I appium  : AppiumResponse: {"sessionId":"c6b8b988-d498-42b3-90c0-b1fd39ccd92a","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dFPXvS/w75HkQZYtecCz8TwCHoBghjCEGEoICaXMU9OEFAhN0ua2SYfX3va1XW1X2tvbm6QJISEkpZCAA0kzEEiBMIYpTCYYm8EDxqM8y7Ms6bw//HSuZcnGg2RZ5PtZi7WwLO2zj3w…
+03-13 10:13:59.697  3003  4333 D WindowManager: captureDisplay
+03-13 10:13:59.698  3003  4333 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 10:13:59.700  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075(seamlessTransition:0)
+03-13 10:13:59.700  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:13:59.700  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922(seamlessTransition:0)
+03-13 10:13:59.700  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:13:59.701  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:13:59.701  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mcdonalds.app/com.mcdonalds.orderv2.navigation.entry_points.NavHostActivity$_404#47075 at index 1
+03-13 10:13:59.701  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 10:13:59.701  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#46922 at index 3
+03-13 10:13:59.701  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 10:13:59.705   329   831 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0

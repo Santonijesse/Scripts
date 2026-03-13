@@ -1,0 +1,46 @@
+--------- beginning of system
+03-13 07:53:31.072  1171  1171 D io_stats: !@   8,0 r 3462423 111659640 w 3745530 82149852 d 348375 91516276 f 157888 384140 iot 1550976 0 th 0 0 0 pt 0 inp 0 0 54095.139
+03-13 07:53:31.074  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:4(19647) 1008 droid.apps.maps(31724) 504 vendor.samsung.(2059) 8
+--------- beginning of main
+03-13 07:53:31.118 31635 31663 I appium  : channel read: GET /session/bddd2831-4d0b-423b-8da0-ab86534535f2/source
+03-13 07:53:31.121 31635 31663 I appium  : Source command
+03-13 07:53:31.123 31635 31663 I appium  : Waiting up to 10000ms for the device to idle
+03-13 07:53:31.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773402811
+03-13 07:53:31.133  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 07:53:31.134  2097  2125 D HeatmapThread: !@ batteryLevel : 98  batteryTemperature : 299 
+03-13 07:53:31.134  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556713
+03-13 07:53:31.135  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556710
+03-13 07:53:31.135  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 07:53:31.135  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556690
+03-13 07:53:31.136  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 07:53:31.234 31635 31663 I appium  : AppiumResponse: {"sessionId":"bddd2831-4d0b-423b-8da0-ab86534535f2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.apps.maps\" cla…
+03-13 07:53:31.245 31635 31663 I appium  : channel read: GET /session/bddd2831-4d0b-423b-8da0-ab86534535f2/screenshot
+03-13 07:53:31.246 31635 31663 I appium  : CaptureScreenshot command
+03-13 07:53:31.247 31635 31663 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 07:53:31.247 31635 31663 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 07:53:31.337 32547 32547 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 07:53:31.337 32547 32547 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 07:53:31.339 32547 32547 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 07:53:31.339  3003  6501 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 07:53:31.339  3003  6501 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 07:53:31.339 32547 32547 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 07:53:31.339 32547 32547 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 07:53:31.342  2105  2836 I SurfaceFlinger: Capture layer list: 	 Background for 2de8111 SurfaceView[com.google.android.apps.maps/com.google.android.maps.MapsActivity]@0#37657(seamlessTransition:0)
+03-13 07:53:31.342  2105  2836 I SurfaceFlinger: Capture layer list: 	 2de8111 SurfaceView[com.google.android.apps.maps/com.google.android.maps.MapsActivity]@0(BLAST)#37656(seamlessTransition:0)
+03-13 07:53:31.342  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.google.android.apps.maps/com.google.android.maps.MapsActivity$_31724#37651(seamlessTransition:0)
+03-13 07:53:31.342  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 07:53:31.342  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#37609(seamlessTransition:0)
+03-13 07:53:31.342  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 07:53:31.343  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 07:53:31.344  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 07:53:31.344  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 2de8111 SurfaceView[com.google.android.apps.maps/com.google.android.maps.MapsActivity]@0(BLAST)#37656 at index 1
+03-13 07:53:31.344  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.google.android.apps.maps/com.google.android.maps.MapsActivity$_31724#37651 at index 2
+03-13 07:53:31.344  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 07:53:31.345  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#37609 at index 4
+03-13 07:53:31.345  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 07:53:31.399 32547 32552 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 07:53:31.401 32547 32547 W qdgralloc: Failed to load libubwcp.so
+03-13 07:53:31.452  2007 31943 I sensors-hal: handle_sns_client_event:375, [0][522] accel_sample [-1.405,  8.186,  5.156] 230011981878672
+03-13 07:53:31.514  2007 31868 I sensors-hal: handle_sns_client_event:341, [628] mag_sample_cal(magcal_available:1): ts=230012052569713 ns; cal = [-13.125214, -37.118568, -28.655548], uncal = [-287.205200, 92.121422, -358.835541], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 07:53:31.590 31635 31663 I appium  : AppiumResponse: {"sessionId":"bddd2831-4d0b-423b-8da0-ab86534535f2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl3j7we1o66YE0UkhIQgkkECACglSlyissykpzURFQ97Xtrq6rq1sslNVlX1BA6UoHBaREUGkBEmqAACmkkZAQ0uu08/uD35zNZCbJTDLJMHh/rsvrcp4558wzQ5I55z7P830kgiA…
+03-13 07:53:31.638  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,-1.153,8.188,5.508, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3

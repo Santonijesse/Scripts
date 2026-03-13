@@ -1,0 +1,70 @@
+--------- beginning of system
+03-13 09:23:48.053  3003  3950 W DeviceStorageMonitorService: updateBroadcasts(/data) oldLevel:0, newLevel:0, seq:1
+03-13 09:23:48.056  3003  3950 D DeviceStorageMonitorService: Available File Node Number is [12661419]
+03-13 09:23:48.056  3003  3950 W DeviceStorageMonitorService: updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+--------- beginning of main
+03-13 09:23:48.092  3003  4027 I SemWifiServiceDetector: NSD results: [0, 0, 2, 0, 0, 1, 0, 1, 0] Traff. type 1 Thr 0
+03-13 09:23:48.093  3003  4027 I SemTwtInfo: NRTA/CG 1 0
+03-13 09:23:48.095  3003  4833 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 09:23:48.099 16536 16536 I wpa_sslib: wake_dur 0 wake_intvl_mantis 0 wake_time_tsf 0x0
+03-13 09:23:48.101 16536 16536 I wpa_sslib: oem_data_cmd=33
+03-13 09:23:48.102  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-13 09:23:48.109 16536 16536 I wpa_sslib: OEM DATA RESPONSE RECEIVED
+03-13 09:23:48.112  3003  4405 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 09:23:48.113  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:23:48.113  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:23:48.113  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:23:48.113  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:23:48.113 18992 19018 I appium  : channel read: GET /session/e425e9f8-079a-48ed-97ab-2c49a1b6f352/source
+03-13 09:23:48.114 18992 19018 I appium  : Source command
+03-13 09:23:48.116 18992 19018 I appium  : Waiting up to 10000ms for the device to idle
+03-13 09:23:48.128  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773408228
+03-13 09:23:48.133  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 09:23:48.133  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 239 
+03-13 09:23:48.133  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556803
+03-13 09:23:48.134  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556800
+03-13 09:23:48.134  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 09:23:48.134  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556780
+03-13 09:23:48.134  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 09:23:48.134  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 09:23:48.162  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 33:0:0:782591:902400:672000:978431:3148800:499200:231:231:231
+03-13 09:23:48.188 18992 19018 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 09:23:48.225 18992 19018 I appium  : AppiumResponse: {"sessionId":"e425e9f8-079a-48ed-97ab-2c49a1b6f352","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.littlecaesars\" class=\"androi…
+03-13 09:23:48.235 18992 19018 I appium  : channel read: GET /session/e425e9f8-079a-48ed-97ab-2c49a1b6f352/screenshot
+03-13 09:23:48.235 18992 19018 I appium  : CaptureScreenshot command
+03-13 09:23:48.236 18992 19018 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:23:48.236 18992 19018 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:23:48.275 16161 16161 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-13 09:23:48.288 19275 19653 I System.out: Cofig will add challenge
+03-13 09:23:48.381 20050 20050 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 09:23:48.382 20050 20050 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 09:23:48.382 20050 20050 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 09:23:48.382  3003  4405 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 09:23:48.382  3003  4405 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 09:23:48.382 20050 20050 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 09:23:48.383 20050 20050 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 09:23:48.386  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.littlecaesars/com.littlecaesars.navigation.OrderFlowActivity$_19055#41922(seamlessTransition:0)
+03-13 09:23:48.387  2105  2921 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#41943(seamlessTransition:0)
+03-13 09:23:48.387  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 09:23:48.387  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#41699(seamlessTransition:0)
+03-13 09:23:48.387  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 09:23:48.388  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 09:23:48.388  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 09:23:48.389  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.littlecaesars/com.littlecaesars.navigation.OrderFlowActivity$_19055#41922 at index 1
+03-13 09:23:48.389  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#41943 at index 2
+03-13 09:23:48.389  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 09:23:48.389  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#41699 at index 4
+03-13 09:23:48.390  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 09:23:48.453 20050 20056 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 09:23:48.455 20050 20050 W qdgralloc: Failed to load libubwcp.so
+03-13 09:23:48.517  4419 16539 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 09:23:48.517  4419 16539 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:d15d:952a:76b2:12a0/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 09:23:48.517  4419 16539 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@fba7992
+03-13 09:23:48.518 19275 19425 W orbu.utils: orbu proceed: 0, dfidHex: 0x28000000
+03-13 09:23:48.518  4419 16539 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 09:23:48.519  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:23:48.519  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:23:48.520  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:23:48.520  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:23:48.674 18992 19018 I appium  : AppiumResponse: {"sessionId":"e425e9f8-079a-48ed-97ab-2c49a1b6f352","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fBP1/wfwV9JJB7RA2XvvvZcM2SCKbFFQEHB9nYiKA1TEDW4RFFRQcSAgW7YMQfbeexQKlAKlu/n98Sa/jLsklzbr2tfz8egDerkkn1yTy9373p/322AaDhOIiIiIiIiIiHTM6O8BEBE…
+03-13 09:23:48.722  2007 16380 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 6(6),c:134,b:14,m:13,cl:3,l:3,s:6,l0:1776,l1:144,s0:1469,s1:111,acl:1,opr:0.65,f(r):97,u(bl):111,if:0,wi:9,si:10,po:129(N:0)

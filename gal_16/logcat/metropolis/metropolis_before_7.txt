@@ -1,0 +1,50 @@
+--------- beginning of main
+03-13 10:23:13.799 20111 20138 I appium  : channel read: GET /session/f17eb38c-aaa3-421e-a484-7b4e37dbe859/source
+03-13 10:23:13.801 20111 20138 I appium  : Source command
+03-13 10:23:13.802 20111 20138 I appium  : Waiting up to 10000ms for the device to idle
+03-13 10:23:13.831 20111 20138 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 10:23:13.849 20111 20138 I appium  : AppiumResponse: {"sessionId":"f17eb38c-aaa3-421e-a484-7b4e37dbe859","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.teulys.metropolis\" class=\"an…
+03-13 10:23:13.856 20111 20138 I appium  : channel read: GET /session/f17eb38c-aaa3-421e-a484-7b4e37dbe859/screenshot
+03-13 10:23:13.856 20111 20138 I appium  : CaptureScreenshot command
+03-13 10:23:13.857 20111 20138 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:23:13.857 20111 20138 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:23:13.942 20517 20517 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 10:23:13.942 20517 20517 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 10:23:13.943 20517 20517 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 10:23:13.943  3003  6708 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 10:23:13.943  3003  6708 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 10:23:13.943 20517 20517 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 10:23:13.943 20517 20517 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 10:23:13.945  2105  2324 I SurfaceFlinger: Capture layer list: 	 Background for 4f42fe6 SurfaceView[com.teulys.metropolis/com.teulys.metropilos.MainActivity]@0#47979(seamlessTransition:0)
+03-13 10:23:13.945  2105  2324 I SurfaceFlinger: Capture layer list: 	 4f42fe6 SurfaceView[com.teulys.metropolis/com.teulys.metropilos.MainActivity]@0(BLAST)#47978(seamlessTransition:0)
+03-13 10:23:13.945  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.teulys.metropolis/com.teulys.metropilos.MainActivity$_20180#47973(seamlessTransition:0)
+03-13 10:23:13.945  2105  2324 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#47982(seamlessTransition:0)
+03-13 10:23:13.945  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:23:13.945  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#47936(seamlessTransition:0)
+03-13 10:23:13.945  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:23:13.946  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 10:23:13.946  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:23:13.946  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 4f42fe6 SurfaceView[com.teulys.metropolis/com.teulys.metropilos.MainActivity]@0(BLAST)#47978 at index 1
+03-13 10:23:13.947  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.teulys.metropolis/com.teulys.metropilos.MainActivity$_20180#47973 at index 2
+03-13 10:23:13.947  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#47982 at index 3
+03-13 10:23:13.947  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 10:23:13.947  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#47936 at index 5
+03-13 10:23:13.947  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 10:23:13.975 20517 20522 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 10:23:13.977 20517 20517 W qdgralloc: Failed to load libubwcp.so
+03-13 10:23:14.091  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 6:0:1:685823:902400:672000:707327:2707200:499200:231:231:231
+03-13 10:23:14.122  2007 19563 I sensors-hal: handle_sns_client_event:375, [0][190] accel_sample [ 0.318,  0.000,  9.863] 238994584748047
+03-13 10:23:14.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773411794
+03-13 10:23:14.134  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 10:23:14.136  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 322 
+03-13 10:23:14.137  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556863
+03-13 10:23:14.139  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556860
+03-13 10:23:14.140  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 10:23:14.141  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556840
+03-13 10:23:14.142  2097  2125 E HeatmapThread: !@Entered the read from path function
+03-13 10:23:14.143  2097  2125 E HeatmapThread: !@Read Extended_heatmap from efs is: 2733 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 322 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 380 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 371 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 325 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 351 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 239 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 494 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 505 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1050 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1019 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1090 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1045 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 931 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 835 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 849 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141 0 0 0 0 0 0 0 0 0 0 0 0 0 
+03-13 10:23:14.143  2097  2125 E HeatmapThread: !@Write Extended Heatmap to efs is: 2734 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 322 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 380 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 371 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 325 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 351 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 239 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 153 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 494 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 505 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1050 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1019 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1090 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1045 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 931 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 835 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 792 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 849 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 141 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03-13 10:23:14.143  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 10:23:14.143  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 10:23:14.158 20111 20138 I appium  : AppiumResponse: {"sessionId":"f17eb38c-aaa3-421e-a484-7b4e37dbe859","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFRn2gbwewod6UgVBFSUroKCLZbYWxLTY0ssKabvJpseN/nSoyYxycbeu8YYjRpbRI2gYEXAQu9Vep32/cHOLMPMUKSMo/fvunLtcubM4R2EmXPu87zPK1AopAoQERERERERERkwob4…

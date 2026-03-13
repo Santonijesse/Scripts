@@ -1,0 +1,581 @@
+--------- beginning of main
+03-13 09:54:54.213 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.213 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.213 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.229 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.229 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.230 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.246 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.246 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.246 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.263 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.263 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.263 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.279 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.280 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.280 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.296 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.296 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.296 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.312 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.313 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.313 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.329 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.329 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.329 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.336  3003  4923 D SemContextService: lock : requestToUpdate
+03-13 09:54:54.336  3003  4923 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for CH_LOC_TRIGGER
+03-13 09:54:54.337  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 09:54:54.337  3003  3911 D SensorService: setSContextDataLocked 3db8
+03-13 09:54:54.337  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 09:54:54.337  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb8, 0x3d, 0x0, 0x0)
+03-13 09:54:54.337  2007  2007 I sensors-hal: sendContextData:131, change_location_trigger 4,184
+03-13 09:54:54.337  2007  2007 I sensors-hal: sendUserData:118, change_location_trigger h 184 m 61 s 0
+03-13 09:54:54.337  2007  2007 I sensors-hal: create_send_context_data:66, change_location_trigger create_send_context_data
+03-13 09:54:54.337  2007  2007 I sensors-hal: send_context_data:694, change_location_trigger, -244018566922240, 1320970896291267344, msgid:700
+03-13 09:54:54.338  3003  4923 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for CH_LOC_TRIGGER
+03-13 09:54:54.338  3003  4923 D SemContextService:     .requestToUpdate() : service = Location Change Trigger
+03-13 09:54:54.338  3003  4923 D SemContextService: unlock : requestToUpdate
+03-13 09:54:54.338  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for change_location_trigger 
+03-13 09:54:54.338  3003  4923 D SemContextManager:   .requestToUpdate : listener = com.android.server.location.nsflp.NSLocationMonitor$5@d8278d1, service=Location Change Trigger
+03-13 09:54:54.338  5490  7699 I NewStopController_FLP: StateChecker, check stationary message
+03-13 09:54:54.345 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.346 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.346 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.346 28908 28977 I appium  : channel read: GET /session/7423c39e-5195-4cfd-b79f-d9b92d092436/source
+03-13 09:54:54.346 28908 28977 I appium  : Source command
+03-13 09:54:54.347 28908 28977 I appium  : Waiting up to 10000ms for the device to idle
+03-13 09:54:54.361  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:change_location_trigger  Wakeup, msg_id=1025, ts=4556163198897
+03-13 09:54:54.361  2007  3909 I sensors-hal: handle_sns_client_event:85, change_location_trigger_event: msgid:1025
+03-13 09:54:54.361  2007  3909 I sensors-hal: handle_sns_client_event:108, change_location_trigger_event: 255, 255
+03-13 09:54:54.361  3003  4411 D SLocation: WifiBssidMonitor - requestRefresh
+03-13 09:54:54.363 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.363 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.363 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.366  3003  4411 W SLocation: WifiBssidMonitor - connected wifi : (c0:94:35:**:**:ff/776)
+03-13 09:54:54.366  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :15], AP_WAKEUP
+03-13 09:54:54.366  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 15
+03-13 09:54:54.367  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 61, -1, 0, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0,
+03-13 09:54:54.367  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= CH_LOC_TRIGGER =================
+03-13 09:54:54.367  3003  3907 I CAE     : display(ContextProvider.java:391) - duration=[1], property=[1], result=[2], reserved=[0]
+03-13 09:54:54.368  3003  3904 D SemContextService: Service.updateContext() : service = Location Change Trigger
+03-13 09:54:54.368  3003  3952 D SemContextManager: onSemContextChanged() : event = Location Change Trigger
+03-13 09:54:54.368  3003  3952 D NSLocationMonitor: onSemContextChanged, activity : 1 result : 2 movement : 1
+--------- beginning of system
+03-13 09:54:54.372  3003  4923 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 09:54:54.375  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:54:54.376  3003  3594 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 09:54:54.376  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:54:54.376  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:54:54.376  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 09:54:54.379 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.379 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.379 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.396 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.396 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.396 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.413 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.413 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.413 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.429 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.429 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.429 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.446 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.446 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.446 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.462  3003  3594 D ActivityManager: Received SERVICE intent 0xe784230 Key{startService pkg=com.google.android.gms/network_location_provider intent=act=com.google.android.gms.location.util.nlp.RESULT cat=[targeted_intent_op_prefix:.location.util.nlp.NlpInternalApi$NlpReceiverIntentOperation] xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService flags=0x2000000 u=0} requestCode=0 from uid 10259
+03-13 09:54:54.462 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.462 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.462 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.469  3003  3594 D ActivityManager: Received SERVICE intent 0x41633cf Key{startService pkg=com.google.android.gms/fused_location_provider intent=act=com.google.android.location.internal.action.FLP_FULL_POWER_LOCATION_RESULT xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService flags=0x2000000 u=0} requestCode=0 from uid 10259
+03-13 09:54:54.471  3003  3594 D ActivityManager: Received SERVICE intent 0x31fdc65 Key{startService pkg=com.google.android.gms/fused_location_provider intent=act=com.google.android.location.internal.action.FLP_LOW_POWER_LOCATION_RESULT xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService flags=0x2000000 u=0} requestCode=0 from uid 10259
+03-13 09:54:54.476 16161 16630 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-13 09:54:54.478 16161 16586 I gnet    : Received empty WiFi-RTT scan. [CONTEXT service_id=6 ]
+03-13 09:54:54.479 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.479 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.479 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.481  3003  4927 D ActivityManager: Received BROADCAST intent 0xfbce12 Key{broadcastIntent pkg=com.samsung.android.networkdiagnostic intent=act=sec.intent.action.networkdiagnostic.LOCATION_UPDATED xflg=0x4 pkg=com.samsung.android.networkdiagnostic flags=0x2000000 u=0} requestCode=0 sent=0 from uid 1000
+03-13 09:54:54.483  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10468, AttributionTag=null, Package name=com.maps.radar.navigation.android2023, Paused=false)false)false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.484  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.484  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.484  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.484  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5023, AttributionTag=null, Package name=com.samsung.android.networkdiagnostic, Paused=false)
+03-13 09:54:54.484  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 5
+03-13 09:54:54.484  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 09:54:54.487  3003  3083 D ActivityManager: sync unfroze 28937 com.samsung.android.networkdiagnostic for 3
+03-13 09:54:54.488  3003  3083 I ActivityManager: Changes in 5023 19 to 11, 0 to 128
+03-13 09:54:54.493  2005  2035 I GnssAidl: ===> injectLocation line 289 
+03-13 09:54:54.493 28937 28937 I [ND]NetworkDiagnosticReceiver: main | onReceive: sec.intent.action.networkdiagnostic.LOCATION_UPDATED
+03-13 09:54:54.493 28937 28937 I [ND]NetworkDiagnosticReceiver: main | onReceive: Bundle[mParcelledData.dataSize=148]
+03-13 09:54:54.493  2005  2047 I LocSvc_api_v02: ---> locClientSendReq line 2462 QMI_LOC_INJECT_POSITION_REQ_V02
+03-13 09:54:54.495 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.495 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.495 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.496  2005  3349 I LocSvc_ApiV02: <--- globalRespCb line 355 QMI_LOC_INJECT_POSITION_REQ_V02
+03-13 09:54:54.496  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [N, A : 200.00, T : 1773410089588, ET : 237290012, h : 19/17]
+03-13 09:54:54.497  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 09:54:54.497  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 09:54:54.497  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 09:54:54.498  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 09:54:54.498  3003  4411 D SLocation: GeofenceLocationFilter - location sent before 639, need to filter / provider : network, accuracy : 200.0
+03-13 09:54:54.498  3003  4411 I SLocation: GeofenceLocationFilter - alarm set, next time to send location : 237300425, E.Q@a6b739
+03-13 09:54:54.500  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 1512.7736 diffTime : 55271 accept distance condition
+03-13 09:54:54.500  3003  4411 D SLocation: LocationBuffer - input buffer, size : 2
+03-13 09:54:54.500  3003  4411 D SLocation: BatchManager - received batch location buffered = true
+03-13 09:54:54.513 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.513 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.513 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.519 28937 29036 W JobInfo : Requested important-while-foreground flag for job2937 is ignored and takes no effect
+03-13 09:54:54.527 28908 28977 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 09:54:54.528 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.528 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.528 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.545 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.545 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.545 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.546  2007 28312 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 4(4),c:47,b:23,m:13,cl:2,l:2,s:3,l0:1200,l1:96,s0:967,s1:74,acl:1,opr:0.23,f(r):97,u(bl):111,if:0,wi:6,si:8,po:128(N:0)
+03-13 09:54:54.562 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.562 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.562 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.563 28937 30588 I [ND]CellMeasurementWorker: pool-5-thread-28 | Start Work
+03-13 09:54:54.579 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.579 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.579 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.585 28908 28977 I appium  : AppiumResponse: {"sessionId":"7423c39e-5195-4cfd-b79f-d9b92d092436","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.maps.radar.navigation.android2…
+03-13 09:54:54.592  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152694524  [2025 / 15449]    HINT :      list : [TID_LOW_LATENCY / 1] [TID / 4392] [TID / 4393] [TID / 4345] [TID / 4394] 
+03-13 09:54:54.594  3003  7293 D HintManagerService: SystemUI make new AppHintSession but force pause
+03-13 09:54:54.595 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.595 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.595 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.598  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152694524  [2025 / 15449]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 4392] [TID / 4393] [TID / 4345] [TID / 4394] 
+03-13 09:54:54.598  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152694524  [2025 / 15449]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 4392] [TID / 4393] [TID / 4345] [TID / 4394] 
+03-13 09:54:54.598  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152712000  [2025 / 15450]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TID / 4392] [TID / 4393] [TID / 4345] [TID / 4394] 
+03-13 09:54:54.599  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 152694524
+03-13 09:54:54.599  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 152712000
+03-13 09:54:54.600 28908 28977 I appium  : channel read: GET /session/7423c39e-5195-4cfd-b79f-d9b92d092436/screenshot
+03-13 09:54:54.600 28908 28977 I appium  : CaptureScreenshot command
+03-13 09:54:54.601 28908 28977 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:54:54.602 28908 28977 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:54:54.609  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152729477  [2025 / 15451]    HINT :      list : [TID_LOW_LATENCY / 1] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.610  3003  4923 D HintManagerService: SystemUI make new AppHintSession but force pause
+03-13 09:54:54.611  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152729477  [2025 / 15451]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.612  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152729477  [2025 / 15451]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.612  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152746955  [2025 / 15452]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.612 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.612 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.612  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 152729477
+03-13 09:54:54.613 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.613  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 152746955
+03-13 09:54:54.615  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152764434  [2025 / 15453]    HINT :      list : [TID_LOW_LATENCY / 1] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.615  3003  4923 D HintManagerService: SystemUI make new AppHintSession but force pause
+03-13 09:54:54.616  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152764434  [2025 / 15453]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.616  2105  2836 I SurfaceFlinger: id=44752 Removed ActivityRecord{171169974 u0 com.maps.radar.navigation.android2023/.search.SearchActivity t520}#44752 (190)
+03-13 09:54:54.616  2105  2836 I SurfaceFlinger: id=44730 Removed ActivityRecord{7076501 u0 com.maps.radar.navigation.android2023/com.gun0912.tedpermission.TedPermissionActivity t520}#44730 (190)
+03-13 09:54:54.617  2105  2836 I SurfaceFlinger: id=44733 Removed ActivityRecord{13674278 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44733 (190)
+03-13 09:54:54.617  2105  2836 I SurfaceFlinger: id=44665 Removed Surface(name=Task=1)/@0xf4c824e_transition-leash#44665 (190)
+03-13 09:54:54.617  2105  2321 I SurfaceFlinger: id=44703 Removed ActivityRecord{184145545 u0 com.maps.radar.navigation.android2023/.MwmActivity t520}#44703 (190)
+03-13 09:54:54.617  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152764434  [2025 / 15453]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.617  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152781914  [2025 / 15454]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TID / 4392] [TID / 4393] [TID / 4205] [TID / 4394] 
+03-13 09:54:54.617  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 152764434
+03-13 09:54:54.617  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 152781914
+03-13 09:54:54.617  2105  2921 I SurfaceFlinger: id=44670 Removed ActivityRecord{243575631 u0 com.maps.radar.navigation.android2023/.DownloadResourcesActivity t520}#44670 (190)
+03-13 09:54:54.617  2105  2921 I SurfaceFlinger: id=44683 Removed ActivityRecord{149885254 u0 com.maps.radar.navigation.android2023/mapapp.onboarding.OnboardingActivity t520}#44683 (190)
+03-13 09:54:54.618  2105  2321 I SurfaceFlinger: id=44692 Removed ActivityRecord{169660120 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44692 (190)
+03-13 09:54:54.618  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.618  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.619  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.620  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.624  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.624  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.624  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.624  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.624  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.624  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.626  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.626  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.626  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.626  4205  4234 W System  : A resource failed to call release. 
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed ActivityRecord{7076501 u0 com.maps.radar.navigation.android2023/com.gun0912.tedpermission.TedPermissionActivity t520}#44730 form LifecycleManager
+03-13 09:54:54.628 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.628 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed ActivityRecord{13674278 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44733 form LifecycleManager
+03-13 09:54:54.628 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed ActivityRecord{171169974 u0 com.maps.radar.navigation.android2023/.search.SearchActivity t520}#44752 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed 85a1231 ActivityRecordInputSink com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity#44697 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed 89147aa ActivityRecordInputSink com.maps.radar.navigation.android2023/com.gun0912.tedpermission.TedPermissionActivity#44743 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed 928ef67 ActivityRecordInputSink com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity#44744 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed ActivityRecord{169660120 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44692 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed 40e3978 ActivityRecordInputSink com.maps.radar.navigation.android2023/.search.SearchActivity#44760 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed bafca29 ActivityRecordInputSink com.maps.radar.navigation.android2023/mapapp.activity.IntroActivity#44676 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed ActivityRecord{243575631 u0 com.maps.radar.navigation.android2023/.DownloadResourcesActivity t520}#44670 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed ActivityRecord{184145545 u0 com.maps.radar.navigation.android2023/.MwmActivity t520}#44703 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed Surface(name=Task=1)/@0xf4c824e_transition-leash#44665 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed ActivityRecord{149885254 u0 com.maps.radar.navigation.android2023/mapapp.onboarding.OnboardingActivity t520}#44683 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed 1a23053 ActivityRecordInputSink com.maps.radar.navigation.android2023/.MwmActivity#44718 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: destroyed 56cfb88 ActivityRecordInputSink com.maps.radar.navigation.android2023/mapapp.onboarding.OnboardingActivity#44689 form LifecycleManager
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: id=44730 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{7076501 u0 com.maps.radar.navigation.android2023/com.gun0912.tedpermission.TedPermissionActivity t520}#44730 !handle z=1})
+03-13 09:54:54.628  2105  2105 I SurfaceFlinger: id=44733 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{13674278 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44733 !handle z=2})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44752 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{171169974 u0 com.maps.radar.navigation.android2023/.search.SearchActivity t520}#44752 !handle z=1})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44697 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{85a1231 ActivityRecordInputSink com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity#44697 !handle z=-2147483648})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44743 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{89147aa ActivityRecordInputSink com.maps.radar.navigation.android2023/com.gun0912.tedpermission.TedPermissionActivity#44743 !handle z=-2147483648})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44744 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{928ef67 ActivityRecordInputSink com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity#44744 !handle z=-2147483648})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44692 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{169660120 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44692 !handle z=1})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44760 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{40e3978 ActivityRecordInputSink com.maps.radar.navigation.android2023/.search.SearchActivity#44760 !handle z=-2147483648})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44676 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{bafca29 ActivityRecordInputSink com.maps.radar.navigation.android2023/mapapp.activity.IntroActivity#44676 !handle z=-2147483648})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44670 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{243575631 u0 com.maps.radar.navigation.android2023/.DownloadResourcesActivity t520}#44670 !handle})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44703 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{184145545 u0 com.maps.radar.navigation.android2023/.MwmActivity t520}#44703 !handle})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44665 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=Task=1)/@0xf4c824e_transition-leash#44665 !handle z=2})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44683 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{149885254 u0 com.maps.radar.navigation.android2023/mapapp.onboarding.OnboardingActivity t520}#44683 !handle})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44718 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{1a23053 ActivityRecordInputSink com.maps.radar.navigation.android2023/.MwmActivity#44718 !handle z=-2147483648})
+03-13 09:54:54.629  2105  2105 I SurfaceFlinger: id=44689 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{56cfb88 ActivityRecordInputSink com.maps.radar.navigation.android2023/mapapp.onboarding.OnboardingActivity#44689 !handle z=-2147483648})
+03-13 09:54:54.630  2105  2105 I Layer   : id=44730 Destroyed ActivityRecord{7076501 u0 com.maps.radar.navigation.android2023/com.gun0912.tedpermission.TedPermissionActivity t520}#44730
+03-13 09:54:54.630  2105  2105 I Layer   : id=44733 Destroyed ActivityRecord{13674278 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44733
+03-13 09:54:54.630  2105  2105 I Layer   : id=44752 Destroyed ActivityRecord{171169974 u0 com.maps.radar.navigation.android2023/.search.SearchActivity t520}#44752
+03-13 09:54:54.630  2105  2105 I Layer   : id=44697 Destroyed 85a1231 ActivityRecordInputSink com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity#44697
+03-13 09:54:54.630  2105  2105 I Layer   : id=44743 Destroyed 89147aa ActivityRecordInputSink com.maps.radar.navigation.android2023/com.gun0912.tedpermission.TedPermissionActivity#44743
+03-13 09:54:54.631  2105  2105 I Layer   : id=44744 Destroyed 928ef67 ActivityRecordInputSink com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity#44744
+03-13 09:54:54.631  2105  2105 I Layer   : id=44692 Destroyed ActivityRecord{169660120 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t520}#44692
+03-13 09:54:54.631  2105  2105 I Layer   : id=44760 Destroyed 40e3978 ActivityRecordInputSink com.maps.radar.navigation.android2023/.search.SearchActivity#44760
+03-13 09:54:54.631  2105  2105 I Layer   : id=44676 Destroyed bafca29 ActivityRecordInputSink com.maps.radar.navigation.android2023/mapapp.activity.IntroActivity#44676
+03-13 09:54:54.631  2105  2105 I Layer   : id=44670 Destroyed ActivityRecord{243575631 u0 com.maps.radar.navigation.android2023/.DownloadResourcesActivity t520}#44670
+03-13 09:54:54.631  2105  2105 I Layer   : id=44703 Destroyed ActivityRecord{184145545 u0 com.maps.radar.navigation.android2023/.MwmActivity t520}#44703
+03-13 09:54:54.631  2105  2105 I Layer   : id=44665 Destroyed Surface(name=Task=1)/@0xf4c824e_transition-leash#44665
+03-13 09:54:54.631  2105  2105 I Layer   : id=44683 Destroyed ActivityRecord{149885254 u0 com.maps.radar.navigation.android2023/mapapp.onboarding.OnboardingActivity t520}#44683
+03-13 09:54:54.631  2105  2105 I Layer   : id=44718 Destroyed 1a23053 ActivityRecordInputSink com.maps.radar.navigation.android2023/.MwmActivity#44718
+03-13 09:54:54.631  2105  2105 I Layer   : id=44689 Destroyed 56cfb88 ActivityRecordInputSink com.maps.radar.navigation.android2023/mapapp.onboarding.OnboardingActivity#44689
+03-13 09:54:54.645 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.645 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.645 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.665 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.666 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.666 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.679 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.679 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.679 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.686  4419 16539 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 09:54:54.686  4419 16539 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:d15d:952a:76b2:12a0/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 09:54:54.686  4419 16539 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@fba7992
+03-13 09:54:54.687  4419 16539 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 09:54:54.690  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:54:54.690  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:54:54.691  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:54:54.691  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 09:54:54.695 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.696 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.696 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.713 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.713 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.713 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.720 30593 30593 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 09:54:54.720 30593 30593 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 09:54:54.720 30593 30593 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 09:54:54.721  3003  4927 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 09:54:54.721  3003  4927 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 09:54:54.721 30593 30593 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 09:54:54.721 30593 30593 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 09:54:54.723  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.maps.radar.navigation.android2023/com.maps.radar.navigation.android2023.search.SearchActivity$_29051#44899(seamlessTransition:0)
+03-13 09:54:54.723  2105  2921 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#44907(seamlessTransition:0)
+03-13 09:54:54.723  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 09:54:54.723  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#44903(seamlessTransition:0)
+03-13 09:54:54.723  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 09:54:54.724  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 09:54:54.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 09:54:54.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.maps.radar.navigation.android2023/com.maps.radar.navigation.android2023.search.SearchActivity$_29051#44899 at index 1
+03-13 09:54:54.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#44907 at index 2
+03-13 09:54:54.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 09:54:54.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#44903 at index 4
+03-13 09:54:54.726  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 09:54:54.729 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.729 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.729 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.745 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.745 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.745 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.758 30593 30604 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 09:54:54.759 30593 30593 W qdgralloc: Failed to load libubwcp.so
+03-13 09:54:54.762 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.762 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.762 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.778 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.778 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.778 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.797 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.797 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.797 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.813 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.813 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.813 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.818  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] wait_event:Wait done with Cmd 34
+03-13 09:54:54.819  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 34 Err 0
+03-13 09:54:54.819  3003  4927 D WifiNl80211Manager: Scan result ready event
+03-13 09:54:54.824  3003  4927 D WifiNative: Scan result ready event
+03-13 09:54:54.825  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.825  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 82:da:c2:**:**:39 FREQ: 2412, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID drama, RSSI(dBM): -77, 11mcRanging: No, Country Code = US
+03-13 09:54:54.825  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan]  -- associated
+03-13 09:54:54.825  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.825  3003  3926 W IE_Capabilities: Unknown RSN cipher suite: 6ac0f00
+03-13 09:54:54.826  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS c0:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID micasa, RSSI(dBM): -53, 11mcRanging: No, Country Code = USI
+03-13 09:54:54.826  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.826  3003  3926 W IE_Capabilities: Unknown RSN cipher suite: 6ac0f00
+03-13 09:54:54.826  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS c0:94:35:**:**:fe FREQ: 2437, cFreq1[40:80:160] = [2437:0:0] cFreq2 = 0 SSID micasa, RSSI(dBM): -49, 11mcRanging: No, Country Code = USI
+03-13 09:54:54.826  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.826  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 82:da:c2:**:**:3a FREQ: 5220, cFreq1[40:80:160] = [5230:5210:0] cFreq2 = 0 SSID drama, RSSI(dBM): -80, 11mcRanging: No, Country Code = US
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 82:da:c2:**:**:3c FREQ: 5220, cFreq1[40:80:160] = [5230:5210:0] cFreq2 = 0 SSID xfinitywifi, RSSI(dBM): -80, 11mcRanging: No, Country Code = US
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 16:7f:67:**:**:c8 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID [LG_Oven]92c8, RSSI(dBM): -74, 11mcRanging: No, Country Code =    
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 02:13:ef:**:**:52 FREQ: 5765, cFreq1[40:80:160] = [5755:5775:0] cFreq2 = 0 SSID NETGEAR74-5G-5G_EXT, RSSI(dBM): -80, 11mcRanging: No, Country Code = CN
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  3003  3926 D WificondScannerImpl: Filtering out 7 scan results.
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS d2:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID Xfinity Mobile, RSSI(dBM): -73, 11mcRanging: No, Country Code = USI
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS ca:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID xfinitywifi, RSSI(dBM): -53, 11mcRanging: No, Country Code = USI
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS ae:61:a3:**:**:3b FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID , RSSI(dBM): -84, 11mcRanging: No, Country Code = US 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] adjust_age:AP AGE upper limit reached. Dont store
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 8c:61:a3:**:**:3b FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID TealRabbit, RSSI(dBM): -80, 11mcRanging: No, Country Code = US 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 00:13:ef:**:**:52 FREQ: 2412, cFreq1[40:80:160] = [2422:0:0] cFreq2 = 0 SSID NETGEAR74-5G-2.4G_EXT, RSSI(dBM): -75, 11mcRanging: No, Country Code = CN
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] adjust_age:AP AGE upper limit reached. Dont store
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 8c:61:a3:**:**:3c FREQ: 5180, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 SSID TealRabbit, RSSI(dBM): -91, 11mcRanging: No, Country Code = US 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] adjust_age:AP AGE upper limit reached. Dont store
+03-13 09:54:54.827  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 9e:61:a3:**:**:3c FREQ: 5180, cFreq1[40:80:160] = [5190:5210:0] cFreq2 = 0 SSID xfinitywifi, RSSI(dBM): -92, 11mcRanging: No, Country Code = US 
+03-13 09:54:54.828  3003  3926 I WifiScanner: onFullResults
+03-13 09:54:54.828  3003  3926 I WifiScanner: onFullResults
+03-13 09:54:54.828  3003  3926 I WifiScanner: onFullResults
+03-13 09:54:54.828 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.828 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.828 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.828 16161 16177 I WifiScanner: onFullResults
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] adjust_age:AP AGE upper limit reached. Dont store
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS ce:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID , RSSI(dBM): -53, 11mcRanging: No, Country Code = USI
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] adjust_age:AP AGE upper limit reached. Dont store
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS d6:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID , RSSI(dBM): -52, 11mcRanging: No, Country Code = USI
+03-13 09:54:54.829 16161 16193 I WifiScanner: onFullResults
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] adjust_age:AP AGE upper limit reached. Dont store
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 88:ad:43:**:**:48 FREQ: 2462, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID SENSOR, RSSI(dBM): -88, 11mcRanging: No, Country Code = US 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] adjust_age:AP AGE upper limit reached. Dont store
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS d6:e2:2f:**:**:ec FREQ: 5785, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID , RSSI(dBM): -77, 11mcRanging: No, Country Code = US 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 62:45:b7:**:**:32 FREQ: 5200, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID , RSSI(dBM): -68, 11mcRanging: No, Country Code =    
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 82:da:c2:**:**:3d FREQ: 5220, cFreq1[40:80:160] = [5230:5210:0] cFreq2 = 0 SSID , RSSI(dBM): -81, 11mcRanging: No, Country Code = US
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-13 09:54:54.829 16161 16426 I WifiScanner: onFullResults
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 82:da:c2:**:**:3f FREQ: 5220, cFreq1[40:80:160] = [5230:5210:0] cFreq2 = 0 SSID , RSSI(dBM): -81, 11mcRanging: No, Country Code = US
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWIDiagLog] Log: lowiMeasResult->request: invalid null argument
+03-13 09:54:54.829  2611  4100 I LOWI-9.0.1.74: [LOWI-Scan] lowi_close_record:Scan done in 237256634ms, 21 APs in scan results
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 10267 ms, err 0
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWIScanResultReceiver] Send scan meas to listener
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWIScanResultReceiver] Enter passive listening mode
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+03-13 09:54:54.829  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIBackgroundScanMgr] isRspForBgScanMgr: evt(LOWI_NO_EVT) - not handled
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIScheduler] manageMsg: NULL results or NULL request in results
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIController] Measurements received
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWICacheManager] putInCache:Num of Meas to add: 21
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIController] processMeasurementResults: No current Request. Cache measurements
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIController] sendAsyncScanResponse: Request FreeWifiScanObserver_35 is from a different client.
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIController] generateResponse: Type (ASYNC_DISCOVERY_SCAN_RESULTS) ScanStatus (1) request FreeWifiScanObserver_35
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIEventDispatcher] sendResponse - originator = FreeWifiScanObserver
+03-13 09:54:54.830  2611  2854 D LOWI-9.0.1.74: [LOWIUtils] injectScanMeasurements - num of APs = 21
+03-13 09:54:54.830  2611  2854 I LOWI-9.0.1.74: [LOWIUtils] responseToOutPostcard - TO: FreeWifiScanObserver, FROM:   LOWI-SERVER, RESP:  LOWI_ASYNC_DISCOVERY_SCAN_RESULTS
+03-13 09:54:54.831  2611  2854 D LOWI-9.0.1.74: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+03-13 09:54:54.831  3003  4014 D SemWifiScanPool: countryCode: US, count: 10, totalSamples: 12, rate: 83.333336%
+03-13 09:54:54.831  3003  4014 V SemWifiScanPool: updateScanResult, full scan:14 configKeys: 11 pool_bssid:706 pool_configKeys:17
+03-13 09:54:54.831  3003  4014 D WifiConnectivityMonitor: onScanResultUpdated
+03-13 09:54:54.831  3003  4014 D WifiConnectivityMonitor: mMaxScannedCountryCode : US
+03-13 09:54:54.833 16161 16177 I WifiScanner: onFullResults
+03-13 09:54:54.833 16161 28170 I FrewleTileCacheManagerV: (REDACTED) Fetched %d AP models from cache
+03-13 09:54:54.833  3003  3922 D PasspointManager: ANQP entry not found for: 00:13:ef:20:20:52:<NETGEAR74-5G-2.4G_EXT>
+03-13 09:54:54.834  3003  3922 D PasspointManager: ANQP entry not found for: 02:13:ef:30:20:52:<NETGEAR74-5G-5G_EXT>
+03-13 09:54:54.834  2005  2047 I LocSvc_api_v02: ---> locClientSendReq line 2462 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+03-13 09:54:54.836  2005  3349 I LocSvc_ApiV02: <--- globalRespCb line 355 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+03-13 09:54:54.837  3003  5013 D ActivityManager: Received SERVICE intent 0xe784230 Key{startService pkg=com.google.android.gms/network_location_provider intent=act=com.google.android.gms.location.util.nlp.RESULT cat=[targeted_intent_op_prefix:.location.util.nlp.NlpInternalApi$NlpReceiverIntentOperation] xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentIntentOperationService flags=0x2000000 u=0} requestCode=0 from uid 10259
+03-13 09:54:54.840  3003  5013 D ActivityManager: Received SERVICE intent 0x41633cf Key{startService pkg=com.google.android.gms/fused_location_provider intent=act=com.google.android.location.internal.action.FLP_FULL_POWER_LOCATION_RESULT xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService flags=0x2000000 u=0} requestCode=0 from uid 10259
+03-13 09:54:54.841  2005  2035 I GnssAidl: ===> injectLocation line 289 
+03-13 09:54:54.842  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [N, A : 23.83, T : 1773410089828, ET : 237290252, h : 21/25]
+03-13 09:54:54.842  3003  4411 D SLocation: GeofenceLocationFilter - location sent before 983, need to filter / provider : network, accuracy : 23.828
+03-13 09:54:54.842  2005  2047 I LocSvc_api_v02: ---> locClientSendReq line 2462 QMI_LOC_INJECT_POSITION_REQ_V02
+03-13 09:54:54.842  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 1515.8553 diffTime : 240 accept distance condition
+03-13 09:54:54.842  3003  4411 D SLocation: LocationBuffer - input buffer, size : 3
+03-13 09:54:54.842  3003  4411 D SLocation: BatchManager - received batch location buffered = true
+03-13 09:54:54.843  2005  3349 I LocSvc_ApiV02: <--- globalRespCb line 355 QMI_LOC_INJECT_POSITION_REQ_V02
+03-13 09:54:54.843  3003  5013 D ActivityManager: Received SERVICE intent 0x31fdc65 Key{startService pkg=com.google.android.gms/fused_location_provider intent=act=com.google.android.location.internal.action.FLP_LOW_POWER_LOCATION_RESULT xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService flags=0x2000000 u=0} requestCode=0 from uid 10259
+03-13 09:54:54.844  3003 21012 I Mocca_VehicleDetectionHelper: (1.1.04.1)WiFi: WiFi delta: 8.0 totalKeys is: 16 ratio is: 50.0
+03-13 09:54:54.844  3003 21012 I Mocca_VehicleDetectionHelper: (1.1.04.1)WiFi: Updated WiFi status: 2
+03-13 09:54:54.844  3003 21012 D VehicleSensorHub: vehicleSendToSensorHub status : 2 type : 16
+03-13 09:54:54.844  3003 21012 I SensorManager: Get Sensor type = 65586
+03-13 09:54:54.844  3003 21012 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-13 09:54:54.845 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.845 32228 32271 I [CE]_IndoorLocationManager: onNewScanResults - Update: 14
+03-13 09:54:54.845 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.845 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.845 32228 32271 I [CE]_IndoorLocationManager: detectPoiEntryExit - State: 0
+03-13 09:54:54.847  3003 21012 D SensorService: setSContextDataLocked 103c17c1
+03-13 09:54:54.847 16161 16586 I gnet    : Received empty WiFi-RTT scan. [CONTEXT service_id=6 ]
+03-13 09:54:54.847  3003  3003 D GnssLocationProvider_ex: receive broadcast intent, action: android.net.wifi.SCAN_RESULTS
+03-13 09:54:54.848  3003  4058 D WifiConnectivityMonitor: MultiNetwork : false || false
+03-13 09:54:54.848  3003  4058 D WifiConnectivityMonitor: MultiNetwork legacy (1000) false
+03-13 09:54:54.848 32228 32271 I [CE]_IndoorLocationManager: identifyIndoorLocation - State: 13 / -1 / 0 / 2 / 10
+03-13 09:54:54.849  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 09:54:54.849  2007  2007 I sensors-hal: sendContextData:290, sensor hal 5, (0xc1, 0x17, 0x3c, 0x10)
+03-13 09:54:54.849  2007  2007 I sensors-hal: sendContextData:230, activities 5 c1, 1
+03-13 09:54:54.849  2007  2007 I sensors-hal: sendUserData:251, Activities cmd 0xc1 0x17
+03-13 09:54:54.849  2007  2007 I sensors-hal: create_send_context_data:80, sending create_send_context_data
+03-13 09:54:54.849  2007  2007 I sensors-hal: send_context_data:694, activities, 4914309220830019584, 1320970896291267344, msgid:700
+03-13 09:54:54.849  3003 21012 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1335 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.reportAdvancedVehicleEvent:185 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.handleWifiScanResult:340 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.q:0 D.e.h:231 
+03-13 09:54:54.850  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for activities 
+03-13 09:54:54.852 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: SV Count : 33 / 46      (PRN, Constellation, Type, SNR, Used)
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (1, GPS, L1, 20.4, 0) (2, GPS, L1, 23.3, 0) (7, GPS, L1, 30.4, 1) (8, GPS, L1, 30.9, 1) (9, GPS, L1, 16.4, 0) (16, GPS, L1, 17.7, 0) 
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (27, GPS, L1, 31.4, 1) (30, GPS, L1, 23.7, 1) (15, GLONASS, L1, 31.4, 1) (5, GLONASS, L1, 25.4, 0) (24, GLONASS, L1, 28.9, 1) (44, BEIDOU, L1, 23.3, 1) 
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (35, BEIDOU, L1, 17.7, 0) (34, BEIDOU, L1, 18.2, 0) (26, BEIDOU, L1, 23.5, 1) (25, BEIDOU, L1, 26.3, 1) (24, BEIDOU, L1, 30.6, 0) (12, BEIDOU, L1, 25.3, 1) 
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (4, GALILEO, L1, 21.1, 0) (6, GALILEO, L1, 23.2, 1) (13, GALILEO, L1, 17.0, 0) (18, GALILEO, L1, 23.7, 1) (19, GALILEO, L1, 13.8, 1) (21, GALILEO, L1, 26.7, 1) 
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (23, GALILEO, L1, 24.8, 1) (26, GALILEO, L1, 22.0, 1) (4, GPS, L5, 15.7, 0) (8, GPS, L5, 26.1, 1) (9, GPS, L5, 23.6, 0) (27, GPS, L5, 28.1, 1) 
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (4, GALILEO, L5, 18.1, 1) (6, GALILEO, L5, 18.7, 1) (18, GALILEO, L5, 25.9, 1) (21, GALILEO, L5, 24.6, 1) (23, GALILEO, L5, 22.2, 1) (26, GALILEO, L5, 24.5, 1) 
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (24, BEIDOU, L5, 26.8, 1) (26, BEIDOU, L5, 21.5, 1) (34, BEIDOU, L5, 23.5, 1) (44, BEIDOU, L5, 23.5, 1) (24, BEIDOU, L1, 28.0, 1) (25, BEIDOU, L1, 26.9, 1) 
+03-13 09:54:54.852  3003  3951 D GnssLocationProvider_ex: (26, BEIDOU, L1, 26.6, 1) (34, BEIDOU, L1, 22.7, 1) (41, BEIDOU, L1, 17.1, 0) (44, BEIDOU, L1, 34.7, 1) 
+03-13 09:54:54.852 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 09:54:54.852 32228 32228 I [CE]_MovingContextProvider: onReceive - Advanced Vehicle Context received: 16, 2
+03-13 09:54:54.852 32228 32228 I [CE]_CarContextProvider: onReceive - Advanced Vehicle Context received: 16, 2
+03-13 09:54:54.852  5490  5568 I GnssEngineManager_FLP: updateSatelliteStatus, top4=31, top6=31, visibleSv=46, usedSv=33, usedL5Sv=12 (usedGps=6, usedGlo=2, usedBds=13, usedGal=12)
+03-13 09:54:54.855  3003  3951 D GnssLocationProvider: reportLocation
+03-13 09:54:54.855  5490  5568 I GnssEngineManager_FLP: onGpsLocationChanged, provider=gps / isMock=false / speed=0.0 / time=1773410095000 / elapsed=237295406138060
+03-13 09:54:54.855  5490  5568 I NewStopController_FLP: isAvailableLastLoc, KeepStationary : false , timeGap : 15 , mStraightFixCount : 0
+03-13 09:54:54.855  5490  5568 I NewStopController_FLP: onChangedGlpLocation, isGpsStopped= false, isReportingLL= false, isAvailableLastLoc : true
+03-13 09:54:54.857 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 09:54:54.857 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 09:54:54.857  3003 21012 I Mocca_VehicleDetectionHelper: (1.1.04.1)GPS: Avg speed: 0.0 Speed: 0.0 LIST: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+03-13 09:54:54.857  3003 21012 D VehicleSensorHub: vehicleSendToSensorHub status : 2 type : 18
+03-13 09:54:54.857  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [G, A : 3.79, T : 1773410095000, ET : 237295406, E : MI, h : 21/26]
+03-13 09:54:54.857  3003 21012 I SensorManager: Get Sensor type = 65586
+03-13 09:54:54.858  3003 21012 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-13 09:54:54.858  3003 21012 D SensorService: setSContextDataLocked 123c17c1
+03-13 09:54:54.858  3003  4411 D SLocation: PositionManager - receive gps location
+03-13 09:54:54.858  3003  4411 D SLocation: GeofenceLocationFilter - location sent before 998, need to filter / provider : gps, accuracy : 3.7900925
+03-13 09:54:54.858  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 15.3945465 diffTime : 5154 filtered Location
+03-13 09:54:54.858  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-13 09:54:54.858  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 09:54:54.858  2007  2007 I sensors-hal: sendContextData:290, sensor hal 5, (0xc1, 0x17, 0x3c, 0x12)
+03-13 09:54:54.858  2007  2007 I sensors-hal: sendContextData:230, activities 5 c1, 1
+03-13 09:54:54.858  2007  2007 I sensors-hal: sendUserData:251, Activities cmd 0xc1 0x17
+03-13 09:54:54.858  2007  2007 I sensors-hal: create_send_context_data:80, sending create_send_context_data
+03-13 09:54:54.858  2007  2007 I sensors-hal: send_context_data:694, activities, 4914309220830019584, 1320970896291267344, msgid:700
+03-13 09:54:54.858  3003 21012 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1335 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.reportAdvancedVehicleEvent:185 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.handleLocEvent:277 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.p:0 D.e.h:136 
+03-13 09:54:54.859  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for activities 
+03-13 09:54:54.859 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 09:54:54.859 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 09:54:54.860  7048  7048 D LocationTracker: Got a location update from Play Services
+03-13 09:54:54.860  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 3.79, T : 1773410094841, ET : 237295406, h : 21/26]
+03-13 09:54:54.860  3003  4411 D SLocation: PositionManager - receive fused location
+03-13 09:54:54.860  3003  4411 D SLocation: DuplicateLocationChecker_GeofenceLocationFilter - fused is duplicated last gps location
+03-13 09:54:54.860 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 09:54:54.861 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 09:54:54.861 32228 32228 I [CE]_MovingContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 09:54:54.861 32228 32228 I [CE]_CarContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 09:54:54.861  3003  4411 D SLocation: DuplicateLocationChecker_BatchManager - fused is duplicated last gps location
+03-13 09:54:54.862  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10468, AttributionTag=null, Package name=com.maps.radar.navigation.android2023, Paused=false)false)false)false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.862 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.862 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.862 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.862  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.862  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.862  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5023, AttributionTag=null, Package name=com.samsung.android.networkdiagnostic, Paused=false)false)
+03-13 09:54:54.862  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 09:54:54.862  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 09:54:54.862  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.017261228 / time=1773410094841 / elapsed=237295406138060
+03-13 09:54:54.887  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 09:54:54.887  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 09:54:54.887  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 09:54:54.887  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152607159  [2025 / 15444]    HINT :      list : [UCLAMP_MIN_BOOST / 50] [TID / 29253] [TID / 29254] [TID / 29051] [TID / 29223] 
+03-13 09:54:54.888  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 09:54:54.891  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152607159  [2025 / 15444]    HINT :      list : [UCLAMP_MIN_BOOST / 100] [TID / 29253] [TID / 29254] [TID / 29051] [TID / 29223] 
+03-13 09:54:54.892  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152607159  [2025 / 15444]    HINT :      list : [UCLAMP_MIN_BOOST / 150] [TID / 29253] [TID / 29254] [TID / 29051] [TID / 29223] 
+03-13 09:54:54.894  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10468, AttributionTag=null, Package name=com.maps.radar.navigation.android2023, Paused=false)false)false)false)false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.894  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.894  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)false)false)false)false)false)false)false)false)
+03-13 09:54:54.894  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5023, AttributionTag=null, Package name=com.samsung.android.networkdiagnostic, Paused=false)false)false)
+03-13 09:54:54.894  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)
+03-13 09:54:54.894  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 5
+03-13 09:54:54.894  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 09:54:54.895  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152607159  [2025 / 15444]    HINT :      list : [UCLAMP_MIN_BOOST / 200] [TID / 29253] [TID / 29254] [TID / 29051] [TID / 29223] 
+03-13 09:54:54.900 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.900 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.900 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.902 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.902 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.902 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.912 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.912 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.912 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.913  3003  3631 D ActivityManager: freezing 29730 com.samsung.cmh
+03-13 09:54:54.915  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 09:54:54.915  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 09:54:54.915  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 09:54:54.916  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 09:54:54.919  3003  3631 I UMR     : B|Compact com.samsung.cmh(29730)
+03-13 09:54:54.925  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-13 09:54:54.926  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-13 09:54:54.926  3003  3941 D InetDiagMessage: Destroyed live tcp sockets for uids={5004} in 7ms
+03-13 09:54:54.928 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.928 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.928 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.945 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.945 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.945 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.961 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.961 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.961 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.968  3003  3631 I UMR     : E|Compact d_rss=-9436KB
+03-13 09:54:54.978 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.978 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.978 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:54.995 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:54.995 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:54.995 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:55.011 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:55.011 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:55.011 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:55.021 28908 28977 I appium  : AppiumResponse: {"sessionId":"7423c39e-5195-4cfd-b79f-d9b92d092436","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N11WFRpGwbwe4KWlhQMEOwOxBZdu9ZuXTuwu2Ptbj9XV127W3ftVuxWkDBQSQHpGJjvD5ZZxpkhB3D0/l0X17eeOfPOO34IZ+7zvs8jKOrgLAURERERERERkQYTFvQEiIiIiIiIiIhyiwE…
+03-13 09:54:55.028 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:55.028 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:55.028 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:55.045 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:55.045 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:55.045 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:55.048  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 152607159  [2025 / 15444]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TID / 29253] [TID / 29254] [TID / 29051] [TID / 29223] 
+03-13 09:54:55.062 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:55.062 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:55.062 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:55.078 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:55.078 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:55.078 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately
+03-13 09:54:55.095 29051 29051 D SV[47545857 MwmActivity]: updateSurface: surface is not valid
+03-13 09:54:55.095 29051 29051 I SV[47545857 MwmActivity]: releaseSurfaces: viewRoot = VRI[MwmActivity]@9464fc8
+03-13 09:54:55.095 29051 29051 D VRI[MwmActivity]@9464fc8: applyTransactionOnDraw applyImmediately

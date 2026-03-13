@@ -1,0 +1,67 @@
+--------- beginning of main
+03-13 08:20:12.044 17780 17806 I appium  : channel read: GET /session/80eb7806-343b-46fb-b299-8b6b2ae8966a/source
+03-13 08:20:12.046 17780 17806 I appium  : Source command
+03-13 08:20:12.048 17780 17806 I appium  : Waiting up to 10000ms for the device to idle
+03-13 08:20:12.110 17780 17806 I appium  : AppiumResponse: {"sessionId":"80eb7806-343b-46fb-b299-8b6b2ae8966a","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.checkitt\" class=\"android.wid…
+03-13 08:20:12.121 17780 17806 I appium  : channel read: GET /session/80eb7806-343b-46fb-b299-8b6b2ae8966a/screenshot
+03-13 08:20:12.121 17780 17806 I appium  : CaptureScreenshot command
+03-13 08:20:12.122 17780 17806 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:20:12.122 17780 17806 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:20:12.128  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773404412
+03-13 08:20:12.135  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 08:20:12.135  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 269 
+03-13 08:20:12.135  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556740
+03-13 08:20:12.135  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556710
+03-13 08:20:12.135  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 08:20:12.135  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556720
+03-13 08:20:12.135  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 08:20:12.135  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 08:20:12.210 18562 18562 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 08:20:12.211 18562 18562 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 08:20:12.211 18562 18562 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 08:20:12.211  3003  4748 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 08:20:12.211  3003  4748 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 08:20:12.211 18562 18562 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 08:20:12.211 18562 18562 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 08:20:12.215  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_17842#38282(seamlessTransition:0)
+03-13 08:20:12.215  2105  2922 I SurfaceFlinger: Capture layer list: 	 Dim Layer for - Task=459#38294(seamlessTransition:0)
+03-13 08:20:12.216  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_17842#38292(seamlessTransition:0)
+03-13 08:20:12.216  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 08:20:12.216  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#38220(seamlessTransition:0)
+03-13 08:20:12.216  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 08:20:12.216  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 08:20:12.217  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 08:20:12.217  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_17842#38282 at index 1
+03-13 08:20:12.217  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer Dim Layer for - Task=459#38294 at index 2
+03-13 08:20:12.217  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_17842#38292 at index 3
+03-13 08:20:12.217  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 08:20:12.217  3003 18561 D WifiConnectivityMonitor.DnsThread:  [|217] [] [] [] []
+03-13 08:20:12.217  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#38220 at index 5
+03-13 08:20:12.217  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 08:20:12.219  3003  4062 D WifiConnectivityMonitor.NetworkStatsAnalyzer: DNS resultType : 0, responseTime : 217
+03-13 08:20:12.219  3003  4058 D OpenNetworkQos[4.00]: updateBssidLatestDnsResultType - result: 0
+03-13 08:20:12.219  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 08:20:12.219  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 08:20:12.219  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-13 08:20:12.219  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 08:20:12.219  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 08:20:12.220  3003  5535 V WifiProfileShare.Caster: update wips network, size: 0
+03-13 08:20:12.220  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 08:20:12.220  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 08:20:12.220  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-13 08:20:12.220  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 08:20:12.220  3003  5535 I WifiProfileShare.Caster: current network type: 0, score: [30, 30, 30]
+03-13 08:20:12.221  3003  5535 V WifiProfileShare.Cache: update network score c0:94:35:**:**:ff
+03-13 08:20:12.221  3003  5535 D WifiProfileShare.ScanMatcher: getMcfDataList size:2
+03-13 08:20:12.221  3003  5535 I WifiProfileShare.Caster: qos data was updated , before:type:QOS, pBssid:e5:b1:3f, qosData:7c after:type:QOS, pBssid:e5:b1:3f, qosData:7c
+03-13 08:20:12.221  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-13 08:20:12.221  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-13 08:20:12.221  3003  5535 D WifiProfileShare.McfCast: updateQoSData ignored, same contents
+03-13 08:20:12.222  3003  5535 D WifiProfileShare.MCF: success update QosData !
+03-13 08:20:12.222  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-13 08:20:12.222  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-13 08:20:12.222  3003  5535 D WifiProfileShare.McfCast: -ME--- updatePasswordDate pwdData size:2
+03-13 08:20:12.252 18562 18568 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 08:20:12.253 18562 18562 W qdgralloc: Failed to load libubwcp.so
+03-13 08:20:12.434 17780 17806 I appium  : AppiumResponse: {"sessionId":"80eb7806-343b-46fb-b299-8b6b2ae8966a","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eJRV4vbx+8lkkiGkEEINCUgRpIMCKk2KP0FRsRAFRUVBlxVXURfbrgXdXV1Yy9oWUWk2ENcKtkVAFESWAIJ06UkooaX3nPePvJllmEkySSYZhnw/13UuzTPnOXNmJhnmuecUS5IRAAA…

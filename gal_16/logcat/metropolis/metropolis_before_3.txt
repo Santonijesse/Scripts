@@ -1,0 +1,38 @@
+--------- beginning of main
+03-13 10:19:56.570  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 10:19:56.616 15145 15172 I appium  : channel read: GET /session/599ade4a-313e-4327-a945-0facb80710bb/source
+03-13 10:19:56.618 15145 15172 I appium  : Source command
+03-13 10:19:56.619 15145 15172 I appium  : Waiting up to 10000ms for the device to idle
+03-13 10:19:56.655 15145 15172 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 10:19:56.671 15145 15172 I appium  : AppiumResponse: {"sessionId":"599ade4a-313e-4327-a945-0facb80710bb","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.teulys.metropolis\" class=\"an…
+03-13 10:19:56.679 15145 15172 I appium  : channel read: GET /session/599ade4a-313e-4327-a945-0facb80710bb/screenshot
+03-13 10:19:56.679 15145 15172 I appium  : CaptureScreenshot command
+03-13 10:19:56.680 15145 15172 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:19:56.680 15145 15172 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:19:56.771 15545 15545 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 10:19:56.771 15545 15545 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 10:19:56.772 15545 15545 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 10:19:56.772  3003  3048 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 10:19:56.772  3003  3048 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 10:19:56.772 15545 15545 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 10:19:56.772 15545 15545 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 10:19:56.774  2105  2836 I SurfaceFlinger: Capture layer list: 	 Background for 4f42fe6 SurfaceView[com.teulys.metropolis/com.teulys.metropilos.MainActivity]@0#47684(seamlessTransition:0)
+03-13 10:19:56.774  2105  2836 I SurfaceFlinger: Capture layer list: 	 4f42fe6 SurfaceView[com.teulys.metropolis/com.teulys.metropilos.MainActivity]@0(BLAST)#47683(seamlessTransition:0)
+03-13 10:19:56.774  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.teulys.metropolis/com.teulys.metropilos.MainActivity$_15210#47678(seamlessTransition:0)
+03-13 10:19:56.774  2105  2836 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#47687(seamlessTransition:0)
+03-13 10:19:56.774  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:19:56.774  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#47641(seamlessTransition:0)
+03-13 10:19:56.774  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:19:56.774  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 10:19:56.775  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:19:56.775  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 4f42fe6 SurfaceView[com.teulys.metropolis/com.teulys.metropilos.MainActivity]@0(BLAST)#47683 at index 1
+03-13 10:19:56.775  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.teulys.metropolis/com.teulys.metropilos.MainActivity$_15210#47678 at index 2
+03-13 10:19:56.775  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#47687 at index 3
+03-13 10:19:56.775  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 10:19:56.775  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#47641 at index 5
+03-13 10:19:56.775  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 10:19:56.796 15545 15554 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 10:19:56.797 15545 15545 W qdgralloc: Failed to load libubwcp.so
+03-13 10:19:56.911  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-13 10:19:56.984 15145 15172 I appium  : AppiumResponse: {"sessionId":"599ade4a-313e-4327-a945-0facb80710bb","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFPl/gfwT0bTFboD3RNaRgsFCrQsBRRQlgp6HUwFHLhQ0Xu9Dq735xZQUa/sLVMBmcosoKwWKIWW1b0X3btJfn/0NrchSZu2adLYz/v14qV9cnL6nLRNzvmc5/k+AqWyTgkiIiIiIiI…

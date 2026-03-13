@@ -1,0 +1,56 @@
+--------- beginning of system
+03-13 08:16:05.385  3003  4923 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+--------- beginning of main
+03-13 08:16:05.385 13270 13297 I appium  : channel read: GET /session/90d75018-7370-4b92-88fc-d0817b73f7e9/source
+03-13 08:16:05.387 13270 13297 I appium  : Source command
+03-13 08:16:05.388 13270 13297 I appium  : Waiting up to 10000ms for the device to idle
+03-13 08:16:05.393  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:16:05.393  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:16:05.393  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:16:05.393  3003  4923 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 08:16:05.398  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:16:05.400  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 08:16:05.408  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 08:16:05.417 13335 13335 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{d49e728 VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.r.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:153 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 08:16:05.417 13335 13335 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{d8dde49 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.r.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:168 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 08:16:05.425  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 40
+03-13 08:16:05.433  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 08:16:05.456  3003  3950 W DeviceStorageMonitorService: updateBroadcasts(/data) oldLevel:0, newLevel:0, seq:1
+03-13 08:16:05.458  3003  3950 D DeviceStorageMonitorService: Available File Node Number is [12667003]
+03-13 08:16:05.459  3003  3950 W DeviceStorageMonitorService: updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+03-13 08:16:05.465 13270 13297 I appium  : AppiumResponse: {"sessionId":"90d75018-7370-4b92-88fc-d0817b73f7e9","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.checkitt\" class=\"android.wid…
+03-13 08:16:05.474 13270 13297 I appium  : channel read: GET /session/90d75018-7370-4b92-88fc-d0817b73f7e9/screenshot
+03-13 08:16:05.475 13270 13297 I appium  : CaptureScreenshot command
+03-13 08:16:05.475 13270 13297 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:16:05.476 13270 13297 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:16:05.560 14059 14059 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 08:16:05.561 14059 14059 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 08:16:05.561 14059 14059 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 08:16:05.561  3003  6500 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 08:16:05.562  3003  6500 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 08:16:05.562 14059 14059 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 08:16:05.562 14059 14059 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 08:16:05.566  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.checkitt/com.ground.subscription.FreeTrialActivity$_13335#37989(seamlessTransition:0)
+03-13 08:16:05.567  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 08:16:05.567  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#37907(seamlessTransition:0)
+03-13 08:16:05.567  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 08:16:05.567  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 08:16:05.568  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 08:16:05.568  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.checkitt/com.ground.subscription.FreeTrialActivity$_13335#37989 at index 1
+03-13 08:16:05.568  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 08:16:05.569  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#37907 at index 3
+03-13 08:16:05.569  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 08:16:05.610 14059 14064 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 08:16:05.612 14059 14059 W qdgralloc: Failed to load libubwcp.so
+03-13 08:16:05.708  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 14098, isSameBssidAndFreq true
+03-13 08:16:05.711  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 08:16:05.711  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 08:16:05.711  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 49
+03-13 08:16:05.711  3003  4030 D InsDataManager: trimBuffers start.
+03-13 08:16:05.712  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 85
+03-13 08:16:05.712  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 08:16:05.712  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 08:16:05.713  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -66.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -66.0 / 0 / 0 / 0 / 0 || 357184ff5785: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 55449777 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 08:16:05.713  3003  4047 D SGM:GameManager: identifyGamePackage. com.checkitt, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 08:16:05.713  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.checkitt, ret=false
+03-13 08:16:05.808 13270 13297 I appium  : AppiumResponse: {"sessionId":"90d75018-7370-4b92-88fc-d0817b73f7e9","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dFTV/v7xZ9IJJYQklBBAimDoIgLSIQgKVxAkgoKFptyLiqioiKLo8oKiiI2LWKgqGARFsHApsYDlEqqGCNIJEDokQOrs3x/8Mt8MMxOSkGQ48n6t9VlLz+xzZk8mGWae2cUmyQgAAAA…

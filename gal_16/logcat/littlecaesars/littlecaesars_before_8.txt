@@ -1,0 +1,48 @@
+--------- beginning of main
+03-13 09:33:16.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773408796
+03-13 09:33:16.131  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 09:33:16.131  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 277 
+03-13 09:33:16.131  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556813
+03-13 09:33:16.131  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556800
+03-13 09:33:16.131  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 09:33:16.131  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556810
+03-13 09:33:16.131  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 09:33:16.131  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 09:33:16.235 30648 30675 I appium  : channel read: GET /session/39c994aa-fbc7-4ae2-b255-a4e8e1f25497/source
+03-13 09:33:16.236 30648 30675 I appium  : Source command
+03-13 09:33:16.238 30648 30675 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 09:33:16.289  3003  3950 W DeviceStorageMonitorService: updateBroadcasts(/data) oldLevel:0, newLevel:0, seq:1
+03-13 09:33:16.291  3003  3950 D DeviceStorageMonitorService: Available File Node Number is [12664114]
+03-13 09:33:16.292  3003  3950 W DeviceStorageMonitorService: updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+03-13 09:33:16.344 30648 30675 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 09:33:16.345  1171  1171 D io_stats: !@   8,0 r 3627589 115774876 w 4080839 88807476 d 377051 99151208 f 167560 405854 iot 1699392 0 th 0 0 0 pt 0 inp 0 0 60080.412
+03-13 09:33:16.345  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:5(21525) 11356 m.littlecaesars(30710) 948 system_server(3003) 36
+03-13 09:33:16.402 30648 30675 I appium  : AppiumResponse: {"sessionId":"39c994aa-fbc7-4ae2-b255-a4e8e1f25497","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.littlecaesars\" class=\"androi…
+03-13 09:33:16.411  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 37:0:0:810239:902400:672000:829056:2572800:499200:231:231:231
+03-13 09:33:16.414 30648 30675 I appium  : channel read: GET /session/39c994aa-fbc7-4ae2-b255-a4e8e1f25497/screenshot
+03-13 09:33:16.414 30648 30675 I appium  : CaptureScreenshot command
+03-13 09:33:16.416 30648 30675 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:33:16.416 30648 30675 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 09:33:16.531 31509 31509 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 09:33:16.532 31509 31509 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 09:33:16.532 31509 31509 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 09:33:16.532  3003  4343 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 09:33:16.532  3003  4343 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 09:33:16.532 31509 31509 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 09:33:16.533 31509 31509 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 09:33:16.535  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.littlecaesars/com.littlecaesars.navigation.OrderFlowActivity$_30710#42853(seamlessTransition:0)
+03-13 09:33:16.535  2105  2922 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#42874(seamlessTransition:0)
+03-13 09:33:16.535  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 09:33:16.535  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#42761(seamlessTransition:0)
+03-13 09:33:16.535  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 09:33:16.536  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 09:33:16.536  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 09:33:16.536  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.littlecaesars/com.littlecaesars.navigation.OrderFlowActivity$_30710#42853 at index 1
+03-13 09:33:16.536  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#42874 at index 2
+03-13 09:33:16.537  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 09:33:16.537  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#42761 at index 4
+03-13 09:33:16.537  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 09:33:16.590 31509 31516 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 09:33:16.592 31509 31509 W qdgralloc: Failed to load libubwcp.so
+03-13 09:33:16.788 30648 30675 I appium  : AppiumResponse: {"sessionId":"39c994aa-fbc7-4ae2-b255-a4e8e1f25497","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eBRl1wbwezeV9AChhNB77x2kSQdRpCoCCiL2LpZXBRt2rCiCAgIKVkCp0kUQpPfeSyC0NNKz3x+H/bbMbHY3Wye5f9eVS5mdnX0y2Z2dOXOec3SG0TCAiIiIiIiIiEjD9L4eABERERE…

@@ -1,0 +1,62 @@
+--------- beginning of main
+03-13 08:51:41.273  3003  4027 I SemWifiServiceDetector: NSD results: [0, 1, 2, 0, 0, 1, 2, 0, 0] Traff. type 3 Thr 0
+03-13 08:51:41.344 32741   311 I appium  : channel read: GET /session/82eb9bc5-ac0b-4f9b-872f-24172e099a77/source
+03-13 08:51:41.345 32741   311 I appium  : Source command
+03-13 08:51:41.349 32741   311 I appium  : Waiting up to 10000ms for the device to idle
+03-13 08:51:41.382  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 6(6),c:26,b:14,m:13,cl:0,l:6,s:7,l0:2416,l1:224,s0:2232,s1:186,acl:1,opr:0.32,f(r):97,u(bl):111,if:0,wi:14,si:15,po:0(N:0)
+03-13 08:51:41.506 32741   311 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 08:51:41.526  2007 32154 I sensors-hal: handle_sns_client_event:375, [0][803] accel_sample [ 0.177, -0.106,  9.859] 233502056205933
+03-13 08:51:41.542  2007 32182 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 8(8),c:26,b:14,m:13,cl:0,l:6,s:8,l0:2416,l1:224,s0:2287,s1:186,acl:1,opr:0.32,f(r):97,u(bl):111,if:0,wi:14,si:15,po:0(N:0)
+03-13 08:51:41.572 32741   311 I appium  : AppiumResponse: {"sessionId":"82eb9bc5-ac0b-4f9b-872f-24172e099a77","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instagram.android\" class=\"an…
+03-13 08:51:41.588 32741   311 I appium  : channel read: GET /session/82eb9bc5-ac0b-4f9b-872f-24172e099a77/screenshot
+03-13 08:51:41.589 32741   311 I appium  : CaptureScreenshot command
+03-13 08:51:41.591 32741   311 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:51:41.591 32741   311 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+--------- beginning of system
+03-13 08:51:41.660  3003  7124 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 08:51:41.670  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:51:41.671  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:51:41.671  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:51:41.671  3003  7124 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 08:51:41.672  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:51:41.689  1991  1991 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 08:51:41.689  1991  1991 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 08:51:41.689  1991  1991 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 08:51:41.689  3003  7124 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 08:51:41.690  3003  7124 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 08:51:41.690  1991  1991 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 08:51:41.690  1991  1991 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 08:51:41.691  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.instagram.android/com.instagram.mainactivity.InstagramMainActivity$_368#41149(seamlessTransition:0)
+03-13 08:51:41.692  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 08:51:41.692  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#41092(seamlessTransition:0)
+03-13 08:51:41.692  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 08:51:41.692  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 08:51:41.692  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 08:51:41.693  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.instagram.android/com.instagram.mainactivity.InstagramMainActivity$_368#41149 at index 1
+03-13 08:51:41.693  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 08:51:41.693  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#41092 at index 3
+03-13 08:51:41.693  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 08:51:41.731  1991  2009 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 08:51:41.732  1991  1991 W qdgralloc: Failed to load libubwcp.so
+03-13 08:51:42.124  2053  1706 I StatsHandler: [av1D_696] Stats: Pending(0) i/p-done(0) Works: Q: 28/Done 28|Work-Rate: Q(0.0/s Avg=2.0/s) Done(0.000/s Avg=1.991/s)| Stream: 24.00fps 1.1Mbps
+03-13 08:51:42.125  2053  1706 I StatsHandler: [av1D_696] Mem-usage:  [In-1D: 11 bufs 88.000 MB] [1D-2881: 33 bufs 0.516 MB] [2D-2882: 22 bufs 70.125 MB] | Total: 158.641 MB
+03-13 08:51:42.128  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773406302
+03-13 08:51:42.132  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 08:51:42.132  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 293 
+03-13 08:51:42.132  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556771
+03-13 08:51:42.133  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556770
+03-13 08:51:42.133  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 08:51:42.133  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556750
+03-13 08:51:42.133  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 08:51:42.133  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 08:51:42.184  1171  1171 D io_stats: !@   8,0 r 3561939 114276880 w 3936956 85648820 d 365021 95603276 f 163486 395258 iot 1633740 0 th 0 0 0 pt 0 inp 0 0 57586.251
+03-13 08:51:42.185  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:2(19022) 212 stagram.android(368) 60 system_server(3003) 36
+03-13 08:51:42.422 32741   311 I appium  : AppiumResponse: {"sessionId":"82eb9bc5-ac0b-4f9b-872f-24172e099a77","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFTV/z/w17AOm4rghggCbqi454IrklpoWikuuSeVpqWWVkruuaSp9dFMLc1dzMwyl9wQ9yVxIxE3UHZBUfZ9zu8Pf8yXcVZgYBh9PR+P9+Mhd849c2ZhvPPi3HMlAASIiIiIiIiIiIy…
+03-13 08:51:42.543  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 08:51:42.543  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 08:51:42.544  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 08:51:42.545  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 08:51:42.550  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:51:42.551  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:51:42.553  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:51:42.553  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore

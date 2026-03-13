@@ -1,0 +1,143 @@
+--------- beginning of main
+03-13 10:55:48.440  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 189256214  [2025 / 17429]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 6449] [TID / 6450] [TID / 21344] [TID / 6426] 
+03-13 10:55:48.440  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 189275670  [2025 / 17430]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TID / 6449] [TID / 6450] [TID / 21344] [TID / 6426] 
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 6449, err = -1
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 6450, err = -1
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 21344, err = -1
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 6426, err = -1
+03-13 10:55:48.441  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 189256214
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 6449, err = -1
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 6450, err = -1
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 21344, err = -1
+03-13 10:55:48.441  2022  2124 E HYPER-HAL: [HandlerUClamp.cpp]set_uclamp_min(): sched_setattr failed for thread 6426, err = -1
+03-13 10:55:48.441  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 189275670
+03-13 10:55:48.525 13905 19806 I .android.gms.ui: Explicit concurrent mark compact GC freed 960KB AllocSpace bytes, 0(0B) LOS objects, 56% free, 6223KB/14MB, paused 449us,3.958ms total 129.301ms
+03-13 10:55:48.569 31545 31573 I appium  : channel read: GET /session/caa20d76-b6a7-4e37-a0a3-0c025aa31f53/source
+03-13 10:55:48.571 31545 31573 I appium  : Source command
+03-13 10:55:48.573 31545 31573 I appium  : Waiting up to 10000ms for the device to idle
+03-13 10:55:48.656 31545 31573 I appium  : Adding toast message to root: استفاده از این اپلیکیشن نیازمند مجوز مکان یاب شما می‌باشد.
+03-13 10:55:48.656 31545 31573 I tomator2.server: hiddenapi: Accessing hidden field Landroid/view/accessibility/AccessibilityNodeInfo;->mSealed:Z (runtime_flags=0, domain=platform, api=max-target-r) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:55:48.658 31545 31573 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 10:55:48.723 31545 31573 I appium  : AppiumResponse: {"sessionId":"caa20d76-b6a7-4e37-a0a3-0c025aa31f53","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"org.rajman.neshan.traffic.tehran.n…
+03-13 10:55:48.734 31545 31573 I appium  : channel read: GET /session/caa20d76-b6a7-4e37-a0a3-0c025aa31f53/screenshot
+03-13 10:55:48.735 31545 31573 I appium  : CaptureScreenshot command
+03-13 10:55:48.737 31545 31573 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:55:48.737 31545 31573 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+--------- beginning of system
+03-13 10:55:48.760  3003  7292 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 10:55:48.766  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:55:48.766  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:55:48.766  3003  4333 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 10:55:48.766  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:55:48.768  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:55:48.788  1171  1171 D io_stats: !@   8,0 r 3819363 120301048 w 4612743 96498316 d 397453 107485760 f 194356 446020 iot 1887816 0 th 0 0 0 pt 0 inp 0 0 65032.855
+03-13 10:55:48.789  1171  1171 D io_stats: !@ Write_top(KB): system_server(3003) 2816 kworker/u16:5(21525) 912 gle.android.gms(27562) 132
+03-13 10:55:48.828 32455 32455 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 10:55:48.829 32455 32455 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 10:55:48.829 32455 32455 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 10:55:48.829  3003  4333 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 10:55:48.829  3003  4333 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 10:55:48.829 32455 32455 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 10:55:48.829 32455 32455 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 10:55:48.832  2105  2324 I SurfaceFlinger: Capture layer list: 	 Background for 62b583 SurfaceView[org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity]@0#51121(seamlessTransition:0)
+03-13 10:55:48.832  2105  2324 I SurfaceFlinger: Capture layer list: 	 62b583 SurfaceView[org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity]@0(BLAST)#51120(seamlessTransition:0)
+03-13 10:55:48.832  2105  2324 I SurfaceFlinger: Capture layer list: 	 org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity$_31622#51117(seamlessTransition:0)
+03-13 10:55:48.832  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:55:48.832  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#51079(seamlessTransition:0)
+03-13 10:55:48.832  2105  2324 I SurfaceFlinger: Capture layer list: 	 Toast$_31622#51171(seamlessTransition:0)
+03-13 10:55:48.832  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:55:48.833  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 10:55:48.833  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:55:48.833  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 62b583 SurfaceView[org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity]@0(BLAST)#51120 at index 1
+03-13 10:55:48.833  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity$_31622#51117 at index 2
+03-13 10:55:48.834  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 10:55:48.834  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#51079 at index 4
+03-13 10:55:48.834  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer Toast$_31622#51171 at index 5
+03-13 10:55:48.834  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 10:55:48.870 32455 32462 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 10:55:48.871 32455 32455 W qdgralloc: Failed to load libubwcp.so
+03-13 10:55:48.890  3003  3067 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+03-13 10:55:48.918  3003  3068 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{13ae7f9 type=2005 android.os.Binder@c97bec0})/@0x2a8c169, destroy=true, surface=Surface(name=223059f Toast)/@0x57857f0
+03-13 10:55:48.926  2105  2105 E SurfaceFlinger: alpha changed 0.008 -> 0.000 - Surface(name=223059f Toast)/@0x57857f0 - animation-leash of window_animation#51174
+03-13 10:55:48.926  3003  3068 D SurfaceComposerClient: setCornerRadius ## 94f170d org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity#51115 cornerRadius=0.000000
+03-13 10:55:48.927  3003  3068 D SurfaceComposerClient: setCornerRadius ## 94f170d org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity#51115 cornerRadius=0.000000
+03-13 10:55:48.927  3003  3068 D PowerManagerService: [api] release WakeLock SCREEN_BRIGHT_WAKE_LOCK           'WindowManager/displayId:0' ON_AFTER_RELEASE ACQ=-2s511ms (uid=1000 pid=3003 ws=WorkSource{10479 org.rajman.neshan.traffic.tehran.navigator} displayId=0 lock=ca1952e)
+03-13 10:55:48.927  3003  3068 D EdgeLightingManager: hideForWakeLock is no more used
+03-13 10:55:48.927  3003  3068 D PowerManagerService: [api] applyWakeLockFlagsOnReleaseLocked : userActivityNoUpdateLocked is called : SCREEN_BRIGHT_WAKE_LOCK           'WindowManager/displayId:0' ON_AFTER_RELEASE DISABLED (uid=1000 pid=3003 ws=WorkSource{10479 org.rajman.neshan.traffic.tehran.navigator} displayId=0 lock=ca1952e)
+03-13 10:55:48.928  3003  3068 D SurfaceComposerClient: setCornerRadius ## 94f170d org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity#51115 cornerRadius=0.000000
+03-13 10:55:48.929  2105  2105 D SurfaceFlinger: Display 4630946564756762243 HWC layers:
+03-13 10:55:48.929  2105  2105 D SurfaceFlinger:        DEVICE |          135815455834117 | 00000502 | RGBA_8888    |    0.0    0.0 1080.0 2402.0 |    0   94 1080 2496 | 62b583 SurfaceView[org.rajman.neshan[...]ctivity.MainActivity]@0(BLAST)#51120 (269)
+03-13 10:55:48.929  2105  2105 D SurfaceFlinger:        DEVICE |          135815455834123 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0 2640.0 |    0    0 1080 2640 | org.rajman.neshan.traffic.tehran.nav[...]i.activity.MainActivity$_31622#51117 (349)
+03-13 10:55:48.929  2105  2105 D SurfaceFlinger:        DEVICE |           18060337504710 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   94.0 |    0    0 1080   94 | StatusBar$_4205#132 (51216)
+03-13 10:55:48.929  2105  2105 D SurfaceFlinger:        DEVICE |           20753281981093 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  357.0 | 1013  511 1080  868 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_4832#51079 (1)
+03-13 10:55:48.929  2105  2105 D SurfaceFlinger:        DEVICE |           18060337504695 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2496 1080 2640 | NavigationBar0$_4205#130 (40227)
+03-13 10:55:48.929  2105  2105 D SurfaceFlinger: 
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: [Display 0 name="Built-in Screen"#50] setFrameRateCategory: Default
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: RequestedLayer [Toast$_31622#51171] hidden!! flag  from(0) --> to(1)
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Toast$_31622#51171} no children}] reparent to OffscreenRoot
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Toast$_31622#51171} no children}] RelativeParent to null
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{223059f Toast#51170} no children}] reparent to OffscreenRoot
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{223059f Toast#51170} no children}] RelativeParent to null
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=223059f Toast)/@0x57857f0 - animation-leash of window_animation#51174} no children}] reparent to OffscreenRoot
+03-13 10:55:48.934  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=223059f Toast)/@0x57857f0 - animation-leash of window_animation#51174} no children}] RelativeParent to null
+03-13 10:55:48.935  2105  2105 I SurfaceFlinger: id=51171 Removed Toast$_31622#51171 (182)
+03-13 10:55:48.935  2105  2105 I SurfaceFlinger: id=51174 Removed Surface(name=223059f Toast)/@0x57857f0 - animation-leash of window_animation#51174 (182)
+03-13 10:55:48.935  2105  2105 I SurfaceFlinger: id=51170 Removed 223059f Toast#51170 (182)
+03-13 10:55:48.937  3003  3067 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=9333333, appVsyncOffsetNanos=8333333, frameRateOverrides=[]
+03-13 10:55:48.937  3003  3068 D SurfaceComposerClient: setCornerRadius ## 94f170d org.rajman.neshan.traffic.tehran.navigator/org.rajman.neshan.ui.activity.MainActivity#51115 cornerRadius=0.000000
+03-13 10:55:48.938  4205  4205 D DisplayLifecycle: updateDisplay id = 0
+03-13 10:55:48.938  4205  4362 D StackScroller: onDisplayChanged for predraw skip to 2
+03-13 10:55:48.938  3003  3804 D WifiDisplayAdapter: isFitToActiveDisplayLocked : false
+03-13 10:55:48.939  4832 24469 I HoneySpace.Memory-Monitor: current state = 2, didTrim = false
+03-13 10:55:48.942  2105  2105 I SurfaceFlinger: destroyed Toast$_31622#51171 form LifecycleManager
+03-13 10:55:48.942  2105  2105 I SurfaceFlinger: destroyed Surface(name=223059f Toast)/@0x57857f0 - animation-leash of window_animation#51174 form LifecycleManager
+03-13 10:55:48.942  2105  2105 I SurfaceFlinger: destroyed 223059f Toast#51170 form LifecycleManager
+03-13 10:55:48.942  2105  2105 I SurfaceFlinger: id=51171 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Toast$_31622#51171 !handle})
+03-13 10:55:48.942  2105  2105 I SurfaceFlinger: id=51174 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=223059f Toast)/@0x57857f0 - animation-leash of window_animation#51174 !handle})
+03-13 10:55:48.942  2105  2105 I SurfaceFlinger: id=51170 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{223059f Toast#51170 !handle})
+03-13 10:55:48.943  2105  2105 I Layer   : id=51171 Destroyed Toast$_31622#51171
+03-13 10:55:48.943  2105  2105 I Layer   : id=51174 Destroyed Surface(name=223059f Toast)/@0x57857f0 - animation-leash of window_animation#51174
+03-13 10:55:48.944  2105  2105 I Layer   : id=51170 Destroyed 223059f Toast#51170
+03-13 10:55:49.022  2007 17421 I sensors-hal: handle_sns_client_event:375, [0][14218] accel_sample [ 0.350,  0.166,  9.847] 240949575111627
+03-13 10:55:49.104 31545 31573 I appium  : AppiumResponse: {"sessionId":"caa20d76-b6a7-4e37-a0a3-0c025aa31f53","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFNlGwbw+2S06d67QKG0tLTsTdmyRGS4twjIEBREkL03oqICCgIqDvwUBQeg7Cl7U0rpZpXuvTJOvj9KQ9Oki87o/bsurouenJy8KSE5uc/zPq/g37azFkREREREREREJkxS1wMgIiI…
+03-13 10:55:49.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773413749
+03-13 10:55:49.134  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 10:55:49.134  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 315 
+03-13 10:55:49.134  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556895
+03-13 10:55:49.135  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556890
+03-13 10:55:49.135  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 10:55:49.135  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556870
+03-13 10:55:49.135  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 10:55:49.135  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 10:55:49.205  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [111 WIFI]
+03-13 10:55:49.207  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 10:55:49.207  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 10:55:49.207  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 111(valid: true/captive: false)
+03-13 10:55:49.207  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=3319Kbps LinkDnBandwidth>=69898Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.*.*.171, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -64, Link speed: 324Mbps, Tx Link speed: 324Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 816Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -64 AdminUids: [1000] SSID: "micasa" UnderlyingNetworks: Null]
+03-13 10:55:49.208  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 16917, isSameBssidAndFreq true
+03-13 10:55:49.209  3003  4050 D SemApeService: Deducted link capacity (M: R=571 T=226) RSSI=-64
+03-13 10:55:49.209  3003  4050 D SemApeService: Deducted link capacity (M: R=571 T=226) on (wlan0) GoogleAPI(M: R=69 T=3) RSSI=-64 isDefault=false isMlo=false
+03-13 10:55:49.210  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-13 10:55:49.210  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-13 10:55:49.210  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 10:55:49.210  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 10:55:49.210  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-13 10:55:49.210  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 10:55:49.211  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 10:55:49.211  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 10:55:49.211  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 10:55:49.211  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 10:55:49.211  3003  4030 D InsDataManager: trimBuffers start.
+03-13 10:55:49.211  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 10:55:49.211  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 10:55:49.211  3003  5535 V WifiProfileShare.Caster: update wips network, size: 0
+03-13 10:55:49.211  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -64.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -64.0 / 2 / 117 / 2 / 0 || 357184ff5785: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 65033274 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 10:55:49.211  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 10:55:49.211  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 10:55:49.211  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-13 10:55:49.212  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 10:55:49.212  3003  5535 I WifiProfileShare.Caster: current network type: 0, score: [30, 30, 30]
+03-13 10:55:49.212  3003  5535 V WifiProfileShare.Cache: update network score c0:94:35:**:**:ff
+03-13 10:55:49.213  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 10:55:49.213  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 10:55:49.213  3003  5535 D WifiProfileShare.ScanMatcher: getMcfDataList size:2

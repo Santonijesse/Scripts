@@ -1,0 +1,59 @@
+--------- beginning of main
+03-13 08:26:40.708  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10428(com.instagram.android), 4(FAIL), isBlocked=true, 0ms
+03-13 08:26:40.719 10969 11160 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-13 08:26:40.848 25282 25310 I appium  : channel read: GET /session/3e0f1fcf-44bf-467d-84bf-4272bc7f3564/source
+03-13 08:26:40.850 25282 25310 I appium  : Source command
+03-13 08:26:40.852 25282 25310 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 08:26:40.899  1171  1171 D io_stats: !@   8,0 r 3490335 112594652 w 3793260 82806992 d 362019 92423620 f 159735 387729 iot 1576748 0 th 0 0 0 pt 0 inp 0 0 56084.966
+03-13 08:26:40.899  1171  1171 D io_stats: !@ Write_top(KB): vendor.samsung.(2059) 12 sung.android.ce(32228) 4
+03-13 08:26:40.905 25282 25310 I appium  : AppiumResponse: {"sessionId":"3e0f1fcf-44bf-467d-84bf-4272bc7f3564","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.checkitt\" class=\"android.wid…
+03-13 08:26:40.915 25282 25310 I appium  : channel read: GET /session/3e0f1fcf-44bf-467d-84bf-4272bc7f3564/screenshot
+03-13 08:26:40.915 25282 25310 I appium  : CaptureScreenshot command
+03-13 08:26:40.916 25282 25310 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:26:40.916 25282 25310 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:26:40.954  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 08:26:40.955  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 08:26:40.955  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 14298, isSameBssidAndFreq true
+03-13 08:26:40.956  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 49
+03-13 08:26:40.957  3003  4030 D InsDataManager: trimBuffers start.
+03-13 08:26:40.957  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 85
+03-13 08:26:40.957  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 08:26:40.958  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 08:26:40.958  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -59.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -59.0 / 4 / 180 / 8 / 0 || 357184ff5785: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 56085021 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 08:26:40.961  3003  4047 D SGM:GameManager: identifyGamePackage. com.checkitt, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 08:26:40.961  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.checkitt, ret=false
+03-13 08:26:41.002 26076 26076 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 08:26:41.002 26076 26076 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 08:26:41.003 26076 26076 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 08:26:41.003  3003  4866 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 08:26:41.003  3003  4866 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 08:26:41.003 26076 26076 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 08:26:41.003 26076 26076 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 08:26:41.007  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_25349#38747(seamlessTransition:0)
+03-13 08:26:41.007  2105  2921 I SurfaceFlinger: Capture layer list: 	 Dim Layer for - Task=464#38759(seamlessTransition:0)
+03-13 08:26:41.007  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_25349#38757(seamlessTransition:0)
+03-13 08:26:41.007  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 08:26:41.007  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#38685(seamlessTransition:0)
+03-13 08:26:41.007  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 08:26:41.008  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 08:26:41.008  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 08:26:41.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_25349#38747 at index 1
+03-13 08:26:41.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer Dim Layer for - Task=464#38759 at index 2
+03-13 08:26:41.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.checkitt/vc.ucic.uciccore.MainNavigationActivity$_25349#38757 at index 3
+03-13 08:26:41.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 08:26:41.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#38685 at index 5
+03-13 08:26:41.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 08:26:41.053 26076 26081 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 08:26:41.054 26076 26076 W qdgralloc: Failed to load libubwcp.so
+03-13 08:26:41.059  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 08:26:41.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773404801
+03-13 08:26:41.133  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 08:26:41.133  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 295 
+03-13 08:26:41.133  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556746
+03-13 08:26:41.134  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556740
+03-13 08:26:41.134  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 08:26:41.134  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556720
+03-13 08:26:41.135  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 08:26:41.135  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 08:26:41.236 25282 25310 I appium  : AppiumResponse: {"sessionId":"3e0f1fcf-44bf-467d-84bf-4272bc7f3564","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dFTV4vbxZ1InIYUQmiEBKYJ0UJo0KQoqXrAQBUVFQS+KBfWiYgW9iopg9yIqTVQwdoPth4AoWC6hKlVqCiW0NNKz3z94MzfDTJJJMskw5PtZay/NmXP27HMmTOY8s4tFkhEAAAAAAIA…

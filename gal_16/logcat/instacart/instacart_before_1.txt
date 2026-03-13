@@ -1,0 +1,93 @@
+--------- beginning of main
+03-13 08:29:44.376 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c509914 VFED..... ......ID 0,0-1080,2496 aid=1073741836}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:98 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 08:29:44.376 31836 31836 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{212af6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:107 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 08:29:44.379 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c509914 VFED..... ........ 0,0-1080,2496 aid=1073741836}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:98 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 08:29:44.379 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{212af6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:107 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 08:29:44.384  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-13 08:29:44.392  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 08:29:44.457  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.479,7.485,4.599, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+--------- beginning of system
+03-13 08:29:44.476  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 08:29:44.476  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 08:29:44.477  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 08:29:44.477  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 08:29:44.505 31720 31777 I appium  : channel read: GET /session/f9baec82-e018-4e86-9957-d9af8e56a8b2/source
+03-13 08:29:44.507 31720 31777 I appium  : Source command
+03-13 08:29:44.509 31720 31777 I appium  : Waiting up to 10000ms for the device to idle
+03-13 08:29:44.525  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 08:29:44.525  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 08:29:44.525  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 08:29:44.526  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 08:29:44.526  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:29:44.526  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:29:44.526  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:29:44.526 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c509914 VFED..... ........ 0,0-1080,2496 aid=1073741836}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:98 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 08:29:44.527  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:29:44.527 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{212af6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:107 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 08:29:44.609 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c509914 VFED..... ......ID 0,0-1080,2496 aid=1073741836}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:98 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 08:29:44.609 31836 31836 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{212af6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:107 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 08:29:44.615 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c509914 VFED..... ........ 0,0-1080,2496 aid=1073741836}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:98 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 08:29:44.615 31836 31836 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{212af6 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:107 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 08:29:44.621 31720 31777 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 08:29:44.677  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 08:29:44.679 31720 31777 I appium  : AppiumResponse: {"sessionId":"f9baec82-e018-4e86-9957-d9af8e56a8b2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instacart.client\" class=\"and…
+03-13 08:29:44.680  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 08:29:44.682  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 08:29:44.683  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 08:29:44.695 31720 31777 I appium  : channel read: GET /session/f9baec82-e018-4e86-9957-d9af8e56a8b2/screenshot
+03-13 08:29:44.696 31720 31777 I appium  : CaptureScreenshot command
+03-13 08:29:44.697 31720 31777 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:29:44.697 31720 31777 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:29:44.792   480   480 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 08:29:44.792   480   480 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 08:29:44.793   480   480 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 08:29:44.793  3003  7292 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 08:29:44.794  3003  7292 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 08:29:44.794   480   480 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 08:29:44.794   480   480 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 08:29:44.797  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.instacart.client/com.instacart.client.ICMainActivity$_31836#39107(seamlessTransition:0)
+03-13 08:29:44.797  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 08:29:44.797  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#38778(seamlessTransition:0)
+03-13 08:29:44.797  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 08:29:44.798  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 08:29:44.798  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 08:29:44.799  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.instacart.client/com.instacart.client.ICMainActivity$_31836#39107 at index 1
+03-13 08:29:44.799  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 08:29:44.799  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#38778 at index 3
+03-13 08:29:44.799  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 08:29:44.830   480   489 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 08:29:44.831   480   480 W qdgralloc: Failed to load libubwcp.so
+03-13 08:29:44.879  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 08:29:44.881  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 08:29:44.882  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 08:29:44.882  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 08:29:45.075  1171  1171 D io_stats: !@   8,0 r 3507874 113074644 w 3817233 83029428 d 362273 92622892 f 160463 389117 iot 1584472 0 th 0 0 0 pt 0 inp 0 0 56269.142
+03-13 08:29:45.077  1171  1171 D io_stats: !@ Write_top(KB): nstacart.client(31836) 2352 vendor.samsung.(2059) 12
+03-13 08:29:45.081  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 08:29:45.081  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 08:29:45.083  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 08:29:45.083  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 08:29:45.103  4111  4111 I wpa_supplicant: Heartbeat 9098
+03-13 08:29:45.128  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773404985
+03-13 08:29:45.132 31720 31777 I appium  : AppiumResponse: {"sessionId":"f9baec82-e018-4e86-9957-d9af8e56a8b2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFNlvgbwJ0vTtEmT7vtCWyhrS4Gyo4IoLuC+zLixKC6os+k4c4dxZpy5dxbvqKPD6FVAVlEUGHEEQVAERBAKtKWlQEtXuu9puqTZzv2jkzNNk250SVOe7+fDx+bk5OSX2qY5z3nf3ys…
+03-13 08:29:45.136  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 08:29:45.136  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 309 
+03-13 08:29:45.136  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556749
+03-13 08:29:45.136  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556740
+03-13 08:29:45.136  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 08:29:45.136  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556720
+03-13 08:29:45.136  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 08:29:45.136  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 08:29:45.212  3003  4027 I SemWifiServiceDetector: NSD results: [0, 1, 2, 0, 0, 0, 2, 0, 0] Traff. type 1 Thr 0
+03-13 08:29:45.230  3003  7292 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 08:29:45.231  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 08:29:45.233  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 08:29:45.237  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:29:45.239  3003  5506 D MARs:ActiveTrafficFilter: filter : com.whatsapp(0)
+03-13 08:29:45.239  3003  5506 D FreecessHandler: freeze com.whatsapp(10219) result : 8
+03-13 08:29:45.239  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 08:29:45.240  3003  7292 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 08:29:45.241  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:29:45.241  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:29:45.240  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 08:29:45.242  3003  4002 D BackgroundInstallControlService: Package event received: 0

@@ -1,0 +1,116 @@
+--------- beginning of main
+03-13 10:37:59.818  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 404 / 9 / 3.43 (24) / 324 / -53.0 || 100.0 : 324.00 / 0.5 : 0.29 / G (B) || 357184ff5785: 0.590 / 13.569 / N || N N / 0 0 / Y 2.0 / Y X 0 / 63963884 0 || Invalid
+03-13 10:37:59.820  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 16584, isSameBssidAndFreq true
+03-13 10:37:59.822  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 10:37:59.822  3003  4030 D InsDataManager: Trying to save initial normal data.
+--------- beginning of system
+03-13 10:37:59.822  3003  4047 D SGM:GameManager: identifyGamePackage. com.mta.mobileapp, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 10:37:59.822  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.mta.mobileapp, ret=false
+03-13 10:37:59.822  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 10:37:59.824  3003  4030 D InsDataManager: trimBuffers start.
+03-13 10:37:59.824  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 10:37:59.824  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 10:37:59.824  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -53.0,"latency": 0.5895576183778716,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 404 / 9 / 3.43 (24) / 324 / -53.0 || 100.0 : 324.00 / 0.5 : 0.29 / G (B) || 357184ff5785: 0.590 / 13.569 / N || N N / 0 0 / Y 2.0 / Y X 0 / 63963884 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 10:37:59.886 29466 29556 I appium  : channel read: GET /session/a5365b19-9ae6-4e66-805f-fa6f25ad2805/source
+03-13 10:37:59.887 29466 29556 I appium  : Source command
+03-13 10:37:59.888 29466 29556 I appium  : Waiting up to 10000ms for the device to idle
+03-13 10:37:59.909  1171  1171 D io_stats: !@   8,0 r 3767036 119232992 w 4523824 95129920 d 390133 105788444 f 189560 435876 iot 1848328 0 th 0 0 0 pt 0 inp 0 0 63963.976
+03-13 10:37:59.909  1171  1171 D io_stats: !@ Read_top(KB): m.mta.mobileapp(29659) 16
+03-13 10:37:59.909  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:5(21525) 6584 m.mta.mobileapp(29659) 152 gle.android.gms(27562) 24
+03-13 10:37:59.913  3003  3804 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 10:37:59.922  3003  3804 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 10:37:59.923  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:37:59.923  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:37:59.923  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:37:59.927  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:38:00.008  3003  3003 I EyeComfortSolutionService: action  :  android.intent.action.TIME_TICK
+03-13 10:38:00.008  4205  4841 I DateTimeView: updateAll - getTimeFormat
+03-13 10:38:00.009  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:19
+03-13 10:38:00.009  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 10:38:00.009  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 10:38:00.010  4205  4841 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:America/New_York
+03-13 10:38:00.010  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:38
+03-13 10:38:00.010  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 10:38:00.010  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 10:38:00.011  4205  4205 D FaceWidgetPagesController: onTimeChanged()
+03-13 10:38:00.012  4205  4205 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:10:38, TimeContentDescription:10:38 AM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false)))
+03-13 10:38:00.014  4205  4205 D QSClock : StatusBar clock=10:38 notifyTimeChanged(QSClockBellSound - TimeText:10:38, TimeContentDescription:10:38 AM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false) clockVisibleByPolicy=true, clockVisibleByUser=true, visible=true, parent=android.widget.LinearLayout{878a042 V.E...... ......ID 0,0-100,74 #7f0a069b app:id/left_clock_container} caller=com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.animateShow:52 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.updateStatusBarVisibilitiesInner:230 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment$$ExternalSyntheticLambda1.run:6 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103  
+03-13 10:38:00.015  4205  4205 D QSClockBellTower: Everyone heard the bell. run(currentTime:1773412680012, getTime():Fri Mar 13 10:38:00 EDT 2026, getTimeZone():libcore.util.ZoneInfo[mDstSavings=3600000,mUseDst=true,mDelegate=[id="America/New_York",mRawOffset=-18000000,mEarliestRawOffset=-17762000,transitions=360]])
+03-13 10:38:00.019  4205  4205 D {OngoingChipAdapter}: updateEnableMaxWidth : 311 -:> 308
+03-13 10:38:00.021  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 10:38:00.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773412680
+03-13 10:38:00.134  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 10:38:00.134  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 347 
+03-13 10:38:00.134  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556878
+03-13 10:38:00.134  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556860
+03-13 10:38:00.134  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 10:38:00.134  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556870
+03-13 10:38:00.134  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 10:38:00.134  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 10:38:00.158  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 55:14:3:913919:1939200:672000:959616:1920000:499200:231:231:231
+03-13 10:38:00.171  1992  4982 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 10:38:00.173  1992  4982 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 10:38:00.174  1992  4982 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 10:38:00.175  1992  4982 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 10:38:00.176  1992  4982 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-13 10:38:00.178  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-13 10:38:00.178  1992  4982 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 10:38:00.178  1992  4982 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 10:38:00.178  1992  4982 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 10:38:00.178  1992  4982 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 10:38:00.178  1992  4982 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-13 10:38:00.179  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+03-13 10:38:00.180  6380  7375 I SDHMS:x : SIOP:: AP:387 BAT:347 USB:296 CHG:386 PA:390 CP:384 WIFI:379 BLK:0 SUBBAT:298 LRPTHM:369 SKIN:365 SKINF:365 SKINB:354 LRP2:365 LRF2:365 LRB2:354 AP2:364 CHG2:363 MEM2:365 WIFI2:364 RCV2:364 SPK2:298 UPSPK:375 DNSPK:296 VAP:402 VWIFI:390 AMB2:261 AVGCUR:-166 AVGSYS:179 POWER:-720
+03-13 10:38:00.182  6380  6574 I M0      : limitCPUFreq:: freq = 1939200
+03-13 10:38:00.182  6380  6574 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/6380@3, type = 301993986
+03-13 10:38:00.183  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20374539  [6380 / 3]    HINT :      list : [CPUMaxFreq / 1939200] 
+03-13 10:38:00.510  3003  4027 I SemWifiServiceDetector: Service det. suspended: T / T / 16671
+03-13 10:38:00.550  2007 28658 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 3(3),c:10,b:17,m:13,cl:0,l:1,s:4,l0:688,l1:64,s0:576,s1:18,acl:1,opr:0.17,f(r):97,u(bl):111,if:0,wi:4,si:4,po:0(N:0)
+03-13 10:38:00.710  2007 26129 I sensors-hal: handle_sns_client_event:375, [0][4365] accel_sample [-0.756,  4.960,  7.312] 239881185011665
+03-13 10:38:00.768  3003  4927 D NetdEventListenerService: CSC Feature value: true
+03-13 10:38:00.949 29466 29556 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 10:38:01.082 29466 29556 I appium  : AppiumResponse: {"sessionId":"a5365b19-9ae6-4e66-805f-fa6f25ad2805","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.mta.mobileapp\" class=\"androi…
+03-13 10:38:01.098 29466 29556 I appium  : channel read: GET /session/a5365b19-9ae6-4e66-805f-fa6f25ad2805/screenshot
+03-13 10:38:01.098 29466 29556 I appium  : CaptureScreenshot command
+03-13 10:38:01.100 29466 29556 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:38:01.100 29466 29556 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 10:38:01.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773412681
+03-13 10:38:01.135  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 10:38:01.135  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 347 
+03-13 10:38:01.137  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556878
+03-13 10:38:01.137  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556860
+03-13 10:38:01.137  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 10:38:01.137  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556870
+03-13 10:38:01.137  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 10:38:01.137  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 10:38:01.211 30475 30475 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 10:38:01.212 30475 30475 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 10:38:01.212 30475 30475 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 10:38:01.212  3003  3804 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 10:38:01.213  3003  3804 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 10:38:01.213 30475 30475 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 10:38:01.213 30475 30475 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 10:38:01.217  2105  2921 I SurfaceFlinger: Capture layer list: 	 Wallpaper BBQ wrapper 7_systemlock#107(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_4832#49627(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 I SurfaceFlinger: Capture layer list: 	 Background for bef1861 SurfaceView[com.mta.mobileapp/com.mta.mobileapp.MainActivity]@0#49651(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 I SurfaceFlinger: Capture layer list: 	 bef1861 SurfaceView[com.mta.mobileapp/com.mta.mobileapp.MainActivity]@0(BLAST)#49650(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.mta.mobileapp/com.mta.mobileapp.MainActivity$_29659#49642(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#49617(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 10:38:01.218  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 10:38:01.218  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 10:38:01.218  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer bef1861 SurfaceView[com.mta.mobileapp/com.mta.mobileapp.MainActivity]@0(BLAST)#49650 at index 1
+03-13 10:38:01.219  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.mta.mobileapp/com.mta.mobileapp.MainActivity$_29659#49642 at index 2
+03-13 10:38:01.219  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 10:38:01.219  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#49617 at index 4
+03-13 10:38:01.219  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 10:38:01.254 30475 30493 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 10:38:01.255 30475 30475 W qdgralloc: Failed to load libubwcp.so
+03-13 10:38:01.436  3003  4927 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 10:38:01.449  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:38:01.451  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:38:01.452  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:38:01.452  3003  7124 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 10:38:01.452  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 10:38:01.595 29466 29556 I appium  : AppiumResponse: {"sessionId":"a5365b19-9ae6-4e66-805f-fa6f25ad2805","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1LjGzJWS28IvYzd76zHud0n3770bZputvd/4VfSMDkThAj4FqWEL+5gAELiRETRowQM4QYM2FwsSxbIASSsRgwYwDCxr4/+Pe1jR/9PPXIysrHfu+I+AexIzJ21t6ZWXWyTledriW11Kc…

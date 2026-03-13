@@ -36,7 +36,7 @@ options.load_capabilities({
 
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
-time.sleep(7)
+time.sleep(10)
 
 def tap(x, y, delay=2):
     actions = ActionChains(driver)
@@ -50,12 +50,12 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(550, 1400, 10)
+tap(550, 1550, 10)
 tap(550, 2400, 10)
 tap(530, 2340, 10)
 tap(550, 2350, 10)
 tap(750, 2450, 10)
-tap(550, 2060, 3)
+#tap(550, 2060, 3)
 
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))

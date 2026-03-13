@@ -1,0 +1,61 @@
+--------- beginning of main
+03-13 08:33:50.702  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 08:33:50.702  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 08:33:50.702  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 08:33:50.703  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 08:33:50.706  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:33:50.707  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:33:50.708  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:33:50.708  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 08:33:50.823 10937 10968 I appium  : channel read: GET /session/a7c4d195-93ac-4266-8ce1-1084ecc6ae89/source
+03-13 08:33:50.825 10937 10968 I appium  : Source command
+03-13 08:33:50.827 10937 10968 I appium  : Waiting up to 10000ms for the device to idle
+03-13 08:33:50.843  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,-1.484,8.815,4.336, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 08:33:50.859 11030 11030 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c9d198 VFED..... ........ 0,0-1080,2496 aid=1073741832}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:98 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 08:33:50.859 11030 11030 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{72efbc9 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:107 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 08:33:50.871  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-13 08:33:50.879  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 08:33:50.919 10937 10968 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+--------- beginning of system
+03-13 08:33:50.953  3003  4333 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 08:33:50.961  3003  4415 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 08:33:50.963  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:33:50.963  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:33:50.963  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:33:50.963  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 08:33:50.978 10937 10968 I appium  : AppiumResponse: {"sessionId":"a7c4d195-93ac-4266-8ce1-1084ecc6ae89","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instacart.client\" class=\"and…
+03-13 08:33:50.991 10937 10968 I appium  : channel read: GET /session/a7c4d195-93ac-4266-8ce1-1084ecc6ae89/screenshot
+03-13 08:33:50.992 10937 10968 I appium  : CaptureScreenshot command
+03-13 08:33:50.993 10937 10968 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:33:50.993 10937 10968 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 08:33:51.079 12414 12414 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 08:33:51.080 12414 12414 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 08:33:51.081 12414 12414 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 08:33:51.081  3003  6828 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 08:33:51.081  3003  6828 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 08:33:51.081 12414 12414 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 08:33:51.081 12414 12414 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 08:33:51.087  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.instacart.client/com.instacart.client.ICMainActivity$_11030#39702(seamlessTransition:0)
+03-13 08:33:51.087  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 08:33:51.087  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#39580(seamlessTransition:0)
+03-13 08:33:51.087  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 08:33:51.087  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 08:33:51.088  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 08:33:51.089  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.instacart.client/com.instacart.client.ICMainActivity$_11030#39702 at index 1
+03-13 08:33:51.089  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 08:33:51.089  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#39580 at index 3
+03-13 08:33:51.089  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 08:33:51.126 12414 12419 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 08:33:51.127 12414 12414 W qdgralloc: Failed to load libubwcp.so
+03-13 08:33:51.127  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773405231
+03-13 08:33:51.133  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 08:33:51.133  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 326 
+03-13 08:33:51.133  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556753
+03-13 08:33:51.133  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556740
+03-13 08:33:51.133  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556690
+03-13 08:33:51.133  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556750
+03-13 08:33:51.134  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 08:33:51.134  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 08:33:51.295  1171  1171 D io_stats: !@   8,0 r 3514870 113249784 w 3850781 83332448 d 362726 92872816 f 161262 390571 iot 1596452 0 th 0 0 0 pt 0 inp 0 0 56515.362
+03-13 08:33:51.446 10937 10968 I appium  : AppiumResponse: {"sessionId":"a7c4d195-93ac-4266-8ce1-1084ecc6ae89","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fFT1vT/+1yyZTCaTzGQZspKQhZ0sQNhBRNyhgqi0agVUBLdfe93aW2tbe3t7b3sVa0u1KsiiUlG0iuICKvsethCSAIHs+z6TZSaznd8f+c5pJjPZyDKZ8Ho+Hj7MnDlz5jNhksx5nff…
+03-13 08:33:51.472  2007 10398 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 4(4),c:235,b:10,m:13,cl:3,l:1,s:5,l0:928,l1:64,s0:613,s1:18,acl:1,opr:0.86,f(r):97,u(bl):111,if:0,wi:4,si:5,po:127(N:0)
