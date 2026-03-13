@@ -1,0 +1,90 @@
+--------- beginning of main
+03-12 22:05:29.007  7698  7725 I appium  : channel read: GET /session/07969bd2-db68-46a2-b571-6dac6bc7bb35/source
+03-12 22:05:29.010  7698  7725 I appium  : Source command
+03-12 22:05:29.012  7698  7725 I appium  : Waiting up to 10000ms for the device to idle
+03-12 22:05:29.022 15167 15296 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4744)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5469)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5436)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5410)] [db.p.a(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:11)] [ab.j.h(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:20)] [ab.h.c(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:73)] [za.b$a.invokeSuspend(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:44)] [za.b$a.invoke(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:2)] [za.b$a.invoke(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:1)] [sd2.d.o(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:3)] [sd2.d.i(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:1)] [sd2.b.i(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:61)] [td2.d$b.invokeSuspend(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:35)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:12)] [pd2.x0.run(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:129)] [db.x$a.run(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:3)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+--------- beginning of system
+03-12 22:05:29.024  3003  3613 I JobScheduler: maybeQueueReadyJobsForExecutionLocked: [BatchNetworkJob] 1 batched network jobs meet requirement for 110
+03-12 22:05:29.024  3003  4931 D ConnectivityService: requestNetwork for uid/pid:10364/15167 activeRequest: null callbackRequest: 5120 [NetworkRequest [ REQUEST id=5121, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10364 RequestorUid: 10364 RequestorPkg: com.adidas.app UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+03-12 22:05:29.030  3003  3613 I ActivityManager: Changes in 99116 19 to 8, 0 to 128
+03-12 22:05:29.030  3003  3613 I ActivityManager: Changes in 10364 19 to 8, 0 to 128
+03-12 22:05:29.032  2452  8032 I CameraService: onUidStateChanged: uid=10364, procState is changed. (19 -> 8)
+03-12 22:05:29.033  5490  5568 I RequestManager_FLP: onOpChanged, op=0 / packageName=com.adidas.app
+03-12 22:05:29.036  3003  3941 D ConnectivityService:    accepting network in place of null for NetworkRequest [ REQUEST id=5121, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10364 RequestorUid: 10364 RequestorPkg: com.adidas.app UnderlyingNetworks: Null] ]
+03-12 22:05:29.038  3003  3941 D ConnectivityService: Rematched networks [computed 0ms] [applied 1ms] [issued 1]
+03-12 22:05:29.038  3003  3941 D ConnectivityService: NetworkReassignment :
+03-12 22:05:29.038  3003  3941 D ConnectivityService:   5121 : null → 110
+03-12 22:05:29.039  3003  3922 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=5121, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10364 RequestorUid: 10364 RequestorPkg: com.adidas.app UnderlyingNetworks: Null] ]
+03-12 22:05:29.039  3003  3922 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=5121, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10364 RequestorUid: 10364 RequestorPkg: com.adidas.app UnderlyingNetworks: Null] ]
+03-12 22:05:29.039  3003  3922 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=5121, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10364 RequestorUid: 10364 RequestorPkg: com.adidas.app UnderlyingNetworks: Null] ]
+03-12 22:05:29.039  3003  3922 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=5121, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10364 RequestorUid: 10364 RequestorPkg: com.adidas.app UnderlyingNetworks: Null] ]
+03-12 22:05:29.043 15167 15167 W JobService: onNetworkChanged() not implemented in androidx.work.impl.background.systemjob.SystemJobService. Must override in a subclass.
+03-12 22:05:29.093  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-12 22:05:29.101  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 22:05:29.122  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10364(com.adidas.app), SUCCESS, 68ms
+03-12 22:05:29.160  7698  7725 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 22:05:29.182 20399 20558 W Firestore: (25.1.4) [WatchStream]: (8113091) Stream closed with status: Status{code=UNAVAILABLE, description=Unable to resolve host firestore.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+03-12 22:05:29.182 20399 20558 W Firestore: 	at io.grpc.internal.DnsNameResolver.resolveAddresses(Unknown Source:63)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at io.grpc.internal.DnsNameResolver.doResolve(Unknown Source:6)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at io.grpc.internal.DnsNameResolver$Resolve.run(Unknown Source:108)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at java.lang.Thread.run(Thread.java:1564)
+03-12 22:05:29.182 20399 20558 W Firestore: Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname
+03-12 22:05:29.182 20399 20558 W Firestore: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:156)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at java.net.InetAddress.getAllByName(InetAddress.java:1152)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at io.grpc.internal.DnsNameResolver$JdkAddressResolver.resolveAddress(Unknown Source:0)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at io.grpc.internal.DnsNameResolver.resolveAddresses(Unknown Source:5)
+03-12 22:05:29.182 20399 20558 W Firestore: 	... 5 more
+03-12 22:05:29.182 20399 20558 W Firestore: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:222)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at libcore.io.ForwardingOs.android_getaddrinfo(ForwardingOs.java:134)
+03-12 22:05:29.182 20399 20558 W Firestore: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:135)
+03-12 22:05:29.182 20399 20558 W Firestore: 	... 9 more
+03-12 22:05:29.182 20399 20558 W Firestore: }.
+03-12 22:05:29.224  4111  4111 I wpa_supplicant: Heartbeat 6684
+03-12 22:05:29.231  7698  7725 I appium  : AppiumResponse: {"sessionId":"07969bd2-db68-46a2-b571-6dac6bc7bb35","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.coulombtech\" class=\"android.…
+03-12 22:05:29.249  7698  7725 I appium  : channel read: GET /session/07969bd2-db68-46a2-b571-6dac6bc7bb35/screenshot
+03-12 22:05:29.250  7698  7725 I appium  : CaptureScreenshot command
+03-12 22:05:29.252  7698  7725 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 22:05:29.252  7698  7725 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 22:05:29.309  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 6:0:2:782591:1708800:0:821760:2572800:0:269:422:0
+03-12 22:05:29.346  8433  8433 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 22:05:29.346  8433  8433 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 22:05:29.347  8433  8433 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 22:05:29.347  3003  4931 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 22:05:29.347  3003  4931 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 22:05:29.347  8433  8433 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 22:05:29.348  8433  8433 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 22:05:29.350  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.coulombtech/com.cp.ui.activity.map.MapActivity$_7787#15676(seamlessTransition:0)
+03-12 22:05:29.350  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 22:05:29.350  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#15629(seamlessTransition:0)
+03-12 22:05:29.350  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 22:05:29.351  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 22:05:29.351  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 22:05:29.351  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.coulombtech/com.cp.ui.activity.map.MapActivity$_7787#15676 at index 1
+03-12 22:05:29.352  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 22:05:29.352  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#15629 at index 3
+03-12 22:05:29.352  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 22:05:29.396  8433  8438 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 22:05:29.397  8433  8433 W qdgralloc: Failed to load libubwcp.so
+03-12 22:05:29.492  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-12 22:05:29.492  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-12 22:05:29.492  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-12 22:05:29.494  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-12 22:05:29.498  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 22:05:29.498  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 22:05:29.500  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 22:05:29.500  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 22:05:29.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773367529
+03-12 22:05:29.513  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 22:05:29.513  2097  2125 D HeatmapThread: !@ batteryLevel : 90  batteryTemperature : 324 
+03-12 22:05:29.514  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556125
+03-12 22:05:29.514  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556102
+03-12 22:05:29.514  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 22:05:29.514  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 22:05:29.514  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 22:05:29.632  7698  7725 I appium  : AppiumResponse: {"sessionId":"07969bd2-db68-46a2-b571-6dac6bc7bb35","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFPVGwfwb3bSvfekdEDZe28ZslH0J0MFAVmyNwIKgiBDUHEAIop7Acree28o0EJ3S/ceaTN/f9SEpknapE0zmvfzPDzK5ebm3Jt7zz33vee8h+EZ1k0OQgixQvYCpqmLYBJFQlm9bNe…

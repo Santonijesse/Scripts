@@ -1,0 +1,33 @@
+--------- beginning of system
+03-13 01:01:05.899  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 18:0:0:741119:902400:672000:823296:2707200:499200:231:231:231
+--------- beginning of main
+03-13 01:01:05.901 12202 12235 I appium  : channel read: GET /session/845307af-184e-470c-93ee-523bbbd9721a/source
+03-13 01:01:05.902 12202 12235 I appium  : Source command
+03-13 01:01:05.904 12202 12235 I appium  : Waiting up to 10000ms for the device to idle
+03-13 01:01:06.006 12202 12235 I appium  : AppiumResponse: {"sessionId":"845307af-184e-470c-93ee-523bbbd9721a","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dd.doordash\" class=\"android.…
+03-13 01:01:06.015 12202 12235 I appium  : channel read: GET /session/845307af-184e-470c-93ee-523bbbd9721a/screenshot
+03-13 01:01:06.015 12202 12235 I appium  : CaptureScreenshot command
+03-13 01:01:06.016 12202 12235 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:01:06.016 12202 12235 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:01:06.119 13460 13460 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 01:01:06.119 13460 13460 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 01:01:06.119 13460 13460 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 01:01:06.119  3003  4415 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 01:01:06.119  3003  4415 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 01:01:06.119 13460 13460 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 01:01:06.119 13460 13460 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 01:01:06.121  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_12374#28501(seamlessTransition:0)
+03-13 01:01:06.122  2105  2836 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#28519(seamlessTransition:0)
+03-13 01:01:06.122  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 01:01:06.122  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28432(seamlessTransition:0)
+03-13 01:01:06.122  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 01:01:06.122  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 01:01:06.123  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 01:01:06.123  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_12374#28501 at index 1
+03-13 01:01:06.123  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#28519 at index 2
+03-13 01:01:06.123  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 01:01:06.123  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28432 at index 4
+03-13 01:01:06.123  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 01:01:06.143 13460 13468 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 01:01:06.144 13460 13460 W qdgralloc: Failed to load libubwcp.so
+03-13 01:01:06.335 12202 12235 I appium  : AppiumResponse: {"sessionId":"845307af-184e-470c-93ee-523bbbd9721a","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFNn+j7wOwlhl0VAdkFQURQVBfdd61Kpa7V12rq0Vae1jv3aOou/dsZ21k6rTnet+zba2kXrgtVqwd0KKoKgIiCL7PsaEpLz+4MrZ4hJEAQC0ftzXXNNSQ4nbwBPzrnP8z6vRBAEAUR…

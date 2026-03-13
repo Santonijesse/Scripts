@@ -50,9 +50,9 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(5)
 
-tap(550, 2190, 3)
+tap(550, 2090, 3)
 tap(540, 2330, 3)
-tap(530, 1835, 3)
+tap(530, 2335, 3)
 tap(460, 340, 3)
 tap(100, 2420, 3)
 tap(1020, 2010, 3)

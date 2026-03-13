@@ -1,0 +1,63 @@
+--------- beginning of main
+03-13 00:34:59.833  9546  9576 I appium  : channel read: GET /session/da791967-3323-49a7-a89e-689c79e165dc/source
+03-13 00:34:59.834  9546  9576 I appium  : Source command
+03-13 00:34:59.836  9546  9576 I appium  : Waiting up to 10000ms for the device to idle
+03-13 00:34:59.951  9546  9576 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+--------- beginning of system
+03-13 00:35:00.006  3003  3003 I EyeComfortSolutionService: action  :  android.intent.action.TIME_TICK
+03-13 00:35:00.007  9546  9576 I appium  : AppiumResponse: {"sessionId":"da791967-3323-49a7-a89e-689c79e165dc","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dominospizza\" class=\"android…
+03-13 00:35:00.007  4205  4841 I DateTimeView: updateAll - getTimeFormat
+03-13 00:35:00.011  4205  4841 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:America/New_York
+03-13 00:35:00.013  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:19
+03-13 00:35:00.013  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 00:35:00.013  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 00:35:00.014  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:38
+03-13 00:35:00.014  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 00:35:00.014  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 00:35:00.015  4205  4205 D FaceWidgetPagesController: onTimeChanged()
+03-13 00:35:00.018  4205  4205 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:12:35, TimeContentDescription:12:35 AM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false)))
+03-13 00:35:00.019  9546  9576 I appium  : channel read: GET /session/da791967-3323-49a7-a89e-689c79e165dc/screenshot
+03-13 00:35:00.020  9546  9576 I appium  : CaptureScreenshot command
+03-13 00:35:00.021  9546  9576 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:35:00.021  9546  9576 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:35:00.021  4205  4205 D QSClock : StatusBar clock=12:35 notifyTimeChanged(QSClockBellSound - TimeText:12:35, TimeContentDescription:12:35 AM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false) clockVisibleByPolicy=true, clockVisibleByUser=true, visible=true, parent=android.widget.LinearLayout{878a042 V.E...... ......ID 0,0-101,74 #7f0a069b app:id/left_clock_container} caller=com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.animateShow:52 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.updateStatusBarVisibilitiesInner:230 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment$$ExternalSyntheticLambda1.run:6 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103  
+03-13 00:35:00.024  4205  4205 D QSClockBellTower: Everyone heard the bell. run(currentTime:1773376500017, getTime():Fri Mar 13 00:35:00 EDT 2026, getTimeZone():libcore.util.ZoneInfo[mDstSavings=3600000,mUseDst=true,mDelegate=[id="America/New_York",mRawOffset=-18000000,mEarliestRawOffset=-17762000,transitions=360]])
+03-13 00:35:00.036  4205  4205 D {OngoingChipAdapter}: updateEnableMaxWidth : 310 -:> 311
+03-13 00:35:00.044  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 00:35:00.095  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 52:3:5:1036799:3398400:0:1079039:2707200:0:251:422:0
+03-13 00:35:00.108  1171  1171 D io_stats: !@   8,0 r 2854934 94757928 w 2863660 67275040 d 285827 75094956 f 117710 305514 iot 1215964 0 th 0 0 0 pt 0 inp 0 0 45180.793
+03-13 00:35:00.109  1171  1171 D io_stats: !@ Read_top(KB): om.dominospizza(9686) 48 .gms.persistent(16161) 4
+03-13 00:35:00.109  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:2(26739) 624 f2fs_ckpt-254:6(5380) 520 om.dominospizza(9686) 424
+03-13 00:35:00.160 10403 10403 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:35:00.161 10403 10403 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:35:00.161 10403 10403 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 00:35:00.161  3003  6500 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 00:35:00.161  3003  6500 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:35:00.161 10403 10403 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:35:00.162 10403 10403 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:35:00.166  2105  2921 I SurfaceFlinger: Capture layer list: 	 Background for e544463 SurfaceView[com.dominospizza/com.dominos.dommain.presentation.HomeActivity]@0#25734(seamlessTransition:0)
+03-13 00:35:00.166  2105  2921 I SurfaceFlinger: Capture layer list: 	 e544463 SurfaceView[com.dominospizza/com.dominos.dommain.presentation.HomeActivity]@0(BLAST)#25733(seamlessTransition:0)
+03-13 00:35:00.166  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.dominospizza/com.dominos.dommain.presentation.HomeActivity$_9686#25728(seamlessTransition:0)
+03-13 00:35:00.167  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:35:00.167  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#25686(seamlessTransition:0)
+03-13 00:35:00.167  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:35:00.167  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:35:00.167  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:35:00.168  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer e544463 SurfaceView[com.dominospizza/com.dominos.dommain.presentation.HomeActivity]@0(BLAST)#25733 at index 1
+03-13 00:35:00.168  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.dominospizza/com.dominos.dommain.presentation.HomeActivity$_9686#25728 at index 2
+03-13 00:35:00.168  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 00:35:00.168  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#25686 at index 4
+03-13 00:35:00.169  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 00:35:00.197 10403 10409 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:35:00.198 10403 10403 W qdgralloc: Failed to load libubwcp.so
+03-13 00:35:00.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773376500
+03-13 00:35:00.517  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 00:35:00.517  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 299 
+03-13 00:35:00.518  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556275
+03-13 00:35:00.518  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556252
+03-13 00:35:00.519  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 00:35:00.520  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556252
+03-13 00:35:00.520  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 00:35:00.521  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 00:35:00.529  9546  9576 I appium  : AppiumResponse: {"sessionId":"da791967-3323-49a7-a89e-689c79e165dc","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFRl2j7w60wvmbRJMumFQCAhoYOAdCsgrkoT1BUUWdfVXbe47uqq67r77u91m+/adVXsFMUCuBYEBEWUGiCFlgbpPZlMnzm/PyYZM5lJI42B6/v58IeTmcMzwziZc537uW8BD34pgoi…
+03-13 00:35:00.578  4111  4111 I wpa_supplicant: Heartbeat 7581

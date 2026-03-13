@@ -1,0 +1,117 @@
+--------- beginning of main
+03-12 23:17:45.844 31278 31305 I appium  : channel read: GET /session/39d59f7b-c261-49b9-b6d7-9cd94e33e203/source
+03-12 23:17:45.846 31278 31305 I appium  : Source command
+03-12 23:17:45.848 31278 31305 I appium  : Waiting up to 10000ms for the device to idle
+03-12 23:17:45.936 31346 31346 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{9cdecd5 VFED..... ........ 0,0-1080,149 aid=1073741826}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 com.chipotle.ig0.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:95 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 23:17:45.936 31346 31346 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{873e717 V.ED..... ........ 0,0-0,0}, caller=com.chipotle.ig0.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-12 23:17:45.942  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-12 23:17:45.943  2105  2105 I SurfaceFlinger: SFWD update time=40546628135781
+03-12 23:17:45.950  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 23:17:46.008 31278 31305 I appium  : AppiumResponse: {"sessionId":"39d59f7b-c261-49b9-b6d7-9cd94e33e203","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.chipotle.ordering\" class=\"an…
+03-12 23:17:46.018 31278 31305 I appium  : channel read: GET /session/39d59f7b-c261-49b9-b6d7-9cd94e33e203/screenshot
+03-12 23:17:46.018 31278 31305 I appium  : CaptureScreenshot command
+03-12 23:17:46.019 31278 31305 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:17:46.019 31278 31305 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+--------- beginning of system
+03-12 23:17:46.095  1171  1171 D io_stats: !@   8,0 r 2726874 92076768 w 2548284 62800416 d 264964 69666284 f 102046 276744 iot 1079520 0 th 0 0 0 pt 0 inp 0 0 40546.780
+03-12 23:17:46.110   402   402 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:17:46.110   402   402 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:17:46.110   402   402 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:17:46.110  3003  6501 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 23:17:46.110  3003  6501 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:17:46.110   402   402 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:17:46.110   402   402 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:17:46.113  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.chipotle.ordering/com.chipotle.ordering.ui.activity.main.MainActivity$_31346#19466(seamlessTransition:0)
+03-12 23:17:46.113  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:17:46.113  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19428(seamlessTransition:0)
+03-12 23:17:46.113  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:17:46.114  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:17:46.114  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:17:46.114  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.chipotle.ordering/com.chipotle.ordering.ui.activity.main.MainActivity$_31346#19466 at index 1
+03-12 23:17:46.114  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 23:17:46.115  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19428 at index 3
+03-12 23:17:46.115  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 23:17:46.151   402   407 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:17:46.152   402   402 W qdgralloc: Failed to load libubwcp.so
+03-12 23:17:46.236  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [110 WIFI]
+03-12 23:17:46.238  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 9863, isSameBssidAndFreq true
+03-12 23:17:46.238  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 1269 / 4 / 1.09 (98) / 360 / -64.0 || 100.0 : 360.00 / 0.5 : 0.92 / 0.55 : 0.00 / G (G) || 357184ff5785: 0.094 / 84.701 / N || N N / 0 0 / Y 2.0 / Y X 0 / 40546923 0 || Invalid
+03-12 23:17:46.239  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-12 23:17:46.239  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-12 23:17:46.240  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 81
+03-12 23:17:46.240  3003  4030 D InsDataManager: trimBuffers start.
+03-12 23:17:46.240  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 78
+03-12 23:17:46.240  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-12 23:17:46.240  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-12 23:17:46.240  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-12 23:17:46.240  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-12 23:17:46.240  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 110(valid: true/captive: false)
+03-12 23:17:46.240  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -64.0,"latency": 0.09444989020641194,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 1269 / 4 / 1.09 (98) / 360 / -64.0 || 100.0 : 360.00 / 0.5 : 0.92 / 0.55 : 0.00 / G (G) || 357184ff5785: 0.094 / 84.701 / N || N N / 0 0 / Y 2.0 / Y X 0 / 40546923 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-12 23:17:46.241  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=2898Kbps LinkDnBandwidth>=70691Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.*.*.171, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -64, Link speed: 360Mbps, Tx Link speed: 360Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 720Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -64 AdminUids: [1000] SSID: "micasa" UnderlyingNetworks: Null]
+03-12 23:17:46.241  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-12 23:17:46.241  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-12 23:17:46.241  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-12 23:17:46.241  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-12 23:17:46.241  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-12 23:17:46.241  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-12 23:17:46.241  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-12 23:17:46.242  3003  5535 V WifiProfileShare.Caster: update wips network, size: 0
+03-12 23:17:46.242  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-12 23:17:46.242  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-12 23:17:46.243  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-12 23:17:46.243  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-12 23:17:46.243  3003  5535 I WifiProfileShare.Caster: current network type: 0, score: [30, 30, 30]
+03-12 23:17:46.243  3003  5535 V WifiProfileShare.Cache: update network score c0:94:35:**:**:ff
+03-12 23:17:46.244  3003  5535 D WifiProfileShare.ScanMatcher: getMcfDataList size:2
+03-12 23:17:46.244  3003  5535 I WifiProfileShare.Caster: qos data was updated , before:type:QOS, pBssid:e5:b1:3f, qosData:7c after:type:QOS, pBssid:e5:b1:3f, qosData:7c
+03-12 23:17:46.246  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-12 23:17:46.246  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-12 23:17:46.246  3003  5535 D WifiProfileShare.McfCast: updateQoSData ignored, same contents
+03-12 23:17:46.246  3003  5535 D WifiProfileShare.MCF: success update QosData !
+03-12 23:17:46.246  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-12 23:17:46.246  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-12 23:17:46.246  3003  5535 D WifiProfileShare.McfCast: -ME--- updatePasswordDate pwdData size:2
+03-12 23:17:46.248  3003  4050 D SemApeService: Deducted link capacity (M: R=503 T=251) RSSI=-64
+03-12 23:17:46.248  3003  4050 D SemApeService: Deducted link capacity (M: R=503 T=251) on (wlan0) GoogleAPI(M: R=70 T=2) RSSI=-64 isDefault=false isMlo=false
+03-12 23:17:46.251  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-12 23:17:46.251  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-12 23:17:46.252  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-12 23:17:46.252  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-12 23:17:46.252  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-12 23:17:46.253  4600  5502 D txpwrJni: sendNetworkInfo start
+03-12 23:17:46.253  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-12 23:17:46.254  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-12 23:17:46.256  4205  4423 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-12 23:17:46.256  4205  4423 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-12 23:17:46.258  3003  4047 D SGM:GameManager: identifyGamePackage. com.chipotle.ordering, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-12 23:17:46.258  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.chipotle.ordering, ret=false
+03-12 23:17:46.258  3003  4047 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:2167 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager.iwh_predict_action:8 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager.-$$Nest$miwh_predict_action:1 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager$IntelligentConnectionManagerHandler.handleMessage:762 android.os.Handler.dispatchMessage:110 
+03-12 23:17:46.258  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:70.691Uplink: 2.898
+03-12 23:17:46.261 16161 10960 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-12 23:17:46.262 16161 10960 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-12 23:17:46.262  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-12 23:17:46.263  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-12 23:17:46.264  4184  5203 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-12 23:17:46.264  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 23:17:46.266  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 23:17:46.274  1938  1938 D Zygote  : Forked child process 410
+03-12 23:17:46.274  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 3
+03-12 23:17:46.275  3003  3084 I ActivityManager: Start proc 410:com.samsung.android.wifi.intelligence:iwhInfService/1000 for service {com.samsung.android.wifi.intelligence/com.samsung.android.wifi.intelligence.iwh.IwhInfService}
+03-12 23:17:46.275  3003  3084 I ActivityManager: ProcessObserver broadcast disabled
+03-12 23:17:46.283  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 23:17:46.304   410   410 I e:iwhInfService: Using CollectorTypeCMC GC.
+03-12 23:17:46.327  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 23:17:46.330   410   418 I org.tensorflow.lite.h: Loaded native library: tensorflowlite_jni
+03-12 23:17:46.330   410   418 I org.tensorflow.lite.h: Didn't load native library: tensorflowlite_jni_gms_client
+03-12 23:17:46.331   410   418 I tflite  : Initialized TensorFlow Lite runtime.
+03-12 23:17:46.332 31278 31305 I appium  : AppiumResponse: {"sessionId":"39d59f7b-c261-49b9-b6d7-9cd94e33e203","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13XFR3vj/+11Ta0AQEpAoKiNIUS8AaS4yamOym3iSWuKZnSxL3t8ne+733l71tf0nczbpxjRpL1Bs1bnSjUdRoYiyoiBVFpUiTXgYY2rTz+4PvnMswIAMMDKOv5+PBI5kzZ875nBFmznm…
+03-12 23:17:46.366   410   418 I tflite  : Created TensorFlow Lite delegate for select TF ops.
+03-12 23:17:46.369   410   418 I tflite  : TfLiteFlexDelegate delegate: 0 nodes delegated out of 20 nodes with 0 partitions.
+03-12 23:17:46.369   410   418 I tflite  : Replacing 12 node(s) with delegate (TfLiteFlexDelegate) node, yielding 3 partitions.
+03-12 23:17:46.380   410   418 I tflite  : Replacing 2 node(s) with delegate (TfLiteFlexDelegate) node, yielding 2 partitions.
+03-12 23:17:46.380   410   418 I tflite  : Replacing 6 node(s) with delegate (TfLiteFlexDelegate) node, yielding 7 partitions.
+03-12 23:17:46.380   410   418 I tflite  : Replacing 2 node(s) with delegate (TfLiteFlexDelegate) node, yielding 5 partitions.
+03-12 23:17:46.382   410   418 W libc    : Access denied finding property "ro.mediatek.platform"
+03-12 23:17:46.385   410   418 I tflite  : Created TensorFlow Lite XNNPACK delegate for CPU.
+03-12 23:17:46.390   410   418 I IwhInfService: IWH model: GmIhyTA2Yj / 0 /  T  | 169 / 2 / 1
+03-12 23:17:46.391   410   418 I IwhInfService: Inferenced state & reuslt : [0.45, 0.5] | false

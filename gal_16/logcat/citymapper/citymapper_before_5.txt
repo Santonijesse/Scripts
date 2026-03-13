@@ -1,0 +1,31 @@
+--------- beginning of main
+03-12 23:34:25.719 31626 31655 I appium  : channel read: GET /session/170301fb-06e7-45cb-b3c7-2f4c9f2252e4/source
+03-12 23:34:25.720 31626 31655 I appium  : Source command
+03-12 23:34:25.721 31626 31655 I appium  : Waiting up to 10000ms for the device to idle
+03-12 23:34:25.884 31626 31655 I appium  : AppiumResponse: {"sessionId":"170301fb-06e7-45cb-b3c7-2f4c9f2252e4","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.citymapper.app.release\" class…
+03-12 23:34:25.895 31626 31655 I appium  : channel read: GET /session/170301fb-06e7-45cb-b3c7-2f4c9f2252e4/screenshot
+03-12 23:34:25.895 31626 31655 I appium  : CaptureScreenshot command
+03-12 23:34:25.896 31626 31655 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:34:25.896 31626 31655 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:34:25.985   719   719 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:34:25.985   719   719 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:34:25.986   719   719 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:34:25.986  3003  3595 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-12 23:34:25.986  3003  3595 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:34:25.986   719   719 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:34:25.986   719   719 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:34:25.988  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.citymapper.app.release/com.citymapper.app.home.HomeActivity2$_31708#20949(seamlessTransition:0)
+03-12 23:34:25.988  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:34:25.988  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#20874(seamlessTransition:0)
+03-12 23:34:25.988  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:34:25.988  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:34:25.989  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:34:25.989  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.citymapper.app.release/com.citymapper.app.home.HomeActivity2$_31708#20949 at index 1
+03-12 23:34:25.989  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 23:34:25.989  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#20874 at index 3
+03-12 23:34:25.989  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 23:34:26.020   719   724 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:34:26.021   719   719 W qdgralloc: Failed to load libubwcp.so
+03-12 23:34:26.085  3003  4031 I SemWifiCtlFeatureMediator: Trf ratio: 0.2% (0.57 / 310.96) (TWT/S-PM: 1.0) v ( NR) || Query: TWT/S-PM false (false) 1.0 1.0 1.0 / BW false (false) 1.0 1.0 1.0 / NSS false (false) 0.9 0.5 1.0 
+03-12 23:34:26.224 31626 31655 I appium  : AppiumResponse: {"sessionId":"170301fb-06e7-45cb-b3c7-2f4c9f2252e4","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1pdBzVuff737uqetBsyYMGW57xbBzPZjKDSTBgCIFAiEMOgZNzkpyb6az35Jy7zlr33G/3/fQmZACyEiDgMASDAQOeAGNmPGPwiG3JkmVrsC2ppVZPVXvv+6GGrtas7mp1q7t+a9lqVXd…

@@ -1,0 +1,50 @@
+--------- beginning of main
+03-12 23:22:44.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773372164
+03-12 23:22:44.517  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 23:22:44.517  2097  2125 D HeatmapThread: !@ batteryLevel : 96  batteryTemperature : 321 
+03-12 23:22:44.517  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556202
+03-12 23:22:44.518  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556192
+03-12 23:22:44.518  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 23:22:44.518  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556192
+03-12 23:22:44.518  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 23:22:44.518  2097  2125 E HeatmapThread: !@ CAM is Working
+03-12 23:22:44.604 10907 10937 I appium  : channel read: GET /session/ef9ccc10-58be-444e-b5f2-f445b22ba73a/source
+03-12 23:22:44.606 10907 10937 I appium  : Source command
+03-12 23:22:44.608 10907 10937 I appium  : Waiting up to 10000ms for the device to idle
+03-12 23:22:44.728 16161 29872 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-12 23:22:44.763 10988 10988 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.f{6b52e34 VFED..... .F...... 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:112 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 23:22:44.763 10988 10988 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{641a65f V.ED..... ........ 0,0-0,0}, caller=p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:121 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+--------- beginning of system
+03-12 23:22:44.780  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 6:0:0:743423:2630400:672000:707328:2246400:499200:231:231:231
+03-12 23:22:44.813 10907 10937 I appium  : AppiumResponse: {"sessionId":"ef9ccc10-58be-444e-b5f2-f445b22ba73a","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"sp0n.citizen\" class=\"android.wid…
+03-12 23:22:44.820 10907 10937 I appium  : channel read: GET /session/ef9ccc10-58be-444e-b5f2-f445b22ba73a/screenshot
+03-12 23:22:44.820 10907 10937 I appium  : CaptureScreenshot command
+03-12 23:22:44.821 10907 10937 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:22:44.821 10907 10937 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:22:44.913 11559 11559 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:22:44.913 11559 11559 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:22:44.913 11559 11559 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:22:44.913  3003  4866 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 23:22:44.914  3003  4866 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:22:44.914 11559 11559 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:22:44.914 11559 11559 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:22:44.917  2105  2922 I SurfaceFlinger: Capture layer list: 	 sp0n.citizen/sp0n.citizen.onboarding.modules.auth.AuthActivity$_10988#19937(seamlessTransition:0)
+03-12 23:22:44.917  2105  2922 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#19944(seamlessTransition:0)
+03-12 23:22:44.917  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:22:44.917  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19886(seamlessTransition:0)
+03-12 23:22:44.917  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:22:44.918  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:22:44.919  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:22:44.919  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer sp0n.citizen/sp0n.citizen.onboarding.modules.auth.AuthActivity$_10988#19937 at index 1
+03-12 23:22:44.919  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#19944 at index 2
+03-12 23:22:44.919  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 23:22:44.919  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19886 at index 4
+03-12 23:22:44.920  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 23:22:44.944 10988 10988 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.f{6b52e34 VFED..... .F...... 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:112 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 23:22:44.944 10988 10988 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{641a65f V.ED..... ........ 0,0-0,0}, caller=p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:121 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-12 23:22:44.957 11559 11564 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:22:44.958 11559 11559 W qdgralloc: Failed to load libubwcp.so
+03-12 23:22:45.169 10907 10937 I appium  : AppiumResponse: {"sessionId":"ef9ccc10-58be-444e-b5f2-f445b22ba73a","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13VFRX28bhe+hgAQuIoMQWVOwdW4yVqDEaezfWRFPMGzWWmGZMtZu8ifqq2KJYYkONNbbYY+9GYkXsFaQz3x8u5mMEFBDFE3/XWq4VzpzZ7BnIMOeeZz/bZGtraxYAAAAAAICB2WT1BAA…
+03-12 23:22:45.181  3003  4058 D WifiConnectivityMonitor: Stop WCM Poll. cnt : 9
+03-12 23:22:45.185  3003  4058 I WifiConnectivityMonitor: LinkQualityMonitorCallback was not registered yet
+03-12 23:22:45.220  2007 10298 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 2(2),c:0,b:23,m:13,cl:0,l:3,s:2,l0:320,l1:0,s0:241,s1:0,acl:1,opr:0.19,f(r):97,u(bl):111,if:0,wi:0,si:2,po:121(N:0)

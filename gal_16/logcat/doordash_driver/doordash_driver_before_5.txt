@@ -1,0 +1,69 @@
+--------- beginning of main
+03-13 00:46:51.087  3003  4027 I SemWifiServiceDetector: Service det. suspended: T / T / 32187
+03-13 00:46:51.163  3884  4085 I appium  : channel read: GET /session/149ee566-ac95-4f18-8fda-f1ead1c21320/source
+03-13 00:46:51.165  3884  4085 I appium  : Source command
+03-13 00:46:51.166  3884  4085 I appium  : Waiting up to 10000ms for the device to idle
+03-13 00:46:51.198  4163  4163 I cr_A11yState: Enabled accessibility services list updated. []
+03-13 00:46:51.201  4163  4163 I cr_A11yState: Informing listeners of changes.
+03-13 00:46:51.201  4163  4163 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-13 00:46:51.211  3884  4085 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 00:46:51.218  3884  4085 I appium  : AppiumResponse: {"sessionId":"149ee566-ac95-4f18-8fda-f1ead1c21320","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.doordash.driverapp\" class=\"a…
+03-13 00:46:51.228  3884  4085 I appium  : channel read: GET /session/149ee566-ac95-4f18-8fda-f1ead1c21320/screenshot
+03-13 00:46:51.228  3884  4085 I appium  : CaptureScreenshot command
+03-13 00:46:51.229  3884  4085 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:46:51.229  3884  4085 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:46:51.238  4163  4163 I View    : setRequestedFrameRate frameRate=-4.0, this=com.doordash.android.core.network.view.DDWebView{832cba4 VFED..C.. .F...... 0,192-1080,1613 #7f0a125d app:id/oAuthWebView aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 00:46:51.274  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 00:46:51.275  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 00:46:51.275  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 00:46:51.276  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 00:46:51.276  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:46:51.276  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:46:51.276  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:46:51.276  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:46:51.338  5954  5954 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:46:51.338  5954  5954 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:46:51.339  5954  5954 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 00:46:51.339  3003  4927 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 00:46:51.339  3003  4927 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:46:51.340  5954  5954 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:46:51.340  5954  5954 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:46:51.346  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.doordash.driverapp/com.doordash.android.identity.ui.LoginActivity$_4163#27016(seamlessTransition:0)
+03-13 00:46:51.346  2105  2321 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#27023(seamlessTransition:0)
+03-13 00:46:51.346  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:46:51.346  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#26966(seamlessTransition:0)
+03-13 00:46:51.346  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:46:51.346  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:46:51.347  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:46:51.347  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.doordash.driverapp/com.doordash.android.identity.ui.LoginActivity$_4163#27016 at index 1
+03-13 00:46:51.347  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#27023 at index 2
+03-13 00:46:51.347  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 00:46:51.347  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#26966 at index 4
+03-13 00:46:51.347  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 00:46:51.385  5954  5963 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:46:51.386  5954  5954 W qdgralloc: Failed to load libubwcp.so
+03-13 00:46:51.394  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,0.383,8.026,5.590, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 00:46:51.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773377211
+03-13 00:46:51.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 00:46:51.517  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 356 
+03-13 00:46:51.517  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556286
+03-13 00:46:51.518  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556282
+03-13 00:46:51.520  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 00:46:51.521  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556282
+03-13 00:46:51.521  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 00:46:51.521  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 00:46:51.522  4163  4163 I View    : setRequestedFrameRate frameRate=-4.0, this=com.doordash.android.core.network.view.DDWebView{832cba4 VFED..C.. .F...... 0,192-1080,1613 #7f0a125d app:id/oAuthWebView aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 00:46:51.555  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 11545, isSameBssidAndFreq true
+03-13 00:46:51.556  2007  2564 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 2(2),c:0,b:27,m:13,cl:0,l:2,s:1,l0:272,l1:0,s0:167,s1:0,acl:1,opr:0.57,f(r):97,u(bl):111,if:0,wi:0,si:1,po:124(N:0)
+03-13 00:46:51.557  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 00:46:51.557  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 00:46:51.557  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 119
+03-13 00:46:51.557  3003  4030 D InsDataManager: trimBuffers start.
+03-13 00:46:51.557  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 77
+03-13 00:46:51.557  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 00:46:51.557  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 00:46:51.558  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -61.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -61.0 / 2 / 61 / 1 / 0 || 357184ff5785: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 45892240 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 00:46:51.558  3003  4047 D SGM:GameManager: identifyGamePackage. com.doordash.driverapp, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 00:46:51.559  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.doordash.driverapp, ret=false
+03-13 00:46:51.631  3884  4085 I appium  : AppiumResponse: {"sessionId":"149ee566-ac95-4f18-8fda-f1ead1c21320","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFPn/z7wOwkhggKyhxVxIOJWnLhFqVZErHuvuuuu9aO1Wq21VauIW6u1dRVF6960jipq3ahFAS2iMgWVDQnJ7w++OT9iggICMfV+XZdX9SQ5eULhcM593s/7ETk6OqpARERERERERGT…

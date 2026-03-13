@@ -1,0 +1,136 @@
+--------- beginning of main
+03-13 01:00:10.995 16161 22126 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 01:00:11.000 16161 22126 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 01:00:11.000 16161 22126 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+--------- beginning of system
+03-13 01:00:11.003  3003  4405 D ActivityManager: Received BROADCAST intent 0xb218c3 Key{broadcastIntent pkg=com.samsung.android.mcfds intent=act=com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT xflg=0x4 pkg=com.samsung.android.mcfds flags=0x2000000 u=0} requestCode=20247613 sent=0 from uid 1000
+03-13 01:00:11.005  3003  4405 D ActivityManager: Received BROADCAST intent 0x5626f03 Key{broadcastIntent pkg=com.samsung.android.mcfds intent=act=com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION xflg=0x4 pkg=com.samsung.android.mcfds flags=0x2000000 u=0} requestCode=2024320 sent=0 from uid 1000
+03-13 01:00:11.008  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 100.00, T : 1773378010991, ET : 205211557, h : 21/26]
+03-13 01:00:11.008 16161 22126 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 01:00:11.009  7048  7048 D LocationTracker: Got a location update from Play Services
+03-13 01:00:11.012  3003  4411 D SLocation: PositionManager - receive fused location
+03-13 01:00:11.013  3003  4411 W SLocation: GeopointGeofenceManger - refresh wifi to receive loc
+03-13 01:00:11.013  3003  4411 D SLocation: GeopointGeofenceManger - Location reported : fix method = 14 / 100.0
+03-13 01:00:11.013  3003  4411 D SLocation: LocationBuffer - input buffer, size : 1
+03-13 01:00:11.013  3003  4411 D SLocation: BatchManager - received batch location buffered = true
+03-13 01:00:11.014  3003  4411 D SLocation: SLocationCoreSem - send to coreSem, packet length : 23 / [2, 24, 58, 73, 100, 211, 66, 227, 242, 0, 0, 0, 100, 2, 0, 0, 1, 156, 229, 144, 255, 111, 0]
+03-13 01:00:11.014  3003  4411 D SemContextLocationCoreAttribute: setAttribute() mode : 0 action : 23
+03-13 01:00:11.014  3003  4411 D SemContextService: lock : changeParameters
+03-13 01:00:11.014  3003  4411 D SemContext.CaeProvider.LocationCoreImpl: setAttribute() mode : 0 action : 23
+03-13 01:00:11.014  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for SLOCATION_RUNNER
+03-13 01:00:11.014  3003  4411 I CAE     : setPropertyValue(SLocationRunner.java:116) - SLocationRunner setProperty header : 2, len : 23
+03-13 01:00:11.016  3003  3911 D SensorService: setSContextDataLocked ints length 8 , byte length 26
+03-13 01:00:11.016  3003  3911 D SensorService: setSContextDataLocked 23717c1
+03-13 01:00:11.016  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 01:00:11.016  2007  2007 I sensors-hal: sendContextData:290, sensor hal 26, (0xc1, 0x17, 0x37, 0x2)
+03-13 01:00:11.016  2007  2007 E sensors-hal: sendContextData:133, slocationcore h 193 m 23 s 55
+03-13 01:00:11.016  2007  2007 I sensors-hal: sendUserData:119, slocationcore sendUserData
+03-13 01:00:11.016  2007  2007 E sensors-hal: create_send_context_data:64, slocationcore create_send_context_data
+03-13 01:00:11.016  2007  2007 I sensors-hal: send_context_data:694, slocationcore, 4986366670857974562, 1320970896291267344, msgid:700
+03-13 01:00:11.017  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)
+03-13 01:00:11.018  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for slocationcore 
+03-13 01:00:11.018  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:slocationcore  Wakeup, msg_id=1025, ts=3940163026081
+03-13 01:00:11.018  2007  3909 E sensors-hal: handle_sns_client_event:78, slocationcore_event: msgid:1025
+03-13 01:00:11.019  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for SLOCATION_RUNNER
+03-13 01:00:11.019  3003  4411 D SemContextService: unlock : changeParameters
+03-13 01:00:11.019  3003  4411 D SemContextManager:   .changeParameters : listener = Z.i@46c9840, service=SLocation Core
+03-13 01:00:11.020  3003  4411 D SLocation: AlarmManagerWrapper - next alarm time : 208811579 (WK)
+03-13 01:00:11.022  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :10], AP_WAKEUP
+03-13 01:00:11.022  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 10
+03-13 01:00:11.023  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 5, 2, 2, 0, 0, 0,
+03-13 01:00:11.023  3003  3907 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-13 01:00:11.023  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-13 01:00:11.023  3003  3907 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 5, 2, 2, 0, 0, 0]
+03-13 01:00:11.023 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT
+03-13 01:00:11.023 32228 32228 I [CE]_ContextEngineReceiver: onReceive - SLocation intent : com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT
+03-13 01:00:11.023 32228 32228 I [CE]_i  : OnReceive - [Passive Location] 20247613
+03-13 01:00:11.024  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.0 / time=1773378010991 / elapsed=205211557360594
+03-13 01:00:11.024  3003  3904 D SemContextService: Service.updateContext() : service = SLocation Core
+03-13 01:00:11.025  3003  3907 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:10
+03-13 01:00:11.025  3003  3003 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-13 01:00:11.025  3003  3003 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-13 01:00:11.026  3003  4411 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 5
+03-13 01:00:11.026  3003  4411 D SLocation: GeofenceCoreManager - handleCommandCallback - UNKNOWN_CALLBACK 2 SUCCESS
+03-13 01:00:11.026  3003  4411 D SLocation: CommonCoreManager - received Extra Data from core, len : 5
+03-13 01:00:11.026  3003  4411 D SLocation: CommonCoreManager - handleCommandCallback - FUNC_TYPE : SET_LOCATION  ERROR_CODE : ERROR_NONE
+03-13 01:00:11.028 32228 32228 I [CE]_SpatialContextManager: isNHInternal - ID = 13 label = 1 conf = 0.19985634
+03-13 01:00:11.030 32228 32228 I [CE]_SpatialContextManager: isNWInternal - ID = 7 label = 2 conf = 0.53059125
+03-13 01:00:11.030 32228 32228 I [CE]_LocationPatternManager: pvpUpdate - hit
+03-13 01:00:11.032 32228 32228 I [CE]_LocationPatternManager: pvpUpdate - Result: 3
+03-13 01:00:11.033 32228 32228 I [CE]_LocationPatternManager: loadPvpState - State : 0 / 1773377950990
+03-13 01:00:11.033  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 1
+03-13 01:00:11.033  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 01:00:11.034 32228 32228 I [CE]_LocationPatternManager: savePvpState - State : 0 / 1773378010991
+03-13 01:00:11.034 32228 32228 I [CE]_LocationPatternManager: onNewLocation - isInFamiliar/time : true / 1773378010991
+03-13 01:00:11.035 32228 32273 I [CE]_PrimaryLocationManager: onNewlocation - State: 13 / 13
+03-13 01:00:11.035 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION
+03-13 01:00:11.035 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION
+03-13 01:00:11.038  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 01:00:11.038  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 01:00:11.038  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 01:00:11.038  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 01:00:11.047  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)
+03-13 01:00:11.047  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)
+03-13 01:00:11.047  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)
+03-13 01:00:11.047  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)
+03-13 01:00:11.048  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 01:00:11.048  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)false)
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)false)
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)
+03-13 01:00:11.048  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)
+03-13 01:00:11.049  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 01:00:11.049  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 01:00:11.051  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 01:00:11.051  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 01:00:11.054  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 01:00:11.054  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 01:00:11.054  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 01:00:11.055  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 01:00:11.068 10305 10334 I appium  : channel read: GET /session/b3f45d70-d5f3-4117-9e7c-104dd48ac7c5/source
+03-13 01:00:11.071 10305 10334 I appium  : Source command
+03-13 01:00:11.072 10305 10334 I appium  : Waiting up to 10000ms for the device to idle
+03-13 01:00:11.451  2007  9851 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 3(3),c:203,b:23,m:13,cl:9,l:3,s:2,l0:1008,l1:0,s0:260,s1:0,acl:1,opr:0.69,f(r):97,u(bl):111,if:0,wi:0,si:2,po:123(N:0)
+03-13 01:00:11.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773378011
+03-13 01:00:11.519  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 01:00:11.520  3003  4411 D SLocation: WifiBssidMonitor - requestRefresh
+03-13 01:00:11.520  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 331 
+03-13 01:00:11.520  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556300
+03-13 01:00:11.520  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556282
+03-13 01:00:11.520  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 01:00:11.520  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556282
+03-13 01:00:11.521  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 01:00:11.521  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 01:00:11.521  3003  4411 W SLocation: WifiBssidMonitor - connected wifi : (c0:94:35:**:**:ff/776)
+03-13 01:00:11.586  1171  1171 D io_stats: !@   8,0 r 2914263 96044692 w 3065950 69352516 d 295192 77440696 f 130959 324121 iot 1279988 0 th 0 0 0 pt 0 inp 0 0 46692.270
+03-13 01:00:11.752 10305 10334 I appium  : AppiumResponse: {"sessionId":"b3f45d70-d5f3-4117-9e7c-104dd48ac7c5","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dd.doordash\" class=\"android.…
+03-13 01:00:11.763 10305 10334 I appium  : channel read: GET /session/b3f45d70-d5f3-4117-9e7c-104dd48ac7c5/screenshot
+03-13 01:00:11.763 10305 10334 I appium  : CaptureScreenshot command
+03-13 01:00:11.763 10305 10334 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:00:11.764 10305 10334 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:00:11.869 11561 11561 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 01:00:11.871 11561 11561 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 01:00:11.871 11561 11561 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 01:00:11.871  3003  7241 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 01:00:11.872  3003  7241 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 01:00:11.872 11561 11561 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 01:00:11.872 11561 11561 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 01:00:11.877  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_10374#28394(seamlessTransition:0)
+03-13 01:00:11.877  2105  2921 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#28412(seamlessTransition:0)
+03-13 01:00:11.877  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 01:00:11.877  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28325(seamlessTransition:0)
+03-13 01:00:11.877  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 01:00:11.878  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 01:00:11.878  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 01:00:11.878  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_10374#28394 at index 1
+03-13 01:00:11.878  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#28412 at index 2
+03-13 01:00:11.879  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 01:00:11.879  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28325 at index 4
+03-13 01:00:11.879  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 01:00:11.934 11561 11567 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 01:00:11.935 11561 11561 W qdgralloc: Failed to load libubwcp.so
+03-13 01:00:12.110 10305 10334 I appium  : AppiumResponse: {"sessionId":"b3f45d70-d5f3-4117-9e7c-104dd48ac7c5","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eFNl3j7wO0nTLW3a0n3foGUra4vssiiIFAEdUS/HUhfwlWVkVN6Z4dV5HR2dRQHXEWQVYUSRUQQE2RcRkEKBbrSlLd3pvrdps5zfH/xy3oYkpaVJS+D+XBfXjMnp0yeUJufc5/t8H4k…

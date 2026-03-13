@@ -1,0 +1,141 @@
+--------- beginning of main
+03-13 02:14:46.903 13245 13273 I appium  : channel read: GET /session/c4b8eed0-c465-4b03-ad1b-1a1830fc79c8/source
+03-13 02:14:46.905 13245 13273 I appium  : Source command
+03-13 02:14:46.907 13245 13273 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 02:14:46.980  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:46.985  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:46.985  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:46.985  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:47.183  2007 12825 I sensors-hal: handle_sns_client_event:375, [0][170] accel_sample [-0.941,  6.473,  7.192] 209687645040249
+03-13 02:14:47.185  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:47.185  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:47.186  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:47.186  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:47.365 13309 13309 D LiteLauncherActivity: Requested Post Message Channel: true
+03-13 02:14:47.372 13309 13309 D LiteLauncherActivity: Relationship result: true
+03-13 02:14:47.372 13309 13309 D LiteLauncherActivity: Message channel ready.
+03-13 02:14:47.386  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:47.386  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:47.387  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:47.387  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:47.467  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 13208, isSameBssidAndFreq true
+03-13 02:14:47.468  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2085 / 20 / 1.04 (340) / 360 / -58.0 || 100.0 : 360.00 / 0.5 : 0.96 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.095 / 84.282 / N || N N / 0 0 / Y 2.0 / Y X 0 / 51168152 0 || Invalid
+03-13 02:14:47.470  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 02:14:47.470  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 02:14:47.471  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 49
+03-13 02:14:47.471  3003  4030 D InsDataManager: trimBuffers start.
+03-13 02:14:47.471  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 85
+03-13 02:14:47.471  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 24
+03-13 02:14:47.472  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 02:14:47.472  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -58.0,"latency": 0.09491955878396556,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2085 / 20 / 1.04 (340) / 360 / -58.0 || 100.0 : 360.00 / 0.5 : 0.96 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.095 / 84.282 / N || N N / 0 0 / Y 2.0 / Y X 0 / 51168152 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 02:14:47.476  3003  4047 D SGM:GameManager: identifyGamePackage. com.android.chrome, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 02:14:47.476  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.android.chrome, ret=false
+03-13 02:14:47.485  2007 12831 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 1(1),c:65,b:17,m:13,cl:2,l:1,s:1,l0:368,l1:0,s0:186,s1:0,acl:1,opr:0.22,f(r):97,u(bl):111,if:0,wi:0,si:1,po:0(N:0)
+03-13 02:14:47.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773382487
+03-13 02:14:47.517  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 02:14:47.518  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 361 
+03-13 02:14:47.518  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556374
+03-13 02:14:47.519  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556372
+03-13 02:14:47.519  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 02:14:47.520  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556372
+03-13 02:14:47.520  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 02:14:47.521  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 02:14:47.587  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:47.587  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:47.588  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:47.588  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:47.601  1171  1171 D io_stats: !@   8,0 r 3138800 101738124 w 3520699 79308156 d 324134 87388612 f 150953 361691 iot 1452172 0 th 0 0 0 pt 0 inp 0 0 51168.286
+03-13 02:14:47.641  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:activities  Wakeup, msg_id=1025, ts=4026114182193
+03-13 02:14:47.641  2007  3909 I sensors-hal: handle_sns_client_event:92, activities_event: msgid:1025
+03-13 02:14:47.641  2007  3909 I sensors-hal: handle_sns_client_event:102, activities_event index 1 number 1 total 10
+03-13 02:14:47.641  2007  3909 I sensors-hal: submit_data:155, Activities -12905130590985255872215166966959177728.000000 ts 4026114182193
+03-13 02:14:47.646  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :10], AP_WAKEUP
+03-13 02:14:47.646  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 10
+03-13 02:14:47.646  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 26, 1, 1, 87, 27, -3, 1, 1,
+03-13 02:14:47.647  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= ACTIVITY_TRACKER =================
+03-13 02:14:47.648  3003  3907 I CAE     : display(ContextProvider.java:391) - Accuracy=[1], OperationMode=[0], ActivityType=[1], TimeStamp=[1773382486013]
+03-13 02:14:47.650  3003  3904 D SemContextService: Service.updateContext() : service = Activity Tracker
+03-13 02:14:47.651  3003  3003 D SemContextManager: onSemContextChanged() : event = Activity Tracker
+03-13 02:14:47.651  3003  3003 E PocketMotionManager: activity tracker 1, 1
+03-13 02:14:47.788  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:47.788  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:47.789  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:47.790  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:47.989  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:47.989  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:47.990  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:47.990  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:48.120  3003  7293 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 02:14:48.129  3003  7293 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 02:14:48.131  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:48.132  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:48.132  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:48.132  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:48.197  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:48.197  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:48.198  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:48.198  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:48.200 13245 13273 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 02:14:48.209 13245 13273 I appium  : AppiumResponse: {"sessionId":"c4b8eed0-c465-4b03-ad1b-1a1830fc79c8","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.android.chrome\" class=\"andro…
+03-13 02:14:48.217 13245 13273 I appium  : channel read: GET /session/c4b8eed0-c465-4b03-ad1b-1a1830fc79c8/screenshot
+03-13 02:14:48.217 13245 13273 I appium  : CaptureScreenshot command
+03-13 02:14:48.218 13245 13273 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:14:48.218 13245 13273 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:14:48.296 13939 13939 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 02:14:48.297 13939 13939 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 02:14:48.297 13939 13939 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 02:14:48.297  3003  4833 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 02:14:48.297  3003  4833 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 02:14:48.297 13939 13939 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 02:14:48.297 13939 13939 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 02:14:48.300  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.android.chrome/ChromeChildSurface#35614(seamlessTransition:0)
+03-13 02:14:48.300  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity$_22866#35601(seamlessTransition:0)
+03-13 02:14:48.300  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 02:14:48.300  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#35525(seamlessTransition:0)
+03-13 02:14:48.300  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 02:14:48.301  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 02:14:48.301  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 02:14:48.301  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.android.chrome/ChromeChildSurface#35614 at index 1
+03-13 02:14:48.301  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity$_22866#35601 at index 2
+03-13 02:14:48.301  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 02:14:48.301  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#35525 at index 4
+03-13 02:14:48.301  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 02:14:48.326 13939 13945 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 02:14:48.327 13939 13939 W qdgralloc: Failed to load libubwcp.so
+03-13 02:14:48.341  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 02:14:48.342  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 02:14:48.342  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 02:14:48.344  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 02:14:48.347  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 02:14:48.348  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 02:14:48.348  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 02:14:48.348  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 02:14:48.398  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:48.398  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:48.399  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:48.400  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:48.432  2022 13191 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4567772
+03-13 02:14:48.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773382488
+03-13 02:14:48.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 02:14:48.516  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 361 
+03-13 02:14:48.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556374
+03-13 02:14:48.517  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556372
+03-13 02:14:48.517  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 02:14:48.517  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 02:14:48.517  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556372
+03-13 02:14:48.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 02:14:48.517  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 02:14:48.518  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 02:14:48.522  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.gallery3d(0)
+03-13 02:14:48.522  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 8
+03-13 02:14:48.522  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 02:14:48.522  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 02:14:48.526  3003  5506 D MARs:ActiveTrafficFilter: filter : com.zzkko(0)
+03-13 02:14:48.526  3003  5506 D FreecessHandler: freeze com.zzkko(10436) result : 8
+03-13 02:14:48.601  9332  9332 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.appset.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+03-13 02:14:48.603  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:48.604  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:48.605  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:48.605  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 02:14:48.674 13245 13273 I appium  : AppiumResponse: {"sessionId":"c4b8eed0-c465-4b03-ad1b-1a1830fc79c8","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N11eFNnGwbw+0SbKjVqULy0heLuOnyMDZvBcN8Y/o2hGxswnMHQCbANBmy40yFbcS1SqCCFulJNGvn+KM0akkJLjcD9uy7+6MnJ2zcF0nPuPO/zCuU96+hARERERERERGTGRKU9ASIiIiI…

@@ -1,0 +1,70 @@
+--------- beginning of main
+03-12 23:16:20.937  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 5
+03-12 23:16:20.943 22944 22966 W JobInfo : Requested important-while-foreground flag for job2896 is ignored and takes no effect
+03-12 23:16:20.945  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 23:16:20.965 22944 30553 I [ND]CellMeasurementWorker: pool-5-thread-49 | Start Work
+03-12 23:16:21.058 28764 28796 I appium  : channel read: GET /session/bd4722b9-f318-40cf-8d17-c064e565d9c7/source
+03-12 23:16:21.059 28764 28796 I appium  : Source command
+03-12 23:16:21.060 28764 28796 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-12 23:16:21.287  3003  3046 I ActivityManager: Changes in 99116 8 to 10, 128 to 0
+03-12 23:16:21.287  3003  3046 I ActivityManager: Changes in 10364 8 to 10, 128 to 0
+03-12 23:16:21.288  2452 11702 I CameraService: onUidStateChanged: uid=10364, procState is changed. (8 -> 10)
+03-12 23:16:21.290  2452  7951 I CameraService: onUidStateChanged: uid=10364, procState is changed. (10 -> 19)
+03-12 23:16:21.293 15167 15294 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5579)] [ab.j.i(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:20)] [ab.h.f(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:25)] [za.b$a.h(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:5)] [za.b$a.a(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:1)] [za.a.invoke(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:5)] [rd2.s.b(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:124)] [rd2.s$a.invokeSuspend(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:11)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:12)] [pd2.x0.run(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:115)] [db.x$a.run(r8-map-id-20d99c0f9e3fbf0a825188e8595ddcebbfb49e3d9834f5b5ba4432a951bc7bbb:3)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-12 23:16:21.294  3003  3941 D ConnectivityService:  Removing from current network [110 WIFI], leaving 270 requests.
+03-12 23:16:21.318  3003  4027 I SemWifiServiceDetector: Service det. resumed: T / T / 32187
+03-12 23:16:21.404  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 30:2:2:850176:3398400:672000:921599:2707200:499200:231:231:231
+03-12 23:16:21.415  3003  4411 D SLocation: WifiBssidMonitor - requestRefresh
+03-12 23:16:21.421  3003  4411 W SLocation: WifiBssidMonitor - connected wifi : (c0:94:35:**:**:ff/776)
+03-12 23:16:21.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773371781
+03-12 23:16:21.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 23:16:21.516  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 334 
+03-12 23:16:21.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556196
+03-12 23:16:21.516  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556192
+03-12 23:16:21.517  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 23:16:21.517  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556192
+03-12 23:16:21.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 23:16:21.518  2097  2125 E HeatmapThread: !@ CAM is Working
+03-12 23:16:21.595 28860 28860 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{b0bc6a5 VFED..... ........ 0,0-1080,149 aid=1073741826}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 com.chipotle.ig0.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:95 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 23:16:21.596 28860 28860 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{9a16568 V.ED..... ........ 0,0-0,0}, caller=com.chipotle.ig0.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-12 23:16:21.604  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-12 23:16:21.611  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 23:16:21.669 28764 28796 I appium  : AppiumResponse: {"sessionId":"bd4722b9-f318-40cf-8d17-c064e565d9c7","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.chipotle.ordering\" class=\"an…
+03-12 23:16:21.690 28764 28796 I appium  : channel read: GET /session/bd4722b9-f318-40cf-8d17-c064e565d9c7/screenshot
+03-12 23:16:21.691 28764 28796 I appium  : CaptureScreenshot command
+03-12 23:16:21.693 28764 28796 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:16:21.693 28764 28796 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:16:21.783 30570 30570 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:16:21.783 30570 30570 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:16:21.784 30570 30570 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:16:21.784  3003  3806 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 23:16:21.784  3003  3806 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:16:21.784 30570 30570 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:16:21.784 30570 30570 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:16:21.787  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.chipotle.ordering/com.chipotle.ordering.ui.activity.main.MainActivity$_28860#19365(seamlessTransition:0)
+03-12 23:16:21.787  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:16:21.787  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19327(seamlessTransition:0)
+03-12 23:16:21.787  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:16:21.788  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:16:21.788  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:16:21.788  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.chipotle.ordering/com.chipotle.ordering.ui.activity.main.MainActivity$_28860#19365 at index 1
+03-12 23:16:21.789  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 23:16:21.789  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19327 at index 3
+03-12 23:16:21.789  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 23:16:21.827 30570 30580 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:16:21.828 30570 30570 W qdgralloc: Failed to load libubwcp.so
+03-12 23:16:21.991  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 9836, isSameBssidAndFreq true
+03-12 23:16:21.991  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 1621 / 39 / 1.11 (103) / 324 / -56.0 || 100.0 : 324.00 / 0.5 : 0.90 / 0.55 : 0.02 / G (G) || 357184ff5785: 0.098 / 81.246 / N || N N / 0 0 / Y 2.0 / Y X 0 / 40462676 0 || Invalid
+03-12 23:16:21.992  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-12 23:16:21.992  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-12 23:16:21.993  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 81
+03-12 23:16:21.993  3003  4030 D InsDataManager: trimBuffers start.
+03-12 23:16:21.993  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 78
+03-12 23:16:21.994  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-12 23:16:21.994  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-12 23:16:21.994  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -56.0,"latency": 0.09846632641912878,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 1621 / 39 / 1.11 (103) / 324 / -56.0 || 100.0 : 324.00 / 0.5 : 0.90 / 0.55 : 0.02 / G (G) || 357184ff5785: 0.098 / 81.246 / N || N N / 0 0 / Y 2.0 / Y X 0 / 40462676 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-12 23:16:21.997  3003  4047 D SGM:GameManager: identifyGamePackage. com.chipotle.ordering, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-12 23:16:21.997  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.chipotle.ordering, ret=false
+03-12 23:16:22.021 28764 28796 I appium  : AppiumResponse: {"sessionId":"bd4722b9-f318-40cf-8d17-c064e565d9c7","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13XFR3vj/+1xRmht57FRAUBUVREcQSjSlqYnazKZuoqImJabubxPvIZn/3e/ex2Xsfu5uyScyaxF43xlRjTSyxRFFBURRRKYogvQxtYOr5/eGdcxmalKGMvp6Ph4+EM2fOeY/CMOd1Pp/…
+03-12 23:16:22.033  1171  1171 D io_stats: !@   8,0 r 2726680 92074556 w 2543418 62723744 d 264832 69611480 f 101944 276383 iot 1077664 0 th 0 0 0 pt 0 inp 0 0 40462.717

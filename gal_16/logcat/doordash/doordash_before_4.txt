@@ -1,0 +1,62 @@
+--------- beginning of main
+03-13 00:57:27.215  1829  1856 I appium  : channel read: GET /session/39ec4fe9-0f1d-4878-8a52-c125ce2a91d6/source
+03-13 00:57:27.217  1829  1856 I appium  : Source command
+03-13 00:57:27.222  1829  1856 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 00:57:27.439  1171  1171 D io_stats: !@   8,0 r 2911200 95982868 w 3029646 69075984 d 294038 76818048 f 127871 320139 iot 1272868 0 th 0 0 0 pt 0 inp 0 0 46528.124
+03-13 00:57:27.501  1829  1856 I appium  : AppiumResponse: {"sessionId":"39ec4fe9-0f1d-4878-8a52-c125ce2a91d6","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dd.doordash\" class=\"android.…
+03-13 00:57:27.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773377847
+03-13 00:57:27.516  1829  1856 I appium  : channel read: GET /session/39ec4fe9-0f1d-4878-8a52-c125ce2a91d6/screenshot
+03-13 00:57:27.517  1829  1856 I appium  : CaptureScreenshot command
+03-13 00:57:27.518  1829  1856 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:57:27.518  1829  1856 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:57:27.523  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 00:57:27.523  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 337 
+03-13 00:57:27.524  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556297
+03-13 00:57:27.524  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556282
+03-13 00:57:27.525  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 00:57:27.525  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556282
+03-13 00:57:27.526  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 00:57:27.527  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 00:57:27.622  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 719 / 10 / 1.11 (83) / 360 / -62.0 || 100.0 : 360.00 / 0.5 : 0.90 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.095 / 84.000 / N || N N / 0 0 / Y 2.0 / Y X 0 / 46528306 0 || Invalid
+03-13 00:57:27.624  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 11739, isSameBssidAndFreq true
+03-13 00:57:27.625  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 00:57:27.625  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 00:57:27.625  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 119
+03-13 00:57:27.625  3003  4030 D InsDataManager: trimBuffers start.
+03-13 00:57:27.625  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 77
+03-13 00:57:27.625  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 00:57:27.625  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 00:57:27.625  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -62.0,"latency": 0.0952377370318132,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 719 / 10 / 1.11 (83) / 360 / -62.0 || 100.0 : 360.00 / 0.5 : 0.90 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.095 / 84.000 / N || N N / 0 0 / Y 2.0 / Y X 0 / 46528306 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 00:57:27.627  4605  4605 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:57:27.627  4605  4605 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:57:27.628  4605  4605 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 00:57:27.628  3003  4405 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 00:57:27.628  3003  4405 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:57:27.628  4605  4605 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:57:27.628  4605  4605 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:57:27.636  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_1910#28070(seamlessTransition:0)
+03-13 00:57:27.636  2105  2324 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#28088(seamlessTransition:0)
+03-13 00:57:27.636  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:57:27.636  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28001(seamlessTransition:0)
+03-13 00:57:27.636  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:57:27.636  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:57:27.637  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:57:27.637  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_1910#28070 at index 1
+03-13 00:57:27.637  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#28088 at index 2
+03-13 00:57:27.638  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 00:57:27.638  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28001 at index 4
+03-13 00:57:27.638  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 00:57:27.641  3003  4047 D SGM:GameManager: identifyGamePackage. com.dd.doordash, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 00:57:27.641  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.dd.doordash, ret=false
+03-13 00:57:27.683  4605  4629 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:57:27.684  4605  4605 W qdgralloc: Failed to load libubwcp.so
+03-13 00:57:27.701  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 00:57:27.701  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 00:57:27.701  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 00:57:27.702  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 00:57:27.708  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:57:27.708  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:57:27.710  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:57:27.711  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:57:27.877  1829  1856 I appium  : AppiumResponse: {"sessionId":"39ec4fe9-0f1d-4878-8a52-c125ce2a91d6","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFRn+j7wexoMRTrSBUFBUUAUe4m9rCambNxkkygmajZtTUzcTdzNbjZbsruxpMfEbnQ1iaZZMLEEjQYLigiCiqAgDr0jDNPO7w++c36MM4MgMDjm/lxXrl3PnDnzDgwzc+7zvs8jEQR…

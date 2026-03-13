@@ -1,0 +1,166 @@
+--------- beginning of main
+03-12 21:38:21.505  2007 11034 I sensors-hal: handle_sns_std_sensor_event:158, [250] Pressure 983.555, cal 0.047, sw_offset 0.000 (lsb(bit) 0xb 0xe 0x60)
+03-12 21:38:21.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773365901
+03-12 21:38:21.517  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:38:21.518  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 312 
+03-12 21:38:21.518  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556098
+03-12 21:38:21.518  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556072
+03-12 21:38:21.519  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 21:38:21.519  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:38:21.519  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 21:38:21.537 10148 10182 I appium  : channel read: GET /session/39b370d8-c1da-4a5f-9e10-4889387a325c/source
+03-12 21:38:21.538 10148 10182 I appium  : Source command
+03-12 21:38:21.539 10148 10182 I appium  : Waiting up to 10000ms for the device to idle
+03-12 21:38:21.568 10223 10223 I cr_A11yState: Enabled accessibility services list updated. []
+03-12 21:38:21.570 10223 10223 I cr_A11yState: Informing listeners of changes.
+03-12 21:38:21.570 10223 10223 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+--------- beginning of system
+03-12 21:38:21.594  3003  3080 E Watchdog: !@Sync: 1152 heap(MB): 172 / 182 FD: 1352 [2026-03-12 21:38:21.594]
+03-12 21:38:21.614  2005  3352 D qmi_secgps_clnt: SECGPS: QMI_SECGPS_AGNSS_CONFIG_MESSAGE_IND_V01 received
+03-12 21:38:21.615  3003  3046 D SehGnssExtraCbJni: serviceAssertMessageCb.
+03-12 21:38:21.617  5490  5568 I GnssEngineManager_FLP: updateEngineEnabled, true / isFromAp=false
+03-12 21:38:21.618  5490  5568 I GnssEngineManager_FLP: updateEngineEnabled, register stationary
+03-12 21:38:21.618  5490  5568 I GpsSessionManager_FLP: addGnssSession 193102183
+03-12 21:38:21.618  5490  5568 I AppState_FLP: Success to save #0 snapshot in appStateMap, time=193102183 / appList=com.google.android.gms_gps_5000_1
+03-12 21:38:21.620  3003  3046 I NSLocationMonitor: noteGpsOp, mode=1 (10259)
+03-12 21:38:21.620  5490  5568 I GpsSession_FLP: New GPS Session started, GlpInterval=5000 / OperationMode=0
+03-12 21:38:21.684  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 44:10:1:1024511:3398400:672000:954624:2707200:499200:231:231:231
+03-12 21:38:21.891  2005  3352 D qmi_secgps_clnt: SECGPS: QMI_SECGPS_AGNSS_CONFIG_MESSAGE_IND_V01 received
+03-12 21:38:21.892  3003  3951 D GnssLocationProvider_ex: SV Count : 12 / 13      (PRN, Constellation, Type, SNR, Used)
+03-12 21:38:21.893  3003  3951 D GnssLocationProvider_ex: (22, GLONASS, L1, 25.9, 1) (7, GLONASS, L1, 29.0, 1) (35, BEIDOU, L1, 28.0, 1) (30, BEIDOU, L1, 20.0, 0) (29, BEIDOU, L1, 24.3, 1) (20, BEIDOU, L1, 34.7, 1) 
+03-12 21:38:21.893  3003  3951 D GnssLocationProvider_ex: (19, BEIDOU, L1, 32.7, 1) (3, GALILEO, L1, 22.7, 1) (5, GALILEO, L1, 20.9, 1) (8, GALILEO, L1, 24.8, 1) (15, GALILEO, L1, 29.1, 1) (34, GALILEO, L1, 25.4, 1) 
+03-12 21:38:21.893  3003  3951 D GnssLocationProvider_ex: (18, GPS, L5, 33.4, 1) 
+03-12 21:38:21.893  3003  3048 D SehGnssExtraCbJni: serviceAssertMessageCb.
+03-12 21:38:21.896  5490  5568 I GnssEngineManager_FLP: updateSatelliteStatus, top4=32, top6=30, visibleSv=13, usedSv=12, usedL5Sv=1 (usedGps=1, usedGlo=2, usedBds=4, usedGal=5)
+03-12 21:38:21.897  3003  3951 D GnssLocationProvider: reportLocation
+03-12 21:38:21.898  5490  5568 I GnssEngineManager_FLP: updateEngineEnabled, false / isFromAp=false
+03-12 21:38:21.899  5490  5568 I NewStopController_FLP: motionMonitorComplete
+03-12 21:38:21.899  5490  5568 I NewStopController_FLP: motionMonitorComplete, remove checking message
+03-12 21:38:21.900  5490  5568 I NewStopController_FLP: Already finished to monitor
+03-12 21:38:21.901  5490  5568 I GpsSessionManager_FLP: closeGnssSession 193102464
+03-12 21:38:21.902  5490  5568 I DataProvider_FLP: noteResetGps
+03-12 21:38:21.903  3003  4415 I NSLocationMonitor: noteGpsOp, mode=3 (-1)
+03-12 21:38:21.904  3003 21012 I Mocca_VehicleDetectionHelper: (1.1.04.1)GPS: Time diff > 3, Avg speed: 0.0 Speed: 0.0 LIST: [0.0]
+03-12 21:38:21.904  3003 21012 D VehicleSensorHub: vehicleSendToSensorHub status : 2 type : 18
+03-12 21:38:21.904  3003 21012 I SensorManager: Get Sensor type = 65586
+03-12 21:38:21.904  3003 21012 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-12 21:38:21.904  3003 21012 D SensorService: setSContextDataLocked 123c17c1
+03-12 21:38:21.904  5490  5568 I GpsSession_FLP: Total distance      : 0.00 km
+03-12 21:38:21.904  5490  5568 I GpsSession_FLP: Total duration      : 1 seconds
+03-12 21:38:21.904  5490  5568 I GpsSession_FLP: Total fix duration  : 0 seconds 
+03-12 21:38:21.904  5490  5568 I GpsSession_FLP: Total lost duration : 1 seconds
+03-12 21:38:21.904  5490  5568 I GpsSession_FLP: Total lost sections : 1
+03-12 21:38:21.904  5490  5568 I GpsSession_FLP: Time To First Fix   : 0 seconds
+03-12 21:38:21.904  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-12 21:38:21.904  2007  2007 I sensors-hal: sendContextData:290, sensor hal 5, (0xc1, 0x17, 0x3c, 0x12)
+03-12 21:38:21.904  2007  2007 I sensors-hal: sendContextData:230, activities 5 c1, 1
+03-12 21:38:21.904  2007  2007 I sensors-hal: sendUserData:251, Activities cmd 0xc1 0x17
+03-12 21:38:21.904  2007  2007 I sensors-hal: create_send_context_data:80, sending create_send_context_data
+03-12 21:38:21.905  2007  2007 I sensors-hal: send_context_data:694, activities, 4914309220830019584, 1320970896291267344, msgid:700
+03-12 21:38:21.905  3003 21012 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1335 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.reportAdvancedVehicleEvent:185 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.handleLocEvent:277 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.p:0 D.e.h:136 
+03-12 21:38:21.905  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for activities 
+03-12 21:38:21.906  5490  5568 I SharedPreferences_FLP: removeExpiredLogs, 1 to 1
+03-12 21:38:21.906  5490  5568 I ShadowRecoveryDetector_FLP: restored 1 daily summary
+03-12 21:38:21.906  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [G, A : 3.98, T : 1773365902000, ET : 193102449, E : SH, h : 21/26]
+03-12 21:38:21.906  3003  4411 D SLocation: PositionManager - receive gps location
+03-12 21:38:21.907  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 14.037647 diffTime : 14182 filtered Location
+03-12 21:38:21.907  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-12 21:38:21.907  5490  5568 I GnssEngineManager_FLP: onGpsLocationChanged, provider=gps / isMock=false / speed=0.0 / time=1773365902000 / elapsed=193102449965683
+03-12 21:38:21.907  5490  5568 I NewStopController_FLP: isAvailableLastLoc, KeepStationary : false , timeGap : 23 , mStraightFixCount : 0
+03-12 21:38:21.907  5490  5568 I NewStopController_FLP: onChangedGlpLocation, isGpsStopped= false, isReportingLL= false, isAvailableLastLoc : true
+03-12 21:38:21.909 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-12 21:38:21.910 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-12 21:38:21.910 32228 32228 I [CE]_MovingContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-12 21:38:21.910 32228 32228 I [CE]_CarContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-12 21:38:21.910 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-12 21:38:21.910 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-12 21:38:21.911 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-12 21:38:21.913 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-12 21:38:21.914  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.07719058 / time=1773365901883 / elapsed=193102449965683
+03-12 21:38:21.915  7048  7048 D LocationTracker: Got a location update from Play Services
+03-12 21:38:21.915  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)false)false)false)false)false)false)false)false)false)false)false)false)false)false)
+03-12 21:38:21.915  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10463, AttributionTag=null, Package name=com.buffalowildwings.blazinrewards, Paused=false)false)false)false)false)false)
+03-12 21:38:21.915  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)false)false)false)
+03-12 21:38:21.915  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)
+03-12 21:38:21.917  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-12 21:38:21.917  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-12 21:38:21.917  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 3.97, T : 1773365901883, ET : 193102449, h : 21/26]
+03-12 21:38:21.917  3003  4411 D SLocation: PositionManager - receive fused location
+03-12 21:38:21.917  3003  4411 D SLocation: GeofenceLocationFilter - location sent before 3400, need to filter / provider : fused, accuracy : 3.975
+03-12 21:38:21.917  3003  4411 I SLocation: GeofenceLocationFilter - alarm set, next time to send location : 193105083, E.Q@67af48b
+03-12 21:38:21.920  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 14.038949 diffTime : 14182 filtered Location
+03-12 21:38:21.920  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-12 21:38:21.920  3003  4411 D SLocation: SLocationCoreSem - send to coreSem, packet length : 23 / [2, 24, 58, 73, 231, 211, 66, 229, 189, 0, 0, 0, 3, 2, 0, 0, 1, 156, 228, 216, 58, 59, 0]
+03-12 21:38:21.920  3003  4411 D SemContextLocationCoreAttribute: setAttribute() mode : 0 action : 23
+03-12 21:38:21.920  3003  4411 D SemContextService: lock : changeParameters
+03-12 21:38:21.920  3003  4411 D SemContext.CaeProvider.LocationCoreImpl: setAttribute() mode : 0 action : 23
+03-12 21:38:21.920  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for SLOCATION_RUNNER
+03-12 21:38:21.920  3003  4411 I CAE     : setPropertyValue(SLocationRunner.java:116) - SLocationRunner setProperty header : 2, len : 23
+03-12 21:38:21.920  3003  3911 D SensorService: setSContextDataLocked ints length 8 , byte length 26
+03-12 21:38:21.920  3003  3911 D SensorService: setSContextDataLocked 23717c1
+03-12 21:38:21.921  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-12 21:38:21.921  2007  2007 I sensors-hal: sendContextData:290, sensor hal 26, (0xc1, 0x17, 0x37, 0x2)
+03-12 21:38:21.921  2007  2007 E sensors-hal: sendContextData:133, slocationcore h 193 m 23 s 55
+03-12 21:38:21.921  2007  2007 I sensors-hal: sendUserData:119, slocationcore sendUserData
+03-12 21:38:21.921  2007  2007 E sensors-hal: create_send_context_data:64, slocationcore create_send_context_data
+03-12 21:38:21.921  2007  2007 I sensors-hal: send_context_data:694, slocationcore, 4986366670857974562, 1320970896291267344, msgid:700
+03-12 21:38:21.921  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for SLOCATION_RUNNER
+03-12 21:38:21.921  3003  4411 D SemContextService: unlock : changeParameters
+03-12 21:38:21.921  3003  4411 D SemContextManager:   .changeParameters : listener = Z.i@46c9840, service=SLocation Core
+03-12 21:38:21.922  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for slocationcore 
+03-12 21:38:21.922  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:slocationcore  Wakeup, msg_id=1025, ts=3707668381365
+03-12 21:38:21.922  2007  3909 E sensors-hal: handle_sns_client_event:78, slocationcore_event: msgid:1025
+03-12 21:38:21.924  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :10], AP_WAKEUP
+03-12 21:38:21.925  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 10
+03-12 21:38:21.925  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 5, 2, 2, 0, 0, 0,
+03-12 21:38:21.926  3003  3907 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-12 21:38:21.927  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-12 21:38:21.928  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-12 21:38:21.928  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-12 21:38:21.928  3003  3907 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 5, 2, 2, 0, 0, 0]
+03-12 21:38:21.928  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-12 21:38:21.928  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-12 21:38:21.929  3003  3907 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:10
+03-12 21:38:21.929  3003  3904 D SemContextService: Service.updateContext() : service = SLocation Core
+03-12 21:38:21.930  3003  3003 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-12 21:38:21.930  3003  3003 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-12 21:38:21.930  3003  4411 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 5
+03-12 21:38:21.930  3003  4411 D SLocation: GeofenceCoreManager - handleCommandCallback - UNKNOWN_CALLBACK 2 SUCCESS
+03-12 21:38:21.930  3003  4411 D SLocation: CommonCoreManager - received Extra Data from core, len : 5
+03-12 21:38:21.930  3003  4411 D SLocation: CommonCoreManager - handleCommandCallback - FUNC_TYPE : SET_LOCATION  ERROR_CODE : ERROR_NONE
+03-12 21:38:21.935  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-12 21:38:21.943  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 21:38:21.974 10148 10182 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 21:38:22.061 10148 10182 I appium  : AppiumResponse: {"sessionId":"39b370d8-c1da-4a5f-9e10-4889387a325c","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.buffalowildwings.blazinrewards…
+03-12 21:38:22.073 10148 10182 I appium  : channel read: GET /session/39b370d8-c1da-4a5f-9e10-4889387a325c/screenshot
+03-12 21:38:22.074 10148 10182 I appium  : CaptureScreenshot command
+03-12 21:38:22.075 10148 10182 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:38:22.076 10148 10182 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:38:22.165 11214 11214 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 21:38:22.165 11214 11214 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 21:38:22.166 11214 11214 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 21:38:22.166  3003  4415 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 21:38:22.166  3003  4415 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 21:38:22.166 11214 11214 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 21:38:22.166 11214 11214 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 21:38:22.170  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.buffalowildwings.blazinrewards/com.idpwhitelabel.MainActivity$_10223#13128(seamlessTransition:0)
+03-12 21:38:22.170  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 21:38:22.170  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#13094(seamlessTransition:0)
+03-12 21:38:22.170  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 21:38:22.170  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 21:38:22.170  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 21:38:22.171  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.buffalowildwings.blazinrewards/com.idpwhitelabel.MainActivity$_10223#13128 at index 1
+03-12 21:38:22.171  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 21:38:22.171  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#13094 at index 3
+03-12 21:38:22.171  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 21:38:22.195 11214 11219 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 21:38:22.195 11214 11214 W qdgralloc: Failed to load libubwcp.so
+03-12 21:38:22.418 10148 10182 I appium  : AppiumResponse: {"sessionId":"39b370d8-c1da-4a5f-9e10-4889387a325c","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbw+2QR9krYspGloKKouPeutrXVVuveWq17i/vTWmtbt3XU7tbWusUtuBURcTJlI3uPhIzvD0pKTBhhiOjzu65eVzk5OXlPZOTc532fh/H1aiEHIYQQQgghhBBCSBPGauwBEEI…
+03-12 21:38:22.444  2007 11046 I sensors-hal: handle_sns_client_event:455, [0][2385] gyro_sample_uncal [-0.003,-0.006, 0.002] [-0.002,-0.005, 0.003] 193103002971017
+03-12 21:38:22.456  2007 11049 I sensors-hal: handle_sns_client_event:341, [1055] mag_sample_cal(magcal_available:1): ts=193103016355809 ns; cal = [0.687744, -38.693810, -56.775299], uncal = [-273.392242, 90.546181, -386.955292], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-12 21:38:22.486  3003  3048 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-12 21:38:22.497  3003  3046 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-12 21:38:22.497  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:38:22.497  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:38:22.497  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:38:22.498  3003  4002 D BackgroundInstallControlService: Package event received: 0

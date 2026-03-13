@@ -1,0 +1,55 @@
+--------- beginning of main
+03-12 23:31:21.505  2007 24318 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 4(4),c:261,b:21,m:13,cl:10,l:4,s:4,l0:1184,l1:0,s0:390,s1:0,acl:1,opr:0.80,f(r):97,u(bl):111,if:0,wi:0,si:1,po:0(N:0)
+03-12 23:31:21.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773372681
+03-12 23:31:21.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 23:31:21.516  2097  2125 D HeatmapThread: !@ batteryLevel : 96  batteryTemperature : 315 
+03-12 23:31:21.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556211
+03-12 23:31:21.516  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556192
+03-12 23:31:21.516  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 23:31:21.516  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556192
+03-12 23:31:21.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 23:31:21.517  2097  2125 E HeatmapThread: !@ CAM is Working
+03-12 23:31:21.563 24965 25010 I appium  : channel read: GET /session/ea49a840-50c3-44a9-be70-a56ccebf8ee2/source
+03-12 23:31:21.565 24965 25010 I appium  : Source command
+03-12 23:31:21.567 24965 25010 I appium  : Waiting up to 10000ms for the device to idle
+03-12 23:31:21.573  1992  1992 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-12 23:31:21.574  1992  1992 D AHAL: FM: fm_get_parameters: 299: enter
+03-12 23:31:21.574  1992  1992 D AHAL: FM: fm_get_parameters: 306: exit
+03-12 23:31:21.575  1992  1992 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-12 23:31:21.575  1992  1992 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-12 23:31:21.576  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-12 23:31:21.576  1992  1992 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-12 23:31:21.576  1992  1992 D AHAL: FM: fm_get_parameters: 299: enter
+03-12 23:31:21.577  1992  1992 D AHAL: FM: fm_get_parameters: 306: exit
+03-12 23:31:21.577  1992  1992 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-12 23:31:21.577  1992  1992 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-12 23:31:21.577  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+--------- beginning of system
+03-12 23:31:21.579  6380  7375 I SDHMS:x : SIOP:: AP:344 BAT:315 USB:302 CHG:346 PA:349 CP:340 WIFI:339 BLK:0 SUBBAT:289 LRPTHM:331 SKIN:331 SKINF:331 SKINB:320 LRP2:331 LRF2:331 LRB2:320 AP2:330 CHG2:329 MEM2:331 WIFI2:331 RCV2:330 SPK2:299 UPSPK:328 DNSPK:304 VAP:345 VWIFI:337 AMB2:279 AVGCUR:139 AVGSYS:278 POWER:599
+03-12 23:31:21.722 24965 25010 I appium  : AppiumResponse: {"sessionId":"ea49a840-50c3-44a9-be70-a56ccebf8ee2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.citymapper.app.release\" class…
+03-12 23:31:21.733 24965 25010 I appium  : channel read: GET /session/ea49a840-50c3-44a9-be70-a56ccebf8ee2/screenshot
+03-12 23:31:21.733 24965 25010 I appium  : CaptureScreenshot command
+03-12 23:31:21.734 24965 25010 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:31:21.734 24965 25010 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:31:21.775  2007 26324 I sensors-hal: handle_sns_client_event:422, [0][51] gyro_sample_cal(cal_available:1)(3) [-1.516,-0.550,-0.174] bias[-0.002,-0.005, 0.003] 199882213419106
+03-12 23:31:21.819 26573 26573 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:31:21.820 26573 26573 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:31:21.820 26573 26573 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:31:21.820  3003  4920 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 23:31:21.820  3003  4920 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:31:21.820 26573 26573 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:31:21.821 26573 26573 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:31:21.823  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.citymapper.app.release/com.citymapper.app.home.HomeActivity2$_25066#20654(seamlessTransition:0)
+03-12 23:31:21.823  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:31:21.823  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#20579(seamlessTransition:0)
+03-12 23:31:21.823  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:31:21.824  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:31:21.824  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:31:21.824  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.citymapper.app.release/com.citymapper.app.home.HomeActivity2$_25066#20654 at index 1
+03-12 23:31:21.824  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 23:31:21.825  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#20579 at index 3
+03-12 23:31:21.825  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 23:31:21.861 26573 26578 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:31:21.863 26573 26573 W qdgralloc: Failed to load libubwcp.so
+03-12 23:31:22.006  2007 21628 I sensors-hal: handle_sns_client_event:375, [0][7916] accel_sample [ 1.510,  3.992,  9.170] 199882558698325
+03-12 23:31:22.066 24965 25010 I appium  : AppiumResponse: {"sessionId":"ea49a840-50c3-44a9-be70-a56ccebf8ee2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1ncBzXme/9P6e7ZwY5kUQgCAaJOYgmKQYlKlC2KJmWvc6iuJYle1OVg27dtfet/XBv1btV98u9V5bXK8uvJdESlalkyZZIWoHKEjMlMYkkQIAgEkkAgzCp+5zzfugwPcjAdGMaM/2rIjF…

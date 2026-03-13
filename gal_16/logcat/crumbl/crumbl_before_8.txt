@@ -1,0 +1,64 @@
+--------- beginning of main
+03-13 00:21:02.148 21950 21982 I appium  : channel read: GET /session/395fb7a6-9652-48e1-97a6-0d68dc27a04b/source
+03-13 00:21:02.149 21950 21982 I appium  : Source command
+03-13 00:21:02.150 21950 21982 I appium  : Waiting up to 10000ms for the device to idle
+03-13 00:21:02.188  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 00:21:02.189 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{16342b VFED..... ........ 0,0-1080,2640 aid=1073741857}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:21:02.189 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{a4736af V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:21:02.196  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 00:21:02.272 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{dc90ce9 VFED..... ........ 0,0-1080,262 aid=1073741825}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:21:02.272 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{80ea V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:21:02.307 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{f80048f VFED..... ........ 0,0-1080,2003 aid=1073741856}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:21:02.307 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{6870020 V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:21:02.307 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{8388830 VFED..... ......ID 0,0-1080,2003 aid=1073741835}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:21:02.308 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{b2e2f07 V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 00:21:02.312 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{8388830 VFED..... ........ 0,0-1080,2003 aid=1073741835}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:21:02.313 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{b2e2f07 V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 00:21:02.346  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 00:21:02.347  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 00:21:02.348  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 00:21:02.349  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 00:21:02.349  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:21:02.350  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:21:02.352  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:21:02.353  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 00:21:02.398 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{e5be8eb VFED..... ........ 0,0-1080,375 aid=1073741828}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:21:02.398 22024 22024 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{68abc4a V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:21:02.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773375662
+03-13 00:21:02.515  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 00:21:02.515  2097  2125 D HeatmapThread: !@ batteryLevel : 98  batteryTemperature : 334 
+03-13 00:21:02.515  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556261
+03-13 00:21:02.515  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556252
+03-13 00:21:02.515  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 00:21:02.515  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556252
+03-13 00:21:02.516  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 00:21:02.516  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 00:21:02.558 21950 21982 I appium  : AppiumResponse: {"sessionId":"395fb7a6-9652-48e1-97a6-0d68dc27a04b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"crumbl.cookies\" class=\"android.w…
+03-13 00:21:02.576 21950 21982 I appium  : channel read: GET /session/395fb7a6-9652-48e1-97a6-0d68dc27a04b/screenshot
+03-13 00:21:02.577 21950 21982 I appium  : CaptureScreenshot command
+03-13 00:21:02.579 21950 21982 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:21:02.579 21950 21982 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:21:02.671 23086 23086 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:21:02.671 23086 23086 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:21:02.672 23086 23086 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 00:21:02.672  3003  4405 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 00:21:02.672  3003  4405 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:21:02.672 23086 23086 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:21:02.672 23086 23086 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:21:02.674  2105  2922 I SurfaceFlinger: Capture layer list: 	 crumbl.cookies/com.crumbl.ui.main.MainActivity$_22024#24751(seamlessTransition:0)
+03-13 00:21:02.675  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:21:02.675  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#24711(seamlessTransition:0)
+03-13 00:21:02.675  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:21:02.675  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:21:02.675  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:21:02.676  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer crumbl.cookies/com.crumbl.ui.main.MainActivity$_22024#24751 at index 1
+03-13 00:21:02.676  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 00:21:02.676  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#24711 at index 3
+03-13 00:21:02.676  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 00:21:02.717 23086 23091 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:21:02.718 23086 23086 W qdgralloc: Failed to load libubwcp.so
+03-13 00:21:02.843  3003  3130 D PowerManagerService: UserActivityStateListenerState: 0
+03-13 00:21:02.924 22024 22024 I VRI[MainActivity]@a8ac4a3: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@a8ac4a3
+03-13 00:21:02.929  2105  2105 I SurfaceFlinger: [crumbl.cookies/com.crumbl.ui.main.MainActivity$_22024#24751] setFrameRateCategory: NoPreference
+03-13 00:21:02.930 21950 21982 I appium  : AppiumResponse: {"sessionId":"395fb7a6-9652-48e1-97a6-0d68dc27a04b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13cBznnSf8b/fkAGAGOWeAAQRzEpMoiUFiUJZtra1gyWG96z1H7d753npra99Qdbe2d72u89qSg+JJskSKEilSDKKYg8AcwASAyCBymBz7/hhihMEMgAERZgb4fqpQJTV6Zp7pAYHub/+…

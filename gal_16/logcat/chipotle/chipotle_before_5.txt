@@ -1,0 +1,59 @@
+--------- beginning of system
+03-12 23:10:43.458  3003  3083 D ActivityManager: sync unfroze 17241 com.samsung.android.forest for 10
+03-12 23:10:43.458  3003  3083 D ActivityManager: sync unfroze 27725 com.samsung.android.emergency for 10
+--------- beginning of main
+03-12 23:10:43.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773371443
+03-12 23:10:43.515  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 23:10:43.515  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 324 
+03-12 23:10:43.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556190
+03-12 23:10:43.516  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556162
+03-12 23:10:43.516  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 23:10:43.516  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556162
+03-12 23:10:43.516  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 23:10:43.516  2097  2125 E HeatmapThread: !@ CAM is Working
+03-12 23:10:43.542 18966 18993 I appium  : channel read: GET /session/aec0f7e5-ddb3-4fc4-8965-f8f6d0ce7863/source
+03-12 23:10:43.542 18966 18993 I appium  : Source command
+03-12 23:10:43.543 18966 18993 I appium  : Waiting up to 10000ms for the device to idle
+03-12 23:10:43.606 19033 19033 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{e3a3a25 VFED..... ........ 0,0-1080,149 aid=1073741826}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 com.chipotle.ig0.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:95 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 23:10:43.606 19033 19033 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{8fac739 V.ED..... ........ 0,0-0,0}, caller=com.chipotle.ig0.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-12 23:10:43.612  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-12 23:10:43.620  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 23:10:43.663 18966 18993 I appium  : AppiumResponse: {"sessionId":"aec0f7e5-ddb3-4fc4-8965-f8f6d0ce7863","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.chipotle.ordering\" class=\"an…
+03-12 23:10:43.676 18966 18993 I appium  : channel read: GET /session/aec0f7e5-ddb3-4fc4-8965-f8f6d0ce7863/screenshot
+03-12 23:10:43.676 18966 18993 I appium  : CaptureScreenshot command
+03-12 23:10:43.677 18966 18993 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:10:43.677 18966 18993 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:10:43.749 20632 20632 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:10:43.749 20632 20632 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:10:43.749 20632 20632 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:10:43.749  3003  6500 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 23:10:43.749  3003  6500 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:10:43.750 20632 20632 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:10:43.750 20632 20632 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:10:43.752  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.chipotle.ordering/com.chipotle.ordering.ui.activity.main.MainActivity$_19033#18956(seamlessTransition:0)
+03-12 23:10:43.752  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:10:43.752  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#18918(seamlessTransition:0)
+03-12 23:10:43.752  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:10:43.752  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:10:43.753  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:10:43.753  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.chipotle.ordering/com.chipotle.ordering.ui.activity.main.MainActivity$_19033#18956 at index 1
+03-12 23:10:43.753  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 23:10:43.753  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#18918 at index 3
+03-12 23:10:43.753  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 23:10:43.764  1171  1171 D io_stats: !@   8,0 r 2725414 92045312 w 2524608 62448472 d 264292 69350300 f 101286 274893 iot 1070720 0 th 0 0 0 pt 0 inp 0 0 40124.448
+03-12 23:10:43.765  1171  1171 D io_stats: !@ Read_top(KB): putmethod.latin(15873) 4
+03-12 23:10:43.765  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:1(14273) 1440 ipotle.ordering(19033) 172 putmethod.latin(15873) 16
+03-12 23:10:43.797 20632 20640 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:10:43.798 20632 20632 W qdgralloc: Failed to load libubwcp.so
+03-12 23:10:43.829  3003  3042 I system_server: Background concurrent mark compact GC freed 42MB AllocSpace bytes, 104(2112KB) LOS objects, 25% free, 138MB/186MB, paused 1.546ms,4.944ms total 339.161ms
+03-12 23:10:43.834  3003  3043 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+03-12 23:10:43.846  3003  3044 W System  : A resource failed to call HardwareBuffer.close. 
+03-12 23:10:44.003 18966 18993 I appium  : AppiumResponse: {"sessionId":"aec0f7e5-ddb3-4fc4-8965-f8f6d0ce7863","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT3vT/+1yzMDDBssu8KCIqCorhENGqMZnFJ2qZJ0yaKMWZPm6W53yb93nv7a+/S/pLYGNMsaty9MSZN0mhE4xL3FUUURWVRFtmXgYGBWc/3DzvnMjLoDAwMY17Px8NHMocz57xHYZj…
+03-12 23:10:44.008  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 23:10:44.009  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 23:10:44.009  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 23:10:44.010  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 23:10:44.010  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-12 23:10:44.010  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-12 23:10:44.010  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-12 23:10:44.012  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 

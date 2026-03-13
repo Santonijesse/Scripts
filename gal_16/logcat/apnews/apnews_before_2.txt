@@ -1,0 +1,561 @@
+--------- beginning of main
+03-12 21:15:19.660  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6057 went down
+03-12 21:15:19.660  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6057 went down
+03-12 21:15:19.660  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-12 21:15:19.660  2007  2007 I sensors-hal: register_cb:304, suid(low=9921513099128050929,high=10978744344367743962) is new. register callbacks
+03-12 21:15:19.660  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:15:19.660  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:15:19.660  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:15:19.664  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6058 went down
+03-12 21:15:19.664  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6058 went down
+03-12 21:15:19.664  2007 27264 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:15:19.665  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 4 ms to receive the response with 0
+03-12 21:15:19.665  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=1 completed
+03-12 21:15:19.665 26250 26465 D SensorManager: registerListener :: 151, Game Rotation Vector  Non-wakeup, 16666, 0, 
+03-12 21:15:19.666 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.666 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.666 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.666 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.668  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=0
+03-12 21:15:19.668  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:15:19.668  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:15:19.668  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:15:19.669  2007 27264 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:15:19.669  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:15:19.669  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4da0f0) send sig to tid= 27263
+03-12 21:15:19.670  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4da0f0) is destroyed, remaining task = 0, tid= 27263
+03-12 21:15:19.670  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-12 21:15:19.670  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=0 completed
+03-12 21:15:19.671  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6059 went down
+03-12 21:15:19.671  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6059 went down
+03-12 21:15:19.671 26250 26465 D SensorManager: unregisterListener
+03-12 21:15:19.672  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 16666000 based on min/max delay_ns
+03-12 21:15:19.672  2007  2007 I sensors-hal: batch:363, android.sensor.game_rotation_vector/151, period=16666000, max_latency=0 request completed
+03-12 21:15:19.673  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=1
+03-12 21:15:19.673  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 35 , conn_type 3 
+03-12 21:15:19.673  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4da0f0) is created with tid= 27268
+03-12 21:15:19.675 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.675  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 605a went down
+03-12 21:15:19.675 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.675  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 605a went down
+03-12 21:15:19.675 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.675 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.675  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 605b went down
+03-12 21:15:19.676  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 605b went down
+03-12 21:15:19.676  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 605c went down
+03-12 21:15:19.677  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 605c went down
+03-12 21:15:19.677  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-12 21:15:19.677  2007  2007 I sensors-hal: register_cb:304, suid(low=9921513099128050929,high=10978744344367743962) is new. register callbacks
+03-12 21:15:19.677  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:15:19.677  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:15:19.677  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:15:19.677  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 605d went down
+03-12 21:15:19.677  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 605d went down
+03-12 21:15:19.677  2007 27269 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:15:19.678  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:15:19.678  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=1 completed
+03-12 21:15:19.678 26250 26465 D SensorManager: registerListener :: 151, Game Rotation Vector  Non-wakeup, 16666, 0, 
+03-12 21:15:19.683 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.683 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.683 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.683 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.691 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.691 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.691 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.691 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.706 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.706 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.706 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.706 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.707 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.708 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.708 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.708 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.710 16161 24000 I NetworkScheduler: (REDACTED) Error inserting %s
+03-12 21:15:19.714  2007 27269 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-12 21:15:19.716 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.716 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.716 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.716 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.724 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.725 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.725 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.725 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.733 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.733 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.733 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.733 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.739  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=0
+03-12 21:15:19.739  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:15:19.739  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:15:19.740  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:15:19.740  2007 27269 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:15:19.740  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:15:19.741  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4da0f0) send sig to tid= 27268
+03-12 21:15:19.741 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.741 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.741 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.741 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.741  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4da0f0) is destroyed, remaining task = 0, tid= 27268
+03-12 21:15:19.742  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-12 21:15:19.742  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 605e went down
+03-12 21:15:19.742  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 605e went down
+03-12 21:15:19.742  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=0 completed
+03-12 21:15:19.742 26250 26465 D SensorManager: unregisterListener
+03-12 21:15:19.750 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.750 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.750 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.750 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.758 25619 25670 I appium  : channel read: GET /session/3ec0c1a9-9cf0-4f10-b7b2-3f217f6427d2/source
+03-12 21:15:19.758 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.758 25619 25670 I appium  : Source command
+03-12 21:15:19.758 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.758 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.758 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.759 25619 25670 I appium  : Waiting up to 10000ms for the device to idle
+03-12 21:15:19.773 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 16666000 based on min/max delay_ns
+03-12 21:15:19.774  2007  2007 I sensors-hal: batch:363, android.sensor.game_rotation_vector/151, period=16666000, max_latency=0 request completed
+03-12 21:15:19.774 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=1
+03-12 21:15:19.774  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 35 , conn_type 3 
+03-12 21:15:19.774 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.774  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4da0f0) is created with tid= 27271
+03-12 21:15:19.776  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 605f went down
+03-12 21:15:19.776  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 605f went down
+03-12 21:15:19.777  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6060 went down
+03-12 21:15:19.777  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6060 went down
+03-12 21:15:19.778  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6061 went down
+03-12 21:15:19.778  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6061 went down
+03-12 21:15:19.778  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-12 21:15:19.778  2007  2007 I sensors-hal: register_cb:304, suid(low=9921513099128050929,high=10978744344367743962) is new. register callbacks
+03-12 21:15:19.778  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:15:19.778  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:15:19.778  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:15:19.779  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6062 went down
+03-12 21:15:19.779  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6062 went down
+03-12 21:15:19.781  2007 27272 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:15:19.781  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 2 ms to receive the response with 0
+03-12 21:15:19.781  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=1 completed
+03-12 21:15:19.781 26250 26465 D SensorManager: registerListener :: 151, Game Rotation Vector  Non-wakeup, 16666, 0, 
+03-12 21:15:19.783 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.783 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.783 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.783 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.791 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.791 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.791 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.791 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.799 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.800 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.800 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.800 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.809 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.809 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.809 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.809 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.815 16161 23093 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-12 21:15:19.816  2007 27272 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-12 21:15:19.816 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.816 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.816 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.817 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.819  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=0
+03-12 21:15:19.819  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:15:19.819  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:15:19.819  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:15:19.820  2007 27272 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:15:19.820  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:15:19.820  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4da0f0) send sig to tid= 27271
+03-12 21:15:19.821  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 6063 went down
+03-12 21:15:19.821  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 6063 went down
+03-12 21:15:19.821  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4da0f0) is destroyed, remaining task = 0, tid= 27271
+03-12 21:15:19.821  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-12 21:15:19.821  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=0 completed
+03-12 21:15:19.821 26250 26465 D SensorManager: unregisterListener
+03-12 21:15:19.825 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.826 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.826 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.826 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.833 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.833 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.833 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.833 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.841 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.841 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.842 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.842 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.850 26250 26250 I cr_A11yState: Enabled accessibility services list updated. []
+03-12 21:15:19.850 26250 26250 I cr_A11yState: Informing listeners of changes.
+03-12 21:15:19.850 26250 26250 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-12 21:15:19.853 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.854 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.854 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.854 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.858 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.858 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.858 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.858 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.859 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.860 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.866 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.866 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.866 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.866 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.867 26250 26250 I View    : setRequestedFrameRate frameRate=-4.0, this=com.apnews.app.core.designsystem.components.views.webview.TraceableWebView{48fc5d2 VFEDH.C.. ........ 0,0-1020,1398 #7f0b0261 app:id/embedWv}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:15:19.874 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.875 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.875 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.875 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.875 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.875 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.883 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.883 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.883 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.883 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.893 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.893 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.893 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.893 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.899 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.900 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.900 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.900 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.907 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.908 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.908 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.908 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.913 25619 25670 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 21:15:19.916 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.916 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.916 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.916 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.924 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.924 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.924 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.924 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.932 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.933 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.933 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.933 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.941 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.941 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.941 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.941 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.949 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.949 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.949 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.949 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.957 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.957 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.957 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.958 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.966 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.966 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.966 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.966 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.975 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.975 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.975 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.975 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.977 25619 25670 I appium  : AppiumResponse: {"sessionId":"3ec0c1a9-9cf0-4f10-b7b2-3f217f6427d2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"mnn.Android\" class=\"android.widg…
+03-12 21:15:19.983 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.983 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.983 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.983 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.991 25619 25670 I appium  : channel read: GET /session/3ec0c1a9-9cf0-4f10-b7b2-3f217f6427d2/screenshot
+03-12 21:15:19.991 25619 25670 I appium  : CaptureScreenshot command
+03-12 21:15:19.991 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.991 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.991 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.991 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:19.992 25619 25670 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:15:19.992 25619 25670 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:15:20.001 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.001 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.002 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.002 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.008 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.008 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.008 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.008 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+--------- beginning of system
+03-12 21:15:20.010  1171  1171 D io_stats: !@   8,0 r 2581314 88564816 w 2007917 53191224 d 231742 58714668 f 78861 222327 iot 883380 0 th 0 0 0 pt 0 inp 0 0 33200.694
+03-12 21:15:20.017 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.017 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.017 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.017 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.026 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.026 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.026 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.026 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.033 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.033 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.033 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.033 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.041 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.042 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.042 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.042 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.050 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.051 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.051 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.051 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.058 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.058 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.058 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.058 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.066 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.066 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.066 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.067 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.073 27273 27273 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 21:15:20.073 27273 27273 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 21:15:20.074 27273 27273 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 21:15:20.074  3003  4564 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 21:15:20.075  3003  4564 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 21:15:20.075 27273 27273 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 21:15:20.075 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.075 27273 27273 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 21:15:20.075 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.075 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.075 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.077  2105  2324 I SurfaceFlinger: Capture layer list: 	 mnn.Android/com.apnews.app.activity.MainActivity$_26250#11591(seamlessTransition:0)
+03-12 21:15:20.077  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 21:15:20.077  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#11541(seamlessTransition:0)
+03-12 21:15:20.077  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 21:15:20.078  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 21:15:20.078  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 21:15:20.078  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer mnn.Android/com.apnews.app.activity.MainActivity$_26250#11591 at index 1
+03-12 21:15:20.078  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 21:15:20.078  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#11541 at index 3
+03-12 21:15:20.079  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 21:15:20.084 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.084 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.084 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.084 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.091 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.091 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.091 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.091 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.099 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.099 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.099 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.099 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.108 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.108 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.108 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.108 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.109 27273 27278 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 21:15:20.110 27273 27273 W qdgralloc: Failed to load libubwcp.so
+03-12 21:15:20.116 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.116 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.116 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.116 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.124 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.125 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.125 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.125 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.132 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.133 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.133 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.133 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.141 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.141 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.141 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.141 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.149 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.149 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.149 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.149 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.157 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.157 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.158 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.158 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.166 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.166 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.166 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.166 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.174 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.174 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.175 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.175 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.183 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.183 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.183 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.183 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.191 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.191 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.191 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.191 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.200 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.200 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.200 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.200 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.208 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.208 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.208 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.208 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.216 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.216 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.216 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.216 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.225 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.225 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.225 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.225 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.233 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.233 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.233 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.233 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.242 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.242 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.242 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.242 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.249 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.250 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.250 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.250 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.258 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.258 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.258 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.258 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.266 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.266 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.266 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.266 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.275 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.275 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.275 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.275 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.283 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.283 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.283 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.283 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.291 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.291 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.291 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.291 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.299 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.299 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.300 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.300 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.309 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.309 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.309 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.309 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.316 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.316 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.316 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.316 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.324 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.324 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.324 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.325 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.332 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.332 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.332 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.332 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.342 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.343 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.343 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.343 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.350 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.350 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.350 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.350 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.357 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.358 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.358 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.358 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.366 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.366 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.366 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.366 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.374 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.374 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.374 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.374 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.382 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.382 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.382 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.382 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.391 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.391 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.391 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.391 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.399 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.399 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.399 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.399 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.407 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.407 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.407 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.408 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.416 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.416 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.416 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.416 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.417 25619 25670 I appium  : AppiumResponse: {"sessionId":"3ec0c1a9-9cf0-4f10-b7b2-3f217f6427d2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFTl/gfwz8zAsMsmyqK4Iu6iIKW478lNy93U1MJuZV2zrqWZilreMjXTumqaW2iipqFYLqnkQmq5IAqCILiwiyI7DDPP7w8v58c4A4Igw+Tn/Xp9X/dyOPPMc2YmPOczz3keGQABIiI…
+03-12 21:15:20.424 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.424 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.424 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.424 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.432 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.432 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.433 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.433 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.441 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.441 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.442 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.442 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.443  2007 21782 I sensors-hal: handle_sns_client_event:375, [0][3094] accel_sample [-0.258, -0.013,  9.834] 191720996321951
+03-12 21:15:20.450 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.450 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.450 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.450 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.458 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.458 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.458 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.458 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.466 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.467 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.467 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.467 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.475 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.475 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.475 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.475 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.483 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.483 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.483 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.483 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.491 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.492 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.492 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.492 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.499 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.499 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.499 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.500 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.507 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.508 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.508 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.508 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773364520
+03-12 21:15:20.515  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:15:20.516  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 282 
+03-12 21:15:20.516 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.516 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.516 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.516 26476 26576 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:15:20.517  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556075
+03-12 21:15:20.517  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-12 21:15:20.518  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-12 21:15:20.518  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-12 21:15:20.518  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 

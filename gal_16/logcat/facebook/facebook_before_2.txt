@@ -1,0 +1,859 @@
+--------- beginning of main
+03-13 01:54:35.880  2053  7619 W QC2V4l2Decoder: [v4lvp9D_211] Allocating output buffer timedout, 2833ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:35.946  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 01:54:35.975  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 12590ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:35.996  6122  6153 I appium  : channel read: GET /session/90b9a546-e6fd-4c54-a4b0-06a599303066/source
+03-13 01:54:35.999  6122  6153 I appium  : Source command
+03-13 01:54:36.002  6122  6153 I appium  : Waiting up to 10000ms for the device to idle
+03-13 01:54:36.031  2053  7619 W QC2V4l2Decoder: [v4lvp9D_211] Allocating output buffer timedout, 2984ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.088  6122  6153 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 01:54:36.126  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 12741ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.151  6122  6153 I appium  : AppiumResponse: {"sessionId":"90b9a546-e6fd-4c54-a4b0-06a599303066","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.facebook.katana\" class=\"andr…
+03-13 01:54:36.166  6122  6153 I appium  : channel read: GET /session/90b9a546-e6fd-4c54-a4b0-06a599303066/screenshot
+03-13 01:54:36.167  6122  6153 I appium  : CaptureScreenshot command
+03-13 01:54:36.170  6122  6153 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:54:36.170  6122  6153 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:54:36.181  2053  7619 W QC2V4l2Decoder: [v4lvp9D_211] Allocating output buffer timedout, 3134ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.276  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 12892ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.306  7698  7698 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 01:54:36.306  7698  7698 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 01:54:36.308  7698  7698 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 01:54:36.309  3003  4564 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 01:54:36.310  3003  4564 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 01:54:36.310  7698  7698 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 01:54:36.310  7698  7698 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 01:54:36.312  2105  2921 I SurfaceFlinger: Capture layer list: 	 Background for d83b306 SurfaceView[com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity]@0#33245(seamlessTransition:0)
+03-13 01:54:36.313  2105  2921 I SurfaceFlinger: Capture layer list: 	 [BBQ] f4f077e#33241#33246(seamlessTransition:0)
+03-13 01:54:36.313  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity$_6199#33236(seamlessTransition:0)
+03-13 01:54:36.313  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 01:54:36.313  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#33136(seamlessTransition:0)
+03-13 01:54:36.313  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 01:54:36.313  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 01:54:36.314  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 01:54:36.314  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer [BBQ] f4f077e#33241#33246 at index 1
+03-13 01:54:36.314  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity$_6199#33236 at index 2
+03-13 01:54:36.314  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 01:54:36.314  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#33136 at index 4
+03-13 01:54:36.314  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 01:54:36.332  2053  7619 W QC2V4l2Decoder: [v4lvp9D_211] Allocating output buffer timedout, 3285ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.369  7698  7704 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 01:54:36.370  7698  7698 W qdgralloc: Failed to load libubwcp.so
+03-13 01:54:36.427  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 13043ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.483  2053  7619 W QC2V4l2Decoder: [v4lvp9D_211] Allocating output buffer timedout, 3436ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.492  2007  5437 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 3(3),c:1,b:23,m:13,cl:0,l:3,s:1,l0:320,l1:0,s0:223,s1:0,acl:1,opr:0.27,f(r):97,u(bl):111,if:0,wi:0,si:2,po:121(N:0)
+03-13 01:54:36.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773381276
+03-13 01:54:36.519  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 01:54:36.520  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 351 
+03-13 01:54:36.521  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556354
+03-13 01:54:36.522  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556342
+03-13 01:54:36.523  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 01:54:36.523  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556342
+03-13 01:54:36.524  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 01:54:36.525  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 01:54:36.551  1171  1171 D io_stats: !@   8,0 r 3030636 99493636 w 3325048 74195800 d 310369 82163060 f 145534 349424 iot 1382132 0 th 0 0 0 pt 0 inp 0 0 49957.236
+03-13 01:54:36.552  1171  1171 D io_stats: !@ Read_top(KB): screencap(7698) 68 facebook.katana(6199) 8 book.appmanager(13377) 8
+03-13 01:54:36.554  1171  1171 D io_stats: !@ Write_top(KB): facebook.katana(6199) 4260 kworker/u16:6(15515) 2260 book.appmanager(13377) 16
+03-13 01:54:36.579  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 13195ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.635  2053  7619 W QC2V4l2Decoder: [v4lvp9D_211] Allocating output buffer timedout, 3588ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.675  3003  4027 I SemWifiServiceDetector: Service det. suspended: T / T / 32187
+03-13 01:54:36.675  3003  4031 I SemWifiCtlFeatureMediator: Trf ratio: 0.0% (0.00 / 379.35) (TWT/S-PM: 1.0) v ( NR) || Query: TWT/S-PM false (false) 1.0 1.0 1.0 / BW false (false) 1.0 1.0 1.0 / NSS true (false) 1.0 1.0 1.0 
+03-13 01:54:36.678  4111  4111 D wpa_sslib: value for nss and chains 1 1
+03-13 01:54:36.680  4111  4111 I wpa_sslib: oem_data_cmd=59
+03-13 01:54:36.680  3003  4051 D SemWifiResourceManager: setTxMode: Tx Mode = 3, Switch required = true, Granted = true, TxModeReduced = true, avgTxMbps = 0.199, avgRxMbps = 8.802, peakTxMbps = 0.940, peakRxMbps = 40.637, AvgRssi = -59, AvgCu = 6
+03-13 01:54:36.716  3003  3661 D InputReader: Btn_touch(7): value=1 when=49957.400655
+03-13 01:54:36.716  3003  3661 I InputReader: Touch event's action is 0x0 (id=7, t=0) [pCnt=1, s=0.2833 ] when=49957.400655
+03-13 01:54:36.717  3003  3658 I InputDispatcher: Delivering touch to (4205): action: 0x4, f=0x0, d=0, '1728246', t=1 
+03-13 01:54:36.717  3003  3658 I InputDispatcher: Delivering touch to (6199): action: 0x0, f=0x0, d=0, '5b9f29e', t=1 
+03-13 01:54:36.717  3003  3658 D PowerManagerService: [api] userActivityFromNative : touch displayId=0 eventTime=49957400
+03-13 01:54:36.718  3003  3065 I GestureDetector: obtain mCurrentDownEvent. id: 1068835821 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:17 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:392 
+03-13 01:54:36.718  3003  3658 D PowerManagerService: UserActivityStateListenerState: 1
+03-13 01:54:36.718  3003  3065 I GestureDetector: obtain mCurrentDownEvent. id: 1068835821 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:13 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:392 
+03-13 01:54:36.718  2105  2812 D DisplayModeController: setDesiredMode 4630946564756762243 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-13 01:54:36.718  6199  6199 I VRI[ImmersiveActivity]@6267c78: ViewPostIme pointer 0
+03-13 01:54:36.719  2105  2105 I SurfaceFlinger: Touch Boost - choose 120.00 Hz
+03-13 01:54:36.720  2105  2105 I HWComposer: [4630946564756762243] ActiveConfigToHWC, ID : 0
+03-13 01:54:36.720  2040  2451 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] check hs_mode 3
+03-13 01:54:36.720  2040  2451 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 951000000
+03-13 01:54:36.720  2040  2451 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] Set mode index:0 1080x2640x120xcmdHS, hs_mode(3), found_mode(0)
+03-13 01:54:36.720  2040  2451 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-1 for Peripheral
+03-13 01:54:36.721  2040  2451 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 2 to 0
+03-13 01:54:36.721  6199  6199 I VRI[ImmersiveActivity]@6267c78: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[ImmersiveActivity]@6267c78
+03-13 01:54:36.722  2105  2105 I SurfaceFlinger: finalizeDisplayModeChange 4630946564756762243
+03-13 01:54:36.722  2105  2105 I SurfaceFlinger: [com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity$_6199#33236] setFrameRateCategory: HighHint
+03-13 01:54:36.723  3003  3067 D LocalDisplayAdapter: updateActiveModeLocked for d=4630946564756762243, mActiveModeId=1, mActiveSfDisplayMode=DisplayMode{id=0, width=1080, height=2640, xDpi=428.625, yDpi=424.405, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=8333333, presentationDeadlineNanos=9333333, supportedHdrTypes=[4, 2, 3], group=1080}
+03-13 01:54:36.723  3003  3065 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 836222976
+03-13 01:54:36.723  3003  3065 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 836222976
+03-13 01:54:36.723  3003  3067 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=9333333, appVsyncOffsetNanos=8333333, frameRateOverrides=[]
+03-13 01:54:36.723  6380  6380 I SemDvfsHyPerManager: acquire hyper - TATouchBoost/6380@30, type = -999
+03-13 01:54:36.724  6380  6380 I SemDvfsHyPerManager: acquire hyper - TA_TOUCH_SHARE/6380@31, type = -999
+03-13 01:54:36.724  3003  3003 D SGM:GameManager: onDisplayChanged. displyId: 0, state: 2
+03-13 01:54:36.724  3003  3003 D AODManagerService: requestReCalToTSP IsSingleTouchMode = falserequestedReCalToTSP = false / previousDisplayState = ON
+03-13 01:54:36.725  2094 21110 D AudioFlinger: setParameters: filtered dev setParameters keyvalue screen_state=on
+03-13 01:54:36.725  3003  5976 D LiftUpHandler: [LTW] Stopped already.
+03-13 01:54:36.725  3003  3687 D SGM:FgCheckThread: onLooperPrepared(), msg: MSG_LCD_ON
+03-13 01:54:36.726  4205  4205 D DisplayLifecycle: updateDisplay id = 0
+03-13 01:54:36.726  4205  4362 D StackScroller: onDisplayChanged for predraw skip to 2
+03-13 01:54:36.726  3003  3065 D WindowManager: DeferredDisplayUpdater: partially applying DisplayInfo(1080 x 2640) immediately
+03-13 01:54:36.727  2105  2836 I VSyncReactor: Current= 60, Period= 120, hwcPeriod= 120
+03-13 01:54:36.727  3003  4966 D WifiDisplayAdapter: isFitToActiveDisplayLocked : false
+03-13 01:54:36.727  3003  3065 D SurfaceComposerClient: setCornerRadius ## 5b9f29e com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity#33235 cornerRadius=0.000000
+03-13 01:54:36.728  4832  4090 I HoneySpace.Memory-Monitor: current state = 2, didTrim = false
+03-13 01:54:36.728  4832  4245 I HoneySpace.RefreshRateSource: singleFrameMs 8
+03-13 01:54:36.728  1992 10205 D AHAL: AudioDevice: SetParameters: 1865: enter
+03-13 01:54:36.728  1992 10205 D AHAL: AudioVoice: VoiceSetParameters: 200: Enter
+03-13 01:54:36.728  1992 10205 D AHAL: AudioVoice: VoiceSetParameters: 479: Exit ret: 0
+03-13 01:54:36.728  1992 10205 D AHAL: hfp: hfp_set_parameters: 444: enter
+03-13 01:54:36.729  1992 10205 D AHAL: AudioDevice: SetParameters: 1945:  - screen = on
+03-13 01:54:36.729  1992 10205 I PAL: ResourceManager: setParameter: 10683: Screen State:1
+03-13 01:54:36.729  1992 10205 D AHAL: AudioDevice: SetParameters: 2798: exit: screen_state=on
+03-13 01:54:36.729  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20547285  [6380 / 30]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+03-13 01:54:36.729  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20553697  [6380 / 31]    HINT : TA_TOUCH_SHARE    list : [TIMEOUT / 1500] 
+03-13 01:54:36.731  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 13347ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.773  3003  3661 D InputReader: Btn_touch(7): value=0 when=49957.457892
+03-13 01:54:36.773  3003  3661 I InputReader: Touch event's action is 0x1 (id=7, t=0) [pCnt=1, s=] when=49957.457892
+03-13 01:54:36.774  3003  3658 I InputDispatcher: Delivering touch to (6199): action: 0x1, f=0x0, d=0, '5b9f29e', t=1 
+03-13 01:54:36.774  6199  6199 I VRI[ImmersiveActivity]@6267c78: ViewPostIme pointer 1
+03-13 01:54:36.785  3003  4564 I MediaFocusControl: requestAudioFocus() from uid/pid 10340/6199 AA=USAGE_MEDIA/CONTENT_TYPE_MUSIC clientId=android.media.AudioManager@ea77753X.6oL@db4890 callingPack=com.facebook.katana req=1 flags=0x0 sdk=36
+03-13 01:54:36.785  3003  4564 D AS.AudioService: [Android Auto] isConnectedAndroidAuto = false
+03-13 01:54:36.785  3003  4564 D MediaFocusControl: selectFocusStack, uid = 10340, appDevice = 0, device = 2
+03-13 01:54:36.785  3003  4564 I MediaFocusControl: removeFocusStackEntry client:android.media.AudioManager@ea77753X.6oL@db4890
+03-13 01:54:36.785  3003  4564 I MediaFocusControl: propagateFocusLossFromGain_syncAf gain:1
+03-13 01:54:36.785  3003  4564 I MediaFocusControl: propagateFocusLossFromGain_syncAf empty stack
+03-13 01:54:36.785  3003  4564 I AS.FadeOutManager: unfadeOutUid() uid:10340
+03-13 01:54:36.786  2094 21110 I AF::Track: setMixerOutConfig expectKey 202
+03-13 01:54:36.786  2094 21110 I AF::Track: setMixerOutConfig select, mixer out f 5, s 48000, thread out f 4, s 48000
+03-13 01:54:36.786  2094 21110 I AudioPolicyEffectException: MySpaceHandler::checkDetachCondition media 1, ring 0, mp 0
+03-13 01:54:36.786  2094 21110 I AudioPolicyEffectException: MySpace detach value 1
+03-13 01:54:36.786  2094 21110 V APM_AudioPolicyManager: startOutput portId 194
+03-13 01:54:36.786  2094 21110 V APM_AudioPolicyManager: startOutput() output 21, stream 3, session 3041
+03-13 01:54:36.786  3003  4564 I WifiService: acquireWifiLock uid=10340 lockMode=3 packageName=com.facebook.katana
+03-13 01:54:36.786  2094 21110 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=1 mBeaconPlayingRefCount=0
+03-13 01:54:36.786  4205  4946 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : lastStartedPackageName=null, lastStartedUid=-1, newStartedUid=10340, newStartPackageName=com.facebook.katana, thread=Thread[RoutineHandlerThread,5,main]
+03-13 01:54:36.786  4205  4946 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : notifyChanged
+03-13 01:54:36.786  3003  3003 D AudioPlayerStateMonitor: Found a new active media playback. AudioPlaybackConfiguration piid:2951 deviceIds:[] type:android.media.AudioTrack u/pid:10340/6199 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null sessionId:3041 mutedState:streamVolume  FormatInfo{isSpatialized=false, channelMask=0x3, sampleRate=44100}
+03-13 01:54:36.787  2094 21110 V APM_AudioPolicyManager: selectOutputForMusicEffects activeOnly 1 output 21 flags 0x00000008
+03-13 01:54:36.787  2053  7619 W QC2V4l2Decoder: [v4lvp9D_211] Allocating output buffer timedout, 3739ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.787  2094 21110 W AudioFlinger: moveEffectChain_ll: effect chain for session 0 not on source thread 0xb400007696a90fe8
+03-13 01:54:36.787  2094 21110 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 21
+03-13 01:54:36.787  3003  3003 D MediaSessionService: Audio playback is changed, config=AudioPlaybackConfiguration piid:2951 deviceIds:[] type:android.media.AudioTrack u/pid:10340/6199 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null sessionId:3041 mutedState:streamVolume  FormatInfo{isSpatialized=false, channelMask=0x3, sampleRate=44100}, removed=false
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, callers=com.android.server.media.AudioPlayerStateMonitor$MessageHandler.handleMessage:19 android.os.Handler.dispatchMessage:110 
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10340
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10450
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10451
+03-13 01:54:36.787  2094 21110 V APM_AudioPolicyManager: getNewOutputDevices selected devices {AUDIO_DEVICE_OUT_SPEAKER, @:}
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10467
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10026
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10405
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10053
+03-13 01:54:36.787  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10420
+03-13 01:54:36.787  2094 21110 V APM_AudioPolicyManager: setOutputDevices caller startSource[[portId:5][io:21, deep_buffer]] device {AUDIO_DEVICE_OUT_SPEAKER, @:} delayMs 0
+03-13 01:54:36.787  2094 21110 V APM_AudioPolicyManager: setOutputDevices: caller startSource[[portId:5][io:21, deep_buffer]] suppressing checkDeviceMuteStrategies
+03-13 01:54:36.787  3003  3997 D MediaRouterService: onAudioPlayerActiveStateChanged: uid=10340, active=true, restoreUid=10340
+03-13 01:54:36.787  2094 21110 V APM_AudioPolicyManager: setOutputDevices caller startSource[[portId:5][io:21, deep_buffer]] setting same device {AUDIO_DEVICE_OUT_SPEAKER, @:} or null device, force=0, patch handle=6
+03-13 01:54:36.788  2094 21110 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 3, index 0, devices 0x2, volume 0.000000, delayMs 0, muted false
+03-13 01:54:36.788  3003  3963 D AS.SoundAliveUtils: notify dvfs state : 2, screen : true
+03-13 01:54:36.789  3003  3963 I ActivityManager: Changes in 10138 15 to 5, 0 to 144
+03-13 01:54:36.791  2017  2043 D WifiHAL : wifi_set_latency_mode: 1
+03-13 01:54:36.795  4171  1389 I SAContentProvider:  getType() : screen on is true
+03-13 01:54:36.795  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 01:54:36.797  1992 10205 D AudioSAEffectOffload: send_custom_payload_effect: enter, tag: 0xc00000b, custom_data_sz: 28
+03-13 01:54:36.797  1992 10205 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.797  1992 10205 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.797  1992 10205 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.797  1992 10205 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.797  1992 10205 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.797  1992 10205 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.797  1992 10205 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.797  1992 10205 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.797  1992 10205 D AudioSAEffectOffload: send_custom_payload_effect: exit, tag: 0xc00000b, custom_data_sz: 28
+03-13 01:54:36.797  1992 10205 D AudioSAEffectOffload: offload_param_dump() : status[-22] value[ VM,0,0,0,0,2,0,0 ] 
+03-13 01:54:36.797  2094  2539 D AudioFlinger: setParameters: filtered dev setParameters keyvalue l_stream_music_active=true
+03-13 01:54:36.797  1992 15104 V sec_audio_hw: sec_dev_set_parameters : l_stream_music_active=true
+03-13 01:54:36.797  1992 15104 D AHAL: AudioDevice: SetParameters: 1865: enter
+03-13 01:54:36.797  1992 15104 D AHAL: AudioVoice: VoiceSetParameters: 200: Enter
+03-13 01:54:36.797  1992 15104 D AHAL: AudioVoice: VoiceSetParameters: 479: Exit ret: 0
+03-13 01:54:36.797  1992 15104 D AHAL: hfp: hfp_set_parameters: 444: enter
+03-13 01:54:36.797  1992 15104 D AHAL: AudioDevice: SetParameters: 2798: exit: l_stream_music_active=true
+03-13 01:54:36.800  2094 21110 I AudioFlinger: updateStageIndex new -2108
+03-13 01:54:36.800  2094 21110 I AudioFlinger::DualSpkControl: setAmpPower sensor status 0, enableAmp 1
+03-13 01:54:36.800  1992 10205 V sec_audio_hw: sec_stream_set_parameters(13:0) : l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992 10205 D AHAL: AudioStream: astream_out_set_parameters: 1076: enter: usecase(1: primary-playback) kvpairs: l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992 10205 D AHAL: AudioStream: SetParameters: 2998: enter 
+03-13 01:54:36.801  1992 10205 D AHAL: AudioStream: SetParameters: 3043: exit 0
+03-13 01:54:36.801  1992 10205 D AHAL: AudioStream: astream_out_set_parameters: 1097: Exit ret: 0
+03-13 01:54:36.801  1992 15104 V sec_audio_hw: sec_stream_set_parameters(21:0) : l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992 15104 D AHAL: AudioStream: astream_out_set_parameters: 1076: enter: usecase(0: deep-buffer-playback) kvpairs: l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992 15104 D AHAL: AudioStream: SetParameters: 2998: enter 
+03-13 01:54:36.801  1992 15104 D AHAL: AudioStream: SetParameters: 3043: exit 0
+03-13 01:54:36.801  1992 15104 D AHAL: AudioStream: astream_out_set_parameters: 1097: Exit ret: 0
+03-13 01:54:36.801  1992  7815 V sec_audio_hw: sec_stream_set_parameters(29:0) : l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  7815 D AHAL: AudioStream: astream_out_set_parameters: 1076: enter: usecase(2: low-latency-playback) kvpairs: l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  7815 D AHAL: AudioStream: SetParameters: 2998: enter 
+03-13 01:54:36.801  1992  7815 D AHAL: AudioStream: SetParameters: 3043: exit 0
+03-13 01:54:36.801  1992  7815 D AHAL: AudioStream: astream_out_set_parameters: 1097: Exit ret: 0
+03-13 01:54:36.801  1992  7816 V sec_audio_hw: sec_stream_set_parameters(37:0) : l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  7816 D AHAL: AudioStream: astream_out_set_parameters: 1076: enter: usecase(14: audio-ull-playback) kvpairs: l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  7816 D AHAL: AudioStream: SetParameters: 2998: enter 
+03-13 01:54:36.801  1992  7816 D AHAL: AudioStream: SetParameters: 3043: exit 0
+03-13 01:54:36.801  1992  7816 D AHAL: AudioStream: astream_out_set_parameters: 1097: Exit ret: 0
+03-13 01:54:36.801  1992  1992 V sec_audio_hw: sec_stream_set_parameters(53:0) : l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  1992 D AHAL: AudioStream: astream_out_set_parameters: 1076: enter: usecase(2: low-latency-playback) kvpairs: l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  1992 D AHAL: AudioStream: SetParameters: 2998: enter 
+03-13 01:54:36.801  1992  1992 D AHAL: AudioStream: SetParameters: 3043: exit 0
+03-13 01:54:36.801  1992  1992 D AHAL: AudioStream: astream_out_set_parameters: 1097: Exit ret: 0
+03-13 01:54:36.801  1992  4982 V sec_audio_hw: sec_stream_set_parameters(61:0) : l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  4982 D AHAL: AudioStream: astream_out_set_parameters: 1076: enter: usecase(32: audio-playback-voip) kvpairs: l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992  4982 D AHAL: AudioStream: SetParameters: 2998: enter 
+03-13 01:54:36.801  1992  4982 D AHAL: AudioStream: SetParameters: 3043: exit 0
+03-13 01:54:36.801  1992  4982 D AHAL: AudioStream: astream_out_set_parameters: 1097: Exit ret: 0
+03-13 01:54:36.801  1992 29060 V sec_audio_hw: sec_stream_set_parameters(69:0) : l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992 29060 D AHAL: AudioStream: astream_out_set_parameters: 1076: enter: usecase(2: low-latency-playback) kvpairs: l_dual_speaker_amp_left_power_enable=true
+03-13 01:54:36.801  1992 29060 D AHAL: AudioStream: SetParameters: 2998: enter 
+03-13 01:54:36.801  1992 29060 D AHAL: AudioStream: SetParameters: 3043: exit 0
+03-13 01:54:36.801  1992 29060 D AHAL: AudioStream: astream_out_set_parameters: 1097: Exit ret: 0
+03-13 01:54:36.802  2094  3052 I SoundAlive_SRC384 arch64: ~SoundAlive_SRC384(): instance 86
+03-13 01:54:36.802  2094  3052 I AF::PthrPatchRecord: processMuteEvent(172): processed mute state for port ID 194 from 0x2 to 0x12
+03-13 01:54:36.802  2094  3052 D DlbEffectContext: transformExternalGain() volume:0x0 fVol:0.000000 extVal:-2080
+03-13 01:54:36.802  2094  3052 D DlbEndpointParamCache: commitChangedParams()
+03-13 01:54:36.802  2094  3052 D DlbEndpointParamCache: commit() Applying parameters for device 0x40000000
+03-13 01:54:36.802  2094  3052 D DlbDap2Process: setParam(preg = #1[-2080])
+03-13 01:54:36.802  6199  7598 D AudioTrack: getTimestamp_l(194): device stall time corrected using current time 49957487248337
+03-13 01:54:36.802  2094  3052 D DlbDap2Process: setSystemGain(vol = 0)
+03-13 01:54:36.802  2094  3052 D DlbDap2Process: setParam(svol = #1[-2080])
+03-13 01:54:36.802  2094  3052 D DlbEndpointParamCache: doCommit() Committed 2 parameters out of 16.
+03-13 01:54:36.802  2094  3052 D DlbEndpointParamCache: commit() Overriding parameters for current device 0x00000002
+03-13 01:54:36.802  2094  3052 D DlbEndpointParamCache: doCommit() Committed 0 parameters out of 58.
+03-13 01:54:36.802  2094  3052 I SoundBoosterEffectPlus: SB_setVolume(0xb40000753aa27590)
+03-13 01:54:36.803  2094 21110 D NativePermissionController: checkPermission: missing 13 for 10340
+03-13 01:54:36.803  6199  6199 I BLASTBufferQueue_Java: update, w= 1080 h= 2640 mName = VRI[ImmersiveActivity]@6267c78 mNativeObject= 0xb400006fbfd2d410 sc.mNativeObject= 0xb4000071ef9345d0 format= -3 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+03-13 01:54:36.803  2094 18847 D NativePermissionController: checkPermission: missing 13 for 10340
+03-13 01:54:36.803  6199  6199 I VRI[ImmersiveActivity]@6267c78: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) relayoutAsync=true req=(1080,2640)0 dur=0 res=0x0 s={true 0xb40000707fc00320} ch=false seqId=0
+03-13 01:54:36.803  3003  4923 I WindowManager: Relayout Window{5b9f29e u0 com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity}: viewVisibility=0 req=1080x2640 ty=1 d0
+03-13 01:54:36.804  6199  6199 I VRI[ImmersiveActivity]@6267c78: registerCallbackForPendingTransactions
+03-13 01:54:36.804  3003  4923 D SurfaceComposerClient: setCornerRadius ## 5b9f29e com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity#33235 cornerRadius=0.000000
+03-13 01:54:36.804  3003  4923 D SurfaceComposerClient: setCornerRadius ## 5b9f29e com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity#33235 cornerRadius=0.000000
+03-13 01:54:36.804  2094  3137 D NativePermissionController: checkPermission: missing 13 for 10340
+03-13 01:54:36.804  3003  4923 D PowerManagerService: [api] acquire WakeLock SCREEN_BRIGHT_WAKE_LOCK           'WindowManager/displayId:0' ON_AFTER_RELEASE (uid=1000 pid=3003 ws=WorkSource{10340 com.facebook.katana} displayId=0 lock=ca1952e)
+03-13 01:54:36.804  2094 24900 D NativePermissionController: checkPermission: missing 13 for 10340
+03-13 01:54:36.806  6199  6278 I VRI[ImmersiveActivity]@6267c78: mWNT: t=0xb4000071ffaab650 mBlastBufferQueue=0xb400006fbfd2d410 fn= 130 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+03-13 01:54:36.807  3003  4923 I WindowManager: Relayout hash=5b9f29e, pid=0, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION fmt=TRANSLUCENT wanim=0x7f1f000a
+03-13 01:54:36.807  3003  4923 I WindowManager:   fl=81810180
+03-13 01:54:36.807  3003  4923 I WindowManager:   pfl=100088c0
+03-13 01:54:36.807  3003  4923 I WindowManager:   vsysui=500
+03-13 01:54:36.807  3003  4923 I WindowManager:   apr=210
+03-13 01:54:36.807  3003  4923 I WindowManager:   bhv=1
+03-13 01:54:36.807  3003  4923 I WindowManager:   fitSides=0
+03-13 01:54:36.807  3003  4923 I WindowManager:   frameRateBoostOnTouch=true
+03-13 01:54:36.807  3003  4923 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+03-13 01:54:36.807  3003  3997 D MediaRouterService: onAudioPlayerActiveStateChanged: uid=10340, active=false, delaying
+03-13 01:54:36.807  3003  3003 D MediaSessionService: Audio playback is changed, config=AudioPlaybackConfiguration piid:2951 deviceIds:[3] type:android.media.AudioTrack u/pid:10340/6199 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null sessionId:3041 mutedState:streamVolume clientVolume  FormatInfo{isSpatialized=false, channelMask=0x3, sampleRate=44100}, removed=false
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, callers=com.android.server.media.AudioPlayerStateMonitor$MessageHandler.handleMessage:19 android.os.Handler.dispatchMessage:110 
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10340
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10450
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10451
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10467
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10026
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10405
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10053
+03-13 01:54:36.807  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10420
+03-13 01:54:36.807  1992  4981 I AHAL: AudioStream: out_update_source_metadata_v7: 1265: track count is 1
+03-13 01:54:36.807  1992  4981 D AHAL: AudioStream: out_update_source_metadata_v7: 1310: Source metadata usage:1 content_type:0
+03-13 01:54:36.807  1992  4981 D AHAL: AudioStream: SetAggregateSourceMetadata: 4666: Aggregated Source metadata usage:1 content_type:0
+03-13 01:54:36.808  6199  7612 I MediaCodec: setCodecState state(1), called in 6, domain 1, 1
+03-13 01:54:36.808  2094  3052 I SoundAlive_SRC384 arch64: SoundAlive_SRC384() ID = 87 GID = 88
+03-13 01:54:36.808  2094  3052 I SoundAlive_SRC384 arch64: SoundAlive_SRC384: Instance 87 Init(outFs 7, InFs 7, chnum 0, outBW 0, inBW 0)
+03-13 01:54:36.808  2094  3052 I Samsung_SoundAlive_SRC arch64: SRC384 version Samsung SoundAlive SRC ver320 arch64  2021.08.04 (Cppref for ARM64, ver.300.c 32bit 07_10_2016 based)
+03-13 01:54:36.808  2094  3052 D SoundAliveResampler: [SoundAliveResampler] Init+++
+03-13 01:54:36.808  2094  3052 I SoundAlive_SRC384 arch64: SoundAlive_SRC384: Instance 87 Init(outFs 8, InFs 7, chnum 2, outBW 3, inBW 3)
+03-13 01:54:36.808  2094  3052 I Samsung_SoundAlive_SRC arch64: SRC384 version Samsung SoundAlive SRC ver320 arch64  2021.08.04 (Cppref for ARM64, ver.300.c 32bit 07_10_2016 based)
+03-13 01:54:36.809  2094  3052 W FactoryHal: hasAidlHalService android.hardware.audio.effect.IFactory/default: false
+03-13 01:54:36.809   944   944 I hwservicemanager: getTransport: Cannot find entry android.hardware.audio.effect@7.1::IEffectsFactory/default in either framework or device VINTF manifest.
+03-13 01:54:36.810  2094  3052 W FactoryHal: hasAidlHalService android.hardware.audio.core.IModule/default: false
+03-13 01:54:36.812  6380  6380 I SemMediaResourceHelper: onState
+03-13 01:54:36.813  6380  6380 I SemDvfsHyPerManager: acquire hyper - VIDEO_POWER_EFFICIENCY/6380@28, type = -999
+03-13 01:54:36.814  2094  3052 I EffectsFactory: EffectCreate() create_effect
+03-13 01:54:36.814  2094  3052 I sag_ai_sound_sep_a64: sag_ai_sound_sep_Factory::Create
+03-13 01:54:36.814  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20534464  [6380 / 28]    HINT : VIDEO_POWER_EFFICIENCY    list : 
+03-13 01:54:36.814  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | sag_ai_sound_sep_Interface >> Create Start
+03-13 01:54:36.814  2094  7714 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init1 >> Start
+03-13 01:54:36.814  2094  7715 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init3 >> Start
+03-13 01:54:36.814  3003  4036 D SemWifiOptimizer: WifiLock activation: true
+03-13 01:54:36.814  2094  7712 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init2 >> Start
+03-13 01:54:36.815  6199  7598 D AudioTrack: setVolume(1.000000, 1.000000) pid : 6199
+03-13 01:54:36.816  4205  4946 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : lastStartedPackageName=com.facebook.katana, lastStartedUid=10340, newStartedUid=10340, newStartPackageName=com.facebook.katana, thread=Thread[RoutineHandlerThread,5,main]
+03-13 01:54:36.816  4205  4946 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : lastStartedPackageName=com.facebook.katana, lastStartedUid=10340, newStartedUid=10340, newStartPackageName=com.facebook.katana, thread=Thread[RoutineHandlerThread,5,main]
+03-13 01:54:36.816  3003  4035 D SemWifiOptimizer: enable=1 state=0x20 prev=0x00 new=0x20 force=0 mode=0
+03-13 01:54:36.819  2094  7713 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init4 >> Start
+03-13 01:54:36.822  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20540874
+03-13 01:54:36.823  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20547285
+03-13 01:54:36.823  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20553697
+03-13 01:54:36.830  2094  7715 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init3 >> End
+03-13 01:54:36.831  2094  7713 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init4 >> End
+03-13 01:54:36.832  2094  7714 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init1 >> End
+03-13 01:54:36.838  2094  7712 I sag_ai_sound_sep_a64: mInstanceID: 58 | C_API_init2 >> End
+03-13 01:54:36.844  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:36.850 16522 16889 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-13 01:54:36.875 16522 16889 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-13 01:54:36.876 16522 16889 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-13 01:54:36.878  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | Init >> sag_ai_sound_sep_Interface version sag_ai_sound_sep ver 1.00 (2025.07.14)
+03-13 01:54:36.879  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | sag_ai_sound_sep_Interface >> Create End
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster:  VoiceBooster_Init
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBoosterLib_Create context is 0xb40000758aa3b4d0
+03-13 01:54:36.879  2094  3052 I AudioEffectStageModule: VoiceBooster(-2108) LazyInit start
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command command 0 cmdSize 28
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster:  VoiceBooster_Init
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command command 1 cmdSize 112
+03-13 01:54:36.879  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | Init >> sag_ai_sound_sep_Interface version sag_ai_sound_sep ver 1.00 (2025.07.14)
+03-13 01:54:36.879  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | SetPar >> out_dev: SPK_M, BDState: BYPASS, sampling_rate: 48000, volume : 0.000000
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command command 9 cmdSize 4
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command SET_DEVICE 2
+03-13 01:54:36.879  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | SetPar >> out_dev: SPK_S, BDState: BYPASS, sampling_rate: 48000, volume : 0.000000
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command command 10 cmdSize 8
+03-13 01:54:36.879  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | SetPar >> out_dev: SPK_S, BDState: BYPASS, sampling_rate: 48000, volume : 0.000000
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command SET_VOLUME float 0.000000
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command command 3 cmdSize 0
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command command 5 cmdSize 48
+03-13 01:54:36.879  2094  3052 V AudioVoiceBooster: VoiceBooster_Command EFFECT_CMD_SET_PARAM cmdSize 48 cmdData 0xb4000075caa34c90, *replySize 4, replyData 0x7372765450
+03-13 01:54:36.879  2094  3052 I AudioVoiceBooster: VoiceBooster setPresetTable 0 0 0 0 0 0 0 0 
+03-13 01:54:36.879  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | SetPar >> out_dev: SPK_S, BDState: BYPASS, sampling_rate: 48000, volume : 0.000000
+03-13 01:54:36.879  2094  3052 I AudioEffectStageModule: VoiceBooster(-2108) LazyInit end
+03-13 01:54:36.879  2094  3052 I sag_ai_sound_sep_a64: mInstanceID: 58 | Exe >> first play
+03-13 01:54:36.881  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 13497ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:36.882  1992 21127 D AHAL: AudioStream: AutoPerfLock: 157: (Acquired) perf_lock_handle: 0x147ff, count: 1
+03-13 01:54:36.882  1992 21127 I AHAL: AudioStream: Open: 3437: Enter: OutPrimary usecase(0: deep-buffer-playback)
+03-13 01:54:36.882  1992 21127 D AHAL: AudioStream: Open: 3443: no_of_devices 1
+03-13 01:54:36.882  1992 21127 I AHAL: AudioStream: Open: 3457:  flags_:0x8, mAndroidOutDevices 2
+03-13 01:54:36.882  1992 21127 D AHAL: AudioStream: Open: 3530: halInputFormat 4 halOutputFormat 4 palformat 22
+03-13 01:54:36.882  1992 21127 D AHAL: AudioStream: Open: 3621: channels 2 samplerate 48000 format id 22, stream type 2  stream bitwidth 32
+03-13 01:54:36.882  1992 21127 D AHAL: AudioStream: Open: 3622: msample_rate 0 mchannels 0 mNoOfOutDevices 1
+03-13 01:54:36.882  1992 21127 I PAL: API: pal_stream_open: 228: Enter, stream type:2
+03-13 01:54:36.882  1992 21127 I PAL: Device: setDeviceAttributes: 396: DeviceAttributes for Device Id 3 updated
+03-13 01:54:36.883  1992 21127 I PAL: Device: open: 476: Enter. deviceCount 0 for device id 3 (PAL_DEVICE_OUT_SPEAKER)
+03-13 01:54:36.883  1992 21127 I PAL: SessionAlsaUtils: setDeviceMediaConfig: 1063: TDM-LPAIF-RX-PRIMARY rate ch fmt data_fmt 48000 2 6 1
+03-13 01:54:36.883  1992 21127 D audio_route: Apply path: speaker
+03-13 01:54:36.883  1992 21127 I PAL: Device: open: 511: Exit. deviceCount 1 for device id 3 (PAL_DEVICE_OUT_SPEAKER), exit status: 0
+03-13 01:54:36.883  1992 21127 I PAL: ResourceManager: allocateFrontEndIds: 7106: allocateFrontEndIds: front end 126
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: populateStreamKV: 3154: stream type 2
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: getSelectorValues: 2976: Direction: 1
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: getSelectorValues: 2992: Instance: 1
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: findKVs: 2866: key: 0xa1000000 value: 0xa1000001
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: findKVs: 2866: key: 0xab000000 value: 0x1
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: populateStreamCkv: 3496: Entered default a4000000 f
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: populateDeviceKV: 3278: Enter device id:3
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: findKVs: 2879: key: 0xa2000000 value: 0xa2000001
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: populateDeviceKV: 3306: Exit device id:3, status 0
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: populateDevicePPKV: 3419: Rx device id:3
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: getSelectorValues: 3052: stream type: 2
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: findKVs: 2866: key: 0xa2000000 value: 0xa2000001
+03-13 01:54:36.883  1992 21127 I PAL: PayloadBuilder: findKVs: 2866: key: 0xac000000 value: 0xac000002
+03-13 01:54:36.884  1992 21127 I PAL: PayloadBuilder: populateDevicePPCkv: 3588: SpeakerProt Status[0], RAS Status[0]
+03-13 01:54:36.884  1992 21127 D agm_server_wrapper: Aif id 32 already added to session list of 126
+03-13 01:54:36.884  1992 21127 I AGM: session: session_obj_set_sess_aif_metadata: 1782 Exit
+03-13 01:54:36.884  1992 21127 D agm_server_wrapper: Aif id 32 already added to session list of 126
+03-13 01:54:36.884  1992 21127 I AGM: API: agm_session_aif_connect: 658 connecting aifid:32 with session id=126
+03-13 01:54:36.884  1992 21127 I PAL: API: pal_stream_open: 274: Exit. Value of stream_handle 0xb400007525b437b0K, status 0 : PAL_STREAM_DEEP_BUFFER(2)
+03-13 01:54:36.884  1992 21127 D AHAL: AudioStream: GetBufferSize: 3376: type 2
+03-13 01:54:36.884  1992 21127 D AHAL: AudioStream: Open: 3837: fragment_size_ 7680 fragments_ 4
+03-13 01:54:36.884  1992 21127 D AHAL: AudioStream: Open: 3897: Exit ret: 0
+03-13 01:54:36.884  1992 21127 D AHAL: AudioStream: ~AutoPerfLock: 167: (release) perf_lock_handle: 0x147ff, count: 1
+03-13 01:54:36.884  1992 21127 D AHAL: AudioStream: ~AutoPerfLock: 171: Releasing perf_lock_handle: 0x147ff
+03-13 01:54:36.884  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10428(com.instagram.android), 4(FAIL), isBlocked=true, 0ms
+03-13 01:54:36.885  1992 21127 D AHAL: AudioStream: AutoPerfLock: 157: (Acquired) perf_lock_handle: 0x14800, count: 1
+03-13 01:54:36.886  1992 21127 I PAL: API: pal_stream_start: 347: Enter. Stream handle 0xb400007525b437b0K
+03-13 01:54:36.886  1992 21127 I PAL: SpeakerProtectionTI: spkrProtProcessingMode: 391: Flag 1
+03-13 01:54:36.886  1992 21127 I PAL: PayloadBuilder: findKVs: 2879: key: 0xa3000000 value: 0xa3000009
+03-13 01:54:36.886  1992 21127 I PAL: SessionAlsaUtils: setDeviceMediaConfig: 1063: TDM-LPAIF-TX-PRIMARY rate ch fmt data_fmt 48000 4 6 1
+03-13 01:54:36.886  1992 21127 I PAL: ResourceManager: allocateFrontEndIds: 7139: allocateFrontEndIds: front end 121
+03-13 01:54:36.886  1992 21127 D agm_server_wrapper: Aif id 33 already added to session list of 121
+03-13 01:54:36.886  1992 21127 I AGM: API: agm_session_aif_connect: 658 connecting aifid:33 with session id=121
+03-13 01:54:36.886  1992 21127 I PAL: Device: updateCustomPayload: 429: customPayloadSize = 40
+03-13 01:54:36.887 16522 16889 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-13 01:54:36.887 16522 16889 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-13 01:54:36.888  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10428(com.instagram.android), 4(FAIL), isBlocked=true, 0ms
+03-13 01:54:36.889  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10428(com.instagram.android), 4(FAIL), isBlocked=true, 0ms
+03-13 01:54:36.889  1992 21127 D agm_client_wrapper: agm_session_open called with handle = 8d380390 , *handle = 0
+03-13 01:54:36.890 16522 16889 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-13 01:54:36.894  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:36.899  1992 21127 D AGM: graph: graph_open: 575 entry
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 80 GKV size:1
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 83 key:0xa3000000, value:0xa3000009 
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 87 
+03-13 01:54:36.899  1992 21127 D AGM: metadata: CKV count:1
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 90 key:0xbf000000, value:0x2 
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 92 
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 94 Property ID:134217744
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 95 property count:1
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 98 Property Values: 
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 100 0x2 
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 102 
+03-13 01:54:36.899  1992 21127 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+03-13 01:54:36.899  1992 21127 D AGM: metadata: 
+03-13 01:54:36.899  1992 21127 I AGM: graph: print_graph_alias: 2362 GKV Alias 11 | DeviceTX_VI_TX
+03-13 01:54:36.899  1992 21127 D AGM: graph: graph_open: 703 miid 4589 mid 700100f tag c0000005
+03-13 01:54:36.899  1992 21127 I GPR:    : vendor/qcom/proprietary/args/gpr/core/src/gpr_drv.c:__gpr_cmd_register_v2:931 GPR Register: Source Port is 8208 heap_index: 0
+03-13 01:54:36.904  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.904  1992 21127 D AGM: graph: graph_open: 735 graph_handle 0x47534c
+03-13 01:54:36.904  1992 21127 D AGM: graph: graph_open: 771 exit, ret 0
+03-13 01:54:36.904  1992 21127 D AGM: graph: graph_set_config: 1137 entry graph_handle 0x47534c
+03-13 01:54:36.905  1992 21127 D AGM: graph: graph_set_config: 1145 exit, graph handle 0x47534c, ret 0
+03-13 01:54:36.905  1992 21127 D agm_client_wrapper: agm_session_open Received handle = 0x738d380390 , *handle = b4000075e5b2e0d0
+03-13 01:54:36.905  1992 21127 D PLUGIN: pcm: agm_pcm_hw_params: 491 agm_pcm_hw_params: mode: 268435456
+03-13 01:54:36.905  1992 21127 I PAL: SpeakerProtectionTI: get_data_from_file: 151: data from file /efs/tas25xx/calib_re: 06.35(string) 06.35(float)
+03-13 01:54:36.905  1992 21127 I PAL: SpeakerProtectionTI: get_data_from_file: 160: data from file /efs/tas25xx/amb_temp: 36(string) 36(int)
+03-13 01:54:36.905  1992 21127 I PAL: SpeakerProtectionTI: get_data_from_file: 151: data from file /efs/tas25xx/calib_re_r: 06.40(string) 06.40(float)
+03-13 01:54:36.905  1992 21127 I PAL: SpeakerProtectionTI: get_data_from_file: 160: data from file /efs/tas25xx/amb_temp_r: 36(string) 36(int)
+03-13 01:54:36.905  1992 21127 I PAL: Device: updateCustomPayload: 429: customPayloadSize = 80
+03-13 01:54:36.905  1992 21127 I PAL: SpeakerProtectionTI: get_data_from_file: 169: data from file /sys/class/tas25xx_dev/cmd/iv_vbat: 0x10010(string) 0x10010(hex)
+03-13 01:54:36.905  1992 21127 I PAL: Device: updateCustomPayload: 429: customPayloadSize = 104
+03-13 01:54:36.905  1992 21127 I PAL: SpeakerProtectionTI: get_data_from_file: 169: data from file /sys/class/tas25xx_dev/cmd/drv_opmode: 0x3(string) 0x3(hex)
+03-13 01:54:36.905  1992 21127 I PAL: Device: updateCustomPayload: 429: customPayloadSize = 128
+03-13 01:54:36.906  1992 21127 D audio_route: Apply path: vi-feedback
+03-13 01:54:36.906  1992 21127 I PAL: SpeakerProtectionTI: spkrProtProcessingMode: 792: pcm start for TX
+03-13 01:54:36.906  1992 21127 D AGM: graph: graph_prepare: 833 entry graph_handle 0x47534c
+03-13 01:54:36.906  1992 21127 D AGM: graph_module: configure_hw_ep_media_config: 640 entry mod tag c0000005 miid 4589 mid 700100f
+03-13 01:54:36.906  1992 21127 D AGM: graph_module: configure_hw_ep_media_config: 670 rate 48000 bw 24 ch 4, data_fmt 1
+03-13 01:54:36.907  1992 21127 D AGM: graph_module: configure_hw_ep_media_config: 680 exit, ret 0
+03-13 01:54:36.907  1992 21127 D AGM: graph_module: configure_tdm_ep: 456 exit, ret 0
+03-13 01:54:36.908  1992 21127 D AGM: graph: graph_prepare: 911 exit, ret 0
+03-13 01:54:36.909  1992 21127 D AGM: graph: graph_start: 925 entry graph_handle 0x47534c
+03-13 01:54:36.911  1992 21127 D AGM: graph: graph_start: 938 exit, ret 0
+03-13 01:54:36.911  1992 21127 I PAL: SessionAlsaUtils: setDeviceMediaConfig: 1063: TDM-LPAIF-RX-PRIMARY rate ch fmt data_fmt 48000 2 6 1
+03-13 01:54:36.912  1992 21127 I PAL: ResourceManager: voteSleepMonitor: 2233: Voting done for nlpi use case, lpi votes 0, nlpi votes : 1
+03-13 01:54:36.912  1992 21127 D agm_client_wrapper: agm_session_open called with handle = 8d380b70 , *handle = 0
+03-13 01:54:36.920  1992 21127 D AGM: graph: graph_open: 575 entry
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 79 *************************Metadata*************************
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 80 GKV size:4
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 83 key:0xa1000000, value:0xa1000001 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 83 key:0xab000000, value:0x1 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 83 key:0xa2000000, value:0xa2000001 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 83 key:0xac000000, value:0xac000002 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 87 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: CKV count:2
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 90 key:0xa4000000, value:0xf 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 90 key:0xd2000000, value:0x0 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 92 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 94 Property ID:134217744
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 95 property count:4
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 98 Property Values: 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 100 0x1 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 100 0x3 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 100 0x2 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 100 0x5 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 102 
+03-13 01:54:36.920  1992 21127 D AGM: metadata: metadata_print: 103 ****************Metadata Done***************************
+03-13 01:54:36.920  1992 21127 D AGM: metadata: 
+03-13 01:54:36.920  1992 21127 I AGM: graph: print_graph_alias: 2362 GKV Alias 26 | StreamRX_PCM_Deep_Buffer_DeviceRX_Speaker_Instance_Instance_1_DevicePP_Rx_Audio_MBDRC
+03-13 01:54:36.920  1992 21127 D AGM: graph: graph_open: 655 miid 4001 mid 7001000 tag c0000002
+03-13 01:54:36.920  1992 21127 D AGM: graph: graph_open: 703 miid 43b1 mid 700100e tag c0000004
+03-13 01:54:36.920  1992 21127 D AGM: graph: graph_open: 655 miid 4019 mid 7001019 tag c0000006
+03-13 01:54:36.920  1992 21127 D AGM: graph: graph_open: 655 miid 4003 mid 7001005 tag c000000e
+03-13 01:54:36.920  1992 21127 D AGM: graph: graph_open: 655 miid 4004 mid 7001003 tag c0000010
+03-13 01:54:36.920  1992 21127 D AGM: graph: graph_open: 655 miid 4163 mid 7001032 tag c0000013
+03-13 01:54:36.920  1992 21127 I GPR:    : vendor/qcom/proprietary/args/gpr/core/src/gpr_drv.c:__gpr_cmd_register_v2:931 GPR Register: Source Port is 8209 heap_index: 0
+03-13 01:54:36.924  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.924  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.924  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.924  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.924  1992 21127 D AGM: graph: graph_open: 735 graph_handle 0x147534c
+03-13 01:54:36.924  1992 21127 D AGM: graph: graph_open: 771 exit, ret 0
+03-13 01:54:36.924  1992 21127 D AGM: graph: graph_set_config: 1137 entry graph_handle 0x147534c
+03-13 01:54:36.925  1992 21127 D AGM: graph: graph_set_config: 1145 exit, graph handle 0x147534c, ret 0
+03-13 01:54:36.925  1992 21127 D agm_client_wrapper: agm_session_open Received handle = 0x738d380b70 , *handle = b4000075e5b2a550
+03-13 01:54:36.925  1992 21127 D PLUGIN: pcm: agm_pcm_hw_params: 491 agm_pcm_hw_params: mode: 0
+03-13 01:54:36.925  1992 21127 I PAL: PayloadBuilder: payloadMFCConfig: 826: sample_rate:48000 bit_width:24 num_channels:2 Miid:16566
+03-13 01:54:36.925  1992 21127 I PAL: Session: updateCustomPayload: 621: customPayloadSize = 32
+03-13 01:54:36.925  1992 21127 D AGM: graph: graph_set_config: 1137 entry graph_handle 0x147534c
+03-13 01:54:36.925  1992 21127 D AGM: graph: graph_set_config: 1145 exit, graph handle 0x147534c, ret 0
+03-13 01:54:36.925  1992 21127 I PAL: Session: updateCustomPayload: 621: customPayloadSize = 40
+03-13 01:54:36.925  1992 21127 D AGM: graph: graph_set_config: 1137 entry graph_handle 0x147534c
+03-13 01:54:36.926  1992 21127 D AGM: graph: graph_set_config: 1145 exit, graph handle 0x147534c, ret 0
+03-13 01:54:36.926  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.926  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.926  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.926  1992 21127 E ACDB    : vendor/qcom/proprietary/args/acdb/src/acdb_command.c:AcdbCmdGetProcSubgraphCalDataPersist:8247 Error[19]: No calibration found
+03-13 01:54:36.926  1992 21127 D AGM: graph: graph_prepare: 833 entry graph_handle 0x147534c
+03-13 01:54:36.926  1992 21127 D AGM: graph_module: configure_pcm_shared_mem_ep: 1704 entry mod tag c0000002 miid 4001 mid 7001000
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_pcm_shared_mem_ep: 1780 exit, ret 0
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_hw_ep_media_config: 640 entry mod tag c0000004 miid 43b1 mid 700100e
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_hw_ep_media_config: 670 rate 48000 bw 24 ch 2, data_fmt 1
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_hw_ep_media_config: 680 exit, ret 0
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_tdm_ep: 456 exit, ret 0
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_output_media_format: 763 entry mod tag c000000e miid 4003 mid 7001005
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_output_media_format: 894 exit, ret 0
+03-13 01:54:36.927  1992 21127 D AGM: graph_module: configure_output_media_format: 763 entry mod tag c0000010 miid 4004 mid 7001003
+03-13 01:54:36.928  1992 21127 D AGM: graph_module: configure_output_media_format: 894 exit, ret 0
+03-13 01:54:36.928  1992 21127 D AGM: graph_module: configure_spr: 1908 SPR module IID 4163
+03-13 01:54:36.928  1992 21127 D AGM: graph_module: configure_spr: 1931 HW EP module IID 43b1
+03-13 01:54:36.928  1992 21127 D AGM: graph: configure_buffer_params: 204 Enter
+03-13 01:54:36.928  1992 21127 D AGM: graph: configure_buffer_params: 267 Playback sess buf_sz 7680 num_bufs 4
+03-13 01:54:36.928  1992 21127 E AGM: graph: configure_buffer_params: 300 Unsupported buffer mode : 0, Default to Blocking
+03-13 01:54:36.928  1992 21127 D AGM: graph: configure_buffer_params: 320 exit, ret 0
+03-13 01:54:36.930  1992 21127 D AGM: graph: graph_prepare: 911 exit, ret 0
+03-13 01:54:36.931  1992 21127 D AGM: graph: graph_start: 925 entry graph_handle 0x147534c
+03-13 01:54:36.933  1992 21127 D AGM: graph: graph_start: 938 exit, ret 0
+03-13 01:54:36.944  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:36.979  1992 21127 I PAL: API: pal_stream_start: 396: Exit. status 0
+03-13 01:54:36.979  1992 21127 I AHAL: AudioStream: configurePalOutputStream: 4113: notify GEF client of device config
+03-13 01:54:36.979  1992 21127 I AudioSAEffectOffload: effect_update_payload_by_hal updateType:100000 OFFLOAD_EFFECT_ALL
+03-13 01:54:36.979  1992 21127 D AudioSAEffectOffload: send_custom_payload_effect: enter, tag: 0xc00000b, custom_data_sz: 28
+03-13 01:54:36.979  1992 21127 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.979  1992 21127 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.979  1992 21127 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.979  1992 21127 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.979  1992 21127 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.979  1992 21127 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.979  1992 21127 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT VOLUMEMONITOR_SET_PARAMS(0x10001f43)
+03-13 01:54:36.979  1992 21127 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:36.979  1992 21127 D AudioSAEffectOffload: send_custom_payload_effect: exit, tag: 0xc00000b, custom_data_sz: 28
+03-13 01:54:36.979  1992 21127 D AudioSAEffectOffload: offload_param_dump() : status[-22] value[ VM,0,0,0,0,2,0,0 ] 
+03-13 01:54:36.979  1992 21127 D AHAL: AudioStream: ~AutoPerfLock: 167: (release) perf_lock_handle: 0x14800, count: 1
+03-13 01:54:36.979  1992 21127 D AHAL: AudioStream: ~AutoPerfLock: 171: Releasing perf_lock_handle: 0x14800
+03-13 01:54:36.980  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) Spend too much time to write: delta 172(effect 0, stage 72)
+03-13 01:54:36.981  2094  3052 I AF::PthrPatchRecord: processMuteEvent(172): processed mute state for port ID 194 from 0x12 to 0x2
+03-13 01:54:36.981  1992  4981 I AHAL: AudioStream: out_update_source_metadata_v7: 1265: track count is 1
+03-13 01:54:36.981  1992  4981 D AHAL: AudioStream: out_update_source_metadata_v7: 1310: Source metadata usage:1 content_type:0
+03-13 01:54:36.981  1992  4981 D AHAL: AudioStream: SetAggregateSourceMetadata: 4666: Aggregated Source metadata usage:1 content_type:0
+03-13 01:54:36.983  4205  4946 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : lastStartedPackageName=com.facebook.katana, lastStartedUid=10340, newStartedUid=10340, newStartPackageName=com.facebook.katana, thread=Thread[RoutineHandlerThread,5,main]
+03-13 01:54:36.984  6199  7604 D BufferPoolAccessor2.0: bufferpool2 0xb4000070dfa09098 : 5(40960 size) total buffers - 1(8192 size) used buffers - 465/476 (recycle/alloc) - 19/475 (fetch/transfer)
+03-13 01:54:36.982  3003  3003 D AudioPlayerStateMonitor: Found a new active media playback. AudioPlaybackConfiguration piid:2951 deviceIds:[3] type:android.media.AudioTrack u/pid:10340/6199 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null sessionId:3041 mutedState:streamVolume  FormatInfo{isSpatialized=false, channelMask=0x3, sampleRate=44100}
+03-13 01:54:36.986  3003  3003 D MediaSessionService: Audio playback is changed, config=AudioPlaybackConfiguration piid:2951 deviceIds:[3] type:android.media.AudioTrack u/pid:10340/6199 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null sessionId:3041 mutedState:streamVolume  FormatInfo{isSpatialized=false, channelMask=0x3, sampleRate=44100}, removed=false
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, callers=com.android.server.media.AudioPlayerStateMonitor$MessageHandler.handleMessage:19 android.os.Handler.dispatchMessage:110 
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10340
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10450
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10451
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10467
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10026
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10405
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10053
+03-13 01:54:36.986  3003  3003 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10420
+03-13 01:54:36.992  3003  3997 D MediaRouterService: onAudioPlayerActiveStateChanged: uid=10340, active=true, restoreUid=10340
+03-13 01:54:37.004  2541  7606 D BufferPoolAccessor2.0: bufferpool2 0xb40000707bf24678 : 4(16384 size) total buffers - 1(4096 size) used buffers - 464/473 (recycle/alloc) - 9/472 (fetch/transfer)
+03-13 01:54:37.011  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.018  3003  3065 I GestureDetector: handleMessage TAP
+03-13 01:54:37.021  3003  3003 I GestureDetector: handleMessage TAP
+03-13 01:54:37.030  2053  7616 W QC2Comp : [vp9D_211] Skipping empty output buffer
+03-13 01:54:37.032  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 13648ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:37.033  6199  7614 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 364
+03-13 01:54:37.033  6199  7614 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfc49830
+03-13 01:54:37.038  2007  7584 I sensors-hal: handle_sns_client_event:375, [0][585] accel_sample [ 1.787,  7.637,  5.314] 208477476578378
+03-13 01:54:37.061  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.088  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) throttle end: throttle time(73)
+03-13 01:54:37.095  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.127  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.131  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 01:54:37.132  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 01:54:37.151  3003  5506 D MARs:ActiveTrafficFilter: filter : com.einnovation.temu(0)
+03-13 01:54:37.151  3003  5506 D FreecessHandler: freeze com.einnovation.temu(10350) result : 8
+03-13 01:54:37.151  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 01:54:37.152  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 01:54:37.157  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sygic.aura(0)
+03-13 01:54:37.157  3003  5506 D FreecessHandler: freeze com.sygic.aura(10286) result : 8
+03-13 01:54:37.157  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 01:54:37.157  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 01:54:37.161  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.161  3003  5506 D MARs:ActiveTrafficFilter: filter : tv.pluto.android(0)
+03-13 01:54:37.161  3003  5506 D FreecessHandler: freeze tv.pluto.android(10419) result : 8
+03-13 01:54:37.182  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 13798ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:37.185  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 01:54:37.186  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 01:54:37.192  3003  5506 D MARs:ActiveTrafficFilter: filter : com.yum.pizzahut(0)
+03-13 01:54:37.192  3003  5506 D FreecessHandler: freeze com.yum.pizzahut(10150) result : 8
+03-13 01:54:37.193  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.211  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.244  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.267  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 12830, isSameBssidAndFreq true
+03-13 01:54:37.270  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 01:54:37.272  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 01:54:37.273  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 119
+03-13 01:54:37.275  3003  4030 D InsDataManager: trimBuffers start.
+03-13 01:54:37.276  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 77
+03-13 01:54:37.276  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.277  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 01:54:37.279  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 01:54:37.279  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -63.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -63.0 / 2 / 132 / 0 / 0 || 357184ff5785: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 49957951 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 01:54:37.282  2053  7616 W QC2Comp : [vp9D_211] Skipping empty output buffer
+03-13 01:54:37.284  6199  7614 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 373
+03-13 01:54:37.284  6199  7614 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfbd4490
+03-13 01:54:37.292  3003  4047 D SGM:GameManager: identifyGamePackage. com.facebook.katana, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 01:54:37.292  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.facebook.katana, ret=false
+03-13 01:54:37.298  4171  4171 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+03-13 01:54:37.299  4171  4171 I AudioManager: getParameters keys = g_effect_active_sound_info=track
+03-13 01:54:37.300  2094 24900 I SecAudioParamFlinger: getActiveSoundInfo 1, trackFormat 1, outputFormat 4
+03-13 01:54:37.302  4171  4171 I AudioManagerWrapper: getActiveSoundFormat() : active sound format is 1
+03-13 01:54:37.304  4171  4171 I RestrictModeUtil: isOwnerMode() : user id is 0
+03-13 01:54:37.305  4171  4171 I RestrictModeUtil: isDexMode() : DeX mode is off
+03-13 01:54:37.305  4171  4171 I RestrictModeUtil: isAdaptSoundTestMode() : adaptsound test mode is false
+03-13 01:54:37.305  4171  4171 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : path is speaker (0)
+03-13 01:54:37.305  4171  4171 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : speaker type is stereo
+03-13 01:54:37.305  4171  4171 I EffectManager: isSpatialAudioActive() : mode is off (0)
+03-13 01:54:37.305  4171  4171 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+03-13 01:54:37.306  2094 24900 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.306  2094 24900 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.306  2094 24900 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.306  2094 24900 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.306  2094 24900 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.306  4171  4171 I DolbyAtmosWrapper: getProfile() : for dolby atmos, -1
+03-13 01:54:37.306  4171  4171 I AudioManager: setParameters keyValuePairs = g_effect_dolby_enable=0;g_effect_dolby_profile=5
+03-13 01:54:37.307  2094 24900 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_dolby_enable=0;g_effect_dolby_profile=5
+03-13 01:54:37.307  2094  3137 D DlbSpatializerEffectContext: setParam() received parameter SPATIALIZER_PARAM_ENABLE
+03-13 01:54:37.307  1992  4981 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.307  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: enter, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.307  1992  4981 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT DOLBY_DAP_PARAMS(0x10001fd1)
+03-13 01:54:37.307  1992  4981 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:37.307  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: exit, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.307  1992  4981 D AudioSAEffectOffload: offload_param_dump() : status[-22] value[ DLB,0,2,5,0 ] 
+03-13 01:54:37.307  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.308  2094  3137 I AudioEffectExtendAction: Non Spatialized stage -2113, disable content proc
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setContentProcEnabled(enabled=0)
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.308  4171  4171 I DolbyAtmosWrapper: setProfileEnabled() : for dolby atmos, false
+03-13 01:54:37.307  6122  6153 I appium  : AppiumResponse: {"sessionId":"90b9a546-e6fd-4c54-a4b0-06a599303066","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fAz3/wfw12x2NxKRhIRcSAgRcVZRJG5CXRFXVelBFXUkKO23x6+qtK6qEkfrKnW3xH1Ei5ZQR9UZJDSEyEEihxyb3ez+/kh27GZ3I+RcXs/HI63Mzs7OZjabnde8P++PUM3BQQMiIiI…
+03-13 01:54:37.308  1992  4981 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.308  1992  4981 D DlbEffectContext: setProfile(profile=5) stageIdx:-1303
+03-13 01:54:37.308  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: enter, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.308  1992  4981 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT DOLBY_DAP_PARAMS(0x10001fd1)
+03-13 01:54:37.308  1992  4981 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:37.308  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: exit, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.308  1992  4981 D AudioSAEffectOffload: offload_param_dump() : status[-22] value[ DLB,0,2,5,0 ] 
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2105
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2108
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2113
+03-13 01:54:37.308  2094  3137 D DlbProfileParamCache: setProfile(profile=5)
+03-13 01:54:37.308  2094  3137 D DlbProfileParamArray: getProfileParams(profile = 5)
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: commitChangedParams()
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: commit() Applying parameters for device 0x40000000
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(iea = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(rvsa = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(msce = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(mdee = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(miee = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(mdle = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dvme = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(rvse = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setMave(mave = 0)
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(ieon = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: doCommit() Committed 10 parameters out of 14.
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: commit() Overriding parameters for current device 0x00000002
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dea = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(plb = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(vmb = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dsb = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(ded = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(hte = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setSystemGain(vol = 0)
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: Got DAP mix matrix (length=12) for processing mode 10
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: Got DAP mix matrix (length=16) for processing mode 11
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dom = #35[0, 0, 1, 10, 12, 16384, 0, 0, 16384, 11583, 11583, 8192, 8192, 16384, 0, 0, 16384, 11, 16, 16384, 0, 0, 16384, 11583, 11583, 8192, 8192, 16384, 0, 0, 16384, 16384, 0, 0, 16384])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(hvm = #1[2])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(svm = #1[2])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(sdfa = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dvla = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(hlra = #1[45])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(avsb = #1[6])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(hvrc = #8[103, 32568, 11164, 5090, 0, 3, 3, 3])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(svrc = #8[103, 32568, 6698, 5090, 0, 3, 3, 3])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(vssd = #1[4])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(mvbe = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(bmde = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dvle = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dvli = #1[-256])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(vbon = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(vbm = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(beon = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(deon = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(geon = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(ngon = #1[0])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dvlo = #1[-272])
+03-13 01:54:37.308  2094  3137 D DlbDap2Process: setParam(dplp = #1[256])
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: doCommit() Committed 28 parameters out of 58.
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: commitChangedParams()
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: commit() Applying parameters for device 0x40000000
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: doCommit() Committed 0 parameters out of 14.
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: commit() Overriding parameters for current device 0x00000002
+03-13 01:54:37.308  2094  3137 D DlbEndpointParamCache: doCommit() Committed 0 parameters out of 58.
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2902
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.308  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-29002
+03-13 01:54:37.308  4171  4171 I DolbyAtmosWrapper: setProfile() : for dolby atmos, 5
+03-13 01:54:37.308  4171  4171 I EffectManager: setEffectDolbyAtmos() : enable is false, mode is off (5)
+03-13 01:54:37.308  4171  4171 I EffectManager: setEffectDolbyAtmos() : concert hall will be restored as 0
+03-13 01:54:37.309  2094  3137 I SoundAlive_Interface_a64: [ 1 ][ 192000 ]Set_User_CH() : 0
+03-13 01:54:37.309  2094  3137 I SoundAlive_Interface_a64: [ 2 ][ 48000 ]Set_User_CH() : 0
+03-13 01:54:37.309  2094  3137 I SoundAlive_Interface_a64: [ 3 ][ 48000 ]Set_User_CH() : 0
+03-13 01:54:37.309  4171  4171 I SoundAliveWrapper: setStrength() : type is concert hall (3), strength is 0
+03-13 01:54:37.309  4171  4171 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : path is speaker (0)
+03-13 01:54:37.309  4171  4171 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : speaker type is stereo
+03-13 01:54:37.309  4171  4171 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+03-13 01:54:37.309  4171  4171 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : path is speaker (0)
+03-13 01:54:37.309  4171  4171 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : speaker type is stereo
+03-13 01:54:37.309  4171  4171 I AudioManager: setParameters keyValuePairs = g_effect_game_dolby_enable=0
+03-13 01:54:37.309  2094  3137 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_game_dolby_enable=0
+03-13 01:54:37.310  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.310  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.310  4171  4171 I DolbyAtmosWrapper: setProfileEnabled() : for dolby atmos for gaming, false
+03-13 01:54:37.310  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.310  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-29003
+03-13 01:54:37.310  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.310  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-29004
+03-13 01:54:37.310  4171  4171 I DolbyAtmosWrapper: setProfile() : for dolby atmos for gaming, 5
+03-13 01:54:37.310  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.310  4171  4171 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+03-13 01:54:37.310  4171  4171 I RestrictModeUtil: isOwnerMode() : user id is 0
+03-13 01:54:37.310  4171  4171 I RestrictModeUtil: isDexMode() : DeX mode is off
+03-13 01:54:37.310  4171  4171 I RestrictModeUtil: isAdaptSoundTestMode() : adaptsound test mode is false
+03-13 01:54:37.310  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: enter, tag: 0xc000005, custom_data_sz: 104
+03-13 01:54:37.310  1992  4981 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT SA_PARAMS(0x10001fa1)
+03-13 01:54:37.310  1992  4981 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:37.310  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: exit, tag: 0xc000005, custom_data_sz: 104
+03-13 01:54:37.310  1992  4981 D AudioSAEffectOffload: offload_param_dump() : status[-22] value[ SA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,1,1,0,0,0,0,0 ] 
+03-13 01:54:37.311  2094  3137 I SoundAlive_Interface_a64: [ 1 ][ 192000 ]Set_USER_EQ() : 0, 0, 0, 0, 0, 0, 0, 0, 0
+03-13 01:54:37.311  2094  3137 I SoundAlive_Interface_a64: [ 2 ][ 48000 ]Set_USER_EQ() : 0, 0, 0, 0, 0, 0, 0, 0, 0
+03-13 01:54:37.311  2094  3137 I SoundAlive_Interface_a64: [ 3 ][ 48000 ]Set_USER_EQ() : 0, 0, 0, 0, 0, 0, 0, 0, 0
+03-13 01:54:37.311  4171  4171 I SoundAliveWrapper: setEqualizer() : preset is balanced (0), levels for 9 bands are 0 0 0 0 0 0 0 0 0 
+03-13 01:54:37.311  4171  4171 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+03-13 01:54:37.311  4171  4171 I EffectManager: isSupportUHQUpscalerOnCurrentAudioPath() : path is speaker (0), device type is builtin speaker (2)
+03-13 01:54:37.311  4171  4171 I EffectManager: updateUHQUpscalerState() : uhq upscaler is not available on current audio path
+03-13 01:54:37.311  4171  4171 I EffectManager: updateUHQUpscalerState() : audio path is speaker, so skip writing mode to settings db
+03-13 01:54:37.311  4171  4171 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+03-13 01:54:37.311  4171  4171 I EffectManager: isSupportVolumeNormalizationOnCurrentAudioPath() : path is speaker (0)
+03-13 01:54:37.311  4171  4171 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+03-13 01:54:37.311  4171  4171 I EffectManager: setEffectVolumeNormalization() : mode is 0, current profile is 5
+03-13 01:54:37.312  4171  4171 I EffectManager: isSpatialAudioActive() : mode is off (0)
+03-13 01:54:37.312  4171  4171 I AudioManager: setParameters keyValuePairs = g_effect_dolby_volume_leveler=-1
+03-13 01:54:37.312  2094  3137 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_dolby_volume_leveler=-1
+03-13 01:54:37.312  2094  3137 I SecAudioParamPolicy: g_effect_dolby_volume_leveler: 0 
+03-13 01:54:37.312  4171  4171 I AudioManager: setParameters keyValuePairs = g_effect_dolby_enable=0;g_effect_dolby_profile=5
+03-13 01:54:37.312  2094  3137 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_dolby_enable=0;g_effect_dolby_profile=5
+03-13 01:54:37.313  2094  3137 D DlbSpatializerEffectContext: setParam() received parameter SPATIALIZER_PARAM_ENABLE
+03-13 01:54:37.313  1992  4981 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.313  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: enter, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.313  1992  4981 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT DOLBY_DAP_PARAMS(0x10001fd1)
+03-13 01:54:37.313  1992  4981 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:37.313  1992  4981 D AudioSAEffectOffload: send_custom_payload_effect: exit, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.313  1992  4981 D AudioSAEffectOffload: offload_param_dump() : status[-22] value[ DLB,0,2,5,0 ] 
+03-13 01:54:37.313  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.313  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.313  2094  3137 I AudioEffectExtendAction: Non Spatialized stage -2113, disable content proc
+03-13 01:54:37.313  2094  3137 D DlbEffectContext: setContentProcEnabled(enabled=0)
+03-13 01:54:37.313  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.313  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.313  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+03-13 01:54:37.313  4171  4171 I DolbyAtmosWrapper: setProfileEnabled() : for dolby atmos, false
+03-13 01:54:37.313  1992 10205 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.313  1992 10205 D DlbEffectContext: setProfile(profile=5) stageIdx:-1303
+03-13 01:54:37.313  1992 10205 D AudioSAEffectOffload: send_custom_payload_effect: enter, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.313  1992 10205 I PAL: ResourceManager: setParameter: 12062: PAL_PARAM_ID_UIEFFECT DOLBY_DAP_PARAMS(0x10001fd1)
+03-13 01:54:37.313  1992 10205 I PAL: API: pal_gef_rw_param: 1597: set global parameter 4, status -22
+03-13 01:54:37.313  1992 10205 D AudioSAEffectOffload: send_custom_payload_effect: exit, tag: 0xc000004, custom_data_sz: 16
+03-13 01:54:37.313  1992 10205 D AudioSAEffectOffload: offload_param_dump() : status[-22] value[ DLB,0,2,5,0 ] 
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2105
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2108
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2113
+03-13 01:54:37.314  2094  3137 D DlbProfileParamCache: setProfile(profile=5)
+03-13 01:54:37.314  2094  3137 D DlbProfileParamArray: getProfileParams(profile = 5)
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: commitChangedParams()
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: commit() Applying parameters for device 0x40000000
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(iea = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(rvsa = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(msce = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(mdee = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(miee = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(mdle = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dvme = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(rvse = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setMave(mave = 0)
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(ieon = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: doCommit() Committed 10 parameters out of 14.
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: commit() Overriding parameters for current device 0x00000002
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dea = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(plb = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(vmb = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dsb = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(ded = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(hte = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setSystemGain(vol = 0)
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: Got DAP mix matrix (length=12) for processing mode 10
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: Got DAP mix matrix (length=16) for processing mode 11
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dom = #35[0, 0, 1, 10, 12, 16384, 0, 0, 16384, 11583, 11583, 8192, 8192, 16384, 0, 0, 16384, 11, 16, 16384, 0, 0, 16384, 11583, 11583, 8192, 8192, 16384, 0, 0, 16384, 16384, 0, 0, 16384])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(hvm = #1[2])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(svm = #1[2])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(sdfa = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dvla = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(hlra = #1[45])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(avsb = #1[6])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(hvrc = #8[103, 32568, 11164, 5090, 0, 3, 3, 3])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(svrc = #8[103, 32568, 6698, 5090, 0, 3, 3, 3])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(vssd = #1[4])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(mvbe = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(bmde = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dvle = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dvli = #1[-256])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(vbon = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(vbm = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(beon = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(deon = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(geon = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(ngon = #1[0])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dvlo = #1[-272])
+03-13 01:54:37.314  2094  3137 D DlbDap2Process: setParam(dplp = #1[256])
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: doCommit() Committed 28 parameters out of 58.
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: commitChangedParams()
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: commit() Applying parameters for device 0x40000000
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: doCommit() Committed 0 parameters out of 14.
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: commit() Overriding parameters for current device 0x00000002
+03-13 01:54:37.314  2094  3137 D DlbEndpointParamCache: doCommit() Committed 0 parameters out of 58.
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-2902
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+03-13 01:54:37.314  2094  3137 D DlbEffectContext: setProfile(profile=5) stageIdx:-29002
+03-13 01:54:37.314  4171  4171 I DolbyAtmosWrapper: setProfile() : for dolby atmos, 5
+03-13 01:54:37.314  4171  4171 I LocalBroadcastManager: sendLocalBroadcast() : action is 1
+03-13 01:54:37.314  4171  4171 I LocalBroadcastManager: sendLocalBroadcast() : action is 2
+03-13 01:54:37.315  4171  4171 I AudioManagerWrapper: getCurrentMediaVolume() : current media volume is 0
+03-13 01:54:37.315  4171  4171 I DVFSHelper: handleScreenStateChanged() : current media volume is 0, so no need to boost cpu
+03-13 01:54:37.333  2053  7325 W QC2V4l2Decoder: [v4lvp9D_210] Allocating output buffer timedout, 13948ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 01:54:37.343  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.352  2059  2086 E BatteryDump: !@new_battery_dump : 4361,-237,475,550,100,352,314,403,310,0,370,389,310,Full,NO_CHARGING,Additional,Good,USB,1,Normal,0,0,5398,0x0,0x10000,0x0,0,0,0000,0000,00000000,4361,4313,0,-237,10,0,981,977,0,
+03-13 01:54:37.352  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-13 01:54:37.353  2059  2059 I sehhealth-service: updateLrpSysfs: write: 373
+03-13 01:54:37.353  1992  4981 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 01:54:37.353  1992  4981 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 01:54:37.353  1992  4981 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 01:54:37.355  2022  6306 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4567772
+03-13 01:54:37.368  1992  4981 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x10010ee4 3812
+03-13 01:54:37.369  1992  4981 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 21024132(40.100349) for channel-0
+03-13 01:54:37.370  1992  4981 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_RCV received 40
+03-13 01:54:37.370  1992  4981 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 40
+03-13 01:54:37.370  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 40
+03-13 01:54:37.370  1992  4981 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 01:54:37.371  1992  4981 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 01:54:37.371  1992  4981 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 01:54:37.371  1992  4981 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x20010ee4 3812
+03-13 01:54:37.372  1992  4981 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 23159761(44.173737) for channel-1
+03-13 01:54:37.373  1992  4981 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_SPK received 44
+03-13 01:54:37.373  1992  4981 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 44
+03-13 01:54:37.374  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 44
+03-13 01:54:37.377  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.376  6380  7375 I SDHMS:x : SIOP:: AP:402 BAT:352 USB:314 CHG:403 PA:414 CP:396 WIFI:394 BLK:0 SUBBAT:309 LRPTHM:382 SKIN:371 SKINF:371 SKINB:356 LRP2:371 LRF2:371 LRB2:356 AP2:370 CHG2:368 MEM2:370 WIFI2:371 RCV2:370 SPK2:318 UPSPK:375 DNSPK:332 VAP:400 VWIFI:388 AMB2:286 AVGCUR:-267 AVGSYS:464 POWER:-1164
+03-13 01:54:37.382  3003  7124 D PowerManagerService: [api] setMasterBrightnessLimit : lowerLimit : -1  upperLimit : 1275  mMasterBrightnessLimitPeriod : 200 (uid: 1000 pid: 6380)
+03-13 01:54:37.382  6380  6574 I M0      : limitCPUFreq:: freq = 1824000
+03-13 01:54:37.383  6380  6574 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/6380@3, type = 301993986
+03-13 01:54:37.383  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:54:37.383  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20374539  [6380 / 3]    HINT :      list : [CPUMaxFreq / 1824000] 
+03-13 01:54:37.383  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:54:37.383  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:54:37.383  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:54:37.411  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 01:54:37.444  2105  2342 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0

@@ -1,0 +1,304 @@
+--------- beginning of main
+03-12 21:49:47.284 10458 10497 I appium  : channel read: GET /session/17f54f83-2224-4e8f-9a90-5cbb19ddad53/source
+03-12 21:49:47.287 10458 10497 I appium  : Source command
+03-12 21:49:47.289 10458 10497 I appium  : Waiting up to 10000ms for the device to idle
+03-12 21:49:47.320 10538 10538 I cr_A11yState: Enabled accessibility services list updated. []
+03-12 21:49:47.321 10538 10538 I cr_A11yState: Informing listeners of changes.
+03-12 21:49:47.321 10538 10538 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+--------- beginning of system
+03-12 21:49:47.327  3003  4185 I Pageboost: Launcher App Execution
+03-12 21:49:47.328 10458 10497 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 21:49:47.332  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:49:47.332  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:49:47.333  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:49:47.333  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:49:47.337 10458 10497 I appium  : AppiumResponse: {"sessionId":"17f54f83-2224-4e8f-9a90-5cbb19ddad53","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.lemon.lvoverseas\" class=\"and…
+03-12 21:49:47.346 10458 10497 I appium  : channel read: GET /session/17f54f83-2224-4e8f-9a90-5cbb19ddad53/screenshot
+03-12 21:49:47.346 10458 10497 I appium  : CaptureScreenshot command
+03-12 21:49:47.347 10458 10497 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:49:47.348 10458 10497 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:49:47.368 20399 20508 E Datadog : [_dd.sdk_core.default]: Unable to execute the request; we will retry later.
+03-12 21:49:47.368 20399 20508 E Datadog : 
+03-12 21:49:47.368 20399 20508 W Datadog : [_dd.sdk_core.default]: Batch c0a92a95-d6fb-42f6-a137-1b3a1b818e38 [1877 bytes] (Logs Request) failed because of a network error; we will retry later.
+03-12 21:49:47.368  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), 4(FAIL), isBlocked=true, 0ms
+03-12 21:49:47.477 11703 11703 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 21:49:47.478 11703 11703 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 21:49:47.478 11703 11703 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 21:49:47.479  3003  3806 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 21:49:47.480  3003  3806 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 21:49:47.480 11703 11703 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 21:49:47.480 11703 11703 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 21:49:47.483  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.lemon.lvoverseas/com.vega.web.WebActivity$_10538#14498(seamlessTransition:0)
+03-12 21:49:47.483  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 21:49:47.483  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#14413(seamlessTransition:0)
+03-12 21:49:47.483  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 21:49:47.484  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 21:49:47.484  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 21:49:47.484  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.lemon.lvoverseas/com.vega.web.WebActivity$_10538#14498 at index 1
+03-12 21:49:47.484  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 21:49:47.485  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#14413 at index 3
+03-12 21:49:47.485  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 21:49:47.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773366587
+03-12 21:49:47.515  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:49:47.516  2097  2125 D HeatmapThread: !@ batteryLevel : 88  batteryTemperature : 367 
+03-12 21:49:47.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556109
+03-12 21:49:47.517  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556102
+03-12 21:49:47.517  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 21:49:47.517  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:49:47.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 21:49:47.526 11703 11712 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 21:49:47.527 11703 11703 W qdgralloc: Failed to load libubwcp.so
+03-12 21:49:47.533  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:49:47.533  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:49:47.533  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:49:47.534  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:49:47.546  1171  1171 D io_stats: !@   8,0 r 2649522 90354028 w 2320444 59285008 d 242060 65130076 f 92748 255837 iot 972072 0 th 0 0 0 pt 0 inp 0 0 35268.231
+03-12 21:49:47.549  1171  1171 D io_stats: !@ Read_top(KB): rivacydashboard(21494) 188 .gms.persistent(16161) 68 gle.android.gms(9332) 8
+03-12 21:49:47.550  1171  1171 D io_stats: !@ Write_top(KB): f2fs_ckpt-254:6(5380) 9140 emon.lvoverseas(10538) 3132 gle.android.gms(9332) 56
+03-12 21:49:47.617  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 8178, isSameBssidAndFreq true
+03-12 21:49:47.619  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2564 / 106 / 1.02 (1053) / 648 / -54.0 || 100.0 : 648.00 / 0.5 : 0.98 / 0.55 : 0.04 / G (G) || 357184ff5785: 0.087 / 91.480 / N || N N / 0 0 / Y 2.0 / Y X 0 / 35268302 0 || Invalid
+03-12 21:49:47.619  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-12 21:49:47.620  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-12 21:49:47.620  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 42
+03-12 21:49:47.620  3003  4030 D InsDataManager: trimBuffers start.
+03-12 21:49:47.620  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 83
+03-12 21:49:47.620  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-12 21:49:47.620  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-12 21:49:47.620  3003  4047 D SGM:GameManager: identifyGamePackage. com.lemon.lvoverseas, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-12 21:49:47.620  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.lemon.lvoverseas, ret=false
+03-12 21:49:47.620  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [110 WIFI]
+03-12 21:49:47.620  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -54.0,"latency": 0.08745064239721141,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2564 / 106 / 1.02 (1053) / 648 / -54.0 || 100.0 : 648.00 / 0.5 : 0.98 / 0.55 : 0.04 / G (G) || 357184ff5785: 0.087 / 91.480 / N || N N / 0 0 / Y 2.0 / Y X 0 / 35268302 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-12 21:49:47.626  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-12 21:49:47.626  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-12 21:49:47.628  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-12 21:49:47.628  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-12 21:49:47.628  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-12 21:49:47.629 16161 10960 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-12 21:49:47.629 16161 10960 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-12 21:49:47.630  4600  5502 D txpwrJni: sendNetworkInfo start
+03-12 21:49:47.630  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-12 21:49:47.632  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-12 21:49:47.633  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-12 21:49:47.633  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 110(valid: true/captive: false)
+03-12 21:49:47.633  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=2898Kbps LinkDnBandwidth>=88451Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.*.*.171, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -54, Link speed: 648Mbps, Tx Link speed: 648Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 720Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -54 AdminUids: [1000] SSID: "micasa" UnderlyingNetworks: Null]
+03-12 21:49:47.633  3003  4050 D SemApeService: Deducted link capacity (M: R=503 T=453) RSSI=-54
+03-12 21:49:47.633  3003  4050 D SemApeService: Deducted link capacity (M: R=503 T=453) on (wlan0) GoogleAPI(M: R=88 T=2) RSSI=-54 isDefault=false isMlo=false
+03-12 21:49:47.633  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:88.451Uplink: 2.898
+03-12 21:49:47.634  3003  5497 D ActivityManager: unpendingScheduleServiceRestart: u=10417, drop=false
+03-12 21:49:47.634  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-12 21:49:47.634  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-12 21:49:47.634  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-12 21:49:47.634  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-12 21:49:47.634  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-12 21:49:47.634  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-12 21:49:47.635  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-12 21:49:47.635  3003  5535 V WifiProfileShare.Caster: update wips network, size: 0
+03-12 21:49:47.635  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-12 21:49:47.635  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-12 21:49:47.635  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-12 21:49:47.635  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-12 21:49:47.636  3003  5535 I WifiProfileShare.Caster: current network type: 0, score: [30, 30, 30]
+03-12 21:49:47.636  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-12 21:49:47.636  3003  5535 V WifiProfileShare.Cache: update network score c0:94:35:**:**:ff
+03-12 21:49:47.636  3003  5535 D WifiProfileShare.ScanMatcher: getMcfDataList size:2
+03-12 21:49:47.636  3003  5535 I WifiProfileShare.Caster: qos data was updated , before:type:QOS, pBssid:e5:b1:3f, qosData:7c after:type:QOS, pBssid:e5:b1:3f, qosData:7c
+03-12 21:49:47.637  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-12 21:49:47.637  3003  5494 D FreecessController: UFZ : com.duckduckgo.mobile.android(10417) [10247] reason: Binder(1)-free_buffer_full
+03-12 21:49:47.637  3003  5506 W LocationManagerService: onFreezeStateChanged, uid[10417]=false
+03-12 21:49:47.637  3003  5506 I PowerManagerService: [PWL] SetWakeLockEnableDisable uid = 10417 , disable= false
+03-12 21:49:47.637  3003  5506 I PowerManagerService: [PWL] can not change uid =  10417
+03-12 21:49:47.646  4184  5222 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-12 21:49:47.646  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-12 21:49:47.646  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-12 21:49:47.646  3003  5535 D WifiProfileShare.McfCast: updateQoSData ignored, same contents
+03-12 21:49:47.646  3003  5535 D WifiProfileShare.MCF: success update QosData !
+03-12 21:49:47.648  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-12 21:49:47.648  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-12 21:49:47.648  3003  5535 D WifiProfileShare.McfCast: -ME--- updatePasswordDate pwdData size:2
+03-12 21:49:47.667 10247 10247 D ActivityThread: Package [com.google.android.inputmethod.latin] reported as REPLACED, but missing application info. Assuming REMOVED.
+03-12 21:49:47.667 10247 10247 D ActivityThread: Package [com.google.android.inputmethod.latin] reported as REPLACED, but missing application info. Assuming REMOVED.
+03-12 21:49:47.667 10247 10247 D ActivityThread: Package [com.google.android.inputmethod.latin] reported as REPLACED, but missing application info. Assuming REMOVED.
+03-12 21:49:47.668 10247 10247 D ActivityThread: Package [com.instagram.android] reported as REPLACED, but missing application info. Assuming REMOVED.
+03-12 21:49:47.668 10247 10247 D ActivityThread: Package [com.instagram.android] reported as REPLACED, but missing application info. Assuming REMOVED.
+03-12 21:49:47.668 10247 10247 D ActivityThread: Package [com.instagram.android] reported as REPLACED, but missing application info. Assuming REMOVED.
+03-12 21:49:47.682  3003  4040 I SemTwtInfo: Waiting grant 0.6808603 16384 49152
+03-12 21:49:47.736  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:49:47.736  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:49:47.738  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:49:47.738  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:49:47.740 10247 10404 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=ee6180d5-9994-4e54-a88c-11067c9b742a, tags={ com.duckduckgo.mobile.android.vpn.heartbeat.VpnServiceHeartbeatMonitorWorker, VpnServiceHeartbeatMonitorWorker } ]
+03-12 21:49:47.772  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10417(com.duckduckgo.mobile.android), 4(FAIL), isBlocked=true, 0ms
+03-12 21:49:47.776 10247 10481 E WM-WorkerWrapper: Work [ id=48bfef09-fc85-4a92-aea4-d8e8425546d9, tags={ com.duckduckgo.malicioussiteprotection.impl.MaliciousSiteProtectionHashPrefixesUpdateWorker, MALICIOUS_SITE_PROTECTION_HASH_PREFIXES_UPDATE_WORKER_TAG } ] failed because it threw an exception/error
+03-12 21:49:47.776 10247 10481 I WM-WorkerWrapper: Worker result FAILURE for Work [ id=48bfef09-fc85-4a92-aea4-d8e8425546d9, tags={ com.duckduckgo.malicioussiteprotection.impl.MaliciousSiteProtectionHashPrefixesUpdateWorker, MALICIOUS_SITE_PROTECTION_HASH_PREFIXES_UPDATE_WORKER_TAG } ]
+03-12 21:49:47.778 10247 10481 E WM-WorkerWrapper: Work [ id=2b3f2356-b8e7-4730-b420-64eb8588b458, tags={ com.duckduckgo.malicioussiteprotection.impl.MaliciousSiteProtectionHashPrefixesUpdateWorker, MALICIOUS_SITE_PROTECTION_HASH_PREFIXES_UPDATE_WORKER_SCAM_TAG } ] failed because it threw an exception/error
+03-12 21:49:47.778 10247 10481 I WM-WorkerWrapper: Worker result FAILURE for Work [ id=2b3f2356-b8e7-4730-b420-64eb8588b458, tags={ com.duckduckgo.malicioussiteprotection.impl.MaliciousSiteProtectionHashPrefixesUpdateWorker, MALICIOUS_SITE_PROTECTION_HASH_PREFIXES_UPDATE_WORKER_SCAM_TAG } ]
+03-12 21:49:47.784  3003  3042 I system_server: Background young concurrent mark compact GC freed 40MB AllocSpace bytes, 117(2452KB) LOS objects, 23% free, 140MB/182MB, paused 2.142ms,5.320ms total 162.248ms
+03-12 21:49:47.790  3003  3043 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+03-12 21:49:47.808  3003  6280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+03-12 21:49:47.810  3003  3044 W System  : A resource failed to call release. 
+03-12 21:49:47.937  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:49:47.938  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:49:47.938  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:49:47.940  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:49:47.975  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-12 21:49:48.140  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:49:48.140  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:49:48.140 16161 18222 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-12 21:49:48.141  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:49:48.141  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:49:48.168 10538 10858 W System.err: java.lang.NumberFormatException: For input string: ""
+03-12 21:49:48.169 10538 10858 W System.err: 	at java.lang.Integer.parseInt(Integer.java:791)
+03-12 21:49:48.169 10538 10858 W System.err: 	at java.lang.Integer.parseInt(Integer.java:897)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.launcher.network.interceptors.CrackingInterceptor.intercept(Native Method)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.launcher.network.interceptors.TimeOutSettingInterceptor.intercept(Unknown Source:17301825)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.launcher.network.interceptors.LynxSignVerifyInterceptor.intercept(Unknown Source:17170503)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.launcher.network.interceptors.SignVerifyInterceptor.intercept(Unknown Source:17170510)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.launcher.network.interceptors.AssistInterceptor.intercept(Unknown Source:17236315)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.effectplatform.artist.net.ArtistCollectInterceptor.intercept(Unknown Source:17105003)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.launcher.network.interceptors.RetrofitHeaderInterceptor.intercept(Unknown Source:17367971)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.libeffectapi.util.VimoNetHeaderInterceptor.intercept(Unknown Source:17170583)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.lm.components.network.extra.HttpHeaderInterceptor.intercept(Unknown Source:17302065)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.android.account.leak.LeakInterceptor.intercept(Unknown Source:17170466)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.sdk.account.region.TTPInterceptor.intercept(Unknown Source:17236137)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.android.account.token.TTTokenInterceptor.intercept(Unknown Source:17170547)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.android.account.token.TTTokenInterceptor.intercept(Unknown Source:17170547)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.bdturing.ttnet.TTNetUtil$1.intercept(Unknown Source:17104962)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.privacy.dispatch.monitor.BootDomainInterceptor.intercept(Unknown Source:17170460)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.privacy.region.CdnRegionInterceptor.intercept(Unknown Source:17235977)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.frameworks.baselib.network.http.retrofit.BaseSsInterceptor.intercept(Unknown Source:16973846)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.getResponseWithInterceptorChain(Unknown Source:327790)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.execute(Unknown Source:327713)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.bytedance.retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(Unknown Source:65538)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.lm.components.network.network.NetWorker.a(Unknown Source:134611078)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.lm.components.network.network.INetWorker$DefaultImpls.a(Unknown Source:100794377)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.lm.components.network.network.NetWorker.f(Unknown Source:67305485)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.lm.components.network.NetworkManager.f(Unknown Source:7)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.core.net.NetworkManagerWrapper.g(Unknown Source:50528271)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.a(Unknown Source:33882199)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.execute(Unknown Source:17170548)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNNetworkClient.fetchFromNetwork(Unknown Source:17170482)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.FetchModelListTask.a(Unknown Source:393259)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.ModelConfigArbiter.a(Unknown Source:33947753)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.e(Unknown Source:33816581)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.a(Unknown Source:327693)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelAndEffectTask.g(Unknown Source:33947741)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.algorithm.AlgorithmEffectFetcher.c(Unknown Source:33947799)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.repository.AlgorithmRepository$fetchResourcesByRequirementsAndModelNames$1.a(Unknown Source:262158)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.TaskManager$commit$2.run(Unknown Source:262161)
+03-12 21:49:48.169 10538 10858 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNExecutor$execute$1.run(Unknown Source:65540)
+03-12 21:49:48.169 10538 10858 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(Unknown Source:327691)
+03-12 21:49:48.169 10538 10858 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Unknown Source:196610)
+03-12 21:49:48.169 10538 10858 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(Unknown Source:458805)
+03-12 21:49:48.208 10538 10858 W System.err: java.lang.IllegalArgumentException: cdnHostSuffix is not init !!!
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.bytedance.ttnet.AppConsts.getCdnHostSuffix(Unknown Source:196629)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.bytedance.ttnet.config.AppConfig.cdnShouldSampling(Unknown Source:17039391)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.lm.components.network.download.DownloadClient.a(Unknown Source:50790561)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.lm.components.network.NetworkManager.b(Unknown Source:33751062)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.vega.core.net.NetworkManagerWrapper.b(Unknown Source:33751057)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.a(Unknown Source:33882165)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.execute(Unknown Source:17170548)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNNetworkClient.fetchFromNetwork(Unknown Source:17170482)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.download.DownloadManager.a(Unknown Source:34078814)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.g(Unknown Source:33947799)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.h(Unknown Source:17170551)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.a(Unknown Source:327697)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelAndEffectTask.g(Unknown Source:33947741)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.algorithm.AlgorithmEffectFetcher.c(Unknown Source:33947799)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.repository.AlgorithmRepository$fetchResourcesByRequirementsAndModelNames$1.a(Unknown Source:262158)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.ugc.effectplatform.task.TaskManager$commit$2.run(Unknown Source:262161)
+03-12 21:49:48.208 10538 10858 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNExecutor$execute$1.run(Unknown Source:65540)
+03-12 21:49:48.208 10538 10858 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(Unknown Source:327691)
+03-12 21:49:48.208 10538 10858 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Unknown Source:196610)
+03-12 21:49:48.208 10538 10858 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(Unknown Source:458805)
+03-12 21:49:48.262  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10405(com.lemon.lvoverseas), SUCCESS, 48ms
+03-12 21:49:48.319 13920 14240 W System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String[] java.lang.String.split(java.lang.String)' on a null object reference
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.9ju.LD(SourceFile:33554436)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.9ju.LBL(SourceFile:134218793)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.9HN.LB(SourceFile:100663476)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.0al.LBL(SourceFile:100663339)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.2Xn.LFF(SourceFile:167772337)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.2CZ.execute(SourceFile:588)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.1Kd.L(SourceFile:16777254)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.2Go.run(SourceFile:78)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.0E6.run(SourceFile:22)
+03-12 21:49:48.320 13920 14240 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+03-12 21:49:48.320 13920 14240 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+03-12 21:49:48.320 13920 14240 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+03-12 21:49:48.320 13920 14240 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+03-12 21:49:48.320 13920 14240 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+03-12 21:49:48.320 13920 14240 W System.err: 	at X.0EB.run(SourceFile:9)
+03-12 21:49:48.320 13920 14240 W System.err: 	at java.lang.Thread.run(Thread.java:1564)
+03-12 21:49:48.320 13920 14240 W System.err: 	at com.bytedance.bpea.transmit.delegate.BPEAThread.run(SourceFile:3)
+03-12 21:49:48.322 13920 14240 W System.err: java.net.SocketTimeoutException: failed to connect to /130.35.75.83 (port 443) from /10.0.0.171 (port 50074) after 15000ms
+03-12 21:49:48.322 13920 14240 W System.err: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:235)
+03-12 21:49:48.323 13920 14240 W System.err: 	at libcore.io.IoBridge.connect(IoBridge.java:179)
+03-12 21:49:48.323 13920 14240 W System.err: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:142)
+03-12 21:49:48.323 13920 14240 W System.err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:390)
+03-12 21:49:48.323 13920 14240 W System.err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:230)
+03-12 21:49:48.323 13920 14240 W System.err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:212)
+03-12 21:49:48.323 13920 14240 W System.err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:436)
+03-12 21:49:48.323 13920 14240 W System.err: 	at java.net.Socket.connect(Socket.java:646)
+03-12 21:49:48.323 13920 14240 W System.err: 	at X.7N8.LCI(SourceFile:50331650)
+03-12 21:49:48.323 13920 14240 W System.err: 	at X.7KY.LC(SourceFile:67108921)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7KY.LBL(SourceFile:117440672)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.6Xx.LC(SourceFile:83886684)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.6Xx.LCC(SourceFile:100663302)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7KW.intercept(SourceFile:16777388)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LF(SourceFile:67109072)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LBL(SourceFile:16777222)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7K1.intercept(SourceFile:16777672)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LF(SourceFile:67109072)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LBL(SourceFile:16777222)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L0.intercept(SourceFile:16777502)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LF(SourceFile:67109072)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7YU.intercept(SourceFile:16777265)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LF(SourceFile:67109072)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LBL(SourceFile:16777222)
+03-12 21:49:48.324 13920 14240 W System.err: 	at com.bytedance.frameworks.baselib.network.http.ok3.impl.OkHttp3TTPSandBoxInterceptor.intercept(SourceFile:16777283)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LF(SourceFile:67109072)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7L2.LBL(SourceFile:16777222)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7Ib.LC(SourceFile:33554793)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.7Ib.execute(SourceFile:677)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.2Xn.LFFFF(SourceFile:50331661)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.2CZ.execute(SourceFile:125)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.1Kd.L(SourceFile:16777254)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.2Go.run(SourceFile:78)
+03-12 21:49:48.324 13920 14240 W System.err: 	at X.0E6.run(SourceFile:22)
+03-12 21:49:48.324 13920 14240 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+03-12 21:49:48.324 13920 14240 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+03-12 21:49:48.324 13920 14240 W System.err: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+03-12 21:49:48.324 13920 14240 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+03-12 21:49:48.325 13920 14240 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+03-12 21:49:48.325 13920 14240 W System.err: 	at X.0EB.run(SourceFile:9)
+03-12 21:49:48.325 13920 14240 W System.err: 	at java.lang.Thread.run(Thread.java:1564)
+03-12 21:49:48.325 13920 14240 W System.err: 	at com.bytedance.bpea.transmit.delegate.BPEAThread.run(SourceFile:3)
+03-12 21:49:48.328  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10460(com.tiktok.lite.go), 4(FAIL), isBlocked=true, 0ms
+03-12 21:49:48.331  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10460(com.tiktok.lite.go), 4(FAIL), isBlocked=true, 0ms
+03-12 21:49:48.341  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:49:48.341  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:49:48.341 10458 10497 I appium  : AppiumResponse: {"sessionId":"17f54f83-2224-4e8f-9a90-5cbb19ddad53","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eBTV/j/w9+ymhzRSSELvvYaO1NAERaSjlIBB/cLPgsgVRalXvdJE0QsoSlfaBSlBBA2hRUB6gFACCZCEJCQkhPQt5/dH2HFmd2Z3drPJEvm8nmceyOzMmTPtzMxnzpzDAWAghBBCCCG…
+03-12 21:49:48.342  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:49:48.342  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:49:48.430  2007 11545 I sensors-hal: handle_sns_client_event:375, [0][58] accel_sample [-0.874,  8.911,  3.923] 193788960384381

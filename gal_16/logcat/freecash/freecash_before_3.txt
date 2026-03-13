@@ -1,0 +1,349 @@
+--------- beginning of system
+03-13 02:14:03.767  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 02:14:03.767  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 02:14:03.767  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 02:14:03.767  3003  3130 D PowerManagerService: displayReady: true groupId=0
+--------- beginning of main
+03-13 02:14:03.769  1992  7816 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 02:14:03.769  1992  7816 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 02:14:03.769  1992  7816 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 02:14:03.769  1992  7816 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 02:14:03.769  1992  7816 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-13 02:14:03.769  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-13 02:14:03.769  1992  7816 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 02:14:03.769  1992  7816 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 02:14:03.769  1992  7816 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 02:14:03.769  1992  7816 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 02:14:03.770  1992  7816 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-13 02:14:03.770  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+03-13 02:14:03.771  6380  7375 I SDHMS:x : SIOP:: AP:453 BAT:357 USB:294 CHG:449 PA:498 CP:426 WIFI:425 BLK:0 SUBBAT:296 LRPTHM:401 SKIN:387 SKINF:387 SKINB:370 LRP2:387 LRF2:387 LRB2:370 AP2:386 CHG2:383 MEM2:387 WIFI2:386 RCV2:386 SPK2:296 UPSPK:392 DNSPK:294 VAP:427 VWIFI:410 AMB2:258 AVGCUR:-459 AVGSYS:824 POWER:-1990
+03-13 02:14:03.773  3003  4920 D PowerManagerService: [api] setMasterBrightnessLimit : lowerLimit : -1  upperLimit : 561  mMasterBrightnessLimitPeriod : 200 (uid: 1000 pid: 6380)
+03-13 02:14:03.773  6380  6574 I M0      : limitCPUFreq:: freq = 3110400
+03-13 02:14:03.773  6380  6574 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/6380@3, type = 301993986
+03-13 02:14:03.773  3003  3130 D PowerManagerService: [api] BrightnessLimitRunnable done
+03-13 02:14:03.773  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20374539  [6380 / 3]    HINT :      list : [CPUMaxFreq / 3110400] 
+03-13 02:14:03.782  4419  4867 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 45 up
+03-13 02:14:03.806 11976 12001 I appium  : channel read: GET /session/cb4616b7-6856-496e-919c-ee0d18c50fc0/source
+03-13 02:14:03.807 11976 12001 I appium  : Source command
+03-13 02:14:03.808 11976 12001 I appium  : Waiting up to 10000ms for the device to idle
+03-13 02:14:03.833 11976 12001 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 02:14:03.841 11976 12001 I appium  : AppiumResponse: {"sessionId":"cb4616b7-6856-496e-919c-ee0d18c50fc0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.android.chrome\" class=\"andro…
+03-13 02:14:03.847  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 1969 / 28 / 1.05 (183) / 432 / -56.0 || 100.0 : 432.00 / 0.5 : 0.96 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.092 / 87.377 / N || N N / 0 0 / Y 2.0 / Y X 0 / 51124531 0 || Invalid
+03-13 02:14:03.847  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 02:14:03.847  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 02:14:03.847  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 13195, isSameBssidAndFreq true
+03-13 02:14:03.847  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 49
+03-13 02:14:03.847  3003  4030 D InsDataManager: trimBuffers start.
+03-13 02:14:03.847  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 85
+03-13 02:14:03.847  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 02:14:03.847  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 02:14:03.847  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -56.0,"latency": 0.09155715839487091,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 1969 / 28 / 1.05 (183) / 432 / -56.0 || 100.0 : 432.00 / 0.5 : 0.96 / 0.55 : 0.01 / G (G) || 357184ff5785: 0.092 / 87.377 / N || N N / 0 0 / Y 2.0 / Y X 0 / 51124531 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 02:14:03.849  3003  4047 D SGM:GameManager: identifyGamePackage. com.android.chrome, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 02:14:03.850  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.android.chrome, ret=false
+03-13 02:14:03.851 11976 12001 I appium  : channel read: GET /session/cb4616b7-6856-496e-919c-ee0d18c50fc0/screenshot
+03-13 02:14:03.851 11976 12001 I appium  : CaptureScreenshot command
+03-13 02:14:03.852 11976 12001 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:14:03.852 11976 12001 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:14:03.896 29727 29757 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-13 02:14:03.899 29727 29802 I cr_MediaCodecBridge: create MediaCodec video decoder, mime video/avc, decoder name c2.qti.avc.decoder, block_model=false
+03-13 02:14:03.900 29727 12685 I CCodec  : state->set(ALLOCATING)
+03-13 02:14:03.900 29727 12686 I CCodec  : allocate(c2.qti.avc.decoder)
+03-13 02:14:03.900 29727 12686 D CCodec  : allocate(c2.qti.avc.decoder)
+03-13 02:14:03.902 29727 12686 I CCodec  : setting up 'default' as default (vendor) store
+03-13 02:14:03.902  2053  2420 I QC2CompStore: addIdToList add Id[353] to list
+03-13 02:14:03.903  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(--002) for field mastering of struct #Param::CoreIndex(--180a)
+03-13 02:14:03.903  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(-V8002) for field portConfigs of struct #Param::CoreIndex(FV19100)
+03-13 02:14:03.903  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(-V8002) for field portConfigs of struct #Param::CoreIndex(FV1a100)
+03-13 02:14:03.903  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(-V8002) for field portConfigs of struct #Param::CoreIndex(FV19100)
+03-13 02:14:03.903  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(-V8002) for field portConfigs of struct #Param::CoreIndex(FV1a100)
+03-13 02:14:03.903  2053  2420 I QC2Comp : [cmpavcD_353] KPI_L1: init: ms=0
+03-13 02:14:03.903  2053  2420 I QC2Comp : [c2.qti.avc.decoder] KPI_L1: Create: ms=1
+03-13 02:14:03.903  2053  2420 I QC2CompStore: Created component(c2.qti.avc.decoder) id(353) sStore[0xb400006dc7a29970]
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(--002) for field mastering of struct #Param::CoreIndex(--180a)
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(--002) for field mastering of struct #Param::CoreIndex(--180a)
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: VendorExternalAIFRCRequestSetter set to 0 0
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: StrictValueWithNoDeps is called old.v.value is 2141391876 me.v.value is 2141391876
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: StrictValueWithNoDeps is called old.v.value is 30 me.v.value is 30
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(--002) for field mastering of struct #Param::CoreIndex(--180a)
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: missing struct descriptor #Param::CoreIndex(--002) for field mastering of struct #Param::CoreIndex(--180a)
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: C2StreamVendorRenderEngineHDRToneMapRequestInfoset to 0
+03-13 02:14:03.904  2053  2420 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: StrictValueWithNoDeps is called old.v.value is 2141391876 me.v.value is 0
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: StrictValueWithNoDeps is called old.v.value is 30 me.v.value is 1
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] entry
+03-13 02:14:03.904  2053  2420 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] frcReqInfo.value is 0
+03-13 02:14:03.905 29727 12686 I CCodec  : Created component [c2.qti.avc.decoder] for [c2.qti.avc.decoder]
+03-13 02:14:03.905 29727 12686 I CCodec  : [c2.qti.avc.decoder] state->set(ALLOCATED)
+03-13 02:14:03.905  2053  2053 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.905 29727 12686 D CCodecConfig: read media type: video/avc
+03-13 02:14:03.906 29727 12686 D ReflectedParamUpdater: ignored struct field vendor.input.configs.portConfigs
+03-13 02:14:03.907 29727 12686 D ReflectedParamUpdater: ignored struct field vendor.output.configs.portConfigs
+03-13 02:14:03.908 29727 12686 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+03-13 02:14:03.910 29727 12686 D ReflectedParamUpdater: ignored struct field vendor.output.configs.portConfigs
+03-13 02:14:03.911 29727 12686 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+03-13 02:14:03.912 29727 12686 D ReflectedParamUpdater: ignored struct field vendor.input.configs.portConfigs
+03-13 02:14:03.912 29727 12686 D ReflectedParamUpdater: extent() != 1 for single value type: vendor.qti-ext-transcode-info-stats.stats_info
+03-13 02:14:03.912 29727 12686 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+03-13 02:14:03.912 29727 12686 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+03-13 02:14:03.912 29727 12686 D CCodecConfig: ignoring local param raw.hdr-static-info (0xd200180a) as it is already supported
+03-13 02:14:03.913  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.913  2053  2950 I vendor.qti.media.c2@1.0-service: StrictValueWithNoDeps is called old.v.value is 2141391876 me.v.value is 0
+03-13 02:14:03.913  2053  2950 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] entry
+03-13 02:14:03.913  2053  2950 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] frcReqInfo.value is 0
+03-13 02:14:03.913 29727 12686 I CCodec  : [c2.qti.avc.decoder] config->initialize() : 0
+03-13 02:14:03.913  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.913 29727 12686 I CCodecConfig: query failed after returning 17 values (BAD_INDEX)
+03-13 02:14:03.913 29727 12686 D CCodecConfig: c2 config diff is Dict {
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::i32 algo.priority.value = -4
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::float algo.rate.value = 1
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 algo.secure-mode.value = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::float coded.frame-rate.value = 30
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 coded.pl.level = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 coded.pl.profile = 20484
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 255
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 coded.vui.color.range = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 255
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 default.color.matrix = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 default.color.primaries = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 default.color.range = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 default.color.transfer = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8388608
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 input.delay.value = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   string input.media-type.value = "video/avc"
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 output.delay.value = 6
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   string output.media-type.value = "video/raw"
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 raw.color.range = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.x = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.blue.y = 0
+03-13 02:14:03.913 29727 12686 D CCodecConfig:   c2::float raw.hdr-static-info.mastering.green.x
+03-13 02:14:03.913 29727 12686 W ColorUtils: expected specified color aspects (0:0:0:0)
+03-13 02:14:03.913 29727 12686 I CCodec  : [c2.qti.avc.decoder] config->queryConfiguration()
+03-13 02:14:03.913 29727 12686 I CCodec  : [c2.qti.avc.decoder] mCallback->onComponentAllocated() IN
+03-13 02:14:03.913 29727 12686 I CCodec  : [c2.qti.avc.decoder] mCallback->onComponentAllocated() OUT
+03-13 02:14:03.915 29727 12685 I MediaCodec: MediaCodec will operate in async mode
+03-13 02:14:03.915 29727 29802 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-13 02:14:03.915 29727 29802 E MediaCodec: Media Quality Service not found.
+03-13 02:14:03.915 29727 12685 D SurfaceUtils: connecting to surface 0xb40000707f950ff0, reason connectToSurface
+03-13 02:14:03.916 29727 12685 I MediaCodec: [c2.qti.avc.decoder] setting surface generation to 30440453
+03-13 02:14:03.916 29727 12685 D SurfaceUtils: disconnecting from surface 0xb40000707f950ff0, reason connectToSurface(reconnect)
+03-13 02:14:03.916 29727 12685 D SurfaceUtils: connecting to surface 0xb40000707f950fe0, reason connectToSurface(reconnect-with-listener)
+03-13 02:14:03.916 29727 12686 D CCodec  : [c2.qti.avc.decoder] buffers are bound to CCodec for this session
+03-13 02:14:03.916 29727 12686 I CCodec  : appPid(29727) width(1080) height(1920)
+03-13 02:14:03.916 29727 12686 D CCodecConfig: no c2 equivalents for csd-1
+03-13 02:14:03.916 29727 12686 D CCodecConfig: no c2 equivalents for native-window
+03-13 02:14:03.916 29727 12686 D CCodecConfig: no c2 equivalents for native-window-generation
+03-13 02:14:03.916 29727 12686 D CCodecConfig: no c2 equivalents for flags
+03-13 02:14:03.916  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.916  2053  2950 I vendor.qti.media.c2@1.0-service: StrictValueWithNoDeps is called old.v.value is 2141391876 me.v.value is 0
+03-13 02:14:03.916  2053  2950 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] entry
+03-13 02:14:03.916  2053  2950 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] frcReqInfo.value is 0
+03-13 02:14:03.916 29727 12686 D CCodecConfig: c2 config diff is   c2::u32 raw.max-size.height = 1920
+03-13 02:14:03.916 29727 12686 D CCodecConfig:   c2::u32 raw.max-size.width = 1080
+03-13 02:14:03.916 29727 12686 D CCodecConfig:   c2::u32 raw.size.height = 1920
+03-13 02:14:03.916 29727 12686 D CCodecConfig:   c2::u32 raw.size.width = 1080
+03-13 02:14:03.917  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.917 29727 12686 W Codec2Client: query -- param skipped: index = 1107298332.
+03-13 02:14:03.917 29727 12686 D CCodec  : client requested max input size 1566720, which is smaller than what component recommended (8388608); overriding with component recommendation.
+03-13 02:14:03.917 29727 12686 W CCodec  : This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+03-13 02:14:03.917 29727 12686 D CCodec  : encoding statistics level = 0
+03-13 02:14:03.917 29727 12686 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t feature-secure-playback = 0
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t frame-rate = 30
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t height = 1920
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t max-input-size = 8388608
+03-13 02:14:03.917 29727 12686 D CCodec  :   string mime = "video/avc"
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t priority = 4
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t profile = 8
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t width = 1080
+03-13 02:14:03.917 29727 12686 D CCodec  :   Rect crop(0, 0, 1079, 1919)
+03-13 02:14:03.917 29727 12686 D CCodec  : }
+03-13 02:14:03.917 29727 12686 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t android._color-format = 0
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t android._video-scaling = 1
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t android._dataspace = 260
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t color-standard = 1
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t color-range = 2
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t color-transfer = 3
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t sar-height = 1
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t rotation-degrees = 0
+03-13 02:14:03.917 29727 12686 D CCodec  :   Buffer hdr-static-info = {
+03-13 02:14:03.917 29727 12686 D CCodec  :     00000000:  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+03-13 02:14:03.917 29727 12686 D CCodec  :     00000010:  00 00 00 00 00 00 00 00  00                       .........
+03-13 02:14:03.917 29727 12686 D CCodec  :   }
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t sar-width = 1
+03-13 02:14:03.917 29727 12686 D CCodec  :   Rect crop(0, 0, 1079, 1919)
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t width = 1080
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t feature-secure-playback = 0
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t frame-rate = 30
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t height = 1920
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t max-height = 1920
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t max-width = 1080
+03-13 02:14:03.917 29727 12686 D CCodec  :   string mime = "video/raw"
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t priority = 4
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t color-format = 2130708361
+03-13 02:14:03.917 29727 12686 D CCodec  :   int32_t p-extraBC = 6
+03-13 02:14:03.917 29727 12686 D CCodec  : }
+03-13 02:14:03.917  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.917 29727 12686 I CCodecConfig: query failed after returning 17 values (BAD_INDEX)
+03-13 02:14:03.917  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.917 29727 12686 E ileged_process0: Failed to query component interface for required system resources: 6
+03-13 02:14:03.918  3003  4748 D SehCodecSolutionService: updateMediaStatisticsData: (action=1@1986621044;category=2@1986621044;label=1936222260@1986621044)
+03-13 02:14:03.918  3003  4748 D CodecSolution_MediaStatisticsData: MediaStatisticsData: action=1@1986621044;category=2@1986621044;label=1936222260@1986621044
+03-13 02:14:03.918  3003  4748 D CodecSolution_MediaStatisticsData: Category.valueOf: 2
+03-13 02:14:03.918  3003  4748 D CodecSolution_MediaStatisticsData: Action.valueOf: 1
+03-13 02:14:03.918  3003  4748 D CodecSolution_MediaStatisticsData: Label.valueOf: 0x73686834
+03-13 02:14:03.918  3003  4748 D CodecSolution_MediaStatisticsData: category: VDEC
+03-13 02:14:03.918  3003  4748 D CodecSolution_MediaStatisticsData: action: INSTANTIATE
+03-13 02:14:03.918  3003  4748 D CodecSolution_MediaStatisticsData: label: SEC_HW_H264
+03-13 02:14:03.918  3003  3003 D SehCodecSolutionService: handleMessage : 900
+03-13 02:14:03.918 29727 29802 D MediaCodec: keep callback message for reclaim
+03-13 02:14:03.918 29727 12685 I CCodec  : [c2.qti.avc.decoder] state->set(STARTING)
+03-13 02:14:03.918  2053  2950 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] entry
+03-13 02:14:03.918  3003  3003 D SehCodecSolutionService: event : VDEC
+03-13 02:14:03.918  2053  2950 I vendor.qti.media.c2@1.0-service: [FRC-IsFilteringEnabled] frcReqInfo.value is 0
+03-13 02:14:03.918  3003  3003 D CodecSolution_Logging: dma : true, feature: VDEC, extra: SEC_HW_H264, value: -1
+03-13 02:14:03.918  3003  3003 D CodecSolution_Logging: insert diagmon log
+03-13 02:14:03.918  3003  3003 D CodecSolution_Logging: permission granted
+03-13 02:14:03.919  3003  3003 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1335 vendor.samsung.frameworks.codecsolution.Logging.insertDiagmonLog:14 vendor.samsung.frameworks.codecsolution.Logging.insertLog:6 vendor.samsung.frameworks.codecsolution.Logging.insertLog:1 vendor.samsung.frameworks.codecsolution.SehCodecSolutionService$1.handleMessage:24 
+03-13 02:14:03.919  2053  2950 I QC2Comp : [avcD_353] CPU perf resource value pair found: [1082130688, 4095, ]
+03-13 02:14:03.919  2053  2950 I QC2Registry: Build pipelined codec for session
+03-13 02:14:03.919  2053  2950 I QC2Registry: Getting stages for pipelined codec
+03-13 02:14:03.920  2053  2950 I QC2Registry: Requested codec is pipelined. Create codec list
+03-13 02:14:03.920  2053  2950 I QC2Registry: GetEnabledFilters for c2.qti.avc.decoder
+03-13 02:14:03.920  2053  2950 I QC2Registry: Pipeline Index = a0009102
+03-13 02:14:03.920  2053  2950 I QC2Registry: Filter sec2.imageformat.filter can't be pipelined
+03-13 02:14:03.920  2053  2950 I QC2Registry: Pipeline Index = a000a103
+03-13 02:14:03.920  2053  2950 I QC2Registry: Filter c2.qti.filter.imagetransform can't be pipelined
+03-13 02:14:03.920  2053  2950 I QC2Registry: Created 0 filters for pipelined codec c2.qti.avc.decoder
+03-13 02:14:03.920  2053  2950 E QC2Comp : [avcD_353] configureIntf failed 95
+03-13 02:14:03.922  2053  2950 I QC2V4l2Codec: [v4lavcD_353] KPI_L1: init: ms=2
+03-13 02:14:03.922  2053 12689 E QC2V4l2Codec: [v4lavcD_353]  ? is not a supported pixel format!
+03-13 02:14:03.923  6103  6103 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:2068 android.content.ContextWrapper.startService:872 android.content.ContextWrapper.startService:872 com.sec.android.diagmonagent.sa.receiver.CFLogReceiver.onReceive:56 android.app.ActivityThread.handleReceiver:5663 
+03-13 02:14:03.925  2053  2950 I QC2V4l2Codec: [v4lavcD_353] KPI_L1: start: ms=2
+03-13 02:14:03.925  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.925  2053  2950 I QC2Comp : [avcD_353] KPI_L1: start: ms=6
+03-13 02:14:03.925  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.926 29727 12686 W Codec2Client: query -- param skipped: index = 1342179345.
+03-13 02:14:03.926 29727 12686 W Codec2Client: query -- param skipped: index = 2415921170.
+03-13 02:14:03.926 29727 12686 W Codec2Client: query -- param skipped: index = 1610614798.
+03-13 02:14:03.926  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.926 29727 12686 D CCodecBufferChannel: [c2.qti.avc.decoder#825] Query input allocators returned 0 params => BAD_INDEX (6)
+03-13 02:14:03.926 29727 12686 D CCodecBufferChannel: [c2.qti.avc.decoder#825] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+03-13 02:14:03.926 29727 12686 I CCodecBufferChannel: [c2.qti.avc.decoder#825] start: max output delay 13
+03-13 02:14:03.926  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.926 29727 12686 D CCodecBufferChannel: [c2.qti.avc.decoder#825] Query output allocators returned 0 params => BAD_INDEX (6)
+03-13 02:14:03.926  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.926 29727 12686 D CCodecBufferChannel: [c2.qti.avc.decoder#825] Query output surface allocator returned 0 params => BAD_INDEX (6)
+03-13 02:14:03.927 29727 12686 I CCodecBufferChannel: [c2.qti.avc.decoder#825] Created output block pool with allocatorID 18 => poolID 2498 - OK
+03-13 02:14:03.927  2053 12689 I QC2Buf  : use shared ref tracker
+03-13 02:14:03.927  2053 12689 I QC2Buf  : Reconfig: clearing from 0 bufs. Peak mem=0 MB
+03-13 02:14:03.927  2053 12689 I QC2Buf  : Reconfig: clearing from 0 bufs. Peak mem=0 MB
+03-13 02:14:03.928 29727 12686 D CCodecBufferChannel: [c2.qti.avc.decoder#825] Configured output block pool ids 2498 => OK
+03-13 02:14:03.928 29727 12686 D Codec2-OutputBufferQueue: C2SurfaceSyncMemory created 20(20)
+03-13 02:14:03.928 29727 12686 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+03-13 02:14:03.928  2053  2950 W QC2Interface: [avcD_353] Few parameters failed to configure
+03-13 02:14:03.928 29727 12686 D Codec2Client: setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+03-13 02:14:03.928 29727 12686 D Codec2Client: setOutputSurface -- generation=30440453 consumer usage=0x900 sync
+03-13 02:14:03.928  2053  2950 D C2BqBuffer: local generation change 30440453 , bqId: 127676492808196 migrated buffers # 0
+03-13 02:14:03.928 29727 12686 D Codec2Client: Surface configure completed
+03-13 02:14:03.928 29727 12686 I CCodec  : [c2.qti.avc.decoder] state->set(RUNNING)
+03-13 02:14:03.928  2053  2950 I QC2CompStore: Setting heap usage to system
+03-13 02:14:03.929 29727 12686 I CCodecBufferChannel: [c2.qti.avc.decoder#825] 4 initial input buffers available
+03-13 02:14:03.929  2053  2950 W QC2Interface: [avcD_353] Failed to query parameters
+03-13 02:14:03.929  2496  1220 I ResourceManagerService: addMediaInfo pid 29727 (width 1080 height 1920), allocated hw codec count 1
+03-13 02:14:03.929  2496  1220 I ResourceManagerService: getMediaResourceInfo (PID : 29727, clientID : -5476376666658636112, non-secure-codec/hw-video-codec:[]:1, 1080x1920 (fps:30) - sw codec : no, encoder : no componentName = c2.qti.avc.decoder bitrate = 17000000)
+03-13 02:14:03.929  2496  1220 W ResourceManagerServiceUtils: Ignoring request to add new resource entry with value <= 0
+03-13 02:14:03.930  6380  6380 I SemMediaResourceHelper: onAdd
+03-13 02:14:03.931  2053 12689 I QC2CompStore: Setting heap usage to system
+03-13 02:14:03.931 29727 12685 I MediaCodec: setCodecState state(0), called in 6, domain 1, 1
+03-13 02:14:03.931  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20540874
+03-13 02:14:03.932  6380  6380 I SemMediaResourceHelper: onState
+03-13 02:14:03.932  6380  6380 I SemDvfsHyPerManager: acquire hyper - TABaseBoost/6380@29, type = -999
+03-13 02:14:03.932  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20540874  [6380 / 29]    HINT :      list : [TABoost / 1] 
+03-13 02:14:03.933  2053 12689 I QC2Buf  : Reconfig: clearing from 0 bufs. Peak mem=0 MB
+03-13 02:14:03.935 12675 12675 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 02:14:03.935 12675 12675 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 02:14:03.936 12675 12675 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 02:14:03.936  3003  3046 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 02:14:03.936  3003  3046 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 02:14:03.936 12675 12675 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 02:14:03.936 12675 12675 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 02:14:03.937  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.android.chrome/ChromeChildSurface#35504(seamlessTransition:0)
+03-13 02:14:03.937  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity$_22866#35488(seamlessTransition:0)
+03-13 02:14:03.937  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 02:14:03.937  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#35412(seamlessTransition:0)
+03-13 02:14:03.937  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 02:14:03.937 29727 12686 D CCodecConfig: c2 config diff is   c2::u32 output.delay.value = 10
+03-13 02:14:03.937  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 02:14:03.937 29727 12686 I CCodecBufferChannel: [c2.qti.avc.decoder#825] updating max output delay 17
+03-13 02:14:03.937 29727 12686 D Codec2-OutputBufferQueue: set max dequeue count 17 from update
+03-13 02:14:03.938  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 02:14:03.938  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.android.chrome/ChromeChildSurface#35504 at index 1
+03-13 02:14:03.938  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity$_22866#35488 at index 2
+03-13 02:14:03.938  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 02:14:03.938  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#35412 at index 4
+03-13 02:14:03.938  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 02:14:03.942  2053 12693 I QC2V4L2PollThread: [v4lavcD_353] KPI_L1: Reconfig: ms=9
+03-13 02:14:03.944  2053 12687 E StandardCaps: max size must equal to/greater than output size
+03-13 02:14:03.945 29727 12686 D CCodecConfig: c2 config diff is   c2::u32 raw.color.matrix = 1
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.color.primaries = 1
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.color.range = 2
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.color.transfer = 3
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.crop.height = 1920
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.crop.left = 0
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.crop.top = 0
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.crop.width = 1080
+03-13 02:14:03.945 29727 12686 D CCodecConfig:   c2::u32 raw.size.width = 1088
+03-13 02:14:03.945 29727 12686 D CCodecBuffers: [c2.qti.avc.decoder#825:2D-Output] popFromStashAndRegister: at 0us, output format changed to AMessage(what = 0x00000000) = {
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t android._color-format = 0
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t android._video-scaling = 1
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t android._dataspace = 260
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t color-standard = 1
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t color-range = 2
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t color-transfer = 3
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t sar-height = 1
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t rotation-degrees = 0
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   Buffer hdr-static-info = {
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:     00000000:  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:     00000010:  00 00 00 00 00 00 00 00  00                       .........
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   }
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t sar-width = 1
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   Rect crop(0, 0, 1079, 1919)
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t width = 1088
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t feature-secure-playback = 0
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t frame-rate = 30
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t height = 1920
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t max-height = 1920
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t max-width = 1080
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   string mime = "video/raw"
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t priority = 4
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t color-format = 2130708361
+03-13 02:14:03.945 29727 12686 D CCodecBuffers:   int32_t p-extraBC = 6
+03-13 02:14:03.945 29727 12686 D CCodecBuffers: }
+03-13 02:14:03.946 29727 12685 I MediaCodec: setCodecState state(1), called in 6, domain 1, 1
+03-13 02:14:03.947  6380  6380 I SemMediaResourceHelper: onState
+03-13 02:14:03.950  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20540874
+03-13 02:14:03.965  2105  2922 I SurfaceFlinger: id=35508 createSurf, flag=44000, com.android.chrome/ChromeChildSurface#35508
+03-13 02:14:03.966 12675 12697 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 02:14:03.967 12675 12675 W qdgralloc: Failed to load libubwcp.so
+03-13 02:14:03.979  2105  2105 I SurfaceFlinger: [com.android.chrome/ChromeChildSurface#35508] attach to parent LayerHierarchy{RequestedLayerState{com.android.chrome/ChromeNativeWindowSurface#35502 parentId=35500} 2 children}
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger: Display 4630946564756762243 HWC layers:
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger:        DEVICE |          127676492808393 | 00000100 | 0x7fa30c06   |    0.0  149.0  589.0 1771.0 |  865  292 1032  752 | com.android.chrome/ChromeChildSurface#35508 (100)
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger:        DEVICE |          127676492808415 | 00000100 | RGBA_8888    |    0.0    0.0 1080.0 2402.0 |    0   94 1080 2496 | com.android.chrome/ChromeChildSurface#35504 (1042)
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger:        DEVICE |           98208722190381 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0 2640.0 |    0    0 1080 2640 | com.android.chrome/org.chromium.chro[...]mtabs.CustomTabActivity$_22866#35488 (63)
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger:        DEVICE |           18060337498270 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   94.0 |    0    0 1080   94 | StatusBar$_4205#132 (39521)
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger:        DEVICE |           20753281979282 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  357.0 | 1013  511 1080  868 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_4832#35412 (1)
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger:        DEVICE |           18060337498273 | 00002100 | RGBA_8888    |    0.0    0.0 1
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger: 080.0  144.0 |    0 2496 1080 2640 | NavigationBar0$_4205#130 (30031)
+03-13 02:14:03.985  2105  2105 D SurfaceFlinger: 
+03-13 02:14:04.156  3003  3046 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 02:14:04.162  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:04.166  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:04.166  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:04.166  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:14:04.166  3003  3046 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 02:14:04.252 11976 12001 I appium  : AppiumResponse: {"sessionId":"cb4616b7-6856-496e-919c-ee0d18c50fc0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WJNXGwbwO5MNskEEFRUBxYUT96pb67a2de+9bWudra171m3HZ23rbN114izuiQNlqewNyibj+wNJiUkUZJl6/66rf/jmzckJVfLmfs95HoGzSx0liIiIiIiIiIj0mLCsJ0BERERERER…

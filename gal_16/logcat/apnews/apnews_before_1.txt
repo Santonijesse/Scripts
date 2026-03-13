@@ -1,0 +1,879 @@
+--------- beginning of main
+03-12 21:14:38.124 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.124 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.124 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.124 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.124 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.125 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.125 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.125 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.125 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.127 22673 22673 I OpenWrapSDK: DFPBannerEventHandler: Ad Server Won.
+03-12 21:14:38.127 22673 22673 D OpenWrapSDK: POBBannerView: Show ad for Ad Server
+03-12 21:14:38.127 22673 22673 D OpenWrapSDK: POBUtils: AdServerWin
+03-12 21:14:38.132  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 0ms
+03-12 21:14:38.135  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 44ms
+03-12 21:14:38.137 22673 22673 I OpenWrapSDK: DFPBannerEventHandler: GAM banner recorded the impression
+03-12 21:14:38.137 22673 22673 I OpenWrapSDK: POBBannerView: is adserverview available null
+03-12 21:14:38.138 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.139 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.139 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.139 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.139 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.139 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.139 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.141 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.141 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.141 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.141 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.141 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.141 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.142 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.142 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.142 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.153 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.154 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.154 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.154 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.154 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.154 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.154 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.154 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.154 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.154 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.155 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.155 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.155 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.156 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.156  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-12 21:14:38.158  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 1ms
+03-12 21:14:38.161  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 39ms
+03-12 21:14:38.162 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.163 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.163 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.163 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.163 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.163 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.164  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 21:14:38.166 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.166 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.166 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.166 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.167 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.167 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.167 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.167 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.167 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.174 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.174 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.174 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.174 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.174 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.174 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.174 16161 21779 I NetworkScheduler: (REDACTED) Error inserting %s
+03-12 21:14:38.177 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.177 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.178 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.178 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.179 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-12 21:14:38.179 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:38.182 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.182 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.185 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.apnews.app.core.designsystem.components.views.webview.TraceableWebView{da5df4a VFEDH.C.. ........ 0,0-1020,1398 #7f0b0261 app:id/embedWv}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.185 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.185 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.186 22673 22673 W Ads     : JS: GSAP target #logo1 not found. https://gsap.com (https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js:10)
+03-12 21:14:38.186 22673 22673 I Ads     : JS: 320x50 Animation length:  15.01 Total length:  15.01 (https://s0.2mdn.net/sadbundle/8805758652202599230/main.js:153)
+03-12 21:14:38.187 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-12 21:14:38.187 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:38.187 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.187 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.188 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.188 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.188  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 56ms
+03-12 21:14:38.190 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.191 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.191 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.191 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.191 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.191 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.192 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.195 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.195 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-12 21:14:38.195 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:38.196  2007 21782 I sensors-hal: handle_sns_client_event:375, [0][1183] accel_sample [-0.577,  2.841,  9.066] 191678749935972
+03-12 21:14:38.199 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.199 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.199 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.199 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.199 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.199 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.199 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.208 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.208 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.209 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.209 22673 22811 I Ads     : HTTP timeout: 60000 milliseconds.
+03-12 21:14:38.209 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.209 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.210 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.215 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.215 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.223  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 50ms
+03-12 21:14:38.223 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.223 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.225 16161 21783 I NetworkScheduler: (REDACTED) Error inserting %s
+03-12 21:14:38.226  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 32ms
+03-12 21:14:38.226 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.226 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+--------- beginning of system
+03-12 21:14:38.229  3003  4333 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-12 21:14:38.231 22673 22673 D WM-DelayedWorkTracker: Scheduling work b51b5386-31be-4329-9b33-007778133258
+03-12 21:14:38.231 22673 22673 D WM-GreedyScheduler: Starting tracking for b51b5386-31be-4329-9b33-007778133258
+03-12 21:14:38.232  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:14:38.232  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:14:38.232  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:14:38.232 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.232 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.232  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:14:38.232  3003  4333 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-12 21:14:38.232 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.232 22673 22744 D WM-ConstraintTracker: h: initial state = NetworkState(isConnected=true, isValidated=true, isMetered=false, isNotRoaming=true)
+03-12 21:14:38.232 22673 22744 D WM-NetworkStateTracker: Registering network callback
+03-12 21:14:38.232 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.232 22673 22744 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4744)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5469)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5436)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5410)] [net.nativo.android.cd.h.c(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:28)] [net.nativo.android.a8.j.invokeSuspend(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:2266)] [net.nativo.android.a8.j.invoke(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:425)] [net.nativo.android.pj0.h.f(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:3)] [net.nativo.android.pj0.c.f(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:59)] [net.nativo.android.f1.x0.invokeSuspend(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:84)] [net.nativo.android.hg0.a.resumeWith(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:9)] [net.nativo.android.mj0.h0.run(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:115)] [net.nativo.android.fd.d.run(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:1427)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-12 21:14:38.233  3003  3594 D ConnectivityService: requestNetwork for uid/pid:10462/22673 activeRequest: null callbackRequest: 3839 [NetworkRequest [ REQUEST id=3840, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10462 RequestorUid: 10462 RequestorPkg: mnn.Android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|UNAVAIL|NC
+03-12 21:14:38.233 22673 22744 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=b51b5386-31be-4329-9b33-007778133258, generation=0)
+03-12 21:14:38.233  3003  3941 D ConnectivityService:    accepting network in place of null for NetworkRequest [ REQUEST id=3840, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10462 RequestorUid: 10462 RequestorPkg: mnn.Android UnderlyingNetworks: Null] ]
+03-12 21:14:38.234  3003  3922 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=3840, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10462 RequestorUid: 10462 RequestorPkg: mnn.Android UnderlyingNetworks: Null] ]
+03-12 21:14:38.234 22673 22767 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=2936Kbps LinkDnBandwidth>=27560Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.0.0.171, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -58, Link speed: 432Mbps, Tx Link speed: 432Mbps, Max Supported Tx Link speed: 1200Mbps, Rx Link speed: 648Mbps, Max Supported Rx Link speed: 1200Mbps, Frequency: 5785MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -58 UnderlyingNetworks: Null]
+03-12 21:14:38.234  3003  3922 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=3840, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10462 RequestorUid: 10462 RequestorPkg: mnn.Android UnderlyingNetworks: Null] ]
+03-12 21:14:38.234 22673 22744 D WM-Processor: d: processing WorkGenerationalId(workSpecId=b51b5386-31be-4329-9b33-007778133258, generation=0)
+03-12 21:14:38.234  3003  3922 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=3840, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10462 RequestorUid: 10462 RequestorPkg: mnn.Android UnderlyingNetworks: Null] ]
+03-12 21:14:38.234  3003  3922 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=3840, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10462 RequestorUid: 10462 RequestorPkg: mnn.Android UnderlyingNetworks: Null] ]
+03-12 21:14:38.234  3003  3941 D ConnectivityService: Rematched networks [computed 0ms] [applied 0ms] [issued 1]
+03-12 21:14:38.234  3003  3941 D ConnectivityService: NetworkReassignment :
+03-12 21:14:38.234  3003  3941 D ConnectivityService:   3840 : null → 110
+03-12 21:14:38.236 22673 22673 D WM-WorkerWrapper: Starting work for com.onetrust.otpublishers.headless.Internal.Network.ConsentUploadWorker
+03-12 21:14:38.241 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.240 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.241 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.241 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.241 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.243  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 1ms
+03-12 21:14:38.246  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 35ms
+03-12 21:14:38.246 22008 22102 I appium  : channel read: GET /session/cd795109-d326-4a35-aa54-42be4720c213/source
+03-12 21:14:38.247 22008 22102 I appium  : Source command
+03-12 21:14:38.248 22008 22102 I appium  : Waiting up to 10000ms for the device to idle
+03-12 21:14:38.250 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.250 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.257 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{711c925 V.EDHVC.. ........ 0,0-960,6042}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.257 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.265 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.266 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.266 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.282 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.299 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.316 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.347  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 42ms
+03-12 21:14:38.352 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.374 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.384  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), 7(NODATA), isBlocked=false, 87ms
+03-12 21:14:38.387  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), 7(NODATA), isBlocked=false, 2ms
+03-12 21:14:38.391  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), 7(NODATA), isBlocked=false, 1ms
+03-12 21:14:38.396  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), 7(NODATA), isBlocked=false, 2ms
+03-12 21:14:38.399 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.400  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 40ms
+03-12 21:14:38.407  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 41ms
+03-12 21:14:38.407 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.412  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), 7(NODATA), isBlocked=false, 1ms
+03-12 21:14:38.415  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), 7(NODATA), isBlocked=false, 1ms
+03-12 21:14:38.423 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.432  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 42ms
+03-12 21:14:38.440 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.458 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.481 22673 22742 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=b51b5386-31be-4329-9b33-007778133258, tags={ com.onetrust.otpublishers.headless.Internal.Network.ConsentUploadWorker } ]
+03-12 21:14:38.481 22673 22837 I FirebasePerformance: Logging network request trace: https://privacyportal.onetrust.com/request/v1/consentreceipts (responseCode: 200, responseTime: 242.077ms)
+03-12 21:14:38.483 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.483  3003  4333 D PackageManager: setEnabledSetting : userId = 0 packageName = mnn.Android cmp = androidx.work.impl.background.systemalarm.RescheduleReceiver newState = 2 callingPackage = mnn.Android
+03-12 21:14:38.484 22673 22673 D WM-Processor: d b51b5386-31be-4329-9b33-007778133258 executed; reschedule = false
+03-12 21:14:38.484 22673 22673 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=b51b5386-31be-4329-9b33-007778133258, generation=0)
+03-12 21:14:38.484 22673 22744 D WM-PackageManagerHelper: androidx.work.impl.background.systemalarm.RescheduleReceiver disabled
+03-12 21:14:38.487 22673 22744 D WM-GreedyScheduler: Cancelling work ID b51b5386-31be-4329-9b33-007778133258
+03-12 21:14:38.488  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+03-12 21:14:38.488  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:38.488 22673 22744 D WM-NetworkStateTracker: Unregistering network callback
+03-12 21:14:38.488 22673 22744 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5579)] [net.nativo.android.cd.h.d(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:28)] [net.nativo.android.bc0.g.invoke(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:1702)] [net.nativo.android.ed.f.f(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:108)] [net.nativo.android.oj0.q.invokeSuspend(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:11)] [net.nativo.android.hg0.a.resumeWith(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:9)] [net.nativo.android.mj0.h0.run(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:107)] [net.nativo.android.fd.d.run(r8-map-id-80870fd42f7d1039cbad1df42ae462e4903b13ff350c4d80d84a25c14c2ccdc5:1427)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-12 21:14:38.489  3003  3941 D ConnectivityService:  Removing from current network [110 WIFI], leaving 259 requests.
+03-12 21:14:38.490 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.491 22673 22702 W System  : Ignoring header If-None-Match because its value was null.
+03-12 21:14:38.493  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-12 21:14:38.493  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:38.494  3003  4028 I SemWifiIntelligentTrainingManager: Tr. cond. check: true / 2 (2) / true / 0 (1)
+03-12 21:14:38.494  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+03-12 21:14:38.494  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:38.494  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 0ms
+03-12 21:14:38.494  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-12 21:14:38.494  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:38.495  3003  4028 D SemWifiIntelligentConnectionManager: IWH tr data stats : 77 / 110
+03-12 21:14:38.507 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773364478
+03-12 21:14:38.514  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:14:38.514  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 268 
+03-12 21:14:38.514  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556074
+03-12 21:14:38.515  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556072
+03-12 21:14:38.515  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 21:14:38.515  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:14:38.515  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 21:14:38.524 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.531  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-12 21:14:38.532  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-12 21:14:38.532  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-12 21:14:38.532  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-12 21:14:38.536  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 21:14:38.537  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 21:14:38.537  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 21:14:38.537  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-12 21:14:38.540 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.551  3003  4040 I SemTwtInfo: Deact. reason: 8
+03-12 21:14:38.556 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.574 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.590 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.591  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 41ms
+03-12 21:14:38.607 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.617  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 38ms
+03-12 21:14:38.623 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.624  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 42ms
+03-12 21:14:38.640 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.641  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 32ms
+03-12 21:14:38.653 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.653 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.657 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{ef1849 V.EDHVC.. ........ 0,0-960,6240}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.658 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.666 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.666 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.671 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.671 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.674 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.679  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 42ms
+03-12 21:14:38.680  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 45ms
+03-12 21:14:38.681 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.682 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.686 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.687 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.690 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.taboola.android.TBLWebView{151ccf6 V.EDHVC.. ........ 0,0-960,6174}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.690 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.696  1992  2045 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-12 21:14:38.696  1992  2045 D AHAL: FM: fm_get_parameters: 299: enter
+03-12 21:14:38.696  1992  2045 D AHAL: FM: fm_get_parameters: 306: exit
+03-12 21:14:38.697  1992  2045 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-12 21:14:38.697  1992  2045 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-12 21:14:38.698  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-12 21:14:38.698 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.698 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:38.699  1992  2045 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-12 21:14:38.699  1992  2045 D AHAL: FM: fm_get_parameters: 299: enter
+03-12 21:14:38.700  1992  2045 D AHAL: FM: fm_get_parameters: 306: exit
+03-12 21:14:38.700  1992  2045 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-12 21:14:38.700  1992  2045 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-12 21:14:38.701  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+03-12 21:14:38.702  6380  7375 I SDHMS:x : SIOP:: AP:341 BAT:268 USB:247 CHG:349 PA:428 CP:309 WIFI:327 BLK:0 SUBBAT:250 LRPTHM:299 SKIN:298 SKINF:298 SKINB:285 LRP2:298 LRF2:298 LRB2:285 AP2:297 CHG2:294 MEM2:298 WIFI2:297 RCV2:298 SPK2:253 UPSPK:283 DNSPK:249 VAP:293 VWIFI:292 AMB2:215 AVGCUR:-344 AVGSYS:985 POWER:-1459
+03-12 21:14:38.707 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.723 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.741 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.747 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-12 21:14:38.747 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:38.754 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.771 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-12 21:14:38.772 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:38.778  4111  4111 I wpa_supplicant: Heartbeat 6379
+03-12 21:14:38.786 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 4
+03-12 21:14:38.786 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:38.797 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 4
+03-12 21:14:38.797 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:38.800  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 42ms
+03-12 21:14:38.810 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.840 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.856 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.871 22673 22673 I cr_A11yState: Enabled accessibility services list updated. []
+03-12 21:14:38.871 22673 22673 I cr_A11yState: Informing listeners of changes.
+03-12 21:14:38.871 22673 22673 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-12 21:14:38.875 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.916 22008 22102 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 21:14:38.923 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:38.978 22008 22102 I appium  : AppiumResponse: {"sessionId":"cd795109-d326-4a35-aa54-42be4720c213","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"mnn.Android\" class=\"android.widg…
+03-12 21:14:38.992 22008 22102 I appium  : channel read: GET /session/cd795109-d326-4a35-aa54-42be4720c213/screenshot
+03-12 21:14:38.992 22008 22102 I appium  : CaptureScreenshot command
+03-12 21:14:38.993 22008 22102 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:14:38.993 22008 22102 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:14:39.012  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 33ms
+03-12 21:14:39.014 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:39.017 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-12 21:14:39.017 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:39.019 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.019 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.022 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-12 21:14:39.022 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:39.031 22673 22673 I View    : setRequestedFrameRate frameRate=-4.0, this=com.apnews.app.core.designsystem.components.views.webview.TraceableWebView{da5df4a VFEDH.C.. ........ 0,0-1020,1398 #7f0b0261 app:id/embedWv}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:39.039 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.039 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.073 24131 24131 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 21:14:39.074 24131 24131 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 21:14:39.074 24131 24131 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 21:14:39.074  3003  6828 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 21:14:39.074  3003  6828 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 21:14:39.074 24131 24131 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 21:14:39.074 24131 24131 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 21:14:39.075  2105  2321 I SurfaceFlinger: Capture layer list: 	 mnn.Android/com.apnews.app.activity.MainActivity$_22673#11507(seamlessTransition:0)
+03-12 21:14:39.075  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 21:14:39.075  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#11471(seamlessTransition:0)
+03-12 21:14:39.075  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 21:14:39.075  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 21:14:39.076  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 21:14:39.077  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer mnn.Android/com.apnews.app.activity.MainActivity$_22673#11507 at index 1
+03-12 21:14:39.077  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 21:14:39.077  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#11471 at index 3
+03-12 21:14:39.077  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 21:14:39.090  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,332, ts,191679655796128, ts_diff,336139
+03-12 21:14:39.090  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,0.641,3.848,9.581, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-12 21:14:39.090  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-12 21:14:39.090  3003  3003 D WindowOrientationListener: onTableModeChanged: Moving
+03-12 21:14:39.091  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-12 21:14:39.091  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.091  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.092  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+03-12 21:14:39.105 24131 24138 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 21:14:39.106 24131 24131 W qdgralloc: Failed to load libubwcp.so
+03-12 21:14:39.132 22673 22673 I Ads     : Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("65DEE66ABAC97A2B086DE8BBDF13B2A9")) to get test ads on this device.
+03-12 21:14:39.140 22673 22775 W Ads     : Not retrying to fetch app settings
+03-12 21:14:39.141 22673 24140 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+03-12 21:14:39.143  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:14:39.144 16158 16158 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.ads.service.START xflg=0x4 pkg=com.google.android.gms }
+03-12 21:14:39.144 16158 16158 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.ads.service.START xflg=0x4 pkg=com.google.android.gms }
+03-12 21:14:39.155 16158 23146 W SQLiteLog: (28) double-quoted string literal: "1773191679155"
+03-12 21:14:39.155 16158 23146 W SQLiteLog: (28) double-quoted string literal: "1"
+03-12 21:14:39.165 16158 16158 I Ads     : Received log message: <Google:HTML> You are currently using version 260480999.252530000.1 of the SDK, which is out of date. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. The latest SDK can be installed from https://goo.gle/android-install-instructions. More information about the SDK deprecation schedule is available at https://developers.google.com/admob/android/deprecation.
+03-12 21:14:39.170 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.170 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.171 16158 16912 I Ads     : SDK version: afma-sdk-a-v260480999.252530000.1
+03-12 21:14:39.172 16158 16912 I Ads     : HTTP timeout: 60000 milliseconds.
+03-12 21:14:39.173 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:39.173 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.174 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.174 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 4
+03-12 21:14:39.174 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:39.175 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.176 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.181 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.181 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.189 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.189 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.189 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.189 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.189 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.190 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.197 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.197 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.197 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.197 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.197 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.198 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.202  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-12 21:14:39.206 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.206 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.206 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.206 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.206 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.206 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.214 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.214 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.214 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.214 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.214 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.214 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.222 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.222 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.222 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.222 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.222 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.223 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.231 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.231 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.231 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.231 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.231 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.231 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.239 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.239 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.239 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.239 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.239 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.239 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.247 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.247 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.247 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.247 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.247 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.247 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.255 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.255 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.255 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.255 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.256 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.256 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.264 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.264 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.264 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.264 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.264 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.264 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.267  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,255, duration,0, ts,191679832633003, ts_diff,589889
+03-12 21:14:39.267  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,0.100,3.187,9.686, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-12 21:14:39.267  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: -1
+03-12 21:14:39.268  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: -1
+03-12 21:14:39.268  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-12 21:14:39.268  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.268  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.272 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.272 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.272 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.272 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.272 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.273 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.281 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.281 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.281 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.281 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.281 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.281 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.289 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.289 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.289 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.289 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.289 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.289 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.297 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.297 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.298 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.298 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.298 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.298 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.306 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.306 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.306 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.306 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.306 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:39.306 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.306 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.310  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,0, ts,191679876137951, ts_diff,396243
+03-12 21:14:39.310  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,0.129,3.747,9.921, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-12 21:14:39.311  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+03-12 21:14:39.311  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-12 21:14:39.311  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-12 21:14:39.311  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.311 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 4
+03-12 21:14:39.311 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:39.311  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.315 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.315 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.315 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.315 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.315 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.315 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.319 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 4
+03-12 21:14:39.319 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:39.322 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.322 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.322 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.323 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.323 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.323 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.331 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.331 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.331 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.331 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.331 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.331 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.333  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,255, duration,0, ts,191679898941909, ts_diff,364212
+03-12 21:14:39.333  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,0.349,3.403,10.169, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-12 21:14:39.333  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: -1
+03-12 21:14:39.333  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: -1
+03-12 21:14:39.334  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-12 21:14:39.334  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.334 22673 22911 I AdrenoVK-0: Shader compilation failed for shaderType: 4
+03-12 21:14:39.334 22673 22911 I AdrenoVK-0: Pipeline create failed
+03-12 21:14:39.334  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.340 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.340 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.340 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.340 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.340 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.340 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.348 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.348 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.348 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.348 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.348 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.348 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.354 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.354 22673 22673 I Kumiho-Kumiho: getPackageName: mnn.Android
+03-12 21:14:39.354 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.354 22673 22673 I Kumiho-Kumiho: getPackageName: mnn.Android
+03-12 21:14:39.355 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.356 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.356 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.356 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.359 22673 22673 I Kumiho-Kumiho: getPackageName: mnn.Android
+03-12 21:14:39.359 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.359 22673 22673 I Kumiho-Kumiho: getPackageName: mnn.Android
+03-12 21:14:39.359 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.361 22673 22673 I Kumiho-Kumiho: getPackageName: mnn.Android
+03-12 21:14:39.361 22673 22673 I Kumiho-Kumiho: getPackageName: mnn.Android
+03-12 21:14:39.361 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.361 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.364 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.364 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.372 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.372 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.372 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.372 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.372 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.373 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.380 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.380 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.380 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.380 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.380 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.380 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.389 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.389 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.389 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.389 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.389 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.389 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.397 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.397 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.397 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.397 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.397 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.397 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.407 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.407 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.408 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.408 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.408 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.408 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.408  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 16666000 based on min/max delay_ns
+03-12 21:14:39.408  2007  2007 I sensors-hal: batch:363, android.sensor.game_rotation_vector/151, period=16666000, max_latency=0 request completed
+03-12 21:14:39.408  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=1
+03-12 21:14:39.408  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 35 , conn_type 3 
+03-12 21:14:39.409  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 36ms
+03-12 21:14:39.410  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d7f30) is created with tid= 24157
+03-12 21:14:39.413  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fc4 went down
+03-12 21:14:39.413  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fc4 went down
+03-12 21:14:39.414 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.414 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.414 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.414 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.414 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.414 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.415  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fc5 went down
+03-12 21:14:39.416  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fc5 went down
+03-12 21:14:39.416  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fc6 went down
+03-12 21:14:39.417  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-12 21:14:39.417  2007  2007 I sensors-hal: register_cb:304, suid(low=9921513099128050929,high=10978744344367743962) is new. register callbacks
+03-12 21:14:39.417  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:14:39.417  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:14:39.417  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:14:39.418  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fc6 went down
+03-12 21:14:39.418  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fc7 went down
+03-12 21:14:39.418  2007 24158 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:14:39.418  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fc7 went down
+03-12 21:14:39.418  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:14:39.418  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=1 completed
+03-12 21:14:39.418 22673 22810 D SensorManager: registerListener :: 151, Game Rotation Vector  Non-wakeup, 16666, 0, 
+03-12 21:14:39.420  2059  2086 E BatteryDump: !@new_battery_dump : 4111,-1709,475,550,89,271,247,355,250,0,289,298,250,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,11381,0x0,0x10000,0x0,0,0,0000,0000,00000000,4111,4066,-640,-1069,10,0,887,990,0,
+03-12 21:14:39.422 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.422 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.422 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.422 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.422 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.422 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.422  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-12 21:14:39.422  2059  2059 I sehhealth-service: updateLrpSysfs: write: 298
+03-12 21:14:39.423  3003  6828 D BatteryService: [processValuesLocked]batteryLevel:89 ,LastbatteryLevel:89 ,mPlugType:2 ,batteryStatus:2
+03-12 21:14:39.424  3003  6828 D BatteryService: [countBatteryChangedConditions]mBatteryChangedConditionCounts:[12, 9, 1, 145, 12, 161, 144, 0, 0, 12, 11, 0, 4, 0, 0, 5, 29, 12, 0, 0, 0, 1]
+03-12 21:14:39.424  3003  6828 D BatteryService: Sending ACTION_BATTERY_CHANGED: level:89, status:2, health:2, remain:2746, ac:false, usb:true, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:0, voltage:4111, temperature:271, online:4, charging_status:0, cycle_count:0, current_avg:-625937, ps:false, hvc:false, current_event:0x0, mcc:0, mcv:0, cc:3179040, present:true, scale:100, technology:Li-ion, protection:0
+03-12 21:14:39.428  3003  4077 I DeviceBatteryInfoService: action: android.intent.action.BATTERY_CHANGED
+03-12 21:14:39.428  3003  4077 I DeviceBatteryInfoService: phone battery level: 89
+03-12 21:14:39.428  3003  4077 I DeviceBatteryInfoService: phone battery status: 2
+03-12 21:14:39.428  3003  6828 D [SS]BattUtils: [readNode]path:/efs/FactoryApp/bsoh ,value:100.00
+03-12 21:14:39.429  4205  4205 I PowerUI : mBootCompleted = true |  mFullyConnected = true
+03-12 21:14:39.430  4205  4205 I PowerUI : BATTERY_HEALTH_CHECK / batteryHealth : 2 / wirelessOverheat : false
+03-12 21:14:39.430  4205  4205 D PowerUI : Skip charging animation - by Plug reason
+03-12 21:14:39.430  4205  4205 D PowerUI : Skip charging sound & vibrate - by Plug reason
+03-12 21:14:39.430  4205  4205 D PowerUI : oldMisalign : false, curMisalign : false
+03-12 21:14:39.430  4205 24741 D PowerUI.Notification: updateNotification mWarning = false mPlaySound = false
+03-12 21:14:39.430 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.430 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.430 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.431 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.431 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.431 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.431  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=0
+03-12 21:14:39.431  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:14:39.431  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:14:39.432  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:14:39.432  2007 24158 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:14:39.432  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:14:39.433  4205  4205 D PowerUI.Notification: showChargingNotice - There is no change charging status, so return!
+03-12 21:14:39.433  4205  4205 D PowerUI.TipsManager: Not enough battery condition
+03-12 21:14:39.433  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fc8 went down
+03-12 21:14:39.433  3003  6501 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = ltc_highsoc_exceed_time
+03-12 21:14:39.433  3003  6501 D KNOX_MDM_SettingsProvider: edmUri: content://com.sec.knox.provider/RestrictionPolicy3
+03-12 21:14:39.433  3003  6501 D KNOX_MDM_SettingsProvider: projectionArgs: isSettingsChangesAllowed
+03-12 21:14:39.433  3003  6501 D KNOX_MDM_SettingsProvider: selectionArgs: false
+03-12 21:14:39.433  3003  6501 D KNOX_MDM_SettingsProvider: selectionArgs: 10053
+03-12 21:14:39.433  3003  6501 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+03-12 21:14:39.433  3003  6501 D SecContentProvider: called from android.uid.systemui:10053
+03-12 21:14:39.433  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d7f30) send sig to tid= 24157
+03-12 21:14:39.433  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fc8 went down
+03-12 21:14:39.433  3003  6501 D RestrictionPolicy: isSettingsChangesAllowedAsUser, userId 0 : true
+03-12 21:14:39.433  3003  6501 D KNOX_MDM_SettingsProvider: ret = 1
+03-12 21:14:39.433  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d7f30) is destroyed, remaining task = 0, tid= 24157
+03-12 21:14:39.433  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-12 21:14:39.433  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=0 completed
+03-12 21:14:39.434 22673 22809 D SensorManager: unregisterListener
+03-12 21:14:39.434  4205  4205 I AODBatteryManager: updateBatteryData: ACTION_BATTERY_CHANGED: true, isSleepModeChanged:false ,isRemainingTimeChanged: false, isUSBRestriction: false
+03-12 21:14:39.434  4205  4205 I AODBatteryManager: saveBatteryData : AOD BatteryData [mBatteryLevel=89, mBatteryStatus=CHARGING, mBatteryPlugType=USB, mBatteryPlugged=true, mRemainingChargeTime=2746000, mBatteryChargingType=1, mBatteryChargerType=NORMAL, mBatteryOnline=USB, mBatterySwellingMode=NONE, mBatteryProtectMode=false, mBatteryProtectModeType=0, mSleepChargingEvent=null, mSleepChargingEventFinishTime=null, mBatteryHealth=2, mIsDirectPowerMode=false, mIsUsbRestriction=false]
+03-12 21:14:39.434  4205  4205 D KeyguardUpdateMonitor: handleBatteryUpdate
+03-12 21:14:39.435  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 16666000 based on min/max delay_ns
+03-12 21:14:39.435  2007  2007 I sensors-hal: batch:363, android.sensor.game_rotation_vector/151, period=16666000, max_latency=0 request completed
+03-12 21:14:39.435  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=1
+03-12 21:14:39.435  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 35 , conn_type 3 
+03-12 21:14:39.435  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d7f30) is created with tid= 24161
+03-12 21:14:39.435  4184  4184 D SemBigDataInfoController: Intent: android.intent.action.BATTERY_CHANGED
+03-12 21:14:39.435  4205  4205 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+03-12 21:14:39.435  3003  3003 D AdaptiveBrightnessLongtermModelBuilder[0]: Received android.intent.action.BATTERY_CHANGED
+03-12 21:14:39.435  3003  3003 D AdaptiveBrightnessLongtermModelBuilder[1]: Received android.intent.action.BATTERY_CHANGED
+03-12 21:14:39.436  4205  4205 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+03-12 21:14:39.436  4205  4205 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+03-12 21:14:39.436  4205  4205 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+03-12 21:14:39.436  4205  4205 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+03-12 21:14:39.436  4205  4205 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+03-12 21:14:39.436  4205  4205 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+03-12 21:14:39.436  4184  4184 D SemBigDataInfoController: Intent: android.intent.action.BATTERY_CHANGED
+03-12 21:14:39.437  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fc9 went down
+03-12 21:14:39.437  3003  6501 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-12 21:14:39.437  3003  6501 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:39.437  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fc9 went down
+03-12 21:14:39.437 20265 20265 I [SCPMV2][SystemMonitorReceiver]: onReceive: android.intent.action.BATTERY_CHANGED
+03-12 21:14:39.437  3003  6711 W BroadcastQueue: Ignoring finishReceiverLocked; no active broadcast for BroadcastProcessQueue{f7c11d7 16266:com.lemon.lvoverseas/u0a405}
+03-12 21:14:39.437  3003  6501 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:1
+03-12 21:14:39.437  3003  6501 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:39.438  3003  6501 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:3
+03-12 21:14:39.438  3003  6501 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:39.438  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fca went down
+03-12 21:14:39.438  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fca went down
+03-12 21:14:39.438  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fcb went down
+03-12 21:14:39.438  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fcb went down
+03-12 21:14:39.438  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-12 21:14:39.438  2007  2007 I sensors-hal: register_cb:304, suid(low=9921513099128050929,high=10978744344367743962) is new. register callbacks
+03-12 21:14:39.438  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:14:39.438  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:14:39.438  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:14:39.439  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fcc went down
+03-12 21:14:39.439  3003  3914 D MotionRecognitionService: [SAR]  onReceive : ACTION_BATTERY_CHANGED, Plugged: 2
+03-12 21:14:39.439  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fcc went down
+03-12 21:14:39.439 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.439  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-12 21:14:39.439  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-12 21:14:39.439  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-12 21:14:39.439 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.440 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.440 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.440 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.440 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.440  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-12 21:14:39.441 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:39.441  3003  4333 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:2
+03-12 21:14:39.441  2007 24164 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:14:39.441  3003  4333 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:39.441  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-12 21:14:39.441  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=1 completed
+03-12 21:14:39.441 22673 22809 D SensorManager: registerListener :: 151, Game Rotation Vector  Non-wakeup, 16666, 0, 
+03-12 21:14:39.442 22673 22673 D OpenWrapSDK: POBMraidController: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "null" from accessing a cross-origin frame. @ 1: https://choices.trustarc.com/get?name=pmw2.js
+03-12 21:14:39.442 22673 22673 D OpenWrapSDK: POBMraidController: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "null" from accessing a cross-origin frame. @ 1: https://choices.trustarc.com/get?name=pmw2.js
+03-12 21:14:39.442  3003  6711 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:5
+03-12 21:14:39.443  3003  6711 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:39.443  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=0
+03-12 21:14:39.443  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:14:39.443  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:14:39.443  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:14:39.443  3003  6711 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+03-12 21:14:39.443  3003  6711 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-12 21:14:39.443  2007 24164 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:14:39.443  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:14:39.444  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d7f30) send sig to tid= 24161
+03-12 21:14:39.444  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d7f30) is destroyed, remaining task = 0, tid= 24161
+03-12 21:14:39.444  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-12 21:14:39.444  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=0 completed
+03-12 21:14:39.444  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,0, ts,191680009949461, ts_diff,353587
+03-12 21:14:39.444  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fcd went down
+03-12 21:14:39.444  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,-0.330,3.465,9.299, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-12 21:14:39.444  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fcd went down
+03-12 21:14:39.444  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-12 21:14:39.444  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+03-12 21:14:39.444  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-12 21:14:39.445  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.445  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-12 21:14:39.445 22673 22811 D SensorManager: unregisterListener
+03-12 21:14:39.446  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 16666000 based on min/max delay_ns
+03-12 21:14:39.446  2007  2007 I sensors-hal: batch:363, android.sensor.game_rotation_vector/151, period=16666000, max_latency=0 request completed
+03-12 21:14:39.446  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=1
+03-12 21:14:39.446  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 35 , conn_type 3 
+03-12 21:14:39.446  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d7f30) is created with tid= 24168
+03-12 21:14:39.447 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.447 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.447 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.447 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.447  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fce went down
+03-12 21:14:39.447 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.448  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fce went down
+03-12 21:14:39.448 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.448 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.448 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.448  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fcf went down
+03-12 21:14:39.448  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fcf went down
+03-12 21:14:39.448  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fd0 went down
+03-12 21:14:39.448  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fd0 went down
+03-12 21:14:39.449  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-12 21:14:39.449  2007  2007 I sensors-hal: register_cb:304, suid(low=9921513099128050929,high=10978744344367743962) is new. register callbacks
+03-12 21:14:39.449  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:14:39.449  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:14:39.449  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:14:39.449  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fd1 went down
+03-12 21:14:39.449  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fd1 went down
+03-12 21:14:39.450  2007 24169 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:14:39.451  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-12 21:14:39.451  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=1 completed
+03-12 21:14:39.451 22673 22811 D SensorManager: registerListener :: 151, Game Rotation Vector  Non-wakeup, 16666, 0, 
+03-12 21:14:39.452 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.452 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.455 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.455 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.458 22008 22102 I appium  : AppiumResponse: {"sessionId":"cd795109-d326-4a35-aa54-42be4720c213","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFRl4z7w+8zAsMkmqCyKK+4mCpqK4hbqC2Wl5m5qYm/p+2bWa5mmopaVqVlWau6KJWoqKpZWiKjkkguiICaKC7sIwrAOM+f3h1/Oj3GGVWCYvD/X9VzFmXOeec6AcM59nkUAIIKIiIi…
+03-12 21:14:39.458 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.458 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.464 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.464 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.464 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.464 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.472 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.472 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.472 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.472 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.472 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.472 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.480 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.480 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.480 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.480 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.480 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.480 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.483  2007 24169 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-12 21:14:39.485  3003  3245 D PackageManager: Don't send PACKAGE_CHANGED for mnn.Android by WorkManager
+03-12 21:14:39.489 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.489 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.489 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.489 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.489 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.489 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.493  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10462(mnn.Android), SUCCESS, 30ms
+03-12 21:14:39.497 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.497 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:39.497 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.498 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.499 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.499 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.499 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.505 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.506 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.506 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.506 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.506 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.506 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.507  1259 22925 I keystore2: system/security/keystore2/watchdog/src/lib.rs:377 - Watchdog thread idle -> terminating. Have a great day.
+03-12 21:14:39.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773364479
+03-12 21:14:39.514 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.514 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.514 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.514 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.514 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.514 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.517  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:14:39.517  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 271 
+03-12 21:14:39.517  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556074
+03-12 21:14:39.517  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556072
+03-12 21:14:39.517  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 21:14:39.517  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:14:39.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 21:14:39.522 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.522 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.522 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.522 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.522 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.522 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.530 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.530 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.530 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.530 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.531 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.531 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.531  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=0
+03-12 21:14:39.532  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:14:39.532  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:14:39.532  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:14:39.533  2007 24169 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:14:39.533  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-12 21:14:39.533  2007  2007 I sensors-hal: ~worker:65, worker(0xb400007a0f4d7f30) send sig to tid= 24168
+03-12 21:14:39.533  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fd2 went down
+03-12 21:14:39.533  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fd2 went down
+03-12 21:14:39.534  2007  2007 I sensors-hal: ~worker:74, worker(0xb400007a0f4d7f30) is destroyed, remaining task = 0, tid= 24168
+03-12 21:14:39.534  2007  2007 I sensors-hal: ~qsh_qmi:58, ~qsh_qmi
+03-12 21:14:39.534  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=0 completed
+03-12 21:14:39.534 22673 22809 D SensorManager: unregisterListener
+03-12 21:14:39.535  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 16666000 based on min/max delay_ns
+03-12 21:14:39.535  2007  2007 I sensors-hal: batch:363, android.sensor.game_rotation_vector/151, period=16666000, max_latency=0 request completed
+03-12 21:14:39.535  2007  2007 I sensors-hal: activate:300, android.sensor.game_rotation_vector/151 en=1
+03-12 21:14:39.535  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 35 , conn_type 3 
+03-12 21:14:39.536  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d7f30) is created with tid= 24183
+03-12 21:14:39.536  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fd3 went down
+03-12 21:14:39.536  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fd3 went down
+03-12 21:14:39.536  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fd4 went down
+03-12 21:14:39.536  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fd4 went down
+03-12 21:14:39.537  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fd5 went down
+03-12 21:14:39.537  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fd5 went down
+03-12 21:14:39.537  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-12 21:14:39.537  2007  2007 I sensors-hal: register_cb:304, suid(low=9921513099128050929,high=10978744344367743962) is new. register callbacks
+03-12 21:14:39.537  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 5fd6 went down
+03-12 21:14:39.537  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 5fd6 went down
+03-12 21:14:39.537  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-12 21:14:39.537  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for game_rv with SUID low=9921513099128050929 high=10978744344367743962
+03-12 21:14:39.538  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-12 21:14:39.538  2007 24189 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for game_rv 
+03-12 21:14:39.538  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-12 21:14:39.538  2007  2007 I sensors-hal: activate:330, android.sensor.game_rotation_vector/151 en=1 completed
+03-12 21:14:39.538 22673 22809 D SensorManager: registerListener :: 151, Game Rotation Vector  Non-wakeup, 16666, 0, 
+03-12 21:14:39.539 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.539 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.539 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.539 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.539 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.539 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.539 22673 22673 I View    : setRequestedFrameRate frameRate=NaN, this=com.google.android.gms.ads.internal.webview.ai{c46a89e VFEDHVC.. ........ 0,0-1080,168}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-12 21:14:39.547 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.547 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.547 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.547 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.547 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-12 21:14:39.547 22814 22963 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw

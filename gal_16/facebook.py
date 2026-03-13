@@ -50,8 +50,9 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 
 time.sleep(15)  # wait for app to fully load
 
-tap(550, 1550, 3)
+tap(550, 2350, 3)
 tap(550, 2400, 3)
+tap(550, 2350, 3)
 tap(1000, 180, 3)
 tap(440, 180, 3)
 

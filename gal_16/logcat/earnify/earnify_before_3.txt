@@ -1,0 +1,39 @@
+--------- beginning of system
+03-13 01:41:21.789  1171  1171 D io_stats: !@   8,0 r 2986010 98011552 w 3246900 71794056 d 307849 80083092 f 142666 343313 iot 1349068 0 th 0 0 0 pt 0 inp 0 0 49162.474
+--------- beginning of main
+03-13 01:41:21.844 12631 12671 I appium  : channel read: GET /session/e832547b-a831-4e99-88b0-ebe7478f9c80/source
+03-13 01:41:21.846 12631 12671 I appium  : Source command
+03-13 01:41:21.848 12631 12671 I appium  : Waiting up to 10000ms for the device to idle
+03-13 01:41:21.963 19661 19661 I View    : setRequestedFrameRate frameRate=-4.0, this=com.duckduckgo.app.browser.DuckDuckGoWebView{b390609 VFEDHVCL. .F...... 0,0-1080,1457 #7f0b0137 app:id/browserWebView aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 01:41:21.967 12631 12671 I appium  : AppiumResponse: {"sessionId":"e832547b-a831-4e99-88b0-ebe7478f9c80","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.duckduckgo.mobile.android\" cl…
+03-13 01:41:21.975 12631 12671 I appium  : channel read: GET /session/e832547b-a831-4e99-88b0-ebe7478f9c80/screenshot
+03-13 01:41:21.976 12631 12671 I appium  : CaptureScreenshot command
+03-13 01:41:21.976 12631 12671 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:41:21.976 12631 12671 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:41:22.065 13514 13514 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 01:41:22.065 13514 13514 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 01:41:22.066 13514 13514 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 01:41:22.066  3003  7293 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 01:41:22.066  3003  7293 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 01:41:22.066 13514 13514 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 01:41:22.066 13514 13514 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 01:41:22.068  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_19661#31643(seamlessTransition:0)
+03-13 01:41:22.068  2105  2321 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#31648(seamlessTransition:0)
+03-13 01:41:22.068  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 01:41:22.068  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#31538(seamlessTransition:0)
+03-13 01:41:22.068  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 01:41:22.069  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 01:41:22.069  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 01:41:22.070  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_19661#31643 at index 1
+03-13 01:41:22.070  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#31648 at index 2
+03-13 01:41:22.070  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 01:41:22.070  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#31538 at index 4
+03-13 01:41:22.070  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 01:41:22.108 13514 13519 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 01:41:22.109 13514 13514 W qdgralloc: Failed to load libubwcp.so
+03-13 01:41:22.219  3003  5995 D MotionRecognitionService: inject vibrator info = 0.0
+03-13 01:41:22.220  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 01:41:22.220  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 01:41:22.220  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 01:41:22.272  2007 12100 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 3(3),c:66,b:14,m:13,cl:1,l:3,s:2,l0:432,l1:0,s0:260,s1:0,acl:1,opr:0.61,f(r):97,u(bl):111,if:0,wi:0,si:2,po:121(N:0)
+03-13 01:41:22.305 12631 12671 I appium  : AppiumResponse: {"sessionId":"e832547b-a831-4e99-88b0-ebe7478f9c80","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFTV/z/w18wAM4gg+6LgBrgEIYogLrhlommUW6u5pBIuaW65L/kw9y2NKMvcP2qZmimaueAa4G5SRCAGomwi+zrD/P7wN/fLdQYFZJt8PR8PHjln7lzOJZi593XPeR9JmzZt1CAiIiI…

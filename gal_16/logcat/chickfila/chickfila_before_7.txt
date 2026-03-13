@@ -1,0 +1,50 @@
+--------- beginning of main
+03-12 22:49:57.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773370197
+03-12 22:49:57.515  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 22:49:57.516  2097  2125 D HeatmapThread: !@ batteryLevel : 94  batteryTemperature : 306 
+03-12 22:49:57.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556169
+03-12 22:49:57.516  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556162
+03-12 22:49:57.516  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 22:49:57.516  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556162
+03-12 22:49:57.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 22:49:57.517  2097  2125 E HeatmapThread: !@ CAM is Working
+03-12 22:49:57.568  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-12 22:49:57.581 22725 22753 I appium  : channel read: GET /session/fff2fadf-b052-447e-9361-7542fe11af0d/source
+03-12 22:49:57.582 22725 22753 I appium  : Source command
+03-12 22:49:57.584 22725 22753 I appium  : Waiting up to 10000ms for the device to idle
+03-12 22:49:57.625 22792 22792 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{1621247 VFED..... .F...... 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:96 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 22:49:57.626 22792 22792 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{710c7c7 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:105 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-12 22:49:57.709 22792 22792 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{1621247 VFED..... .F...... 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:96 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 22:49:57.709 22792 22792 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{710c7c7 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:105 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-12 22:49:57.772 22725 22753 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 22:49:57.829 22725 22753 I appium  : AppiumResponse: {"sessionId":"fff2fadf-b052-447e-9361-7542fe11af0d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.chickfila.cfaflagship\" class=…
+03-12 22:49:57.838 22725 22753 I appium  : channel read: GET /session/fff2fadf-b052-447e-9361-7542fe11af0d/screenshot
+03-12 22:49:57.838 22725 22753 I appium  : CaptureScreenshot command
+03-12 22:49:57.839 22725 22753 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 22:49:57.839 22725 22753 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 22:49:57.925 23542 23542 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 22:49:57.925 23542 23542 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 22:49:57.926 23542 23542 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 22:49:57.926  3003  7292 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-12 22:49:57.926  3003  7292 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 22:49:57.926 23542 23542 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 22:49:57.926 23542 23542 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 22:49:57.928  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.chickfila.cfaflagship/com.chickfila.cfaflagship.features.location.view.RestaurantSearchActivity$_22792#17896(seamlessTransition:0)
+03-12 22:49:57.928  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 22:49:57.928  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#17833(seamlessTransition:0)
+03-12 22:49:57.928  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 22:49:57.929  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 22:49:57.930  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 22:49:57.930  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.chickfila.cfaflagship/com.chickfila.cfaflagship.features.location.view.RestaurantSearchActivity$_22792#17896 at index 1
+03-12 22:49:57.930  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 22:49:57.930  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#17833 at index 3
+03-12 22:49:57.930  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 22:49:57.935 22474 22582 I LPAPSH  : handleMessage 100                                                                                   [at com.samsung.euicc.push.SMDSService$SMDSHandler.handleMessage(SMDSService$SMDSHandler.java:136)]
+03-12 22:49:57.938 22474 22474 I LPAPSH  : onDestroy(): Handler (com.samsung.euicc.push.SMDSService$SMDSHandler) {11a18dd}                     [at com.samsung.euicc.push.SMDSService.onDestroy(SMDSService.java:123)]
+03-12 22:49:57.944  2007 22316 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 5(5),c:287,b:27,m:13,cl:15,l:4,s:5,l0:1584,l1:0,s0:483,s1:0,acl:1,opr:0.96,f(r):97,u(bl):111,if:0,wi:0,si:3,po:122(N:0)
+03-12 22:49:57.963 23542 23547 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 22:49:57.965 23542 23542 W qdgralloc: Failed to load libubwcp.so
+03-12 22:49:58.141 22725 22753 I appium  : AppiumResponse: {"sessionId":"fff2fadf-b052-447e-9361-7542fe11af0d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl3j7w+8xM6qSS3iCkUUORIJCg8ipEpeiysruySggLyLq2V110Fxf1hS3v2l1eXZoQ2oKAiAsamoi0gHRCTYOQMCmkTHqmnt8f7JxfhpkJk54h9+e6uDRnnjnnmUkyOec+z/N9BFE…
+03-12 22:49:58.209 22792 22792 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{1621247 VFED..... .F...... 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:96 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 22:49:58.209 22792 22792 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{710c7c7 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:105 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 

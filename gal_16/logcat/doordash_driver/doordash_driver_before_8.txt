@@ -1,0 +1,63 @@
+--------- beginning of main
+03-13 00:48:49.901  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.876,9.165,3.412, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 00:48:49.904 11726 11756 I appium  : channel read: GET /session/85557c61-0ad4-4a60-924b-96cb90cdbe1f/source
+03-13 00:48:49.905 11726 11756 I appium  : Source command
+03-13 00:48:49.907 11726 11756 I appium  : Waiting up to 10000ms for the device to idle
+03-13 00:48:49.939 11798 11798 I cr_A11yState: Enabled accessibility services list updated. []
+03-13 00:48:49.941 11798 11798 I cr_A11yState: Informing listeners of changes.
+03-13 00:48:49.941 11798 11798 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-13 00:48:49.950 11726 11756 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 00:48:49.959 11726 11756 I appium  : AppiumResponse: {"sessionId":"85557c61-0ad4-4a60-924b-96cb90cdbe1f","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.doordash.driverapp\" class=\"a…
+03-13 00:48:49.968 11726 11756 I appium  : channel read: GET /session/85557c61-0ad4-4a60-924b-96cb90cdbe1f/screenshot
+03-13 00:48:49.968 11726 11756 I appium  : CaptureScreenshot command
+03-13 00:48:49.969 11726 11756 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:48:49.969 11726 11756 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:48:49.976 11798 11798 I View    : setRequestedFrameRate frameRate=-4.0, this=com.doordash.android.core.network.view.DDWebView{c95129d VFED..C.. .F...... 0,192-1080,1613 #7f0a125d app:id/oAuthWebView aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 00:48:50.049 11798 11802 I rdash.driverapp: Background young concurrent mark compact GC freed 36MB AllocSpace bytes, 269(8620KB) LOS objects, 61% free, 28MB/73MB, paused 748us,929us total 108.807ms
+03-13 00:48:50.051 11798 11806 D InputTransport: Input channel destroyed: 'ClientS', fd=343
+03-13 00:48:50.053 11798 11806 D InputTransport: Input channel destroyed: 'ClientS', fd=370
+03-13 00:48:50.053 11798 11806 D InputTransport: Input channel destroyed: 'ClientS', fd=399
+03-13 00:48:50.106  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 11581, isSameBssidAndFreq true
+03-13 00:48:50.107  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 00:48:50.107  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 00:48:50.107  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 119
+03-13 00:48:50.107  3003  4030 D InsDataManager: trimBuffers start.
+03-13 00:48:50.107  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 77
+03-13 00:48:50.107  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 24
+03-13 00:48:50.108  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 00:48:50.108  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -59.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -59.0 / 2 / 115 / 13 / 0 || 357184ff5785: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 46010791 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 00:48:50.111 12838 12838 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:48:50.112 12838 12838 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:48:50.112 12838 12838 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+--------- beginning of system
+03-13 00:48:50.110  3003  4047 D SGM:GameManager: identifyGamePackage. com.doordash.driverapp, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 00:48:50.113  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.doordash.driverapp, ret=false
+03-13 00:48:50.113  3003  4598 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 00:48:50.114  3003  4598 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:48:50.114 12838 12838 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:48:50.114 12838 12838 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:48:50.116  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.doordash.driverapp/com.doordash.android.identity.ui.LoginActivity$_11798#27246(seamlessTransition:0)
+03-13 00:48:50.116  2105  2836 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#27253(seamlessTransition:0)
+03-13 00:48:50.116  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:48:50.116  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#27196(seamlessTransition:0)
+03-13 00:48:50.116  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:48:50.117  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:48:50.117  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:48:50.117  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.doordash.driverapp/com.doordash.android.identity.ui.LoginActivity$_11798#27246 at index 1
+03-13 00:48:50.117  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#27253 at index 2
+03-13 00:48:50.118  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 00:48:50.118  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#27196 at index 4
+03-13 00:48:50.118  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 00:48:50.155 12838 12844 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:48:50.156 12838 12838 W qdgralloc: Failed to load libubwcp.so
+03-13 00:48:50.226 11798 11798 I View    : setRequestedFrameRate frameRate=-4.0, this=com.doordash.android.core.network.view.DDWebView{c95129d VFED..C.. .F...... 0,192-1080,1613 #7f0a125d app:id/oAuthWebView aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 00:48:50.457 11726 11756 I appium  : AppiumResponse: {"sessionId":"85557c61-0ad4-4a60-924b-96cb90cdbe1f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eExn/z/w98xkMhJZJJHNErFG7BUNYhc0rYjEvrTWWlMiQT1UKcXTUiJ2Sj21tAi1tShpLY3QVrSChiQIIZKQyL7NZOb3R75zfpnMhETWqffrulzP0zNnztwTMXPO+3zuzy2yt7dXgYi…
+03-13 00:48:50.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773377330
+03-13 00:48:50.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 00:48:50.517  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 361 
+03-13 00:48:50.517  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556288
+03-13 00:48:50.517  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556282
+03-13 00:48:50.518  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 00:48:50.518  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556282
+03-13 00:48:50.519  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 00:48:50.520  2097  2125 E HeatmapThread: !@ CAM is Working

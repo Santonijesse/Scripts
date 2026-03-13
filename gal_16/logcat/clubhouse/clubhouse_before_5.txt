@@ -1,0 +1,99 @@
+--------- beginning of main
+03-12 23:43:07.471 19231 19353 I SLPASVC : APDU StatusWord - 9X XX                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.handleResponse(EuiccLogicalChannel.java:231)]
+03-12 23:43:07.471 19231 19353 I SLPASVC : EuiccLogicalChannel::close(): 101                                                                   [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.close(EuiccLogicalChannel.java:45)]
+03-12 23:43:07.485 19231 19231 I SLPASVC : freeNvm: 614840                                                                                     [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.485 19231 19231 I SLPASVC : freeVm: 19648                                                                                       [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.485 19231 19231 I SLPASVC : firmware[1]: 137.38.0                                                                               [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.488 19231 19231 I SLPASVC : available vm: 19648                                                                                 [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.490 19231 19231 E SLPASVC : available memory: 614840                                                                            [at com.samsung.euicc.lpaService.gsma.phase2.es10.Es10MepBase.getAvailableMemory(Es10MepBase.java:36)]
+03-12 23:43:07.491 19231 19231 I SLPASVC : available memory: 614840                                                                            [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.492 19231 19231 I SLPASVC : update FreeSize(1):614840                                                                           [at com.samsung.euicc.lpaService.LpaService.updateFreeNvMemorySize(LpaService.java:272)]
+03-12 23:43:07.497 19231 19353 I SLPASVC : EuiccLogicalChannel::openBySlot():  physicalSlotIndex = 1, portIndex = 0                            [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.openBySlot(EuiccLogicalChannel.java:251)]
+03-12 23:43:07.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773373387
+03-12 23:43:07.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 23:43:07.517  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 345 
+03-12 23:43:07.518  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556223
+03-12 23:43:07.518  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556222
+03-12 23:43:07.519  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 23:43:07.519  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556222
+03-12 23:43:07.520  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 23:43:07.520  2097  2125 E HeatmapThread: !@ CAM is Working
+03-12 23:43:07.526 19231 19353 I SLPASVC : 0x00000065 was opened                                                                               [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.openBySlot(EuiccLogicalChannel.java:293)]
+03-12 23:43:07.527 19231 19353 I SLPASVC :  cla: 80 ins: E2 Le: 00                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.storeData(EuiccLogicalChannel.java:68)]
+03-12 23:43:07.527 19231 19353 I SLPASVC : [STORE DATA] blockNumber : 0                                                                        [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.storeData(EuiccLogicalChannel.java:78)]
+03-12 23:43:07.527 19231 19353 I SLPASVC : case 4 command APDU                                                                                 [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.getCmdApdu(EuiccLogicalChannel.java:206)]
+03-12 23:43:07.541 19231 19353 I SLPASVC : APDU StatusWord - 9X XX                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.handleResponse(EuiccLogicalChannel.java:231)]
+03-12 23:43:07.542 19231 19353 I SLPASVC : EuiccLogicalChannel::close(): 101                                                                   [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.close(EuiccLogicalChannel.java:45)]
+03-12 23:43:07.552 19231 19231 I SLPASVC : onUnbind                                                                                            [at com.samsung.euicc.lpaService.LpaService.onUnbind(LpaService.java:175)]
+03-12 23:43:07.553 19231 19231 I SLPASVC : no busy worker. stop foreground                                                                     [at com.samsung.euicc.lpaService.LpaServiceHandler.checkStopCondition(LpaServiceHandler.java:115)]
+03-12 23:43:07.553 19231 19231 W SLPASVC : updateFreeNvMemorySize                                                                              [at com.samsung.euicc.lpaService.LpaService.updateFreeNvMemorySize(LpaService.java:261)]
+03-12 23:43:07.554 19231 19231 I SLPASVC : Es10Factory.create(): 1                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.Es10Factory.create(Es10Factory.java:50)]
+03-12 23:43:07.555 19231 19231 I SLPASVC : create MEP A1                                                                                       [at com.samsung.euicc.lpaService.gsma.phase2.es10.Es10Factory.create(Es10Factory.java:53)]
+03-12 23:43:07.558 19231 19353 I SLPASVC : EuiccLogicalChannel::openBySlot():  physicalSlotIndex = 1, portIndex = 0                            [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.openBySlot(EuiccLogicalChannel.java:251)]
+03-12 23:43:07.559 21000 21070 I appium  : channel read: GET /session/c533dd90-3b7c-4f00-bfc3-a9975a0227d1/source
+03-12 23:43:07.560 21000 21070 I appium  : Source command
+03-12 23:43:07.562 21000 21070 I appium  : Waiting up to 10000ms for the device to idle
+03-12 23:43:07.583 19231 19353 I SLPASVC : 0x00000065 was opened                                                                               [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.openBySlot(EuiccLogicalChannel.java:293)]
+03-12 23:43:07.584 19231 19353 I SLPASVC :  cla: 80 ins: E2 Le: 00                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.storeData(EuiccLogicalChannel.java:68)]
+03-12 23:43:07.584 19231 19353 I SLPASVC : [STORE DATA] blockNumber : 0                                                                        [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.storeData(EuiccLogicalChannel.java:78)]
+03-12 23:43:07.584 19231 19353 I SLPASVC : case 4 command APDU                                                                                 [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.getCmdApdu(EuiccLogicalChannel.java:206)]
+03-12 23:43:07.605 21000 21070 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 23:43:07.616 19231 19353 I SLPASVC : APDU StatusWord - 9X XX                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.handleResponse(EuiccLogicalChannel.java:231)]
+03-12 23:43:07.616 19231 19353 I SLPASVC : EuiccLogicalChannel::close(): 101                                                                   [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.close(EuiccLogicalChannel.java:45)]
+03-12 23:43:07.621 21000 21070 I appium  : AppiumResponse: {"sessionId":"c533dd90-3b7c-4f00-bfc3-a9975a0227d1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.clubhouse.app\" class=\"androi…
+03-12 23:43:07.629 19231 19231 I SLPASVC : freeNvm: 614840                                                                                     [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.629 19231 19231 I SLPASVC : freeVm: 19648                                                                                       [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.629 19231 19231 I SLPASVC : firmware[1]: 137.38.0                                                                               [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.631 21000 21070 I appium  : channel read: GET /session/c533dd90-3b7c-4f00-bfc3-a9975a0227d1/screenshot
+03-12 23:43:07.631 21000 21070 I appium  : CaptureScreenshot command
+03-12 23:43:07.631 19231 19231 I SLPASVC : available vm: 19648                                                                                 [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.632 21000 21070 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:43:07.632 21000 21070 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:43:07.633 19231 19231 E SLPASVC : available memory: 614840                                                                            [at com.samsung.euicc.lpaService.gsma.phase2.es10.Es10MepBase.getAvailableMemory(Es10MepBase.java:36)]
+03-12 23:43:07.634 19231 19231 I SLPASVC : available memory: 614840                                                                            [at com.samsung.euicc.util.EuiccSvcLog.sp(EuiccSvcLog.java:108)]
+03-12 23:43:07.635 19231 19231 I SLPASVC : update FreeSize(1):614840                                                                           [at com.samsung.euicc.lpaService.LpaService.updateFreeNvMemorySize(LpaService.java:272)]
+03-12 23:43:07.640 19231 19353 I SLPASVC : EuiccLogicalChannel::openBySlot():  physicalSlotIndex = 1, portIndex = 0                            [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.openBySlot(EuiccLogicalChannel.java:251)]
+03-12 23:43:07.669 19231 19353 I SLPASVC : 0x00000065 was opened                                                                               [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.openBySlot(EuiccLogicalChannel.java:293)]
+03-12 23:43:07.670 19231 19353 I SLPASVC :  cla: 80 ins: E2 Le: 00                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.storeData(EuiccLogicalChannel.java:68)]
+03-12 23:43:07.670 19231 19353 I SLPASVC : [STORE DATA] blockNumber : 0                                                                        [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.storeData(EuiccLogicalChannel.java:78)]
+03-12 23:43:07.670 19231 19353 I SLPASVC : case 4 command APDU                                                                                 [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.getCmdApdu(EuiccLogicalChannel.java:206)]
+03-12 23:43:07.685 19231 19353 I SLPASVC : APDU StatusWord - 9X XX                                                                             [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.handleResponse(EuiccLogicalChannel.java:231)]
+03-12 23:43:07.686 19231 19353 I SLPASVC : EuiccLogicalChannel::close(): 101                                                                   [at com.samsung.euicc.lpaService.gsma.phase2.es10.uicc.EuiccLogicalChannel.close(EuiccLogicalChannel.java:45)]
+03-12 23:43:07.693 19231 19231 I SLPASVC : onDestroy                                                                                           [at com.samsung.euicc.lpaService.LpaService.onDestroy(LpaService.java:209)]
+03-12 23:43:07.694 19231 19231 W SLPASVC : + clear resource                                                                                    [at com.samsung.euicc.lpaService.LpaService.clearResource(LpaService.java:215)]
+03-12 23:43:07.694 19231 19231 W SLPASVC : stop start                                                                                          [at com.samsung.euicc.lpaService.StopHandler.stop(StopHandler.java:18)]
+03-12 23:43:07.695 19231 19231 W SLPASVC : stop end                                                                                            [at com.samsung.euicc.lpaService.StopHandler.stop(StopHandler.java:38)]
+03-12 23:43:07.696 19231 19231 E SLPASVC : initHandlerIfNeed                                                                                   [at com.samsung.euicc.lpaService.bootstrap.VsimNetworkRequester.initHandlerIfNeed(VsimNetworkRequester.java:47)]
+03-12 23:43:07.698 19231 19231 I SLPASVC : Unbind request                                                                                      [at com.samsung.euicc.lpaService.bootstrap.VsimNetworkRequester.unBind(VsimNetworkRequester.java:150)]
+03-12 23:43:07.698 19231 19231 I SLPASVC : bindProcessToNetwork: true                                                                          [at com.samsung.euicc.lpaService.bootstrap.VsimNetworkRequester.unbindVsimNetwork(VsimNetworkRequester.java:156)]
+03-12 23:43:07.699 19231 19231 I SLPASVC : complete to remove network callbacks                                                                [at com.samsung.euicc.lpaService.bootstrap.VsimNetworkRequester.unbindVsimNetwork(VsimNetworkRequester.java:159)]
+03-12 23:43:07.699 19231 19231 I SLPASVC : Unbind request complete                                                                             [at com.samsung.euicc.lpaService.bootstrap.VsimNetworkRequester.unBind(VsimNetworkRequester.java:152)]
+03-12 23:43:07.699 19231 19231 W SLPASVC : - clear resource                                                                                    [at com.samsung.euicc.lpaService.LpaService.clearResource(LpaService.java:243)]
+03-12 23:43:07.701 19231 19231 I Process : Sending signal. PID: 19231 SIG: 9
+03-12 23:43:07.719 21630 21630 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:43:07.719 21630 21630 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:43:07.720 21630 21630 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:43:07.720  3003  6708 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-12 23:43:07.720  3003  6708 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:43:07.720 21630 21630 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:43:07.720 21630 21630 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:43:07.722  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.clubhouse.app/com.clubhouse.android.ui.ClubhouseActivity$_21169#21731(seamlessTransition:0)
+03-12 23:43:07.722  2105  2922 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#21736(seamlessTransition:0)
+03-12 23:43:07.722  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:43:07.722  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#21696(seamlessTransition:0)
+03-12 23:43:07.722  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:43:07.722  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:43:07.722  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:43:07.722  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.clubhouse.app/com.clubhouse.android.ui.ClubhouseActivity$_21169#21731 at index 1
+03-12 23:43:07.722  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#21736 at index 2
+03-12 23:43:07.722  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 23:43:07.722  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#21696 at index 4
+03-12 23:43:07.722  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 23:43:07.731  1938  1938 I Zygote  : Process 19231 exited due to signal 9 (Killed)
+03-12 23:43:07.731  3003  6708 I ActivityManager: Process com.samsung.euicc (pid 19231) has died: fg  SVC (958,2923)
+03-12 23:43:07.732  3003  3085 I libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_19231
+03-12 23:43:07.760 21630 21638 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:43:07.761 21630 21630 W qdgralloc: Failed to load libubwcp.so
+03-12 23:43:07.924 21000 21070 I appium  : AppiumResponse: {"sessionId":"c533dd90-3b7c-4f00-bfc3-a9975a0227d1","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13XJXl/8fx9+EwBQFFhltBce+905aWqZWz0qZZatvdXlZqbvs1zOqbI7Wy1Ia7tFzlSlNUxK2ACohMOeP3B3LiCChL8a7X8/H4Pr5xn/u+z3UOeMb7vq7Px1S1WqhdAAAAAAAABuZS0gM…
+03-12 23:43:08.000  2007 20164 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 0(0),c:2,b:14,m:13,cl:0,l:0,s:0,l0:128,l1:0,s0:74,s1:0,acl:1,opr:0.16,f(r):97,u(bl):111,if:0,wi:0,si:1,po:0(N:0)

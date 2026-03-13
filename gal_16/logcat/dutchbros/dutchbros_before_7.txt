@@ -1,0 +1,54 @@
+--------- beginning of main
+03-13 01:30:40.186 26261 26290 I appium  : channel read: GET /session/1c884a84-b13e-4782-9655-be9844d2c3c8/source
+03-13 01:30:40.189 26261 26290 I appium  : Source command
+03-13 01:30:40.192 26261 26290 I appium  : Waiting up to 10000ms for the device to idle
+03-13 01:30:40.259 26261 26290 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 01:30:40.295 26261 26290 I appium  : AppiumResponse: {"sessionId":"1c884a84-b13e-4782-9655-be9844d2c3c8","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dutchbros.loyalty\" class=\"an…
+03-13 01:30:40.304 26261 26290 I appium  : channel read: GET /session/1c884a84-b13e-4782-9655-be9844d2c3c8/screenshot
+03-13 01:30:40.305 26261 26290 I appium  : CaptureScreenshot command
+03-13 01:30:40.306 26261 26290 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:30:40.306 26261 26290 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:30:40.418 27158 27158 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 01:30:40.418 27158 27158 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 01:30:40.419 27158 27158 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 01:30:40.419  3003  7241 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 01:30:40.419  3003  7241 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 01:30:40.419 27158 27158 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 01:30:40.419 27158 27158 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 01:30:40.424  2105  2836 I SurfaceFlinger: Capture layer list: 	 Background for fdd788e SurfaceView[com.dutchbros.loyalty/com.dutchbros.loyalty.dutch_bros_forge.MainActivity]@0#30618(seamlessTransition:0)
+03-13 01:30:40.424  2105  2836 I SurfaceFlinger: Capture layer list: 	 fdd788e SurfaceView[com.dutchbros.loyalty/com.dutchbros.loyalty.dutch_bros_forge.MainActivity]@0(BLAST)#30617(seamlessTransition:0)
+03-13 01:30:40.424  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.dutchbros.loyalty/com.dutchbros.loyalty.dutch_bros_forge.MainActivity$_26374#30612(seamlessTransition:0)
+03-13 01:30:40.424  2105  2836 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#30635(seamlessTransition:0)
+03-13 01:30:40.424  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 01:30:40.424  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#30577(seamlessTransition:0)
+03-13 01:30:40.424  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 01:30:40.425  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 01:30:40.425  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 01:30:40.425  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer fdd788e SurfaceView[com.dutchbros.loyalty/com.dutchbros.loyalty.dutch_bros_forge.MainActivity]@0(BLAST)#30617 at index 1
+03-13 01:30:40.425  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.dutchbros.loyalty/com.dutchbros.loyalty.dutch_bros_forge.MainActivity$_26374#30612 at index 2
+03-13 01:30:40.425  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#30635 at index 3
+03-13 01:30:40.425  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 01:30:40.425  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#30577 at index 5
+03-13 01:30:40.426  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 01:30:40.504 27158 27163 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 01:30:40.506 27158 27158 W qdgralloc: Failed to load libubwcp.so
+03-13 01:30:40.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773379840
+03-13 01:30:40.514  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 01:30:40.515  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 347 
+03-13 01:30:40.515  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556330
+03-13 01:30:40.516  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556312
+03-13 01:30:40.516  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 01:30:40.516  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556312
+03-13 01:30:40.516  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 01:30:40.516  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 01:30:40.716 26261 26290 I appium  : AppiumResponse: {"sessionId":"1c884a84-b13e-4782-9655-be9844d2c3c8","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFRlvj/wz8xkMmmkl0nvCQQCoQTpXRBDEev6YwkoglfBsu5yd9dd97p7r25RQHRRgQCCsuKi62IDUZAizUBCSIOQQnrvk0ky9fdH7pybycwkgdSBz/v14qWcnJx5hkzOzPmc5/l+RXq…
+03-13 01:30:40.719  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 01:30:40.721  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 01:30:40.736  3003  5506 D ActivityManager: FCA:FCA recordedFileRss = 65996, and changeinRss = 7580
+03-13 01:30:40.737  3003  5506 D FreecessController: FZ : com.einnovation.temu(10350) [24324] reason: Bg [cached:X
+03-13 01:30:40.737  3003  5506 D FreecessHandler: freeze com.einnovation.temu(10350) result : 0
+03-13 01:30:40.737  3003  5506 W LocationManagerService: onFreezeStateChanged, uid[10350]=true
+03-13 01:30:40.738  3003  5506 I PowerManagerService: [PWL] SetWakeLockEnableDisable uid = 10350 , disable= true
+03-13 01:30:40.738  3003  5506 I PowerManagerService: [PWL] can not change uid =  10350
+03-13 01:30:40.792  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist

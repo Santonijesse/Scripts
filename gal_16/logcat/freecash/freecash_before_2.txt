@@ -1,0 +1,142 @@
+--------- beginning of main
+03-13 02:13:18.981 29727 11259 I MediaCodec: setCodecState state(0), called in 6, domain 1, 1
+03-13 02:13:18.982  6380  6380 I SemMediaResourceHelper: onState
+03-13 02:13:18.982  6380  6380 I SemDvfsHyPerManager: acquire hyper - TABaseBoost/6380@29, type = -999
+03-13 02:13:18.983  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20540874  [6380 / 29]    HINT :      list : [TABoost / 1] 
+03-13 02:13:18.984  2053 11264 I QC2Buf  : Reconfig: clearing from 0 bufs. Peak mem=0 MB
+03-13 02:13:18.988 29727 11260 D CCodecConfig: c2 config diff is   c2::u32 output.delay.value = 10
+03-13 02:13:18.988 29727 11260 I CCodecBufferChannel: [c2.qti.avc.decoder#90] updating max output delay 17
+03-13 02:13:18.988 29727 11260 D Codec2-OutputBufferQueue: set max dequeue count 17 from update
+03-13 02:13:19.000  2053 11269 I QC2V4L2PollThread: [v4lavcD_346] KPI_L1: Reconfig: ms=16
+03-13 02:13:19.001  2053 11261 E StandardCaps: max size must equal to/greater than output size
+03-13 02:13:19.003 29727 11260 D CCodecConfig: c2 config diff is   c2::u32 raw.color.matrix = 1
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.color.primaries = 1
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.color.range = 2
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.color.transfer = 3
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.crop.height = 1920
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.crop.left = 0
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.crop.top = 0
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.crop.width = 1080
+03-13 02:13:19.003 29727 11260 D CCodecConfig:   c2::u32 raw.size.width = 1088
+03-13 02:13:19.004 29727 11260 D CCodecBuffers: [c2.qti.avc.decoder#90:2D-Output] popFromStashAndRegister: at 0us, output format changed to AMessage(what = 0x00000000) = {
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t android._color-format = 0
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t android._video-scaling = 1
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t android._dataspace = 260
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t color-standard = 1
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t color-range = 2
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t color-transfer = 3
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t sar-height = 1
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t rotation-degrees = 0
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   Buffer hdr-static-info = {
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:     00000000:  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:     00000010:  00 00 00 00 00 00 00 00  00                       .........
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   }
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t sar-width = 1
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   Rect crop(0, 0, 1079, 1919)
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t width = 1088
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t feature-secure-playback = 0
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t frame-rate = 1
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t height = 1920
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t max-height = 1920
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t max-width = 1080
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   string mime = "video/raw"
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t priority = 4
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t color-format = 2130708361
+03-13 02:13:19.004 29727 11260 D CCodecBuffers:   int32_t p-extraBC = 6
+03-13 02:13:19.004 29727 11260 D CCodecBuffers: }
+03-13 02:13:19.007 29727 11259 I MediaCodec: setCodecState state(1), called in 6, domain 1, 1
+03-13 02:13:19.008  6380  6380 I SemMediaResourceHelper: onState
+03-13 02:13:19.015  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20540874
+03-13 02:13:19.033  2105  2321 I SurfaceFlinger: id=35394 createSurf, flag=44000, com.android.chrome/ChromeChildSurface#35394
+03-13 02:13:19.037  2105  2105 I SurfaceFlinger: [com.android.chrome/ChromeChildSurface#35394] attach to parent LayerHierarchy{RequestedLayerState{com.android.chrome/ChromeNativeWindowSurface#35388 parentId=35386} 2 children}
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger: Display 4630946564756762243 HWC layers:
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger:        DEVICE |          127676492808304 | 00000100 | 0x7fa30c06   |    0.0  149.0  667.0 1771.0 |  843  292 1032  752 | com.android.chrome/ChromeChildSurface#35394 (100)
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger:        DEVICE |          127676492808326 | 00000100 | RGBA_8888    |    0.0    0.0 1080.0 2402.0 |    0   94 1080 2496 | com.android.chrome/ChromeChildSurface#35390 (1009)
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger:        DEVICE |           98208722190367 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0 2640.0 |    0    0 1080 2640 | com.android.chrome/org.chromium.chro[...]mtabs.CustomTabActivity$_22866#35376 (66)
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger:        DEVICE |           18060337498220 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   94.0 |    0    0 1080   94 | StatusBar$_4205#132 (39480)
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger:        DEVICE |           20753281979270 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  357.0 | 1013  511 1080  868 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_4832#35288 (1)
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger:        DEVICE |           18060337498225 | 00002100 | RGBA_8888    |    0.0    0.0 1
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger: 080.0  144.0 |    0 2496 1080 2640 | NavigationBar0$_4205#130 (29954)
+03-13 02:13:19.044  2105  2105 D SurfaceFlinger: 
+03-13 02:13:19.097 10590 10631 I appium  : channel read: GET /session/82289c78-d268-4cea-b6ea-ef7f500bf986/source
+03-13 02:13:19.098 10590 10631 I appium  : Source command
+03-13 02:13:19.098 10590 10631 I appium  : Waiting up to 10000ms for the device to idle
+03-13 02:13:19.154 10671 10671 D LiteLauncherActivity: Requested Post Message Channel: true
+03-13 02:13:19.157 10671 10671 D LiteLauncherActivity: Relationship result: true
+03-13 02:13:19.157 10671 10671 D LiteLauncherActivity: Message channel ready.
+03-13 02:13:19.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773382399
+03-13 02:13:19.513  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 02:13:19.514  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 354 
+03-13 02:13:19.514  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556373
+03-13 02:13:19.514  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556372
+03-13 02:13:19.514  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 02:13:19.514  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556372
+03-13 02:13:19.514  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 02:13:19.514  2097  2125 E HeatmapThread: !@ CAM is Working
+--------- beginning of system
+03-13 02:13:19.530  1171  1171 D io_stats: !@   8,0 r 3135380 101589756 w 3510458 79124040 d 323111 87200744 f 150661 361061 iot 1446476 0 th 0 0 0 pt 0 inp 0 0 51080.214
+03-13 02:13:19.709  3003  3067 W AccessibilityWindowsPopulator: Windows change within in 2 frames continuously over 500 ms and notify windows changed immediately
+03-13 02:13:20.080  2053 11265 W QC2V4l2Decoder: [v4lavcD_346] Allocating output buffer timedout, 1061ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 02:13:20.204  3003  7293 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 02:13:20.213  3003  7293 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 02:13:20.213  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:13:20.213  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:13:20.214  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:13:20.214  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 02:13:20.223 10590 10631 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 02:13:20.230  2053 11265 W QC2V4l2Decoder: [v4lavcD_346] Allocating output buffer timedout, 1211ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 02:13:20.231 10590 10631 I appium  : AppiumResponse: {"sessionId":"82289c78-d268-4cea-b6ea-ef7f500bf986","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.android.chrome\" class=\"andro…
+03-13 02:13:20.238 10590 10631 I appium  : channel read: GET /session/82289c78-d268-4cea-b6ea-ef7f500bf986/screenshot
+03-13 02:13:20.238 10590 10631 I appium  : CaptureScreenshot command
+03-13 02:13:20.239 10590 10631 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:13:20.239 10590 10631 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:13:20.379  2022 10561 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4567772
+03-13 02:13:20.381  2053 11265 W QC2V4l2Decoder: [v4lavcD_346] Allocating output buffer timedout, 1361ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 02:13:20.424 11309 11309 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 02:13:20.424 11309 11309 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 02:13:20.424 11309 11309 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 02:13:20.424  3003  7293 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 02:13:20.424  3003  7293 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 02:13:20.424 11309 11309 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 02:13:20.424 11309 11309 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 02:13:20.426  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.android.chrome/ChromeChildSurface#35394(seamlessTransition:0)
+03-13 02:13:20.426  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.android.chrome/ChromeChildSurface#35390(seamlessTransition:0)
+03-13 02:13:20.426  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity$_22866#35376(seamlessTransition:0)
+03-13 02:13:20.426  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 02:13:20.426  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#35288(seamlessTransition:0)
+03-13 02:13:20.426  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 02:13:20.426  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 02:13:20.427  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 02:13:20.427  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.android.chrome/ChromeChildSurface#35394 at index 1
+03-13 02:13:20.427  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.android.chrome/ChromeChildSurface#35390 at index 2
+03-13 02:13:20.427  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity$_22866#35376 at index 3
+03-13 02:13:20.427  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 02:13:20.427  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#35288 at index 5
+03-13 02:13:20.427  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 02:13:20.482 11309 11328 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 02:13:20.482 11309 11309 W qdgralloc: Failed to load libubwcp.so
+03-13 02:13:20.490  9332  9332 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.appset.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+03-13 02:13:20.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773382400
+03-13 02:13:20.514  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 02:13:20.515  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 354 
+03-13 02:13:20.515  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556373
+03-13 02:13:20.515  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556372
+03-13 02:13:20.515  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 02:13:20.515  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556372
+03-13 02:13:20.515  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 02:13:20.516  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 02:13:20.531  2053 11265 W QC2V4l2Decoder: [v4lavcD_346] Allocating output buffer timedout, 1512ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 02:13:20.671  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 13182, isSameBssidAndFreq true
+03-13 02:13:20.672  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2056 / 33 / 1.03 (416) / 360 / -53.0 || 100.0 : 360.00 / 0.5 : 0.97 / 0.55 : 0.02 / G (G) || 357184ff5785: 0.095 / 83.860 / N || N N / 0 0 / Y 2.0 / Y X 0 / 51081355 0 || Invalid
+03-13 02:13:20.673  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 02:13:20.673  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 02:13:20.673  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 49
+03-13 02:13:20.673  3003  4030 D InsDataManager: trimBuffers start.
+03-13 02:13:20.673  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 85
+03-13 02:13:20.673  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 02:13:20.673  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 02:13:20.673  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -53.0,"latency": 0.09539671554896467,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2056 / 33 / 1.03 (416) / 360 / -53.0 || 100.0 : 360.00 / 0.5 : 0.97 / 0.55 : 0.02 / G (G) || 357184ff5785: 0.095 / 83.860 / N || N N / 0 0 / Y 2.0 / Y X 0 / 51081355 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 02:13:20.674  3003  4047 D SGM:GameManager: identifyGamePackage. com.android.chrome, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 02:13:20.674  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.android.chrome, ret=false
+03-13 02:13:20.819  2007 10203 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 4(4),c:78,b:14,m:13,cl:2,l:4,s:3,l0:560,l1:0,s0:353,s1:0,acl:1,opr:0.23,f(r):97,u(bl):111,if:0,wi:0,si:1,po:124(N:0)
+03-13 02:13:20.829 10590 10631 I appium  : AppiumResponse: {"sessionId":"82289c78-d268-4cea-b6ea-ef7f500bf986","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFNlGwbw+2R1700phRYKLZRV9p7KFFCWONh7iGxRmaKCbGSjnyIqU9kyK8uyZ4EWuoAOugd0N+P7ozQ2TVpauojcv+vyD09O3rwpkJ5z532fR3Cp1lAFIiIiIiIiIiI9JqrsCRARERE…

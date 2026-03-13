@@ -1,0 +1,63 @@
+--------- beginning of main
+03-13 00:59:16.056  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 00:59:16.056  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 00:59:16.058  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 00:59:16.058  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 00:59:16.059  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 00:59:16.059  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 00:59:16.061  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 00:59:16.061  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 00:59:16.065  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 00:59:16.066  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 00:59:16.066  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 00:59:16.066  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 00:59:16.084  8172  8204 I appium  : channel read: GET /session/806a0734-f028-4833-9ac2-0fe633290e6a/source
+03-13 00:59:16.085  8172  8204 I appium  : Source command
+03-13 00:59:16.086  8172  8204 I appium  : Waiting up to 10000ms for the device to idle
+03-13 00:59:16.511  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773377956
+03-13 00:59:16.520  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 00:59:16.520  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 333 
+03-13 00:59:16.521  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556299
+03-13 00:59:16.521  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556282
+03-13 00:59:16.521  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 00:59:16.521  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556282
+03-13 00:59:16.521  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 00:59:16.521  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 00:59:16.601  2007  7664 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 4(4),c:203,b:21,m:13,cl:8,l:4,s:3,l0:1040,l1:0,s0:372,s1:0,acl:1,opr:0.69,f(r):97,u(bl):111,if:0,wi:0,si:1,po:121(N:0)
+--------- beginning of system
+03-13 00:59:16.634  3003  3631 D ActivityManager: FCA:Reclamation for pid: 14116
+03-13 00:59:16.769  8172  8204 I appium  : AppiumResponse: {"sessionId":"806a0734-f028-4833-9ac2-0fe633290e6a","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.dd.doordash\" class=\"android.…
+03-13 00:59:16.778  8172  8204 I appium  : channel read: GET /session/806a0734-f028-4833-9ac2-0fe633290e6a/screenshot
+03-13 00:59:16.778  8172  8204 I appium  : CaptureScreenshot command
+03-13 00:59:16.779  8172  8204 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:59:16.779  8172  8204 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:59:16.896  9691  9691 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:59:16.897  9691  9691 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:59:16.898  9691  9691 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 00:59:16.898  3003  7124 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 00:59:16.898  3003  7124 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:59:16.898  9691  9691 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:59:16.898  9691  9691 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:59:16.913  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_8294#28286(seamlessTransition:0)
+03-13 00:59:16.913  2105  2922 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#28304(seamlessTransition:0)
+03-13 00:59:16.913  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:59:16.913  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28217(seamlessTransition:0)
+03-13 00:59:16.913  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:59:16.914  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:59:16.914  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:59:16.915  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.dd.doordash/com.doordash.consumer.ui.address.AddressActivity$_8294#28286 at index 1
+03-13 00:59:16.915  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#28304 at index 2
+03-13 00:59:16.915  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 00:59:16.915  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#28217 at index 4
+03-13 00:59:16.915  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 00:59:16.981  9691  9697 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:59:16.984  9691  9691 W qdgralloc: Failed to load libubwcp.so
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: [                 contacts = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(7)=0, mobileservice(8)=0, com.opera.browser.ping(11)=0, duo(13)=0, com.nike.authcomponent.v1(14)=0, com.adidas.mobile.sso.adidas.app(15)=0, com.tiktok.lite.go(16)=0, www.instagram.com(17)=0, www.instagram.barcelona(18)=0, com.facebook.auth.login(19)=0, com.facebook.auth.login(20)=0}, trash=0, trash_acc={}, trash_sync=0, database=contacts2.db} ]
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: [               aggregated = {} ]
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: [                  request = {} ]
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: [                    calls = {types={[100]=4}, database=calllog.db} ]
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: [                  profile = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(7)=0, mobileservice(8)=0, com.opera.browser.ping(11)=0, duo(13)=0, com.nike.authcomponent.v1(14)=0, com.adidas.mobile.sso.adidas.app(15)=0, com.tiktok.lite.go(16)=0, www.instagram.com(17)=0, www.instagram.barcelona(18)=0, com.facebook.auth.login(19)=0, com.facebook.auth.login(20)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile.db} ]
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: [               sa_profile = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(7)=0, mobileservice(8)=0, com.opera.browser.ping(11)=0, duo(13)=0, com.nike.authcomponent.v1(14)=0, com.adidas.mobile.sso.adidas.app(15)=0, com.tiktok.lite.go(16)=0, www.instagram.com(17)=0, www.instagram.barcelona(18)=0, com.facebook.auth.login(19)=0, com.facebook.auth.login(20)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile_sa.db} ]
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: [                      etc = {binders=0, country_iso=US, version=15.6.28, db_version=2000, db_size=0, db_wal_size=1, csc=XAA/XAA, sec_enabled=false, is_roaming=false} ]
+03-13 00:59:17.141 21003 21031 V CpEventLog(u0): [P] cp_state: ------------------------------------------------------------------------------
+03-13 00:59:17.199  8172  8204 I appium  : AppiumResponse: {"sessionId":"806a0734-f028-4833-9ac2-0fe633290e6a","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFRl3j7+a2rKJJlU0kmDhJKEAAkdpAkozb66rhAbru3RVdlVd92HdZ9dd1cE+6IICMqKBcUFCQIi1VACIaSRhARSmPSeTJJp5/dHfnO+mcwkBNIYuN6vF69dz5w53BMyM+dc53N/bok…

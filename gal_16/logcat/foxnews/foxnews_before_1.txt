@@ -1,0 +1,152 @@
+--------- beginning of main
+03-13 02:03:39.328 27436 27482 E Datadog : [_dd.sdk_core.default]: Batch 74c84aaa-ccf0-40f4-ac0a-617634d9299d [1910 bytes] (Logs Request) failed because your token is invalid; the batch was dropped. Make sure that the provided token still exists and you're targeting the relevant Datadog site.
+03-13 02:03:39.332 27530 27692 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-13 02:03:39.332 27530 27692 E chromium: [ERROR:cc/tiles/tile_manager.cc:998] WARNING: tile memory limits exceeded, some content may not draw
+03-13 02:03:39.336 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:39.353 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:39.359 27436 27658 I AdrenoVK-0: Failed to link shaders.
+03-13 02:03:39.359 27436 27658 I AdrenoVK-0: Pipeline create failed
+03-13 02:03:39.379 27436 27658 I AdrenoVK-0: Shader compilation failed for shaderType: 4
+03-13 02:03:39.379 27436 27658 I AdrenoVK-0: Pipeline create failed
+03-13 02:03:39.391  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 41ms
+03-13 02:03:39.395  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 41ms
+03-13 02:03:39.400 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:39.400 27336 27378 I appium  : channel read: GET /session/7e7548f7-26da-433b-b56c-61bf6fc53dcd/source
+03-13 02:03:39.400 27336 27378 I appium  : Source command
+03-13 02:03:39.401 27336 27378 I appium  : Waiting up to 10000ms for the device to idle
+03-13 02:03:39.402  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 02:03:39.410  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 02:03:39.415  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 57ms
+03-13 02:03:39.420 27436 27436 I cr_A11yState: Enabled accessibility services list updated. []
+03-13 02:03:39.420 27436 27436 I cr_A11yState: Informing listeners of changes.
+03-13 02:03:39.421 27436 27436 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-13 02:03:39.435 27336 27378 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 02:03:39.436  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 77ms
+03-13 02:03:39.451 27336 27378 I appium  : AppiumResponse: {"sessionId":"7e7548f7-26da-433b-b56c-61bf6fc53dcd","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.foxnews.android\" class=\"andr…
+03-13 02:03:39.462 27336 27378 I appium  : channel read: GET /session/7e7548f7-26da-433b-b56c-61bf6fc53dcd/screenshot
+03-13 02:03:39.462 27336 27378 I appium  : CaptureScreenshot command
+03-13 02:03:39.464 27336 27378 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:03:39.464 27336 27378 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 02:03:39.492  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 138ms
+03-13 02:03:39.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773381819
+03-13 02:03:39.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 02:03:39.517  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 376 
+03-13 02:03:39.518  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556363
+03-13 02:03:39.518  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556342
+03-13 02:03:39.518  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 02:03:39.518  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556342
+03-13 02:03:39.519  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 02:03:39.520  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 02:03:39.544 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:39.549 27436 27658 I AdrenoVK-0: Shader compilation failed for shaderType: 0
+03-13 02:03:39.549 27436 27658 I AdrenoVK-0: Pipeline create failed
+03-13 02:03:39.604 29250 29250 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 02:03:39.604 29250 29250 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 02:03:39.605 29250 29250 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 02:03:39.605  3003  3804 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 02:03:39.605  3003  3804 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 02:03:39.605 29250 29250 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 02:03:39.605 29250 29250 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 02:03:39.610  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 49ms
+03-13 02:03:39.612  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.foxnews.android/com.foxnews.android.corenav.StartActivity$_27436#34370(seamlessTransition:0)
+03-13 02:03:39.612  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 02:03:39.612  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#34294(seamlessTransition:0)
+03-13 02:03:39.612  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 02:03:39.613  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 02:03:39.613  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 02:03:39.613  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.foxnews.android/com.foxnews.android.corenav.StartActivity$_27436#34370 at index 1
+03-13 02:03:39.613  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 02:03:39.613  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#34294 at index 3
+03-13 02:03:39.613  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 02:03:39.617  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 43ms
+03-13 02:03:39.652 29250 29265 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 02:03:39.653 29250 29250 W qdgralloc: Failed to load libubwcp.so
+03-13 02:03:39.661 27436 27436 I View    : setRequestedFrameRate frameRate=10.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:39.741  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 13000, isSameBssidAndFreq true
+03-13 02:03:39.742  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2183 / 322 / 1.10 (1199) / 324 / -55.0 || 100.0 : 324.00 / 0.5 : 0.91 / 0.55 : 0.15 / G (G) || 357184ff5785: 0.109 / 73.294 / N || N N / 0 0 / Y 2.0 / Y X 0 / 50500426 0 || Invalid
+03-13 02:03:39.742  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 02:03:39.743  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 02:03:39.743  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 119
+03-13 02:03:39.743  3003  4030 D InsDataManager: trimBuffers start.
+03-13 02:03:39.743  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 77
+03-13 02:03:39.743  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 02:03:39.743  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 02:03:39.744  3003  4047 D SGM:GameManager: identifyGamePackage. com.foxnews.android, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 02:03:39.744  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -55.0,"latency": 0.10914917640190791,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2183 / 322 / 1.10 (1199) / 324 / -55.0 || 100.0 : 324.00 / 0.5 : 0.91 / 0.55 : 0.15 / G (G) || 357184ff5785: 0.109 / 73.294 / N || N N / 0 0 / Y 2.0 / Y X 0 / 50500426 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 02:03:39.744  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.foxnews.android, ret=false
+03-13 02:03:39.769  2007 23377 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 2(2),c:78,b:17,m:13,cl:2,l:2,s:1,l0:416,l1:0,s0:167,s1:0,acl:1,opr:0.65,f(r):97,u(bl):111,if:0,wi:0,si:1,po:0(N:0)
+03-13 02:03:39.771  3003  3097 D BatteryExternalStatsWorker: update stats : procstate-change (10)
+03-13 02:03:39.771  3003  3097 D BatteryExternalStatsWorker: Fetch WiFi data
+03-13 02:03:39.771  3003  3097 D BatteryExternalStatsWorker: Update Rail Energy data
+03-13 02:03:39.775  3003  3097 D BatteryExternalStatsWorker: mStats lock released
+03-13 02:03:39.778 27436 27436 I View    : setRequestedFrameRate frameRate=10.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:39.785  3003  3097 D BatteryExternalStatsWorker: Update wifi state
+03-13 02:03:39.785  3003  3097 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: Cannot acquire BluetoothActivityEnergyInfo
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: java.lang.RuntimeException: error: 11
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:372)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectStats(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:202)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.PowerStatsCollector$$ExternalSyntheticLambda0.run(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:3)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.os.Handler.handleCallback(Handler.java:995)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.os.Looper.loop(Looper.java:363)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: error: 11
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:12)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onBluetoothActivityEnergyInfoAvailable$0(BluetoothAdapter.java:1226)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.lambda$executeFromBinder$0(BluetoothUtils.java:343)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at com.android.server.SystemServerInitThreadPool$$ExternalSyntheticLambda0.execute(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:1)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.executeFromBinder(BluetoothUtils.java:343)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onBluetoothActivityEnergyInfoAvailable(BluetoothAdapter.java:1224)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.bluetooth.IBluetoothActivityEnergyInfoListener$Stub.onTransact(IBluetoothActivityEnergyInfoListener.java:98)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.os.Binder.execTransactInternal(Binder.java:1462)
+03-13 02:03:39.789  3003  3097 E BluetoothPowerStatsCollector: 	at android.os.Binder.execTransact(Binder.java:1401)
+03-13 02:03:39.792  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 2ms
+03-13 02:03:39.836 27436 27436 I View    : setRequestedFrameRate frameRate=10.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:39.843  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 40ms
+03-13 02:03:39.857  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 54ms
+03-13 02:03:39.871  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 44ms
+03-13 02:03:39.935  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 34ms
+03-13 02:03:39.937  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 53ms
+03-13 02:03:40.027 27436 27436 I View    : setRequestedFrameRate frameRate=10.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.030  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 1ms
+03-13 02:03:40.063  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 1ms
+03-13 02:03:40.077 27436 27436 I View    : setRequestedFrameRate frameRate=10.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.095  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 2ms
+03-13 02:03:40.102 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.134  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 62ms
+03-13 02:03:40.136  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 64ms
+03-13 02:03:40.168 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.178 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.202 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.205  2059  2086 E BatteryDump: !@new_battery_dump : 4351,-158,475,550,99,376,329,418,331,0,391,416,331,Full,NO_CHARGING,Additional,Good,USB,1,Normal,0,0,11399,0x0,0x10000,0x0,0,0,0000,0000,00000000,4351,4317,2,-160,10,0,976,977,0,
+03-13 02:03:40.206  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-13 02:03:40.207  2059  2059 I sehhealth-service: updateLrpSysfs: write: 394
+03-13 02:03:40.210  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 35ms
+03-13 02:03:40.219 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.227 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.243 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.257  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), SUCCESS, 47ms
+03-13 02:03:40.268 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.293 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.335 27436 27436 I View    : setRequestedFrameRate frameRate=10.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.351 27436 27436 I View    : setRequestedFrameRate frameRate=-4.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.368 27336 27378 I appium  : AppiumResponse: {"sessionId":"7e7548f7-26da-433b-b56c-61bf6fc53dcd","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbwOwkh7CF7iiKiuPcWJ+5ZV9W6R/0cdbe1Vq1Vq3XUVfceddW9xT1wbwURURRk7w0JyfcHJSUmCCrD1Pt3XVwtJyeHNwjhnPu87/MIxNaVFSAiIiIiIiIi0mLCkh4AERERERE…
+03-13 02:03:40.385 27436 27436 I View    : setRequestedFrameRate frameRate=10.0, this=android.webkit.WebView{4935cae VFEDHVC.. ........ 0,168-1080,2402 #7f0a02fc app:id/fragment_webview}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 02:03:40.478  1992 15104 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 02:03:40.479  1992 15104 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 02:03:40.479  1992 15104 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 02:03:40.480  1992 15104 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 02:03:40.480  1992 15104 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-13 02:03:40.481  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-13 02:03:40.482  1992 15104 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 02:03:40.482  1992 15104 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 02:03:40.482  1992 15104 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 02:03:40.482  1992 15104 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 02:03:40.482  1992 15104 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-13 02:03:40.482  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0

@@ -1,0 +1,88 @@
+--------- beginning of main
+03-12 21:39:27.838  2007 12957 I sensors-hal: handle_sns_client_event:375, [0][2268] accel_sample [ 1.874,  7.372,  6.808] 193168395683419
+03-12 21:39:27.978 12021 12082 I appium  : channel read: GET /session/e36e7f0e-c218-4123-a94a-e2049f50fcb0/source
+03-12 21:39:27.980 12021 12082 I appium  : Source command
+03-12 21:39:27.981 12021 12082 I appium  : Waiting up to 10000ms for the device to idle
+03-12 21:39:28.009 12215 12215 I cr_A11yState: Enabled accessibility services list updated. []
+03-12 21:39:28.010 12215 12215 I cr_A11yState: Informing listeners of changes.
+03-12 21:39:28.011 12215 12215 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+--------- beginning of system
+03-12 21:39:28.100  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 42:11:0:1108607:3398400:672000:850175:2572800:499200:231:231:231
+03-12 21:39:28.379 12021 12082 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 21:39:28.474 12021 12082 I appium  : AppiumResponse: {"sessionId":"e36e7f0e-c218-4123-a94a-e2049f50fcb0","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.buffalowildwings.blazinrewards…
+03-12 21:39:28.489 12021 12082 I appium  : channel read: GET /session/e36e7f0e-c218-4123-a94a-e2049f50fcb0/screenshot
+03-12 21:39:28.489 12021 12082 I appium  : CaptureScreenshot command
+03-12 21:39:28.491 12021 12082 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:39:28.491 12021 12082 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:39:28.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773365968
+03-12 21:39:28.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:39:28.516  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 313 
+03-12 21:39:28.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556099
+03-12 21:39:28.516  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556072
+03-12 21:39:28.516  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 21:39:28.517  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:39:28.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 21:39:28.576  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.576  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.583  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 51
+03-12 21:39:28.583  3003  5506 D FreecessHandler: stop trying to freeze com.sec.android.gallery3d
+03-12 21:39:28.583  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.583  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.586 13131 13131 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 21:39:28.586 13131 13131 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 21:39:28.587 13131 13131 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 21:39:28.587  3003  3804 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 21:39:28.587  3003  3804 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 21:39:28.587 13131 13131 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 21:39:28.587 13131 13131 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 21:39:28.588  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.buffalowildwings.blazinrewards/com.idpwhitelabel.MainActivity$_12215#13219(seamlessTransition:0)
+03-12 21:39:28.588  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 21:39:28.588  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#13185(seamlessTransition:0)
+03-12 21:39:28.588  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 21:39:28.588  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 21:39:28.588  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 21:39:28.588  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.buffalowildwings.blazinrewards/com.idpwhitelabel.MainActivity$_12215#13219 at index 1
+03-12 21:39:28.588  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 21:39:28.588  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#13185 at index 3
+03-12 21:39:28.588  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 21:39:28.589  3003  5506 D FreecessHandler: freeze com.whatsapp(10219) result : 51
+03-12 21:39:28.589  3003  5506 D FreecessHandler: stop trying to freeze com.whatsapp
+03-12 21:39:28.589  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.589  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.595  3003  5506 D FreecessHandler: freeze com.whatnot_mobile(10235) result : 51
+03-12 21:39:28.595  3003  5506 D FreecessHandler: stop trying to freeze com.whatnot_mobile
+03-12 21:39:28.595  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.595  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.599  3003  5506 D FreecessHandler: freeze com.google.android.apps.tachyon(10268) result : 51
+03-12 21:39:28.599  3003  5506 D FreecessHandler: stop trying to freeze com.google.android.apps.tachyon
+03-12 21:39:28.599  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.599  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.602  3003  5506 D FreecessHandler: freeze com.google.android.gm(10275) result : 51
+03-12 21:39:28.602  3003  5506 D FreecessHandler: stop trying to freeze com.google.android.gm
+03-12 21:39:28.603  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.603  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.606  3003  5506 D FreecessHandler: freeze com.google.android.apps.photos(10331) result : 51
+03-12 21:39:28.606  3003  5506 D FreecessHandler: stop trying to freeze com.google.android.apps.photos
+03-12 21:39:28.606  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.606  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.609  3003  5506 D FreecessHandler: freeze com.einnovation.temu(10350) result : 51
+03-12 21:39:28.609  3003  5506 D FreecessHandler: stop trying to freeze com.einnovation.temu
+03-12 21:39:28.610  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.610  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.612  3003  5506 D FreecessHandler: freeze com.nike.omega(10354) result : 51
+03-12 21:39:28.613  3003  5506 D FreecessHandler: stop trying to freeze com.nike.omega
+03-12 21:39:28.613  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.613  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.614 13131 13136 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 21:39:28.615 13131 13131 W qdgralloc: Failed to load libubwcp.so
+03-12 21:39:28.616  3003  5506 D FreecessHandler: freeze com.newleaf.app.android.victor(10437) result : 51
+03-12 21:39:28.616  3003  5506 D FreecessHandler: stop trying to freeze com.newleaf.app.android.victor
+03-12 21:39:28.616  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.616  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.618  3003  5506 D FreecessHandler: freeze com.peacocktv.peacockandroid(10439) result : 51
+03-12 21:39:28.619  3003  5506 D FreecessHandler: stop trying to freeze com.peacocktv.peacockandroid
+03-12 21:39:28.619  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-12 21:39:28.619  5490 20304 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-12 21:39:28.621  3003  5506 D FreecessHandler: freeze com.microsoft.copilot(10455) result : 51
+03-12 21:39:28.621  3003  5506 D FreecessHandler: stop trying to freeze com.microsoft.copilot
+03-12 21:39:28.822 12021 12082 I appium  : AppiumResponse: {"sessionId":"e36e7f0e-c218-4123-a94a-e2049f50fcb0","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbw+2QR9gob2RsFFSeOurfVVltt3XvUal2te+D4tNba1rpXtbu21i1uwFUVEXEyZSN7BwIZ3x+UlJgECENEn9919brKycnhPQFDzn2e93mZDj4tZSCEEEIIIYQQQghpxlhNPQB…

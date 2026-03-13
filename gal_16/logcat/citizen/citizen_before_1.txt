@@ -1,0 +1,76 @@
+--------- beginning of main
+03-12 23:19:52.761  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 9904, isSameBssidAndFreq true
+03-12 23:19:52.764  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-12 23:19:52.764  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-12 23:19:52.765  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-12 23:19:52.765  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 81
+03-12 23:19:52.765  3003  4030 D InsDataManager: trimBuffers start.
+03-12 23:19:52.765  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 78
+03-12 23:19:52.766  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-12 23:19:52.767  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-12 23:19:52.767  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -61.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -61.0 / 2 / 138 / 2 / 0 || 357184ff5785: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 40673447 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+--------- beginning of system
+03-12 23:19:52.767  3003  4047 D SGM:GameManager: identifyGamePackage. sp0n.citizen, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-12 23:19:52.768  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=sp0n.citizen, ret=false
+03-12 23:19:52.769  3003  4047 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:2167 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager.iwh_predict_action:8 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager.-$$Nest$miwh_predict_action:1 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager$IntelligentConnectionManagerHandler.handleMessage:762 android.os.Handler.dispatchMessage:110 
+03-12 23:19:52.771  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 23:19:52.796  3770  3816 I appium  : channel read: GET /session/c7bf9a7e-1a07-4042-aaab-f6c9d6c008bc/source
+03-12 23:19:52.797  3770  3816 I appium  : Source command
+03-12 23:19:52.798  3770  3816 I appium  : Waiting up to 10000ms for the device to idle
+03-12 23:19:52.804  1938  1938 D Zygote  : Forked child process 5061
+03-12 23:19:52.804  3003  3084 I ActivityManager: Start proc 5061:com.samsung.android.wifi.intelligence:iwhInfService/1000 for service {com.samsung.android.wifi.intelligence/com.samsung.android.wifi.intelligence.iwh.IwhInfService}
+03-12 23:19:52.804  3003  3084 I ActivityManager: ProcessObserver broadcast disabled
+03-12 23:19:52.823  3862  3862 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.f{6df51d2 VFED..... .F...... 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:112 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 23:19:52.823  3862  3862 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{8fc7975 V.ED..... ........ 0,0-0,0}, caller=p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:121 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-12 23:19:52.832  5061  5061 I e:iwhInfService: Using CollectorTypeCMC GC.
+03-12 23:19:52.855  3770  3816 I appium  : AppiumResponse: {"sessionId":"c7bf9a7e-1a07-4042-aaab-f6c9d6c008bc","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"sp0n.citizen\" class=\"android.wid…
+03-12 23:19:52.863  3770  3816 I appium  : channel read: GET /session/c7bf9a7e-1a07-4042-aaab-f6c9d6c008bc/screenshot
+03-12 23:19:52.863  3770  3816 I appium  : CaptureScreenshot command
+03-12 23:19:52.864  3770  3816 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:19:52.864  3770  3816 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 23:19:52.869  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 23:19:52.874  5061  5084 I org.tensorflow.lite.h: Loaded native library: tensorflowlite_jni
+03-12 23:19:52.876  5061  5084 I org.tensorflow.lite.h: Didn't load native library: tensorflowlite_jni_gms_client
+03-12 23:19:52.876  5061  5084 I tflite  : Initialized TensorFlow Lite runtime.
+03-12 23:19:52.910  5061  5084 I tflite  : Created TensorFlow Lite delegate for select TF ops.
+03-12 23:19:52.912  5061  5084 I tflite  : TfLiteFlexDelegate delegate: 0 nodes delegated out of 20 nodes with 0 partitions.
+03-12 23:19:52.912  5061  5084 I tflite  : Replacing 12 node(s) with delegate (TfLiteFlexDelegate) node, yielding 3 partitions.
+03-12 23:19:52.921  5061  5084 I tflite  : Replacing 2 node(s) with delegate (TfLiteFlexDelegate) node, yielding 2 partitions.
+03-12 23:19:52.921  5061  5084 I tflite  : Replacing 6 node(s) with delegate (TfLiteFlexDelegate) node, yielding 7 partitions.
+03-12 23:19:52.922  5061  5084 I tflite  : Replacing 2 node(s) with delegate (TfLiteFlexDelegate) node, yielding 5 partitions.
+03-12 23:19:52.923  5061  5084 W libc    : Access denied finding property "ro.mediatek.platform"
+03-12 23:19:52.926  5061  5084 I tflite  : Created TensorFlow Lite XNNPACK delegate for CPU.
+03-12 23:19:52.930  5061  5084 I IwhInfService: IWH model: GmIhyTA2Yj / 0 /  T  | 169 / 2 / 1
+03-12 23:19:52.931  5061  5084 I IwhInfService: Inferenced state & reuslt : [0.586, 0.5] | false
+03-12 23:19:52.934  3003  4047 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.stopService:2080 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager$IntelligentConnectionManagerHandler.handleMessage:247 android.os.Handler.dispatchMessage:110 android.os.Looper.loopOnce:273 android.os.Looper.loop:363 
+03-12 23:19:52.934  3003  4047 I Process : Sending signal. PID: 5061 SIG: 9
+03-12 23:19:52.934  3003  4047 I SemWifiIntelligentConnectionManager: HQ: GmIhyTA2Yj / 84:ff / 5785 / -61 / 360 / 586 | 95 / 148 / 9 / NR / F / F / F / 1 / 63 | 0 / 0 (-75.0) ---> S / S / 0
+03-12 23:19:52.936  5089  5089 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 23:19:52.936  5089  5089 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 23:19:52.937  5089  5089 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 23:19:52.937  3003  4333 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 23:19:52.937  3003  4333 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 23:19:52.937  5089  5089 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 23:19:52.937  5089  5089 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 23:19:52.938  2105  2921 I SurfaceFlinger: Capture layer list: 	 sp0n.citizen/sp0n.citizen.onboarding.modules.auth.AuthActivity$_3862#19624(seamlessTransition:0)
+03-12 23:19:52.938  2105  2921 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#19631(seamlessTransition:0)
+03-12 23:19:52.938  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 23:19:52.938  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19529(seamlessTransition:0)
+03-12 23:19:52.938  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 23:19:52.938  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 23:19:52.939  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 23:19:52.939  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer sp0n.citizen/sp0n.citizen.onboarding.modules.auth.AuthActivity$_3862#19624 at index 1
+03-12 23:19:52.939  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#19631 at index 2
+03-12 23:19:52.940  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-12 23:19:52.940  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#19529 at index 4
+03-12 23:19:52.940  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-12 23:19:52.953  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 5:0:0:743423:2630400:672000:675072:1920000:499200:231:231:231
+03-12 23:19:52.953  1938  1938 I Zygote  : Process 5061 exited due to signal 9 (Killed)
+03-12 23:19:52.953  3003  4333 I ActivityManager: Process com.samsung.android.wifi.intelligence:iwhInfService (pid 5061) has died: cch+5 CEM (463,3325)
+03-12 23:19:52.954  3003  3085 I libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_5061
+03-12 23:19:52.969  5089  5100 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 23:19:52.971  5089  5089 W qdgralloc: Failed to load libubwcp.so
+03-12 23:19:53.048  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.234,0.033,9.868, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-12 23:19:53.108  3862  3862 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.f{6df51d2 VFED..... .F...... 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:112 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-12 23:19:53.108  3862  3862 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{8fc7975 V.ED..... ........ 0,0-0,0}, caller=p4.e1.a:1 androidx.compose.ui.platform.f.dispatchDraw:121 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-12 23:19:53.178  3770  3816 I appium  : AppiumResponse: {"sessionId":"c7bf9a7e-1a07-4042-aaab-f6c9d6c008bc","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fEx3////52RPiMSSRUIaSy1RYqut1E5RF0WtVbW29Opy1a6lrerVhSptv1UuxFZ77dRaS1qx1L4EpYglYhfZJ5n5/eGX+RgJEkKcetxvt9xunDlz5j2TZeY8z/v1epscHR2tAgAAAAA…

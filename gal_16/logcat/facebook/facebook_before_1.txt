@@ -1,0 +1,93 @@
+--------- beginning of main
+03-13 01:53:39.298  2007 26780 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 208419858296614 ns; value = [3, 3, 219, 218, 3, 14, 7, 0, 896, 2, 0]
+03-13 01:53:39.305  2007 26746 I sensors-hal: handle_sns_client_event:375, [0][6350] accel_sample [-0.379,  7.496,  6.371] 208419811577760
+03-13 01:53:39.322  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10439(com.peacocktv.peacockandroid), SUCCESS, 30ms
+03-13 01:53:39.322  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10439(com.peacocktv.peacockandroid), SUCCESS, 31ms
+--------- beginning of system
+03-13 01:53:39.335  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:53:39.335  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:53:39.335  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:53:39.336  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:53:39.348 16161 14999 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 01:53:39.406  3109  3209 I appium  : channel read: GET /session/1a6f9c6f-c936-4514-97e3-c2d955be4469/source
+03-13 01:53:39.408  3109  3209 I appium  : Source command
+03-13 01:53:39.409  3109  3209 I appium  : Waiting up to 10000ms for the device to idle
+03-13 01:53:39.507  3109  3209 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 01:53:39.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773381219
+03-13 01:53:39.513  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 01:53:39.513  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 345 
+03-13 01:53:39.513  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556353
+03-13 01:53:39.513  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556342
+03-13 01:53:39.513  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 01:53:39.513  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556342
+03-13 01:53:39.513  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 01:53:39.513  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 01:53:39.530  2186  2293 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f03b6788-2bea-4056-8119-8fce0e2f3db0, tags={ com.peacocktv.configuration.worker.UpdateConfigurationWorker } ]
+03-13 01:53:39.534  2186  2186 D WM-Processor: s f03b6788-2bea-4056-8119-8fce0e2f3db0 executed; reschedule = false
+03-13 01:53:39.534  2186  2186 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=f03b6788-2bea-4056-8119-8fce0e2f3db0, generation=0)
+03-13 01:53:39.534  2186  2186 D WM-SystemJobService: f03b6788-2bea-4056-8119-8fce0e2f3db0 executed on JobScheduler
+03-13 01:53:39.534  2186  2293 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f8c0fa0f-fab1-46ad-8156-7f72dd1e66e6, tags={ com.peacocktv.configuration.worker.UpdateConfigurationWorker } ]
+03-13 01:53:39.537  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:53:39.537  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:53:39.538  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:53:39.538  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:53:39.539  2186  2186 D WM-Processor: s f8c0fa0f-fab1-46ad-8156-7f72dd1e66e6 executed; reschedule = false
+03-13 01:53:39.540  2186  2186 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=f8c0fa0f-fab1-46ad-8156-7f72dd1e66e6, generation=0)
+03-13 01:53:39.540  2186  2186 D WM-SystemJobService: f8c0fa0f-fab1-46ad-8156-7f72dd1e66e6 executed on JobScheduler
+03-13 01:53:39.541  2186  2329 D WM-GreedyScheduler: Cancelling work ID f03b6788-2bea-4056-8119-8fce0e2f3db0
+03-13 01:53:39.543  3003  4771 I ActivityManager: Changes in 10439 8 to 10, 128 to 0
+03-13 01:53:39.546  2186  2267 I .peacockandroid: Waiting for a blocking GC ProfileSaver
+03-13 01:53:39.551  2186  2329 D WM-SystemJobScheduler: Scheduling work ID f03b6788-2bea-4056-8119-8fce0e2f3db0Job ID 45
+03-13 01:53:39.552  2186  2329 D WM-SystemJobScheduler: Scheduling work ID f8c0fa0f-fab1-46ad-8156-7f72dd1e66e6Job ID 46
+03-13 01:53:39.561  2186  2329 D WM-GreedyScheduler: Cancelling work ID f8c0fa0f-fab1-46ad-8156-7f72dd1e66e6
+03-13 01:53:39.562  2186  2329 D WM-NetworkStateTracker: Unregistering network callback
+03-13 01:53:39.563  2186  2329 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5579)] [q8.j.i(SourceFile:20)] [q8.h.f(SourceFile:25)] [androidx.work.impl.constraints.controllers.b$a.j(SourceFile:5)] [androidx.work.impl.constraints.controllers.b$a.b(SourceFile:1)] [androidx.work.impl.constraints.controllers.a.invoke(SourceFile:1)] [kotlinx.coroutines.channels.t.b(SourceFile:124)] [kotlinx.coroutines.channels.t$a.invokeSuspend(Unknown Source:10)] [kotlin.coroutines.jvm.internal.a.resumeWith(SourceFile:12)] [kotlinx.coroutines.e1.run(SourceFile:115)] [androidx.work.impl.utils.y$a.run(SourceFile:3)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-13 01:53:39.564  3003  3941 D ConnectivityService:  Removing from current network [110 WIFI], leaving 289 requests.
+03-13 01:53:39.565  3305  3305 W fb4a.AppComponentFactory: Instantiating Service
+03-13 01:53:39.588  3109  3209 I appium  : AppiumResponse: {"sessionId":"1a6f9c6f-c936-4514-97e3-c2d955be4469","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.facebook.katana\" class=\"andr…
+03-13 01:53:39.600  3109  3209 I appium  : channel read: GET /session/1a6f9c6f-c936-4514-97e3-c2d955be4469/screenshot
+03-13 01:53:39.601  3109  3209 I appium  : CaptureScreenshot command
+03-13 01:53:39.601  3109  3209 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:53:39.602  3109  3209 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:53:39.608  2186  2200 W .peacockandroid: Reducing the number of considered missed Gc histogram windows from 1781 to 100
+03-13 01:53:39.608  2186  2267 I .peacockandroid: WaitForGcToComplete blocked ProfileSaver on Background for 62.375ms
+03-13 01:53:39.721  5216  5216 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 01:53:39.721  5216  5216 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 01:53:39.721  5216  5216 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 01:53:39.721  3003  4771 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 01:53:39.722  3003  4771 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 01:53:39.722  5216  5216 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 01:53:39.722  5216  5216 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 01:53:39.724  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_3305#33086(seamlessTransition:0)
+03-13 01:53:39.724  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_3305#33111(seamlessTransition:0)
+03-13 01:53:39.724  2105  2321 I SurfaceFlinger: Capture layer list: 	 Dim Layer for - Task=400#33118(seamlessTransition:0)
+03-13 01:53:39.724  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_3305#33116(seamlessTransition:0)
+03-13 01:53:39.724  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 01:53:39.724  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#32644(seamlessTransition:0)
+03-13 01:53:39.724  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 01:53:39.725  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 01:53:39.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 01:53:39.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_3305#33086 at index 1
+03-13 01:53:39.725  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_3305#33111 at index 2
+03-13 01:53:39.726  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer Dim Layer for - Task=400#33118 at index 3
+03-13 01:53:39.726  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_3305#33116 at index 4
+03-13 01:53:39.726  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 5
+03-13 01:53:39.726  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#32644 at index 6
+03-13 01:53:39.726  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 7
+03-13 01:53:39.737  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:53:39.738  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:53:39.738  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:53:39.738  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:53:39.797  5216  5224 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 01:53:39.798  5216  5216 W qdgralloc: Failed to load libubwcp.so
+03-13 01:53:39.798  2007 27771 I sensors-hal: handle_sns_client_event:422, [0][1024] gyro_sample_cal(cal_available:1)(3) [ 0.498,-0.084, 0.098] bias[-0.003,-0.006, 0.002] 208420235431614
+03-13 01:53:39.939  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:53:39.939  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:53:39.940  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:53:39.941  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:53:40.009  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 25:5:0:789503:1824000:672000:919296:1824000:499200:231:231:231
+03-13 01:53:40.091  3109  3209 I appium  : AppiumResponse: {"sessionId":"1a6f9c6f-c936-4514-97e3-c2d955be4469","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w15mFfd+RTRAFcRfQFNA0zeqWXb2Sy+/evFa2mLlR6lUzywXNyqW0xZavdUtv3ixbzNLURHPB1ATclVUB2RmWgdl+f/Cd82WYYZOBgXw9H48ejzxz5sx7RhzOeZ3P5/0RHn7…
+03-13 01:53:40.139  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:53:40.139  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:53:40.140  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:53:40.140  3003  3130 D PowerManagerService: displayReady: true groupId=0

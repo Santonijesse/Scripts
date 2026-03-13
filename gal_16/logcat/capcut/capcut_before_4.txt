@@ -1,0 +1,302 @@
+--------- beginning of main
+03-12 21:45:35.492  2007 26606 I sensors-hal: handle_sns_std_sensor_event:90, light_cct: ts = 193536052991316 ns; value = [4, 4, 160, 163, 2, 10, 1, 0, 464, 2, 0]
+03-12 21:45:35.505 28502 28502 I e:iwhInfService: Using CollectorTypeCMC GC.
+03-12 21:45:35.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773366335
+03-12 21:45:35.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:45:35.516  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 337 
+03-12 21:45:35.517  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556105
+03-12 21:45:35.517  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556102
+03-12 21:45:35.517  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 21:45:35.517  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:45:35.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+--------- beginning of system
+03-12 21:45:35.541  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-12 21:45:35.544 28502 28511 I org.tensorflow.lite.h: Loaded native library: tensorflowlite_jni
+03-12 21:45:35.544 28502 28511 I org.tensorflow.lite.h: Didn't load native library: tensorflowlite_jni_gms_client
+03-12 21:45:35.545 28502 28511 I tflite  : Initialized TensorFlow Lite runtime.
+03-12 21:45:35.583 28502 28511 I tflite  : Created TensorFlow Lite delegate for select TF ops.
+03-12 21:45:35.586 28502 28511 I tflite  : TfLiteFlexDelegate delegate: 0 nodes delegated out of 20 nodes with 0 partitions.
+03-12 21:45:35.586 28502 28511 I tflite  : Replacing 12 node(s) with delegate (TfLiteFlexDelegate) node, yielding 3 partitions.
+03-12 21:45:35.598 28502 28511 I tflite  : Replacing 2 node(s) with delegate (TfLiteFlexDelegate) node, yielding 2 partitions.
+03-12 21:45:35.598 28502 28511 I tflite  : Replacing 6 node(s) with delegate (TfLiteFlexDelegate) node, yielding 7 partitions.
+03-12 21:45:35.599 28502 28511 I tflite  : Replacing 2 node(s) with delegate (TfLiteFlexDelegate) node, yielding 5 partitions.
+03-12 21:45:35.599 27291 27318 I appium  : channel read: GET /session/11bcba33-7eaa-4f36-8f32-83d536c838e7/source
+03-12 21:45:35.600 27291 27318 I appium  : Source command
+03-12 21:45:35.600 27291 27318 I appium  : Waiting up to 10000ms for the device to idle
+03-12 21:45:35.601 28502 28511 W libc    : Access denied finding property "ro.mediatek.platform"
+03-12 21:45:35.604 28502 28511 I tflite  : Created TensorFlow Lite XNNPACK delegate for CPU.
+03-12 21:45:35.609 28502 28511 I IwhInfService: IWH model: GmIhyTA2Yj / 0 /  T  | 169 / 2 / 1
+03-12 21:45:35.610 28502 28511 I IwhInfService: Inferenced state & reuslt : [0.631, 0.5] | false
+03-12 21:45:35.614  3003  4047 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.stopService:2080 com.samsung.android.server.wifi.SemWifiIntelligentConnectionManager$IntelligentConnectionManagerHandler.handleMessage:247 android.os.Handler.dispatchMessage:110 android.os.Looper.loopOnce:273 android.os.Looper.loop:363 
+03-12 21:45:35.615  3003  4047 I Process : Sending signal. PID: 28502 SIG: 9
+03-12 21:45:35.615  3003  4047 I SemWifiIntelligentConnectionManager: HQ: GmIhyTA2Yj / 84:ff / 5785 / -60 / 432 / 631 | 95 / 122 / 9 / NR / F / F / F / 9400 / 61 | 0 / 0 (-75.0) ---> S / S / 0
+03-12 21:45:35.619  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] wait_event:Wait done with Cmd 33
+03-12 21:45:35.619  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+03-12 21:45:35.635  1938  1938 I Zygote  : Process 28502 exited due to signal 9 (Killed)
+03-12 21:45:35.636  3003  3046 I ActivityManager: Process com.samsung.android.wifi.intelligence:iwhInfService (pid 28502) has died: cch+5 CEM (437,3482)
+03-12 21:45:35.636  3003  3085 I libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_28502
+03-12 21:45:35.644  3003  4185 I Pageboost: Launcher App Execution
+03-12 21:45:35.674  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:45:35.674  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:45:35.675  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:45:35.676  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:45:35.717  3003  3804 D WifiNl80211Manager: Scan result ready event
+03-12 21:45:35.717  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] wait_event:Wait done with Cmd 34
+03-12 21:45:35.718  3003  3804 D WifiNative: Scan result ready event
+03-12 21:45:35.719  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 34 Err 0
+03-12 21:45:35.720  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan]  -- associated
+03-12 21:45:35.720  3003  3926 I WifiScanner: onFullResults
+03-12 21:45:35.721  3003  3926 I WifiScanner: onFullResults
+03-12 21:45:35.721  3003  3926 I WifiScanner: onFullResults
+03-12 21:45:35.721  3003  3926 I WifiScanner: onFullResults
+03-12 21:45:35.721 16161 31931 I WifiScanner: onFullResults
+03-12 21:45:35.722 16161 16176 I WifiScanner: onFullResults
+03-12 21:45:35.723  3003  4014 V SemWifiScanPool: updateScanResult, partial scan:10 configKeys: 12 pool_bssid:706 pool_configKeys:17
+03-12 21:45:35.723  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.723  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS c0:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID micasa, RSSI(dBM): -59, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.723  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS d2:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID Xfinity Mobile, RSSI(dBM): -77, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS ca:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID xfinitywifi, RSSI(dBM): -59, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS c0:94:35:**:**:fe FREQ: 2437, cFreq1[40:80:160] = [2437:0:0] cFreq2 = 0 SSID micasa, RSSI(dBM): -53, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS 8c:61:a3:**:**:3b FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID TealRabbit, RSSI(dBM): -82, 11mcRanging: No, Country Code = US 
+03-12 21:45:35.724  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS ae:61:a3:**:**:3b FREQ: 2437, cFreq1[40:80:160] = [0:0:0] cFreq2 = 0 SSID , RSSI(dBM): -83, 11mcRanging: No, Country Code = US 
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS ce:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID , RSSI(dBM): -58, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS d6:94:35:**:**:ff FREQ: 5785, cFreq1[40:80:160] = [5795:5775:0] cFreq2 = 0 SSID , RSSI(dBM): -58, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS ce:94:35:**:**:fe FREQ: 2437, cFreq1[40:80:160] = [2437:0:0] cFreq2 = 0 SSID , RSSI(dBM): -53, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] 
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] BSS d6:94:35:**:**:fe FREQ: 2437, cFreq1[40:80:160] = [2437:0:0] cFreq2 = 0 SSID , RSSI(dBM): -52, 11mcRanging: No, Country Code = USI
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWIDiagLog] Log: lowiMeasResult->request: invalid null argument
+03-12 21:45:35.725  2611  4100 I LOWI-9.0.1.74: [LOWI-Scan] lowi_close_record:Scan done in 193497530ms, 10 APs in scan results
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] WipsScanUsingNL: passive scan cached 0, took 46445 ms, err 0
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] lowi_proc_req_passive_scan_with_live_meas - No WLAN Frames to be parsed
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWIScanResultReceiver] Send scan meas to listener
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWIScanResultReceiver] Enter passive listening mode
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWIWifiDriverInterface] getMeasurements - Passive listening mode
+03-12 21:45:35.725  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] WipsScanUsingNL:wait -1 sec for netlink message
+03-12 21:45:35.726  2611  2854 D LOWI-9.0.1.74: [LOWIEventReceiver] handleEvent:FROM:NA, TO:NA, REQ:NA, IREQ:NA, REQ_ID:0, RESP:NA, INFO:NA
+03-12 21:45:35.726  2611  2854 D LOWI-9.0.1.74: [LOWIBackgroundScanMgr] isRspForBgScanMgr: evt(LOWI_NO_EVT) - not handled
+03-12 21:45:35.726  2611  2854 D LOWI-9.0.1.74: [LOWIScheduler] manageMsg: NULL results or NULL request in results
+03-12 21:45:35.726  2611  2854 D LOWI-9.0.1.74: [LOWIController] Measurements received
+03-12 21:45:35.726  2611  2854 D LOWI-9.0.1.74: [LOWICacheManager] putInCache:Num of Meas to add: 10
+03-12 21:45:35.728  2611  2854 D LOWI-9.0.1.74: [LOWIController] processMeasurementResults: No current Request. Cache measurements
+03-12 21:45:35.729  2611  2854 D LOWI-9.0.1.74: [LOWIController] sendAsyncScanResponse: Request FreeWifiScanObserver_29 is from a different client.
+03-12 21:45:35.730  2611  2854 D LOWI-9.0.1.74: [LOWIController] generateResponse: Type (ASYNC_DISCOVERY_SCAN_RESULTS) ScanStatus (1) request FreeWifiScanObserver_29
+03-12 21:45:35.730  2611  2854 D LOWI-9.0.1.74: [LOWIEventDispatcher] sendResponse - originator = FreeWifiScanObserver
+03-12 21:45:35.730  2611  2854 D LOWI-9.0.1.74: [LOWIUtils] injectScanMeasurements - num of APs = 10
+03-12 21:45:35.730  2611  2854 I LOWI-9.0.1.74: [LOWIUtils] responseToOutPostcard - TO: FreeWifiScanObserver, FROM:   LOWI-SERVER, RESP:  LOWI_ASYNC_DISCOVERY_SCAN_RESULTS
+03-12 21:45:35.731  2611  2854 D LOWI-9.0.1.74: [LOWIControllerExtn] sendLOWILpDiscoveryScanResponse: Not a discovery scan response
+03-12 21:45:35.733  2005  2047 I LocSvc_api_v02: ---> locClientSendReq line 2462 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+03-12 21:45:35.735  2005  3349 I LocSvc_ApiV02: <--- globalRespCb line 355 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+03-12 21:45:35.740  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-12 21:45:35.816  2059  2086 E BatteryDump: !@new_battery_dump : 4219,278,475,550,89,341,289,417,296,0,360,379,296,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,11395,0x0,0x10000,0x0,0,0,0000,0000,00000000,4219,4273,43,235,10,0,883,990,0,
+03-12 21:45:35.821  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-12 21:45:35.822  2059  2059 I sehhealth-service: updateLrpSysfs: write: 362
+03-12 21:45:35.820  3003  3804 D [SS]BattFunctions: [sendRemainingChargingTimeChangedIntent]remainingChargingTime:2883 ,mLastRemainingChargingTime:2857
+03-12 21:45:35.824  4205  4205 I AODBatteryManager: updateBatteryData: ACTION_BATTERY_CHANGED: false, isSleepModeChanged:false ,isRemainingTimeChanged: true, isUSBRestriction: false
+03-12 21:45:35.825  4205  4205 I ChargingInfoManager: updateChargingInfo: newState = AOD ChargingInfo [mState=BATTERY_AND_REMAIN_TIME, mIsCharging=true, mIsPlugged=true, mIsFullyCharged=false, mIsBatteryProtectMode=false, mBetteryLevel=89, mBetteryProtectModeType0, mIsSlowChargingfalse], oldState = AOD ChargingInfo [mState=BATTERY_AND_REMAIN_TIME, mIsCharging=true, mIsPlugged=true, mIsFullyCharged=false, mIsBatteryProtectMode=false, mBetteryLevel=89, mBetteryProtectModeType0, mIsSlowChargingfalse]
+03-12 21:45:35.825  4205  4205 I SubLauncher:SubLauncherClockStatusBarController@43446542: updateBatteryVisibility curIsChargingVIProcessing:false isChargingVIProcessing:false isCharging:true batteryVisible:8
+03-12 21:45:35.825  4205  4205 D PowerUI : Remaining charging time : 2883
+03-12 21:45:35.825  4205  4205 D PowerUI : Charging time is changed, check charging notification
+03-12 21:45:35.828  4205  4205 D PowerUI.Notification: showChargingNotice - Battery Level : 89 -> 89, Charging Type : 11 -> 11, Charging Time : 2857 -> 2883, Maximum protection : false -> false, Maximum threshold : 80 -> 80
+03-12 21:45:35.830  4205  4205 I NotificationManager: com.android.systemui: notify(2131364006, charging_state, Notification(channel=CHR shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=sys groupKey=CHARGING vis=PUBLIC semFlags=0x0 semPriority=0 semMissedCount=0)) as user
+03-12 21:45:35.832  3003  3804 W PermissionService: getPermissionFlags: Unknown user -1
+03-12 21:45:35.832  3003  3804 W PermissionService: getPermissionFlags: Unknown user -1
+03-12 21:45:35.874  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:45:35.875  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:45:35.875  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:45:35.876  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:45:35.962 16161 19155 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-12 21:45:35.979 27359 27359 I cr_A11yState: Enabled accessibility services list updated. []
+03-12 21:45:35.980 27359 27359 I cr_A11yState: Informing listeners of changes.
+03-12 21:45:35.980 27359 27359 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-12 21:45:35.987 27291 27318 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-12 21:45:35.994 27291 27318 I appium  : AppiumResponse: {"sessionId":"11bcba33-7eaa-4f36-8f32-83d536c838e7","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.lemon.lvoverseas\" class=\"and…
+03-12 21:45:36.001 27291 27318 I appium  : channel read: GET /session/11bcba33-7eaa-4f36-8f32-83d536c838e7/screenshot
+03-12 21:45:36.002 27291 27318 I appium  : CaptureScreenshot command
+03-12 21:45:36.002 27291 27318 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:45:36.003 27291 27318 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-12 21:45:36.037  3003  3003 I Telecom : SamsungTelecomServiceImpl : isInManagedCall - callingPackage : android / callingUser : UserHandle{0} / hasCrossUserAccess : true
+03-12 21:45:36.052  4832  7615 I HoneySpace.NotificationListener: onNotificationPosted com.android.systemui: -1|com.android.systemui|2131364006|charging_state|10053: 0
+03-12 21:45:36.052  4832  7615 I HoneySpace.NotificationListener: invalid notification: com.android.systemui UserHandle{-1}: canShowBadge is false
+03-12 21:45:36.056  7048  7048 D NLService: The notifications buffer size has reached its maximum size of 100 items. Shrinking it in order to satisfy the constraints.
+03-12 21:45:36.057  7048  7048 D NLService: Successfully stored the newly arrived notification identified by 2131364006
+03-12 21:45:36.066  4205  4205 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+03-12 21:45:36.067  4205  4205 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-12 21:45:36.068  4205  4205 I AODNotificationManager: updateNotification() 
+03-12 21:45:36.068  4205  4205 D PluginAODManager: onNotificationInfoUpdated() 0
+03-12 21:45:36.068  4205  4205 I AODNotificationManager: updateVisibleNotifications: 0
+03-12 21:45:36.073  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-12 21:45:36.075  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:45:36.076  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:45:36.076  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:45:36.077  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:45:36.081  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-12 21:45:36.097 28521 28521 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-12 21:45:36.097 28521 28521 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-12 21:45:36.098 28521 28521 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-12 21:45:36.098  3003  3804 I EDMNativeHelperService: isScreenCaptureEnabled
+03-12 21:45:36.098  3003  3804 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-12 21:45:36.098 28521 28521 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-12 21:45:36.098 28521 28521 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-12 21:45:36.100  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.lemon.lvoverseas/com.vega.web.WebActivity$_27359#13864(seamlessTransition:0)
+03-12 21:45:36.100  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-12 21:45:36.100  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#13781(seamlessTransition:0)
+03-12 21:45:36.100  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-12 21:45:36.101  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-12 21:45:36.101  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-12 21:45:36.101  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.lemon.lvoverseas/com.vega.web.WebActivity$_27359#13864 at index 1
+03-12 21:45:36.102  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-12 21:45:36.102  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#13781 at index 3
+03-12 21:45:36.102  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-12 21:45:36.135 28521 28527 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-12 21:45:36.136 28521 28521 W qdgralloc: Failed to load libubwcp.so
+03-12 21:45:36.138  3003  6280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+03-12 21:45:36.255  4205  4205 D Bubbles : onEntryUpdated : shouldBubbleUp=false ,key=-1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.256  4205  4205 D InterruptionStateProvider:  no Heads up : edgelighting enabled app. -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.256  4205  4205 I {OngoingActivityController}: onEntryUpdated and OA data is empty. So update latest task info
+03-12 21:45:36.268  4205  4205 D PluginActionManager: stopListening
+03-12 21:45:36.269  4205  4205 D PluginActionManager: startListening
+03-12 21:45:36.270  4205  4458 D PluginActionManager: queryAll com.android.systemui.action.PLUGIN_NOTIFICATION_MENU_ROW
+03-12 21:45:36.270  4205  4458 D PluginActionManager: Found 0 plugins
+03-12 21:45:36.274  4205  4205 I View    : setRequestedFrameRate frameRate=-2.0, this=StatusBarIconView(slot='com.android.systemui/0x7f0a08a6' alpha=1.0 icon=StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.android.systemui id=0x7f080871) visible user=-1 ) visibleState=ICON iconColor=#fffafaff staticDrawableColor=#ffb0c6ff decorColor=#ff1b6cf7 animationStartColor=#0 currentSetColor=#fffafaff notification=StatusBarNotification(pkg=com.android.systemui user=UserHandle{-1} id=2131364006 tag=charging_state key=-1|com.android.systemui|2131364006|charging_state|10053: Notification(channel=CHR shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0x00000000 category=sys groupKey=CHARGING vis=PUBLIC semFlags=0x0 semPriority=0 semMissedCount=0))), caller=com.android.systemui.statusbar.StatusBarIconView.onAttachedToWindow:6 android.view.View.dispatchAttachedToWindow:24320 android.view.ViewGroup.addViewInner:5582 android.view.ViewGroup.addView:5358 android.view.ViewGroup.addView:5298 
+03-12 21:45:36.276  4205  4205 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+03-12 21:45:36.276  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:45:36.277  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:45:36.277  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:45:36.277  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-12 21:45:36.277  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:45:36.277  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.277  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.279  4205  4205 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-12 21:45:36.279  4205  4205 I AODNotificationManager: updateNotification() 
+03-12 21:45:36.279  4205  4205 D PluginAODManager: onNotificationInfoUpdated() 0
+03-12 21:45:36.279  4205  4205 I AODNotificationManager: updateVisibleNotifications: 0
+03-12 21:45:36.280  4205  4765 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-12 21:45:36.281  4205  4765 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-12 21:45:36.284  4205  4205 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-12 21:45:36.292  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-12 21:45:36.295  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.295  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.295  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.295  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.297  4205  4205 D S.S.N.  : entryViewBound parent :-1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.297  4205  4205 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-12 21:45:36.300  4205  4205 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+03-12 21:45:36.301  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-12 21:45:36.301  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.301  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-12 21:45:36.302  4205  4205 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-12 21:45:36.302  4205  4205 I AODNotificationManager: updateNotification() 
+03-12 21:45:36.302  4205  4205 D PluginAODManager: onNotificationInfoUpdated() 0
+03-12 21:45:36.302  4205  4205 I AODNotificationManager: updateVisibleNotifications: 0
+03-12 21:45:36.477  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:45:36.477  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:45:36.477  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:45:36.478  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:45:36.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773366336
+03-12 21:45:36.518  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-12 21:45:36.519  2097  2125 D HeatmapThread: !@ batteryLevel : 89  batteryTemperature : 341 
+03-12 21:45:36.519  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556105
+03-12 21:45:36.520  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556102
+03-12 21:45:36.520  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-12 21:45:36.521  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29555957
+03-12 21:45:36.521  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-12 21:45:36.554 27359 27688 W System.err: java.lang.NumberFormatException: For input string: ""
+03-12 21:45:36.554 27359 27688 W System.err: 	at java.lang.Integer.parseInt(Integer.java:791)
+03-12 21:45:36.554 27359 27688 W System.err: 	at java.lang.Integer.parseInt(Integer.java:897)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.launcher.network.interceptors.CrackingInterceptor.intercept(Native Method)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.launcher.network.interceptors.TimeOutSettingInterceptor.intercept(Unknown Source:17301825)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.launcher.network.interceptors.LynxSignVerifyInterceptor.intercept(Unknown Source:17170503)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.launcher.network.interceptors.SignVerifyInterceptor.intercept(Unknown Source:17170510)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.launcher.network.interceptors.AssistInterceptor.intercept(Unknown Source:17236315)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.effectplatform.artist.net.ArtistCollectInterceptor.intercept(Unknown Source:17105003)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.launcher.network.interceptors.RetrofitHeaderInterceptor.intercept(Unknown Source:17367971)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.libeffectapi.util.VimoNetHeaderInterceptor.intercept(Unknown Source:17170583)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.lm.components.network.extra.HttpHeaderInterceptor.intercept(Unknown Source:17302065)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.android.account.leak.LeakInterceptor.intercept(Unknown Source:17170466)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.sdk.account.region.TTPInterceptor.intercept(Unknown Source:17236137)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.android.account.token.TTTokenInterceptor.intercept(Unknown Source:17170547)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.android.account.token.TTTokenInterceptor.intercept(Unknown Source:17170547)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.bdturing.ttnet.TTNetUtil$1.intercept(Unknown Source:17104962)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.privacy.dispatch.monitor.BootDomainInterceptor.intercept(Unknown Source:17170460)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.privacy.region.CdnRegionInterceptor.intercept(Unknown Source:17235977)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.frameworks.baselib.network.http.retrofit.BaseSsInterceptor.intercept(Unknown Source:16973846)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.intercept.RealInterceptorChain.proceed(Unknown Source:17236130)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.getResponseWithInterceptorChain(Unknown Source:327790)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.SsHttpCall.execute(Unknown Source:327713)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.bytedance.retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall.execute(Unknown Source:65538)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.lm.components.network.network.NetWorker.a(Unknown Source:134611078)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.lm.components.network.network.INetWorker$DefaultImpls.a(Unknown Source:100794377)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.lm.components.network.network.NetWorker.f(Unknown Source:67305485)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.lm.components.network.NetworkManager.f(Unknown Source:7)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.core.net.NetworkManagerWrapper.g(Unknown Source:50528271)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.a(Unknown Source:33882199)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.execute(Unknown Source:17170548)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNNetworkClient.fetchFromNetwork(Unknown Source:17170482)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.FetchModelListTask.a(Unknown Source:393259)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.ModelConfigArbiter.a(Unknown Source:33947753)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.e(Unknown Source:33816581)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.a(Unknown Source:327693)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelAndEffectTask.g(Unknown Source:33947741)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.algorithm.AlgorithmEffectFetcher.c(Unknown Source:33947799)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.repository.AlgorithmRepository$fetchResourcesByRequirementsAndModelNames$1.a(Unknown Source:262158)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.TaskManager$commit$2.run(Unknown Source:262161)
+03-12 21:45:36.554 27359 27688 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNExecutor$execute$1.run(Unknown Source:65540)
+03-12 21:45:36.554 27359 27688 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(Unknown Source:327691)
+03-12 21:45:36.554 27359 27688 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Unknown Source:196610)
+03-12 21:45:36.554 27359 27688 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(Unknown Source:458805)
+03-12 21:45:36.593 27359 27688 W System.err: java.lang.IllegalArgumentException: cdnHostSuffix is not init !!!
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.bytedance.ttnet.AppConsts.getCdnHostSuffix(Unknown Source:196629)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.bytedance.ttnet.config.AppConfig.cdnShouldSampling(Unknown Source:17039391)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.lm.components.network.download.DownloadClient.a(Unknown Source:50790561)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.lm.components.network.NetworkManager.b(Unknown Source:33751062)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.vega.core.net.NetworkManagerWrapper.b(Unknown Source:33751057)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.a(Unknown Source:33882165)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.vega.libeffect.di.EffectManagerModule$CronetNetWorker.execute(Unknown Source:17170548)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNNetworkClient.fetchFromNetwork(Unknown Source:17170482)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.download.DownloadManager.a(Unknown Source:34078814)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.g(Unknown Source:33947799)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.h(Unknown Source:17170551)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelTask.a(Unknown Source:327697)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.algorithm.FetchModelAndEffectTask.g(Unknown Source:33947741)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.algorithm.AlgorithmEffectFetcher.c(Unknown Source:33947799)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.repository.AlgorithmRepository$fetchResourcesByRequirementsAndModelNames$1.a(Unknown Source:262158)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.BaseTask.run(Unknown Source:262173)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.ugc.effectplatform.task.TaskManager$commit$2.run(Unknown Source:262161)
+03-12 21:45:36.594 27359 27688 W System.err: 	at com.ss.android.ugc.effectmanager.knadapt.KNExecutor$execute$1.run(Unknown Source:65540)
+03-12 21:45:36.594 27359 27688 W System.err: 	at kotlinx.coroutines.internal.LimitedDispatcher.run(Unknown Source:327691)
+03-12 21:45:36.594 27359 27688 W System.err: 	at kotlinx.coroutines.scheduling.TaskImpl.run(Unknown Source:196610)
+03-12 21:45:36.594 27359 27688 W System.err: 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(Unknown Source:458805)
+03-12 21:45:36.658  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10405(com.lemon.lvoverseas), SUCCESS, 57ms
+03-12 21:45:36.678  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-12 21:45:36.679  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-12 21:45:36.679  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-12 21:45:36.679  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-12 21:45:36.712 27291 27318 I appium  : AppiumResponse: {"sessionId":"11bcba33-7eaa-4f36-8f32-83d536c838e7","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WBTX+gfw7+zC0kRAECmKvTcUNBoVWyyRRGPXaBQNenPjL8XkmsTeUq25MblRY2xBY7sqKibRG8VGLNGoKIgVC0hRsdAX9vz+0J3M7M7szhZYSN7P8+wj7s6cOdPOnHnnnDMcAAZCCCG…

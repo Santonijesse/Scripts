@@ -1,0 +1,68 @@
+--------- beginning of main
+03-13 01:59:20.425 15606 15644 I appium  : channel read: GET /session/debc9dbf-2b91-4ebc-aa13-e54356d3f899/source
+03-13 01:59:20.426 15606 15644 I appium  : Source command
+03-13 01:59:20.427 15606 15644 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 01:59:20.469  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:59:20.470  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:59:20.470  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:59:20.471  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:59:20.487 15606 15644 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 01:59:20.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773381560
+03-13 01:59:20.514  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 01:59:20.515  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 371 
+03-13 01:59:20.515  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556359
+03-13 01:59:20.515  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556342
+03-13 01:59:20.515  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 01:59:20.515  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556342
+03-13 01:59:20.515  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 01:59:20.516  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 01:59:20.537 15606 15644 I appium  : AppiumResponse: {"sessionId":"debc9dbf-2b91-4ebc-aa13-e54356d3f899","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.facebook.katana\" class=\"andr…
+03-13 01:59:20.546 15606 15644 I appium  : channel read: GET /session/debc9dbf-2b91-4ebc-aa13-e54356d3f899/screenshot
+03-13 01:59:20.547 15606 15644 I appium  : CaptureScreenshot command
+03-13 01:59:20.548 15606 15644 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:59:20.548 15606 15644 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 01:59:20.585  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:6446:daff:fe17:20b4/64 on ifindex 45 flags 0x00000100 scope 0
+03-13 01:59:20.585  4419  4867 D IpClient/wlan0: addressUpdated: 2601:85:ca02:f280:7097:5f9d:9d2d:6a29/64 on ifindex 45 flags 0x00000001 scope 0
+03-13 01:59:20.590  4419  4867 W AlarmManager: Unrecognized alarm listener com.android.networkstack.android.net.ip.IpClientLinkObserver$Dhcp6PdPreferredPrefixAlarmListener@c6017d4
+03-13 01:59:20.592  4419  4867 D ApfFilter: (wlan0): Ignoring RA RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0  which matches RA fe80::c294:35ff:fe71:84fd -> ff02::1 180s 2601:85:ca02:f280::/64 7200s/7200s DNS 180s 2601:85:ca02:f280:c294:35ff:fe71:84fd 2001:558:feed::1 2001:558:feed::2 RIO 180s ::/0 
+03-13 01:59:20.594  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 01:59:20.594  4511  4511 I EPDG -- SIM0 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 01:59:20.594  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 01:59:20.594  4511  4511 I EPDG -- SIM1 [EpdgIntfCont]: sendInterfaceMessage, not mobile, ignore
+03-13 01:59:20.674 16618 16618 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 01:59:20.674 16618 16618 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 01:59:20.675 16618 16618 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 01:59:20.671  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:59:20.676  3003  4564 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 01:59:20.676  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:59:20.677  3003  4564 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 01:59:20.677 16618 16618 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 01:59:20.677 16618 16618 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 01:59:20.678  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:59:20.678  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:59:20.681  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_15684#33855(seamlessTransition:0)
+03-13 01:59:20.681  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_15684#33881(seamlessTransition:0)
+03-13 01:59:20.681  2105  2324 I SurfaceFlinger: Capture layer list: 	 Dim Layer for - Task=406#33888(seamlessTransition:0)
+03-13 01:59:20.681  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_15684#33886(seamlessTransition:0)
+03-13 01:59:20.681  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 01:59:20.681  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#33785(seamlessTransition:0)
+03-13 01:59:20.681  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 01:59:20.681  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 01:59:20.682  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 01:59:20.682  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_15684#33855 at index 1
+03-13 01:59:20.682  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_15684#33881 at index 2
+03-13 01:59:20.682  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer Dim Layer for - Task=406#33888 at index 3
+03-13 01:59:20.682  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.facebook.katana/com.facebook.katana.activity.FbMainTabActivity$_15684#33886 at index 4
+03-13 01:59:20.683  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 5
+03-13 01:59:20.683  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#33785 at index 6
+03-13 01:59:20.683  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 7
+03-13 01:59:20.725 16618 16625 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 01:59:20.726 16618 16618 W qdgralloc: Failed to load libubwcp.so
+03-13 01:59:20.837  1171  1171 D io_stats: !@   8,0 r 3038567 99663244 w 3370176 75735224 d 312170 83996988 f 147193 353226 iot 1396904 0 th 0 0 0 pt 0 inp 0 0 50241.522
+03-13 01:59:20.840  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:2(10392) 1076 book.appmanager(13377) 16 rdash.driverapp(31122) 12
+03-13 01:59:20.877  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 01:59:20.877  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 01:59:20.878  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 01:59:20.878  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 01:59:20.987 15606 15644 I appium  : AppiumResponse: {"sessionId":"debc9dbf-2b91-4ebc-aa13-e54356d3f899","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w15mFfV8ElEUQBBFxAdwATbNs72aSy/1W18osKxXJJS2z3LNyu9piy9dbN71ZXm0xc08sFxQRUNxZZd9kkWW23x985/wYZ0CWgRF9PR8PH488c+bMZyYcznmd9+f9ER577DE…

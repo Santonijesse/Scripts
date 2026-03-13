@@ -1,0 +1,89 @@
+--------- beginning of main
+03-13 00:00:59.590  4832  7615 I HoneySpace.NotificationListener: onNotificationPosted com.android.systemui: -1|com.android.systemui|2131364006|charging_state|10053: 0
+03-13 00:00:59.590  7048  7048 D NLService: The notifications buffer size has reached its maximum size of 100 items. Shrinking it in order to satisfy the constraints.
+03-13 00:00:59.590  4832  7615 I HoneySpace.NotificationListener: invalid notification: com.android.systemui UserHandle{-1}: canShowBadge is false
+03-13 00:00:59.590  7048  7048 D NLService: Successfully stored the newly arrived notification identified by 2131364006
+03-13 00:00:59.598  4205  4205 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+03-13 00:00:59.600  4205  4205 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-13 00:00:59.601  4205  4205 I AODNotificationManager: updateNotification() 
+03-13 00:00:59.602  4205  4205 D PluginAODManager: onNotificationInfoUpdated() 0
+03-13 00:00:59.602  4205  4205 I AODNotificationManager: updateVisibleNotifications: 0
+03-13 00:00:59.672 19049 19078 I appium  : channel read: GET /session/81b14bc8-45a8-4e2d-a9ea-aafc800cbe75/source
+03-13 00:00:59.672 19049 19078 I appium  : Source command
+03-13 00:00:59.673 19049 19078 I appium  : Waiting up to 10000ms for the device to idle
+03-13 00:00:59.753 19049 19078 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 00:00:59.788  2007 14803 I sensors-hal: handle_sns_client_event:375, [0][5480] accel_sample [-1.659,  9.222,  2.654] 201660326664976
+03-13 00:00:59.788  4205  4205 D Bubbles : onEntryUpdated : shouldBubbleUp=false ,key=-1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.790  4205  4205 D InterruptionStateProvider:  no Heads up : edgelighting enabled app. -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.790  4205  4205 I {OngoingActivityController}: onEntryUpdated and OA data is empty. So update latest task info
+03-13 00:00:59.792  4205  4205 I {OngoingActivityDataHelper}: setBaseActivityComponentName:ComponentInfo{com.newsbreak.crimeradar/com.particlemedia.feature.home.RadarHomeActivity}
+03-13 00:00:59.809 19049 19078 I appium  : AppiumResponse: {"sessionId":"81b14bc8-45a8-4e2d-a9ea-aafc800cbe75","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.newsbreak.crimeradar\" class=\…
+03-13 00:00:59.809  4205  4205 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+03-13 00:00:59.815  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 00:00:59.816  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.816  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.819  4205  4205 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-13 00:00:59.819  4205  4205 I AODNotificationManager: updateNotification() 
+03-13 00:00:59.820  4205  4205 D PluginAODManager: onNotificationInfoUpdated() 0
+03-13 00:00:59.820  4205  4205 I AODNotificationManager: updateVisibleNotifications: 0
+03-13 00:00:59.822 19049 19078 I appium  : channel read: GET /session/81b14bc8-45a8-4e2d-a9ea-aafc800cbe75/screenshot
+03-13 00:00:59.822  4205  4765 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-13 00:00:59.822 19049 19078 I appium  : CaptureScreenshot command
+03-13 00:00:59.823  4205  4765 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-13 00:00:59.823 19049 19078 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:00:59.823 19049 19078 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:00:59.824  4205  4205 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-13 00:00:59.827  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 00:00:59.829  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.829  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.829  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.829  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.830  4205  4205 D S.S.N.  : entryViewBound parent :-1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.830  4205  4205 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+03-13 00:00:59.835  4205  4205 D SubscreenNotificationListCoordinator: onAfterRenderList() isSubScreen = false, pluginLockMode = 0, doNotShowOnCover = false
+03-13 00:00:59.836  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 00:00:59.836  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.836  4205  4205 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 216 mTempSmallHeight:0 -1|com.android.systemui|2131364006|charging_state|10053
+03-13 00:00:59.837  4205  4205 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-13 00:00:59.837  4205  4205 I AODNotificationManager: updateNotification() 
+03-13 00:00:59.837  4205  4205 D PluginAODManager: onNotificationInfoUpdated() 0
+03-13 00:00:59.837  4205  4205 I AODNotificationManager: updateVisibleNotifications: 0
+03-13 00:00:59.902  2007 17929 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 1(1),c:72,b:0,m:13,cl:0,l:2,s:0,l0:240,l1:0,s0:148,s1:0,acl:1,opr:0.18,f(r):97,u(bl):111,if:0,wi:0,si:2,po:0(N:0)
+03-13 00:00:59.903 20174 20174 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:00:59.904 20174 20174 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:00:59.904 20174 20174 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 00:00:59.904  3003  7124 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 00:00:59.904  3003  7124 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:00:59.904 20174 20174 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:00:59.904 20174 20174 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:00:59.908  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.newsbreak.crimeradar/com.particlemedia.feature.nativedetail.NativeDetailActivity$_19122#23029(seamlessTransition:0)
+03-13 00:00:59.908  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:00:59.908  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#22956(seamlessTransition:0)
+03-13 00:00:59.908  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:00:59.909  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:00:59.910  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:00:59.910  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.newsbreak.crimeradar/com.particlemedia.feature.nativedetail.NativeDetailActivity$_19122#23029 at index 1
+03-13 00:00:59.910  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 00:00:59.911  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#22956 at index 3
+03-13 00:00:59.911  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 00:00:59.951 20174 20179 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:00:59.952 20174 20174 W qdgralloc: Failed to load libubwcp.so
+03-13 00:00:59.990  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10411(com.foxnews.android), 4(FAIL), isBlocked=true, 0ms
+03-13 00:00:59.990 20399 20519 E GW      : Network error
+03-13 00:01:00.008  3003  3003 I EyeComfortSolutionService: action  :  android.intent.action.TIME_TICK
+03-13 00:01:00.009  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:19
+03-13 00:01:00.009  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 00:01:00.009  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 00:01:00.009  4205  4841 I DateTimeView: updateAll - getTimeFormat
+03-13 00:01:00.009  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:38
+03-13 00:01:00.009  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 00:01:00.009  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 00:01:00.009  4205  4205 D FaceWidgetPagesController: onTimeChanged()
+03-13 00:01:00.010  4205  4841 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:America/New_York
+03-13 00:01:00.011  4205  4205 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:12:01, TimeContentDescription:12:01 AM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false)))
+03-13 00:01:00.012  4205  4205 D QSClock : StatusBar clock=12:01 notifyTimeChanged(QSClockBellSound - TimeText:12:01, TimeContentDescription:12:01 AM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false) clockVisibleByPolicy=true, clockVisibleByUser=true, visible=true, parent=android.widget.LinearLayout{878a042 V.E...... ......ID 0,0-102,74 #7f0a069b app:id/left_clock_container} caller=com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.animateShow:52 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.updateStatusBarVisibilitiesInner:230 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.updateStatusBarVisibilities:65 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment$$ExternalSyntheticLambda0.onStatusBarWindowStateChanged:6 com.android.systemui.statusbar.window.StatusBarWindowStateController$commandQueueCallback$1.setWindowState:39  
+03-13 00:01:00.013  4205  4205 D QSClockBellTower: Everyone heard the bell. run(currentTime:1773374460011, getTime():Fri Mar 13 00:01:00 EDT 2026, getTimeZone():libcore.util.ZoneInfo[mDstSavings=3600000,mUseDst=true,mDelegate=[id="America/New_York",mRawOffset=-18000000,mEarliestRawOffset=-17762000,transitions=360]])
+03-13 00:01:00.020  4205  4205 D {OngoingChipAdapter}: updateEnableMaxWidth : 309 -:> 315
+03-13 00:01:00.023  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 00:01:00.167 19049 19078 I appium  : AppiumResponse: {"sessionId":"81b14bc8-45a8-4e2d-a9ea-aafc800cbe75","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WJPX3wbw+8lgD5GNioOlIjhxb23d26qt2mq17l211tbWt/11OXGvalute1db96yr7s0SHDhAQGSPrPcPJBITlgRC8P5cV6+rnDw5OQmY5Lmfc75HcKlQVYV3iQBA5zPO9QYiIiIiIiK…

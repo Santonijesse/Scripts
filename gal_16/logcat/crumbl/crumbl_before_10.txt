@@ -1,0 +1,96 @@
+--------- beginning of main
+03-13 00:23:42.217  3003 27147 D WifiConnectivityMonitor.DnsThread:  [|217] [] [] [] []
+03-13 00:23:42.221  3003  4062 D WifiConnectivityMonitor.NetworkStatsAnalyzer: DNS resultType : 0, responseTime : 217
+03-13 00:23:42.221  3003  4058 D OpenNetworkQos[4.00]: updateBssidLatestDnsResultType - result: 0
+03-13 00:23:42.222  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 00:23:42.222  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 00:23:42.222  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+--------- beginning of system
+03-13 00:23:42.222  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 00:23:42.222  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 00:23:42.222  3003  5535 V WifiProfileShare.Caster: update wips network, size: 0
+03-13 00:23:42.223  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 00:23:42.223  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 00:23:42.223  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 30 
+03-13 00:23:42.223  3003  5535 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 00:23:42.223  3003  5535 I WifiProfileShare.Caster: current network type: 0, score: [30, 30, 30]
+03-13 00:23:42.223  3003  5535 V WifiProfileShare.Cache: update network score c0:94:35:**:**:ff
+03-13 00:23:42.224  3003  5535 D WifiProfileShare.ScanMatcher: getMcfDataList size:2
+03-13 00:23:42.224  3003  5535 I WifiProfileShare.Caster: qos data was updated , before:type:QOS, pBssid:e5:b1:3f, qosData:7c after:type:QOS, pBssid:e5:b1:3f, qosData:7c
+03-13 00:23:42.224  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-13 00:23:42.225  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-13 00:23:42.225  3003  5535 D WifiProfileShare.McfCast: updateQoSData ignored, same contents
+03-13 00:23:42.225  3003  5535 D WifiProfileShare.MCF: success update QosData !
+03-13 00:23:42.225  3003  5535 I [MCFSDK_android_1.3.7026]_4_McfCasterImpl: isNetworkEnabled - type : 1 ret : true
+03-13 00:23:42.225  3003  5535 D WifiProfileShare.McfCast: -ME--- mIsNetworkEnabled :true
+03-13 00:23:42.225  3003  5535 D WifiProfileShare.McfCast: -ME--- updatePasswordDate pwdData size:2
+03-13 00:23:42.255 25899 25935 I appium  : channel read: GET /session/1ba099f9-5206-45c3-9c7c-c09f024921d2/source
+03-13 00:23:42.256 25899 25935 I appium  : Source command
+03-13 00:23:42.258 25899 25935 I appium  : Waiting up to 10000ms for the device to idle
+03-13 00:23:42.288 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{eaf4b65 VFED..... ........ 0,0-1080,2640 aid=1073741857}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:23:42.288 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{fa9b549 V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:23:42.303  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 00:23:42.312  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 00:23:42.363 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{ade2ccc VFED..... ........ 0,0-1080,262 aid=1073741825}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:23:42.363 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{3b000f2 V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:23:42.380 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{1a74403 VFED..... ........ 0,0-1080,2003 aid=1073741856}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:23:42.380 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{47ded6b V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:23:42.381 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{1bd9a97 VFED..... ......ID 0,0-1080,2003 aid=1073741835}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:23:42.381 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{abf1060 V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 00:23:42.387 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{1bd9a97 VFED..... ........ 0,0-1080,2003 aid=1073741835}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:23:42.387 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{abf1060 V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 00:23:42.434  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 11102, isSameBssidAndFreq true
+03-13 00:23:42.436  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 565 / 19 / 1.27 (14) / 432 / -61.0 || 100.0 : 432.00 / 0.5 : 0.79 / 0.55 : 0.03 / G (G) || 357184ff5785: 0.093 / 85.999 / N || N N / 0 0 / Y 2.0 / Y X 0 / 44503119 0 || Invalid
+03-13 00:23:42.437  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 00:23:42.437  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 00:23:42.438  3003  4047 D SGM:GameManager: identifyGamePackage. crumbl.cookies, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 00:23:42.438  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=crumbl.cookies, ret=false
+03-13 00:23:42.438  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 81
+03-13 00:23:42.439  3003  4030 D InsDataManager: trimBuffers start.
+03-13 00:23:42.439  3003  4030 D InsDataManager: trimBuffers - pathBuffer size: 78
+03-13 00:23:42.439  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 00:23:42.439  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 00:23:42.440  3003  4030 D SemInsManager: {"bssid": "357184ff5785","rssi": -61.0,"latency": 0.09302401302401302,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 565 / 19 / 1.27 (14) / 432 / -61.0 || 100.0 : 432.00 / 0.5 : 0.79 / 0.55 : 0.03 / G (G) || 357184ff5785: 0.093 / 85.999 / N || N N / 0 0 / Y 2.0 / Y X 0 / 44503119 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 00:23:42.497 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=w3.u{4860b6 VFED..... ........ 0,0-1080,375 aid=1073741828}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 w3.z0.a:0 w3.u.dispatchDraw:97 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 00:23:42.498 26064 26064 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{ecf6cdd V.ED..... ........ 0,0-0,0}, caller=w3.z0.a:0 w3.u.dispatchDraw:114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 00:23:42.510  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773375822
+03-13 00:23:42.516  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 00:23:42.516  2097  2125 D HeatmapThread: !@ batteryLevel : 98  batteryTemperature : 338 
+03-13 00:23:42.516  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29556263
+03-13 00:23:42.517  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29556252
+03-13 00:23:42.517  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556072
+03-13 00:23:42.517  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556252
+03-13 00:23:42.517  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 00:23:42.517  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 00:23:42.656 24324 24413 W libc    : Access denied finding property "ro.debuggable"
+03-13 00:23:42.662 25899 25935 I appium  : AppiumResponse: {"sessionId":"1ba099f9-5206-45c3-9c7c-c09f024921d2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"crumbl.cookies\" class=\"android.w…
+03-13 00:23:42.678 25899 25935 I appium  : channel read: GET /session/1ba099f9-5206-45c3-9c7c-c09f024921d2/screenshot
+03-13 00:23:42.678 25899 25935 I appium  : CaptureScreenshot command
+03-13 00:23:42.679 25899 25935 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:23:42.679 25899 25935 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 00:23:42.734 24324 24413 W libc    : Access denied finding property "ro.secure"
+03-13 00:23:42.765 27153 27153 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 00:23:42.765 27153 27153 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 00:23:42.765 27153 27153 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 00:23:42.766  3003  4415 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 00:23:42.766  3003  4415 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 00:23:42.766 27153 27153 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 00:23:42.766 27153 27153 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 00:23:42.769  2105  2324 I SurfaceFlinger: Capture layer list: 	 crumbl.cookies/com.crumbl.ui.main.MainActivity$_26064#24986(seamlessTransition:0)
+03-13 00:23:42.769  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 00:23:42.769  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#24943(seamlessTransition:0)
+03-13 00:23:42.769  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 00:23:42.771  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 00:23:42.771  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 00:23:42.772  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer crumbl.cookies/com.crumbl.ui.main.MainActivity$_26064#24986 at index 1
+03-13 00:23:42.772  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 00:23:42.772  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#24943 at index 3
+03-13 00:23:42.772  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 00:23:42.820 27153 27158 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 00:23:42.821 27153 27153 W qdgralloc: Failed to load libubwcp.so
+03-13 00:23:43.033  3003  3130 D PowerManagerService: UserActivityStateListenerState: 0
+03-13 00:23:43.033  3003  4086 D NetdEventListenerService: DNS Requested by 110, 10356(com.kohls.mcommerce.opal), 4(FAIL), isBlocked=true, 0ms
+03-13 00:23:43.037 26064 26064 I VRI[MainActivity]@d9bbdfc: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@d9bbdfc
+03-13 00:23:43.044  2105  2105 I SurfaceFlinger: [crumbl.cookies/com.crumbl.ui.main.MainActivity$_26064#24986] setFrameRateCategory: NoPreference
+03-13 00:23:43.056 25899 25935 I appium  : AppiumResponse: {"sessionId":"1ba099f9-5206-45c3-9c7c-c09f024921d2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1ndFvnnS76Z29UAiAJ9t6LJFIU1SWrWbZVbDV3J45t2XHaZGbOmUwymTkn5657subce9c6a5LMmck6mcRprsd2ZEm2JatbVm9UpSSSYu8UewFAdOz7ASZECKDYQIIQn99a+qDNDeDFBsv…
+03-13 00:23:43.062  5490  5568 I RequestManager_FLP: onOpChanged, op=0 / packageName=com.adidas.app
