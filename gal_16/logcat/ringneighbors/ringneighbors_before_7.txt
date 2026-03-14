@@ -1,0 +1,48 @@
+--------- beginning of main
+03-13 15:33:03.449 24703 24731 I appium  : channel read: GET /session/c2c9da91-d25e-4060-a031-10529a4c7b95/source
+03-13 15:33:03.452 24703 24731 I appium  : Source command
+03-13 15:33:03.455 24703 24731 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 15:33:03.492  3003  3631 D ActivityManager: freezing 12275 com.samsung.android.authfw
+03-13 15:33:03.497  3003  3594 I ActivityManager: Changes in 99332 5 to 19, 184 to 0
+03-13 15:33:03.497  3003  3594 I ActivityManager: Changes in 10260 5 to 19, 184 to 128
+03-13 15:33:03.498  3003  3594 I ActivityManager: Changes in 10114 5 to 19, 184 to 0
+03-13 15:33:03.500  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-13 15:33:03.501  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-13 15:33:03.501  3003  3941 D InetDiagMessage: Destroyed live tcp sockets for uids={5278} in 5ms
+03-13 15:33:03.502  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.google.android.googlequicksearchbox:search(pid 32003) action:14 adj:935 type:1
+03-13 15:33:03.508 24703 24731 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 15:33:03.530 24703 24731 I appium  : AppiumResponse: {"sessionId":"c2c9da91-d25e-4060-a031-10529a4c7b95","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ring.neighborhoods\" class=\"a…
+03-13 15:33:03.545 24703 24731 I appium  : channel read: GET /session/c2c9da91-d25e-4060-a031-10529a4c7b95/screenshot
+03-13 15:33:03.545 24703 24731 I appium  : CaptureScreenshot command
+03-13 15:33:03.546 24703 24731 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:33:03.546 24703 24731 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:33:03.595  3003 21180 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.google.android.googlequicksearchbox:search(pid 32003) ret:19649064960 adj:935
+03-13 15:33:03.606  3003  3594 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 15:33:03.613  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:33:03.614  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:33:03.614  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:33:03.614  3003  3594 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 15:33:03.614  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:33:03.635 25212 25212 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 15:33:03.635 25212 25212 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 15:33:03.636 25212 25212 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 15:33:03.636  3003  3594 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 15:33:03.636  3003  3594 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:33:03.636 25212 25212 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 15:33:03.636 25212 25212 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 15:33:03.638  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.ring.neighborhoods/com.ring.nh.feature.onboarding.flow.OnboardingFlowActivity$_24770#67130(seamlessTransition:0)
+03-13 15:33:03.638  2105  2921 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#67137(seamlessTransition:0)
+03-13 15:33:03.638  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:33:03.638  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#67079(seamlessTransition:0)
+03-13 15:33:03.638  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:33:03.639  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 15:33:03.639  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:33:03.639  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.ring.neighborhoods/com.ring.nh.feature.onboarding.flow.OnboardingFlowActivity$_24770#67130 at index 1
+03-13 15:33:03.639  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#67137 at index 2
+03-13 15:33:03.640  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 15:33:03.640  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#67079 at index 4
+03-13 15:33:03.640  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 15:33:03.684 25212 25217 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 15:33:03.686 25212 25212 W qdgralloc: Failed to load libubwcp.so
+03-13 15:33:03.871 24703 24731 I appium  : AppiumResponse: {"sessionId":"c2c9da91-d25e-4060-a031-10529a4c7b95","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WJNXGwbwOwkh7C1DhoiAigpOcI9WxVVbraOte69Wq9W6F27raq27zmodtVptXbUu3KvuBQIqoCzZK5Dx/YHkIyQoKCt6/67L6yonb17OizbkvfOc5wiq1fBRgoiIiIiIiIhIhwnLegJ…

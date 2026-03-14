@@ -1,0 +1,64 @@
+--------- beginning of main
+03-13 19:05:55.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773443155
+03-13 19:05:55.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 19:05:55.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 361 
+03-13 19:05:55.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557385
+03-13 19:05:55.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557372
+03-13 19:05:55.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 19:05:55.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557385
+03-13 19:05:55.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 19:05:55.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 19:05:55.244 15964 16019 I appium  : channel read: GET /session/73447272-3b29-4c25-818d-91ee748973bc/source
+03-13 19:05:55.246 15964 16019 I appium  : Source command
+03-13 19:05:55.248 15964 16019 I appium  : Waiting up to 10000ms for the device to idle
+03-13 19:05:55.372 15964 16019 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 19:05:55.434 15964 16019 I appium  : AppiumResponse: {"sessionId":"73447272-3b29-4c25-818d-91ee748973bc","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tiktok.lite.go\" class=\"andro…
+03-13 19:05:55.453 15964 16019 I appium  : channel read: GET /session/73447272-3b29-4c25-818d-91ee748973bc/screenshot
+03-13 19:05:55.454 15964 16019 I appium  : CaptureScreenshot command
+03-13 19:05:55.455 15964 16019 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:05:55.455 15964 16019 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:05:55.553 17034 17034 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 19:05:55.554 17034 17034 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 19:05:55.554 17034 17034 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 19:05:55.554  3003  4415 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 19:05:55.555  3003  4415 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 19:05:55.555 17034 17034 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 19:05:55.555 17034 17034 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 19:05:55.556  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tiktok.lite.go/com.ss.android.ugc.aweme.main.homepage.MainActivity$_16070#82436(seamlessTransition:0)
+03-13 19:05:55.556  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 19:05:55.556  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#82365(seamlessTransition:0)
+03-13 19:05:55.556  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 19:05:55.557  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 19:05:55.557  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 19:05:55.558  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tiktok.lite.go/com.ss.android.ugc.aweme.main.homepage.MainActivity$_16070#82436 at index 1
+03-13 19:05:55.558  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 19:05:55.558  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#82365 at index 3
+03-13 19:05:55.558  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 19:05:55.588 17034 17041 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 19:05:55.592 17034 17034 W qdgralloc: Failed to load libubwcp.so
+03-13 19:05:55.604  1171  1171 D io_stats: !@   8,0 r 4807305 143679348 w 6726223 127025656 d 508773 143303720 f 275516 642877 iot 2581020 0 th 0 0 0 pt 0 inp 0 0 89744.600
+03-13 19:05:55.604  1171  1171 D io_stats: !@ Read_top(KB): sh(17032) 8 screencap(17034) 4
+03-13 19:05:55.605  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:2(28812) 9524 .tiktok.lite.go(16070) 52 sung.android.ce(32228) 4
+03-13 19:05:55.889  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 19:05:55.891  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 19:05:55.897  3003  5506 D MARs:ActiveTrafficFilter: filter : com.facebook.katana(0)
+03-13 19:05:55.898  3003  5506 D FreecessHandler: freeze com.facebook.katana(10340) result : 8
+03-13 19:05:56.043 16070 16222 D nativeloader: Load /data/user/0/com.tiktok.lite.go/files/solib/arm64-v8a/libxz.so using class loader ns clns-9 (caller=/data/app/~~bwYyOgH6p3NlAeVTDoD0sw==/com.tiktok.lite.go-ATpJPfj4uj4NSZspD6IQ-Q==/base.apk): ok
+03-13 19:05:56.045 16070 16222 D nativeloader: Load /data/user/0/com.tiktok.lite.go/files/solib/arm64-v8a/libxz-main.so using class loader ns clns-9 (caller=/data/app/~~bwYyOgH6p3NlAeVTDoD0sw==/com.tiktok.lite.go-ATpJPfj4uj4NSZspD6IQ-Q==/base.apk): ok
+03-13 19:05:56.104 15964 16019 I appium  : AppiumResponse: {"sessionId":"73447272-3b29-4c25-818d-91ee748973bc","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7J13fFVF2sd/c0saNQQCJAGkWCA06YJ0NAgCKkYQWKm6+mIBF1xce1sVFFFkVValLhKwGxQFAVlBzQJSQxSlJyQklEAIafc87x/3nn7uzb1pl8Dz/XwmuWfOlGfmTH3OzBwBgMAwDMMwDMM…
+03-13 19:05:56.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773443156
+03-13 19:05:56.208  3003  6711 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 19:05:56.209  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 19:05:56.209  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 361 
+03-13 19:05:56.209  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557385
+03-13 19:05:56.209  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557372
+03-13 19:05:56.209  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 19:05:56.209  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557385
+03-13 19:05:56.209  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 19:05:56.209  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 19:05:56.213  3003  6711 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 19:05:56.215  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:05:56.215  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:05:56.215  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:05:56.215  3003  4002 D BackgroundInstallControlService: Package event received: 0

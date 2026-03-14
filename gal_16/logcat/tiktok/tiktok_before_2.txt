@@ -1,0 +1,964 @@
+--------- beginning of main
+03-13 18:51:41.452  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,0.048,0.081,9.863, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+--------- beginning of system
+03-13 18:51:41.470  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 141:21:10:1118208:2035200:672000:1219968:2035200:499200:238:422:231
+03-13 18:51:41.481  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 9786ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:41.507 14110 14145 I appium  : channel read: GET /session/0964889b-4f2d-4a9a-b4d3-76e7e68883ac/source
+03-13 18:51:41.508 14110 14145 I appium  : Source command
+03-13 18:51:41.509 14110 14145 I appium  : Waiting up to 10000ms for the device to idle
+03-13 18:51:41.532  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+03-13 18:51:41.532  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 18:51:41.534  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-13 18:51:41.534  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 18:51:41.536  3003  4028 I SemWifiIntelligentTrainingManager: Tr. cond. check: false / 2 (2) / true / 0 (1)
+03-13 18:51:41.537  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+03-13 18:51:41.537  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 18:51:41.554  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:41.555  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:41.556  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:41.557  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:41.632  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 9937ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:41.755  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:41.756  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:41.757  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:41.757  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:41.783  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 10088ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:41.933  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 10238ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:41.956  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:41.957  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:41.957  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:41.958  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:42.083  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 10389ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:42.158  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:42.158  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:42.159  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:42.159  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:42.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442302
+03-13 18:51:42.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:42.203  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 337 
+03-13 18:51:42.203  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:42.203  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:42.203  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:42.203  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:42.203  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:42.203  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:42.229  1259 15460 I keystore2: system/security/keystore2/watchdog/src/lib.rs:377 - Watchdog thread idle -> terminating. Have a great day.
+03-13 18:51:42.234  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 10539ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:42.244  3003  3130 D PowerManagerService: UserActivityStateListenerState: 0
+03-13 18:51:42.251  6380  6380 I SemDvfsHyPerManager: acquire hyper - VIDEO_POWER_EFFICIENCY/6380@28, type = -999
+03-13 18:51:42.252  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20534464  [6380 / 28]    HINT : VIDEO_POWER_EFFICIENCY    list : 
+03-13 18:51:42.278 14238 14238 I VRI[SplashActivity]@5e707df: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[SplashActivity]@5e707df
+03-13 18:51:42.283  2105  2105 I SurfaceFlinger: [com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811] setFrameRateCategory: NoPreference
+03-13 18:51:42.284  2105  2105 D DisplayModeController: setDesiredMode 4630946564756762243 {mode={fps=60.00 Hz, modePtr={id=2, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-13 18:51:42.284  2105  2105 I LayerHistory: com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 Max (can't resolve refresh rate)
+03-13 18:51:42.284  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 10.00 Hz
+03-13 18:51:42.284  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 20.00 Hz
+03-13 18:51:42.284  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 24.00 Hz
+03-13 18:51:42.284  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 30.00 Hz
+03-13 18:51:42.284  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 40.00 Hz
+03-13 18:51:42.284  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 120.00 Hz
+03-13 18:51:42.284  2105  2105 I SurfaceFlinger: scored - choose 60.00 Hz
+03-13 18:51:42.285  2105  2105 I HWComposer: [4630946564756762243] ActiveConfigToHWC, ID : 2
+03-13 18:51:42.286  2040  2780 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] check hs_mode 3
+03-13 18:51:42.286  2040  2780 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 954000000
+03-13 18:51:42.286  2040  2780 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 954000000
+03-13 18:51:42.286  2040  2780 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] Set mode index:3 1080x2640x60xcmdPHS, hs_mode(3), found_mode(1)
+03-13 18:51:42.286  2040  2780 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-1 for Peripheral
+03-13 18:51:42.287  2040  2780 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 2
+03-13 18:51:42.290  2105  2105 I SurfaceFlinger: finalizeDisplayModeChange 4630946564756762243
+03-13 18:51:42.291  2105  2324 I VSyncReactor: Current= 120, Period= 60, hwcPeriod= 60
+03-13 18:51:42.293  3003  3067 D LocalDisplayAdapter: updateActiveModeLocked for d=4630946564756762243, mActiveModeId=3, mActiveSfDisplayMode=DisplayMode{id=2, width=1080, height=2640, xDpi=428.625, yDpi=424.405, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=16666666, presentationDeadlineNanos=17666666, supportedHdrTypes=[4, 2, 3], group=1080}
+03-13 18:51:42.294  3003  3067 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=17666666, appVsyncOffsetNanos=16666666, frameRateOverrides=[]
+03-13 18:51:42.299  2094 21145 D AudioFlinger: setParameters: filtered dev setParameters keyvalue screen_state=on
+03-13 18:51:42.299  3003  5976 D LiftUpHandler: [LTW] Stopped already.
+03-13 18:51:42.303  3003  3065 D WindowManager: DeferredDisplayUpdater: partially applying DisplayInfo(1080 x 2640) immediately
+03-13 18:51:42.306  1992  4982 D AHAL: AudioDevice: SetParameters: 1865: enter
+03-13 18:51:42.307  1992  4982 D AHAL: AudioVoice: VoiceSetParameters: 200: Enter
+03-13 18:51:42.307  1992  4982 D AHAL: AudioVoice: VoiceSetParameters: 479: Exit ret: 0
+03-13 18:51:42.307  1992  4982 D AHAL: hfp: hfp_set_parameters: 444: enter
+03-13 18:51:42.307  1992  4982 D AHAL: AudioDevice: SetParameters: 1945:  - screen = on
+03-13 18:51:42.307  1992  4982 I PAL: ResourceManager: setParameter: 10683: Screen State:1
+03-13 18:51:42.307  1992  4982 D AHAL: AudioDevice: SetParameters: 2798: exit: screen_state=on
+03-13 18:51:42.309  3003  3065 D SurfaceComposerClient: setCornerRadius ## 563fc84 com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity#80729 cornerRadius=0.000000
+03-13 18:51:42.313  4832 28512 I HoneySpace.Memory-Monitor: current state = 2, didTrim = false
+03-13 18:51:42.315  4205  4362 D StackScroller: onDisplayChanged for predraw skip to 2
+03-13 18:51:42.315  4832  6051 I HoneySpace.RefreshRateSource: singleFrameMs 16
+03-13 18:51:42.319  3003  4920 D WifiDisplayAdapter: isFitToActiveDisplayLocked : false
+03-13 18:51:42.321  4205  4205 D DisplayLifecycle: updateDisplay id = 0
+03-13 18:51:42.322  3003  3003 D SGM:GameManager: onDisplayChanged. displyId: 0, state: 2
+03-13 18:51:42.323  3003  3687 D SGM:FgCheckThread: onLooperPrepared(), msg: MSG_LCD_ON
+03-13 18:51:42.323  3003  3003 D AODManagerService: requestReCalToTSP IsSingleTouchMode = falserequestedReCalToTSP = false / previousDisplayState = ON
+03-13 18:51:42.358  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:42.359  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:42.360  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:42.360  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:42.384  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 10690ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:42.535  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 10840ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:42.550  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 147(147),c:16,b:85,m:13,cl:3,l:147,s:147,l0:12144,l1:32,s0:11653,s1:0,acl:1,opr:0.43,f(r):97,u(bl):106,if:0,wi:2,si:8,po:0(N:0)
+03-13 18:51:42.550  2007 11608 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 147(147),c:16,b:85,m:13,cl:3,l:147,s:147,l0:12144,l1:32,s0:11653,s1:0,acl:1,opr:0.43,f(r):97,u(bl):106,if:0,wi:2,si:8,po:0(N:0)
+03-13 18:51:42.559  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:42.562  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:42.562  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:42.562  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:42.583  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:42.583  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:42.596  3003  5506 D MARs:ActiveTrafficFilter: filter : onxmaps.hunt(0)
+03-13 18:51:42.596  3003  5506 D FreecessHandler: freeze onxmaps.hunt(10472) result : 8
+03-13 18:51:42.685  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 10991ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:42.717  3003  7292 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:42.726  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 24025, isSameBssidAndFreq true
+03-13 18:51:42.727  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [115 WIFI]
+03-13 18:51:42.728  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 886 / 3 / 1.04 (27) / 573 / -64.0 || 100.0 : 573.00 / 0.5 : 0.96 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.086 / 92.801 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88891722 0 || Invalid
+03-13 18:51:42.729  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 18:51:42.729  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 18:51:42.729  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 115(valid: true/captive: false)
+03-13 18:51:42.729  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=3533Kbps LinkDnBandwidth>=141176Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.**.*.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -64, Link speed: 573Mbps, Tx Link speed: 573Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 458Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -64 AdminUids: [1000] SSID: "MSU-Secure" UnderlyingNetworks: Null]
+03-13 18:51:42.730  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 18:51:42.730  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 18:51:42.731  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 18:51:42.731  3003  4030 D InsDataManager: trimBuffers start.
+03-13 18:51:42.731  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 18:51:42.731  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:141.176Uplink: 3.533
+03-13 18:51:42.733  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-13 18:51:42.736  1171  1171 D io_stats: !@   8,0 r 4751967 142816772 w 6245110 122566852 d 503366 138236280 f 260352 592531 iot 2522544 0 th 0 0 0 pt 0 inp 0 0 88891.733
+03-13 18:51:42.737  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 18:51:42.737  1171  1171 D io_stats: !@ Read_top(KB): binder:2491_2(2491) 29552 aoapp.musically(14238) 9880 system_server(3003) 108
+03-13 18:51:42.737  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:6(16283) 5360 f2fs_ckpt-254:6(5380) 1552 aoapp.musically(14238) 504
+03-13 18:51:42.737  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 18:51:42.737 16161 16505 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-13 18:51:42.737 16161 16505 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-13 18:51:42.739  4600  5502 D txpwrJni: sendNetworkInfo start
+03-13 18:51:42.739  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-13 18:51:42.740  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 18:51:42.744  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-13 18:51:42.745  4184  4196 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-13 18:51:42.745  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-13 18:51:42.747  4205  4421 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 18:51:42.752 22998 23062 D Braze v37.0.0 .d: com.braze.events.internal.o fired:
+03-13 18:51:42.752 22998 23062 D Braze v37.0.0 .d: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 18:51:42.753 22998 23062 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 0 subscribers.
+03-13 18:51:42.753 22998 23062 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 2 subscribers.
+03-13 18:51:42.753 22998 23062 D Braze v37.0.0 .com.braze.requests.framework.g: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 18:51:42.753 22998 23062 D Braze v37.0.0 .y: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 18:51:42.753 22998 23062 V Braze v37.0.0 .f: recalculateDispatchState called with session state: NO_SESSION lastNetworkLevel: BAD
+03-13 18:51:42.753 22998 23062 V Braze v37.0.0 .f: currentIntervalMs: -1
+03-13 18:51:42.757  2053 14820 I StatsHandler: [hvcD_757] Stats: Pending(0) i/p-done(0) Works: Q: 199/Done 186|Work-Rate: Q(0.0/s Avg=10.7/s) Done(0.000/s Avg=10.018/s)| Stream: 20.00fps 30.7Kbps
+03-13 18:51:42.757  2053 14820 I StatsHandler: [hvcD_757] Mem-usage:  [In-1D: 11 bufs 88.000 MB] [1D-5099: 30 bufs 0.469 MB] [2D-5100: 19 bufs 7.422 MB] | Total: 95.891 MB
+03-13 18:51:42.757  2053 14820 I StatsHandler: [hvcD_759] Stats: Pending(0) i/p-done(0) Works: Q: 131/Done 120|Work-Rate: Q(23.0/s Avg=12.9/s) Done(21.160/s Avg=11.810/s)| Stream: 30.30fps 1.5Mbps
+03-13 18:51:42.757  2053 14820 I StatsHandler: [hvcD_759] Mem-usage:  [In-1D: 12 bufs 96.000 MB] [1D-5103: 32 bufs 0.500 MB] [2D-5104: 20 bufs 63.750 MB] | Total: 160.250 MB
+03-13 18:51:42.758  4205  4389 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 18:51:42.760  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-13 18:51:42.760  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-13 18:51:42.760  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) RSSI=-64
+03-13 18:51:42.761  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-13 18:51:42.761  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -64.0,"latency": 0.08620622619619375,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 886 / 3 / 1.04 (27) / 573 / -64.0 || 100.0 : 573.00 / 0.5 : 0.96 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.086 / 92.801 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88891722 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 18:51:42.761  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) on (wlan0) GoogleAPI(M: R=141 T=3) RSSI=-64 isDefault=false isMlo=false
+03-13 18:51:42.761  3003  7292 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:42.761  3003  4047 D SGM:GameManager: identifyGamePackage. com.zhiliaoapp.musically, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 18:51:42.761  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.zhiliaoapp.musically, ret=false
+03-13 18:51:42.762  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 1ms
+03-13 18:51:42.762  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:42.762  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:42.762  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:42.762  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:42.762  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-13 18:51:42.762  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-13 18:51:42.762  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 18:51:42.763  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 18:51:42.763  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 26 
+03-13 18:51:42.763  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:42.764  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:42.764  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:42.765  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 18:51:42.765  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:42.765  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 18:51:42.765  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 18:51:42.765  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 18:51:42.766  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 18:51:42.766  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 18:51:42.766  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 18:51:42.782  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 0ms
+03-13 18:51:42.798  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 9ms
+03-13 18:51:42.799  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 1ms
+03-13 18:51:42.802  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 3ms
+03-13 18:51:42.834  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:51:42.835  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:51:42.835  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:51:42.835  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:51:42.836  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 11141ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:42.845  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E2:04, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-85, periodicAdvInt=0x0
+03-13 18:51:42.847 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 18:51:42.859 14238 15261 W KEVA.NATIVE: mark bitmap can not find space! remain=8 wanted=3
+03-13 18:51:42.882  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 76ms
+03-13 18:51:42.882  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 93ms
+03-13 18:51:42.883  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 78ms
+03-13 18:51:42.883  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:51:42.883  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 18:51:42.965  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:42.965  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:42.966  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:42.966  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:42.987  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 11292ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:43.037  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 18:51:43.130 14238 15749 W KEVA.NATIVE: mark bitmap can not find space! remain=65 wanted=3
+03-13 18:51:43.138  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 11443ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:43.161 14238 15790 D PTY-JNI : Watch dog is disabled!
+03-13 18:51:43.170  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:43.171  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:43.171  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:43.175  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:43.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442303
+03-13 18:51:43.214  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:43.214  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 337 
+03-13 18:51:43.214  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:43.215  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:43.215  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:43.215  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:43.216  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:43.216  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:43.257 16161  6853 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 18:51:43.288  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 11594ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:43.360 14238 14815 D BufferPoolAccessor2.0: bufferpool2 0x70dfa38028 : 11(92274688 size) total buffers - 11(92274688 size) used buffers - 139/151 (recycle/alloc) - 15/151 (fetch/transfer)
+03-13 18:51:43.372  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:43.372  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:43.372  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:43.373  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:43.440  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 11745ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:43.444 14238 14244 I aoapp.musically: Background concurrent mark compact GC freed 28MB AllocSpace bytes, 85(6244KB) LOS objects, 30% free, 107MB/155MB, paused 1.531ms,2.837ms total 329.783ms
+03-13 18:51:43.450 14238 14246 W System  : A resource failed to call close. 
+03-13 18:51:43.573  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:43.573  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:43.574  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:43.575  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:43.593  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 11898ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:43.623  3003  4920 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-13 18:51:43.623  3003  4920 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 18:51:43.745  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 12050ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:43.775  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:43.775  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:43.776  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:43.776  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:43.817  2059  2086 E BatteryDump: !@new_battery_dump : 4325,-134,375,550,100,338,277,413,278,0,372,398,278,Full,NO_CHARGING,Additional,Good,USB,1,Normal,0,0,11400,0x8000,0x10010000,0x0,0,0,0000,0000,00000000,4325,4349,4,-138,10,0,981,977,0,
+03-13 18:51:43.819  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-13 18:51:43.820  2059  2059 I sehhealth-service: updateLrpSysfs: write: 371
+03-13 18:51:43.868  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)false)false)
+03-13 18:51:43.868  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)false)false)
+03-13 18:51:43.869  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)false)false)false)
+03-13 18:51:43.869  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)false)false)false)
+03-13 18:51:43.869  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 2
+03-13 18:51:43.869  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 18:51:43.871  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 18:51:43.871  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 18:51:43.883  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 18:51:43.884  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 18:51:43.884  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 18:51:43.884  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 18:51:43.886  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 18:51:43.886  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 18:51:43.888  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 0
+03-13 18:51:43.888  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 18:51:43.896  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 12201ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:43.901  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 18:51:43.901  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 18:51:43.901  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 18:51:43.901  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 18:51:43.976  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:43.977  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:43.979  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:43.980  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:44.046  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 12352ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:44.177  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:44.178  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:44.179  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:44.180  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:44.181 14238 14814 D BufferPoolAccessor2.0: bufferpool2 0x70df9e5318 : 0(0 size) total buffers - 0(0 size) used buffers - 248/260 (recycle/alloc) - 13/251 (fetch/transfer)
+03-13 18:51:44.181 14238 14814 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+03-13 18:51:44.197  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 12502ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:44.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442304
+03-13 18:51:44.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:44.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:44.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:44.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:44.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:44.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:44.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:44.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:44.275  3003  4920 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:44.282  3003  7292 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:44.284  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:44.284  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:44.284  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:44.284  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:44.286 16536 16536 I wpa_supplicant: nl80211: Vendor event: wiphy=0 vendor_id=0x1374 subcmd=182
+03-13 18:51:44.288  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] wait_event:Wait done with Cmd 103
+03-13 18:51:44.288  2017  4098 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xb6
+03-13 18:51:44.288  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+03-13 18:51:44.288  2548  2548 I cnss-daemon: nl80211 response handler invoked
+03-13 18:51:44.288  2548  2548 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 182  received
+03-13 18:51:44.314  2053  2901 D BufferPoolAccessor2.0: bufferpool2 0xb400006f37a57d18 : 32(524288 size) total buffers - 32(524288 size) used buffers - 0/32 (recycle/alloc) - 0/0 (fetch/transfer)
+03-13 18:51:44.314  2053  2901 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+03-13 18:51:44.347  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 12652ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:44.378  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:44.379  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:44.379  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:44.379  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:44.498  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 12803ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:44.580  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:44.580  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:44.581  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:44.582  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:44.649  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 12954ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:44.649  2053 15355 W C2BqBuffer: last successful dequeue was 12982229 us ago, 0 consecutive failures
+03-13 18:51:44.686 16536 16536 I wpa_supplicant: Heartbeat 3106
+03-13 18:51:44.737  1171  1171 D io_stats: !@   8,0 r 4751967 142816772 w 6246826 122579868 d 503391 138246036 f 260428 592857 iot 2522740 0 th 0 0 0 pt 0 inp 0 0 88893.734
+03-13 18:51:44.780  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:44.781  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:44.782  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:44.784  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:44.799  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 13104ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:44.950  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 13255ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:44.981  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:44.982  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:44.982  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:44.983  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:45.100  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 13405ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:45.181 14238 14814 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-13 18:51:45.182  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:45.182  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:45.183  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:45.183  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:45.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442305
+03-13 18:51:45.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:45.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:45.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:45.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:45.208  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:45.208  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:45.209  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:45.210  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:45.251  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 13556ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:45.300  3003  3082 I ActivityManager: Changes in 10138 5 to 15, 144 to 0
+03-13 18:51:45.314  2053  2901 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-13 18:51:45.384  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:45.384  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:45.385  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:45.385  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:45.404  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 13709ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:45.444  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:45.445  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:45.458  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.aremoji(0)
+03-13 18:51:45.458  3003  5506 D FreecessHandler: freeze com.samsung.android.aremoji(10044) result : 8
+03-13 18:51:45.458  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:45.458  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:45.465  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.gallery3d(0)
+03-13 18:51:45.466  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 8
+03-13 18:51:45.466  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:45.466  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:45.478  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.game.gamehome(0)
+03-13 18:51:45.478  3003  5506 D FreecessHandler: freeze com.samsung.android.game.gamehome(10318) result : 8
+03-13 18:51:45.478  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:45.478  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:45.484  3003  5506 D MARs:ActiveTrafficFilter: filter : com.costco.app.android(0)
+03-13 18:51:45.484  3003  5506 D FreecessHandler: freeze com.costco.app.android(10348) result : 8
+03-13 18:51:45.484  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:45.485  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:45.490  3003  5506 D MARs:ActiveTrafficFilter: filter : com.nike.omega(0)
+03-13 18:51:45.490  3003  5506 D FreecessHandler: freeze com.nike.omega(10354) result : 8
+03-13 18:51:45.491  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:45.491  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:45.500  3003  5506 D MARs:ActiveTrafficFilter: filter : ctrip.english(0)
+03-13 18:51:45.500  3003  5506 D FreecessHandler: freeze ctrip.english(10424) result : 8
+03-13 18:51:45.555  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 13861ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:45.585  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:45.586  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:45.586  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:45.586  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:45.706  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 14011ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:45.747  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [115 WIFI]
+03-13 18:51:45.750  2007 11608 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 146(146),c:16,b:85,m:13,cl:3,l:145,s:144,l0:12016,l1:32,s0:11458,s1:0,acl:1,opr:0.43,f(r):97,u(bl):106,if:0,wi:2,si:8,po:0(N:0)
+03-13 18:51:45.752  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 18:51:45.753  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 18:51:45.754  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 115(valid: true/captive: false)
+03-13 18:51:45.755  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=7026Kbps LinkDnBandwidth>=132320Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.**.*.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -63, Link speed: 573Mbps, Tx Link speed: 573Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 458Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -63 AdminUids: [1000] SSID: "MSU-Secure" UnderlyingNetworks: Null]
+03-13 18:51:45.757  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 24026, isSameBssidAndFreq true
+03-13 18:51:45.760  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 18:51:45.761  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 18:51:45.762  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-13 18:51:45.763  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-13 18:51:45.763  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-13 18:51:45.764  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:132.32Uplink: 7.026
+03-13 18:51:45.765  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 1160 / 23 / 1.01 (303) / 573 / -63.0 || 100.0 : 573.00 / 0.5 : 0.99 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.087 / 91.514 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88894760 0 || Invalid
+03-13 18:51:45.769  4600  5502 D txpwrJni: sendNetworkInfo start
+03-13 18:51:45.770  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-13 18:51:45.771  3003  4047 D SGM:GameManager: identifyGamePackage. com.zhiliaoapp.musically, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 18:51:45.771  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.zhiliaoapp.musically, ret=false
+03-13 18:51:45.773  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) RSSI=-63
+03-13 18:51:45.776  4205  4421 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 18:51:45.777  4205  4389 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 18:51:45.778  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-13 18:51:45.780  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-13 18:51:45.780 16161 16193 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-13 18:51:45.780 16161 16193 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-13 18:51:45.781  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) on (wlan0) GoogleAPI(M: R=132 T=7) RSSI=-63 isDefault=false isMlo=false
+03-13 18:51:45.782  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-13 18:51:45.782  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-13 18:51:45.783  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 18:51:45.783  4184  4872 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-13 18:51:45.784  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 18:51:45.785  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 26 
+03-13 18:51:45.785  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 18:51:45.785  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 18:51:45.785  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 18:51:45.786  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 18:51:45.786  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 18:51:45.786  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 18:51:45.788  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:45.788  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:45.795 22998 23062 D Braze v37.0.0 .d: com.braze.events.internal.o fired:
+03-13 18:51:45.795 22998 23062 D Braze v37.0.0 .d: NetworkLevelChangeEvent(oldNetworkLevel=BAD, newNetworkLevel=GOOD)
+03-13 18:51:45.795  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 18:51:45.795 22998 23062 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 0 subscribers.
+03-13 18:51:45.795  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 18:51:45.795 22998 23062 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 2 subscribers.
+03-13 18:51:45.795 22998 23062 D Braze v37.0.0 .com.braze.requests.framework.g: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=BAD, newNetworkLevel=GOOD)
+03-13 18:51:45.795 22998 23062 D Braze v37.0.0 .y: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=BAD, newNetworkLevel=GOOD)
+03-13 18:51:45.795  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 18:51:45.795  3003  4030 D InsDataManager: trimBuffers start.
+03-13 18:51:45.795  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 18:51:45.795 22998 23062 V Braze v37.0.0 .f: recalculateDispatchState called with session state: NO_SESSION lastNetworkLevel: GOOD
+03-13 18:51:45.795 22998 23062 V Braze v37.0.0 .f: currentIntervalMs: -1
+03-13 18:51:45.795  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 18:51:45.795  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -63.0,"latency": 0.08741806996458945,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 1160 / 23 / 1.01 (303) / 573 / -63.0 || 100.0 : 573.00 / 0.5 : 0.99 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.087 / 91.514 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88894760 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 18:51:45.796  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 18:51:45.801  3003  4564 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:45.807  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:45.808  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:45.808  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-13 18:51:45.810  3003  4920 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:45.815  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:45.815  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:45.815  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:45.819  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:45.839  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:45.839  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:45.844  3003  5506 D MARs:ActiveTrafficFilter: filter : com.instagram.android(0)
+03-13 18:51:45.844  3003  5506 D FreecessHandler: freeze com.instagram.android(10428) result : 8
+03-13 18:51:45.856  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 14162ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:45.988  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:45.989  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:45.989  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:45.990  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:46.007  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 14312ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:46.045  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:46.046  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:46.060  3003  5506 D MARs:ActiveTrafficFilter: filter : com.facebook.katana(0)
+03-13 18:51:46.060  3003  5506 D FreecessHandler: freeze com.facebook.katana(10340) result : 8
+03-13 18:51:46.157  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 14462ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:46.190  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:46.190  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:46.191  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:46.192  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:46.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442306
+03-13 18:51:46.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:46.207  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:46.208  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:46.208  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:46.209  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:46.210  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:46.212  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:46.215  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:46.284 16161  6853 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 18:51:46.307  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 14612ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:46.391  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:46.391  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:46.392  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:46.394  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:46.409  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:51:46.410  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:51:46.411  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:51:46.411  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:51:46.423  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E2:04, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-79, periodicAdvInt=0x0
+03-13 18:51:46.427 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 18:51:46.456  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:51:46.456  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 18:51:46.458  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 14763ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:46.586  2022 15395 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4567772
+03-13 18:51:46.591  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:46.592  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:46.592  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:46.592  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:46.606  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 18:51:46.608  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 14913ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:46.710  2007 11608 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 214(214),c:16,b:85,m:13,cl:3,l:218,s:215,l0:17904,l1:48,s0:17057,s1:0,acl:1,opr:0.39,f(r):97,u(bl):106,if:0,wi:3,si:12,po:0(N:0)
+03-13 18:51:46.738  1171  1171 D io_stats: !@   8,0 r 4751967 142816772 w 6246831 122579884 d 503391 138246036 f 260429 592858 iot 2522744 0 th 0 0 0 pt 0 inp 0 0 88895.735
+03-13 18:51:46.739  1171  1171 D io_stats: !@ Write_top(KB): aoapp.musically(14238) 8648 f2fs_ckpt-254:6(5380) 1496 system_server(3003) 44
+03-13 18:51:46.758  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 15063ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:46.793  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:46.793  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:46.794  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:46.794  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:46.908  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 15214ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:46.958  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,420, ts,269507523091040, ts_diff,838788
+03-13 18:51:46.958  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,0.263,7.896,6.059, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 18:51:46.959  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-13 18:51:46.959  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-13 18:51:46.960  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+03-13 18:51:46.962  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 18:51:46.962  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 18:51:46.994  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:46.994  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:46.995  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:46.995  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:47.059  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 15364ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:47.195  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:47.196  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:47.197  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:47.197  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:47.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442307
+03-13 18:51:47.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:47.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:47.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:47.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:47.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:47.208  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:47.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:47.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:47.210  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 15515ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:47.322  3003  4920 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:47.333  3003  4920 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:47.342  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:47.342  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:47.342  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:47.342  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:47.361  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 15666ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:47.397  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:47.398  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:47.398  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:47.398  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:47.510  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 209(209),c:16,b:85,m:13,cl:3,l:213,s:207,l0:17568,l1:48,s0:16341,s1:0,acl:1,opr:0.52,f(r):97,u(bl):106,if:0,wi:3,si:8,po:0(N:0)
+03-13 18:51:47.511  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 15816ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:47.598  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:47.599  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:47.599  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:47.600  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:47.661  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 15966ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:47.757  2053 14820 I StatsHandler: [hvcD_757] Stats: Pending(0) i/p-done(0) Works: Q: 199/Done 186|Work-Rate: Q(0.0/s Avg=8.4/s) Done(0.000/s Avg=7.892/s)| Stream: 20.00fps 30.7Kbps
+03-13 18:51:47.757  2053 14820 I StatsHandler: [hvcD_757] Mem-usage:  [In-1D: 11 bufs 88.000 MB] [1D-5099: 30 bufs 0.469 MB] [2D-5100: 19 bufs 7.422 MB] | Total: 95.891 MB
+03-13 18:51:47.757  2053 14820 I StatsHandler: [hvcD_759] Stats: Pending(0) i/p-done(0) Works: Q: 283/Done 271|Work-Rate: Q(30.4/s Avg=18.7/s) Done(30.198/s Avg=17.874/s)| Stream: 30.30fps 2.2Mbps
+03-13 18:51:47.757  2053 14820 I StatsHandler: [hvcD_759] Mem-usage:  [In-1D: 12 bufs 96.000 MB] [1D-5103: 32 bufs 0.500 MB] [2D-5104: 20 bufs 63.750 MB] | Total: 160.250 MB
+03-13 18:51:47.794  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 2ms
+03-13 18:51:47.800  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:47.800  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:47.801  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:47.801  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:47.812  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 16117ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:47.827 16538 14485 I MobileWips::ns: Datetime result: [1773442302987, 1773442308032, -1]
+03-13 18:51:47.828 16538 14485 I MobileWips::ns: Final detection result: [ssid: 4eb17f79ec7c7688927e6fad872c5aeac44e9ad2a0e36f63a92b68d72185908f, bssid: f450f43cec6bbd1ee09df89eee396598f6940a95383fca779ac6b7e0b0811015, freq: 5765, result: benign]
+03-13 18:51:47.962  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 16268ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:48.002  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:48.002  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:48.004  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:48.004  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:48.113  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 16418ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:48.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442308
+03-13 18:51:48.202  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:48.202  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:48.203  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:48.204  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:48.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:48.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:48.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:48.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:48.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:48.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:48.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:48.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:48.262 15170 15176 W amsung.drmboost: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+03-13 18:51:48.264  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 16569ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:48.403  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:48.403  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:48.404  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:48.404  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:48.414  2053 15355 W QC2V4l2Decoder: [v4lhvcD_757] Allocating output buffer timedout, 16720ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:51:48.443  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:51:48.444  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:51:48.444  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:51:48.444  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:51:48.452  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E2:04, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-86, periodicAdvInt=0x0
+03-13 18:51:48.455 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 18:51:48.489  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:51:48.489  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 18:51:48.550 14238 15527 D BufferPoolAccessor2.0: bufferpool2 0x70dfa38028 : 11(92274688 size) total buffers - 10(83886080 size) used buffers - 295/307 (recycle/alloc) - 15/308 (fetch/transfer)
+03-13 18:51:48.571  3003  4027 I SemWifiServiceDetector: NSD results: [0, 1, 2, 0, 0, 1, -1, 0, 0] Traff. type 1 Thr 0
+03-13 18:51:48.591  3003  3631 D ActivityManager: freezing 14907 com.samsung.cmh
+03-13 18:51:48.597  3003  3631 I UMR     : B|Compact com.samsung.cmh(14907)
+03-13 18:51:48.598  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-13 18:51:48.599  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:48.600  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-13 18:51:48.600  3003  3941 D InetDiagMessage: Destroyed live tcp sockets for uids={5004} in 4ms
+03-13 18:51:48.600  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:48.604  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:48.604  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:48.605  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:48.606  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:48.610  3003  5506 D MARs:ActiveTrafficFilter: filter : onxmaps.hunt(0)
+03-13 18:51:48.610  3003  5506 D FreecessHandler: freeze onxmaps.hunt(10472) result : 8
+03-13 18:51:48.639  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 18:51:48.669  3003  3631 I UMR     : E|Compact d_rss=-9376KB
+03-13 18:51:48.740  1171  1171 D io_stats: !@   8,0 r 4751967 142816772 w 6247220 122597852 d 503391 138246036 f 260429 592858 iot 2522780 0 th 0 0 0 pt 0 inp 0 0 88897.736
+03-13 18:51:48.778  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 24027, isSameBssidAndFreq true
+03-13 18:51:48.782  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 345 / 1 / 1.00 (9) / 573 / -58.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.086 / 92.839 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88897777 0 || Invalid
+03-13 18:51:48.782  3003  4047 D SGM:GameManager: identifyGamePackage. com.zhiliaoapp.musically, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 18:51:48.782  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.zhiliaoapp.musically, ret=false
+03-13 18:51:48.783  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 18:51:48.783  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 18:51:48.783  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 18:51:48.783  3003  4030 D InsDataManager: trimBuffers start.
+03-13 18:51:48.783  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 18:51:48.784  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 18:51:48.784  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -58.0,"latency": 0.08617090791022362,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 345 / 1 / 1.00 (9) / 573 / -58.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.086 / 92.839 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88897777 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 18:51:48.805  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:48.805  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:48.807  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:48.807  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:48.846  3003  4920 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:48.854  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:48.855  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:48.856  3003  4920 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:48.862  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:48.864  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:48.891  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) throttle end: throttle time(1)
+03-13 18:51:48.988  1992  4982 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 18:51:48.989  1992  4982 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 18:51:48.989  1992  4982 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 18:51:48.991  1992  4982 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x10010ee4 3812
+03-13 18:51:48.992  1992  4982 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 21029105(40.109833) for channel-0
+03-13 18:51:48.992  1992  4982 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_RCV received 40
+03-13 18:51:48.992  1992  4982 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 40
+03-13 18:51:48.993  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 40
+03-13 18:51:48.993  1992  4982 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 18:51:48.993  1992  4982 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 18:51:48.993  1992  4982 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 18:51:48.993  1992  4982 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x20010ee4 3812
+03-13 18:51:48.994  1992  4982 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 23147720(44.150772) for channel-1
+03-13 18:51:48.994  1992  4982 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_SPK received 44
+03-13 18:51:48.994  1992  4982 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 44
+03-13 18:51:48.994  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 44
+03-13 18:51:48.996  6380  7375 I SDHMS:x : SIOP:: AP:408 BAT:338 USB:278 CHG:405 PA:412 CP:401 WIFI:395 BLK:0 SUBBAT:279 LRPTHM:384 SKIN:369 SKINF:369 SKINB:357 LRP2:369 LRF2:369 LRB2:357 AP2:368 CHG2:366 MEM2:369 WIFI2:369 RCV2:369 SPK2:287 UPSPK:376 DNSPK:294 VAP:402 VWIFI:384 AMB2:248 AVGCUR:-41 AVGSYS:365 POWER:-177
+03-13 18:51:49.005  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:49.005  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:49.006  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:49.006  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:49.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442309
+03-13 18:51:49.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:49.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:49.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:49.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:49.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:49.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:49.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:49.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:49.208  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:49.209  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:49.210  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:49.212  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:49.408  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:49.409  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:49.411  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:49.411  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:49.610  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:49.611  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:49.611  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:49.613  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:49.812  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:49.813  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:49.813  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:49.815  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:49.910  2007 11608 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 231(231),c:17,b:85,m:13,cl:4,l:227,s:232,l0:18704,l1:48,s0:18359,s1:0,acl:1,opr:0.50,f(r):97,u(bl):106,if:0,wi:3,si:12,po:0(N:0)
+03-13 18:51:50.015  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:50.017  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:50.018  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:50.020  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:50.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442310
+03-13 18:51:50.208  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:50.209  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:50.210  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:50.211  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:50.212  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:50.213  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:50.216  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:50.218  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:50.219  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:50.220  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:50.222  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:50.223  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:50.230  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:51:50.230  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:51:50.230  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:51:50.231  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:51:50.238  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E2:04, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-66, periodicAdvInt=0x0
+03-13 18:51:50.241 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 18:51:50.275  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:51:50.275  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 18:51:50.365  3003  4920 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:50.381  3003  4920 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:50.385  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:50.386  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:50.386  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:50.386  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:50.420  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:50.420  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:50.420  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:50.421  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:50.425  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 18:51:50.620  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:50.620  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:50.621  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:50.621  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:50.741  1171  1171 D io_stats: !@   8,0 r 4751973 142816844 w 6247371 122600096 d 503399 138248832 f 260432 592867 iot 2522852 0 th 0 0 0 pt 0 inp 0 0 88899.737
+03-13 18:51:50.741  1171  1171 D io_stats: !@ Read_top(KB): nytimes.android(21464) 48 aoapp.musically(14238) 20 system_server(3003) 4
+03-13 18:51:50.741  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:1(22516) 17956 f2fs_ckpt-254:6(5380) 1560 aoapp.musically(14238) 136
+03-13 18:51:50.820  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:50.821  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:50.823  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:50.823  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:51.021  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:51.021  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:51.021  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:51.022  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:51.158  3003  7438 I AfterimageCompensationService: AfcThread mLuminance : 121 , AfpcPeriodCount : 2071 , rotation : 0 , AOD : false
+03-13 18:51:51.160  3003  7438 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 18:51:51.163  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811(seamlessTransition:0)
+03-13 18:51:51.163  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 18:51:51.163  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#80550(seamlessTransition:0)
+03-13 18:51:51.163  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 18:51:51.164  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 18:51:51.164  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 18:51:51.164  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 at index 1
+03-13 18:51:51.165  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 18:51:51.165  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#80550 at index 3
+03-13 18:51:51.165  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 18:51:51.171  3003  7438 D system_server: mAFPC_Read - w = 1080, h = 2640, s = 8, f = 4, s_size = 11489280, luminance = 121, count = 2071, captureOrientation = 0
+03-13 18:51:51.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442311
+03-13 18:51:51.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:51.203  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:51.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:51.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:51.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:51.204  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:51.204  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:51.204  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:51.222  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:51.223  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:51.224  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:51.225  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:51.422  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:51.422  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:51.423  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:51.423  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:51.460  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:51.463  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:51.471  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.aremoji(0)
+03-13 18:51:51.471  3003  5506 D FreecessHandler: freeze com.samsung.android.aremoji(10044) result : 8
+03-13 18:51:51.471  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:51.472  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:51.481  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.gallery3d(0)
+03-13 18:51:51.481  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 8
+03-13 18:51:51.481  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:51.481  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:51.488  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.game.gamehome(0)
+03-13 18:51:51.488  3003  5506 D FreecessHandler: freeze com.samsung.android.game.gamehome(10318) result : 8
+03-13 18:51:51.488  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:51.488  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:51.497  3003  5506 D MARs:ActiveTrafficFilter: filter : com.costco.app.android(0)
+03-13 18:51:51.497  3003  5506 D FreecessHandler: freeze com.costco.app.android(10348) result : 8
+03-13 18:51:51.497  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:51.497  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:51.503  3003  5506 D MARs:ActiveTrafficFilter: filter : com.nike.omega(0)
+03-13 18:51:51.504  3003  5506 D FreecessHandler: freeze com.nike.omega(10354) result : 8
+03-13 18:51:51.504  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:51.504  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:51.512  3003  5506 D MARs:ActiveTrafficFilter: filter : ctrip.english(0)
+03-13 18:51:51.512  3003  5506 D FreecessHandler: freeze ctrip.english(10424) result : 8
+03-13 18:51:51.535 14110 14145 W QueryController: Could not detect idle state.
+03-13 18:51:51.583  3003  4027 I SemWifiServiceDetector: NSD results: [0, 1, 2, 0, 0, 1, -1, 1, 0] Traff. type 1 Thr 7
+03-13 18:51:51.585  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 71:2:3:902399:1824000:672000:887808:1824000:499200:231:231:231
+03-13 18:51:51.624  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:51.629  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-13 18:51:51.627  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:51.633  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:51.637  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:51.794  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 24028, isSameBssidAndFreq true
+03-13 18:51:51.796  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 586 / 3 / 1.00 (19) / 573 / -57.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.665 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88900791 0 || Invalid
+03-13 18:51:51.800  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 18:51:51.800  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 18:51:51.801  3003  4047 D SGM:GameManager: identifyGamePackage. com.zhiliaoapp.musically, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 18:51:51.802  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.zhiliaoapp.musically, ret=false
+03-13 18:51:51.803  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 18:51:51.803  3003  4030 D InsDataManager: trimBuffers start.
+03-13 18:51:51.803  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 18:51:51.804  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 18:51:51.804  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -57.0,"latency": 0.08633210301174343,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 586 / 3 / 1.00 (19) / 573 / -57.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.665 / N || N N / 0 0 / Y 2.0 / Y X 0 / 88900791 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 18:51:51.827  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:51.827  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:51.828  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:51.828  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:51.845  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:51.845  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:51.855  3003  5506 D MARs:ActiveTrafficFilter: filter : com.instagram.android(0)
+03-13 18:51:51.855  3003  5506 D FreecessHandler: freeze com.instagram.android(10428) result : 8
+03-13 18:51:51.898  3003  7292 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:51.904  3003  7292 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:51.912  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:51.916  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:51.917  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:51.918  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:52.028  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:52.028  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:52.028  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:52.029  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:52.060  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 18:51:52.061  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 18:51:52.068  3003  5506 D MARs:ActiveTrafficFilter: filter : com.facebook.katana(0)
+03-13 18:51:52.069  3003  5506 D FreecessHandler: freeze com.facebook.katana(10340) result : 8
+03-13 18:51:52.085  3003  4027 I SemWifiServiceDetector: NSD results: [0, 1, 2, 0, 0, 0, -1, 1, 0] Traff. type 1 Thr 0
+03-13 18:51:52.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442312
+03-13 18:51:52.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:52.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:52.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:52.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:52.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:52.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:52.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:52.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:52.229  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:52.230  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:52.234  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:52.235  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:52.268  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:51:52.269  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:51:52.269  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:51:52.270  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:51:52.275  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E2:04, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-78, periodicAdvInt=0x0
+03-13 18:51:52.279 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 18:51:52.313  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:51:52.313  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 18:51:52.411  3003  4920 I AppWidgetServiceImpl: getInstalledProvidersForProfiles lock in com.zhiliaoapp.musically
+03-13 18:51:52.412  3003  4920 I AppWidgetServiceImpl: getInstalledProvidersForProfiles lock exit 7
+03-13 18:51:52.414  3003  3082 I AppWidgetServiceImpl: handleSaveMessage 0
+03-13 18:51:52.431  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:52.431  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:52.431  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:52.432  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:52.463  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 18:51:52.495 14110 14145 I appium  : AppiumResponse: {"sessionId":"0964889b-4f2d-4a9a-b4d3-76e7e68883ac","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.zhiliaoapp.musically\" class=\…
+03-13 18:51:52.507  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,1 acc,-2.675,5.882,7.719, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 18:51:52.514 14110 14145 I appium  : channel read: GET /session/0964889b-4f2d-4a9a-b4d3-76e7e68883ac/screenshot
+03-13 18:51:52.514 14110 14145 I appium  : CaptureScreenshot command
+03-13 18:51:52.515 14110 14145 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:51:52.515 14110 14145 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:51:52.630  2007 11608 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 227(227),c:17,b:85,m:13,cl:4,l:225,s:227,l0:18512,l1:48,s0:17968,s1:0,acl:1,opr:0.44,f(r):97,u(bl):106,if:0,wi:3,si:12,po:0(N:0)
+03-13 18:51:52.630  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 227(227),c:17,b:85,m:13,cl:4,l:225,s:227,l0:18512,l1:48,s0:17968,s1:0,acl:1,opr:0.44,f(r):97,u(bl):106,if:0,wi:3,si:12,po:0(N:0)
+03-13 18:51:52.632  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:52.632  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:52.633  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:52.634  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:52.647  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) Spend too much time to write: delta 34(effect 1, stage 0)
+03-13 18:51:52.671 15813 15813 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 18:51:52.671 15813 15813 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 18:51:52.672 15813 15813 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 18:51:52.672  3003  4564 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 18:51:52.672  3003  4564 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 18:51:52.673 15813 15813 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 18:51:52.673 15813 15813 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 18:51:52.673  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) throttle end: throttle time(2)
+03-13 18:51:52.686  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811(seamlessTransition:0)
+03-13 18:51:52.686  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 18:51:52.686  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#80550(seamlessTransition:0)
+03-13 18:51:52.686  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 18:51:52.687  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 18:51:52.687  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 18:51:52.688  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_14238#80811 at index 1
+03-13 18:51:52.688  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 18:51:52.688  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#80550 at index 3
+03-13 18:51:52.688  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 18:51:52.742  1171  1171 D io_stats: !@   8,0 r 4751985 142816908 w 6247381 122600248 d 503399 138248832 f 260433 592869 iot 2522888 0 th 0 0 0 pt 0 inp 0 0 88901.738
+03-13 18:51:52.758  2053 14820 I StatsHandler: [hvcD_757] Stats: Pending(0) i/p-done(0) Works: Q: 199/Done 186|Work-Rate: Q(0.0/s Avg=7.0/s) Done(0.000/s Avg=6.511/s)| Stream: 20.00fps 30.7Kbps
+03-13 18:51:52.758  2053 14820 I StatsHandler: [hvcD_757] Mem-usage:  [In-1D: 11 bufs 88.000 MB] [1D-5099: 30 bufs 0.469 MB] [2D-5100: 19 bufs 7.422 MB] | Total: 95.891 MB
+03-13 18:51:52.758  2053 14820 I StatsHandler: [hvcD_759] Stats: Pending(0) i/p-done(0) Works: Q: 432/Done 420|Work-Rate: Q(29.8/s Avg=21.4/s) Done(29.796/s Avg=20.831/s)| Stream: 30.30fps 3.6Mbps
+03-13 18:51:52.758  2053 14820 I StatsHandler: [hvcD_759] Mem-usage:  [In-1D: 12 bufs 96.000 MB] [1D-5103: 32 bufs 0.500 MB] [2D-5104: 20 bufs 63.750 MB] | Total: 160.250 MB
+03-13 18:51:52.766 15813 15818 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 18:51:52.768 15813 15813 W qdgralloc: Failed to load libubwcp.so
+03-13 18:51:52.833  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:52.838  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:52.839  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:52.840  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:52.924 14238 15801 E Forest_null: could not get any valid resource meta
+03-13 18:51:52.927 14238 15801 I Forest_GeckoFetcher: [KeyInfo:fetchAsync] msg = offline resource exist:false extraRuntimeInfo = {support_directory=false, gecko_config_from=client_config, gecko_channel=bcm_check, wait_low_storage_update=false, check_gecko_file_available=true, gecko_access_key=365b20e8f6c343df1eff65214a0e3e74, disable_gecko_update=false, gecko_sync_update=true, gecko_bundle=bcm_check_conf.json}
+03-13 18:51:52.927 14238 15801 E Forest_null: url.isBlank
+03-13 18:51:53.007 14238 15136 I Forest_GeckoXAdapter: onCheckServerVersionSuccess:requestMap:{365b20e8f6c343df1eff65214a0e3e74=[Pair{tiktok_webview_hook 388981181}, Pair{fe_tiktok_lynx_search_transfer 399406374}, Pair{tiktok_ecommerce_pdp_reviews 399623794}, Pair{tiktok_ecommerce_pdp_product_detail 376143770}, Pair{tiktok_ecommerce_pdp_prodcut_info 399623243}]} responseMap:{} operation: X.0Xjs@6c8e26f
+03-13 18:51:53.008 14238 15136 E Forest_GeckoFetcher: download failed with waitGeckoUpdate=true ,channel = bcm_check,bundle = bcm_check_conf.json,invalid channel
+03-13 18:51:53.039  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:53.039  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:53.042  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:53.042  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:53.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442313
+03-13 18:51:53.212  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:53.214  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 338 
+03-13 18:51:53.215  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:53.216  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:53.217  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:53.222  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:53.225  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:53.228  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:53.242  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:53.242  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:53.243  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:53.243  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:53.309  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 18:51:53.430  3003  4564 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:51:53.439 14238 15794 E Forest_null: could not get any valid resource meta
+03-13 18:51:53.441 14238 15794 I Forest_GeckoFetcher: [KeyInfo:fetchAsync] msg = offline resource exist:false extraRuntimeInfo = {support_directory=false, gecko_config_from=client_config, gecko_channel=bcm_config, wait_low_storage_update=false, check_gecko_file_available=true, gecko_access_key=365b20e8f6c343df1eff65214a0e3e74, disable_gecko_update=false, gecko_sync_update=true, gecko_bundle=bcm_check_conf.json}
+03-13 18:51:53.441 14238 15794 E Forest_null: url.isBlank
+03-13 18:51:53.443  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:53.443  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:53.443  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:53.444  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:53.447  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) Spend too much time to write: delta 34(effect 0, stage 2)
+03-13 18:51:53.451  3003  4923 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:51:53.462  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:53.462  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:53.463  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:53.463  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:51:53.523 14238 15136 I Forest_GeckoXAdapter: onCheckServerVersionSuccess:requestMap:{365b20e8f6c343df1eff65214a0e3e74=[Pair{tiktok_webview_hook 388981181}, Pair{fe_tiktok_lynx_search_transfer 399406374}, Pair{tiktok_ecommerce_pdp_reviews 399623794}, Pair{tiktok_ecommerce_pdp_product_detail 376143770}, Pair{tiktok_ecommerce_pdp_prodcut_info 399623243}]} responseMap:{365b20e8f6c343df1eff65214a0e3e74=[updatePackage: 81190167 ak:365b20e8f6c343df1eff65214a0e3e74, channel:bcm_config, version:387124026, packageType:0, isZstd:true, updateWithPatch:false]} operation: X.0Xjs@da35504
+03-13 18:51:53.581 14238 15137 I Forest_GeckoXAdapter: onUpdateSuccess:channel:bcm_config version:387124026
+03-13 18:51:53.643  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:53.644  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:53.644  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:53.645  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:53.696 14238 15527 D BufferPoolAccessor2.0: bufferpool2 0x70dfa38028 : 11(92274688 size) total buffers - 10(83886080 size) used buffers - 448/460 (recycle/alloc) - 15/461 (fetch/transfer)
+03-13 18:51:53.844  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:53.844  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:53.846  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:53.847  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:54.046  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:54.047  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:54.048  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:54.048  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:51:54.060 14110 14145 I appium  : AppiumResponse: {"sessionId":"0964889b-4f2d-4a9a-b4d3-76e7e68883ac","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFRl/z/+1xkYGEBBVgXBXUsUV9wwBTQzVyx3M3NJb+9WvcvtY+bS3TdzqW7LLCv3TLNMDUpNBZfUTNxFvV1ZZVVAQNa5fn/4m3PPMDMwrMPA6/l4vB/lmetc5zpnzgznvOe6riMBECA…
+03-13 18:51:54.084  2059  2086 E BatteryDump: !@new_battery_dump : 4326,-159,375,550,100,339,278,399,280,0,371,394,280,Full,NO_CHARGING,Additional,Good,USB,1,Normal,0,0,11400,0x8000,0x10010000,0x0,0,0,0000,0000,00000000,4326,4328,-1,-158,10,0,981,977,0,
+03-13 18:51:54.092  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-13 18:51:54.094  2059  2059 I sehhealth-service: updateLrpSysfs: write: 369
+03-13 18:51:54.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442314
+03-13 18:51:54.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:51:54.204  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 339 
+03-13 18:51:54.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557371
+03-13 18:51:54.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:51:54.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:51:54.204  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:51:54.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:51:54.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:51:54.248  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:51:54.248  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:51:54.248  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:51:54.248  3003  3130 D PowerManagerService: displayReady: true groupId=0

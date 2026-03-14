@@ -1,0 +1,55 @@
+--------- beginning of main
+03-13 16:22:14.637 21313 21345 I appium  : channel read: GET /session/39926eeb-7404-4317-b261-ca605839d299/source
+03-13 16:22:14.640 21313 21345 I appium  : Source command
+03-13 16:22:14.642 21313 21345 I appium  : Waiting up to 10000ms for the device to idle
+03-13 16:22:14.694 21393 21393 I View    : setRequestedFrameRate frameRate=NaN, this=o.jA{d82ee2f VFED..... ........ 0,0-1080,168 aid=1073741828}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 o.kf.read:3822 o.jA.dispatchDraw:2114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 16:22:14.694 21393 21393 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{5c51fda V.ED..... ........ 0,0-0,0}, caller=o.kf.read:3822 o.jA.dispatchDraw:2115 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 16:22:14.699  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 16:22:14.708  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 16:22:14.737 21393 21393 I View    : setRequestedFrameRate frameRate=NaN, this=o.jA{b65769e VFED..... ........ 0,0-1080,12 aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 o.kf.read:3822 o.jA.dispatchDraw:2114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 16:22:14.738 21393 21393 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{13f2c0b V.ED..... ........ 0,0-0,0}, caller=o.kf.read:3822 o.jA.dispatchDraw:2115 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 16:22:14.833 21313 21345 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 16:22:14.895 21313 21345 I appium  : AppiumResponse: {"sessionId":"39926eeb-7404-4317-b261-ca605839d299","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.starbucks.mobilecard\" class=\…
+03-13 16:22:14.913 21313 21345 I appium  : channel read: GET /session/39926eeb-7404-4317-b261-ca605839d299/screenshot
+03-13 16:22:14.914 21313 21345 I appium  : CaptureScreenshot command
+03-13 16:22:14.915 21313 21345 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:22:14.915 21313 21345 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:22:15.000 22333 22333 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 16:22:15.000 22333 22333 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 16:22:15.002 22333 22333 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 16:22:15.002  3003  7292 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 16:22:15.004  3003  7292 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 16:22:15.004 22333 22333 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 16:22:15.004 22333 22333 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 16:22:15.006  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.starbucks.mobilecard/o.ddT$_21393#71715(seamlessTransition:0)
+03-13 16:22:15.006  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 16:22:15.006  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#71655(seamlessTransition:0)
+03-13 16:22:15.006  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 16:22:15.006  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 16:22:15.007  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 16:22:15.007  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.starbucks.mobilecard/o.ddT$_21393#71715 at index 1
+03-13 16:22:15.007  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 16:22:15.007  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#71655 at index 3
+03-13 16:22:15.008  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 16:22:15.028  1171  1171 D io_stats: !@   8,0 r 4447945 136263400 w 5635327 113016784 d 462627 126346120 f 237853 537303 iot 2314256 0 th 0 0 0 pt 0 inp 0 0 79924.024
+03-13 16:22:15.029  1171  1171 D io_stats: !@ Read_top(KB): heatmap(2097) 28 screencap(22333) 4 kworker/6:0H(18459) 4
+03-13 16:22:15.030  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:0(20720) 404 ctrip.english(17497) 8 vendor.samsung.(2059) 8
+03-13 16:22:15.044 22333 22339 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 16:22:15.045 22333 22333 W qdgralloc: Failed to load libubwcp.so
+03-13 16:22:15.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773433335
+03-13 16:22:15.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 16:22:15.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 316 
+03-13 16:22:15.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557222
+03-13 16:22:15.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557222
+03-13 16:22:15.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 16:22:15.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557205
+03-13 16:22:15.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 16:22:15.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 16:22:15.227 21313 21345 I appium  : AppiumResponse: {"sessionId":"39926eeb-7404-4317-b261-ca605839d299","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fJPl3j/wT5ImbdO9N3RBmWW1yJYlW4GjHuVR2qKAAzl4VI7bg+c8eoaKW1kyCiioiAgIoiBLNi3QxWpLWzroHulKk9y/P/rL/TRNWrrTwOf9evFS7txc/aYjzf25r+t7SQRBEEBERER…
+03-13 16:22:15.322  3003  7292 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 16:22:15.330  3003  7292 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 16:22:15.332  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:22:15.332  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:22:15.332  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:22:15.332  3003  4002 D BackgroundInstallControlService: Package event received: 0

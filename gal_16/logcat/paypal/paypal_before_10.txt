@@ -1,0 +1,38 @@
+--------- beginning of system
+03-13 14:46:16.586  3003  4185 I Pageboost: Launcher App Execution
+--------- beginning of main
+03-13 14:46:16.636 21067 21094 I appium  : channel read: GET /session/43d6280e-7602-4132-ab26-4e848f5d08f7/source
+03-13 14:46:16.637 21067 21094 I appium  : Source command
+03-13 14:46:16.638 21067 21094 I appium  : Waiting up to 10000ms for the device to idle
+03-13 14:46:16.659 21137 21137 E droid.p2pmobile: No package ID e5 found for resource ID 0xe5bc8dd0.
+03-13 14:46:16.660 21137 21137 E droid.p2pmobile: No package ID cf found for resource ID 0xcf3c604d.
+03-13 14:46:16.660 21137 21137 E droid.p2pmobile: No package ID 4d found for resource ID 0x4dc466ad.
+03-13 14:46:16.683 21067 21094 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 14:46:16.707 21067 21094 I appium  : AppiumResponse: {"sessionId":"43d6280e-7602-4132-ab26-4e848f5d08f7","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.paypal.android.p2pmobile\" cla…
+03-13 14:46:16.720 21067 21094 I appium  : channel read: GET /session/43d6280e-7602-4132-ab26-4e848f5d08f7/screenshot
+03-13 14:46:16.721 21067 21094 I appium  : CaptureScreenshot command
+03-13 14:46:16.722 21067 21094 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:46:16.722 21067 21094 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:46:16.804 21830 21830 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 14:46:16.804 21830 21830 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 14:46:16.805 21830 21830 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 14:46:16.805  3003  3806 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 14:46:16.805  3003  3806 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 14:46:16.805 21830 21830 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 14:46:16.805 21830 21830 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 14:46:16.810  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity$_21137#62832(seamlessTransition:0, secure)
+03-13 14:46:16.810  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0, secure)
+03-13 14:46:16.810  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#62791(seamlessTransition:0, secure)
+03-13 14:46:16.810  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0, secure)
+03-13 14:46:16.811  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 14:46:16.812  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 14:46:16.812  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity$_21137#62832 at index 1
+03-13 14:46:16.812  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 14:46:16.812  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#62791 at index 3
+03-13 14:46:16.812  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 14:46:16.820  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 14:46:16.828  2105  2324 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 14:46:16.851 21830 21835 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 14:46:16.853 21830 21830 W qdgralloc: Failed to load libubwcp.so
+03-13 14:46:16.883  2007 21691 I sensors-hal: handle_sns_client_event:375, [0][76] accel_sample [ 0.050,  4.518,  8.711] 254777421562389
+03-13 14:46:16.972 21067 21094 I appium  : AppiumResponse: {"sessionId":"43d6280e-7602-4132-ab26-4e848f5d08f7","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7NhBDQAgEMCwA/+eQQQPsqRVsPfWzJwBAAAACNu/AwAAAABeGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAECewQEAAADkGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAEC…

@@ -1,0 +1,61 @@
+--------- beginning of main
+03-13 20:46:33.539  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 20:46:33.539  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 20:46:33.540  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 20:46:33.540  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 20:46:33.550  5393  6769 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:9A:8D, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-77, periodicAdvInt=0x0
+03-13 20:46:33.554 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 20:46:33.586  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 20:46:33.586  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 20:46:33.634 24486 24523 I appium  : channel read: GET /session/7f465ff5-78ed-454e-9c5c-5d1bfabd5016/source
+03-13 20:46:33.635 24486 24523 I appium  : Source command
+03-13 20:46:33.636 24486 24523 I appium  : Waiting up to 10000ms for the device to idle
+03-13 20:46:33.737  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 20:46:33.743 24564 24564 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{d994ca4 VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:102 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 20:46:33.743 24564 24564 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{5786ee7 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Api35Impl.setRequestedFrameRate:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:111 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 20:46:33.767 24486 24523 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 20:46:33.842 24486 24523 I appium  : AppiumResponse: {"sessionId":"7f465ff5-78ed-454e-9c5c-5d1bfabd5016","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.whatnot_mobile\" class=\"andro…
+03-13 20:46:33.857 24486 24523 I appium  : channel read: GET /session/7f465ff5-78ed-454e-9c5c-5d1bfabd5016/screenshot
+03-13 20:46:33.858 24486 24523 I appium  : CaptureScreenshot command
+03-13 20:46:33.859 24486 24523 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:46:33.859 24486 24523 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:46:33.946 25217 25217 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 20:46:33.946 25217 25217 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 20:46:33.947 25217 25217 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 20:46:33.947  3003  3806 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 20:46:33.947  3003  3806 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 20:46:33.947 25217 25217 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 20:46:33.947 25217 25217 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 20:46:33.950  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.whatnot_mobile/com.whatnot.MainActivity$_24564#92429(seamlessTransition:0)
+03-13 20:46:33.950  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 20:46:33.950  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#92401(seamlessTransition:0)
+03-13 20:46:33.950  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 20:46:33.950  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 20:46:33.951  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 20:46:33.951  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.whatnot_mobile/com.whatnot.MainActivity$_24564#92429 at index 1
+03-13 20:46:33.952  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 20:46:33.952  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#92401 at index 3
+03-13 20:46:33.952  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 20:46:33.985 25217 25222 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 20:46:33.986 25217 25217 W qdgralloc: Failed to load libubwcp.so
+03-13 20:46:34.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773449194
+03-13 20:46:34.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 20:46:34.203  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 321 
+03-13 20:46:34.203  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557486
+03-13 20:46:34.203  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557462
+03-13 20:46:34.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 20:46:34.204  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557475
+03-13 20:46:34.204  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 20:46:34.204  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 20:46:34.433  3003  4027 I SemWifiServiceDetector: Service det. suspended: T / T / 14493
+03-13 20:46:34.439  3003  3678 D SemInputMotionEventDispatcher: registerMotionEventListener: already registered: com.samsung.android.hardware.secinputdev.taas.ExternalApi$5@7af94ab
+03-13 20:46:34.487  2007 16831 I sensors-hal: handle_sns_client_event:375, [0][11281] accel_sample [-0.202,  5.745,  8.075] 276395040908934
+03-13 20:46:34.538 24486 24523 I appium  : AppiumResponse: {"sessionId":"7f465ff5-78ed-454e-9c5c-5d1bfabd5016","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13dBRl+z7wa7ZksyG9V2oIECABISBFOoqIgEHACr6iiEoNICKgiK8VqS8CVqRYkKIGEAQCokDoIhASYhJaEhJSSK9bfn/ku/PLZjdl0zZLrs85nOPOzs4+G1Nmrrmf+xF8fX21ICIiIiI…
+03-13 20:46:34.571  2007 23908 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 175(175),c:2,b:85,m:13,cl:0,l:175,s:172,l0:14160,l1:32,s0:13671,s1:0,acl:1,opr:0.25,f(r):97,u(bl):111,if:0,wi:2,si:8,po:124(N:0)
+03-13 20:46:34.640  3003  4927 D CustomizedBinderCallsStatsInternal: reportCpuUsage() : 3%
+03-13 20:46:34.640  3003  3082 I BinderCallsStats: Collected cpu time : 0us, collected call count : 0 for 31811989 ms
+03-13 20:46:34.641  3003  4927 D ProcessCpuUsage: [0] 948, {672=27830, 787=4510, 902=8810, 1017=1020, 1132=2300, 1248=1320, 1344=7870, 1459=610, 1574=3150, 1689=290, 1804=1930, 2265=490}
+03-13 20:46:34.641  3003  4927 D ProcessCpuUsage: [2] 1190, {614=30780, 729=430, 844=2930, 960=330, 1075=220, 1190=9370, 1286=190, 1401=340, 1497=230, 1612=970, 1708=730, 1824=430, 1920=230, 2035=400, 2131=1740, 2188=130, 2246=190, 2323=210, 2380=120, 2438=120, 2515=160, 2572=3790, 2630=260, 2707=5560, 3148=270}
+03-13 20:46:34.641  3003  4927 D ProcessCpuUsage: [5] 884, {499=39650, 614=1980, 729=1910, 844=2000, 960=1470, 1075=940, 1190=2400, 1286=140, 1401=170, 1497=130, 1612=790, 1708=160, 1824=190, 1920=150, 2035=210, 2131=250, 2188=120, 2246=130, 2323=140, 2438=130, 2515=100, 2572=2780, 2707=3860, 2956=250}
+03-13 20:46:34.641  3003  4927 D ProcessCpuUsage: [7] 1208, {672=34010, 902=3590, 1248=6990, 1593=850, 1708=5050, 1824=500, 2630=4610, 3187=140, 3302=240, 3398=3430}

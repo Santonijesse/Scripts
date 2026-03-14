@@ -1,0 +1,60 @@
+--------- beginning of main
+03-13 21:30:20.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773451820
+03-13 21:30:20.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 21:30:20.206  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 327 
+03-13 21:30:20.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557530
+03-13 21:30:20.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557522
+03-13 21:30:20.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 21:30:20.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557505
+03-13 21:30:20.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 21:30:20.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 21:30:20.294 28528 28570 I appium  : channel read: GET /session/58dc8fe7-9546-4bd0-a50e-307b20357a48/source
+03-13 21:30:20.297 28528 28570 I appium  : Source command
+03-13 21:30:20.299 28528 28570 I appium  : Waiting up to 10000ms for the device to idle
+03-13 21:30:20.329 28626 28626 I cr_A11yState: Enabled accessibility services list updated. []
+03-13 21:30:20.330 28626 28626 I cr_A11yState: Informing listeners of changes.
+03-13 21:30:20.330 28626 28626 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-13 21:30:20.340 28528 28570 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 21:30:20.351 28528 28570 I appium  : AppiumResponse: {"sessionId":"58dc8fe7-9546-4bd0-a50e-307b20357a48","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.twitter.android\" class=\"andr…
+03-13 21:30:20.362 28528 28570 I appium  : channel read: GET /session/58dc8fe7-9546-4bd0-a50e-307b20357a48/screenshot
+03-13 21:30:20.362 28528 28570 I appium  : CaptureScreenshot command
+03-13 21:30:20.363 28528 28570 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:30:20.363 28528 28570 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+--------- beginning of system
+03-13 21:30:20.374  3003  7293 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 21:30:20.380  3003  6828 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 21:30:20.382  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:30:20.382  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:30:20.382  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:30:20.382  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:30:20.413  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+03-13 21:30:20.413  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 21:30:20.414  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-13 21:30:20.414  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 21:30:20.417  3003  4028 I SemWifiIntelligentTrainingManager: Tr. cond. check: true / 2 (2) / true / 0 (1)
+03-13 21:30:20.417  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+03-13 21:30:20.417  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 21:30:20.417  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-13 21:30:20.417  3003  4028 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 21:30:20.418  3003  4028 D SemWifiIntelligentConnectionManager: IWH tr data stats : 527 / 576
+03-13 21:30:20.438 29327 29327 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 21:30:20.438 29327 29327 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 21:30:20.439 29327 29327 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 21:30:20.439  3003  7293 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 21:30:20.439  3003  7293 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 21:30:20.439 29327 29327 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 21:30:20.439 29327 29327 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:30:20.440  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.twitter.android/com.twitter.android.webview.WebViewActivity$_28626#95679(seamlessTransition:0)
+03-13 21:30:20.440  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:30:20.440  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#95588(seamlessTransition:0)
+03-13 21:30:20.440  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:30:20.441  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:30:20.441  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:30:20.441  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.twitter.android/com.twitter.android.webview.WebViewActivity$_28626#95679 at index 1
+03-13 21:30:20.441  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:30:20.442  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#95588 at index 3
+03-13 21:30:20.442  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:30:20.475 29327 29332 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 21:30:20.476 29327 29327 W qdgralloc: Failed to load libubwcp.so
+03-13 21:30:20.647 28528 28570 I appium  : AppiumResponse: {"sessionId":"58dc8fe7-9546-4bd0-a50e-307b20357a48","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13XJPX4j/wTxIIG0QEZYmKgjiKVsUBbuui1da9qqDYZXtbWvHaelXU1lu3tVpHrXW1VeuoCh0qDrSuq1ZwIDiKyHIgQ3Yg5/eHP/IlJmFDTP28X6/zh89zcp6TEPDJJ2dIAAgQERERERE…
+03-13 21:30:20.712  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,1.747,4.575,8.585, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3

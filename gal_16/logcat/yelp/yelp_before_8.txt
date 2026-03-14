@@ -1,0 +1,74 @@
+--------- beginning of main
+03-13 21:46:34.725 21917 21945 I appium  : channel read: GET /session/c1acae5e-6d8b-4d11-a6e9-89ac8b13764c/source
+03-13 21:46:34.728 21917 21945 I appium  : Source command
+03-13 21:46:34.730 21917 21945 I appium  : Waiting up to 10000ms for the device to idle
+03-13 21:46:34.732  2053 22647 W QC2V4l2Decoder: [v4lavcD_626] Allocating output buffer timedout, 17012ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:46:34.839 21917 21945 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 21:46:34.883  2053 22647 W QC2V4l2Decoder: [v4lavcD_626] Allocating output buffer timedout, 17162ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:46:34.904 21917 21945 I appium  : AppiumResponse: {"sessionId":"c1acae5e-6d8b-4d11-a6e9-89ac8b13764c","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.yelp.android\" class=\"android…
+03-13 21:46:34.925 21917 21945 I appium  : channel read: GET /session/c1acae5e-6d8b-4d11-a6e9-89ac8b13764c/screenshot
+03-13 21:46:34.926 21917 21945 I appium  : CaptureScreenshot command
+03-13 21:46:34.929 21917 21945 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:46:34.929 21917 21945 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:46:35.019 22932 22932 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 21:46:35.019 22932 22932 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 21:46:35.020 22932 22932 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 21:46:35.020  3003  6711 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 21:46:35.020  3003  6711 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 21:46:35.020 22932 22932 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 21:46:35.021 22932 22932 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:46:35.023  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_21990#97126(seamlessTransition:0)
+03-13 21:46:35.023  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:46:35.023  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#97035(seamlessTransition:0)
+03-13 21:46:35.023  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:46:35.023  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:46:35.024  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:46:35.024  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_21990#97126 at index 1
+03-13 21:46:35.024  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:46:35.024  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#97035 at index 3
+03-13 21:46:35.024  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:46:35.034  2053 22647 W QC2V4l2Decoder: [v4lavcD_626] Allocating output buffer timedout, 17313ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:46:35.062 22932 22937 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 21:46:35.063 22932 22932 W qdgralloc: Failed to load libubwcp.so
+03-13 21:46:35.184  2053 22647 W QC2V4l2Decoder: [v4lavcD_626] Allocating output buffer timedout, 17464ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:46:35.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773452795
+03-13 21:46:35.199  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 21:46:35.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 21:46:35.206  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 307 
+03-13 21:46:35.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557546
+03-13 21:46:35.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557522
+03-13 21:46:35.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 21:46:35.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557535
+03-13 21:46:35.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 21:46:35.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: [                 contacts = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(7)=0, mobileservice(8)=0, com.opera.browser.ping(11)=0, com.nike.authcomponent.v1(14)=0, com.adidas.mobile.sso.adidas.app(15)=0, com.tiktok.lite.go(16)=0, www.instagram.com(17)=0, www.instagram.barcelona(18)=0, com.facebook.auth.login(19)=0, duo(21)=0, Newsbreak(22)=0, com.reddit.account(23)=0, com.reddit.account(24)=0, whatsapp(25)=0}, trash=0, trash_acc={}, trash_sync=0, database=contacts2.db} ]
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: [               aggregated = {} ]
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: [                  request = {} ]
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: [                    calls = {types={[100]=4}, database=calllog.db} ]
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: [                  profile = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(7)=0, mobileservice(8)=0, com.opera.browser.ping(11)=0, com.nike.authcomponent.v1(14)=0, com.adidas.mobile.sso.adidas.app(15)=0, com.tiktok.lite.go(16)=0, www.instagram.com(17)=0, www.instagram.barcelona(18)=0, com.facebook.auth.login(19)=0, duo(21)=0, Newsbreak(22)=0, com.reddit.account(23)=0, com.reddit.account(24)=0, whatsapp(25)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile.db} ]
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: [               sa_profile = {contacts=0, raw_contacts=0, data=0, account={secphone(1)=0, google(2)=0, sim(3)=0, sim2(4)=0, agg(5)=0, samsung(7)=0, mobileservice(8)=0, com.opera.browser.ping(11)=0, com.nike.authcomponent.v1(14)=0, com.adidas.mobile.sso.adidas.app(15)=0, com.tiktok.lite.go(16)=0, www.instagram.com(17)=0, www.instagram.barcelona(18)=0, com.facebook.auth.login(19)=0, duo(21)=0, Newsbreak(22)=0, com.reddit.account(23)=0, com.reddit.account(24)=0, whatsapp(25)=0}, trash=0, trash_acc={}, trash_sync=0, database=profile_sa.db} ]
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: [                      etc = {binders=0, country_iso=US, version=15.6.28, db_version=2000, db_size=0, db_wal_size=0, csc=XAA/XAA, sec_enabled=false, is_roaming=false} ]
+03-13 21:46:35.288 28740 28762 V CpEventLog(u0): [P] cp_state: ------------------------------------------------------------------------------
+03-13 21:46:35.298  3003  6711 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 21:46:35.302  3003  6711 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 21:46:35.303  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:46:35.308  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:46:35.308  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:46:35.308  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:46:35.336  2053 22647 W QC2V4l2Decoder: [v4lavcD_626] Allocating output buffer timedout, 17615ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:46:35.354  3003  7438 I AfterimageCompensationService: AfcThread mLuminance : 121 , AfpcPeriodCount : 2351 , rotation : 0 , AOD : false
+03-13 21:46:35.356  3003  7438 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:46:35.359  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_21990#97126(seamlessTransition:0)
+03-13 21:46:35.359  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:46:35.359  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#97035(seamlessTransition:0)
+03-13 21:46:35.359  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:46:35.360  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:46:35.361  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:46:35.361  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_21990#97126 at index 1
+03-13 21:46:35.361  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:46:35.361  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#97035 at index 3
+03-13 21:46:35.361  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:46:35.371  3003  7438 D system_server: mAFPC_Read - w = 1080, h = 2640, s = 8, f = 4, s_size = 11489280, luminance = 121, count = 2351, captureOrientation = 0
+03-13 21:46:35.393 21917 21945 I appium  : AppiumResponse: {"sessionId":"c1acae5e-6d8b-4d11-a6e9-89ac8b13764c","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L15kGRXfef7OffeXCursvalq/dNarUWq2W0ARIWGBCaMcbYZhXYPOMHvBl7nh0x8+JNhMcxjpgZv3nP8x4ewNiyAUtoQQIBAozBkpAAIaRe1C31qu6urn2v3PPu97w/MiursvbsrqrMqrq…
+03-13 21:46:35.486  2053 22647 W QC2V4l2Decoder: [v4lavcD_626] Allocating output buffer timedout, 17765ms elapsed since last input buffer queued (threshold 1000ms)

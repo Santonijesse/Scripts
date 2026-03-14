@@ -1,0 +1,399 @@
+--------- beginning of main
+03-13 17:50:42.523  6209  6349 I appium  : channel read: GET /session/06f0cb82-8658-457f-885b-def1729864e5/source
+03-13 17:50:42.524  6209  6349 I appium  : Source command
+03-13 17:50:42.525  6209  6349 I appium  : Waiting up to 10000ms for the device to idle
+03-13 17:50:42.536  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 17:50:42.724  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-13 17:50:42.732  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-13 17:50:42.733  3003  3941 D InetDiagMessage: Destroyed live tcp sockets for uids={10421} in 17ms
+03-13 17:50:42.738  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-13 17:50:42.741  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-13 17:50:42.742  3003  3941 D InetDiagMessage: Destroyed live tcp sockets for uids={20421} in 9ms
+03-13 17:50:42.910  2007  5111 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 175(175),c:6,b:85,m:13,cl:1,l:175,s:175,l0:14256,l1:32,s0:13867,s1:0,acl:1,opr:0.31,f(r):97,u(bl):110,if:0,wi:2,si:12,po:124(N:0)
+03-13 17:50:43.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438643
+03-13 17:50:43.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:43.204  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:43.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:43.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:43.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:43.204  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:43.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:43.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:43.227  2007  8387 I sensors-hal: handle_sns_client_event:375, [0][80] accel_sample [-0.107,  0.630,  9.832] 265843688240570
+--------- beginning of system
+03-13 17:50:43.437  1171  1171 D io_stats: !@   8,0 r 4649688 140450860 w 5888126 118314272 d 484443 132621548 f 250245 559414 iot 2437524 0 th 0 0 0 pt 0 inp 0 0 85232.433
+03-13 17:50:43.437  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:2(21453) 19044 gle.android.gms(27562) 24 .gms.persistent(16161) 12
+03-13 17:50:43.529  2007  8408 I sensors-hal: handle_sns_std_sensor_event:158, [108] Pressure 993.731, cal 0.047, sw_offset 0.000 (lsb(bit) 0x65 0xc 0x61)
+03-13 17:50:43.647  2007  8389 I sensors-hal: handle_sns_client_event:341, [87] mag_sample_cal(magcal_available:1): ts=265844115662028 ns; cal = [-12.416901, 11.353790, -7.550110], uncal = [-286.496887, 140.593781, -337.730103], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 17:50:43.670  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 17:50:43.671  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 17:50:43.675  3003  5506 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+03-13 17:50:43.675  3003  5506 W Binder  : java.lang.Throwable
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:566)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.bluetooth.IBluetoothGatt$Stub$Proxy.getAdvertisingSetUids(IBluetoothGatt.java:1678)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.bluetooth.BluetoothAdapter.getAdvertisingSetUids(BluetoothAdapter.java:8476)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.bluetooth.BluetoothAdapter.getHWUsingApps(BluetoothAdapter.java:1342)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at com.android.server.am.mars.filter.filter.BlueToothConnectedFilter.updateBTUsingPackages(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:22)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at com.android.server.am.FreecessController.freeze(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:117)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at com.android.server.am.FreecessHandler$MainHandler.handleLcdOnFreeze(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:55)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at com.android.server.am.FreecessHandler$MainHandler.handleMessage(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:793)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:110)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.os.Looper.loop(Looper.java:363)
+03-13 17:50:43.675  3003  5506 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:85)
+03-13 17:50:43.682  3003  5506 D MARs:ActiveTrafficFilter: filter : com.instagram.barcelona(0)
+03-13 17:50:43.682  3003  5506 D FreecessHandler: freeze com.instagram.barcelona(10421) result : 8
+03-13 17:50:43.689  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 22838, isSameBssidAndFreq true
+03-13 17:50:43.691  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 109 / 1 / 1.00 (16) / 573 / -62.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.087 / 92.349 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85232686 0 || Invalid
+03-13 17:50:43.692  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 17:50:43.692  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 17:50:43.692  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 17:50:43.692  3003  4030 D InsDataManager: trimBuffers start.
+03-13 17:50:43.692  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 17:50:43.692  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 17:50:43.693  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -62.0,"latency": 0.0866282722513089,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 109 / 1 / 1.00 (16) / 573 / -62.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.087 / 92.349 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85232686 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 17:50:43.697  3003  4047 D SGM:GameManager: identifyGamePackage. com.einnovation.temu, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 17:50:43.697  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.einnovation.temu, ret=false
+03-13 17:50:43.747  3003  6711 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:43.754  3003  6711 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:43.756  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:43.757  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:43.757  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:43.757  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:44.126  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 17:50:44.127  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 17:50:44.127  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 17:50:44.127  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 17:50:44.137  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E9:D2, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-72, periodicAdvInt=0x0
+03-13 17:50:44.140 16536 16536 I wpa_supplicant: Heartbeat 2740
+03-13 17:50:44.140 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 17:50:44.174  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 17:50:44.175  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 17:50:44.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438644
+03-13 17:50:44.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:44.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:44.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:44.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:44.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:44.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:44.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:44.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:44.326  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 17:50:44.825  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 3ms
+03-13 17:50:44.895 16538 14485 I MobileWips::ns: Datetime result: [1773438634882, 1773438645086, -1]
+03-13 17:50:44.896 16538 14485 I MobileWips::ns: Final detection result: [ssid: 4eb17f79ec7c7688927e6fad872c5aeac44e9ad2a0e36f63a92b68d72185908f, bssid: f450f43cec6bbd1ee09df89eee396598f6940a95383fca779ac6b7e0b0811015, freq: 5765, result: benign]
+03-13 17:50:44.990  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 174(174),c:6,b:85,m:13,cl:1,l:174,s:172,l0:14208,l1:32,s0:13671,s1:0,acl:1,opr:0.31,f(r):97,u(bl):110,if:0,wi:2,si:8,po:124(N:0)
+03-13 17:50:45.124  3003  3612 I UsageStatsService: User[0] Flushing usage stats to disk
+03-13 17:50:45.162  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:45.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438645
+03-13 17:50:45.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:45.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:45.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:45.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:45.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:45.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:45.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:45.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:45.264  3003  4598 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:45.270  3003  4598 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:45.273  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:45.273  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:45.273  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:45.273  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:45.347  2007  8387 I sensors-hal: handle_sns_client_event:375, [0][90] accel_sample [-0.107,  0.631,  9.832] 265845810631247
+03-13 17:50:45.438  1171  1171 D io_stats: !@   8,0 r 4649688 140450860 w 5888147 118314652 d 484443 132621548 f 250246 559421 iot 2437528 0 th 0 0 0 pt 0 inp 0 0 85234.434
+03-13 17:50:45.562  4832  6719 I id.app.launcher: Explicit concurrent mark compact GC freed 3225KB AllocSpace bytes, 4(208KB) LOS objects, 66% free, 19MB/58MB, paused 551us,1.552ms total 65.174ms
+03-13 17:50:45.567  4832 12950 I HoneySpace.Memory-Monitor: trimMemory 20
+03-13 17:50:45.609  2007  8408 I sensors-hal: handle_sns_std_sensor_event:158, [121] Pressure 993.729, cal 0.047, sw_offset 0.000 (lsb(bit) 0x6d 0xc 0x61)
+03-13 17:50:45.646  2007  8389 I sensors-hal: handle_sns_client_event:341, [97] mag_sample_cal(magcal_available:1): ts=265846115662028 ns; cal = [-12.930847, 12.199448, -6.927094], uncal = [-287.010834, 141.439438, -337.107086], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 17:50:45.786  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 112:2:24:996095:3244800:902400:1318655:2707200:499200:231:231:231
+03-13 17:50:46.102  6454  7683 I whchromium.cr_WebKernel.PowerMonitor: listenBatteryChargingState on background thread...
+03-13 17:50:46.105  6454  7683 I whchromium.cr_WebKernel.PowerMonitor: ensureCallbackOnUiThread
+03-13 17:50:46.109  6454  6454 I whchromium.cr_WebKernel.PowerMonitor: onBatteryChargingChanged:false
+03-13 17:50:46.110  2007  5111 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 172(172),c:6,b:85,m:13,cl:1,l:172,s:172,l0:14000,l1:32,s0:13671,s1:0,acl:1,opr:0.31,f(r):97,u(bl):110,if:0,wi:2,si:8,po:124(N:0)
+03-13 17:50:46.173  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 17:50:46.173  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 17:50:46.173  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 17:50:46.173  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 17:50:46.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438646
+03-13 17:50:46.202  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:46.203  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:46.203  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:46.203  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:46.203  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:46.203  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:46.203  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:46.203  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:46.218  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 17:50:46.219  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 17:50:46.226  3003  7438 I AfterimageCompensationService: AfcThread mLuminance : 122 , AfpcPeriodCount : 1963 , rotation : 0 , AOD : false
+03-13 17:50:46.227  3003  7438 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 17:50:46.229  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.einnovation.temu/com.baogong.home.activity.LauncherActivity$_6454#77765(seamlessTransition:0)
+03-13 17:50:46.229  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:50:46.229  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77731(seamlessTransition:0)
+03-13 17:50:46.229  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:50:46.229  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 17:50:46.230  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:50:46.230  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.einnovation.temu/com.baogong.home.activity.LauncherActivity$_6454#77765 at index 1
+03-13 17:50:46.230  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:50:46.230  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77731 at index 3
+03-13 17:50:46.231  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:50:46.235  3003  7438 D system_server: mAFPC_Read - w = 1080, h = 2640, s = 8, f = 4, s_size = 11489280, luminance = 122, count = 1963, captureOrientation = 0
+03-13 17:50:46.299  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10350(com.einnovation.temu), SUCCESS, 1ms
+03-13 17:50:46.369  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 17:50:46.385  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10350(com.einnovation.temu), SUCCESS, 1ms
+03-13 17:50:46.712  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 22839, isSameBssidAndFreq true
+03-13 17:50:46.713  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 538 / 3 / 1.00 (91) / 573 / -60.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.630 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85235708 0 || Invalid
+03-13 17:50:46.717  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 17:50:46.718  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 17:50:46.718  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 17:50:46.718  3003  4030 D InsDataManager: trimBuffers start.
+03-13 17:50:46.718  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 17:50:46.718  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 17:50:46.719  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -60.0,"latency": 0.08636534390239924,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 538 / 3 / 1.00 (91) / 573 / -60.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.630 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85235708 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 17:50:46.719  3003  4047 D SGM:GameManager: identifyGamePackage. com.einnovation.temu, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 17:50:46.720  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.einnovation.temu, ret=false
+03-13 17:50:46.783  3003  4598 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:46.791  3003  4598 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:46.794  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:46.794  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:46.794  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:46.795  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:47.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438647
+03-13 17:50:47.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:47.208  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:47.208  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:47.208  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:47.208  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:47.209  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:47.209  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:47.209  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:47.439  1171  1171 D io_stats: !@   8,0 r 4649688 140450860 w 5888167 118314884 d 484443 132621548 f 250247 559426 iot 2437560 0 th 0 0 0 pt 0 inp 0 0 85236.435
+03-13 17:50:47.439  1171  1171 D io_stats: !@ Write_top(KB): system_server(3003) 172 innovation.temu(6454) 52
+03-13 17:50:47.469  2007  8387 I sensors-hal: handle_sns_client_event:375, [0][100] accel_sample [-0.109,  0.630,  9.833] 265847933016537
+03-13 17:50:47.529  2007  8408 I sensors-hal: handle_sns_std_sensor_event:158, [133] Pressure 993.744, cal 0.047, sw_offset 0.000 (lsb(bit) 0xc6 0xc 0x61)
+03-13 17:50:47.647  2007  8389 I sensors-hal: handle_sns_client_event:341, [107] mag_sample_cal(magcal_available:1): ts=265848115662318 ns; cal = [-12.985382, 11.557953, -7.601807], uncal = [-287.065369, 140.797943, -337.781799], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 17:50:47.828  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-13 17:50:47.828  2059  2059 I sehhealth-service: updateLrpSysfs: write: 342
+03-13 17:50:47.830  2059  2086 E BatteryDump: !@new_battery_dump : 4348,-144,375,550,100,315,279,369,273,0,343,356,273,Full,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,11399,0x8000,0x10010000,0x0,0,0,0000,0000,00000000,4348,4329,5,-149,10,0,978,977,0,
+03-13 17:50:47.955  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 17:50:47.956  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 17:50:47.956  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 17:50:47.956  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 17:50:47.998  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 17:50:47.998  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 17:50:48.026  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-13 17:50:48.149  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 17:50:48.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438648
+03-13 17:50:48.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:48.204  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:48.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:48.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:48.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:48.204  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:48.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:48.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:48.301  3003  6708 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:48.305  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:48.306  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:48.306  3003  6708 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:48.306  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:48.306  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:49.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438649
+03-13 17:50:49.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:49.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:49.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:49.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:49.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:49.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:49.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:49.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:49.441  1171  1171 D io_stats: !@   8,0 r 4649688 140450860 w 5888202 118316276 d 484443 132621548 f 250247 559426 iot 2437564 0 th 0 0 0 pt 0 inp 0 0 85238.437
+03-13 17:50:49.592  2007  8387 I sensors-hal: handle_sns_client_event:375, [0][110] accel_sample [-0.108,  0.629,  9.831] 265850055398151
+03-13 17:50:49.609  2007  8408 I sensors-hal: handle_sns_std_sensor_event:158, [146] Pressure 993.755, cal 0.047, sw_offset 0.000 (lsb(bit) 0xd 0xd 0x61)
+03-13 17:50:49.646  2007  8389 I sensors-hal: handle_sns_client_event:341, [117] mag_sample_cal(magcal_available:1): ts=265850115662318 ns; cal = [-12.190674, 11.421890, -7.228851], uncal = [-286.270660, 140.661880, -337.408844], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 17:50:49.689  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 17:50:49.689  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 17:50:49.700  3003  5506 D MARs:ActiveTrafficFilter: filter : com.instagram.barcelona(0)
+03-13 17:50:49.700  3003  5506 D FreecessHandler: freeze com.instagram.barcelona(10421) result : 8
+03-13 17:50:49.733  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 22840, isSameBssidAndFreq true
+03-13 17:50:49.736  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 449 / 8 / 1.00 (79) / 573 / -62.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.087 / 91.672 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85238731 0 || Invalid
+03-13 17:50:49.737  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 17:50:49.738  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 17:50:49.739  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 17:50:49.739  3003  4030 D InsDataManager: trimBuffers start.
+03-13 17:50:49.739  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 17:50:49.741  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 17:50:49.741  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -62.0,"latency": 0.08726772803362182,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 449 / 8 / 1.00 (79) / 573 / -62.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.087 / 91.672 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85238731 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 17:50:49.742  3003  4047 D SGM:GameManager: identifyGamePackage. com.einnovation.temu, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 17:50:49.742  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.einnovation.temu, ret=false
+03-13 17:50:49.815  3003  6708 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:49.821  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:49.823  3003  6708 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:49.823  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:49.825  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:49.825  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:49.831  1992  7816 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 17:50:49.832  1992  7816 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 17:50:49.832  1992  7816 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 17:50:49.832  1992  7816 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 17:50:49.832  1992  7816 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-13 17:50:49.832  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-13 17:50:49.832  1992  7816 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 17:50:49.832  1992  7816 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 17:50:49.832  1992  7816 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 17:50:49.832  1992  7816 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 17:50:49.832  1992  7816 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-13 17:50:49.833  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+03-13 17:50:49.833  6380  7375 I SDHMS:x : SIOP:: AP:371 BAT:315 USB:280 CHG:369 PA:380 CP:362 WIFI:357 BLK:0 SUBBAT:273 LRPTHM:347 SKIN:342 SKINF:342 SKINB:331 LRP2:342 LRF2:342 LRB2:331 AP2:341 CHG2:339 MEM2:342 WIFI2:342 RCV2:342 SPK2:280 UPSPK:341 DNSPK:279 VAP:364 VWIFI:349 AMB2:254 AVGCUR:-140 AVGSYS:366 POWER:-608
+03-13 17:50:50.000  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 17:50:50.000  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 17:50:50.001  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 17:50:50.001  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 17:50:50.010  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E9:D2, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-71, periodicAdvInt=0x0
+03-13 17:50:50.016 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 17:50:50.047  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 17:50:50.047  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 17:50:50.197  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 17:50:50.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438650
+03-13 17:50:50.207  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:50.207  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:50.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:50.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:50.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:50.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:50.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:50.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:50.330  8283  8283 I CMHApplication: [#CMH#] Block to verify, Change Trim Memory Level: 40 
+03-13 17:50:50.343  2105  2105 I SurfaceFlinger: SFWD update time=85239339947326
+03-13 17:50:50.354  8283  8289 W com.samsung.cmh: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+03-13 17:50:50.361  8283  8291 I CMHFileObserver: [#CMH#] CMHFileObserver object is GC 
+03-13 17:50:50.649  3003  8563 D WifiConnectivityMonitor.DnsThread:  [|210] []
+03-13 17:50:50.650  3003  4062 D WifiConnectivityMonitor.NetworkStatsAnalyzer: DNS resultType : 0, responseTime : 210
+03-13 17:50:50.652  3003  4058 D OpenNetworkQos[4.00]: updateBssidLatestDnsResultType - result: 0
+03-13 17:50:50.653  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 17:50:50.653  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 17:50:50.653  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 26 
+03-13 17:50:50.654  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 17:50:50.655  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 17:50:50.656  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 17:50:50.656  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 17:50:50.656  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 17:50:50.657  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 17:50:50.657  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 17:50:51.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438651
+03-13 17:50:51.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:51.207  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:51.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:51.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:51.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:51.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:51.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:51.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:51.230  2007  5111 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 172(172),c:6,b:85,m:13,cl:1,l:172,s:171,l0:13984,l1:32,s0:13606,s1:0,acl:1,opr:0.31,f(r):97,u(bl):110,if:0,wi:2,si:12,po:124(N:0)
+03-13 17:50:51.230  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 172(172),c:6,b:85,m:13,cl:1,l:172,s:171,l0:13984,l1:32,s0:13606,s1:0,acl:1,opr:0.31,f(r):97,u(bl):110,if:0,wi:2,si:12,po:124(N:0)
+03-13 17:50:51.336  3003  4598 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:51.343  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:51.345  3003  4598 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:51.345  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:51.347  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:51.347  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:51.442  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:2(21453) 1380 vendor.samsung.(2059) 8 agram.barcelona(6669) 4
+03-13 17:50:51.529  2007  8408 I sensors-hal: handle_sns_std_sensor_event:158, [158] Pressure 993.757, cal 0.047, sw_offset 0.000 (lsb(bit) 0x17 0xd 0x61)
+03-13 17:50:51.647  2007  8389 I sensors-hal: handle_sns_client_event:341, [127] mag_sample_cal(magcal_available:1): ts=265852115662318 ns; cal = [-12.614532, 11.763657, -7.542236], uncal = [-286.694519, 141.003647, -337.722229], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 17:50:51.714  2007  8387 I sensors-hal: handle_sns_client_event:375, [0][120] accel_sample [-0.109,  0.630,  9.832] 265852177776380
+03-13 17:50:51.873  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 17:50:52.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438652
+03-13 17:50:52.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:52.204  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:52.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:52.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:52.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:52.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:52.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:52.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:52.484  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.086,0.636,9.839, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 17:50:52.579  6209  6349 W QueryController: Could not detect idle state.
+03-13 17:50:52.756  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 22841, isSameBssidAndFreq true
+03-13 17:50:52.759  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 633 / 12 / 1.00 (25) / 573 / -60.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.087 / 91.583 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85241755 0 || Invalid
+03-13 17:50:52.761  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 17:50:52.761  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 17:50:52.761  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 17:50:52.762  3003  4030 D InsDataManager: trimBuffers start.
+03-13 17:50:52.762  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 17:50:52.762  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 17:50:52.762  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -60.0,"latency": 0.08735290993246832,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 633 / 12 / 1.00 (25) / 573 / -60.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.087 / 91.583 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85241755 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 17:50:52.763  3003  4047 D SGM:GameManager: identifyGamePackage. com.einnovation.temu, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 17:50:52.763  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.einnovation.temu, ret=false
+03-13 17:50:52.854  3003  6711 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:52.866  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:52.866  3003  6711 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:52.866  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:52.867  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:52.867  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:53.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438653
+03-13 17:50:53.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:53.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:53.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:53.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:53.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:53.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:53.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:53.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:53.444  1171  1171 D io_stats: !@   8,0 r 4649688 140450860 w 5888384 118329480 d 484443 132621548 f 250247 559426 iot 2437572 0 th 0 0 0 pt 0 inp 0 0 85242.441
+03-13 17:50:53.609  2007  8408 I sensors-hal: handle_sns_std_sensor_event:158, [171] Pressure 993.755, cal 0.047, sw_offset 0.000 (lsb(bit) 0x4 0xd 0x61)
+03-13 17:50:53.614  6209  6349 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 17:50:53.630  2007  5111 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 171(171),c:6,b:85,m:13,cl:1,l:171,s:171,l0:13968,l1:32,s0:13541,s1:0,acl:1,opr:0.31,f(r):97,u(bl):110,if:0,wi:2,si:12,po:124(N:0)
+03-13 17:50:53.647  2007  8389 I sensors-hal: handle_sns_client_event:341, [137] mag_sample_cal(magcal_available:1): ts=265854115662318 ns; cal = [-12.051392, 11.863190, -7.063843], uncal = [-286.131378, 141.103180, -337.243835], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 17:50:53.749  6209  6349 I appium  : AppiumResponse: {"sessionId":"06f0cb82-8658-457f-885b-def1729864e5","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.einnovation.temu\" class=\"and…
+03-13 17:50:53.780  6209  6349 I appium  : channel read: GET /session/06f0cb82-8658-457f-885b-def1729864e5/screenshot
+03-13 17:50:53.780  6209  6349 I appium  : CaptureScreenshot command
+03-13 17:50:53.782  6209  6349 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:50:53.782  6209  6349 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:50:53.826  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 17:50:53.827  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 17:50:53.827  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 17:50:53.827  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 17:50:53.836  2007  8387 I sensors-hal: handle_sns_client_event:375, [0][130] accel_sample [-0.108,  0.629,  9.832] 265854300151016
+03-13 17:50:53.842  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:E9:D2, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-67, periodicAdvInt=0x0
+03-13 17:50:53.845 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 17:50:53.872  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 17:50:53.874  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 17:50:53.877  8566  8566 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 17:50:53.877  8566  8566 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 17:50:53.877  8566  8566 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 17:50:53.877  3003  6711 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 17:50:53.877  3003  6711 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 17:50:53.877  8566  8566 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 17:50:53.877  8566  8566 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 17:50:53.882  2105  2105 D TransactionCallbackInvoker: addCallbackHandle:com.einnovation.temu/com.baogong.home.activity.LauncherActivity$_6454#77765 is not released yet
+03-13 17:50:53.882  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.einnovation.temu/com.baogong.home.activity.LauncherActivity$_6454#77765(seamlessTransition:0)
+03-13 17:50:53.882  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:50:53.882  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77731(seamlessTransition:0)
+03-13 17:50:53.882  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:50:53.883  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 17:50:53.883  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:50:53.883  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.einnovation.temu/com.baogong.home.activity.LauncherActivity$_6454#77765 at index 1
+03-13 17:50:53.883  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:50:53.883  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77731 at index 3
+03-13 17:50:53.883  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:50:53.914  8566  8571 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 17:50:53.915  8566  8566 W qdgralloc: Failed to load libubwcp.so
+03-13 17:50:54.024  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 17:50:54.141 16536 16536 I wpa_supplicant: Heartbeat 2741
+03-13 17:50:54.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773438654
+03-13 17:50:54.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:50:54.203  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 17:50:54.203  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557310
+03-13 17:50:54.203  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:50:54.203  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:50:54.203  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:50:54.203  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:50:54.203  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:50:54.318  6209  6349 I appium  : AppiumResponse: {"sessionId":"06f0cb82-8658-457f-885b-def1729864e5","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1pc9tIljbsGwABbuBOSpTsctmuro7pmPlWf3B+5TxR1V1eyrY27htA7O8HvYkiQJAiJS4gdV8RjrBliUqSSSDz5MmT0m+//RaAiIiIiIiIiOiEycduABERERERERHRSzHAQUREREREREQ…
+03-13 17:50:54.376  3003  4598 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:50:54.383  3003  4598 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:50:54.383  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:54.383  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:54.383  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:50:54.383  3003  4002 D BackgroundInstallControlService: Package event received: 0

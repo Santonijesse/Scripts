@@ -62,7 +62,7 @@ def swipe_up(x, y, distance=300, delay=5):
     if delay > 0:
         time.sleep(delay)
 
-tap(535, 1550, 3)
+tap(535, 2350, 3)
 tap(650, 340, 3)
 swipe_up(535, 1550)
 

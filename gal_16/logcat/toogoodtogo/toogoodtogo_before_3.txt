@@ -1,0 +1,83 @@
+--------- beginning of main
+03-13 19:36:35.477 25073 25100 I appium  : channel read: GET /session/8aeccda3-6a75-4b02-9448-170e25fc77a9/source
+03-13 19:36:35.479 25073 25100 I appium  : Source command
+03-13 19:36:35.481 25073 25100 I appium  : Waiting up to 10000ms for the device to idle
+03-13 19:36:35.591 25073 25100 I appium  : AppiumResponse: {"sessionId":"8aeccda3-6a75-4b02-9448-170e25fc77a9","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.app.tgtg\" class=\"android.wid…
+03-13 19:36:35.611 25073 25100 I appium  : channel read: GET /session/8aeccda3-6a75-4b02-9448-170e25fc77a9/screenshot
+03-13 19:36:35.612 25073 25100 I appium  : CaptureScreenshot command
+03-13 19:36:35.613 25073 25100 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:36:35.613 25073 25100 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:36:35.707 25917 25917 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 19:36:35.707 25917 25917 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 19:36:35.708 25917 25917 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 19:36:35.708  3003  6692 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 19:36:35.709  3003  6692 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 19:36:35.709 25917 25917 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 19:36:35.709 25917 25917 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 19:36:35.711  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_25143#84873(seamlessTransition:0)
+03-13 19:36:35.711  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 19:36:35.711  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#84768(seamlessTransition:0)
+03-13 19:36:35.711  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 19:36:35.712  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 19:36:35.712  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 19:36:35.712  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_25143#84873 at index 1
+03-13 19:36:35.712  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 19:36:35.713  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#84768 at index 3
+03-13 19:36:35.713  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 19:36:35.717  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,132, ts,272196282588387, ts_diff,348124
+03-13 19:36:35.717  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,-3.235,3.336,7.480, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 19:36:35.718  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-13 19:36:35.718  3003  3003 D WindowOrientationListener: onTableModeChanged: Moving
+03-13 19:36:35.718  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-13 19:36:35.718  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 19:36:35.718  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 19:36:35.719  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+03-13 19:36:35.748 25917 25925 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 19:36:35.749 25917 25917 W qdgralloc: Failed to load libubwcp.so
+03-13 19:36:35.756  3003  6692 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 19:36:35.760  3003  6692 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 19:36:35.760  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:36:35.760  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:36:35.761  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:36:35.761  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:36:35.768  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 19:36:35.776  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 19:36:35.833  2007 24647 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 198(198),c:212,b:87,m:13,cl:52,l:185,s:201,l0:19120,l1:48,s0:15885,s1:0,acl:1,opr:0.69,f(r):97,u(bl):108,if:0,wi:3,si:12,po:125(N:0)
+03-13 19:36:35.926 25143 25209 W JobInfo : Requested important-while-foreground flag for job4 is ignored and takes no effect
+03-13 19:36:35.926 25143 25209 D WM-SystemJobScheduler: Scheduling work ID c35bc929-9db1-46f4-a1b8-fe4cb7564b4eJob ID 4
+03-13 19:36:35.930 25143 25209 D WM-GreedyScheduler: Starting tracking for c35bc929-9db1-46f4-a1b8-fe4cb7564b4e
+03-13 19:36:35.932 25143 25143 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=c35bc929-9db1-46f4-a1b8-fe4cb7564b4e, generation=0)
+03-13 19:36:35.932 25143 25209 D WM-ConstraintTracker: g: initial state = NetworkState(isConnected=true, isValidated=true, isMetered=false, isNotRoaming=true, isBlocked=false)
+03-13 19:36:35.932 25143 25209 D WM-NetworkStateTracker: Registering network callback
+03-13 19:36:35.932 25143 25209 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4744)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5469)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5436)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5410)] [db.g.c(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:24)] [a2.j.invokeSuspend(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:1408)] [a2.j.invoke(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:222)] [k70.e.c(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:51)] [k70.c.c(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:58)] [il.q.invokeSuspend(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:1719)] [l60.a.resumeWith(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:9)] [h70.k0.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:120)] [o0.i.a(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:5)] [o0.i.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:407)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-13 19:36:35.933  3003  6692 D ConnectivityService: requestNetwork for uid/pid:10391/25143 activeRequest: null callbackRequest: 18246 [NetworkRequest [ REQUEST id=18247, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC|BLK
+03-13 19:36:35.933  3003  3941 D ConnectivityService:    accepting network in place of null for NetworkRequest [ REQUEST id=18247, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:36:35.934 25143 25209 D WM-Processor: c: processing WorkGenerationalId(workSpecId=c35bc929-9db1-46f4-a1b8-fe4cb7564b4e, generation=0)
+03-13 19:36:35.934 25143 25198 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=7026Kbps LinkDnBandwidth>=119357Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.17.8.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -63, Link speed: 286Mbps, Tx Link speed: 286Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 458Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -63 UnderlyingNetworks: Null]
+03-13 19:36:35.934 25143 25198 D WM-NetworkStateTracker: Network blocked status changed: false
+03-13 19:36:35.935  3003  3941 D ConnectivityService: Rematched networks [computed 0ms] [applied 1ms] [issued 0]
+03-13 19:36:35.935  3003  3941 D ConnectivityService: NetworkReassignment :
+03-13 19:36:35.935  3003  3941 D ConnectivityService:   18247 : null → 115
+03-13 19:36:35.936 25143 25209 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=c35bc929-9db1-46f4-a1b8-fe4cb7564b4e, generation=0)
+03-13 19:36:35.936 25143 25143 D WM-WorkerWrapper: Starting work for com.app.tgtg.tasks.EventWorker
+03-13 19:36:35.937 25143 25269 D WM-Processor: Work WorkGenerationalId(workSpecId=c35bc929-9db1-46f4-a1b8-fe4cb7564b4e, generation=0) is already enqueued for processing
+03-13 19:36:35.937  3003  3922 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=18247, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:36:35.937  3003  3922 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=18247, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:36:35.937  3003  3922 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=18247, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:36:35.937  3003  3922 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=18247, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:36:35.938 25143 25269 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=c35bc929-9db1-46f4-a1b8-fe4cb7564b4e, tags={ com.app.tgtg.tasks.EventWorker } ]
+03-13 19:36:35.938 25143 25143 D WM-Processor: c c35bc929-9db1-46f4-a1b8-fe4cb7564b4e executed; reschedule = false
+03-13 19:36:35.938 25143 25143 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=c35bc929-9db1-46f4-a1b8-fe4cb7564b4e, generation=0)
+03-13 19:36:35.938 25143 25143 D WM-SystemJobService: c35bc929-9db1-46f4-a1b8-fe4cb7564b4e executed on JobScheduler
+03-13 19:36:35.940 25143 25261 D WM-GreedyScheduler: Cancelling work ID c35bc929-9db1-46f4-a1b8-fe4cb7564b4e
+03-13 19:36:35.941 25143 25209 D WM-NetworkStateTracker: Unregistering network callback
+03-13 19:36:35.941 25143 25209 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5579)] [db.g.d(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:18)] [a2.h.invoke(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:65)] [qz.x0.n(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:106)] [j70.q.invokeSuspend(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:11)] [l60.a.resumeWith(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:9)] [h70.k0.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:110)] [o0.i.a(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:5)] [o0.i.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:407)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-13 19:36:35.942  3003  3941 D ConnectivityService:  Removing from current network [115 WIFI], leaving 305 requests.
+03-13 19:36:35.970  3003  3080 E Watchdog: !@Sync: 3051 heap(MB): 205 / 207 FD: 1439 [2026-03-13 19:36:35.970]
+03-13 19:36:35.977 25073 25100 I appium  : AppiumResponse: {"sessionId":"8aeccda3-6a75-4b02-9448-170e25fc77a9","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFR1vjfwz5mZJJPeey+EEpIQSAATiiJNI4gri3oVCHbULeq69+7uvXd9bXn2cRHXXfdaAEEQFhVEVJAqIIEQDCVACpAC6aTXSZtynj945txMZiaZhBQGPu/Xyz88c+bMbxImc87nfH/…
+03-13 19:36:36.061  3003  3631 D ActivityManager: freezing 25382 com.samsung.cmh
+03-13 19:36:36.066  3003  3631 I UMR     : B|Compact com.samsung.cmh(25382)
+03-13 19:36:36.072  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-13 19:36:36.074  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-13 19:36:36.074  3003  3941 D InetDiagMessage: Destroyed live tcp sockets for uids={5004} in 8ms

@@ -1,0 +1,48 @@
+--------- beginning of main
+03-13 16:50:39.794 26258 26287 I appium  : channel read: GET /session/e04e5757-9fed-47a2-a5da-283e5c62f81d/source
+03-13 16:50:39.797 26258 26287 I appium  : Source command
+03-13 16:50:39.800 26258 26287 I appium  : Waiting up to 10000ms for the device to idle
+03-13 16:50:39.839 26258 26287 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 16:50:39.853 26258 26287 I appium  : AppiumResponse: {"sessionId":"e04e5757-9fed-47a2-a5da-283e5c62f81d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.subway.mobile.subwayapp03\" cl…
+03-13 16:50:39.873 26258 26287 I appium  : channel read: GET /session/e04e5757-9fed-47a2-a5da-283e5c62f81d/screenshot
+03-13 16:50:39.873 26258 26287 I appium  : CaptureScreenshot command
+03-13 16:50:39.875 26258 26287 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:50:39.875 26258 26287 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:50:39.964 26873 26873 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 16:50:39.964 26873 26873 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 16:50:39.965 26873 26873 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 16:50:39.965  3003  4333 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 16:50:39.966  3003  4333 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 16:50:39.966 26873 26873 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 16:50:39.966 26873 26873 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 16:50:39.968  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.landing.LandingActivity$_26328#74166(seamlessTransition:0)
+03-13 16:50:39.968  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 16:50:39.969  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#74126(seamlessTransition:0)
+03-13 16:50:39.969  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 16:50:39.969  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 16:50:39.969  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 16:50:39.969  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.landing.LandingActivity$_26328#74166 at index 1
+03-13 16:50:39.970  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 16:50:39.970  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#74126 at index 3
+03-13 16:50:39.970  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 16:50:40.008 26873 26878 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 16:50:40.009 26873 26873 W qdgralloc: Failed to load libubwcp.so
+03-13 16:50:40.117  3003  4333 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 16:50:40.123  3003  4920 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 16:50:40.124  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:50:40.125  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:50:40.125  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:50:40.125  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:50:40.127  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 16:50:40.136  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 16:50:40.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773435040
+03-13 16:50:40.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 16:50:40.204  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 315 
+03-13 16:50:40.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557250
+03-13 16:50:40.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557222
+03-13 16:50:40.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 16:50:40.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557235
+03-13 16:50:40.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 16:50:40.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 16:50:40.433 26258 26287 I appium  : AppiumResponse: {"sessionId":"e04e5757-9fed-47a2-a5da-283e5c62f81d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7J15fBRVuvd/VdXd6SyEkBAIJCEhAcIWdpBNRGFwAber4+hFA6jgOOo441yuvjo6ztw7q+uMM14VZEdxQx1cEEUBl4isgUAETEJCSEISsq+9VL1/dD9Vp7o7IYGs8nw/H0hSXVV9qurUOc/…

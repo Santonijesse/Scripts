@@ -1,0 +1,53 @@
+--------- beginning of main
+03-13 14:10:15.041 26779 26809 I appium  : channel read: GET /session/c371a70f-e070-417b-ab8b-f6727fb258da/source
+03-13 14:10:15.045 26779 26809 I appium  : Source command
+03-13 14:10:15.047 26779 26809 I appium  : Waiting up to 10000ms for the device to idle
+03-13 14:10:15.171 26779 26809 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 14:10:15.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773425415
+03-13 14:10:15.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 14:10:15.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 307 
+03-13 14:10:15.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557090
+03-13 14:10:15.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557072
+03-13 14:10:15.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 14:10:15.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557085
+03-13 14:10:15.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 14:10:15.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 14:10:15.236 26779 26809 I appium  : AppiumResponse: {"sessionId":"c371a70f-e070-417b-ab8b-f6727fb258da","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.opentable\" class=\"android.wi…
+03-13 14:10:15.263 26779 26809 I appium  : channel read: GET /session/c371a70f-e070-417b-ab8b-f6727fb258da/screenshot
+03-13 14:10:15.264 26779 26809 I appium  : CaptureScreenshot command
+03-13 14:10:15.266 26779 26809 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:10:15.267 26779 26809 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:10:15.360 27439 27439 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 14:10:15.360 27439 27439 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 14:10:15.361 27439 27439 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 14:10:15.361  3003  7124 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 14:10:15.362  3003  7124 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 14:10:15.362 27439 27439 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 14:10:15.362 27439 27439 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 14:10:15.364  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.opentable/com.opentable.restaurant.NewRestaurantProfileActivity$_26845#59103(seamlessTransition:0)
+03-13 14:10:15.364  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 14:10:15.364  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#58978(seamlessTransition:0)
+03-13 14:10:15.364  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 14:10:15.365  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 14:10:15.366  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 14:10:15.366  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.opentable/com.opentable.restaurant.NewRestaurantProfileActivity$_26845#59103 at index 1
+03-13 14:10:15.366  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 14:10:15.367  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#58978 at index 3
+03-13 14:10:15.367  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 14:10:15.404 27439 27445 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 14:10:15.405 27439 27439 W qdgralloc: Failed to load libubwcp.so
+03-13 14:10:15.433  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 18735, isSameBssidAndFreq true
+03-13 14:10:15.434  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 14:10:15.434  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 14:10:15.435  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 14:10:15.435  3003  4030 D InsDataManager: trimBuffers start.
+03-13 14:10:15.435  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 14:10:15.435  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 14:10:15.436  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -61.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -61.0 / 3 / 164 / 0 / 0 || 1cf112895765: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 72004429 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 14:10:15.437  3003  4047 D SGM:GameManager: identifyGamePackage. com.opentable, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 14:10:15.437  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.opentable, ret=false
+03-13 14:10:15.772  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10441(com.opentable), SUCCESS, 4ms
+03-13 14:10:15.914 26779 26809 I appium  : AppiumResponse: {"sessionId":"c371a70f-e070-417b-ab8b-f6727fb258da","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHicTLznjiVJluf3M+3uV0SkrM6q7tkRnAWWaoEFQYJPwtfhK3I5WGB6h9PT3dVVqUJc5cIkPxyL6MlCILMyI+716252zl8dU//X//kfGjRUa9RaUUphjMEHh/ED1YxcInz5/kCLN+53gcNoGJ1…
+03-13 14:10:16.048  4832  6719 I id.app.launcher: Explicit concurrent mark compact GC freed 3682KB AllocSpace bytes, 2(104KB) LOS objects, 66% free, 19MB/57MB, paused 461us,1.168ms total 69.170ms
+03-13 14:10:16.054  4832 22986 I HoneySpace.Memory-Monitor: trimMemory 20

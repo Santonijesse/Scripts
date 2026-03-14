@@ -1,0 +1,340 @@
+--------- beginning of main
+03-13 19:57:29.375  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.393  5297  6871 D CCodecBuffers: [c2.android.aac.decoder#206:EncryptedInput.Impl[N]] codec released a buffer owned by client (index 2)
+03-13 19:57:29.416  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.428  5164  5216 I appium  : channel read: GET /session/0c9d7df6-62d4-4483-82a6-26b265e68188/source
+03-13 19:57:29.430  5164  5216 I appium  : Source command
+03-13 19:57:29.431  5164  5216 I appium  : Waiting up to 10000ms for the device to idle
+03-13 19:57:29.458  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.499  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.541  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.583  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.624  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.645  2007  5550 I sensors-hal: handle_sns_client_event:375, [0][130] accel_sample [ 0.069,  0.018,  9.844] 273450106857873
+--------- beginning of system
+03-13 19:57:29.646  3003  3594 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 19:57:29.654  3003  3594 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 19:57:29.656  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:29.658  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:29.659  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:29.660  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:29.666  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.707  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.749  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.760  2496 25702 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-13 19:57:29.774  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 19:57:29.777  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 19:57:29.781  3003  5506 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+03-13 19:57:29.781  3003  5506 W Binder  : java.lang.Throwable
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:566)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.bluetooth.IBluetoothGatt$Stub$Proxy.getAdvertisingSetUids(IBluetoothGatt.java:1678)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.bluetooth.BluetoothAdapter.getAdvertisingSetUids(BluetoothAdapter.java:8476)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.bluetooth.BluetoothAdapter.getHWUsingApps(BluetoothAdapter.java:1342)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at com.android.server.am.mars.filter.filter.BlueToothConnectedFilter.updateBTUsingPackages(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:22)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at com.android.server.am.FreecessController.freeze(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:117)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at com.android.server.am.FreecessHandler$MainHandler.handleLcdOnFreeze(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:55)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at com.android.server.am.FreecessHandler$MainHandler.handleMessage(qb/103298917 08e25ee3993c5f8a437eaba7200b2dc6e2ab46cdae667ba0f30827342181c525:793)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.os.Handler.dispatchMessage(Handler.java:110)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.os.Looper.loop(Looper.java:363)
+03-13 19:57:29.781  3003  5506 W Binder  : 	at android.os.HandlerThread.run(HandlerThread.java:85)
+03-13 19:57:29.787  3003  5506 D MARs:ActiveTrafficFilter: filter : com.doordash.driverapp(0)
+03-13 19:57:29.787  3003  5506 D FreecessHandler: freeze com.doordash.driverapp(10454) result : 8
+03-13 19:57:29.787  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 19:57:29.788  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 19:57:29.791  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.796  3003  5506 D MARs:ActiveTrafficFilter: filter : com.wendys.nutritiontool(0)
+03-13 19:57:29.796  3003  5506 D FreecessHandler: freeze com.wendys.nutritiontool(10397) result : 8
+03-13 19:57:29.797  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{5fe2576 VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 19:57:29.797  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{cd29125 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 19:57:29.819  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25285, isSameBssidAndFreq true
+03-13 19:57:29.819  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [115 WIFI]
+03-13 19:57:29.820  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2479 / 0 / 1.02 (390) / 573 / -63.0 || 100.0 : 573.00 / 0.5 : 0.98 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.086 / 93.065 / N || N N / 0 0 / Y 2.0 / Y X 0 / 92838815 0 || Invalid
+03-13 19:57:29.824  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 19:57:29.826  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 19:57:29.826  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 19:57:29.829  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-13 19:57:29.829  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-13 19:57:29.829  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-13 19:57:29.829  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 19:57:29.829  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 115(valid: true/captive: false)
+03-13 19:57:29.830 16161 16426 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-13 19:57:29.832 16161 16426 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-13 19:57:29.832  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.834  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{5fe2576 VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 19:57:29.834  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-13 19:57:29.834  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-13 19:57:29.834  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{cd29125 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 19:57:29.836  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 19:57:29.837  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 19:57:29.839  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 19:57:29.839  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) RSSI=-63
+03-13 19:57:29.841  4600  5502 D txpwrJni: sendNetworkInfo start
+03-13 19:57:29.845  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=7026Kbps LinkDnBandwidth>=42760Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.**.*.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -63, Link speed: 573Mbps, Tx Link speed: 573Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 344Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -63 AdminUids: [1000] SSID: "MSU-Secure" UnderlyingNetworks: Null]
+03-13 19:57:29.845  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) on (wlan0) GoogleAPI(M: R=42 T=7) RSSI=-63 isDefault=false isMlo=false
+03-13 19:57:29.846  3003  4030 D InsDataManager: trimBuffers start.
+03-13 19:57:29.847  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 19:57:29.848  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-13 19:57:29.851  4184  5032 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-13 19:57:29.858  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-13 19:57:29.860  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:42.76Uplink: 7.026
+03-13 19:57:29.861  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:29.861  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 19:57:29.861 22998 23062 V Braze v37.0.0 .f: recalculateDispatchState called with session state: NO_SESSION lastNetworkLevel: GOOD
+03-13 19:57:29.861  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-13 19:57:29.861 22998 23062 V Braze v37.0.0 .f: currentIntervalMs: -1
+03-13 19:57:29.861  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -63.0,"latency": 0.08596160558464223,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2479 / 0 / 1.02 (390) / 573 / -63.0 || 100.0 : 573.00 / 0.5 : 0.98 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.086 / 93.065 / N || N N / 0 0 / Y 2.0 / Y X 0 / 92838815 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 19:57:29.861  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 19:57:29.861  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 19:57:29.861  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 26 
+03-13 19:57:29.861  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 19:57:29.861  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 19:57:29.862  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 19:57:29.862  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 19:57:29.862  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 19:57:29.862  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 19:57:29.862  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 19:57:29.864  3003  4047 D SGM:GameManager: identifyGamePackage. com.tubitv, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 19:57:29.865  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.tubitv, ret=false
+03-13 19:57:29.866  3003  4027 I SemWifiServiceDetector: NSD results: [0, 0, 2, 0, 0, 0, 2, 0, 1] Traff. type 1 Thr 0
+03-13 19:57:29.868  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 2ms
+03-13 19:57:29.870  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-13 19:57:29.874  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.905  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 1ms
+03-13 19:57:29.915  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.957  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:29.999  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.009  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 19:57:30.009  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 19:57:30.009  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 19:57:30.009  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 19:57:30.017  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:74:DB, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-68, periodicAdvInt=0x0
+03-13 19:57:30.020 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 19:57:30.040  2105  2105 I SurfaceFlinger: SFWD update time=92839036454635
+03-13 19:57:30.040  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.055  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 19:57:30.055  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 19:57:30.082  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.124  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.165  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773446250
+03-13 19:57:30.206  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 19:57:30.207  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.207  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 19:57:30.207  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 354 
+03-13 19:57:30.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557437
+03-13 19:57:30.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557432
+03-13 19:57:30.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 19:57:30.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557415
+03-13 19:57:30.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 19:57:30.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 19:57:30.249  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.290  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.332  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.340 16161 27354 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 19:57:30.373  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.384  1171  1171 D io_stats: !@   8,0 r 4914241 146279048 w 6922626 130438212 d 527214 147871232 f 284663 659684 iot 2668428 0 th 0 0 0 pt 0 inp 0 0 92839.380
+03-13 19:57:30.384  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:0(32369) 6192 com.tubitv(5297) 2004 jbd2/sda6-8(1141) 92
+03-13 19:57:30.415  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.457  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.498  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.525  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10338(com.google.android.videos), 4(FAIL), isBlocked=true, 0ms
+03-13 19:57:30.525 29406 30289 E PlayCommon: [118] rpa.f: Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+03-13 19:57:30.531 29406 30289 E PlayCommon: [118] rpa.f: Failed to connect to server for log upload.
+03-13 19:57:30.540  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.580  2007  3821 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 143(143),c:25,b:84,m:13,cl:6,l:143,s:144,l0:12112,l1:32,s0:11458,s1:0,acl:1,opr:0.23,f(r):97,u(bl):108,if:0,wi:2,si:8,po:124(N:0)
+03-13 19:57:30.582  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.623  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.625 29406 30287 E PlayCommon: [117] rpa.f: Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+03-13 19:57:30.633 29406 30287 E PlayCommon: [117] rpa.f: Failed to connect to server for log upload.
+03-13 19:57:30.665  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.706  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.748  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.790  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.796  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{5fe2576 VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 19:57:30.797  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{cd29125 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 19:57:30.833  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.834  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{67a5502 VFED..... ........ 0,0-1080,136 aid=1073741834}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 19:57:30.834  5297  5297 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{63db4fa V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 19:57:30.873  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.914  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.942  5164  5216 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 19:57:30.956  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:30.998  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.039  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.067  5164  5216 I appium  : AppiumResponse: {"sessionId":"0c9d7df6-62d4-4483-82a6-26b265e68188","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tubitv\" class=\"android.widge…
+03-13 19:57:31.081  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.087  5164  5216 I appium  : channel read: GET /session/0c9d7df6-62d4-4483-82a6-26b265e68188/screenshot
+03-13 19:57:31.087  5164  5216 I appium  : CaptureScreenshot command
+03-13 19:57:31.088  5164  5216 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:57:31.088  5164  5216 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:57:31.112  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 93:5:7:1149312:3398400:672000:1467263:2707200:499200:231:231:231
+03-13 19:57:31.122  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.161  3003  6692 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 19:57:31.164  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.166  3003  6692 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 19:57:31.169  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:31.170  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:31.172  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:31.172  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:57:31.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773446251
+03-13 19:57:31.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 19:57:31.205  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 354 
+03-13 19:57:31.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557437
+03-13 19:57:31.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557432
+03-13 19:57:31.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 19:57:31.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557415
+03-13 19:57:31.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 19:57:31.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 19:57:31.206  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.219  7186  7186 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 19:57:31.220  7186  7186 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 19:57:31.220  7186  7186 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 19:57:31.220  3003  6692 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 19:57:31.220  3003  6692 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 19:57:31.220  7186  7186 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 19:57:31.220  7186  7186 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 19:57:31.221  2105  2321 I SurfaceFlinger: Capture layer list: 	 Background for dccee39 SurfaceView[com.tubitv/com.tubitv.activities.MainActivity]@0#86891(seamlessTransition:0)
+03-13 19:57:31.221  2105  2321 I SurfaceFlinger: Capture layer list: 	 dccee39 SurfaceView[com.tubitv/com.tubitv.activities.MainActivity]@0(BLAST)#86890(seamlessTransition:0)
+03-13 19:57:31.221  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.tubitv/com.tubitv.activities.MainActivity$_5297#86863(seamlessTransition:0)
+03-13 19:57:31.221  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 19:57:31.221  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#86828(seamlessTransition:0)
+03-13 19:57:31.221  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 19:57:31.222  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 19:57:31.222  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 19:57:31.222  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer dccee39 SurfaceView[com.tubitv/com.tubitv.activities.MainActivity]@0(BLAST)#86890 at index 1
+03-13 19:57:31.222  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tubitv/com.tubitv.activities.MainActivity$_5297#86863 at index 2
+03-13 19:57:31.222  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 19:57:31.222  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#86828 at index 4
+03-13 19:57:31.222  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 19:57:31.247  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.263  2077  2077 E QCOM-OEMCrypto: Error at _oecc133 : 3782
+03-13 19:57:31.265  1031  1207 D OPS_SERVICE: OPS_SERVICE Dispatch starts! 
+03-13 19:57:31.265  1031  1207 D OPS_SERVICE: before calling ioctl to read the next ops_cmd
+03-13 19:57:31.265  1031  1207 D OPS_SERVICE: OPS Received command id = 1
+03-13 19:57:31.266  7186  7198 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 19:57:31.267  1031  1207 W qseecomd: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: vendor.qti.hardware.display.config.IDisplayConfig/default
+03-13 19:57:31.268  2040  2780 I SDM     : HWCSession::MinHdcpEncryptionLevelChanged: Display 1
+03-13 19:57:31.268  7186  7186 W qdgralloc: Failed to load libubwcp.so
+03-13 19:57:31.269  1031  1207 W OPSDisplay: HDCP Level changed to 1
+03-13 19:57:31.270  1031  1207 D OPS_SERVICE: OPS_Service Dispatch ends! 
+03-13 19:57:31.289  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.326 16161 27354 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 19:57:31.328 16161 27354 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 19:57:31.330 16161 27354 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 19:57:31.330  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.332 16161 27354 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 19:57:31.332  3003  6692 D ActivityManager: Received BROADCAST intent 0xb218c3 Key{broadcastIntent pkg=com.samsung.android.mcfds intent=act=com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT xflg=0x4 pkg=com.samsung.android.mcfds flags=0x2000000 u=0} requestCode=20247613 sent=0 from uid 1000
+03-13 19:57:31.334  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 100.00, T : 1773446251325, ET : 273451891, h : 20/27]
+03-13 19:57:31.335  7048  7048 D LocationTracker: Got a location update from Play Services
+03-13 19:57:31.336  3003  6692 D ActivityManager: Received BROADCAST intent 0x5626f03 Key{broadcastIntent pkg=com.samsung.android.mcfds intent=act=com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION xflg=0x4 pkg=com.samsung.android.mcfds flags=0x2000000 u=0} requestCode=2024320 sent=0 from uid 1000
+03-13 19:57:31.336  3003  4411 D SLocation: PositionManager - receive fused location
+03-13 19:57:31.337  3003  4411 W SLocation: GeopointGeofenceManger - refresh wifi to receive loc
+03-13 19:57:31.337  3003  4411 D SLocation: GeopointGeofenceManger - Location reported : fix method = 14 / 100.0
+03-13 19:57:31.337  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 0.0 diffTime : 60001 accept time condition
+03-13 19:57:31.337  3003  4411 D SLocation: LocationBuffer - input buffer, size : 4
+03-13 19:57:31.337  3003  4411 D SLocation: BatchManager - received batch location buffered = true
+03-13 19:57:31.337  3003  4411 D SLocation: SLocationCoreSem - send to coreSem, packet length : 23 / [2, 24, 91, 16, 90, 211, 198, 125, 9, 0, 0, 0, 100, 2, 0, 0, 1, 156, 233, 162, 67, 61, 0]
+03-13 19:57:31.337  3003  4411 D SemContextLocationCoreAttribute: setAttribute() mode : 0 action : 23
+03-13 19:57:31.337  3003  4411 D SemContextService: lock : changeParameters
+03-13 19:57:31.337  3003  4411 D SemContext.CaeProvider.LocationCoreImpl: setAttribute() mode : 0 action : 23
+03-13 19:57:31.338  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for SLOCATION_RUNNER
+03-13 19:57:31.338  3003  4411 I CAE     : setPropertyValue(SLocationRunner.java:116) - SLocationRunner setProperty header : 2, len : 23
+03-13 19:57:31.338  3003  3911 D SensorService: setSContextDataLocked ints length 8 , byte length 26
+03-13 19:57:31.338  3003  3911 D SensorService: setSContextDataLocked 23717c1
+03-13 19:57:31.339  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 19:57:31.339  2007  2007 I sensors-hal: sendContextData:290, sensor hal 26, (0xc1, 0x17, 0x37, 0x2)
+03-13 19:57:31.339  2007  2007 E sensors-hal: sendContextData:133, slocationcore h 193 m 23 s 55
+03-13 19:57:31.339  2007  2007 I sensors-hal: sendUserData:119, slocationcore sendUserData
+03-13 19:57:31.339  2007  2007 E sensors-hal: create_send_context_data:64, slocationcore create_send_context_data
+03-13 19:57:31.339  2007  2007 I sensors-hal: send_context_data:694, slocationcore, 4986366670857974562, 1320970896291267344, msgid:700
+03-13 19:57:31.340  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for slocationcore 
+03-13 19:57:31.340  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:slocationcore  Wakeup, msg_id=1025, ts=5250377204047
+03-13 19:57:31.340  2007  3909 E sensors-hal: handle_sns_client_event:78, slocationcore_event: msgid:1025
+03-13 19:57:31.340  3003  4411 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for SLOCATION_RUNNER
+03-13 19:57:31.340  3003  4411 D SemContextService: unlock : changeParameters
+03-13 19:57:31.340  3003  4411 D SemContextManager:   .changeParameters : listener = Z.i@46c9840, service=SLocation Core
+03-13 19:57:31.341  3003  4411 D SLocation: AlarmManagerWrapper - next alarm time : 277051903 (WK)
+03-13 19:57:31.343  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.0 / time=1773446251325 / elapsed=273451891560042
+03-13 19:57:31.347  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :10], AP_WAKEUP
+03-13 19:57:31.348  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 10
+03-13 19:57:31.349  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 5, 2, 2, 0, 0, 0,
+03-13 19:57:31.349  3003  3907 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-13 19:57:31.349  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-13 19:57:31.351 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT
+03-13 19:57:31.351 32228 32228 I [CE]_ContextEngineReceiver: onReceive - SLocation intent : com.samsung.android.ce.sensor.sLocation.PASSIVE_INTENT
+03-13 19:57:31.351 32228 32228 I [CE]_i  : OnReceive - [Passive Location] 20247613
+03-13 19:57:31.353 32228 32228 I [CE]_SpatialContextManager: isNHInternal - ID = 13 label = 1 conf = 0.19985634
+03-13 19:57:31.354 32228 32228 I [CE]_SpatialContextManager: isNWInternal - ID = 7 label = 2 conf = 0.53059125
+03-13 19:57:31.354 32228 32228 I [CE]_LocationPatternManager: pvpUpdate - hit
+03-13 19:57:31.355  3003  3907 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 5, 2, 2, 0, 0, 0]
+03-13 19:57:31.356 32228 32228 I [CE]_LocationPatternManager: pvpUpdate - Result: 3
+03-13 19:57:31.356 32228 32228 I [CE]_LocationPatternManager: loadPvpState - State : 0 / 1773446191324
+03-13 19:57:31.357 32228 32228 I [CE]_LocationPatternManager: savePvpState - State : 0 / 1773446251325
+03-13 19:57:31.357 32228 32228 I [CE]_LocationPatternManager: onNewLocation - isInFamiliar/time : true / 1773446251325
+03-13 19:57:31.357 32228 32273 I [CE]_PrimaryLocationManager: onNewlocation - State: 7 / 7
+03-13 19:57:31.358  3003  3907 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:10
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)
+03-13 19:57:31.359 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)
+03-13 19:57:31.359 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.ce.sensor.LocationProvider.INTENT_MOVE_CONTEXT_PASSIVE_LOCATION
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)
+03-13 19:57:31.359  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)
+03-13 19:57:31.360  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)false)
+03-13 19:57:31.360  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)
+03-13 19:57:31.360  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)
+03-13 19:57:31.362  3003  3904 D SemContextService: Service.updateContext() : service = SLocation Core
+03-13 19:57:31.366  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10093, AttributionTag=null, Package name=com.samsung.android.mcfds, Paused=false)false)false)false)
+03-13 19:57:31.366  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=10418, AttributionTag=null, Package name=io.appium.settings, Paused=false)false)false)false)
+03-13 19:57:31.366  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=1000, AttributionTag=SLocationService, Package name=android, Paused=false)false)false)false)
+03-13 19:57:31.366  4205  4362 D AppOpsPrivacyItemMonitor: showLocationSystemApps  AppOpItem(Op code=1, UID=5013, AttributionTag=null, Package name=com.sec.location.nsflp2, Paused=false)false)false)false)
+03-13 19:57:31.366  3003  3003 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-13 19:57:31.366  3003  3003 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-13 19:57:31.367  3003  4411 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 5
+03-13 19:57:31.367  3003  4411 D SLocation: GeofenceCoreManager - handleCommandCallback - UNKNOWN_CALLBACK 2 SUCCESS
+03-13 19:57:31.367  3003  4411 D SLocation: CommonCoreManager - received Extra Data from core, len : 5
+03-13 19:57:31.367  3003  4411 D SLocation: CommonCoreManager - handleCommandCallback - FUNC_TYPE : SET_LOCATION  ERROR_CODE : ERROR_NONE
+03-13 19:57:31.372  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.374  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 19:57:31.376  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 19:57:31.376  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 19:57:31.379  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 19:57:31.379  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 19:57:31.380  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 19:57:31.380  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 19:57:31.381  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems.size = 4
+03-13 19:57:31.381  4205  4205 D AiAgentEffect: onPrivacyItemsChanged privacyItems isEmpty or found item is null
+03-13 19:57:31.398  1992  4982 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 19:57:31.398  1992  4982 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 19:57:31.398  1992  4982 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 19:57:31.400  1992  4982 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x10010ee4 3812
+03-13 19:57:31.401  1992  4982 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 21029105(40.109833) for channel-0
+03-13 19:57:31.401  1992  4982 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_RCV received 40
+03-13 19:57:31.401  1992  4982 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 40
+03-13 19:57:31.402  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 40
+03-13 19:57:31.403  1992  4982 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 19:57:31.403  1992  4982 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 19:57:31.403  1992  4982 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 19:57:31.414  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.415  4205  4205 W View    : requestLayout() improperly called by com.android.systemui.qs.SecQSGradationDrawableView{a6be148 V.E...... ......ID 0,0-1080,354 #7f0a0a16 app:id/qs_gradation_view} during layout: running second layout pass
+03-13 19:57:31.415  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{4430be1 V.E...... ......I. 0,0-1080,2640 #2} during layout: running second layout pass
+03-13 19:57:31.415  4205  4205 W View    : requestLayout() improperly called by android.widget.FrameLayout{f30cd06 V.E...... ......ID 0,166-1080,2496 #7f0a0a14 app:id/qs_frame} during layout: running second layout pass
+03-13 19:57:31.416  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 19:57:31.420  1992  4982 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x20010ee4 3812
+03-13 19:57:31.420  1992  4982 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 23148244(44.151772) for channel-1
+03-13 19:57:31.420  1992  4982 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_SPK received 44
+03-13 19:57:31.420  1992  4982 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 44
+03-13 19:57:31.421  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 44
+03-13 19:57:31.422  6380  7375 I SDHMS:x : SIOP:: AP:412 BAT:354 USB:299 CHG:412 PA:424 CP:401 WIFI:400 BLK:0 SUBBAT:301 LRPTHM:388 SKIN:376 SKINF:376 SKINB:362 LRP2:376 LRF2:376 LRB2:362 AP2:376 CHG2:374 MEM2:376 WIFI2:376 RCV2:376 SPK2:306 UPSPK:388 DNSPK:317 VAP:414 VWIFI:401 AMB2:264 AVGCUR:-108 AVGSYS:401 POWER:-463
+03-13 19:57:31.455  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.488  3003  3082 I ActivityManager: Changes in 10138 5 to 15, 144 to 0
+03-13 19:57:31.497  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.508  5164  5216 I appium  : AppiumResponse: {"sessionId":"0c9d7df6-62d4-4483-82a6-26b265e68188","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13fFRVwv/x76QTEkJCCwmdpUR6R3oRaQsICCigFFksqCsqqy6PuIiPuIiiK1hQepEiIC4oqIQqTelSEhGBEGoISQghpMz5/cEv82SYBJIQEi5+3q/Xee3mzrn3njsZyZ3vPcUmyQgAAAA…
+03-13 19:57:31.539  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame
+03-13 19:57:31.544  4205  4394 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 19:57:31.581  5297  5297 D SurfaceView: 46304587 updateSurface: has no frame

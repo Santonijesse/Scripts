@@ -1,0 +1,86 @@
+--------- beginning of main
+03-13 21:38:59.702  2105  2921 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+03-13 21:38:59.703  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 21:38:59.704  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 21:38:59.712  2053  9438 W QC2V4l2Decoder: [v4lavcD_578] Allocating output buffer timedout, 15722ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:38:59.837  8499  8538 I appium  : channel read: GET /session/c9901c4d-9e45-4dbe-b615-6d0b7685b222/source
+03-13 21:38:59.838  8499  8538 I appium  : Source command
+03-13 21:38:59.839  8499  8538 I appium  : Waiting up to 10000ms for the device to idle
+03-13 21:38:59.862  2053  9438 W QC2V4l2Decoder: [v4lavcD_578] Allocating output buffer timedout, 15872ms elapsed since last input buffer queued (threshold 1000ms)
+--------- beginning of system
+03-13 21:38:59.930  3003  4598 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 21:38:59.936  3003  4598 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 21:38:59.938  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:38:59.938  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:38:59.939  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:38:59.939  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:39:00.007  3003  3003 I EyeComfortSolutionService: action  :  android.intent.action.TIME_TICK
+03-13 21:39:00.008  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:19
+03-13 21:39:00.008  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 21:39:00.008  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 21:39:00.009  4205  4841 I DateTimeView: updateAll - getTimeFormat
+03-13 21:39:00.010  4205  4205 D ClockFaceEvents: onTimeTick. callers : com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.refreshTime:38
+03-13 21:39:00.010  4205  4205 D ClockFaceEvents: com.android.keyguard.ClockEventController$keyguardUpdateMonitorCallback$1.onTimeChanged:1
+03-13 21:39:00.010  4205  4205 D ClockFaceEvents: com.android.keyguard.KeyguardUpdateMonitor$16.handleMessage:732
+03-13 21:39:00.011  4205  4205 D FaceWidgetPagesController: onTimeChanged()
+03-13 21:39:00.012  2053  9438 W QC2V4l2Decoder: [v4lavcD_578] Allocating output buffer timedout, 16023ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:39:00.013  4205  4841 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:America/New_York
+03-13 21:39:00.014  4205  4205 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:9:39, TimeContentDescription:9:39 PM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false)))
+03-13 21:39:00.017  4205  4205 D QSClock : StatusBar clock=9:39 notifyTimeChanged(QSClockBellSound - TimeText:9:39, TimeContentDescription:9:39 PM, DateText:Fri, March 13, ShortDateText:Fri, Mar 13, Demo:false) clockVisibleByPolicy=true, clockVisibleByUser=true, visible=true, parent=android.widget.LinearLayout{878a042 V.E...... ......ID 0,0-84,74 #7f0a069b app:id/left_clock_container} caller=com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.animateShow:52 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment.updateStatusBarVisibilitiesInner:230 com.android.systemui.statusbar.phone.fragment.CollapsedStatusBarFragment$$ExternalSyntheticLambda1.run:6 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103  
+03-13 21:39:00.017  4205  4205 D QSClockBellTower: Everyone heard the bell. run(currentTime:1773452340014, getTime():Fri Mar 13 21:39:00 EDT 2026, getTimeZone():libcore.util.ZoneInfo[mDstSavings=3600000,mUseDst=true,mDelegate=[id="America/New_York",mRawOffset=-18000000,mEarliestRawOffset=-17762000,transitions=360]])
+03-13 21:39:00.023  4205  4205 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-13 21:39:00.048  8499  8538 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 21:39:00.088  1171  1171 D io_stats: !@   8,0 r 5180322 152895088 w 7415622 138428820 d 555713 157142124 f 305292 702245 iot 2842440 0 th 0 0 0 pt 0 inp 0 0 98929.084
+03-13 21:39:00.089  1171  1171 D io_stats: !@ Read_top(KB): .gms.persistent(16161) 584 system_server(3003) 204 rControlService(10218) 160
+03-13 21:39:00.089  1171  1171 D io_stats: !@ Write_top(KB): f2fs_ckpt-254:6(5380) 488 system_server(3003) 168 gle.android.gms(27562) 104
+03-13 21:39:00.109  3003  7124 D NetdEventListenerService: CSC Feature value: true
+03-13 21:39:00.110  8499  8538 I appium  : AppiumResponse: {"sessionId":"c9901c4d-9e45-4dbe-b615-6d0b7685b222","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.yelp.android\" class=\"android…
+03-13 21:39:00.110  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10454(com.doordash.driverapp), 4(FAIL), isBlocked=true, 0ms
+03-13 21:39:00.129  8499  8538 I appium  : channel read: GET /session/c9901c4d-9e45-4dbe-b615-6d0b7685b222/screenshot
+03-13 21:39:00.130  8499  8538 I appium  : CaptureScreenshot command
+03-13 21:39:00.131  8499  8538 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:39:00.131  8499  8538 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:39:00.163  2053  9438 W QC2V4l2Decoder: [v4lavcD_578] Allocating output buffer timedout, 16173ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:39:00.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773452340
+03-13 21:39:00.209  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 21:39:00.209  2097  2125 D HeatmapThread: !@ batteryLevel : 96  batteryTemperature : 289 
+03-13 21:39:00.209  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557539
+03-13 21:39:00.209  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557522
+03-13 21:39:00.210  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 21:39:00.210  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557535
+03-13 21:39:00.210  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 21:39:00.210  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 21:39:00.232  9718  9718 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 21:39:00.233  9718  9718 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 21:39:00.233  9718  9718 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 21:39:00.234  3003  7124 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 21:39:00.234  3003  7124 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 21:39:00.234  9718  9718 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 21:39:00.234  9718  9718 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:39:00.240  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_8597#96256(seamlessTransition:0)
+03-13 21:39:00.240  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:39:00.240  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#96165(seamlessTransition:0)
+03-13 21:39:00.240  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:39:00.241  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:39:00.242  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:39:00.242  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_8597#96256 at index 1
+03-13 21:39:00.242  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:39:00.242  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#96165 at index 3
+03-13 21:39:00.242  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:39:00.282  9718  9725 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 21:39:00.283  9718  9718 W qdgralloc: Failed to load libubwcp.so
+03-13 21:39:00.314  2053  9438 W QC2V4l2Decoder: [v4lavcD_578] Allocating output buffer timedout, 16324ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:39:00.464  2053  9438 W QC2V4l2Decoder: [v4lavcD_578] Allocating output buffer timedout, 16475ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:39:00.594  8499  8538 I appium  : AppiumResponse: {"sessionId":"c9901c4d-9e45-4dbe-b615-6d0b7685b222","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L13kGXXfd/5Offel7v7dU7TkwMwM8ggggAwCAQTIIpJkglSIi3Vyha1sk3vVnld5aot17rk3SpvbZmkZNgyQVAECIoBJEFKJEQKJAAS4ACYjMm5c3453Hz2jxe6X+c3093vdc/9VHXVhBf…
+03-13 21:39:00.615  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 27083, isSameBssidAndFreq true
+03-13 21:39:00.615  2053  9438 W QC2V4l2Decoder: [v4lavcD_578] Allocating output buffer timedout, 16625ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:39:00.617  3003  4047 D SGM:GameManager: identifyGamePackage. com.yelp.android, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 21:39:00.617  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.yelp.android, ret=false
+03-13 21:39:00.618  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 588 / 8 / 1.00 (17) / 573 / -66.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.087 / 92.002 / N || N N / 0 0 / Y 2.0 / Y X 0 / 98929613 0 || Invalid
+03-13 21:39:00.618  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 21:39:00.619  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 21:39:00.623  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 21:39:00.623  3003  4030 D InsDataManager: trimBuffers start.
+03-13 21:39:00.624  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 21:39:00.624  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 21:39:00.624  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -66.0,"latency": 0.08695470903291809,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 588 / 8 / 1.00 (17) / 573 / -66.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.087 / 92.002 / N || N N / 0 0 / Y 2.0 / Y X 0 / 98929613 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}

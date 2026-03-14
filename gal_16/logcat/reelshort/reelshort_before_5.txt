@@ -1,0 +1,153 @@
+--------- beginning of main
+03-13 15:22:45.972  2007 30583 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 216(216),c:0,b:85,m:13,cl:0,l:215,s:216,l0:17600,l1:64,s0:17122,s1:0,acl:1,opr:0.25,f(r):97,u(bl):111,if:0,wi:4,si:12,po:125(N:0)
+03-13 15:22:46.046 31030 31057 I appium  : channel read: GET /session/b30d649c-7662-466f-a4e2-559799fd4745/source
+03-13 15:22:46.049 31030 31057 I appium  : Source command
+03-13 15:22:46.052 31030 31057 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 15:22:46.067  1171  1171 D io_stats: !@   8,0 r 4297984 132451696 w 5328828 106486212 d 442749 118798632 f 226029 514883 iot 2190072 0 th 0 0 0 pt 0 inp 0 0 76355.064
+03-13 15:22:46.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773429766
+03-13 15:22:46.212  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 15:22:46.213  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 331 
+03-13 15:22:46.213  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557162
+03-13 15:22:46.213  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557162
+03-13 15:22:46.213  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 15:22:46.213  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557145
+03-13 15:22:46.214  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 15:22:46.214  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 15:22:46.221 31165   367 I DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:260480602
+03-13 15:22:46.221 31165   367 I DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 260480602
+03-13 15:22:46.236 31165   367 I Ads     : Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("19BF5AA3C93E6C7CB7F48AD3E7AE1EC5")) to get test ads on this device.
+03-13 15:22:46.256  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:22:46.263 31165   369 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4744)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5469)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5436)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5410)] [m84.bgu.<init>(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:11)] [m84.bgu.a(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:13)] [m84.bgn.v(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:25)] [m84.bgn.w(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:1)] [com.google.android.gms.ads.internal.k.r(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:78)] [com.google.android.gms.ads.internal.k.run(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:51)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-13 15:22:46.263  3003  3806 D ConnectivityService: requestNetwork for uid/pid:10437/31165 activeRequest: null callbackRequest: 15474 [NetworkRequest [ REQUEST id=15475, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+03-13 15:22:46.264  3003  3941 D ConnectivityService:    accepting network in place of null for NetworkRequest [ REQUEST id=15475, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.265  3003  3922 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=15475, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.265  3003  3922 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=15475, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.265  3003  3922 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=15475, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.265  3003  3941 D ConnectivityService: Rematched networks [computed 0ms] [applied 1ms] [issued 1]
+03-13 15:22:46.265  3003  3941 D ConnectivityService: NetworkReassignment :
+03-13 15:22:46.265  3003  3941 D ConnectivityService:   15475 : null → 115
+03-13 15:22:46.265  3003  3922 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=15475, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.270 31165   368 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4744)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5469)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5436)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5410)] [m84.bgu.<init>(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:11)] [m84.bgu.a(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:13)] [m84.bgd.u(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:18)] [m84.bgd.a(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:26)] [com.google.android.gms.ads.internal.k.c(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:67)] [com.google.android.gms.ads.internal.i.run(:com.google.android.gms.policy_ads_fdr_dynamite@260480608@260480602017.868869642.868869642:15)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-13 15:22:46.270  3003  6708 D ConnectivityService: requestNetwork for uid/pid:10437/31165 activeRequest: null callbackRequest: 15476 [NetworkRequest [ REQUEST id=15477, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+03-13 15:22:46.276  3003  3941 D ConnectivityService:    accepting network in place of null for NetworkRequest [ REQUEST id=15477, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.277 27562  1377 W SQLiteLog: (28) double-quoted string literal: "1773256966277"
+03-13 15:22:46.277 27562  1377 W SQLiteLog: (28) double-quoted string literal: "1"
+03-13 15:22:46.278 27562 27576 W SQLiteLog: (28) double-quoted string literal: "1773256966278"
+03-13 15:22:46.278 27562 27576 W SQLiteLog: (28) double-quoted string literal: "1"
+03-13 15:22:46.283 27562  1377 W gle.android.gms: Large reply transaction of 487644 bytes, interface descriptor com.google.android.gms.gass.internal.IGassService, code 3
+03-13 15:22:46.286 31165 31188 E .android.victor: No package ID 6a found for resource ID 0x6a0b0013.
+03-13 15:22:46.290 27562 27576 W SQLiteLog: (28) double-quoted string literal: "1773256966290"
+03-13 15:22:46.290 27562 27576 W SQLiteLog: (28) double-quoted string literal: "1"
+03-13 15:22:46.292 31165   367 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
+03-13 15:22:46.294 31165   402 I AppLovinMediationAdapter: Extras for signal collection: null
+03-13 15:22:46.295 27562 27562 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.ads.service.CACHE xflg=0x4 pkg=com.google.android.gms }
+03-13 15:22:46.295 27562 27562 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.ads.service.CACHE xflg=0x4 pkg=com.google.android.gms }
+03-13 15:22:46.289  3003  3922 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=15477, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.297  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:22:46.299  2007  2007 I sensors-hal: flush:383, android.sensor.accelerometer/11
+03-13 15:22:46.299  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:22:46.299  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for accel with SUID low=7080276908576992050 high=13131023702051637398
+03-13 15:22:46.300  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:22:46.300  2007 31735 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for accel 
+03-13 15:22:46.300  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 15:22:46.300  2007  2007 I sensors-hal: flush:389, android.sensor.accelerometer/11 completed
+03-13 15:22:46.301 31165 31244 I AdvertisingIdClient: shouldSendLog 256935723
+03-13 15:22:46.301 31165 31244 I AdvertisingIdClient: GetInfoInternal elapse 5ms
+03-13 15:22:46.301 31165   364 D SensorManager: registerListener :: 11, lsm6dsv LSM6DSV Accelerometer Non-wakeup, 200000, 0, 
+03-13 15:22:46.302  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 200000000 based on min/max delay_ns
+03-13 15:22:46.302  2007  2007 I sensors-hal: send_sensor_config_request:575, resampler is used, set resampler config
+03-13 15:22:46.302  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:22:46.302  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gyro with SUID low=11331203967455886618 high=2227687939882802101
+03-13 15:22:46.302  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:22:46.302  2007 31752 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gyro 
+03-13 15:22:46.303  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 15:22:46.303  2007  2007 I sensors-hal: batch:363, android.sensor.gyroscope/41, period=200000000, max_latency=0 request completed
+03-13 15:22:46.303  2007  2007 I sensors-hal: flush:383, android.sensor.gyroscope/41
+03-13 15:22:46.303  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:22:46.303  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gyro with SUID low=11331203967455886618 high=2227687939882802101
+03-13 15:22:46.303  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:22:46.304  2007 31752 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gyro 
+03-13 15:22:46.304 31165   394 D nativeloader: Configuring clns-16 for other apk . target_sdk_version=35, uses_libraries=ALL, library_path=, permitted_path=/data:/mnt/expand
+03-13 15:22:46.304 31165   394 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libdigital_tele_scope.arcsoft.so:libai_tetra_super_zoom.arcsoft.so:libsf_tetra_enhance.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libaifrcInterface.camera.samsung.so:libBestPhoto.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:libIma
+03-13 15:22:46.306  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 2 ms to receive the response with 0
+03-13 15:22:46.306 31165   394 D nativeloader: Load /data/user/0/com.newleaf.app.android.victor/app_pccache/5/FF9F46C837651603405478A94323CFF15475179C/pcam.jar!/libd21054B790CC0.so using isolated ns clns-16 (caller=/data/user/0/com.newleaf.app.android.victor/app_pccache/5/FF9F46C837651603405478A94323CFF15475179C/pcam.jar): ok
+03-13 15:22:46.306  2007  2007 I sensors-hal: flush:389, android.sensor.gyroscope/41 completed
+03-13 15:22:46.306 31165 31240 I AdvertisingIdClient: shouldSendLog 256935723
+03-13 15:22:46.306 31165 31240 I AdvertisingIdClient: GetInfoInternal elapse 7ms
+03-13 15:22:46.307 31165   402 I AppLovinMediationAdapter: Generated bid token: 1:96943fdea087a1d759e08734fce0068af23ef96e:4JJFqBxhPJXrT2XSU5xfr7qApi-UW8KbSdsGqnyE5U3ZWb0_gyfW3T:k6WoZPtpk9v7nV335xxDu-L41rqyjU2OzGtBvXq0RbtYvjBFHhJ3Mq2wvWMvOdauUQv7c-PxxfkHlCldWPgM6K8uQjm76C48FH1FZcAaAJIUXZr4S70uiAX5v32fdOmS39vqbzc3DAE8sk0cwGHh5V-vcgnS6eyC_Yut70P309cQPKqsSHBlZzGzw7Yffw6iQOKPyDeCH6o9-imY6RblqPEvWeeCp_QsspgQTp3xz_ZqLYxNb78dyXnbSQmeaoeYPrmCDlOfHVPUN7T_9lolmoppoPRK0xqch4sNs3PjhohZsO3lsUUxBapl0iK2spjO5jLg9R6XTsdUpPzHjRHi6TZUi4ndR59quFg__BkIvPZetihCXEh0qB4sQmDp9evInaSD7GQTzHCua5uxS-jf5c4fwKHN5QHR1k6bxzXC97ol2rd4X_koUv4VsvQ29ai6LLMFtAZPZqg5S2Ds8DHt6Qt4LRbPVsBCMDOzDnKOI7XN_GXzxRJEpnJ8WJ2BG5uV4Cudm6zwFWczeYCSSwTKwshb36jAjNzniuuZ4_ge6-1ZPnNrW5vNVO8NR8Baf37JuE48ye3vZ7YLQlM96cr0zpyQDBQpqxA0Mz62Id1kjOU1rhBtdyNml0icPXVgXQvEVO2cCyZb-yhgGcn1WivHyIYmRsRc19CeHtO7qEPgg6UQSNifVSvGR-fK78emh2K5xhW4OMt0ar5IHYcDUOFOmwlhQQ4o-PNogJnDgJYVh_4kCEPnLTKtlDPDxevfJ3eiI70NmgheUwUVu6crGyCy2WcsQByG-yb3e0XdPk8J1qDfFfOJSIpmRzSw0wCcyFj_bnPsMme0isoUQIo4utIH01OALeQA8WQYIuh8-G9Fz7-Xplrgm4Ma4VW8KHFx_pzlZpuCQaog2RS4qmD5-l-G9LeTPLgLeaLgZdkOE4XGePF3pmtcD0apZQs5ZC9HjFfs7e4ZmqZxG8zUKgTP9__QmrNks08CuT8pgDq_LXGreKSeZuFw37Oan0LXg5D6ztrNz4PgdXSdx1BOhnW0AaOo2boUe8x7hfai9NFQ-t5_J8UqJYlSNGNZWJEhGXFZ7Kqo5s6XqF9qVrR2LxVs-JfSqJgQe9AHWBsYwi3rMtPnXYEpt4U3byDy-nW2xopeGbyhXXoV0BFTSGOhSjsJkWHysN2T3InYcXmNhB0O3z7A8-JoV6zu46TNVvLdb2nMf4H5N1byA2qSHq245qex54vU1wbbCJ94kok033xzICTo6IZydS81u_IW7tnNm3uRI0nWjp8sZ2pnnC8HTo3YVXlQ90LoaC7SA_is-iKWr4bk2LYD6Ces1SDja1i1XVIibdX3qFPosE0EJ6bSbQHDOBQJzXdR26edvTdjMib-J-zrz5W5nDOHJp2FmCC8Jf13bpDa69nlzoxoDUdquUpUPyj67OFKtIJUzLLub9jGRDfYHLtGG_za0RQxTf3PBxx69nOfn_gV6B77bZxu10sZi-3kr967KpX1Mx01FTPrGaNeLL1pcaQaFbwq50jUMb6Y14KPHcZVDcKrwUKGG6J54MEPn3BWCboQt8iIpFSqAo0osc2vvb1Zu0fPQHkksE5qo2OHdPwVRuJrOPGkaIj3cF6Cj5C7mzoywMlfecihPIeWNqRGWI_GQGaak8g0y_ik-dX10Cmosr0gjgLg1xMyuiIw-PPEJZ0nEDPHPTZdo8GQf47Txc7nmt4NCa3hCefcF6uunAt4bmFpRfmveRhqq59psH5IzVOrDUgK27gzvq_2HI94x4CPWRkhwUaagWXx76j9t7JsfrRbgBXG4dTVTp8ZjKvk3qTitL_tURf6bNeZr-DMiV-OFTSve93kZz820uGQHZaQlsNKL_Ar27Zp0_lmoqh7WhG0uJE4f7uac8fAQ8_8F9AlfLLH_ZWMtjenl9m6Q1J0P3oszW5U0CQ2D9ehvk-9R9DQDSior-v6yJG8WKLwvvvklXXcaPqldRzGWjjFPXkN1Ajia8VKGPuUYTkOrR_eGv-ojTgTb82m7JO-J_3jZXRiFItZ1n_F2Bkk5CLSpHzHrDN4TWmsNRZ31bl-r-GENL3ZtMTP8Pg5roxtTcCWzApIsBGJe0qfEkNJROz5ASx7nfMUTfClWIWZSFKDygJWbNMO8RhxIMn_rvLdYNKO7iQ6kACn0nVrr7uBGMHI39VLM6cnf1ZecbPB71UHk2VXfQByo6-YO6rsyt3gda9X0PjeFwg-QsAYPXNHdNiVKkNq56OcM5vaaR8uW2w6gXE17uTDJ4gllojeIEvLVt5lPl7wZ1BChVWJwyJzpM3qEl7rsFUMdyoy2QpHojc22y8VFxuwtUjrpVIWrCotduhFx_DXYqNoQKGiCZeKzFL_IAt_uVQ0ja3wYuhIpbziqfNxhF8WV5ASXmV564LFlpsNDmDsYlElhh6YTheTmXOPnHWyyyPIHjZTSqTLFR2b1ZnevdYm6_K4laB1cTNN6pX9J3pZRGuUChQrNDZPIMHpAf-Lon7_us_ii62_IZnrl1ydzHxIM_x2tqEDkULcnKorIumIjMMN8nPC3S8U8ALCXz7qL5y8j3HWmbnyL4Wlp_5iEBI1CfW4EmnndI1EGNmiAj_9bNkZEm80mUBU74Gp821E5hFIPbonAEMJqpnC0J2BRCWEgl1tuhoKRf5eY-wVW85sBYvQ8PsUmZO2ttDEXD_2c_oNvFFrPhEGZRMxmktDmRIS7BKuoiahiEXJEdp-xVzQlhfSMT3I4oQmSnLwJ1Zr66kKT5Z-o88K_LLNvYC6Z2dUy3tfgg-hWSGwe-gUBky6elKT7rWbpgvO-prODpn5kZ65gFWcivrgwoNO05dTClYP8EPehsDK6iwFne16Z1Lc0io1f4k5tWVS8hSvfEtBgfHxX8Sy8g_khjKF0386rQhOhak-hT0YuJCe16RT8iO_CrUo4jpO_bPGXUWpSguGpUykaSPvtLVUPhAwje0GZfAENdGUQ39CKAoJV8FNpdbhsGNlCIAw-CDYcCicfasIHFVnPvqMOMlb7HuethgETyHxB25PJ1jgmHBlcr0or7Q3qYmSk2MQQtFzrvb5lcxdhmcIDDT3CGkokP2TzQq0bITg1pfWuucd_XcHIaiCzsZ39lHDCysMS1HBT16k0__ym9hBatjIaCto6EgQmmoPyw644-0FsHqENjtmsaXukJF3BvCGwO8ASNRbntybX4YY6XEFNWCglm0ijIff2t2JWlCfsrfXntkooXc_MJnBL5Xo-cUSA1Y1NXCu0t7Kg9UqsscFapn8vC6OWiB-zJCdd4bXhip239OcapN3o-psB-bp3-8bvsr5W_3S6uqh-S6lhYwynXt1HwDnXbzWxvKyFuQSVLWIQIa-XmFbQLXiQTK10FfIbQESZee2J7Gjsz1cO4CsdoHiObrqViz8vf19J2RbQsgCUpOmUTpRyOiaAIIG0mIzmGofLErL8lKeUlcc2_5EfA49iqKttRc8-whBwfKvMq281Jkl5j5DHqQO3tLRUSstFjCTTdfzqM_XnYKHKXsjb6hblLXY2eMTrWuMsWSj5UZial5g6gyJQuxNxIGDnGDojflC6aSRwJWqQXQdqMk_RAoYbSxHL-uP_orA04tnY4XJz220z5nNM6zASE_5ny6nHscZBXTmOKP-VGFJEKnmLMj-cRTggSiLwI9gUdShy8xSyo28QfFQWovtnvLeR2DCvyQgq0UTFRqXYtJfodx4IlQD1JT92o5Zi_sgWnJNbD7XmM2OKqK6y57ClCt6WkPYQE_M4Yd58jiRSC2u086prZYoARYmrK7krb32pEDJ28ZcB526mlcDyaGGPBy0n-jU8ksh_cCUiFqGkC2Bz9stzgKaXhPZbLeL_-28xGFJMjyLdqBWM36QHNSg9SKr4CtiMQHoHHH7KCrqS3zCnkOvSuqSmliWPz
+03-13 15:22:46.307 31165   364 D SensorManager: registerListener :: 41, lsm6dsv LSM6DSV Gyroscope Non-wakeup, 200000, 0, 
+03-13 15:22:46.308 31165 31244 I AdvertisingIdClient: shouldSendLog 256935723
+03-13 15:22:46.308 31165 31244 I AdvertisingIdClient: GetInfoInternal elapse 7ms
+03-13 15:22:46.310 31165   367 I DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:260480602
+03-13 15:22:46.310 31165   367 I DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 260480602
+03-13 15:22:46.310  3003  3922 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=15477, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.311  3003  3922 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=15477, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.312  3003  3941 D ConnectivityService: Rematched networks [computed 0ms] [applied 3ms] [issued 32]
+03-13 15:22:46.312  3003  3941 D ConnectivityService: NetworkReassignment :
+03-13 15:22:46.312  3003  3941 D ConnectivityService:   15477 : null → 115
+03-13 15:22:46.312  3003  3922 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=15477, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10437 RequestorUid: 10437 RequestorPkg: com.newleaf.app.android.victor UnderlyingNetworks: Null] ]
+03-13 15:22:46.314 31165   364 I AdvertisingIdClient: shouldSendLog 256935723
+03-13 15:22:46.314 31165   364 I AdvertisingIdClient: GetInfoInternal elapse 2ms
+03-13 15:22:46.316  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10437(com.newleaf.app.android.victor), SUCCESS, 2ms
+03-13 15:22:46.318 31030 31057 I appium  : AppiumResponse: {"sessionId":"b30d649c-7662-466f-a4e2-559799fd4745","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.newleaf.app.android.victor\" c…
+03-13 15:22:46.320 31165   424 W ServiceBindIntentUtils: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+03-13 15:22:46.322 27562 27562 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.ads.service.START xflg=0x4 pkg=com.google.android.gms }
+03-13 15:22:46.322 27562 27562 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.ads.service.START xflg=0x4 pkg=com.google.android.gms }
+03-13 15:22:46.323  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:22:46.328 31030 31057 I appium  : channel read: GET /session/b30d649c-7662-466f-a4e2-559799fd4745/screenshot
+03-13 15:22:46.329 31030 31057 I appium  : CaptureScreenshot command
+03-13 15:22:46.329 31030 31057 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:22:46.329 31030 31057 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:22:46.338 27562   434 W SQLiteLog: (28) double-quoted string literal: "1773256966338"
+03-13 15:22:46.338 27562   434 W SQLiteLog: (28) double-quoted string literal: "1"
+03-13 15:22:46.339 27562 30245 W SQLiteLog: (28) double-quoted string literal: "1773256966339"
+03-13 15:22:46.339 27562 30245 W SQLiteLog: (28) double-quoted string literal: "1"
+03-13 15:22:46.341  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 50000000 based on min/max delay_ns
+03-13 15:22:46.341  2007  2007 I sensors-hal: batch:363, android.sensor.accelerometer/11, period=50000000, max_latency=0 request completed
+03-13 15:22:46.341 31165 31165 D SensorManager: unregisterListener
+03-13 15:22:46.363 27562 27562 I Ads     : Received log message: <Google:HTML> You are currently using version 260480999.253830000.1 of the SDK, which is out of date. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. The latest SDK can be installed from https://goo.gle/android-install-instructions. More information about the SDK deprecation schedule is available at https://developers.google.com/admob/android/deprecation.
+03-13 15:22:46.364  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10437(com.newleaf.app.android.victor), SUCCESS, 0ms
+03-13 15:22:46.397 31165   405 W Ads     : Not retrying to fetch app settings
+03-13 15:22:46.412  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10437(com.newleaf.app.android.victor), SUCCESS, 2ms
+03-13 15:22:46.420   428   428 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 15:22:46.420   428   428 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 15:22:46.420   428   428 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 15:22:46.420  3003  3806 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 15:22:46.420  3003  3806 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:22:46.420   428   428 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 15:22:46.421   428   428 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 15:22:46.433  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.newleaf.app.android.victor/com.newleaf.app.android.victor.player.view.EpisodePlayerActivity$_31165#66204(seamlessTransition:0, secure)
+03-13 15:22:46.433  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:22:46.433  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#66152(seamlessTransition:0)
+03-13 15:22:46.433  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:22:46.434  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 15:22:46.434  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:22:46.435  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.newleaf.app.android.victor/com.newleaf.app.android.victor.player.view.EpisodePlayerActivity$_31165#66204 at index 1
+03-13 15:22:46.435  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:22:46.435  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#66152 at index 3
+03-13 15:22:46.435  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:22:46.459 31165 31236 I AdvertisingIdClient: shouldSendLog 256935723
+03-13 15:22:46.459 31165 31236 I AdvertisingIdClient: GetInfoInternal elapse 3ms
+03-13 15:22:46.463 31165 31236 I AdvertisingIdClient: shouldSendLog 256935723
+03-13 15:22:46.463 31165 31236 I AdvertisingIdClient: GetInfoInternal elapse 2ms
+03-13 15:22:46.472 31165   399 W Ads     : Not retrying to fetch app settings
+03-13 15:22:46.482   428   459 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 15:22:46.483   428   428 W qdgralloc: Failed to load libubwcp.so
+03-13 15:22:46.497  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10437(com.newleaf.app.android.victor), SUCCESS, 0ms
+03-13 15:22:46.505 27562 30245 W SQLiteLog: (28) double-quoted string literal: "1773256966505"
+03-13 15:22:46.505 27562 30245 W SQLiteLog: (28) double-quoted string literal: "1"
+03-13 15:22:46.513  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 250000000 based on min/max delay_ns
+03-13 15:22:46.513  2007  2007 I sensors-hal: send_sensor_config_request:575, resampler is used, set resampler config
+03-13 15:22:46.514  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:22:46.514  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gyro with SUID low=11331203967455886618 high=2227687939882802101
+03-13 15:22:46.514  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:22:46.514  2007 31752 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gyro 
+03-13 15:22:46.515  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 15:22:46.515  2007  2007 I sensors-hal: batch:363, android.sensor.gyroscope/41, period=250000000, max_latency=0 request completed
+03-13 15:22:46.515 31165 31165 D SensorManager: unregisterListener
+03-13 15:22:46.527 27562 27562 I Ads     : Received log message: <Google:HTML> You are currently using version 260480999.253830000.1 of the SDK, which is out of date. Please consider updating your SDK to the most recent SDK version to get the latest features and bug fixes. The latest SDK can be installed from https://goo.gle/android-install-instructions. More information about the SDK deprecation schedule is available at https://developers.google.com/admob/android/deprecation.
+03-13 15:22:46.543 27562 30245 I Ads     : SDK version: afma-sdk-a-v260480999.253830000.1
+03-13 15:22:46.544 27562 30245 I Ads     : HTTP timeout: 60000 milliseconds.
+03-13 15:22:46.657 31030 31057 I appium  : AppiumResponse: {"sessionId":"b30d649c-7662-466f-a4e2-559799fd4745","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRV/sfx76STSgg1JCgQkQBBRaSDNFFBBWmKrFRlsQCyKyJrA3F1AUUUXBAVUViEFVARpISmIM1QJJLQW0gIgQAhQPp8f3/wZDbDTEICCcP5+X49z/dRZs6cOTczmdz7mXPPtYiICgA…
+03-13 15:22:46.714  2007 31735 I sensors-hal: handle_sns_client_event:375, [0][573] accel_sample [ 0.020,  7.507,  6.314] 256967250809630

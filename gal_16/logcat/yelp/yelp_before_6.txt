@@ -1,0 +1,67 @@
+--------- beginning of main
+03-13 21:44:24.461  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-13 21:44:24.469  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 21:44:24.483  2053 18491 W QC2V4l2Decoder: [v4lavcD_612] Allocating output buffer timedout, 16865ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:44:24.533 17653 17689 I appium  : channel read: GET /session/2249f083-d673-4a2d-9fe8-7f308f87ffd2/source
+03-13 21:44:24.535 17653 17689 I appium  : Source command
+03-13 21:44:24.536 17653 17689 I appium  : Waiting up to 10000ms for the device to idle
+03-13 21:44:24.634  2053 18491 W QC2V4l2Decoder: [v4lavcD_612] Allocating output buffer timedout, 17016ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:44:24.644 17653 17689 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 21:44:24.705 17653 17689 I appium  : AppiumResponse: {"sessionId":"2249f083-d673-4a2d-9fe8-7f308f87ffd2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.yelp.android\" class=\"android…
+--------- beginning of system
+03-13 21:44:24.714  3003  6828 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 21:44:24.718  3003  6828 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 21:44:24.720  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:44:24.721  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:44:24.721  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:44:24.722  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:44:24.727 17653 17689 I appium  : channel read: GET /session/2249f083-d673-4a2d-9fe8-7f308f87ffd2/screenshot
+03-13 21:44:24.728 17653 17689 I appium  : CaptureScreenshot command
+03-13 21:44:24.729 17653 17689 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:44:24.729 17653 17689 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:44:24.784  2053 18491 W QC2V4l2Decoder: [v4lavcD_612] Allocating output buffer timedout, 17166ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:44:24.818 18705 18705 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 21:44:24.819 18705 18705 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 21:44:24.819 18705 18705 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 21:44:24.819  3003  6828 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 21:44:24.820  3003  6828 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 21:44:24.820 18705 18705 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 21:44:24.820 18705 18705 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:44:24.823  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_17746#96875(seamlessTransition:0)
+03-13 21:44:24.823  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:44:24.823  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#96789(seamlessTransition:0)
+03-13 21:44:24.823  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:44:24.824  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:44:24.825  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:44:24.825  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_17746#96875 at index 1
+03-13 21:44:24.825  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:44:24.825  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#96789 at index 3
+03-13 21:44:24.826  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:44:24.861 18705 18711 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 21:44:24.863 18705 18705 W qdgralloc: Failed to load libubwcp.so
+03-13 21:44:24.934  2053 18491 W QC2V4l2Decoder: [v4lavcD_612] Allocating output buffer timedout, 17317ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:44:25.085  2053 18491 W QC2V4l2Decoder: [v4lavcD_612] Allocating output buffer timedout, 17467ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:44:25.196 17653 17689 I appium  : AppiumResponse: {"sessionId":"2249f083-d673-4a2d-9fe8-7f308f87ffd2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L1pcGTXeab5nHtvrkggsS+F2jeyuIqkSYqURO0r1V4kyxYpy7LslsfytLsjZiJ6oqNnehztiOnxj5nptluWrKYtS6RIURIpUbQWSyIpUuImVrHIYu2FWrDvyD3vfs/8yAVIbIXEUpkA7hP…
+03-13 21:44:25.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773452665
+03-13 21:44:25.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 21:44:25.206  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 302 
+03-13 21:44:25.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557544
+03-13 21:44:25.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557522
+03-13 21:44:25.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 21:44:25.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557535
+03-13 21:44:25.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 21:44:25.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 21:44:25.235  2053 18491 W QC2V4l2Decoder: [v4lavcD_612] Allocating output buffer timedout, 17618ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 21:44:25.265  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 21:44:25.266  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 21:44:25.267  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 21:44:25.268  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 21:44:25.279  5393  6769 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:60:3A, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-69, periodicAdvInt=0x0
+03-13 21:44:25.280  5393  6769 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:60:3A, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-69, periodicAdvInt=0x0
+03-13 21:44:25.281  5393  6769 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=0, address=XX:XX:XX:XX:60:3A, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-69, periodicAdvInt=0x0
+03-13 21:44:25.283 14556 14581 I BCMGR[11.2.04.4]: BeaconMainController] onReceive - [1 : ST packet!][2 : ST packet!][3 : ST packet!][4 : ST packet!][5 : ST packet!][6 : ST packet!][7 : ST packet!][8 : ST packet!][9 : ST packet!][10 : ST packet!]
+03-13 21:44:25.288 10218 10229 I [-0400]oneconnect[1.8.37.23_01][BEACON_MANAGER_CONTROL_SERVICE]: TvOcfParser.onReceive - TV Popup Onboarding is skipped - ($)
+03-13 21:44:25.290 10218 10229 I [-0400]oneconnect[1.8.37.23_01][BEACON_MANAGER_CONTROL_SERVICE]: TvOcfParser.onReceive - TV Popup Onboarding is skipped - ($)
+03-13 21:44:25.293 10218 10229 I [-0400]oneconnect[1.8.37.23_01][BEACON_MANAGER_CONTROL_SERVICE]: TvOcfParser.onReceive - TV Popup Onboarding is skipped - ($)
+03-13 21:44:25.317  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 21:44:25.318  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF

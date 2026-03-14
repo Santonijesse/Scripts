@@ -1,0 +1,86 @@
+--------- beginning of system
+03-13 17:59:40.078  3003  4966 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 17:59:40.082  3003  4966 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 17:59:40.088  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:59:40.088  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:59:40.088  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 17:59:40.088  3003  4002 D BackgroundInstallControlService: Package event received: 0
+--------- beginning of main
+03-13 17:59:40.160 23450 23477 I appium  : channel read: GET /session/28c4bc81-a349-4e8b-bc21-f09a33a48afb/source
+03-13 17:59:40.161 23450 23477 I appium  : Source command
+03-13 17:59:40.162 23450 23477 I appium  : Waiting up to 10000ms for the device to idle
+03-13 17:59:40.203  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773439180
+03-13 17:59:40.208 23515 23515 V whchromium.cr_A11yState: Enabled accessibility services list updated.
+03-13 17:59:40.208  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:59:40.208  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 334 
+03-13 17:59:40.208  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557319
+03-13 17:59:40.208  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557312
+03-13 17:59:40.208  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:59:40.208  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557295
+03-13 17:59:40.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:59:40.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:59:40.209 23515 23515 V whchromium.cr_A11yState: Informing listeners of changes.
+03-13 17:59:40.209 23515 23515 V whchromium.cr_A11yState: New AccessibilityState: State{isScreenReaderEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isSpokenFeedbackServicePresent=false, isTextShowPasswordEnabled=false, isOnlyPasswordManagersEnabled=false}
+03-13 17:59:40.220 23450 23477 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 17:59:40.226 23450 23477 I appium  : AppiumResponse: {"sessionId":"28c4bc81-a349-4e8b-bc21-f09a33a48afb","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.einnovation.temu\" class=\"and…
+03-13 17:59:40.238 23450 23477 I appium  : channel read: GET /session/28c4bc81-a349-4e8b-bc21-f09a33a48afb/screenshot
+03-13 17:59:40.239 23450 23477 I appium  : CaptureScreenshot command
+03-13 17:59:40.240 23450 23477 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:59:40.240 23450 23477 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:59:40.328 24650 24650 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 17:59:40.328 24650 24650 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 17:59:40.328 24650 24650 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 17:59:40.328  3003  4833 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 17:59:40.328  3003  4833 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 17:59:40.328 24650 24650 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 17:59:40.329 24650 24650 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 17:59:40.330  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.einnovation.temu/com.baogong.home.activity.LauncherActivity$_23515#78230(seamlessTransition:0)
+03-13 17:59:40.330  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.einnovation.temu/com.baogong.app_login.LoginActivity$_23515#78237(seamlessTransition:0)
+03-13 17:59:40.330  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.einnovation.temu/com.baogong.activity.ContainerMaskActivity$_23515#78245(seamlessTransition:0)
+03-13 17:59:40.330  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:59:40.330  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#78196(seamlessTransition:0)
+03-13 17:59:40.330  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:59:40.330  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 17:59:40.331  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:59:40.331  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.einnovation.temu/com.baogong.home.activity.LauncherActivity$_23515#78230 at index 1
+03-13 17:59:40.331  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.einnovation.temu/com.baogong.app_login.LoginActivity$_23515#78237 at index 2
+03-13 17:59:40.331  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.einnovation.temu/com.baogong.activity.ContainerMaskActivity$_23515#78245 at index 3
+03-13 17:59:40.331  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 17:59:40.332  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#78196 at index 5
+03-13 17:59:40.332  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 17:59:40.362 24650 24656 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 17:59:40.364 24650 24650 W qdgralloc: Failed to load libubwcp.so
+03-13 17:59:40.404  3003 24648 D WifiConnectivityMonitor.DnsThread:  [|213] []
+03-13 17:59:40.404  3003  4062 D WifiConnectivityMonitor.NetworkStatsAnalyzer: DNS resultType : 0, responseTime : 213
+03-13 17:59:40.405  3003  4058 D OpenNetworkQos[4.00]: updateBssidLatestDnsResultType - result: 0
+03-13 17:59:40.405  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 17:59:40.405  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 17:59:40.405  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 26 
+03-13 17:59:40.405  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 17:59:40.405  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 17:59:40.406  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 17:59:40.406  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 17:59:40.406  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 17:59:40.406  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 17:59:40.406  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 17:59:40.455  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 17:59:40.455  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 17:59:40.456  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 17:59:40.456  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 17:59:40.464  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:58:0B, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-78, periodicAdvInt=0x0
+03-13 17:59:40.466 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 17:59:40.501  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 17:59:40.503  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 17:59:40.529  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 23010, isSameBssidAndFreq true
+03-13 17:59:40.530  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 174 / 3 / 1.00 (15) / 286 / -59.0 || 100.0 : 286.00 / 0.5 : 1.00 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.101 / 79.024 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85769525 0 || Invalid
+03-13 17:59:40.530  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 17:59:40.530  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 17:59:40.530  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 17:59:40.530  3003  4030 D InsDataManager: trimBuffers start.
+03-13 17:59:40.530  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 17:59:40.531  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 17:59:40.531  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -59.0,"latency": 0.1012351858667648,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 174 / 3 / 1.00 (15) / 286 / -59.0 || 100.0 : 286.00 / 0.5 : 1.00 / 0.55 : 0.02 / G (G) || 1cf112895765: 0.101 / 79.024 / N || N N / 0 0 / Y 2.0 / Y X 0 / 85769525 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 17:59:40.538  3003  4047 D SGM:GameManager: identifyGamePackage. com.einnovation.temu, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 17:59:40.538  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.einnovation.temu, ret=false
+03-13 17:59:40.616 23450 23477 I appium  : AppiumResponse: {"sessionId":"28c4bc81-a349-4e8b-bc21-f09a33a48afb","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1nbyNpmu75K2hFUqS8N5lKo/SusrrQ3Ts9phc43cBigMV8iPoc84lmFzjAovq8OZjtPVNTPZVVlVYpKa1MypAyNKLoY1+oI1oUKYmkaBTS/wckUCUxgg9FKhRxxXPfj/Htt9+aAgAAAAA…
+03-13 17:59:40.654  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 

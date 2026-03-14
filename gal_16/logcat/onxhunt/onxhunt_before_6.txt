@@ -1,0 +1,106 @@
+--------- beginning of main
+03-13 13:39:09.827 14762 14792 I appium  : channel read: GET /session/9763feb2-cc31-49fa-8d17-031e0324ef3c/source
+03-13 13:39:09.828 14762 14792 I appium  : Source command
+03-13 13:39:09.832 14762 14792 I appium  : Waiting up to 10000ms for the device to idle
+03-13 13:39:09.888 14762 14792 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 13:39:09.910 14762 14792 I appium  : AppiumResponse: {"sessionId":"9763feb2-cc31-49fa-8d17-031e0324ef3c","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.duckduckgo.mobile.android\" cl…
+03-13 13:39:09.922 14762 14792 I appium  : channel read: GET /session/9763feb2-cc31-49fa-8d17-031e0324ef3c/screenshot
+03-13 13:39:09.923 14762 14792 I appium  : CaptureScreenshot command
+03-13 13:39:09.924 14762 14792 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:39:09.924 14762 14792 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+--------- beginning of system
+03-13 13:39:10.025  3003  5506 D FreecessHandler: freeze onxmaps.hunt(10472) result : 37
+03-13 13:39:10.044 15754 15754 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 13:39:10.045 15754 15754 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 13:39:10.046 15754 15754 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 13:39:10.046  3003  4833 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 13:39:10.046  3003  4833 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 13:39:10.046 15754 15754 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 13:39:10.046 15754 15754 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 13:39:10.053  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_31597#56394(seamlessTransition:0)
+03-13 13:39:10.053  2105  2922 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#56401(seamlessTransition:0)
+03-13 13:39:10.054  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 13:39:10.054  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#56336(seamlessTransition:0)
+03-13 13:39:10.054  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 13:39:10.055  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 13:39:10.055  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 13:39:10.056  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_31597#56394 at index 1
+03-13 13:39:10.056  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#56401 at index 2
+03-13 13:39:10.056  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 13:39:10.056  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#56336 at index 4
+03-13 13:39:10.057  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 13:39:10.112 15754 15767 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 13:39:10.113 15754 15754 W qdgralloc: Failed to load libubwcp.so
+03-13 13:39:10.138  3003  4833 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 13:39:10.145  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:39:10.145  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:39:10.145  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:39:10.146  3003  4833 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 13:39:10.147  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:39:10.148 31597 31597 I View    : setRequestedFrameRate frameRate=-4.0, this=com.duckduckgo.app.browser.DuckDuckGoWebView{71d7b71 VFEDHVCL. .F...... 0,0-1080,1457 #7f0b0137 app:id/browserWebView aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 13:39:10.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773423550
+03-13 13:39:10.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 13:39:10.203  2097  2125 D HeatmapThread: !@ batteryLevel : 99  batteryTemperature : 303 
+03-13 13:39:10.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557059
+03-13 13:39:10.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557042
+03-13 13:39:10.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 13:39:10.204  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557055
+03-13 13:39:10.204  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 13:39:10.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 13:39:10.271  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [115 WIFI]
+03-13 13:39:10.272  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 18137, isSameBssidAndFreq true
+03-13 13:39:10.273  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 13:39:10.274  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 13:39:10.275  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 115(valid: true/captive: false)
+03-13 13:39:10.276  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 520 / 5 / 1.00 (17) / 573 / -65.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.087 / 92.314 / N || N N / 0 0 / Y 2.0 / Y X 0 / 70139267 0 || Invalid
+03-13 13:39:10.276  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 13:39:10.276  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 13:39:10.277  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 13:39:10.277  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 13:39:10.278  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 13:39:10.278  3003  4030 D InsDataManager: trimBuffers start.
+03-13 13:39:10.278  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 13:39:10.278  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 13:39:10.278  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -65.0,"latency": 0.08666063471085582,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 520 / 5 / 1.00 (17) / 573 / -65.0 || 100.0 : 573.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.087 / 92.314 / N || N N / 0 0 / Y 2.0 / Y X 0 / 70139267 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 13:39:10.280  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=3533Kbps LinkDnBandwidth>=94298Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.**.*.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -65, Link speed: 573Mbps, Tx Link speed: 573Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 458Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -65 AdminUids: [1000] SSID: "MSU-Secure" UnderlyingNetworks: Null]
+03-13 13:39:10.280  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-13 13:39:10.280  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-13 13:39:10.280  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:94.298Uplink: 3.533
+03-13 13:39:10.280  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-13 13:39:10.282  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-13 13:39:10.284  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-13 13:39:10.284  4600  5502 D txpwrJni: sendNetworkInfo start
+03-13 13:39:10.284  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-13 13:39:10.284  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-13 13:39:10.284  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 13:39:10.284  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 13:39:10.284  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 0 26 25 
+03-13 13:39:10.284  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 13:39:10.285  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) RSSI=-65
+03-13 13:39:10.285  3003  4050 D SemApeService: Deducted link capacity (M: R=320 T=401) on (wlan0) GoogleAPI(M: R=94 T=3) RSSI=-65 isDefault=false isMlo=false
+03-13 13:39:10.286  4205  4390 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 13:39:10.287  4184  6555 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-13 13:39:10.289  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 13:39:10.291  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:39:10.292  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 13:39:10.294  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 13:39:10.294  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 13:39:10.294  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 13:39:10.294  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 13:39:10.296  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-13 13:39:10.296  4205  4387 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 13:39:10.298  3003  4047 D SGM:GameManager: identifyGamePackage. com.duckduckgo.mobile.android, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 13:39:10.298  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.duckduckgo.mobile.android, ret=false
+03-13 13:39:10.299  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-13 13:39:10.300 14832 14914 D Braze v37.0.0 .d: com.braze.events.internal.o fired:
+03-13 13:39:10.300 14832 14914 D Braze v37.0.0 .d: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 13:39:10.300 14832 14914 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 0 subscribers.
+03-13 13:39:10.300 14832 14914 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 2 subscribers.
+03-13 13:39:10.301 14832 14914 D Braze v37.0.0 .y: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 13:39:10.301 14832 14914 D Braze v37.0.0 .com.braze.requests.framework.g: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 13:39:10.301 14832 14914 V Braze v37.0.0 .f: recalculateDispatchState called with session state: NO_SESSION lastNetworkLevel: BAD
+03-13 13:39:10.301 14832 14914 V Braze v37.0.0 .f: currentIntervalMs: -1
+03-13 13:39:10.301 16161 17359 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-13 13:39:10.302 16161 17359 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-13 13:39:10.306  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 1ms
+03-13 13:39:10.328 14762 14792 I appium  : AppiumResponse: {"sessionId":"9763feb2-cc31-49fa-8d17-031e0324ef3c","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WFRl/wbwe2YY9kX2RUAQVNxwwQ3FJTXXpMg2l1czyj3NXFHMJRN3zV61MktKU8vUzDQ1MNxexd1ciEAUQQFR9n2G+f3BNefHcYZ9nbo/1+VVnDlz5plxHObc5/t8H4mXl5cKRERERER…

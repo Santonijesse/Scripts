@@ -1,0 +1,51 @@
+--------- beginning of system
+03-13 15:03:54.068  3003  3595 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 15:03:54.080  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:03:54.081  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:03:54.082  3003  3595 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 15:03:54.082  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:03:54.082  3003  4002 D BackgroundInstallControlService: Package event received: 0
+--------- beginning of main
+03-13 15:03:54.133 21953 21982 I appium  : channel read: GET /session/af365ae7-9915-4ad8-9c36-85f6ff4f92ad/source
+03-13 15:03:54.136 21953 21982 I appium  : Source command
+03-13 15:03:54.138 21953 21982 I appium  : Waiting up to 10000ms for the device to idle
+03-13 15:03:54.165 22026 22026 I View    : setRequestedFrameRate frameRate=NaN, this=c3.y{bd36ac3 VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 c3.d1.a:1 c3.y.dispatchDraw:100 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 15:03:54.165 22026 22026 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{706d1b0 V.ED..... ........ 0,0-0,0}, caller=c3.d1.a:1 c3.y.dispatchDraw:109 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 15:03:54.169  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-13 15:03:54.177  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 15:03:54.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773428634
+03-13 15:03:54.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 15:03:54.204  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 311 
+03-13 15:03:54.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557143
+03-13 15:03:54.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557132
+03-13 15:03:54.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 15:03:54.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557115
+03-13 15:03:54.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 15:03:54.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 15:03:54.215 21953 21982 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 15:03:54.240 21953 21982 I appium  : AppiumResponse: {"sessionId":"af365ae7-9915-4ad8-9c36-85f6ff4f92ad","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.recime.app\" class=\"android.w…
+03-13 15:03:54.255 21953 21982 I appium  : channel read: GET /session/af365ae7-9915-4ad8-9c36-85f6ff4f92ad/screenshot
+03-13 15:03:54.256 21953 21982 I appium  : CaptureScreenshot command
+03-13 15:03:54.257 21953 21982 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:03:54.257 21953 21982 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:03:54.348 22661 22661 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 15:03:54.348 22661 22661 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 15:03:54.349 22661 22661 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 15:03:54.349  3003  4405 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 15:03:54.349  3003  4405 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:03:54.349 22661 22661 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 15:03:54.349 22661 22661 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 15:03:54.358  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.recime.app/com.recime.ReciMeActivity$_22026#64084(seamlessTransition:0)
+03-13 15:03:54.358  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:03:54.358  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#64052(seamlessTransition:0)
+03-13 15:03:54.358  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:03:54.358  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 15:03:54.359  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:03:54.359  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.recime.app/com.recime.ReciMeActivity$_22026#64084 at index 1
+03-13 15:03:54.359  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:03:54.359  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#64052 at index 3
+03-13 15:03:54.360  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:03:54.401 22661 22666 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 15:03:54.402 22661 22661 W qdgralloc: Failed to load libubwcp.so
+03-13 15:03:54.588 21953 21982 I appium  : AppiumResponse: {"sessionId":"af365ae7-9915-4ad8-9c36-85f6ff4f92ad","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFTnmTbwe/qMeu+9IgSiiGq6KaYZ3ABTbWM7rmlOspvNftlN1rubZJ3iFtuJcQFMb27YGGM6mCYhEKii3nvXaOr5/hg0aDQzIKE6+P5dV66YM0dH70ijmXPu87zPK9K0VgogIiIiIiI…
+03-13 15:03:54.618 22026 22409 D [CIO]   : Customer.io Data Pipelines performing flush

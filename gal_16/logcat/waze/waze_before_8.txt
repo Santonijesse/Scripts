@@ -1,0 +1,190 @@
+--------- beginning of main
+03-13 20:32:17.267   750   762 W ocessService0:0: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+--------- beginning of system
+03-13 20:32:17.369  3003  4405 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 20:32:17.377  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:32:17.378  3003  4405 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 20:32:17.378  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:32:17.378  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:32:17.378  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:32:17.387  2105  2836 I VSyncReactor: Current= 60, Period= 60, Distance= 0
+03-13 20:32:17.403  2105  2836 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+03-13 20:32:17.405   482   526 I appium  : channel read: GET /session/827eb9ac-2877-412e-9e9c-b79b18f9c1a5/source
+03-13 20:32:17.406   482   526 I appium  : Source command
+03-13 20:32:17.407   482   526 I appium  : Waiting up to 10000ms for the device to idle
+03-13 20:32:17.440   577   577 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:32:17.464   577   577 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:32:17.470  3003  4185 I Pageboost: Launcher App Execution
+03-13 20:32:17.491  2007  1688 I sensors-hal: handle_sns_client_event:455, [0][4893] gyro_sample_uncal [-0.004,-0.006, 0.002] [-0.003,-0.006, 0.003] 275538002206921
+03-13 20:32:17.555   577   577 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:32:17.560   577   577 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:32:17.573  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 86:3:19:1153151:2630400:672000:1218431:2707200:499200:297:422:231
+03-13 20:32:17.579  3003  4411 W SLocation: GeopointGeofenceManger - refresh wifi to receive loc
+03-13 20:32:17.581  3003  4411 D SLocation: GeopointGeofenceManger - Location reported : fix method = 14 / 4.72
+03-13 20:32:17.585  3003  4411 D SLocation: AlarmManagerWrapper - next alarm time : 279138147 (WK)
+03-13 20:32:17.668   482   526 I appium  : AppiumResponse: {"sessionId":"827eb9ac-2877-412e-9e9c-b79b18f9c1a5","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.waze\" class=\"android.widget.…
+03-13 20:32:17.688  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.689   482   526 I appium  : channel read: GET /session/827eb9ac-2877-412e-9e9c-b79b18f9c1a5/screenshot
+03-13 20:32:17.690  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.690   482   526 I appium  : CaptureScreenshot command
+03-13 20:32:17.690  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.691   482   526 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:32:17.691   482   526 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:32:17.697  3003  5506 D FreecessHandler: freeze com.samsung.android.aremoji(10044) result : 51
+03-13 20:32:17.697  3003  5506 D FreecessHandler: stop trying to freeze com.samsung.android.aremoji
+03-13 20:32:17.697  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.697  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.697  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.701  3003  5506 D FreecessHandler: freeze com.samsung.android.game.gamehome(10318) result : 51
+03-13 20:32:17.702  3003  5506 D FreecessHandler: stop trying to freeze com.samsung.android.game.gamehome
+03-13 20:32:17.702  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.702  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.702  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.705  3003  5506 D FreecessHandler: freeze com.costco.app.android(10348) result : 51
+03-13 20:32:17.705  3003  5506 D FreecessHandler: stop trying to freeze com.costco.app.android
+03-13 20:32:17.705  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.705  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.705  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.708  3003  5506 D FreecessHandler: freeze com.nike.omega(10354) result : 51
+03-13 20:32:17.708  3003  5506 D FreecessHandler: stop trying to freeze com.nike.omega
+03-13 20:32:17.708  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.708  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.708  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.712  3003  5506 D FreecessHandler: freeze com.wendys.nutritiontool(10397) result : 51
+03-13 20:32:17.712  3003  5506 D FreecessHandler: stop trying to freeze com.wendys.nutritiontool
+03-13 20:32:17.712  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.712  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.712  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.715  3003  5506 D FreecessHandler: freeze com.duckduckgo.mobile.android(10417) result : 51
+03-13 20:32:17.715  3003  5506 D FreecessHandler: stop trying to freeze com.duckduckgo.mobile.android
+03-13 20:32:17.715  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.715  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.715  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.718  3003  5506 D FreecessHandler: freeze ctrip.english(10424) result : 51
+03-13 20:32:17.718  3003  5506 D FreecessHandler: stop trying to freeze ctrip.english
+03-13 20:32:17.718  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.718  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.718  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.721  3003  5506 D FreecessHandler: freeze com.olo.dairyqueen.production(10435) result : 51
+03-13 20:32:17.721  3003  5506 D FreecessHandler: stop trying to freeze com.olo.dairyqueen.production
+03-13 20:32:17.721  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:32:17.721  5490 16804 W NSLocationManager_FLP: add uid 10290 to freeze Allowlist by using gps in foreground
+03-13 20:32:17.721  5490 16804 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:32:17.723  3003  5506 D FreecessHandler: freeze com.doordash.driverapp(10454) result : 51
+03-13 20:32:17.723  3003  5506 D FreecessHandler: stop trying to freeze com.doordash.driverapp
+03-13 20:32:17.776  2261  2261 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 20:32:17.776  2261  2261 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 20:32:17.777  3003  3951 D GnssLocationProvider_ex: SV Count : 20 / 28      (PRN, Constellation, Type, SNR, Used)
+03-13 20:32:17.777  2261  2261 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 20:32:17.777  3003  3951 D GnssLocationProvider_ex: (5, GPS, L1, 24.6, 1) (7, GPS, L1, 19.3, 0) (11, GPS, L1, 24.5, 1) (13, GPS, L1, 26.3, 1) (15, GPS, L1, 25.7, 1) (18, GPS, L1, 19.5, 1) 
+03-13 20:32:17.777  3003  3951 D GnssLocationProvider_ex: (21, GPS, L1, 27.2, 1) (29, GPS, L1, 24.4, 1) (30, GPS, L1, 25.7, 1) (6, GLONASS, L1, 27.2, 1) (22, GLONASS, L1, 17.2, 0) (23, GLONASS, L1, 17.7, 0) 
+03-13 20:32:17.777  3003  3951 D GnssLocationProvider_ex: (21, GLONASS, L1, 21.4, 1) (7, GLONASS, L1, 25.9, 1) (4, GALILEO, L1, 27.0, 1) (6, GALILEO, L1, 19.2, 1) (9, GALILEO, L1, 22.2, 1) (10, GALILEO, L1, 27.5, 1) 
+03-13 20:32:17.777  3003  3951 D GnssLocationProvider_ex: (14, GALILEO, L1, 25.6, 1) (30, GALILEO, L1, 21.5, 0) (36, GALILEO, L1, 23.5, 1) (11, GPS, L5, 22.7, 1) (21, GPS, L5, 26.9, 1) (30, GPS, L5, 23.1, 1) 
+03-13 20:32:17.777  3003  3951 D GnssLocationProvider_ex: (4, GALILEO, L5, 19.0, 0) (6, GALILEO, L5, 20.6, 0) (10, GALILEO, L5, 20.5, 0) (19, GALILEO, L5, 18.8, 0) 
+03-13 20:32:17.777  3003  4405 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 20:32:17.777  3003  4405 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 20:32:17.777  2261  2261 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 20:32:17.777  2261  2261 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 20:32:17.778  2105  2921 I SurfaceFlinger: Capture layer list: 	 Background for 682e554 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0#90939(seamlessTransition:0)
+03-13 20:32:17.778  2105  2921 I SurfaceFlinger: Capture layer list: 	 682e554 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0(BLAST)#90938(seamlessTransition:0)
+03-13 20:32:17.778  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.waze/com.waze.search.v2.SearchV2Activity$_577#90934(seamlessTransition:0)
+03-13 20:32:17.778  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 20:32:17.778  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#90765(seamlessTransition:0)
+03-13 20:32:17.778  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 20:32:17.779  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 20:32:17.779  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 20:32:17.779  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 682e554 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0(BLAST)#90938 at index 1
+03-13 20:32:17.779  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.waze/com.waze.search.v2.SearchV2Activity$_577#90934 at index 2
+03-13 20:32:17.780  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 20:32:17.780  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#90765 at index 4
+03-13 20:32:17.780  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 20:32:17.782  5490  5568 I GnssEngineManager_FLP: updateSatelliteStatus, top4=27, top6=26, visibleSv=28, usedSv=20, usedL5Sv=3 (usedGps=11, usedGlo=3, usedBds=0, usedGal=6)
+03-13 20:32:17.782  3003  3951 D GnssLocationProvider: reportLocation
+03-13 20:32:17.785  5490  5568 I GnssEngineManager_FLP: onGpsLocationChanged, provider=gps / isMock=false / speed=0.0 / time=1773448338000 / elapsed=275538333248465
+03-13 20:32:17.785  5490  5568 I NewStopController_FLP: isAvailableLastLoc, KeepStationary : false , timeGap : 18 , mStraightFixCount : 0
+03-13 20:32:17.785  5490  5568 I NewStopController_FLP: onChangedGlpLocation, isGpsStopped= false, isReportingLL= false, isAvailableLastLoc : true
+03-13 20:32:17.786 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:32:17.787  3003 21012 I Mocca_VehicleDetectionHelper: (1.1.04.1)GPS: Avg speed: 0.0 Speed: 0.0 LIST: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+03-13 20:32:17.787  3003 21012 D VehicleSensorHub: vehicleSendToSensorHub status : 2 type : 18
+03-13 20:32:17.787  3003 21012 I SensorManager: Get Sensor type = 65586
+03-13 20:32:17.787 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:32:17.787  3003 21012 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-13 20:32:17.787  3003 21012 D SensorService: setSContextDataLocked 123c17c1
+03-13 20:32:17.787 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:32:17.787 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-13 20:32:17.787 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:32:17.787  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [G, A : 4.11, T : 1773448338000, ET : 275538333, E : DI, h : 20/27]
+03-13 20:32:17.787  3003  4411 D SLocation: PositionManager - receive gps location
+03-13 20:32:17.787  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 1.374826 diffTime : 50000 filtered Location
+03-13 20:32:17.789  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-13 20:32:17.789  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 4.07, T : 1773448337767, ET : 275538333, h : 20/27]
+03-13 20:32:17.789  3003  4411 D SLocation: PositionManager - receive fused location
+03-13 20:32:17.789  3003  4411 D SLocation: DuplicateLocationChecker_GeofenceLocationFilter - fused is duplicated last fused location
+03-13 20:32:17.789  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.11521108 / time=1773448337767 / elapsed=275538333248465
+03-13 20:32:17.790  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:32:17.790  2007  2007 I sensors-hal: sendContextData:290, sensor hal 5, (0xc1, 0x17, 0x3c, 0x12)
+03-13 20:32:17.790  2007  2007 I sensors-hal: sendContextData:230, activities 5 c1, 1
+03-13 20:32:17.790  2007  2007 I sensors-hal: sendUserData:251, Activities cmd 0xc1 0x17
+03-13 20:32:17.790  2007  2007 I sensors-hal: create_send_context_data:80, sending create_send_context_data
+03-13 20:32:17.790  2007  2007 I sensors-hal: send_context_data:694, activities, 4914309220830019584, 1320970896291267344, msgid:700
+03-13 20:32:17.790  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 1.3708763 diffTime : 50000 filtered Location
+03-13 20:32:17.790  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-13 20:32:17.790  3003 21012 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1335 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.reportAdvancedVehicleEvent:185 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.handleLocEvent:277 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.p:0 D.e.h:136 
+03-13 20:32:17.791  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for activities 
+03-13 20:32:17.793 16161 30790 W ChipsetCorrectionsCompu: Pixel is inside building or within UNKNOWN clutter type
+03-13 20:32:17.793  2005  2005 I LocSvc_GnssAdapter: measCorrSetCorrectionsCommand:7500] GnssAdapter::measCorrSetCorrectionsCommand
+03-13 20:32:17.794  2005  2047 I LocSvc_api_v02: ---> locClientSendReq line 2462 UNKNOWN
+03-13 20:32:17.794  2005  3349 I LocSvc_ApiV02: <--- globalRespCb line 355 UNKNOWN
+03-13 20:32:17.794 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 20:32:17.795 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 20:32:17.795 32228 32228 I [CE]_MovingContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 20:32:17.795 32228 32228 I [CE]_CarContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 20:32:17.810  2261  2267 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 20:32:17.810  2261  2261 W qdgralloc: Failed to load libubwcp.so
+03-13 20:32:17.827  3003  3806 D SemContextService: lock : requestToUpdate
+03-13 20:32:17.827  3003  3806 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for CH_LOC_TRIGGER
+03-13 20:32:17.828  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 20:32:17.828  3003  3911 D SensorService: setSContextDataLocked 3db8
+03-13 20:32:17.828  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:32:17.828  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb8, 0x3d, 0x0, 0x0)
+03-13 20:32:17.828  2007  2007 I sensors-hal: sendContextData:131, change_location_trigger 4,184
+03-13 20:32:17.828  2007  2007 I sensors-hal: sendUserData:118, change_location_trigger h 184 m 61 s 0
+03-13 20:32:17.828  2007  2007 I sensors-hal: create_send_context_data:66, change_location_trigger create_send_context_data
+03-13 20:32:17.828  2007  2007 I sensors-hal: send_context_data:694, change_location_trigger, -244018566922240, 1320970896291267344, msgid:700
+03-13 20:32:17.829  3003  3806 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for CH_LOC_TRIGGER
+03-13 20:32:17.829  3003  3806 D SemContextService:     .requestToUpdate() : service = Location Change Trigger
+03-13 20:32:17.829  3003  3806 D SemContextService: unlock : requestToUpdate
+03-13 20:32:17.829  3003  3806 D SemContextManager:   .requestToUpdate : listener = com.android.server.location.nsflp.NSLocationMonitor$5@d8278d1, service=Location Change Trigger
+03-13 20:32:17.829  5490  7699 I NewStopController_FLP: StateChecker, check stationary message
+03-13 20:32:17.830  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for change_location_trigger 
+03-13 20:32:17.830  3003  3806 D SemContextService: lock : requestToUpdate
+03-13 20:32:17.830  3003  3806 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for CH_LOC_TRIGGER
+03-13 20:32:17.830  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 20:32:17.830  3003  3911 D SensorService: setSContextDataLocked 3db8
+03-13 20:32:17.831  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:32:17.831  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb8, 0x3d, 0x0, 0x0)
+03-13 20:32:17.831  2007  2007 I sensors-hal: sendContextData:131, change_location_trigger 4,184
+03-13 20:32:17.831  2007  2007 I sensors-hal: sendUserData:118, change_location_trigger h 184 m 61 s 0
+03-13 20:32:17.831  2007  2007 I sensors-hal: create_send_context_data:66, change_location_trigger create_send_context_data
+03-13 20:32:17.831  2007  2007 I sensors-hal: send_context_data:694, change_location_trigger, -244018566922240, 1320970896291267344, msgid:700
+03-13 20:32:17.832  3003  3806 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for CH_LOC_TRIGGER
+03-13 20:32:17.832  3003  3806 D SemContextService:     .requestToUpdate() : service = Location Change Trigger
+03-13 20:32:17.832  3003  3806 D SemContextService: unlock : requestToUpdate
+03-13 20:32:17.832  3003  3806 D SemContextManager:   .requestToUpdate : listener = com.android.server.location.nsflp.NSLocationMonitor$5@d8278d1, service=Location Change Trigger
+03-13 20:32:17.832  5490  7699 I NewStopController_FLP: StateChecker, check stationary message
+03-13 20:32:17.833  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for change_location_trigger 
+03-13 20:32:17.888  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:change_location_trigger  Wakeup, msg_id=1025, ts=5290438919378
+03-13 20:32:17.888  2007  3909 I sensors-hal: handle_sns_client_event:85, change_location_trigger_event: msgid:1025
+03-13 20:32:17.888  2007  3909 I sensors-hal: handle_sns_client_event:108, change_location_trigger_event: 255, 255
+03-13 20:32:17.892  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :15], AP_WAKEUP
+03-13 20:32:17.892  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 15
+03-13 20:32:17.892  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 61, -1, 0, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0,
+03-13 20:32:17.892  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= CH_LOC_TRIGGER =================
+03-13 20:32:17.892  3003  3907 I CAE     : display(ContextProvider.java:391) - duration=[1], property=[1], result=[2], reserved=[0]
+03-13 20:32:17.893  3003  3904 D SemContextService: Service.updateContext() : service = Location Change Trigger
+03-13 20:32:17.893  3003  3952 D SemContextManager: onSemContextChanged() : event = Location Change Trigger
+03-13 20:32:17.893  3003  3952 D NSLocationMonitor: onSemContextChanged, activity : 1 result : 2 movement : 1
+03-13 20:32:17.930  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 20:32:18.057   482   526 I appium  : AppiumResponse: {"sessionId":"827eb9ac-2877-412e-9e9c-b79b18f9c1a5","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L13tF3ZXef52Sff9HLUe085q1SqKlV0ZdsNBuPYxkCThzCEYWDRC+gGBmigVw/d06yZbmjoBobkMW0wxtjGCVe5gsvlSqpSlUpZpSy9HG48ce/5Y593Feo96eUnle53La3SKt1zzj7nnnv…
+03-13 20:32:18.080  3003  4411 D SLocation: WifiBssidMonitor - requestRefresh
+03-13 20:32:18.081  3003  4411 W SLocation: WifiBssidMonitor - connected wifi : (e4:a4:1c:**:**:89/813)

@@ -27,7 +27,7 @@ options.load_capabilities({
     "appium:udid": "R5CX809QS2L",
     "appium:appPackage": "com.particlenews.newsbreak",
     "appium:automationName": "UiAutomator2",
-    #"appium:appActivity": "",
+    "appium:appActivity": "com.particlemedia.ui.guide.UserGuideActivity",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
     "appium:newCommandTimeout": 3600,
@@ -50,9 +50,9 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(550, 2040, 3)
+tap(550, 2340, 3)
 tap(1000, 150, 3)
-tap(550, 1500, 3)
+tap(550, 2350, 3)
 tap(1000, 150, 3)
 tap(1000, 150, 3)
 tap(1000, 150, 3)

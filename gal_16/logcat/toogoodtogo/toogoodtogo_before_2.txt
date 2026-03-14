@@ -1,0 +1,142 @@
+--------- beginning of main
+03-13 19:35:27.520  3003  7438 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 19:35:27.524  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_23513#84739(seamlessTransition:0)
+03-13 19:35:27.524  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 19:35:27.524  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#84635(seamlessTransition:0)
+03-13 19:35:27.524  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 19:35:27.525  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 19:35:27.526  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 19:35:27.526  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_23513#84739 at index 1
+03-13 19:35:27.526  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 19:35:27.526  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#84635 at index 3
+03-13 19:35:27.526  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 19:35:27.538  3003  7438 D system_server: mAFPC_Read - w = 1080, h = 2640, s = 8, f = 4, s_size = 11489280, luminance = 127, count = 2148, captureOrientation = 0
+03-13 19:35:27.590  2007 22847 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 147(147),c:212,b:88,m:13,cl:53,l:137,s:147,l0:15296,l1:32,s0:11653,s1:0,acl:1,opr:0.69,f(r):97,u(bl):106,if:0,wi:2,si:8,po:124(N:0)
+03-13 19:35:27.636 23438 23466 I appium  : channel read: GET /session/56d27b57-6027-412d-b0f4-75ec16254445/source
+03-13 19:35:27.637 23438 23466 I appium  : Source command
+03-13 19:35:27.638 23438 23466 I appium  : Waiting up to 10000ms for the device to idle
+03-13 19:35:27.811 23438 23466 I appium  : AppiumResponse: {"sessionId":"56d27b57-6027-412d-b0f4-75ec16254445","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.app.tgtg\" class=\"android.wid…
+03-13 19:35:27.824 23438 23466 I appium  : channel read: GET /session/56d27b57-6027-412d-b0f4-75ec16254445/screenshot
+03-13 19:35:27.824 23438 23466 I appium  : CaptureScreenshot command
+03-13 19:35:27.825 23438 23466 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:35:27.825 23438 23466 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:35:27.917 24474 24474 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 19:35:27.917 24474 24474 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 19:35:27.918 24474 24474 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 19:35:27.918  3003  6711 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 19:35:27.918  3003  6711 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 19:35:27.918 24474 24474 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 19:35:27.918 24474 24474 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 19:35:27.922  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_23513#84739(seamlessTransition:0)
+03-13 19:35:27.922  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 19:35:27.922  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#84635(seamlessTransition:0)
+03-13 19:35:27.922  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 19:35:27.922  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 19:35:27.923  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 19:35:27.923  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_23513#84739 at index 1
+03-13 19:35:27.923  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 19:35:27.923  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#84635 at index 3
+03-13 19:35:27.923  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 19:35:27.959 24474 24480 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 19:35:27.960 24474 24474 W qdgralloc: Failed to load libubwcp.so
+03-13 19:35:28.033  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [115 WIFI]
+03-13 19:35:28.034  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 24873, isSameBssidAndFreq true
+03-13 19:35:28.034  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 260 / 2 / 1.00 (51) / 286 / -64.0 || 100.0 : 286.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.101 / 79.578 / N || N N / 0 0 / Y 2.0 / Y X 0 / 91517030 0 || Invalid
+03-13 19:35:28.036  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 19:35:28.036  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 19:35:28.036  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 115(valid: true/captive: false)
+03-13 19:35:28.036  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 19:35:28.037  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 19:35:28.037  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=3533Kbps LinkDnBandwidth>=103660Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.**.*.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -64, Link speed: 286Mbps, Tx Link speed: 286Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 458Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -64 AdminUids: [1000] SSID: "MSU-Secure" UnderlyingNetworks: Null]
+03-13 19:35:28.037  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 19:35:28.037  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 19:35:28.037  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 19:35:28.037  3003  4030 D InsDataManager: trimBuffers start.
+03-13 19:35:28.037  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 25
+03-13 19:35:28.037  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 19:35:28.037  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -64.0,"latency": 0.10053016750691168,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 260 / 2 / 1.00 (51) / 286 / -64.0 || 100.0 : 286.00 / 0.5 : 1.00 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.101 / 79.578 / N || N N / 0 0 / Y 2.0 / Y X 0 / 91517030 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 19:35:28.038  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-13 19:35:28.038  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-13 19:35:28.038  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 19:35:28.038  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 19:35:28.038  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 26 
+03-13 19:35:28.038  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 19:35:28.038  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 19:35:28.038  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-13 19:35:28.038  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 19:35:28.038  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 19:35:28.038  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 19:35:28.038  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 19:35:28.038  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 19:35:28.038  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-13 19:35:28.039  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-13 19:35:28.039  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:103.66Uplink: 3.533
+03-13 19:35:28.039  4600  5502 D txpwrJni: sendNetworkInfo start
+03-13 19:35:28.039  4205  4389 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 19:35:28.040  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-13 19:35:28.040  4205  4389 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 19:35:28.041  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-13 19:35:28.041  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-13 19:35:28.042  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-13 19:35:28.043  4184  5222 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-13 19:35:28.043 16161 16423 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-13 19:35:28.043 16161 16423 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-13 19:35:28.046  3003  4050 D SemApeService: Deducted link capacity (M: R=289 T=200) RSSI=-64
+03-13 19:35:28.046  3003  4050 D SemApeService: Deducted link capacity (M: R=289 T=200) on (wlan0) GoogleAPI(M: R=103 T=3) RSSI=-64 isDefault=false isMlo=false
+03-13 19:35:28.046  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:35:28.046  3003  4047 D SGM:GameManager: identifyGamePackage. com.app.tgtg, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 19:35:28.046  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.app.tgtg, ret=false
+03-13 19:35:28.047 22998 23062 D Braze v37.0.0 .d: com.braze.events.internal.o fired:
+03-13 19:35:28.047 22998 23062 D Braze v37.0.0 .d: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 19:35:28.047 22998 23062 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 0 subscribers.
+03-13 19:35:28.047 22998 23062 D Braze v37.0.0 .b: Triggering com.braze.events.internal.o on 2 subscribers.
+03-13 19:35:28.047 22998 23062 D Braze v37.0.0 .com.braze.requests.framework.g: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 19:35:28.047 22998 23062 D Braze v37.0.0 .y: Got network change event: NetworkLevelChangeEvent(oldNetworkLevel=GOOD, newNetworkLevel=BAD)
+03-13 19:35:28.047 22998 23062 V Braze v37.0.0 .f: recalculateDispatchState called with session state: NO_SESSION lastNetworkLevel: BAD
+03-13 19:35:28.047 22998 23062 V Braze v37.0.0 .f: currentIntervalMs: -1
+03-13 19:35:28.050  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 0ms
+03-13 19:35:28.055  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-13 19:35:28.064  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 19:35:28.088  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 3ms
+03-13 19:35:28.113 16538 14485 I MobileWips::ns: Datetime result: [1773444928295, 1773444928319, -1]
+03-13 19:35:28.114 16538 14485 I MobileWips::ns: Final detection result: [ssid: 4eb17f79ec7c7688927e6fad872c5aeac44e9ad2a0e36f63a92b68d72185908f, bssid: f450f43cec6bbd1ee09df89eee396598f6940a95383fca779ac6b7e0b0811015, freq: 5765, result: benign]
+03-13 19:35:28.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773444928
+03-13 19:35:28.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 19:35:28.204  2097  2125 D HeatmapThread: !@ batteryLevel : 98  batteryTemperature : 313 
+03-13 19:35:28.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557415
+03-13 19:35:28.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557402
+03-13 19:35:28.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 19:35:28.204  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557385
+03-13 19:35:28.204  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 19:35:28.204  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 19:35:28.216 23438 23466 I appium  : AppiumResponse: {"sessionId":"56d27b57-6027-412d-b0f4-75ec16254445","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eBRlvi/wb/WSfV/IvhKSQEhCIBFMWJRVQdRRRmUUiLuo1xkXZo4zc57xmblz5zqK46hHEZBNPKCgoCK7qCxhCXsSQsgC2cm+dafT6aXuH9yuk053QidkoeH7eR7+oLqq+q3uTnfVt97…
+03-13 19:35:28.312 23513 23631 W JobInfo : Requested important-while-foreground flag for job4 is ignored and takes no effect
+03-13 19:35:28.312 23513 23631 D WM-SystemJobScheduler: Scheduling work ID be912997-7c1d-4e55-a1a2-29ed952a60dbJob ID 4
+03-13 19:35:28.320 23513 23631 D WM-GreedyScheduler: Starting tracking for be912997-7c1d-4e55-a1a2-29ed952a60db
+03-13 19:35:28.320 23513 23513 D WM-SystemJobService: onStartJob for WorkGenerationalId(workSpecId=be912997-7c1d-4e55-a1a2-29ed952a60db, generation=0)
+03-13 19:35:28.321 23513 23631 D WM-Processor: c: processing WorkGenerationalId(workSpecId=be912997-7c1d-4e55-a1a2-29ed952a60db, generation=0)
+03-13 19:35:28.323 23513 23513 D WM-WorkerWrapper: Starting work for com.app.tgtg.tasks.EventWorker
+03-13 19:35:28.324 23513 23586 D WM-ConstraintTracker: g: initial state = NetworkState(isConnected=true, isValidated=true, isMetered=false, isNotRoaming=true, isBlocked=false)
+03-13 19:35:28.324 23513 23586 D WM-NetworkStateTracker: Registering network callback
+03-13 19:35:28.324 23513 23586 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4744)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5469)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5436)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5410)] [db.g.c(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:24)] [a2.j.invokeSuspend(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:1408)] [a2.j.invoke(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:222)] [k70.e.c(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:51)] [k70.c.c(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:58)] [il.q.invokeSuspend(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:1719)] [l60.a.resumeWith(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:9)] [h70.k0.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:120)] [o0.i.a(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:5)] [o0.i.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:407)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]
+03-13 19:35:28.324  3003  7241 D ConnectivityService: requestNetwork for uid/pid:10391/23513 activeRequest: null callbackRequest: 18224 [NetworkRequest [ REQUEST id=18225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC|BLK
+03-13 19:35:28.324  3003  3941 D ConnectivityService:    accepting network in place of null for NetworkRequest [ REQUEST id=18225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:35:28.325 23513 23586 D WM-GreedyScheduler: Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=be912997-7c1d-4e55-a1a2-29ed952a60db, generation=0)
+03-13 19:35:28.325 23513 23586 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=be912997-7c1d-4e55-a1a2-29ed952a60db, tags={ com.app.tgtg.tasks.EventWorker } ]
+03-13 19:35:28.325 23513 23577 D WM-NetworkStateTracker: Network capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=3533Kbps LinkDnBandwidth>=103660Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.17.8.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -64, Link speed: 286Mbps, Tx Link speed: 286Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 458Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -64 UnderlyingNetworks: Null]
+03-13 19:35:28.325  3003  3922 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=18225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:35:28.325 23513 23513 D WM-Processor: c be912997-7c1d-4e55-a1a2-29ed952a60db executed; reschedule = false
+03-13 19:35:28.325 23513 23513 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=be912997-7c1d-4e55-a1a2-29ed952a60db, generation=0)
+03-13 19:35:28.326  3003  3922 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=18225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:35:28.326 23513 23513 D WM-SystemJobService: be912997-7c1d-4e55-a1a2-29ed952a60db executed on JobScheduler
+03-13 19:35:28.326  3003  3922 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=18225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:35:28.326  3003  3922 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=18225, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10391 RequestorUid: 10391 RequestorPkg: com.app.tgtg UnderlyingNetworks: Null] ]
+03-13 19:35:28.326  3003  3941 D ConnectivityService: Rematched networks [computed 0ms] [applied 0ms] [issued 1]
+03-13 19:35:28.326  3003  3941 D ConnectivityService: NetworkReassignment :
+03-13 19:35:28.326  3003  3941 D ConnectivityService:   18225 : null → 115
+03-13 19:35:28.326 23513 23586 D WM-Processor: c: processing WorkGenerationalId(workSpecId=be912997-7c1d-4e55-a1a2-29ed952a60db, generation=0)
+03-13 19:35:28.327 23513 23577 D WM-NetworkStateTracker: Network blocked status changed: false
+03-13 19:35:28.327 23513 23586 D WM-GreedyScheduler: Cancelling work ID be912997-7c1d-4e55-a1a2-29ed952a60db
+03-13 19:35:28.328 23513 23646 D WM-NetworkStateTracker: Unregistering network callback
+03-13 19:35:28.328 23513 23646 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:5579)] [db.g.d(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:18)] [a2.h.invoke(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:65)] [qz.x0.n(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:106)] [j70.q.invokeSuspend(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:11)] [l60.a.resumeWith(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:9)] [h70.k0.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:110)] [o0.i.a(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:5)] [o0.i.run(r8-map-id-ae48d38318fa2946d1264601d9f9a6990f4a7a654336f6a236750ac42b3f437f:407)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)] [java.lang.Thread.run(Thread.java:1564)]

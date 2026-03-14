@@ -1,0 +1,223 @@
+--------- beginning of main
+03-13 14:43:55.007  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 19354, isSameBssidAndFreq true
+03-13 14:43:55.008  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2502 / 0 / 1.01 (287) / 286 / -53.0 || 100.0 : 286.00 / 0.5 : 0.99 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.100 / 80.022 / N || N N / 0 0 / Y 2.0 / Y X 0 / 74024003 0 || Invalid
+03-13 14:43:55.009  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 14:43:55.009  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 14:43:55.009  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 14:43:55.009  3003  4030 D InsDataManager: trimBuffers start.
+03-13 14:43:55.009  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 22
+03-13 14:43:55.010  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 14:43:55.010  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -53.0,"latency": 0.09997202797202796,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2502 / 0 / 1.01 (287) / 286 / -53.0 || 100.0 : 286.00 / 0.5 : 0.99 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.100 / 80.022 / N || N N / 0 0 / Y 2.0 / Y X 0 / 74024003 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+--------- beginning of system
+03-13 14:43:55.057  6380  6380 I SDHMS:LOAD: type: LoadsFreqs, value: 64:6:9:1516032:3398400:672000:1353983:2707200:499200:299:422:231
+03-13 14:43:55.093  4832  4832 I HoneySpace.EdgePanel.KeyboardVisibleObserver: updateSipStatus: 0 1 0 909
+03-13 14:43:55.093  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: updateStateAction: 0x200000 false true
+03-13 14:43:55.093  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: updateState: 0x1
+03-13 14:43:55.094  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: getComputedTrayVisible : keyguardState = 1
+03-13 14:43:55.094  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: updateTrayVisible: State = 0x1, visible = true, current containerState = 0, specificMode = 0
+03-13 14:43:55.094  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: Same container state 0
+03-13 14:43:55.114 16214 16244 I appium  : channel read: GET /session/b91c05dc-f616-435d-9e83-42f63d64d299/source
+03-13 14:43:55.115 16214 16244 I appium  : Source command
+03-13 14:43:55.116 16214 16244 I appium  : Waiting up to 10000ms for the device to idle
+03-13 14:43:55.158 16536 16536 I wpa_supplicant: nl80211: Vendor event: wiphy=0 vendor_id=0x1374 subcmd=182
+03-13 14:43:55.159  2017  4098 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xb6
+03-13 14:43:55.160  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] wait_event:Wait done with Cmd 103
+03-13 14:43:55.160  2611  4100 D LOWI-9.0.1.74: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+03-13 14:43:55.161  2548  2548 I cnss-daemon: nl80211 response handler invoked
+03-13 14:43:55.161  2548  2548 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 182  received
+03-13 14:43:55.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773427435
+03-13 14:43:55.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 14:43:55.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 322 
+03-13 14:43:55.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557123
+03-13 14:43:55.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557102
+03-13 14:43:55.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 14:43:55.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557115
+03-13 14:43:55.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 14:43:55.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 14:43:55.287 15873 15873 I InputMethodService: removeImeSurface
+03-13 14:43:55.287 15873 15873 I InputMethodService: cancelImeSurfaceRemoval: removeCallbacks
+03-13 14:43:55.290  3003  3067 D SGM:GameManager: identifyForegroundApp. com.paypal.android.p2pmobile, mCurrentUserId: 0, callerUserId: 0
+03-13 14:43:55.290 15873 15873 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():153 Tooltip with id undo_access_point_promotion_banner not found in tooltipManager.
+03-13 14:43:55.291  3003  3067 D SGM:SemGameManager: isForegroundGame(), ret=false
+03-13 14:43:55.292  3003 17072 I SemInputMotionHelper: setMotionControl: ALL: 12, client=com.samsung.android.hardware.secinputdev.SemInputDeviceManager, ret=0
+03-13 14:43:55.292  3003 17072 D SemInputDeviceManager: setProperty: (100) CMD,SIP,0
+03-13 14:43:55.292  3003 17073 D SemInputDeviceManager: setProperty: (0) CMD,GRIP_DATA,1,45,7,15,792
+03-13 14:43:55.293  3003  3993 D SemInputDevice:TSP_SUB: SetPropertyTask: CMD,set_sip_mode,0 [03-13 14:43:55.292]
+03-13 14:43:55.293  3003 17073 D TspStateManager: wrote command: cmd=1,45,7,15,792, type=1
+03-13 14:43:55.293  3003 17072 I SemInputCommandService: setPropertyAllTouch: SIP,0 retDefault=1 retExtra=1
+03-13 14:43:55.293  3003  3994 D SemInputDevice:TSP: SetPropertyTask: CMD,set_sip_mode,0 [03-13 14:43:55.293]
+03-13 14:43:55.293  3003 17072 D TspStateManager: wrote command: cmd=0, type=5
+03-13 14:43:55.294  2071  2128 I sysinput:aidl: onReportInformation:93, 2, cmd@set_sip_mode,0:0
+03-13 14:43:55.294 15873 16187 D HWUI    : CacheManager::trimMemory(20)
+03-13 14:43:55.294  2071  2128 I sysinput:Touch2: operator():237, OK
+03-13 14:43:55.294  3003  3993 D SysinputHAL_AIDL: setProperty(TSP_SUB(2)): CMD, set_sip_mode,0 ret=0
+03-13 14:43:55.303  2071  2129 I sysinput:aidl: onReportInformation:93, 1, cmd@set_sip_mode,0:0
+03-13 14:43:55.304  3003  3994 D SysinputHAL_AIDL: setProperty(TSP(1)): CMD, set_sip_mode,0 ret=0
+03-13 14:43:55.304  3003  3994 D SemInputDevice:TSP: SetPropertyTask: CMD,set_grip_data,1,45,7,15,792 [03-13 14:43:55.292]
+03-13 14:43:55.304  2071  2129 I sysinput:Touch1: operator():237, OK
+03-13 14:43:55.313  2071  2129 I sysinput:aidl: onReportInformation:91, 1, cmd@set_grip_data,1,45,7,15,79
+03-13 14:43:55.314  3003  3994 D SysinputHAL_AIDL: setProperty(TSP(1)): CMD, set_grip_data,1,45,7,15,792 ret=0
+03-13 14:43:55.314  2071  2129 I sysinput:Touch1: operator():237, OK
+03-13 14:43:55.331  3003  4771 I WindowManager: Relayout Window{4c9e3d1 u0 InputMethod}: viewVisibility=8 req=1080x2546 ty=2011 d0
+03-13 14:43:55.331  3003  4771 E WindowManager: win=Window{4c9e3d1 u0 InputMethod} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:134 com.android.server.wm.WindowManagerService.relayoutWindow:1147 com.android.server.wm.Session.relayout:27 android.view.IWindowSession$Stub.onTransact:829 com.android.server.wm.Session.onTransact:1 android.os.Binder.execTransactInternal:1457 android.os.Binder.execTransact:1401 
+03-13 14:43:55.332  3003  3067 D BBA2    : updateWindowVisible for pid : 15873, visible : 0
+03-13 14:43:55.333  3003  4771 D SurfaceComposerClient: setCornerRadius ## 1c7fe67 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity#62521 cornerRadius=0.000000
+03-13 14:43:55.334  3003  4771 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation)/@0x5262464
+03-13 14:43:55.334  3003  4771 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{ed8f529 type=2011 android.os.Binder@9be02b0})/@0xa1cb6a4, destroy=false, surface=Surface(name=4c9e3d1 InputMethod)/@0x9f84137
+03-13 14:43:55.335  3003  4771 I WindowManager: Reparenting to leash, surface=Surface(name=4c9e3d1 InputMethod)/@0x9f84137, leashParent=Surface(name=WindowToken{ed8f529 type=2011 android.os.Binder@9be02b0})/@0xa1cb6a4
+03-13 14:43:55.335  2105  2921 I SurfaceFlinger: id=62571 createSurf, flag=24004, Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62571
+03-13 14:43:55.336  3003  4771 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation)/@0xd923b66
+03-13 14:43:55.336  3003  4771 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 94) mInsetsHint=Insets{left=0, top=0, right=0, bottom=909}}, target=Window{1c7fe67 u0 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateControlForTarget:17 com.android.server.wm.ImeInsetsSourceProvider.setServerVisible:68 com.android.server.wm.InsetsSourceProvider.onPostLayout:30 com.android.server.wm.ImeInsetsSourceProvider.onPostLayout:3 com.android.server.wm.InsetsStateController.onPostLayout:26 
+03-13 14:43:55.336  3003  4771 I ImeTracker: system_server:2189e95b: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+03-13 14:43:55.337  3003  4771 D SurfaceComposerClient: setCornerRadius ## 1c7fe67 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity#62521 cornerRadius=0.000000
+03-13 14:43:55.338  4832  4832 I VRI[CocktailBarService]@5e29200: handleResized, frames=ClientWindowFrames{frame=[1013,511][1080,868] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.338 16302 16302 E droid.p2pmobile: No package ID e5 found for resource ID 0xe57c7f01.
+03-13 14:43:55.338  3003  4771 D SurfaceComposerClient: setCornerRadius ## 1c7fe67 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity#62521 cornerRadius=0.000000
+03-13 14:43:55.338 16302 16302 E droid.p2pmobile: No package ID 85 found for resource ID 0x851b88c1.
+03-13 14:43:55.339  3003  4771 D SurfaceComposerClient: setCornerRadius ## 1c7fe67 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity#62521 cornerRadius=0.000000
+03-13 14:43:55.339 16302 16302 E droid.p2pmobile: No package ID d3 found for resource ID 0xd37a4545.
+03-13 14:43:55.339 16302 16302 E droid.p2pmobile: No package ID 8b found for resource ID 0x8b745651.
+03-13 14:43:55.339  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{InputMethod$_15873#62568} no children}] reparent to OffscreenRoot
+03-13 14:43:55.340  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{InputMethod$_15873#62568} no children}] RelativeParent to null
+03-13 14:43:55.340  2105  2105 I SurfaceFlinger: [Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62571] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{ed8f529 type=2011 android.os.Binder@9be02b0}#43038 parentId=16} 2 children}
+03-13 14:43:55.340  3003  3067 V InputMethodManagerService: Client requesting input be hidden
+03-13 14:43:55.340  3003  3067 V InputMethodManagerService: setWindowStateInner, windowToken=android.os.BinderProxy@1569226, state=ImeTargetWindowState{ imeToken android.os.Binder@f1dcf54 imeFocusChanged true hasEditorFocused true requestedImeVisible false imeDisplayId 0 softInputModeState STATE_UNSPECIFIED|ADJUST_RESIZE isStartInputByGainFocus true}
+03-13 14:43:55.340  3003  3067 I ImeTracker: system_server:2189e95b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-13 14:43:55.340  3003  3067 V InputMethodManagerService: hideCurrentInputLocked : canceled, shouldHideSoftInput=false, mInputShown=false, mImeWindowVis=0
+03-13 14:43:55.341 16302 16302 E droid.p2pmobile: No package ID 6b found for resource ID 0x6b8bfa66.
+03-13 14:43:55.341 16302 16302 E droid.p2pmobile: No package ID e8 found for resource ID 0xe8355a6a.
+03-13 14:43:55.342  4205  4205 I VRI[StatusBar]@b731380: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,94] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.342  4205  4205 I VRI[NavigationBar0]@f26899a: handleResized, frames=ClientWindowFrames{frame=[0,2496][1080,2640] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.343  3003  4771 I WindowManager: Relayout hash=4c9e3d1, pid=15873, syncId=-1: mAttrs={(0,0)(fillxfill) gr=BOTTOM CENTER_VERTICAL sim={adjust=pan} ty=INPUT_METHOD fmt=TRANSPARENT wanim=0x1030056 preferredMinDisplayRefreshRate=60.0 receive insets ignoring z-order
+03-13 14:43:55.343  3003  4771 I WindowManager:   fl=81800108
+03-13 14:43:55.343  3003  4771 I WindowManager:   pfl=10000000
+03-13 14:43:55.343  3003  4771 I WindowManager:   bhv=1
+03-13 14:43:55.343  3003  4771 I WindowManager:   fitTypes=3
+03-13 14:43:55.343  3003  4771 I WindowManager:   fitSides=7
+03-13 14:43:55.343  3003  4771 I WindowManager:   fitIgnoreVis
+03-13 14:43:55.343  3003  4771 I WindowManager:   dvrrWindowFrameRateHint=true
+03-13 14:43:55.343  3003  4771 I WindowManager:  dimAmount=0.18 dimDuration=150 naviIconColor=0}
+03-13 14:43:55.344 16302 16302 I InsetsController: onStateChanged: host=com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2640), mDisplayCutout=DisplayCutout{insets=Rect(0, 94 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(505, 0 - 576, 94), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2640 physicalDisplayWidth=1080 physicalDisplayHeight=2640 density={3.0} cutoutSpec={M 0,0 H -11.83333333333333 V 31.33333333333333 H 11.83333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=114, center=Point(114, 114)}, RoundedCorner{position=TopRight, radius=114, center=Point(966, 114)}, RoundedCorner{position=BottomRight, radius=114, center=Point(966, 2526)}, RoundedCorner{position=BottomLeft, radius=114, center=Point(114, 2526)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2640), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 94) rotation=0}, mDisplayShape=DisplayShape{ spec=1406003047 displayWidth=1080 displayHeight=2640 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {c530001 mType=navigationBars mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {c530005 mType=mandatorySystemGestures mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530006 mType=tappableElement mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {6a140000 mType=statusBars mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {6a140005 mType=mandatorySystemGestures mFrame=[0,0][1080,130] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {6a140006 mType=tappableElement mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+03-13 14:43:55.344 16302 16302 I VRI[OnboardingFlowActivity]@4d42672: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2640] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager: Schedule to change allowedModes=baseModeId=1 allowGroupSwitching=false primary=physical: (10.0 120.0) render:  (0.0 120.0) appRequest=physical: (10.0 120.0) render:  (0.0 120.0) idleScreenRefreshRateConfig=null, mDisplayToken=android.os.BinderProxy@7f742aa
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:     -1:
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:       PRIORITY_REFRESH_RATE_MODE -> CombinedVote{ mVotes=[PhysicalVote{ RefreshRateVote{  mMinRefreshRate=10.0, mMaxRefreshRate=120.0 } }, DisableRefreshRateSwitchingVote{ mDisableRefreshRateSwitching=false }] }
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:     0:
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:       PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=120.0 } }
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:       PRIORITY_USER_SETTING_PEAK_REFRESH_RATE -> CombinedVote{ mVotes=[PhysicalVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=120.0 } }, DisableRefreshRateSwitchingVote{ mDisableRefreshRateSwitching=false }] }
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:       PRIORITY_USER_SETTING_MIN_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=Infinity } }
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager: 
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:  mModeSwitchingType: SWITCHING_TYPE_WITHIN_GROUPS mAlwaysRespectAppRequest: false
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:  Current Mode mReportedRefreshRateMode(toSurfaceFlinger)=REFRESH_RATE_MODE_PASSIVE, mRefreshRateMode(fromSettings)=REFRESH_RATE_MODE_SEAMLESS
+03-13 14:43:55.344  3003  3067 I RefreshRateModeManager:  BrightnessState mPassive=true, PassiveModeToken=true, mLfd=3, mBrightness=89, mAmbientLux=202.0, mIsWirelessCharing=false
+03-13 14:43:55.345  3003  3068 D SurfaceComposerClient: setCornerRadius ## 1c7fe67 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity#62521 cornerRadius=0.000000
+03-13 14:43:55.345  3003  3067 D LocalDisplayAdapter: setDesiredDisplayModeSpecsAsync(4630946564756762243) : defaultMode=0 allowGroupSwitching=false primaryRanges=physical: (10.0 120.0) render:  (0.0 120.0) appRequestRanges=physical: (10.0 120.0) render:  (0.0 120.0) idleScreenRefreshRate=null
+03-13 14:43:55.345  3003  3067 I SurfaceComposerClient: setDesiredDisplayModeSpecs DisplayModeSpecs{defaultMode: 0, allowGroupSwitching: false, primaryRanges: RefreshRateRanges{physical: RefreshRateRange{min: 10.000000, max: 120.000000}, render: RefreshRateRange{min: 0.000000, max: 120.000000}}, appRequestRanges: RefreshRateRanges{physical: RefreshRateRange{min: 10.000000, max: 120.000000}, render: RefreshRateRange{min: 0.000000, max: 120.000000}}, idleScreenRefreshRateConfig: (null)}
+03-13 14:43:55.346  2105  2105 I RefreshRateSelector: Display 4630946564756762243 policy changed
+03-13 14:43:55.346  2105  2105 I RefreshRateSelector: Previous: {defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[60.00 Hz, 120.00 Hz], render=[60.00 Hz, 120.00 Hz]}, appRequestRanges={physical=[60.00 Hz, 120.00 Hz], render=[60.00 Hz, 120.00 Hz]} idleScreenConfig=nullptr}
+03-13 14:43:55.346  2105  2105 I RefreshRateSelector: Current:  DisplayManagerPolicy{defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[10.00 Hz, 120.00 Hz], render=[0.00 Hz, 120.00 Hz]}, appRequestRanges={physical=[10.00 Hz, 120.00 Hz], render=[0.00 Hz, 120.00 Hz]} idleScreenConfig=nullptr}
+03-13 14:43:55.346  2105  2105 I RefreshRateSelector: 2 mode changes were performed under the previous policy
+03-13 14:43:55.346  2105  2105 I SurfaceFlinger: [4630946564756762243] Setting desired display mode specs: {defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[10.00 Hz, 120.00 Hz], render=[0.00 Hz, 120.00 Hz]}, appRequestRanges={physical=[10.00 Hz, 120.00 Hz], render=[0.00 Hz, 120.00 Hz]} idleScreenConfig=nullptr}
+03-13 14:43:55.346 15873 15873 I VRI[InputMethod]@28ec110: Relayout returned: old=(0,94,1080,2640) new=(0,94,1080,2640) relayoutAsync=false req=(1080,2546)8 dur=15 res=0x2 s={false 0x0} ch=true seqId=6
+03-13 14:43:55.346 15873 15873 D VRI[InputMethod]@28ec110: Not drawing due to not visible. Reason=View.GONE
+03-13 14:43:55.347  3003  6711 D WindowManager: setInsetsWindow Window{4c9e3d1 u0 InputMethod}, contentInsets=Rect(0, 1637 - 0, 0) -> Rect(0, 2402 - 0, 0), visibleInsets=Rect(0, 1637 - 0, 0) -> Rect(0, 2402 - 0, 0), touchableRegion=SkRegion((0,1637,1080,2546)) -> SkRegion(), touchableInsets 3 -> 3
+03-13 14:43:55.347  3003  6711 D SurfaceComposerClient: setCornerRadius ## 1c7fe67 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity#62521 cornerRadius=0.000000
+03-13 14:43:55.347  3003  6711 D SurfaceComposerClient: setCornerRadius ## 1c7fe67 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity#62521 cornerRadius=0.000000
+03-13 14:43:55.347  2105  2105 D DisplayModeController: setDesiredMode 4630946564756762243 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=true, force=false}
+03-13 14:43:55.348  2105  2321 I SurfaceFlinger: id=62568 Removed InputMethod$_15873#62568 (182)
+03-13 14:43:55.348  2105  2105 I SurfaceFlinger: RequestedLayer [Surface(name=4c9e3d1 InputMethod)/@0[...]tion-leash of insets_animation#62571] hidden!! flag  from(1) --> to(0)
+03-13 14:43:55.348  2105  2105 E SurfaceFlinger: alpha changed 1.000 -> 0.000 - Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62571
+03-13 14:43:55.348 16302 16302 I InsetsController: onStateChanged: host=com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2640), mDisplayCutout=DisplayCutout{insets=Rect(0, 94 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(505, 0 - 576, 94), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2640 physicalDisplayWidth=1080 physicalDisplayHeight=2640 density={3.0} cutoutSpec={M 0,0 H -11.83333333333333 V 31.33333333333333 H 11.83333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=114, center=Point(114, 114)}, RoundedCorner{position=TopRight, radius=114, center=Point(966, 114)}, RoundedCorner{position=BottomRight, radius=114, center=Point(966, 2526)}, RoundedCorner{position=BottomLeft, radius=114, center=Point(114, 2526)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2640), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 94) rotation=0}, mDisplayShape=DisplayShape{ spec=1406003047 displayWidth=1080 displayHeight=2640 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {c530001 mType=navigationBars mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {c530005 mType=mandatorySystemGestures mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530006 mType=tappableElement mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {6a140000 mType=statusBars mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {6a140005 mType=mandatorySystemGestures mFrame=[0,0][1080,130] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {6a140006 mType=tappableElement mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+03-13 14:43:55.348  2105  2105 I SurfaceFlinger: destroyed InputMethod$_15873#62568 form LifecycleManager
+03-13 14:43:55.348 16302 16302 I VRI[OnboardingFlowActivity]@4d42672: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2640] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.348  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{4c9e3d1 InputMethod#43039 parentId=62571} no children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62571 parentId=43038} 1 children}
+03-13 14:43:55.348  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62567} no children}] reparent to OffscreenRoot
+03-13 14:43:55.348  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62567} no children}] RelativeParent to null
+03-13 14:43:55.348  2105  2105 I SurfaceFlinger: id=62568 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{InputMethod$_15873#62568 !handle})
+03-13 14:43:55.349  4832  4832 I VRI[CocktailBarService]@5e29200: handleResized, frames=ClientWindowFrames{frame=[1013,511][1080,868] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.349  4205  4205 I VRI[StatusBar]@b731380: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,94] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.349  4205  4205 I VRI[NavigationBar0]@f26899a: handleResized, frames=ClientWindowFrames{frame=[0,2496][1080,2640] display=[0,0][1080,2640] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+03-13 14:43:55.350  2105  2105 I Layer   : id=62568 Destroyed InputMethod$_15873#62568
+03-13 14:43:55.351  2007 16895 I sensors-hal: handle_sns_client_event:375, [0][76] accel_sample [ 0.035,  6.054,  7.706] 254635888569734
+03-13 14:43:55.352  2105  2324 I SurfaceFlinger: id=62567 Removed Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62567 (181)
+03-13 14:43:55.356  2105  2105 I SurfaceFlinger: destroyed Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62567 form LifecycleManager
+03-13 14:43:55.356  2105  2105 I SurfaceFlinger: id=62567 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62567 !handle})
+03-13 14:43:55.356  2105  2105 I Layer   : id=62567 Destroyed Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#62567
+03-13 14:43:55.361 16214 16244 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 14:43:55.376  3003  5995 D MotionRecognitionService: inject vibrator info = 0.0
+03-13 14:43:55.377  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 14:43:55.377  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 14:43:55.377  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 14:43:55.387 16214 16244 I appium  : AppiumResponse: {"sessionId":"b91c05dc-f616-435d-9e83-42f63d64d299","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.paypal.android.p2pmobile\" cla…
+03-13 14:43:55.402 16214 16244 I appium  : channel read: GET /session/b91c05dc-f616-435d-9e83-42f63d64d299/screenshot
+03-13 14:43:55.403 16214 16244 I appium  : CaptureScreenshot command
+03-13 14:43:55.405 16214 16244 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:43:55.406 16214 16244 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:43:55.436 15905 16042 I LPAPSH  : handleMessage 100                                                                                   [at com.samsung.euicc.push.SMDSService$SMDSHandler.handleMessage(SMDSService$SMDSHandler.java:136)]
+03-13 14:43:55.438 15905 15905 I LPAPSH  : onDestroy(): Handler (com.samsung.euicc.push.SMDSService$SMDSHandler) {11a18dd}                     [at com.samsung.euicc.push.SMDSService.onDestroy(SMDSService.java:123)]
+03-13 14:43:55.499 17074 17074 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 14:43:55.499 17074 17074 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 14:43:55.500 17074 17074 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 14:43:55.500  3003  4771 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 14:43:55.500  3003  4771 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 14:43:55.500 17074 17074 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 14:43:55.501 17074 17074 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 14:43:55.502  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity$_16302#62522(seamlessTransition:0, secure)
+03-13 14:43:55.502  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0, secure)
+03-13 14:43:55.502  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#62481(seamlessTransition:0, secure)
+03-13 14:43:55.502  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0, secure)
+03-13 14:43:55.502  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 14:43:55.503  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 14:43:55.503  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity$_16302#62522 at index 1
+03-13 14:43:55.503  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 14:43:55.503  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#62481 at index 3
+03-13 14:43:55.503  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 14:43:55.537 17074 17079 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 14:43:55.538 17074 17074 W qdgralloc: Failed to load libubwcp.so
+03-13 14:43:55.548  3003  5506 D FreecessController: restrictJobsByOlaf: restrict=false, uid=-1
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.microsoft.skydrive, 10109)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.samsung.knox.securefolder, 10132)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.samsung.android.rampart, 10206)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.whatsapp, 10219)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.apps.tachyon, 10268)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.gm, 10275)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.apps.maps, 10279)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.sygic.aura, 10286)
+03-13 14:43:55.549  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.sec.android.app.voicenote, 10313)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.apps.photos, 10331)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.sec.android.app.shealth, 10334)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.facebook.katana, 10340)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.einnovation.temu, 10350)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.kohls.mcommerce.opal, 10356)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.zhiliaoapp.musically, 10402)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.cnn.mobile.android.phone, 10410)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.usatoday.android.news, 10413)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.guardian, 10414)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (tv.pluto.android, 10419)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.instagram.barcelona, 10421)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.instagram.android, 10428)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.newleaf.app.android.victor, 10437)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.peacocktv.peacockandroid, 10439)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.doordash.driverapp, 10454)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.tiktok.lite.go, 10460)
+03-13 14:43:55.550  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.newsbreak.crimeradar, 10466)
+03-13 14:43:55.550  3003  3003 D OlafRestriction:  olaf state update: state=false
+03-13 14:43:55.550  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:43:55.551  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 14:43:55.551  3003  4185 I Pageboost: Launcher App Execution
+03-13 14:43:55.556  3003  5506 D FreecessHandler: freeze com.samsung.android.aremoji(10044) result : 51
+03-13 14:43:55.556  3003  5506 D FreecessHandler: stop trying to freeze com.samsung.android.aremoji
+03-13 14:43:55.556  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:43:55.556  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 14:43:55.559  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 51
+03-13 14:43:55.559  3003  5506 D FreecessHandler: stop trying to freeze com.sec.android.gallery3d
+03-13 14:43:55.559  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:43:55.559  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 14:43:55.562  3003  5506 D FreecessHandler: freeze com.samsung.android.app.reminder(10316) result : 51
+03-13 14:43:55.562  3003  5506 D FreecessHandler: stop trying to freeze com.samsung.android.app.reminder
+03-13 14:43:55.562  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:43:55.562  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 14:43:55.565  3003  5506 D FreecessHandler: freeze com.costco.app.android(10348) result : 51
+03-13 14:43:55.565  3003  5506 D FreecessHandler: stop trying to freeze com.costco.app.android
+03-13 14:43:55.664 16214 16244 I appium  : AppiumResponse: {"sessionId":"b91c05dc-f616-435d-9e83-42f63d64d299","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7NhBDQAgEMCwA/+eQQQPsqRVsPfWzJwBAAAACNu/AwAAAABeGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAECewQEAAADkGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAEC…
+03-13 14:43:55.719  3003  3245 D PackageManager: Don't send PACKAGE_CHANGED for com.paypal.android.p2pmobile by WorkManager

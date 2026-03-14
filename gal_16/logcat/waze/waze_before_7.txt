@@ -1,0 +1,299 @@
+--------- beginning of main
+03-13 20:31:22.483  2007 31951 I sensors-hal: handle_sns_client_event:455, [0][4893] gyro_sample_uncal [ 0.136,-0.272, 0.048] [-0.003,-0.006, 0.003] 275483002399384
+--------- beginning of system
+03-13 20:31:22.560  3003  3631 D ActivityManager: freezing 5653 com.samsung.android.globalpostprocmgr
+03-13 20:31:22.560  1992 10205 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 20:31:22.560  1992 10205 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 20:31:22.560  1992 10205 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 20:31:22.560  1992 10205 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 20:31:22.560  1992 10205 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-13 20:31:22.560  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-13 20:31:22.560  1992 10205 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 20:31:22.560  1992 10205 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 20:31:22.560  1992 10205 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 20:31:22.561  1992 10205 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 20:31:22.561  1992 10205 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-13 20:31:22.561  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+03-13 20:31:22.561  6380  7375 I SDHMS:x : SIOP:: AP:393 BAT:333 USB:280 CHG:391 PA:403 CP:382 WIFI:380 BLK:0 SUBBAT:278 LRPTHM:367 SKIN:359 SKINF:359 SKINB:348 LRP2:359 LRF2:359 LRB2:348 AP2:359 CHG2:357 MEM2:359 WIFI2:359 RCV2:360 SPK2:282 UPSPK:366 DNSPK:280 VAP:393 VWIFI:379 AMB2:247 AVGCUR:-132 AVGSYS:371 POWER:-564
+03-13 20:31:22.566  3003  3003 D SemWifiP2pGoPowerSave: GopsReceiver : received : com.samsung.intent.action.CHECK_SIOP_LEVEL
+03-13 20:31:22.566  3003  3003 I SemWifiP2pGoPowerSave: siop_level = -1
+03-13 20:31:22.567  3003  3083 D ActivityManager: sync unfroze 5653 com.samsung.android.globalpostprocmgr for 3
+03-13 20:31:22.569  2007  2007 I sensors-hal: set_config:64, no need to adjust sample_period_ns due to reporting_mode = 2
+03-13 20:31:22.569  2007  2007 I sensors-hal: batch:363, android.sensor.light/51, period=200000000, max_latency=0 request completed
+03-13 20:31:22.569  5653  5797 I a       : [#GPP#] onReceive completed :  0
+03-13 20:31:22.569 31868 31902 I SystemBroadcastReceiver: [#CMH#] onReceive completed :  0
+03-13 20:31:22.569  2007  2007 I sensors-hal: activate:300, android.sensor.light/51 en=1
+03-13 20:31:22.569  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 38 , conn_type 0 
+03-13 20:31:22.569  2007  2007 I sensors-hal: acquire_qsh_interface:145, returning _shared_instance[SHARED_ON_CHANGE_NO_WAKEUP].conn - non-wakeup
+03-13 20:31:22.569  2007  2007 I sensors-hal: acquire_shared_instance:173, re-use existing connection for type 0 
+03-13 20:31:22.569  5653  5653 I c       : [#GPP#] EVENT_SIOP: -1 
+03-13 20:31:22.569  2007  2007 I sensors-hal: register_cb:304, suid(low=3126886101930230801,high=5733643688185482530) is new. register callbacks
+03-13 20:31:22.570  5653  5653 I o       : [#GPP#] Send sendSystemConditionChangeNotification 
+03-13 20:31:22.570  2007  2007 I sensors-hal: send_sensor_config_request:645, dt=ambient_light_v: convert sample_period=200000000 to batch_period=200000
+03-13 20:31:22.570  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 20:31:22.570  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for ambient_light_v with SUID low=3126886101930230801 high=5733643688185482530
+03-13 20:31:22.570  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 20:31:22.572  2007 12669 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for ambient_light_v 
+03-13 20:31:22.572  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 20:31:22.572  2007  2007 I sensors-hal: activate:330, android.sensor.light/51 en=1 completed
+03-13 20:31:22.574  2007  2007 D SensorsFlicker: Als_common::setDelay, handle : 1 time : 10000000ns
+03-13 20:31:22.574  2007  2007 D SensorsFlicker: Als_common::enable, handle : 1, mode : 1, en : 1
+03-13 20:31:22.574 31290 31328 I appium  : channel read: GET /session/f82eb6a5-1c91-4b1b-889a-68cd8c246ed9/source
+03-13 20:31:22.575 31290 31328 I appium  : Source command
+03-13 20:31:22.575  3003  4564 D SemContextService: lock : registerCallback
+03-13 20:31:22.575  3003  4564 W CAE     : registerCallback(ContextAwareService.java:188) - [regi 01] Mutex is locked for TEST_FLAT_MOTION
+03-13 20:31:22.575 31290 31328 I appium  : Waiting up to 10000ms for the device to idle
+03-13 20:31:22.576  3003  4564 W CAE     : registerCallback(ContextAwareService.java:195) - [regi 04]  com.samsung.android.contextaware.ContextAwareManager$CaListenerDelegate@6ac99f4
+03-13 20:31:22.576  3003  4564 W CAE     : getListener(ListenerListManager.java:127) - [getListener1]  com.samsung.android.contextaware.ContextAwareManager$CaListenerDelegate@6ac99f4
+03-13 20:31:22.576  3003  4564 W CAE     : getListener(ListenerListManager.java:128) - [getListener2]  com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7
+03-13 20:31:22.576  3003  4564 V CAE     : start(ContextProvider.java:128)
+03-13 20:31:22.576  3003  4564 V CAE     : clear(TestFlatMotionRunner.java:126)
+03-13 20:31:22.576  3003  4564 V CAE     : enable(TestFlatMotionRunner.java:102)
+03-13 20:31:22.576  2007 32330 D SensorsFlicker: Als_common::sendCommand, send enable command
+03-13 20:31:22.578  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 20:31:22.579  3003  3911 D SensorService: setSContextDataLocked 17b1
+03-13 20:31:22.579  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:31:22.579  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb1, 0x17, 0x0, 0x0)
+03-13 20:31:22.579  2007  2007 I sensors-hal: sendContextData:349, enable:177, handle:8, algo:25231360
+03-13 20:31:22.579  2007  2007 I sensors-hal: is_restrict_mode:147, mode:normal
+03-13 20:31:22.579  2007  2007 I sensors-hal: sendContextData:108, device_position 4
+03-13 20:31:22.579  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 56 , conn_type 2 
+03-13 20:31:22.579  2007  2007 I sensors-hal: acquire_qsh_interface:149, returning _shared_instance[SHARED_SENSORHUBS].conn
+03-13 20:31:22.579  2007  2007 I sensors-hal: acquire_shared_instance:173, re-use existing connection for type 2 
+03-13 20:31:22.579  2007  2007 I sensors-hal: register_cb:304, suid(low=11077485164857655296,high=1320970896291267344) is new. register callbacks
+03-13 20:31:22.579  2007  2007 I sensors-hal: create_sensor_config_request:48, device_position create_sensor_config_request
+03-13 20:31:22.579  2007  2007 I sensors-hal: send_sensor_config_request:645, dt=device_position: convert sample_period=0 to batch_period=0
+03-13 20:31:22.579  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 20:31:22.579  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for device_position with SUID low=11077485164857655296 high=1320970896291267344
+03-13 20:31:22.579  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 20:31:22.580  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for device_position 
+03-13 20:31:22.580  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 20:31:22.580  3003  4564 D CAE     : getFaultDetectionResult(TestFlatMotionRunner.java:139) - true
+03-13 20:31:22.581  3003  4564 I CAE     : notifyCmdProcessResultObserver(ContextProvider.java:627) - CheckResult = 0, Cause = Success
+03-13 20:31:22.583  3003  4564 D CAE     : doCommendProcess(ContextAwareService.java:396) - complete notify the operation result.
+03-13 20:31:22.583  3003  4564 I CAE     : displayUsedCountForService(ContextAwareService.java:460) - totalCnt = 1, serviceCount = 1, subCollectionCount = 0
+03-13 20:31:22.583  3003  4564 D CAE     : showListenerList(ContextAwareService.java:325) - ===== Context Aware Service List =====
+03-13 20:31:22.583  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : ACTIVITY_TRACKER_CURRENT_INFO(1)
+03-13 20:31:22.583  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : ACTIVITY_TRACKER_INTERRUPT(1)
+03-13 20:31:22.584  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : ACTIVITY_TRACKER_BATCH(1)
+03-13 20:31:22.584  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : PEDOMETER(1)
+03-13 20:31:22.584  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : SLOCATION_RUNNER(1)
+03-13 20:31:22.584  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : CH_LOC_TRIGGER(1)
+03-13 20:31:22.584  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : FREE_FALL_DETECTION(1)
+03-13 20:31:22.584  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : TEST_FLAT_MOTION(1)
+03-13 20:31:22.584  3003  4564 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : PEDOMETER_CURRENT_INFO(1)
+03-13 20:31:22.584  3003  4564 W CAE     : registerCallback(ContextAwareService.java:209) - [regi 02] Mutex is unlocked for TEST_FLAT_MOTION
+03-13 20:31:22.584  3003  4564 E SemContext.CaeProvider: setAttribute() : attribute is null!
+03-13 20:31:22.584  3003  4564 D SemContextService: 	.registerCallback : 8, client= com.sec.android.sdhms
+03-13 20:31:22.584  3003  4564 D SemContextService: unlock : registerCallback
+03-13 20:31:22.585  3003  4564 E SensorService: BigData:Pakage) 5 already enabled. 
+03-13 20:31:22.595 31462 31462 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:31:22.604  6380  6574 I M0      : limitCPUFreq:: freq = 3302400
+03-13 20:31:22.604  6380  6574 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/6380@3, type = 301993986
+03-13 20:31:22.605  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20374539  [6380 / 3]    HINT :      list : [CPUMaxFreq / 3302400] 
+03-13 20:31:22.608  2105  2321 I VSyncReactor: Current= 60, Period= 60, Distance= 0
+03-13 20:31:22.614 31462 31462 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:31:22.624  2105  2321 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+03-13 20:31:22.634  3003  4185 I Pageboost: Launcher App Execution
+03-13 20:31:22.665  2007  2007 D SensorsFlicker: Als_common::setDelay, handle : 1 time : 10000000ns
+03-13 20:31:22.669  2007  2007 D SensorsFlicker: Als_common::enable, handle : 1, mode : 1, en : 0
+03-13 20:31:22.670  2007 32331 D SensorsFlicker: Als_common::sendCommand, send disable command
+03-13 20:31:22.708  2007 12669 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-13 20:31:22.709  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 179(179),c:20,b:82,m:13,cl:4,l:179,s:176,l0:14768,l1:32,s0:13997,s1:0,acl:1,opr:0.23,f(r):97,u(bl):112,if:0,wi:2,si:8,po:0(N:0)
+03-13 20:31:22.716  2007  3909 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-13 20:31:22.716  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:device_position  Wakeup, msg_id=1025, ts=5289379628448
+03-13 20:31:22.716  2007  3909 I sensors-hal: handle_sns_client_event:78, device_position_event: msgid:1025
+03-13 20:31:22.716  2007  3909 I sensors-hal: handle_sns_client_event:97, device_position_event: 3
+03-13 20:31:22.719  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :4], AP_WAKEUP
+03-13 20:31:22.719  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 4
+03-13 20:31:22.720  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 23, 3,
+03-13 20:31:22.720  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= TEST_FLAT_MOTION =================
+03-13 20:31:22.720  3003  3907 I CAE     : display(ContextProvider.java:391) - Action=[3]
+03-13 20:31:22.721  3003  3904 D SemContextService: Service.updateContext() : service = Device Position
+03-13 20:31:22.722  3003  6708 D SemContextService: lock : unregisterCallback
+03-13 20:31:22.723  3003  6708 D SemContextService: Service.removeListenerLocked() : listener = com.samsung.android.hardware.context.SemContextService$Listener@c9307e7, service = Device Position, used = 0
+03-13 20:31:22.723  3003  6708 W CAE     : unregisterCallback(ContextAwareService.java:230) - [unregi 01] Mutex is locked for TEST_FLAT_MOTION
+03-13 20:31:22.723  3003  6708 W CAE     : getListener(ListenerListManager.java:127) - [getListener1]  com.samsung.android.contextaware.ContextAwareManager$CaListenerDelegate@6ac99f4
+03-13 20:31:22.723  3003  6708 W CAE     : getListener(ListenerListManager.java:128) - [getListener2]  com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7
+03-13 20:31:22.723  3003  6708 V CAE     : stop(ContextProvider.java:155)
+03-13 20:31:22.724  3003  6708 V CAE     : clear(TestFlatMotionRunner.java:126)
+03-13 20:31:22.724  3003  6708 V CAE     : disable(TestFlatMotionRunner.java:115)
+03-13 20:31:22.724  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 20:31:22.725  3003  3911 D SensorService: setSContextDataLocked 17b2
+03-13 20:31:22.725  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:31:22.725  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb2, 0x17, 0x0, 0x0)
+03-13 20:31:22.725  2007  2007 I sensors-hal: sendContextData:349, enable:178, handle:8, algo:25231616
+03-13 20:31:22.725  2007  2007 I sensors-hal: sendContextData:108, device_position 4
+03-13 20:31:22.725  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 20:31:22.725  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for device_position with SUID low=11077485164857655296 high=1320970896291267344
+03-13 20:31:22.725  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 20:31:22.726  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for device_position 
+03-13 20:31:22.726  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 20:31:22.727  3003  6708 D CAE     : getFaultDetectionResult(TestFlatMotionRunner.java:139) - true
+03-13 20:31:22.727  3003  6708 I CAE     : notifyCmdProcessResultObserver(ContextProvider.java:627) - CheckResult = 0, Cause = Success
+03-13 20:31:22.729  3003  6708 D CAE     : doCommendProcess(ContextAwareService.java:396) - complete notify the operation result.
+03-13 20:31:22.730  3003  6708 I CAE     : displayUsedCountForService(ContextAwareService.java:460) - totalCnt = 0, serviceCount = 0, subCollectionCount = 0
+03-13 20:31:22.730  3003  6708 D CAE     : showListenerList(ContextAwareService.java:325) - ===== Context Aware Service List =====
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : ACTIVITY_TRACKER_CURRENT_INFO(1)
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : ACTIVITY_TRACKER_INTERRUPT(1)
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : ACTIVITY_TRACKER_BATCH(1)
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : PEDOMETER(1)
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : SLOCATION_RUNNER(1)
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : CH_LOC_TRIGGER(1)
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : FREE_FALL_DETECTION(1)
+03-13 20:31:22.730  3003  6708 I CAE     : showListenerList(ContextAwareService.java:334) - Listener : com.samsung.android.contextaware.manager.ContextAwareService$Listener@9375fc7, Service : PEDOMETER_CURRENT_INFO(1)
+03-13 20:31:22.730  3003  6708 W CAE     : unregisterCallback(ContextAwareService.java:251) - [unregi 02] Mutex is unlocked for TEST_FLAT_MOTION
+03-13 20:31:22.730  3003  6708 D SemContextService: 	.unregisterCallback : 8, client= com.sec.android.sdhms
+03-13 20:31:22.730  3003  6708 D SemContextService: unlock : unregisterCallback
+03-13 20:31:22.731 31290 31328 I appium  : AppiumResponse: {"sessionId":"f82eb6a5-1c91-4b1b-889a-68cd8c246ed9","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.waze\" class=\"android.widget.…
+03-13 20:31:22.743 31290 31328 I appium  : channel read: GET /session/f82eb6a5-1c91-4b1b-889a-68cd8c246ed9/screenshot
+03-13 20:31:22.744 31290 31328 I appium  : CaptureScreenshot command
+03-13 20:31:22.745 31290 31328 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:31:22.745 31290 31328 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:31:22.775  3003  3951 D GnssLocationProvider_ex: SV Count : 21 / 29      (PRN, Constellation, Type, SNR, Used)
+03-13 20:31:22.775  3003  3951 D GnssLocationProvider_ex: (5, GPS, L1, 24.0, 1) (11, GPS, L1, 21.4, 1) (13, GPS, L1, 21.9, 1) (15, GPS, L1, 23.6, 1) (18, GPS, L1, 20.6, 1) (21, GPS, L1, 28.7, 1) 
+03-13 20:31:22.775  3003  3951 D GnssLocationProvider_ex: (23, GPS, L1, 17.7, 0) (29, GPS, L1, 21.6, 1) (30, GPS, L1, 26.4, 1) (6, GLONASS, L1, 26.5, 1) (22, GLONASS, L1, 21.1, 1) (23, GLONASS, L1, 16.1, 0) 
+03-13 20:31:22.775  3003  3951 D GnssLocationProvider_ex: (21, GLONASS, L1, 20.1, 1) (7, GLONASS, L1, 18.5, 0) (41, BEIDOU, L1, 27.5, 1) (30, BEIDOU, L1, 19.3, 1) (4, GALILEO, L1, 18.5, 1) (6, GALILEO, L1, 24.5, 1) 
+03-13 20:31:22.775  3003  3951 D GnssLocationProvider_ex: (9, GALILEO, L1, 23.6, 1) (10, GALILEO, L1, 22.4, 1) (12, GALILEO, L1, 23.4, 1) (14, GALILEO, L1, 18.3, 0) (19, GALILEO, L1, 18.9, 1) (30, GALILEO, L1, 18.8, 0) 
+03-13 20:31:22.775  3003  3951 D GnssLocationProvider_ex: (36, GALILEO, L1, 21.8, 1) (21, GPS, L5, 26.5, 1) (30, GPS, L5, 18.2, 0) (10, GALILEO, L5, 17.5, 0) (41, BEIDOU, L5, 18.7, 0) 
+03-13 20:31:22.777  5490  5568 I GnssEngineManager_FLP: updateSatelliteStatus, top4=26, top6=26, visibleSv=29, usedSv=21, usedL5Sv=1 (usedGps=9, usedGlo=3, usedBds=2, usedGal=7)
+03-13 20:31:22.778  3003  3951 D GnssLocationProvider: reportLocation
+03-13 20:31:22.779  5490  5568 I GnssEngineManager_FLP: onGpsLocationChanged, provider=gps / isMock=false / speed=0.0 / time=1773448283000 / elapsed=275483332886403
+03-13 20:31:22.779  5490  5568 I NewStopController_FLP: isAvailableLastLoc, KeepStationary : false , timeGap : 12 , mStraightFixCount : 0
+03-13 20:31:22.779  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [G, A : 5.77, T : 1773448283000, ET : 275483332, E : DI, h : 20/27]
+03-13 20:31:22.779  3003 21012 I Mocca_VehicleDetectionHelper: (1.1.04.1)GPS: Avg speed: 0.0 Speed: 0.0 LIST: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+03-13 20:31:22.779  3003  4411 D SLocation: PositionManager - receive gps location
+03-13 20:31:22.779  3003 21012 D VehicleSensorHub: vehicleSendToSensorHub status : 2 type : 18
+03-13 20:31:22.779  3003 21012 I SensorManager: Get Sensor type = 65586
+03-13 20:31:22.779  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 1.6879603 diffTime : 56000 filtered Location
+03-13 20:31:22.779  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-13 20:31:22.779  3003 21012 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-13 20:31:22.779  3003 21012 D SensorService: setSContextDataLocked 123c17c1
+03-13 20:31:22.780 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:31:22.780  5490  5568 I NewStopController_FLP: onChangedGlpLocation, isGpsStopped= false, isReportingLL= false, isAvailableLastLoc : true
+03-13 20:31:22.780 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:31:22.780 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:31:22.780 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too fast
+03-13 20:31:22.780 16161 16586 I FusedLocation: (REDACTED) location delivery to %s blocked - too close
+03-13 20:31:22.780  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:31:22.780  2007  2007 I sensors-hal: sendContextData:290, sensor hal 5, (0xc1, 0x17, 0x3c, 0x12)
+03-13 20:31:22.780  2007  2007 I sensors-hal: sendContextData:230, activities 5 c1, 1
+03-13 20:31:22.780  2007  2007 I sensors-hal: sendUserData:251, Activities cmd 0xc1 0x17
+03-13 20:31:22.780  2007  2007 I sensors-hal: create_send_context_data:80, sending create_send_context_data
+03-13 20:31:22.780  2007  2007 I sensors-hal: send_context_data:694, activities, 4914309220830019584, 1320970896291267344, msgid:700
+03-13 20:31:22.781  3003 21012 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1335 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.reportAdvancedVehicleEvent:185 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.handleLocEvent:277 com.samsung.android.mocca.app.vehicle.AdvancedVehicleDetection.p:0 D.e.h:136 
+03-13 20:31:22.781  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for activities 
+03-13 20:31:22.781  3003  4411 D SLocation: PositionManager - Passive handleLocationChanged [F, A : 5.74, T : 1773448282766, ET : 275483332, h : 20/27]
+03-13 20:31:22.782  3003  4411 D SLocation: PositionManager - receive fused location
+03-13 20:31:22.782  3003  4411 D SLocation: DuplicateLocationChecker_GeofenceLocationFilter - fused is duplicated last fused location
+03-13 20:31:22.782  3003  4411 D SLocation: LocationBuffer - receivedLocation - op[interval(min 60000, max 300000), waitTime 36000000, numOfUpdates 20, minDistance 200.0]dist : 1.6861274 diffTime : 56000 filtered Location
+03-13 20:31:22.783 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ContextEngineReceiver onReceive action : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 20:31:22.783 32228 32228 I [CE]_ContextEngineReceiver: onReceive - ActivityDataManager intent : com.samsung.android.mocca.ACTION_ADVANCED_VEHICLE_EVENT
+03-13 20:31:22.783 32228 32228 I [CE]_MovingContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 20:31:22.783 32228 32228 I [CE]_CarContextProvider: onReceive - Advanced Vehicle Context received: 18, 2
+03-13 20:31:22.783 16161 26386 W ChipsetCorrectionsCompu: Pixel is inside building or within UNKNOWN clutter type
+03-13 20:31:22.784  2005  2005 I LocSvc_GnssAdapter: measCorrSetCorrectionsCommand:7500] GnssAdapter::measCorrSetCorrectionsCommand
+03-13 20:31:22.784  5490  5568 I GmsPassiveListener_FLP: onGmsLocationChanged, provider=fused / speed=0.147953 / time=1773448282766 / elapsed=275483332886403
+03-13 20:31:22.784  3003  4411 D SLocation: BatchManager - received batch location buffered = false
+03-13 20:31:22.786  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 20:31:22.786  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 20:31:22.786  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 20:31:22.786  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 20:31:22.786  2005  2047 I LocSvc_api_v02: ---> locClientSendReq line 2462 UNKNOWN
+03-13 20:31:22.787  2005  3349 I LocSvc_ApiV02: <--- globalRespCb line 355 UNKNOWN
+03-13 20:31:22.792  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:14:AE, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-59, periodicAdvInt=0x0
+03-13 20:31:22.803  3003  6708 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 20:31:22.813  3003  6708 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 20:31:22.814  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:31:22.814  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:31:22.814  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:31:22.814  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:31:22.831  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 20:31:22.831  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 20:31:22.840 32332 32332 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 20:31:22.840 32332 32332 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 20:31:22.840 32332 32332 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 20:31:22.840  3003  6708 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 20:31:22.841  3003  6708 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 20:31:22.841 32332 32332 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 20:31:22.841 32332 32332 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 20:31:22.845  2105  2321 I SurfaceFlinger: Capture layer list: 	 Background for c1c0ac6 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0#90742(seamlessTransition:0)
+03-13 20:31:22.845  2105  2321 I SurfaceFlinger: Capture layer list: 	 c1c0ac6 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0(BLAST)#90741(seamlessTransition:0)
+03-13 20:31:22.845  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.waze/com.waze.search.v2.SearchV2Activity$_31462#90737(seamlessTransition:0)
+03-13 20:31:22.845  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 20:31:22.845  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#90567(seamlessTransition:0)
+03-13 20:31:22.845  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 20:31:22.846  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 20:31:22.847  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 20:31:22.847  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer c1c0ac6 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0(BLAST)#90741 at index 1
+03-13 20:31:22.848  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.waze/com.waze.search.v2.SearchV2Activity$_31462#90737 at index 2
+03-13 20:31:22.848  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 20:31:22.848  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#90567 at index 4
+03-13 20:31:22.848  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 20:31:22.889 32332 32337 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 20:31:22.890 32332 32332 W qdgralloc: Failed to load libubwcp.so
+03-13 20:31:22.976  3003  6708 D SemContextService: lock : requestToUpdate
+03-13 20:31:22.977  3003  6708 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for CH_LOC_TRIGGER
+03-13 20:31:22.978  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 20:31:22.978  3003  3911 D SensorService: setSContextDataLocked 3db8
+03-13 20:31:22.978  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:31:22.978  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb8, 0x3d, 0x0, 0x0)
+03-13 20:31:22.978  2007  2007 I sensors-hal: sendContextData:131, change_location_trigger 4,184
+03-13 20:31:22.978  2007  2007 I sensors-hal: sendUserData:118, change_location_trigger h 184 m 61 s 0
+03-13 20:31:22.979  2007  2007 I sensors-hal: create_send_context_data:66, change_location_trigger create_send_context_data
+03-13 20:31:22.979  2007  2007 I sensors-hal: send_context_data:694, change_location_trigger, -244018566922240, 1320970896291267344, msgid:700
+03-13 20:31:22.980  3003  6708 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for CH_LOC_TRIGGER
+03-13 20:31:22.980  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for change_location_trigger 
+03-13 20:31:22.980  3003  6708 D SemContextService:     .requestToUpdate() : service = Location Change Trigger
+03-13 20:31:22.980  3003  6708 D SemContextService: unlock : requestToUpdate
+03-13 20:31:22.980  3003  6708 D SemContextManager:   .requestToUpdate : listener = com.android.server.location.nsflp.NSLocationMonitor$5@d8278d1, service=Location Change Trigger
+03-13 20:31:22.981  5490  7699 I NewStopController_FLP: StateChecker, check stationary message
+03-13 20:31:22.981  3003  6708 D SemContextService: lock : requestToUpdate
+03-13 20:31:22.981  3003  6708 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for CH_LOC_TRIGGER
+03-13 20:31:22.981  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 20:31:22.981  3003  3911 D SensorService: setSContextDataLocked 3db8
+03-13 20:31:22.982  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 20:31:22.982  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:31:22.982  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb8, 0x3d, 0x0, 0x0)
+03-13 20:31:22.982  2007  2007 I sensors-hal: sendContextData:131, change_location_trigger 4,184
+03-13 20:31:22.982  2007  2007 I sensors-hal: sendUserData:118, change_location_trigger h 184 m 61 s 0
+03-13 20:31:22.982  2007  2007 I sensors-hal: create_send_context_data:66, change_location_trigger create_send_context_data
+03-13 20:31:22.982  2007  2007 I sensors-hal: send_context_data:694, change_location_trigger, -244018566922240, 1320970896291267344, msgid:700
+03-13 20:31:22.982  3003  6708 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for CH_LOC_TRIGGER
+03-13 20:31:22.982  3003  6708 D SemContextService:     .requestToUpdate() : service = Location Change Trigger
+03-13 20:31:22.982  3003  6708 D SemContextService: unlock : requestToUpdate
+03-13 20:31:22.982  3003  6708 D SemContextManager:   .requestToUpdate : listener = com.android.server.location.nsflp.NSLocationMonitor$5@d8278d1, service=Location Change Trigger
+03-13 20:31:22.982  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for change_location_trigger 
+03-13 20:31:22.982  5490  7699 I NewStopController_FLP: StateChecker, check stationary message
+03-13 20:31:23.029  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 178(178),c:20,b:82,m:13,cl:4,l:177,s:179,l0:14656,l1:32,s0:14192,s1:0,acl:1,opr:0.23,f(r):97,u(bl):112,if:0,wi:2,si:12,po:0(N:0)
+03-13 20:31:23.030  2007  2007 I sensors-hal: set_config:64, no need to adjust sample_period_ns due to reporting_mode = 2
+03-13 20:31:23.031  2007  2007 I sensors-hal: batch:363, android.sensor.light/51, period=200000000, max_latency=0 request completed
+03-13 20:31:23.032  3003  6708 E SensorService: BigData:Pakage) 5 already disabled. 
+03-13 20:31:23.033  2007  2007 I sensors-hal: activate:300, android.sensor.light/51 en=0
+03-13 20:31:23.033  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 20:31:23.034  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for ambient_light_v with SUID low=3126886101930230801 high=5733643688185482530
+03-13 20:31:23.034  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:change_location_trigger  Wakeup, msg_id=1025, ts=5289385733537
+03-13 20:31:23.034  2007  3909 I sensors-hal: handle_sns_client_event:85, change_location_trigger_event: msgid:1025
+03-13 20:31:23.034  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 20:31:23.034  2007  3909 I sensors-hal: handle_sns_client_event:108, change_location_trigger_event: 255, 255
+03-13 20:31:23.035  2007 12669 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for ambient_light_v 
+03-13 20:31:23.036  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 20:31:23.036  2007  2007 I sensors-hal: activate:330, android.sensor.light/51 en=0 completed
+03-13 20:31:23.037  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :15], AP_WAKEUP
+03-13 20:31:23.037  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 15
+03-13 20:31:23.037  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 61, -1, 0, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0,
+03-13 20:31:23.038  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= CH_LOC_TRIGGER =================
+03-13 20:31:23.038  3003  3907 I CAE     : display(ContextProvider.java:391) - duration=[1], property=[1], result=[2], reserved=[0]
+03-13 20:31:23.038  3003  3904 D SemContextService: Service.updateContext() : service = Location Change Trigger
+03-13 20:31:23.039  3003  3952 D SemContextManager: onSemContextChanged() : event = Location Change Trigger
+03-13 20:31:23.039  3003  3952 D NSLocationMonitor: onSemContextChanged, activity : 1 result : 2 movement : 1
+03-13 20:31:23.149 31290 31328 I appium  : AppiumResponse: {"sessionId":"f82eb6a5-1c91-4b1b-889a-68cd8c246ed9","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L13tF3ZXef52Sff9HLUe085q1SqKlV0ZdsNBuPYxkCThzCEYWDRC+gGBmigVw/d06yZbmjoBobkMW0wxtjGCbtc2a6kKlWplFXK0svhxhP3nj/2eVeh3pNeflLpftbSKq3SPefsm87d+7t…
+03-13 20:31:23.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773448283
+03-13 20:31:23.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 20:31:23.205  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 333 
+03-13 20:31:23.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557471
+03-13 20:31:23.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557462
+03-13 20:31:23.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 20:31:23.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557445
+03-13 20:31:23.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 20:31:23.207  2097  2125 E HeatmapThread: !@ CAM is Working

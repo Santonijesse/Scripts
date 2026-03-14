@@ -1,0 +1,70 @@
+--------- beginning of main
+03-13 19:43:20.685  5350  5410 I appium  : channel read: GET /session/d23175b0-57fd-418e-9ef1-5a0828fe627d/source
+03-13 19:43:20.685  5350  5410 I appium  : Source command
+03-13 19:43:20.686  5350  5410 I appium  : Waiting up to 10000ms for the device to idle
+03-13 19:43:20.800  5350  5410 I appium  : AppiumResponse: {"sessionId":"d23175b0-57fd-418e-9ef1-5a0828fe627d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.app.tgtg\" class=\"android.wid…
+03-13 19:43:20.815  2007  3849 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 142(142),c:212,b:85,m:13,cl:51,l:133,s:142,l0:14896,l1:32,s0:11263,s1:0,acl:1,opr:0.69,f(r):97,u(bl):108,if:0,wi:2,si:12,po:0(N:0)
+03-13 19:43:20.822  5350  5410 I appium  : channel read: GET /session/d23175b0-57fd-418e-9ef1-5a0828fe627d/screenshot
+03-13 19:43:20.823  5350  5410 I appium  : CaptureScreenshot command
+03-13 19:43:20.825  5350  5410 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:43:20.825  5350  5410 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 19:43:20.910  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 19:43:20.911  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 19:43:20.911  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 19:43:20.911  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 19:43:20.916  6954  6954 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 19:43:20.916  6954  6954 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 19:43:20.916  6954  6954 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 19:43:20.917  3003  4333 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 19:43:20.917  3003  4333 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 19:43:20.917  6954  6954 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 19:43:20.917  6954  6954 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 19:43:20.918  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_5464#85662(seamlessTransition:0)
+03-13 19:43:20.919  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 19:43:20.919  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#85560(seamlessTransition:0)
+03-13 19:43:20.919  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 19:43:20.919  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 19:43:20.920  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 19:43:20.920  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_5464#85662 at index 1
+03-13 19:43:20.920  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 19:43:20.920  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#85560 at index 3
+03-13 19:43:20.920  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 19:43:20.924  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:99:4F, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-69, periodicAdvInt=0x0
+03-13 19:43:20.927 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 19:43:20.953  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 19:43:20.954  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 19:43:20.961  6954  6960 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 19:43:20.962  6954  6954 W qdgralloc: Failed to load libubwcp.so
+03-13 19:43:21.104  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 19:43:21.109  3003  4333 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 19:43:21.114  3003  4923 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 19:43:21.116  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:43:21.116  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:43:21.116  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:43:21.116  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 19:43:21.116  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 19:43:21.124  2105  2836 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 19:43:21.136  3003  7438 I AfterimageCompensationService: AfcThread mLuminance : 121 , AfpcPeriodCount : 2162 , rotation : 0 , AOD : false
+03-13 19:43:21.137  3003  7438 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 19:43:21.140  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_5464#85662(seamlessTransition:0)
+03-13 19:43:21.140  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 19:43:21.140  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#85560(seamlessTransition:0)
+03-13 19:43:21.140  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 19:43:21.140  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 19:43:21.141  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 19:43:21.141  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.app.tgtg/com.app.tgtg.feature.locationpicker.LocationPickerActivity$_5464#85662 at index 1
+03-13 19:43:21.141  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 19:43:21.142  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#85560 at index 3
+03-13 19:43:21.142  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 19:43:21.151  3003  7438 D system_server: mAFPC_Read - w = 1080, h = 2640, s = 8, f = 4, s_size = 11489280, luminance = 121, count = 2162, captureOrientation = 0
+03-13 19:43:21.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773445401
+03-13 19:43:21.202  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 19:43:21.203  2097  2125 D HeatmapThread: !@ batteryLevel : 98  batteryTemperature : 317 
+03-13 19:43:21.203  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557423
+03-13 19:43:21.203  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557402
+03-13 19:43:21.203  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 19:43:21.203  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557415
+03-13 19:43:21.203  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 19:43:21.203  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 19:43:21.209  5350  5410 I appium  : AppiumResponse: {"sessionId":"d23175b0-57fd-418e-9ef1-5a0828fe627d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRl3j/+95mZ9JDeC0kgJIGQxEAoJhRFihhBXVEXFQgqKuqz7uqyz7Pufn/rteXZrwX7ughIEx5QUFCRLiI9hp6QACmQQkIKqVOSTDm/P/LM+WYyk2QmpDDk/bou/uDMKfeUzJzzPvf…

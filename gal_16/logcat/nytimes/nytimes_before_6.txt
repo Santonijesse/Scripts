@@ -1,0 +1,71 @@
+--------- beginning of main
+03-13 13:23:32.026  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 3ms
+03-13 13:23:32.044 22763 22791 I appium  : channel read: GET /session/a336a0c6-6672-4a86-a88d-274ba2e408b7/source
+03-13 13:23:32.044 22763 22791 I appium  : Source command
+03-13 13:23:32.045 22763 22791 I appium  : Waiting up to 10000ms for the device to idle
+03-13 13:23:32.069 16538 14485 I MobileWips::ns: Datetime result: [1773422602113, 1773422612223, -1]
+03-13 13:23:32.070 16538 14485 I MobileWips::ns: Final detection result: [ssid: 4eb17f79ec7c7688927e6fad872c5aeac44e9ad2a0e36f63a92b68d72185908f, bssid: f450f43cec6bbd1ee09df89eee396598f6940a95383fca779ac6b7e0b0811015, freq: 5765, result: benign]
+--------- beginning of system
+03-13 13:23:32.070  3003  6500 W ProcessCpuTracker: Failed to stat(/proc/23450): android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+03-13 13:23:32.070  3003  6500 W ProcessCpuTracker: Skipping unknown process pid 23450
+03-13 13:23:32.076  3003  6500 D CustomizedBinderCallsStatsInternal: reportCpuUsage() : 3%
+03-13 13:23:32.076  3003  3082 I BinderCallsStats: Collected cpu time : 0us, collected call count : 0 for 5229425 ms
+03-13 13:23:32.078 22828 22828 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{9926b65 VFED..... .F...... 0,0-1080,1637 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:142 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 13:23:32.078 22828 22828 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{e18fa00 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:157 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 13:23:32.078  3003  6500 D ProcessCpuUsage: [0] 955, {672=26200, 787=6560, 902=8230, 1017=1170, 1132=2470, 1248=1320, 1344=7890, 1459=340, 1574=2270, 1689=200, 1804=2930, 2265=510}
+03-13 13:23:32.078  3003  6500 D ProcessCpuUsage: [2] 1180, {614=29190, 729=370, 844=6200, 960=400, 1075=300, 1190=8700, 1286=290, 1401=260, 1497=180, 1612=830, 1708=360, 1824=390, 1920=260, 2035=340, 2131=760, 2188=130, 2246=120, 2323=180, 2380=110, 2438=130, 2515=180, 2572=3480, 2630=140, 2707=6390, 3148=420}
+03-13 13:23:32.078  3003  6500 D ProcessCpuUsage: [5] 891, {499=39190, 614=2130, 729=1890, 844=2590, 960=1390, 1075=810, 1190=2760, 1286=120, 1612=340, 1708=120, 1824=180, 1920=150, 2035=180, 2131=120, 2323=120, 2515=110, 2572=2840, 2707=4430, 2956=250}
+03-13 13:23:32.078  3003  6500 D ProcessCpuUsage: [7] 1112, {672=33170, 902=8330, 1248=8970, 1593=730, 1708=1090, 1824=700, 2630=3030, 3302=180, 3398=3290}
+03-13 13:23:32.106  3003  4343 I CustomizedBinderCallsStatsInternal: 1 minute has NOT pass since last binder stats.
+03-13 13:23:32.106  3003  4343 I CustomizedBinderCallsStatsInternal: 1 minute has NOT pass since last binder stats.
+03-13 13:23:32.106  3003  4343 W CustomCpuInfoReader: Skipping reading from device and returning the last read CpuInfos. Last read was 30 ms ago, min read interval is 500 ms
+03-13 13:23:32.106  3003  4343 D ProcessCpuUsage: [0] 955, {672=26200, 787=6560, 902=8230, 1017=1170, 1132=2470, 1248=1320, 1344=7890, 1459=340, 1574=2270, 1689=200, 1804=2930, 2265=510}
+03-13 13:23:32.106  3003  4343 D ProcessCpuUsage: [2] 1180, {614=29190, 729=370, 844=6200, 960=400, 1075=300, 1190=8700, 1286=290, 1401=260, 1497=180, 1612=830, 1708=360, 1824=390, 1920=260, 2035=340, 2131=760, 2188=130, 2246=120, 2323=180, 2380=110, 2438=130, 2515=180, 2572=3480, 2630=140, 2707=6390, 3148=420}
+03-13 13:23:32.106  3003  4343 D ProcessCpuUsage: [5] 891, {499=39190, 614=2130, 729=1890, 844=2590, 960=1390, 1075=810, 1190=2760, 1286=120, 1612=340, 1708=120, 1824=180, 1920=150, 2035=180, 2131=120, 2323=120, 2515=110, 2572=2840, 2707=4430, 2956=250}
+03-13 13:23:32.106  3003  4343 D ProcessCpuUsage: [7] 1112, {672=33170, 902=8330, 1248=8970, 1593=730, 1708=1090, 1824=700, 2630=3030, 3302=180, 3398=3290}
+03-13 13:23:32.109 22763 22791 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 13:23:32.130 22763 22791 I appium  : AppiumResponse: {"sessionId":"a336a0c6-6672-4a86-a88d-274ba2e408b7","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.nytimes.android\" class=\"andr…
+03-13 13:23:32.144 22763 22791 I appium  : channel read: GET /session/a336a0c6-6672-4a86-a88d-274ba2e408b7/screenshot
+03-13 13:23:32.145 22763 22791 I appium  : CaptureScreenshot command
+03-13 13:23:32.146 22763 22791 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:23:32.146 22763 22791 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:23:32.148  3003  4343 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 13:23:32.154  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:23:32.156  3003  3046 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 13:23:32.156  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:23:32.159  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:23:32.159  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:23:32.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773422612
+03-13 13:23:32.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 13:23:32.204  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 320 
+03-13 13:23:32.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557043
+03-13 13:23:32.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557042
+03-13 13:23:32.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 13:23:32.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556870
+03-13 13:23:32.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 13:23:32.240 23456 23456 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 13:23:32.240 23456 23456 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 13:23:32.241 23456 23456 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 13:23:32.241  3003  3046 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 13:23:32.241  3003  3046 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 13:23:32.241 23456 23456 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 13:23:32.241 23456 23456 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 13:23:32.244  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.nytimes.android/com.nytimes.subauth.ui.login.SubauthLoginActivity$_22828#55488(seamlessTransition:0)
+03-13 13:23:32.244  2105  2922 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#55495(seamlessTransition:0)
+03-13 13:23:32.244  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 13:23:32.244  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#55442(seamlessTransition:0)
+03-13 13:23:32.244  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 13:23:32.244  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 13:23:32.245  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 13:23:32.245  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.nytimes.android/com.nytimes.subauth.ui.login.SubauthLoginActivity$_22828#55488 at index 1
+03-13 13:23:32.245  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#55495 at index 2
+03-13 13:23:32.245  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 13:23:32.245  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#55442 at index 4
+03-13 13:23:32.245  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 13:23:32.278 23456 23461 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 13:23:32.278 23456 23456 W qdgralloc: Failed to load libubwcp.so
+03-13 13:23:32.363 22828 22828 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{9926b65 VFED..... .F...... 0,0-1080,1637 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:142 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 13:23:32.363 22828 22828 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{e18fa00 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:157 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 13:23:32.464 22763 22791 I appium  : AppiumResponse: {"sessionId":"a336a0c6-6672-4a86-a88d-274ba2e408b7","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w15mFYd93EBEEVxTBHc1CWjC1rLxdFdQutzKrW9l22251q+/3divL6la3XBLXNC3Nyi0t09xAcGFR2WSRRXaYYYBZfn/w43wZZthkHX09H48eyZkzZz6DOJzzOu/P+yOo1Wo…
+03-13 13:23:32.572  2007 22060 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 177(177),c:93,b:84,m:13,cl:22,l:173,s:177,l0:15808,l1:48,s0:14062,s1:0,acl:1,opr:0.19,f(r):97,u(bl):111,if:0,wi:3,si:12,po:0(N:0)
+03-13 13:23:32.577  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10109(com.microsoft.skydrive), 4(FAIL), isBlocked=true, 0ms

@@ -1,0 +1,51 @@
+--------- beginning of main
+03-13 13:37:12.289  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 18099, isSameBssidAndFreq true
+03-13 13:37:12.290  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 13:37:12.290  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 13:37:12.291  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 13:37:12.291  3003  4030 D InsDataManager: trimBuffers start.
+03-13 13:37:12.291  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 13:37:12.291  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 13:37:12.291  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -64.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Unreliable statistics: -64.0 / 0 / 22 / 1 / 0 || 1cf112895765: 0.000 / 0.000 / @ || N N / 0 0 / Y 2.0 / Y X 0 / 70021285 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 13:37:12.293  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-13 13:37:12.390 11281 11323 I appium  : channel read: GET /session/eb75a853-cde0-4422-8f43-0bce5ee7c947/source
+03-13 13:37:12.392 11281 11323 I appium  : Source command
+03-13 13:37:12.397 11281 11323 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 13:37:12.512  1171  1171 D io_stats: !@   8,0 r 4059806 126140160 w 4942891 100858260 d 422833 112372308 f 208481 478689 iot 2012420 0 th 0 0 0 pt 0 inp 0 0 70021.508
+03-13 13:37:12.551  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 13:37:12.551 11281 11323 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 13:37:12.551  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 13:37:12.555  2007 10632 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 189(189),c:44,b:88,m:13,cl:11,l:189,s:190,l0:16240,l1:48,s0:15039,s1:0,acl:1,opr:0.57,f(r):97,u(bl):111,if:0,wi:3,si:8,po:126(N:0)
+03-13 13:37:12.563  3003  5506 D FreecessHandler: freeze onxmaps.hunt(10472) result : 2
+03-13 13:37:12.609 11281 11323 I appium  : AppiumResponse: {"sessionId":"eb75a853-cde0-4422-8f43-0bce5ee7c947","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.duckduckgo.mobile.android\" cl…
+03-13 13:37:12.628 11281 11323 I appium  : channel read: GET /session/eb75a853-cde0-4422-8f43-0bce5ee7c947/screenshot
+03-13 13:37:12.628 11281 11323 I appium  : CaptureScreenshot command
+03-13 13:37:12.630 11281 11323 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:37:12.630 11281 11323 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:37:12.672 31597 31597 I View    : setRequestedFrameRate frameRate=-4.0, this=com.duckduckgo.app.browser.DuckDuckGoWebView{b164049 VFEDHVCL. .F...... 0,0-1080,1457 #7f0b0137 app:id/browserWebView aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 13:37:12.748 12445 12445 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 13:37:12.748 12445 12445 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 13:37:12.749 12445 12445 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 13:37:12.749  3003  6828 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 13:37:12.749  3003  6828 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 13:37:12.749 12445 12445 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 13:37:12.749 12445 12445 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 13:37:12.755  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_31597#56219(seamlessTransition:0)
+03-13 13:37:12.755  2105  2321 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#56226(seamlessTransition:0)
+03-13 13:37:12.755  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 13:37:12.755  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#56161(seamlessTransition:0)
+03-13 13:37:12.755  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 13:37:12.756  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 13:37:12.756  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 13:37:12.757  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_31597#56219 at index 1
+03-13 13:37:12.757  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#56226 at index 2
+03-13 13:37:12.757  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 13:37:12.757  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#56161 at index 4
+03-13 13:37:12.758  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 13:37:12.831 12445 12451 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 13:37:12.833 12445 12445 W qdgralloc: Failed to load libubwcp.so
+03-13 13:37:13.023 11281 11323 I appium  : AppiumResponse: {"sessionId":"eb75a853-cde0-4422-8f43-0bce5ee7c947","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fEzn/gfwz8xksieyL0RkoyFqSaK2CEUtUVGlVaVRVantUkuRiBZVUfutraUuUS1KaXFtJUpRYlc0RYQQkkgi+zrL74/85tyMmSSTPVOf9+vV171z5syZZybJmPM53+f7iLy9vZUgIiI…
+03-13 13:37:13.111 12158 12158 I CMHApplication: [#CMH#] Block to verify, Change Trim Memory Level: 40 
+03-13 13:37:13.135 12158 12163 W com.samsung.cmh: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+03-13 13:37:13.141 12158 12165 I CMHFileObserver: [#CMH#] CMHFileObserver object is GC 

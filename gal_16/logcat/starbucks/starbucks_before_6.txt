@@ -1,0 +1,63 @@
+--------- beginning of main
+03-13 16:24:55.102 26592 26621 I appium  : channel read: GET /session/c20c635d-b202-48ae-ba45-180333afa6a1/source
+03-13 16:24:55.105 26592 26621 I appium  : Source command
+03-13 16:24:55.107 26592 26621 I appium  : Waiting up to 10000ms for the device to idle
+03-13 16:24:55.134  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 1
+03-13 16:24:55.142 26660 26660 I View    : setRequestedFrameRate frameRate=NaN, this=o.jA{95d5db8 VFED..... ........ 0,0-1080,168 aid=1073741828}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 o.kf.read:3822 o.jA.dispatchDraw:2114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 16:24:55.143 26660 26660 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{b985fb6 V.ED..... ........ 0,0-0,0}, caller=o.kf.read:3822 o.jA.dispatchDraw:2115 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 16:24:55.143  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 16:24:55.143 26660 26660 I View    : setRequestedFrameRate frameRate=NaN, this=o.jA{e8ba529 VFED..... ........ 0,0-1080,12 aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 o.kf.read:3822 o.jA.dispatchDraw:2114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 16:24:55.143 26660 26660 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{9ce64b7 V.ED..... ........ 0,0-0,0}, caller=o.kf.read:3822 o.jA.dispatchDraw:2115 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 16:24:55.160  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 40
+--------- beginning of system
+03-13 16:24:55.167  1171  1171 D io_stats: !@   8,0 r 4491040 136931936 w 5657892 114916920 d 463266 128001736 f 238977 539337 iot 2324792 0 th 0 0 0 pt 0 inp 0 0 80084.163
+03-13 16:24:55.167  1171  1171 D io_stats: !@ Read_top(KB): id.app.sbrowser(5239) 260 kworker/u16:3(4884) 172 kworker/u16:6(20768) 60
+03-13 16:24:55.168  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:3(4884) 128
+03-13 16:24:55.168  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 16:24:55.180 26592 26621 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 16:24:55.198  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 16:24:55.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773433495
+03-13 16:24:55.200  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 16:24:55.200  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 16:24:55.201  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 16:24:55.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 16:24:55.207  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 329 
+03-13 16:24:55.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557224
+03-13 16:24:55.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557222
+03-13 16:24:55.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 16:24:55.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557205
+03-13 16:24:55.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 16:24:55.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 16:24:55.209  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:D7:CE, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-65, periodicAdvInt=0x0
+03-13 16:24:55.212 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 16:24:55.213 16161 27398 I NearbyDiscovery: (REDACTED) loadFastPairModule: checkFeaturesAreAvailable:%d
+03-13 16:24:55.213 16161 27398 I NearbyDiscovery: loadFastPairModule: FastPair module is downloaded. [CONTEXT service_id=265 ]
+03-13 16:24:55.224 26592 26621 I appium  : AppiumResponse: {"sessionId":"c20c635d-b202-48ae-ba45-180333afa6a1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.starbucks.mobilecard\" class=\…
+03-13 16:24:55.239 26592 26621 I appium  : channel read: GET /session/c20c635d-b202-48ae-ba45-180333afa6a1/screenshot
+03-13 16:24:55.240 26592 26621 I appium  : CaptureScreenshot command
+03-13 16:24:55.241 26592 26621 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:24:55.241 26592 26621 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:24:55.245  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 16:24:55.245  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 16:24:55.333 27469 27469 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 16:24:55.333 27469 27469 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 16:24:55.334 27469 27469 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 16:24:55.334  3003  5013 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 16:24:55.334  3003  5013 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 16:24:55.334 27469 27469 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 16:24:55.334 27469 27469 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 16:24:55.337  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.starbucks.mobilecard/o.ddT$_26660#72034(seamlessTransition:0)
+03-13 16:24:55.337  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 16:24:55.337  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#71981(seamlessTransition:0)
+03-13 16:24:55.337  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 16:24:55.338  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 16:24:55.338  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 16:24:55.338  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.starbucks.mobilecard/o.ddT$_26660#72034 at index 1
+03-13 16:24:55.339  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 16:24:55.339  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#71981 at index 3
+03-13 16:24:55.339  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 16:24:55.396  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 16:24:55.398 27469 27478 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 16:24:55.400 27469 27469 W qdgralloc: Failed to load libubwcp.so
+03-13 16:24:55.518  2007 26147 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 175(175),c:90,b:84,m:13,cl:20,l:171,s:175,l0:15520,l1:48,s0:13932,s1:0,acl:1,opr:0.92,f(r):97,u(bl):111,if:0,wi:3,si:12,po:122(N:0)
+03-13 16:24:55.591 26592 26621 I appium  : AppiumResponse: {"sessionId":"c20c635d-b202-48ae-ba45-180333afa6a1","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w16yssiO7bAKuuGKu5Jb7kmWLtwSstEW9ditv+712761u17LbcnNNBbW0UjMzzdLUTFwQRRDcANmRfV+GmTm/P/jO+THOgKDAMPp6Ph4+ijOHM++BYWbO63w+749EEAQBRER…

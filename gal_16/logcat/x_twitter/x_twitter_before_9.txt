@@ -1,0 +1,44 @@
+--------- beginning of main
+03-13 21:32:46.770  1723  1772 I appium  : channel read: GET /session/776c3431-8d86-4ccf-87b7-30302b637a64/source
+03-13 21:32:46.773  1723  1772 I appium  : Source command
+03-13 21:32:46.775  1723  1772 I appium  : Waiting up to 10000ms for the device to idle
+03-13 21:32:46.802  1835  1835 I cr_A11yState: Enabled accessibility services list updated. []
+03-13 21:32:46.803  1835  1835 I cr_A11yState: Informing listeners of changes.
+03-13 21:32:46.804  1835  1835 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-13 21:32:46.815  1723  1772 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 21:32:46.823  1723  1772 I appium  : AppiumResponse: {"sessionId":"776c3431-8d86-4ccf-87b7-30302b637a64","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.twitter.android\" class=\"andr…
+03-13 21:32:46.835  1723  1772 I appium  : channel read: GET /session/776c3431-8d86-4ccf-87b7-30302b637a64/screenshot
+03-13 21:32:46.835  1723  1772 I appium  : CaptureScreenshot command
+03-13 21:32:46.836  1723  1772 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:32:46.836  1723  1772 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:32:46.917  2902  2902 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 21:32:46.918  2902  2902 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 21:32:46.918  2902  2902 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 21:32:46.918  3003  3046 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 21:32:46.918  3003  3046 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 21:32:46.918  2902  2902 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 21:32:46.918  2902  2902 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:32:46.923  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.twitter.android/com.twitter.android.webview.WebViewActivity$_1835#96026(seamlessTransition:0)
+03-13 21:32:46.923  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:32:46.923  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#95933(seamlessTransition:0)
+03-13 21:32:46.923  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:32:46.924  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:32:46.925  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:32:46.925  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.twitter.android/com.twitter.android.webview.WebViewActivity$_1835#96026 at index 1
+03-13 21:32:46.925  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:32:46.925  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#95933 at index 3
+03-13 21:32:46.925  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:32:46.964  2902  2931 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 21:32:46.965  2902  2902 W qdgralloc: Failed to load libubwcp.so
+03-13 21:32:47.009  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-13 21:32:47.139  1723  1772 I appium  : AppiumResponse: {"sessionId":"776c3431-8d86-4ccf-87b7-30302b637a64","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13VJTH/z78awu9SRUBQbEgsaEiFixYokaMGhWNJSpqTDGNKH5MsUSj38TYEiW2xG5ijbFHDWrU2KJGsIMgFooggvS68/zBw/5Yd5cO68brdc77nHjv7NyzBbJ7cc+MBIAAEREREREREZE…
+03-13 21:32:47.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773451967
+03-13 21:32:47.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 21:32:47.205  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 321 
+03-13 21:32:47.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557532
+03-13 21:32:47.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557522
+03-13 21:32:47.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 21:32:47.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557505
+03-13 21:32:47.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 21:32:47.208  2097  2125 E HeatmapThread: !@ CAM is Working

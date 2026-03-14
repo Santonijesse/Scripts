@@ -1,0 +1,56 @@
+--------- beginning of main
+03-13 21:48:44.779  5239 10107 I SBrowserProvider: ===query=== 10228
+03-13 21:48:44.791  5239 10107 I [HistorySync]SyncMetaInfoDbHelper: isUpdatedItemExist
+03-13 21:48:44.894 25312 25343 I appium  : channel read: GET /session/ecdc29e8-aa40-4ca9-8602-42043b3542ea/source
+03-13 21:48:44.897 25312 25343 I appium  : Source command
+03-13 21:48:44.901 25312 25343 I appium  : Waiting up to 10000ms for the device to idle
+03-13 21:48:44.992 25312 25343 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 21:48:45.051 25312 25343 I appium  : AppiumResponse: {"sessionId":"ecdc29e8-aa40-4ca9-8602-42043b3542ea","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.yelp.android\" class=\"android…
+03-13 21:48:45.079 25312 25343 I appium  : channel read: GET /session/ecdc29e8-aa40-4ca9-8602-42043b3542ea/screenshot
+03-13 21:48:45.080 25312 25343 I appium  : CaptureScreenshot command
+03-13 21:48:45.081  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,44, ts,280125647077862, ts_diff,574218
+03-13 21:48:45.082  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,-1.412,3.891,10.193, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 21:48:45.082 25312 25343 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:48:45.082 25312 25343 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+--------- beginning of system
+03-13 21:48:45.082  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-13 21:48:45.083  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-13 21:48:45.083  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 21:48:45.084  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 21:48:45.088  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+03-13 21:48:45.167 26224 26224 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 21:48:45.167 26224 26224 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 21:48:45.168 26224 26224 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 21:48:45.168  3003  3048 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 21:48:45.168  3003  3048 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 21:48:45.168 26224 26224 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 21:48:45.168 26224 26224 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:48:45.172  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_25384#97376(seamlessTransition:0)
+03-13 21:48:45.172  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:48:45.172  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#97286(seamlessTransition:0)
+03-13 21:48:45.172  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:48:45.173  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:48:45.173  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:48:45.173  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.yelp.android/com.yelp.android.home.ui.RootSingleActivity$_25384#97376 at index 1
+03-13 21:48:45.173  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:48:45.174  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#97286 at index 3
+03-13 21:48:45.174  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:48:45.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773452925
+03-13 21:48:45.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 21:48:45.204  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 311 
+03-13 21:48:45.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557548
+03-13 21:48:45.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557522
+03-13 21:48:45.205  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 21:48:45.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557535
+03-13 21:48:45.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 21:48:45.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 21:48:45.213 26224 26230 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 21:48:45.214 26224 26224 W qdgralloc: Failed to load libubwcp.so
+03-13 21:48:45.236  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,255, duration,0, ts,280125801880831, ts_diff,386144
+03-13 21:48:45.236  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,-0.842,2.809,9.160, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 21:48:45.237  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: -1
+03-13 21:48:45.237  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: -1
+03-13 21:48:45.238  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-13 21:48:45.238  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 21:48:45.238  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 21:48:45.519 25312 25343 I appium  : AppiumResponse: {"sessionId":"ecdc29e8-aa40-4ca9-8602-42043b3542ea","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L15cCTXfef5eZlZJwoo3Eej74tsNg+zKZ6iSFmSdXHGsizbo4uSLa9kSTtjb+xGeDZ2IjyOccTseGfXsSuPJMuWLcmkeFMXJZmSTFKUKIoSm93sZt/sC/eNuivvfPtHFQoo3IUGUAUgPxG…

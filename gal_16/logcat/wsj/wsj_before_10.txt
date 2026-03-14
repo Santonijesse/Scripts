@@ -1,0 +1,89 @@
+--------- beginning of main
+03-13 21:22:13.458 18874 18904 I appium  : channel read: GET /session/2b724167-7085-4494-98c5-6924a570685d/source
+03-13 21:22:13.459 18874 18904 I appium  : Source command
+03-13 21:22:13.460 18874 18904 I appium  : Waiting up to 10000ms for the device to idle
+03-13 21:22:13.564 18942 18942 I cr_A11yState: Enabled accessibility services list updated. []
+03-13 21:22:13.565 18942 18942 I cr_A11yState: Informing listeners of changes.
+03-13 21:22:13.565 18942 18942 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-13 21:22:13.651 18874 18904 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 21:22:13.731 18874 18904 I appium  : AppiumResponse: {"sessionId":"2b724167-7085-4494-98c5-6924a570685d","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"wsj.reader_sp\" class=\"android.wi…
+03-13 21:22:13.755 18874 18904 I appium  : channel read: GET /session/2b724167-7085-4494-98c5-6924a570685d/screenshot
+03-13 21:22:13.756 18874 18904 I appium  : CaptureScreenshot command
+03-13 21:22:13.758 18874 18904 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:22:13.758 18874 18904 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 21:22:13.893 20259 20259 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 21:22:13.893 20259 20259 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 21:22:13.893 20259 20259 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 21:22:13.894  3003  3804 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 21:22:13.895  3003  3804 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 21:22:13.895 20259 20259 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 21:22:13.895 20259 20259 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 21:22:13.902  2105  2324 I SurfaceFlinger: Capture layer list: 	 wsj.reader_sp/com.dowjones.android.IssueActivity$_18942#94968(seamlessTransition:0)
+03-13 21:22:13.902  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 21:22:13.902  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#94937(seamlessTransition:0)
+03-13 21:22:13.902  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 21:22:13.902  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 21:22:13.903  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 21:22:13.903  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer wsj.reader_sp/com.dowjones.android.IssueActivity$_18942#94968 at index 1
+03-13 21:22:13.903  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 21:22:13.904  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#94937 at index 3
+03-13 21:22:13.904  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 21:22:13.904  2105  2105 D TransactionCallbackInvoker: addCallbackHandle:wsj.reader_sp/com.dowjones.android.IssueActivity$_18942#94968 is not released yet
+03-13 21:22:13.943 20259 20327 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 21:22:13.944 20259 20259 W qdgralloc: Failed to load libubwcp.so
+03-13 21:22:14.158  2007 18352 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 136(136),c:0,b:85,m:13,cl:0,l:117,s:126,l0:9424,l1:16,s0:9960,s1:0,acl:1,opr:0.21,f(r):97,u(bl):111,if:0,wi:1,si:8,po:0(N:0)
+03-13 21:22:14.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773451334
+03-13 21:22:14.208  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 21:22:14.209  2097  2125 D HeatmapThread: !@ batteryLevel : 95  batteryTemperature : 364 
+03-13 21:22:14.210  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557522
+03-13 21:22:14.210  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557492
+03-13 21:22:14.213  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 21:22:14.213  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557505
+03-13 21:22:14.213  2097  2125 E HeatmapThread: !@ Entered Update Heatmap 
+03-13 21:22:14.213  2097  2125 E HeatmapThread: !@Entered the read from path function
+03-13 21:22:14.220  2097  2125 E HeatmapThread: !@Read Heatmap from efs is: 0 159 13390 3868 326 0 0 0 0 40 1689 903 117 0 0 0 0 1286 1853 1358 82 0 0 0 0 239 3435 1258 56 0 0 0 0 167 1411 2546 55 0 0 0 0 3127 27670 22196 662 0 0 0 0 0 4022 2247 46 0 0 0 0 0 676 390 0 0 0 0 
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 159.000000 13390.000000 3868.000000 326.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 40.000000 1689.000000 903.000000 117.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 1286.000000 1853.000000 1358.000000 82.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 239.000000 3435.000000 1258.000000 56.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 167.000000 1411.000000 2546.000000 55.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 3127.000000 27670.000000 22196.000000 662.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 0.000000 4022.000000 2247.000000 46.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ 0.000000 0.000000 676.000000 390.000000 0.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557522
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557492
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap Polling time temporary: 30.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap Polling time: 30.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap old_battery_temperature: 31.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap old_battery_percentage: 95.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap curr_battery_temperature: 36.000000
+03-13 21:22:14.220  2097  2125 D HeatmapThread: !@ Heatmap curr_battery_percentage: 95.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ Updated Heatmap :
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 159.000000 13390.000000 3868.000000 326.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 40.000000 1689.000000 903.000000 117.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 1286.000000 1853.000000 1364.000000 106.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 239.000000 3435.000000 1258.000000 56.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 167.000000 1411.000000 2546.000000 55.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 3127.000000 27670.000000 22196.000000 662.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 0.000000 4022.000000 2247.000000 46.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 D HeatmapThread: !@ 0.000000 0.000000 676.000000 390.000000 0.000000 0.000000 0.000000 0.000000
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@Write Heatmap to efs is: 0 159 13390 3868 326 0 0 0 0 40 1689 903 117 0 0 0 0 1286 1853 1364 106 0 0 0 0 239 3435 1258 56 0 0 0 0 167 1411 2546 55 0 0 0 0 3127 27670 22196 662 0 0 0 0 0 4022 2247 46 0 0 0 0 0 676 390 0 0 0 0 
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@ Heatmap Updated prevtime: 29557522
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@ Heatmap Updated Cycle Count: 1199.355957
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@Write Heatmap to sysfs is: 0 0 9 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 19 15 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@Could not open '/sys/class/power_supply/sec_auth/batt_heatmap', errno = 2
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@Could not open '/sys/class/power_supply/sec_auth_2nd/batt_heatmap', errno = 2
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@ Heatmap Updated prevtime: 29557522
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 21:22:14.221  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 21:22:14.284  3003  3804 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 21:22:14.292  3003  3804 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 21:22:14.298  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:22:14.300  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:22:14.300  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:22:14.300  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 21:22:14.320 18874 18904 I appium  : AppiumResponse: {"sessionId":"2b724167-7085-4494-98c5-6924a570685d","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFTV/wbwZ2YYFkF22UREVNxAxSXN3PcdTbRvmlZqpYCaS5rtZmpo5gqaC5ipGZY7oGTlbu6ogIgouIKgKPsyMPP7gxf3xzADzLAIk8/7n/LOueeeQYR7nznnc0QWFhYKEBERERERERH…
+03-13 21:22:14.384 18750 18758 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+03-13 21:22:14.384 18750 18758 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+03-13 21:22:14.385 18750 18758 I AidlLazyServiceRegistrar: Unregistered all clients and exiting

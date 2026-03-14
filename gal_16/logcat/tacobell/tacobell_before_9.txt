@@ -1,0 +1,122 @@
+--------- beginning of main
+03-13 17:28:38.698  3003  6711 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 17:28:38.702  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:38.702  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:38.702  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:38.702  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:38.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:38.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:38.704  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:38.704  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:38.704  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:38.742 25214 25417 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+--------- beginning of system
+03-13 17:28:38.798  3003  6711 D WindowManager: captureDisplay
+03-13 17:28:38.799  3003  6711 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 17:28:38.808  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:38.808  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:38.808  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:38.808  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:38.810  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:38.810  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:38.810  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:38.811  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:38.811  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:38.815 25214 25245 I appium  : channel read: GET /session/f7f0f2ed-c20d-4dd3-8ef7-38d9d5326497/source
+03-13 17:28:38.816 25214 25245 I appium  : Source command
+03-13 17:28:38.817 25214 25417 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 17:28:38.818 25214 25245 I appium  : Waiting up to 10000ms for the device to idle
+03-13 17:28:38.898  3003  6711 D WindowManager: captureDisplay
+03-13 17:28:38.899  3003  6711 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 17:28:38.907  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:38.907  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:38.907  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:38.907  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:38.908  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:38.908  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:38.909  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:38.909  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:38.909  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:38.921 25214 25417 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 17:28:38.944 25214 25245 I appium  : AppiumResponse: {"sessionId":"f7f0f2ed-c20d-4dd3-8ef7-38d9d5326497","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tacobell.ordering\" class=\"an…
+03-13 17:28:38.959 25214 25245 I appium  : channel read: GET /session/f7f0f2ed-c20d-4dd3-8ef7-38d9d5326497/screenshot
+03-13 17:28:38.959 25214 25245 I appium  : CaptureScreenshot command
+03-13 17:28:38.960 25214 25245 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:28:38.960 25214 25245 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:28:38.998  3003  6711 D WindowManager: captureDisplay
+03-13 17:28:38.999  3003  6711 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 17:28:39.003  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:39.003  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:39.003  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:39.003  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:39.004  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:39.004  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:39.005  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:39.005  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:39.005  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:39.040 25214 25417 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 17:28:39.051 26252 26252 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 17:28:39.051 26252 26252 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 17:28:39.052 26252 26252 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 17:28:39.052  3003  6711 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 17:28:39.052  3003  6711 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 17:28:39.052 26252 26252 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 17:28:39.052 26252 26252 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 17:28:39.055  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:39.056  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:39.056  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:39.056  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:39.056  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 17:28:39.056  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:39.056  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:39.057  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:39.057  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:39.057  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:39.096 26252 26256 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 17:28:39.097 26252 26252 W qdgralloc: Failed to load libubwcp.so
+03-13 17:28:39.097  3003  6711 D WindowManager: captureDisplay
+03-13 17:28:39.098  3003  6711 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 17:28:39.103  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:39.103  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:39.103  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:39.103  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:39.105  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:39.105  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:39.105  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:39.105  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:39.106  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:39.110 25214 25417 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 17:28:39.197  3003  6711 D WindowManager: captureDisplay
+03-13 17:28:39.198  3003  6711 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 17:28:39.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773437319
+03-13 17:28:39.203  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:39.203  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:39.203  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:39.203  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:39.203  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:39.203  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:39.204  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:39.204  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:39.204  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:39.207  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:28:39.207  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 324 
+03-13 17:28:39.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557288
+03-13 17:28:39.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557282
+03-13 17:28:39.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:28:39.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557265
+03-13 17:28:39.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:28:39.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:28:39.213 25214 25417 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 17:28:39.283 25214 25245 I appium  : AppiumResponse: {"sessionId":"f7f0f2ed-c20d-4dd3-8ef7-38d9d5326497","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13XFR3vv/x98zQQcCCICUgFmygxh5LYmJMMYlpm002iSWbuJuyN7vZ6969uZu77t27NW1rHtmY2KK7qRuzmmpM1BQsKBYEDYIiSBGUDgPTfn9w5/wYZlBUFCe+no+Hj4Qzh8N3KDPnvM/…
+03-13 17:28:39.298  3003  6711 D WindowManager: captureDisplay
+03-13 17:28:39.299  3003  6711 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 17:28:39.306  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475(seamlessTransition:0)
+03-13 17:28:39.306  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:28:39.306  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402(seamlessTransition:0)
+03-13 17:28:39.306  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:28:39.308  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:28:39.308  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tacobell.ordering/com.tacobell.navigation.view.NavigationActivity$_25287#77475 at index 1
+03-13 17:28:39.308  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 17:28:39.308  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#77402 at index 3
+03-13 17:28:39.308  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 17:28:39.324 25214 25417 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0

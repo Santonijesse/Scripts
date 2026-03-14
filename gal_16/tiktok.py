@@ -65,11 +65,11 @@ def swipe_up(x, y, distance=300, delay=2):
 
 
 tap(875, 2300, 7)
-tap(535, 1550, 7)
+tap(535, 2500, 7)
 tap(300, 2400, 7)
-tap(300, 2400, 7)
+tap(300, 2350, 7)
 swipe_up(535, 1550)
-tap(300, 2450, 3)
+#tap(300, 2450, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

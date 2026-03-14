@@ -1,0 +1,296 @@
+--------- beginning of main
+03-13 18:27:03.298 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.298 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.302  2022 20774 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4567772
+03-13 18:27:03.323 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.324 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.357 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.357 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.368  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.369  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.370 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 98
+03-13 18:27:03.370 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf93b260
+03-13 18:27:03.372 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 99
+03-13 18:27:03.372 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfabbe50
+03-13 18:27:03.372  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.373  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.374 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 100
+03-13 18:27:03.374 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf996700
+03-13 18:27:03.376 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 101
+03-13 18:27:03.376 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf9e1160
+03-13 18:27:03.376  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.379 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 102
+03-13 18:27:03.379 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf9461b0
+03-13 18:27:03.382 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.382 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.414 20559 20588 I appium  : channel read: GET /session/3de0a6f7-e4d0-48c0-93a3-54daa899f6be/source
+03-13 18:27:03.416 20559 20588 I appium  : Source command
+03-13 18:27:03.417 20559 20588 I appium  : Waiting up to 10000ms for the device to idle
+03-13 18:27:03.424 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.425 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.445 20630 20630 W soft_error.cpp: [pando::graphql::PandoGraphQLRequestHybrid::assertValid] : Using a PandoGraphQLRequest after it has been consumed. Query name is PostLiveMetricsQuery
+03-13 18:27:03.457 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.458 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.466  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 140(140),c:25,b:88,m:13,cl:6,l:138,s:140,l0:11712,l1:32,s0:11132,s1:0,acl:1,opr:0.18,f(r):97,u(bl):110,if:0,wi:2,si:12,po:124(N:0)
+03-13 18:27:03.480  2059  2086 E BatteryDump: !@new_battery_dump : 4339,70,375,550,100,314,278,363,274,0,339,349,274,Full,NO_CHARGING,Additional,Good,USB,1,Normal,0,0,11400,0x8000,0x10010000,0x0,0,0,0000,0000,00000000,4339,4377,2,68,10,0,985,977,0,
+03-13 18:27:03.481 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.481 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.482  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-13 18:27:03.482  2059  2059 I sehhealth-service: updateLrpSysfs: write: 339
+03-13 18:27:03.486  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.487 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 107
+03-13 18:27:03.487 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfa8e6d0
+03-13 18:27:03.531 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.531 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.556 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.557 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.588 20559 20588 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 18:27:03.590 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.590 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.622 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.623 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.628  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+--------- beginning of system
+03-13 18:27:03.631  3003  3080 E Watchdog: !@Sync: 2912 heap(MB): 201 / 201 FD: 1572 [2026-03-13 18:27:03.630]
+03-13 18:27:03.631  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.634 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 112
+03-13 18:27:03.634 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfaa6640
+03-13 18:27:03.636 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 113
+03-13 18:27:03.636 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf9490e0
+03-13 18:27:03.656 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.656 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.687 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.687 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.689 20559 20588 I appium  : AppiumResponse: {"sessionId":"3de0a6f7-e4d0-48c0-93a3-54daa899f6be","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instagram.barcelona\" class=\"…
+03-13 18:27:03.698 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.698 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.722 20559 20588 I appium  : channel read: GET /session/3de0a6f7-e4d0-48c0-93a3-54daa899f6be/screenshot
+03-13 18:27:03.723 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.723 20559 20588 I appium  : CaptureScreenshot command
+03-13 18:27:03.723 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.725 20559 20588 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:27:03.725 20559 20588 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:27:03.748 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.748 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: Could not obtain MC: not_user_session session=X.8iA@e1344
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.0dT.A04(Unknown Source:4)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.0dT.A03(Unknown Source:7)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.0dT.A01(Unknown Source:2)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.5vl.A00(:59)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at com.instagram.api.tigon.TigonServiceLayer.makeTigonRequest(:487)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at com.instagram.api.tigon.TigonServiceLayer.startRequest(:66)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2pf.startRequest(:72)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2ph.startRequest(:50)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2pl.startRequest(:80)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2ro.startRequest(:321)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2rp.startRequest(:51)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2rq.startRequest(:182)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2rz.startRequest(:47)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2sb.startRequest(:105)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.3fa.startRequest(:407)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2se.startRequest(:57)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2so.startRequest(:119)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2sw.startRequest(:292)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2zA.startRequest(:72)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2zb.startRequest(:49)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2zd.startRequest(:98)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2ze.startRequest(:47)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2zl.startRequest(:161)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2zs.startRequest(:45)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2zv.startRequest(:381)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2zz.startRequest(:300)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.3AC.startRequest(:53)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2hc.startRequest(:30)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.2hc.A00(:21)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at com.facebook.video.cache.igdatasource.IgHttpDataSource.open(Unknown Source:798)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4Am.open(Unknown Source:346)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4An.A07(Unknown Source:1044)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4An.open(Unknown Source:248)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4Ar.open(Unknown Source:6)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4Em.open(Unknown Source:12)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4Ma.D1S(Unknown Source:280)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4Mc.run(Unknown Source:43)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at java.lang.Thread.run(Thread.java:1564)
+03-13 18:27:03.750 20630 21314 W IgMetaConfig: 	at X.4Nd.run(Unknown Source:49)
+03-13 18:27:03.754  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.755 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 118
+03-13 18:27:03.755 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfa139d0
+03-13 18:27:03.789 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.789 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.822 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.823 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.847 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.847 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.879 21333 21333 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 18:27:03.879 21333 21333 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 18:27:03.880 21333 21333 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 18:27:03.880  3003  6708 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 18:27:03.880  3003  6708 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 18:27:03.880 21333 21333 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 18:27:03.880 21333 21333 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 18:27:03.882  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity$_20630#79473(seamlessTransition:0)
+03-13 18:27:03.882  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 18:27:03.882  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#79427(seamlessTransition:0)
+03-13 18:27:03.882  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 18:27:03.882  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 18:27:03.884  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 18:27:03.884  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity$_20630#79473 at index 1
+03-13 18:27:03.884  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 18:27:03.884  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#79427 at index 3
+03-13 18:27:03.884  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 18:27:03.889 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.890 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.892  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.894 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 123
+03-13 18:27:03.894 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfa8fa80
+03-13 18:27:03.895  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.897 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 124
+03-13 18:27:03.897 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf96ed40
+03-13 18:27:03.899  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:03.900 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 125
+03-13 18:27:03.900 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfa60d70
+03-13 18:27:03.916  3003  3594 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:27:03.924  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:27:03.924  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:27:03.925  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:27:03.925  3003  6708 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:27:03.925  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:27:03.931 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.931 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.935 21333 21338 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 18:27:03.937 21333 21333 W qdgralloc: Failed to load libubwcp.so
+03-13 18:27:03.956 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.956 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.990 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:03.990 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: Could not obtain MC: not_user_session session=X.8iA@e1344
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0dT.A04(Unknown Source:4)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0dT.A03(Unknown Source:7)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0dT.A01(Unknown Source:2)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0hG.A00(Unknown Source:8)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0hG.A02(Unknown Source:7)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3rc.A00(:6)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3zg.A03(:134)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3zg.A09(:0)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.4AL.A01(:16)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3vy.handleMessage(:249)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.Looper.loop(Looper.java:363)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: Could not obtain MC: not_user_session session=X.8iA@e1344
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: java.lang.RuntimeException: Could not obtain MC, call-site will receive default values
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0dT.A04(Unknown Source:4)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0dT.A03(Unknown Source:7)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0dT.A01(Unknown Source:2)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0hG.A00(Unknown Source:8)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.0hG.A02(Unknown Source:7)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3rc.A00(:6)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3zg.A03(:142)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3zg.A09(:0)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.4AL.A01(:16)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at X.3vy.handleMessage(:249)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.Looper.loopOnce(Looper.java:273)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.Looper.loop(Looper.java:363)
+03-13 18:27:03.997 20630 20728 W IgMetaConfig: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+03-13 18:27:04.024 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.024 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.027  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.028 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 130
+03-13 18:27:04.028 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf9ec150
+03-13 18:27:04.057 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.058 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.097 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.097 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.122 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.122 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.156 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.156 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.161  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.168 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 135
+03-13 18:27:04.168 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfa10550
+03-13 18:27:04.171  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.177 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 136
+03-13 18:27:04.177 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf990da0
+03-13 18:27:04.189 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.189 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773440824
+03-13 18:27:04.207  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:27:04.208  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 314 
+03-13 18:27:04.208  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557347
+03-13 18:27:04.208  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:27:04.209  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:27:04.209  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557325
+03-13 18:27:04.209  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:27:04.210  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:27:04.230 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.230 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.256 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.256 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.289 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.289 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.323 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.323 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.355 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.356 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.378  2007 21246 I sensors-hal: handle_sns_client_event:375, [0][203] accel_sample [ 0.048,  0.197,  9.858] 268024907515300
+03-13 18:27:04.381  3003  4027 I SemWifiServiceDetector: NSD results: [0, 1, 1, 0, 1, 0, 2, 0, 0] Traff. type 1 Thr 0
+03-13 18:27:04.383  3003  4035 D SemWifiOptimizer: enable=1 state=0x10 prev=0x20 new=0x30 force=0 mode=1
+03-13 18:27:04.389 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.389 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.390 20559 20588 I appium  : AppiumResponse: {"sessionId":"3de0a6f7-e4d0-48c0-93a3-54daa899f6be","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WBTn2gbwe7aCFOkI2NCo2DVRY0EUexdNotHYjbFgsEYTz/k0JlFj9CTRiMYUNfHSGBN7xZZEiS32gggKNkARRDoLW74/ODuHZRekLKyr9++6uBKH2eFdyu7MPc/7vIKTk5MORERERER…
+03-13 18:27:04.404  5393  6882 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:151 Scan: in shim layer stopped
+03-13 18:27:04.404  5393  5832 W bluetooth: system/gd/hci/le_scanning_manager.cc:716 scan: address_manager_registered_
+03-13 18:27:04.404  5393  5832 W bluetooth: system/gd/hci/le_scanning_manager.cc:768 stop_scan: stop_scan
+03-13 18:27:04.404  5393  5832 I bluetooth: system/gd/hci/le_address_manager.cc:278 unregister_client: Client unregistered
+03-13 18:27:04.404  5393  5832 I bluetooth: system/gd/hci/le_address_manager.cc:293 unregister_client: Cancelled address rotation alarm
+03-13 18:27:04.405  5393  6882 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:335 SetScanParameters: in shim layer, scannerId1m=2, scannerIdCoded=0
+03-13 18:27:04.405  5393  6882 W bt_shim_scanner: system/main/shim/le_scanning_manager.cc:365 SetScanParameters: Set scan params scan_int_1m : 275.625, scan_win_1m : 30, Duty : 10.88% | scan_int_coded : 0, scan_win_coded : 0, Duty : nan%
+03-13 18:27:04.405  1993  1993 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:27:04.405  5393  6882 I bt_shim_scanner: system/main/shim/le_scanning_manager.cc:151 Scan: in shim layer started
+03-13 18:27:04.406  1993  1993 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:27:04.406  1993  1993 I vendor.qti.bluetooth@1.1-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+03-13 18:27:04.412  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+03-13 18:27:04.412  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+03-13 18:27:04.412  1993  1993 D vendor.qti.bluetooth@1.1-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+03-13 18:27:04.412  5393  5832 I bluetooth: system/gd/hci/le_scanning_manager.cc:765 stop_scan: Scanning already stopped, return!
+03-13 18:27:04.412  5393  5832 W bluetooth: system/gd/hci/le_scanning_manager.cc:732 start_scan: start_scan
+03-13 18:27:04.412  5393  5832 W bluetooth: system/gd/hci/le_scanning_manager.cc:735 start_scan: Register address manager
+03-13 18:27:04.412  5393  5832 I bluetooth: system/gd/hci/le_address_manager.cc:581 GetNextPrivateAddressIntervalRange: client=LeAddressManager, nonwake=7m34s, wake=14m6s
+03-13 18:27:04.412  5393  5832 I bluetooth: system/gd/hci/le_address_manager.cc:259 register_client: Scheduled address rotation for first client registered
+03-13 18:27:04.412  5393  5832 I bluetooth: system/gd/hci/le_address_manager.cc:263 register_client: Client registered
+03-13 18:27:04.412  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:27:04.413  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:27:04.430 16536 16536 I wpa_supplicant: Heartbeat 2958
+03-13 18:27:04.432 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.432 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.437  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.440 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 141
+03-13 18:27:04.440 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfa8e400
+03-13 18:27:04.443  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.445  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.445 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 146
+03-13 18:27:04.445 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfaa6640
+03-13 18:27:04.446  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.446 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 147
+03-13 18:27:04.446 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cfa17710
+03-13 18:27:04.447  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.447 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 148
+03-13 18:27:04.447 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf938290
+03-13 18:27:04.448  2053 21317 W QC2Comp : [av1D_674] Skipping empty output buffer
+03-13 18:27:04.448 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 149
+03-13 18:27:04.448 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf9c1b80
+03-13 18:27:04.449 20630 21316 D CCodecConfig: c2 config diff is   c2::i32 vendor.qti-ext-dec-info-mbi.counter = 150
+03-13 18:27:04.449 20630 21316 D CCodecConfig:   Buffer vendor.qti-ext-dec-info-misr.value = 0xb4000071cf98ca70
+03-13 18:27:04.458  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:27:04.464 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.465 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.492 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.492 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:27:04.522 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{167946c VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:27:04.523 20630 20630 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{c1044a0 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 

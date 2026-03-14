@@ -1,0 +1,71 @@
+--------- beginning of main
+03-13 13:21:33.623 27562 27562 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.safebrowsing.SafeBrowsingService.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+03-13 13:21:33.681 17314 17345 I appium  : channel read: GET /session/d536a4c0-393c-4103-b3d7-8f533b53b87c/source
+03-13 13:21:33.685 17314 17345 I appium  : Source command
+03-13 13:21:33.687 17314 17345 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 13:21:33.692  1171  1171 D io_stats: !@   8,0 r 4004315 124320572 w 4851931 99806880 d 414781 111061552 f 206388 473926 iot 1984356 0 th 0 0 0 pt 0 inp 0 0 69082.688
+03-13 13:21:33.692  1992 24238 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 13:21:33.692  1992 24238 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 13:21:33.692  1992 24238 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 13:21:33.693  1992 24238 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 13:21:33.693  1171  1171 D io_stats: !@ Read_top(KB): rosoft.skydrive(13795) 5220 android.wifi.ai(14493) 136 kworker/0:1H(18872) 4
+03-13 13:21:33.693  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:13(11440) 9556 nytimes.android(17389) 236 vendor.samsung.(2059) 8
+03-13 13:21:33.693  1992 24238 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 0
+03-13 13:21:33.694  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 0
+03-13 13:21:33.694  1992 24238 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 13:21:33.695  1992 24238 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 13:21:33.695  1992 24238 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 13:21:33.695  1992 24238 I PAL: ResourceManager: getActiveStream_l: 6180: no active streams found for device 3 ret -2
+03-13 13:21:33.695  1992 24238 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 0
+03-13 13:21:33.696  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 0
+03-13 13:21:33.698  6380  7375 I SDHMS:x : SIOP:: AP:369 BAT:319 USB:280 CHG:370 PA:372 CP:363 WIFI:359 BLK:0 SUBBAT:273 LRPTHM:350 SKIN:344 SKINF:344 SKINB:334 LRP2:344 LRF2:344 LRB2:334 AP2:344 CHG2:342 MEM2:344 WIFI2:344 RCV2:345 SPK2:279 UPSPK:348 DNSPK:280 VAP:370 VWIFI:358 AMB2:250 AVGCUR:-32 AVGSYS:418 POWER:-138
+03-13 13:21:33.702  6380  6574 I M0      : limitCPUFreq:: freq = -1
+03-13 13:21:33.703  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20374539
+03-13 13:21:33.723  3003  4415 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 13:21:33.732 17389 17389 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c2973ad VFED..... .F...... 0,0-1080,1637 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:142 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 13:21:33.732  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:21:33.732 17389 17389 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{97355e8 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:157 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 13:21:33.733  3003  6711 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 13:21:33.738  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:21:33.740  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:21:33.740  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:21:33.769 17314 17345 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 13:21:33.794 17314 17345 I appium  : AppiumResponse: {"sessionId":"d536a4c0-393c-4103-b3d7-8f533b53b87c","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.nytimes.android\" class=\"andr…
+03-13 13:21:33.810 17314 17345 I appium  : channel read: GET /session/d536a4c0-393c-4103-b3d7-8f533b53b87c/screenshot
+03-13 13:21:33.810 17314 17345 I appium  : CaptureScreenshot command
+03-13 13:21:33.811 17314 17345 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:21:33.811 17314 17345 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:21:33.865 16161 14695 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 13:21:33.897 17987 17987 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 13:21:33.898 17987 17987 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 13:21:33.899 17987 17987 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 13:21:33.899  3003  6711 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 13:21:33.900  3003  6711 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 13:21:33.900 17987 17987 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 13:21:33.900 17987 17987 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 13:21:33.901  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.nytimes.android/com.nytimes.subauth.ui.login.SubauthLoginActivity$_17389#55266(seamlessTransition:0)
+03-13 13:21:33.902  2105  2321 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#55273(seamlessTransition:0)
+03-13 13:21:33.902  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 13:21:33.902  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#55220(seamlessTransition:0)
+03-13 13:21:33.902  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 13:21:33.902  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 13:21:33.902  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 13:21:33.902  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.nytimes.android/com.nytimes.subauth.ui.login.SubauthLoginActivity$_17389#55266 at index 1
+03-13 13:21:33.903  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#55273 at index 2
+03-13 13:21:33.903  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 13:21:33.903  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#55220 at index 4
+03-13 13:21:33.903  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 13:21:33.936 17987 17993 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 13:21:33.938 17987 17987 W qdgralloc: Failed to load libubwcp.so
+03-13 13:21:33.998 17389 17389 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{c2973ad VFED..... .F...... 0,0-1080,1637 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:142 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 13:21:33.998 17389 17389 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{97355e8 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.m.a:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:157 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 13:21:34.122 17314 17345 I appium  : AppiumResponse: {"sessionId":"d536a4c0-393c-4103-b3d7-8f533b53b87c","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w15mFfRcBBVFBUFEUwX0JRbIwl2xXAS1uqS3XssX25Vbfe7uVXeve6pZaQC65lWbmgktluYEiyqIiKIsssjPsM3N+f/DjXIYZZBAERl/Px6NHcubMmc9BHOa8zvvz/gi1tbU…
+03-13 13:21:34.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773422494
+03-13 13:21:34.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 13:21:34.206  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 319 
+03-13 13:21:34.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557041
+03-13 13:21:34.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557012
+03-13 13:21:34.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 13:21:34.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29556870
+03-13 13:21:34.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100

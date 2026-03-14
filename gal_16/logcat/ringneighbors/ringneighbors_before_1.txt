@@ -1,0 +1,55 @@
+--------- beginning of main
+03-13 15:28:21.029 17434 17461 I appium  : channel read: GET /session/1d717b1d-0987-42b1-b882-557d3b6cb337/source
+03-13 15:28:21.030 17434 17461 I appium  : Source command
+03-13 15:28:21.031 17434 17461 I appium  : Waiting up to 10000ms for the device to idle
+--------- beginning of system
+03-13 15:28:21.110  3003  3631 D ActivityManager: freezing 12275 com.samsung.android.authfw
+03-13 15:28:21.114 17434 17461 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 15:28:21.120  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+03-13 15:28:21.120  3003  6500 I ActivityManager: Changes in 99332 5 to 19, 184 to 0
+03-13 15:28:21.121  3003  6500 I ActivityManager: Changes in 10260 5 to 19, 184 to 128
+03-13 15:28:21.121  3003  6500 I ActivityManager: Changes in 10114 5 to 19, 184 to 0
+03-13 15:28:21.124  3003  3941 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+03-13 15:28:21.124  3003  3941 D InetDiagMessage: Destroyed live tcp sockets for uids={5278} in 9ms
+03-13 15:28:21.141 17434 17461 I appium  : AppiumResponse: {"sessionId":"1d717b1d-0987-42b1-b882-557d3b6cb337","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ring.neighborhoods\" class=\"a…
+03-13 15:28:21.163 17434 17461 I appium  : channel read: GET /session/1d717b1d-0987-42b1-b882-557d3b6cb337/screenshot
+03-13 15:28:21.163 17434 17461 I appium  : CaptureScreenshot command
+03-13 15:28:21.164 17434 17461 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:28:21.164 17434 17461 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:28:21.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773430101
+03-13 15:28:21.203  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 15:28:21.203  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 331 
+03-13 15:28:21.203  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557168
+03-13 15:28:21.203  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557162
+03-13 15:28:21.203  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 15:28:21.203  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557145
+03-13 15:28:21.203  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 15:28:21.203  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 15:28:21.230 17900 17900 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 15:28:21.230 17900 17900 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 15:28:21.231 17900 17900 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 15:28:21.231  3003  6500 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 15:28:21.231  3003  6500 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:28:21.231 17900 17900 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 15:28:21.231 17900 17900 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 15:28:21.232  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.ring.neighborhoods/com.ring.nh.feature.onboarding.flow.OnboardingFlowActivity$_17500#66656(seamlessTransition:0)
+03-13 15:28:21.232  2105  2836 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#66663(seamlessTransition:0)
+03-13 15:28:21.232  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:28:21.232  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#66606(seamlessTransition:0)
+03-13 15:28:21.232  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:28:21.232  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 15:28:21.233  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:28:21.233  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.ring.neighborhoods/com.ring.nh.feature.onboarding.flow.OnboardingFlowActivity$_17500#66656 at index 1
+03-13 15:28:21.233  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#66663 at index 2
+03-13 15:28:21.233  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 15:28:21.233  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#66606 at index 4
+03-13 15:28:21.234  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 15:28:21.268 17900 17907 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 15:28:21.270 17900 17900 W qdgralloc: Failed to load libubwcp.so
+03-13 15:28:21.337  3003  6500 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 15:28:21.340  3003  6500 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 15:28:21.341  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:28:21.341  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:28:21.341  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:28:21.341  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:28:21.466 17434 17461 I appium  : AppiumResponse: {"sessionId":"1d717b1d-0987-42b1-b882-557d3b6cb337","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N1nVFRXGwXgPYXeQZoUEQEVC1bArrGXmNhj7DW2aDQaK/au0STGEo01JnaNxm7svcXeQHqRpvQyMOX7QZiPYQYBpThmP2tlrXjmzuUM4jB333PeV1CthpcCRERERERERERaTFjeEyAiIiI…

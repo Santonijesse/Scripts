@@ -1,0 +1,95 @@
+--------- beginning of system
+03-13 14:44:42.317  3003  4185 I Pageboost: Launcher App Execution
+03-13 14:44:42.332 16536 16536 I wpa_supplicant: Heartbeat 1624
+--------- beginning of main
+03-13 14:44:42.393 17654 17681 I appium  : channel read: GET /session/d0b5bae0-e436-4511-a83c-abd0907f45d5/source
+03-13 14:44:42.395 17654 17681 I appium  : Source command
+03-13 14:44:42.397 17654 17681 I appium  : Waiting up to 10000ms for the device to idle
+03-13 14:44:42.440 17722 17722 E droid.p2pmobile: No package ID e5 found for resource ID 0xe5bc8dd0.
+03-13 14:44:42.441 17722 17722 E droid.p2pmobile: No package ID cf found for resource ID 0xcf3c604d.
+03-13 14:44:42.443 17722 17722 E droid.p2pmobile: No package ID 4d found for resource ID 0x4dc466ad.
+03-13 14:44:42.458 17654 17681 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 14:44:42.481  2007 18247 I sensors-hal: handle_sns_client_event:341, [98] mag_sample_cal(magcal_available:1): ts=254683029777732 ns; cal = [-22.992584, 1.301590, -35.723999], uncal = [-297.072571, 130.541580, -365.903992], bias = [-274.079987, 129.239990, -330.179993], status=3
+03-13 14:44:42.490 17654 17681 I appium  : AppiumResponse: {"sessionId":"d0b5bae0-e436-4511-a83c-abd0907f45d5","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.paypal.android.p2pmobile\" cla…
+03-13 14:44:42.504 17654 17681 I appium  : channel read: GET /session/d0b5bae0-e436-4511-a83c-abd0907f45d5/screenshot
+03-13 14:44:42.505 17654 17681 I appium  : CaptureScreenshot command
+03-13 14:44:42.506 17654 17681 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:44:42.506 17654 17681 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:44:42.509  2007 18250 I sensors-hal: handle_sns_client_event:422, [0][74] gyro_sample_cal(cal_available:1)(3) [-0.001,-0.001,-0.000] bias[-0.002,-0.005, 0.003] 254683046720701
+03-13 14:44:42.568  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 19369, isSameBssidAndFreq true
+03-13 14:44:42.569  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 1354 / 5 / 1.01 (138) / 286 / -58.0 || 100.0 : 286.00 / 0.5 : 0.99 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.100 / 79.809 / N || N N / 0 0 / Y 2.0 / Y X 0 / 74071564 0 || Invalid
+03-13 14:44:42.570  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 14:44:42.570  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 14:44:42.570  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 14:44:42.570  3003  4030 D InsDataManager: trimBuffers start.
+03-13 14:44:42.570  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 14:44:42.570  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 14:44:42.571  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -58.0,"latency": 0.10023889231598646,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 1354 / 5 / 1.01 (138) / 286 / -58.0 || 100.0 : 286.00 / 0.5 : 0.99 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.100 / 79.809 / N || N N / 0 0 / Y 2.0 / Y X 0 / 74071564 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 14:44:42.573  3003  4047 D SGM:GameManager: identifyGamePackage. com.paypal.android.p2pmobile, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 14:44:42.573  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.paypal.android.p2pmobile, ret=false
+03-13 14:44:42.594  2007 18239 I sensors-hal: handle_sns_client_event:375, [0][76] accel_sample [ 0.047,  4.148,  8.903] 254683131520597
+03-13 14:44:42.596 18420 18420 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 14:44:42.596 18420 18420 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 14:44:42.597 18420 18420 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 14:44:42.597  3003  4923 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 14:44:42.597  3003  4923 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 14:44:42.597 18420 18420 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 14:44:42.597 18420 18420 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 14:44:42.599  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity$_17722#62631(seamlessTransition:0, secure)
+03-13 14:44:42.599  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0, secure)
+03-13 14:44:42.599  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#62590(seamlessTransition:0, secure)
+03-13 14:44:42.599  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0, secure)
+03-13 14:44:42.600  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 14:44:42.600  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 14:44:42.600  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.onboarding.activities.OnboardingFlowActivity$_17722#62631 at index 1
+03-13 14:44:42.600  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 14:44:42.600  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#62590 at index 3
+03-13 14:44:42.600  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 14:44:42.628 18420 18427 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 14:44:42.629 18420 18420 W qdgralloc: Failed to load libubwcp.so
+03-13 14:44:42.688  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-13 14:44:42.695  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 14:44:42.757 17654 17681 I appium  : AppiumResponse: {"sessionId":"d0b5bae0-e436-4511-a83c-abd0907f45d5","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7NhBDQAgEMCwA/+eQQQPsqRVsPfWzJwBAAAACNu/AwAAAABeGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAECewQEAAADkGRwAAABAnsEBAAAA5BkcAAAAQJ7BAQAAAOQZHAAAAEC…
+03-13 14:44:42.806  3003  5506 D FreecessController: restrictJobsByOlaf: restrict=false, uid=-1
+03-13 14:44:42.808  3003  4185 I Pageboost: Launcher App Execution
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.microsoft.skydrive, 10109)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.samsung.knox.securefolder, 10132)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.samsung.android.rampart, 10206)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.whatsapp, 10219)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.apps.tachyon, 10268)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.gm, 10275)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.apps.maps, 10279)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.sygic.aura, 10286)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.sec.android.app.voicenote, 10313)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.google.android.apps.photos, 10331)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.sec.android.app.shealth, 10334)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.facebook.katana, 10340)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.einnovation.temu, 10350)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.kohls.mcommerce.opal, 10356)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.zhiliaoapp.musically, 10402)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.cnn.mobile.android.phone, 10410)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.usatoday.android.news, 10413)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.guardian, 10414)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (tv.pluto.android, 10419)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.instagram.barcelona, 10421)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.instagram.android, 10428)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.newleaf.app.android.victor, 10437)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.peacocktv.peacockandroid, 10439)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.doordash.driverapp, 10454)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.tiktok.lite.go, 10460)
+03-13 14:44:42.810  3003  5506 D FreecessController: BG freezed, skip OLAF unfreeze for (com.newsbreak.crimeradar, 10466)
+03-13 14:44:42.810  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:44:42.811  3003  3003 D OlafRestriction:  olaf state update: state=false
+03-13 14:44:42.811  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 14:44:42.816  3003  5506 D FreecessHandler: freeze com.samsung.android.aremoji(10044) result : 51
+03-13 14:44:42.816  3003  5506 D FreecessHandler: stop trying to freeze com.samsung.android.aremoji
+03-13 14:44:42.816  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:44:42.816  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 14:44:42.819  3003  5506 D FreecessHandler: freeze com.sec.android.gallery3d(10127) result : 51
+03-13 14:44:42.819  3003  5506 D FreecessHandler: stop trying to freeze com.sec.android.gallery3d
+03-13 14:44:42.819  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:44:42.819  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 14:44:42.822  3003  5506 D FreecessHandler: freeze com.samsung.android.app.reminder(10316) result : 51
+03-13 14:44:42.822  3003  5506 D FreecessHandler: stop trying to freeze com.samsung.android.app.reminder
+03-13 14:44:42.822  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 14:44:42.822  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change

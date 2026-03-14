@@ -1,0 +1,68 @@
+--------- beginning of main
+03-13 16:23:07.719  2007 22561 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 171(171),c:90,b:85,m:13,cl:20,l:165,s:169,l0:15056,l1:48,s0:13346,s1:0,acl:1,opr:0.92,f(r):97,u(bl):111,if:0,wi:3,si:8,po:0(N:0)
+03-13 16:23:07.790 23035 23120 I appium  : channel read: GET /session/fefabc23-d062-4d2d-9e9e-8812f1936485/source
+03-13 16:23:07.792 23035 23120 I appium  : Source command
+03-13 16:23:07.793 23035 23120 I appium  : Waiting up to 10000ms for the device to idle
+03-13 16:23:07.843 23199 23199 I View    : setRequestedFrameRate frameRate=NaN, this=o.jA{f4637c9 VFED..... ........ 0,0-1080,168 aid=1073741828}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 o.kf.read:3822 o.jA.dispatchDraw:2114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 16:23:07.843 23199 23199 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{56f33af V.ED..... ........ 0,0-0,0}, caller=o.kf.read:3822 o.jA.dispatchDraw:2115 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 16:23:07.847  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 0
+03-13 16:23:07.855  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 16:23:07.871  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 16:23:07.872  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 16:23:07.883  4184  4797 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+03-13 16:23:07.883 23199 23199 I View    : setRequestedFrameRate frameRate=NaN, this=o.jA{7b6e847 VFED..... ........ 0,0-1080,12 aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 o.kf.read:3822 o.jA.dispatchDraw:2114 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 16:23:07.883 23199 23199 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{a7283bc V.ED..... ........ 0,0-0,0}, caller=o.kf.read:3822 o.jA.dispatchDraw:2115 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+--------- beginning of system
+03-13 16:23:07.886  3003  5506 D ActivityManager: FCA:FCA recordedFileRss = 81444, and changeinRss = 16984
+03-13 16:23:07.886  3003  5506 D FreecessController: FZ : com.facebook.katana(10340) [27821, 21204] reason: Bg [cached:O
+03-13 16:23:07.886  3003  5506 D FreecessHandler: freeze com.facebook.katana(10340) result : 0
+03-13 16:23:07.886  3003  5506 W LocationManagerService: onFreezeStateChanged, uid[10340]=true
+03-13 16:23:07.886  3003  5506 I PowerManagerService: [PWL] SetWakeLockEnableDisable uid = 10340 , disable= true
+03-13 16:23:07.886  3003  5506 I PowerManagerService: [PWL] can not change uid =  10340
+03-13 16:23:07.927 23035 23120 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 16:23:07.980 23035 23120 I appium  : AppiumResponse: {"sessionId":"fefabc23-d062-4d2d-9e9e-8812f1936485","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.starbucks.mobilecard\" class=\…
+03-13 16:23:08.002 23035 23120 I appium  : channel read: GET /session/fefabc23-d062-4d2d-9e9e-8812f1936485/screenshot
+03-13 16:23:08.002 23035 23120 I appium  : CaptureScreenshot command
+03-13 16:23:08.005 23035 23120 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:23:08.005 23035 23120 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 16:23:08.107 24297 24297 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 16:23:08.108 24297 24297 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 16:23:08.108 24297 24297 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 16:23:08.108  3003  3046 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 16:23:08.108  3003  3046 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 16:23:08.108 24297 24297 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 16:23:08.108 24297 24297 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 16:23:08.111  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.starbucks.mobilecard/o.ddT$_23199#71820(seamlessTransition:0)
+03-13 16:23:08.111  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 16:23:08.111  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#71769(seamlessTransition:0)
+03-13 16:23:08.111  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 16:23:08.111  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 16:23:08.112  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 16:23:08.112  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.starbucks.mobilecard/o.ddT$_23199#71820 at index 1
+03-13 16:23:08.113  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 16:23:08.113  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#71769 at index 3
+03-13 16:23:08.113  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 16:23:08.165 24297 24302 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 16:23:08.167 24297 24297 W qdgralloc: Failed to load libubwcp.so
+03-13 16:23:08.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773433388
+03-13 16:23:08.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 16:23:08.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 327 
+03-13 16:23:08.205  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557223
+03-13 16:23:08.205  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557222
+03-13 16:23:08.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 16:23:08.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557205
+03-13 16:23:08.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 16:23:08.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 16:23:08.341  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 16:23:08.342  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 16:23:08.342  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 16:23:08.342  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 16:23:08.372  3003  3046 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 16:23:08.376  3003  3046 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 16:23:08.379  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:23:08.380  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:23:08.380  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:23:08.380  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 16:23:08.389  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 16:23:08.389  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 16:23:08.395 23035 23120 I appium  : AppiumResponse: {"sessionId":"fefabc23-d062-4d2d-9e9e-8812f1936485","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eFNl3j7wO0mTtmlp032nK5R9L7KWVZBNRB2VH1KKCuqgo+MM4zbOOO+8OouK6yj7UkABF0RWUZBNdsrWDehC99J9S5umSc7vj07O25CktNA2Ddyf6+LSnpyefNMlPec+z/N9JIIgCCA…

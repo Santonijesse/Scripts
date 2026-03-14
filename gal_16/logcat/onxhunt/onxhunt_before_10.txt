@@ -1,0 +1,52 @@
+--------- beginning of main
+03-13 13:43:05.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773423785
+03-13 13:43:05.206 21452 21487 I appium  : channel read: GET /session/26289c5b-2594-44e5-9588-207626660384/source
+03-13 13:43:05.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 13:43:05.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 302 
+03-13 13:43:05.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557063
+03-13 13:43:05.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557042
+03-13 13:43:05.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 13:43:05.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557055
+03-13 13:43:05.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 13:43:05.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 13:43:05.207 21452 21487 I appium  : Source command
+03-13 13:43:05.209 21452 21487 I appium  : Waiting up to 10000ms for the device to idle
+03-13 13:43:05.281 21452 21487 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 13:43:05.313 21452 21487 I appium  : AppiumResponse: {"sessionId":"26289c5b-2594-44e5-9588-207626660384","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.duckduckgo.mobile.android\" cl…
+03-13 13:43:05.334 21452 21487 I appium  : channel read: GET /session/26289c5b-2594-44e5-9588-207626660384/screenshot
+03-13 13:43:05.335 21452 21487 I appium  : CaptureScreenshot command
+03-13 13:43:05.337 21452 21487 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:43:05.338 21452 21487 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 13:43:05.404  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 13:43:05.405  5490 20244 I NSLocationManager_FLP: getGPSUsingApps, No change
+--------- beginning of system
+03-13 13:43:05.414  3003  5506 D FreecessHandler: freeze onxmaps.hunt(10472) result : 2
+03-13 13:43:05.453 22172 22172 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 13:43:05.453 22172 22172 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 13:43:05.454 22172 22172 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 13:43:05.454  3003  6711 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 13:43:05.454  3003  6711 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 13:43:05.454 22172 22172 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 13:43:05.454 22172 22172 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 13:43:05.457  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_31597#56731(seamlessTransition:0)
+03-13 13:43:05.457  2105  2836 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#56738(seamlessTransition:0)
+03-13 13:43:05.457  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 13:43:05.457  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#56675(seamlessTransition:0)
+03-13 13:43:05.457  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 13:43:05.458  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 13:43:05.458  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 13:43:05.458  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.duckduckgo.mobile.android/com.duckduckgo.app.browser.customtabs.CustomTabActivity$_31597#56731 at index 1
+03-13 13:43:05.458  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#56738 at index 2
+03-13 13:43:05.458  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 13:43:05.458  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#56675 at index 4
+03-13 13:43:05.459  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 13:43:05.485 31597 31597 I View    : setRequestedFrameRate frameRate=-4.0, this=com.duckduckgo.app.browser.DuckDuckGoWebView{6a98aad VFEDHVCL. .F...... 0,0-1080,1457 #7f0b0137 app:id/browserWebView aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 13:43:05.521 22172 22177 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 13:43:05.522 22172 22172 W qdgralloc: Failed to load libubwcp.so
+03-13 13:43:05.744 21452 21487 I appium  : AppiumResponse: {"sessionId":"26289c5b-2594-44e5-9588-207626660384","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15WJTl/gbwe2YYFhFkkU0BFxAxUSyUxT0rccsy81TWMXHfKncFMZfczeVYauqxIy6p6VEzt1Nq4pYguWYSsiiLAqIi+zLL7w+ueX+8zoDsw+j9uS6v5Jl3eWYah3nv93m+j8TT01MNIiI…
+03-13 13:43:05.754  3003  6711 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 13:43:05.767  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:43:05.768  3003  6711 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 13:43:05.768  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:43:05.769  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 13:43:05.770  3003  4002 D BackgroundInstallControlService: Package event received: 0

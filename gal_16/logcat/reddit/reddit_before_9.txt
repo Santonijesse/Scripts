@@ -1,0 +1,56 @@
+--------- beginning of main
+03-13 15:17:22.573  2105  2922 I VSyncReactor: Current= 60, Period= 60, Distance= 60
+03-13 15:17:22.613  2053 18382 W QC2V4l2Decoder: [v4lavcD_910] Allocating output buffer timedout, 5465ms elapsed since last input buffer queued (threshold 1000ms)
+--------- beginning of system
+03-13 15:17:22.637 16536 16536 I wpa_supplicant: Heartbeat 1820
+03-13 15:17:22.712 17683 17718 I appium  : channel read: GET /session/56c090af-098c-40ee-a5af-420b4b48ba2e/source
+03-13 15:17:22.714 17683 17718 I appium  : Source command
+03-13 15:17:22.716 17683 17718 I appium  : Waiting up to 10000ms for the device to idle
+03-13 15:17:22.717  2007 17038 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 216(216),c:47,b:87,m:13,cl:12,l:212,s:215,l0:18320,l1:64,s0:17057,s1:0,acl:1,opr:0.12,f(r):97,u(bl):111,if:0,wi:4,si:12,po:124(N:0)
+03-13 15:17:22.744 17764 17764 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.r{3d1156d VFED..... ........ 0,0-1080,2640 aid=1073741825}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.t0.a:1 androidx.compose.ui.platform.r.dispatchDraw:98 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 15:17:22.745 17764 17764 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{4539815 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.t0.a:1 androidx.compose.ui.platform.r.dispatchDraw:107 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 15:17:22.764  2053 18382 W QC2V4l2Decoder: [v4lavcD_910] Allocating output buffer timedout, 5615ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 15:17:22.893 17683 17718 I appium  : AppiumResponse: {"sessionId":"56c090af-098c-40ee-a5af-420b4b48ba2e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.reddit.frontpage\" class=\"and…
+03-13 15:17:22.915  2053 18382 W QC2V4l2Decoder: [v4lavcD_910] Allocating output buffer timedout, 5766ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 15:17:22.915 17683 17718 I appium  : channel read: GET /session/56c090af-098c-40ee-a5af-420b4b48ba2e/screenshot
+03-13 15:17:22.916 17683 17718 I appium  : CaptureScreenshot command
+03-13 15:17:22.917 17683 17718 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:17:22.917 17683 17718 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:17:23.009 18454 18454 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 15:17:23.010 18454 18454 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 15:17:23.010 18454 18454 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 15:17:23.010  3003  4405 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 15:17:23.010  3003  4405 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:17:23.010 18454 18454 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 15:17:23.010 18454 18454 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 15:17:23.012  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.reddit.frontpage/com.reddit.launch.main.MainActivity$_17764#65686(seamlessTransition:0)
+03-13 15:17:23.012  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:17:23.012  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#65608(seamlessTransition:0)
+03-13 15:17:23.012  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:17:23.013  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 15:17:23.013  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:17:23.013  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.reddit.frontpage/com.reddit.launch.main.MainActivity$_17764#65686 at index 1
+03-13 15:17:23.014  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:17:23.014  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#65608 at index 3
+03-13 15:17:23.014  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:17:23.043 18454 18459 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 15:17:23.044 18454 18454 W qdgralloc: Failed to load libubwcp.so
+03-13 15:17:23.066  2053 18382 W QC2V4l2Decoder: [v4lavcD_910] Allocating output buffer timedout, 5917ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 15:17:23.094  2022 17933 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4567772
+03-13 15:17:23.110  3003  4405 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 15:17:23.120  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:17:23.120  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:17:23.121  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:17:23.121  3003  4748 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 15:17:23.121  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:17:23.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773429443
+03-13 15:17:23.201  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 15:17:23.202  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 324 
+03-13 15:17:23.202  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557157
+03-13 15:17:23.202  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557132
+03-13 15:17:23.202  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 15:17:23.202  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557145
+03-13 15:17:23.202  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 15:17:23.202  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 15:17:23.217  2053 18382 W QC2V4l2Decoder: [v4lavcD_910] Allocating output buffer timedout, 6068ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 15:17:23.247 17683 17718 I appium  : AppiumResponse: {"sessionId":"56c090af-098c-40ee-a5af-420b4b48ba2e","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNnGwbw+2RC2FNBFBUH4t44Udy2ittWa11tXeDs/lq3rat1g3u0Wm3de2+0dbRuFBy4EHEgG0Ig+f5AIjEBQUaI3r/r8rraN+ecPEGNOXfe93kFazsHDYiIiIiIiIiITJjI2AUQERE…

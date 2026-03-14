@@ -1,0 +1,86 @@
+--------- beginning of main
+03-13 20:27:42.833  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 20:27:42.833  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 20:27:42.833  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 20:27:42.833  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 20:27:42.842  5393  6769 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:14:AE, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-65, periodicAdvInt=0x0
+03-13 20:27:42.846 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 20:27:42.880  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 20:27:42.880  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 20:27:42.958 24118 24144 I appium  : channel read: GET /session/f96b35f6-cbce-4d9b-8a4a-740ab6c77bc2/source
+03-13 20:27:42.959 24118 24144 I appium  : Source command
+03-13 20:27:42.961 24118 24144 I appium  : Waiting up to 10000ms for the device to idle
+03-13 20:27:42.991 24181 24181 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:27:43.002 24181 24181 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:27:43.031  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+--------- beginning of system
+03-13 20:27:43.044  3003  4185 I Pageboost: Launcher App Execution
+03-13 20:27:43.105 24181 24181 E com.waze: No package ID 98 found for resource ID 0x982f2707.
+03-13 20:27:43.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773448063
+03-13 20:27:43.207  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 20:27:43.207  2097  2125 D HeatmapThread: !@ batteryLevel : 96  batteryTemperature : 331 
+03-13 20:27:43.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557467
+03-13 20:27:43.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557462
+03-13 20:27:43.208  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 20:27:43.208  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557445
+03-13 20:27:43.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 20:27:43.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 20:27:43.210 24118 24144 I appium  : AppiumResponse: {"sessionId":"f96b35f6-cbce-4d9b-8a4a-740ab6c77bc2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.waze\" class=\"android.widget.…
+03-13 20:27:43.228 24118 24144 I appium  : channel read: GET /session/f96b35f6-cbce-4d9b-8a4a-740ab6c77bc2/screenshot
+03-13 20:27:43.229 24118 24144 I appium  : CaptureScreenshot command
+03-13 20:27:43.230 24118 24144 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:27:43.231 24118 24144 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:27:43.268  3003  3804 D SGM:GameManager: identifyForegroundApp. com.waze, mCurrentUserId: 0, callerUserId: 0
+03-13 20:27:43.269 24655 24690 I PolicyManager: [#CMH#] Is foreground game app: false
+03-13 20:27:43.327 25000 25000 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 20:27:43.328 25000 25000 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 20:27:43.328 25000 25000 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 20:27:43.328  3003  3804 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 20:27:43.329  3003  3804 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 20:27:43.329 25000 25000 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 20:27:43.329 25000 25000 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 20:27:43.331  2105  2324 I SurfaceFlinger: Capture layer list: 	 Background for c9c0b81 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0#89948(seamlessTransition:0)
+03-13 20:27:43.331  2105  2324 I SurfaceFlinger: Capture layer list: 	 c9c0b81 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0(BLAST)#89947(seamlessTransition:0)
+03-13 20:27:43.331  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.waze/com.waze.search.v2.SearchV2Activity$_24181#89943(seamlessTransition:0)
+03-13 20:27:43.331  2105  2324 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 20:27:43.331  2105  2324 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#89773(seamlessTransition:0)
+03-13 20:27:43.331  2105  2324 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 20:27:43.332  2105  2324 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 20:27:43.333  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 20:27:43.333  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer c9c0b81 SurfaceView[com.waze/com.waze.search.v2.SearchV2Activity]@0(BLAST)#89947 at index 1
+03-13 20:27:43.333  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.waze/com.waze.search.v2.SearchV2Activity$_24181#89943 at index 2
+03-13 20:27:43.333  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 20:27:43.334  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#89773 at index 4
+03-13 20:27:43.334  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 20:27:43.376 25000 25005 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 20:27:43.378 25000 25000 W qdgralloc: Failed to load libubwcp.so
+03-13 20:27:43.405  3003  3804 D SemContextService: lock : requestToUpdate
+03-13 20:27:43.406  3003  3804 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for CH_LOC_TRIGGER
+03-13 20:27:43.406  3003  3911 D SensorService: setSContextDataLocked ints length 2 , byte length 4
+03-13 20:27:43.406  3003  3911 D SensorService: setSContextDataLocked 3db8
+03-13 20:27:43.407  2007  2007 I sensors-hal: inject_sensor_data:407, handle 1502 send inject
+03-13 20:27:43.408  2007  2007 I sensors-hal: sendContextData:290, sensor hal 4, (0xb8, 0x3d, 0x0, 0x0)
+03-13 20:27:43.408  2007  2007 I sensors-hal: sendContextData:131, change_location_trigger 4,184
+03-13 20:27:43.408  2007  2007 I sensors-hal: sendUserData:118, change_location_trigger h 184 m 61 s 0
+03-13 20:27:43.408  2007  2007 I sensors-hal: create_send_context_data:66, change_location_trigger create_send_context_data
+03-13 20:27:43.408  2007  2007 I sensors-hal: send_context_data:694, change_location_trigger, -244018566922240, 1320970896291267344, msgid:700
+03-13 20:27:43.410  2007  3909 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for change_location_trigger 
+03-13 20:27:43.410  3003  3804 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for CH_LOC_TRIGGER
+03-13 20:27:43.410  3003  3804 D SemContextService:     .requestToUpdate() : service = Location Change Trigger
+03-13 20:27:43.410  3003  3804 D SemContextService: unlock : requestToUpdate
+03-13 20:27:43.410  3003  3804 D SemContextManager:   .requestToUpdate : listener = com.android.server.location.nsflp.NSLocationMonitor$5@d8278d1, service=Location Change Trigger
+03-13 20:27:43.411  5490  7699 I NewStopController_FLP: StateChecker, check stationary message
+03-13 20:27:43.416  2007  3909 I sensors-hal: qsh_conn_event_cb:890, event[0] sensor:change_location_trigger  Wakeup, msg_id=1025, ts=5285169058032
+03-13 20:27:43.416  2007  3909 I sensors-hal: handle_sns_client_event:85, change_location_trigger_event: msgid:1025
+03-13 20:27:43.416  2007  3909 I sensors-hal: handle_sns_client_event:108, change_location_trigger_event: 255, 255
+03-13 20:27:43.418  3003  3907 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :15], AP_WAKEUP
+03-13 20:27:43.418  3003  3907 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 15
+03-13 20:27:43.418  3003  3907 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 61, -1, 0, 2, 1, 0, 0, 0, 1, 0, 0, 0, 0,
+03-13 20:27:43.418  3003  3907 D CAE     : display(ContextProvider.java:375) - ================= CH_LOC_TRIGGER =================
+03-13 20:27:43.419  3003  3907 I CAE     : display(ContextProvider.java:391) - duration=[1], property=[1], result=[2], reserved=[0]
+03-13 20:27:43.419  3003  3904 D SemContextService: Service.updateContext() : service = Location Change Trigger
+03-13 20:27:43.420  3003  3952 D SemContextManager: onSemContextChanged() : event = Location Change Trigger
+03-13 20:27:43.420  3003  3952 D NSLocationMonitor: onSemContextChanged, activity : 1 result : 2 movement : 1
+03-13 20:27:43.512  2007 23432 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 178(178),c:20,b:85,m:13,cl:4,l:177,s:178,l0:14640,l1:32,s0:14127,s1:0,acl:1,opr:0.23,f(r):97,u(bl):111,if:0,wi:2,si:12,po:126(N:0)
+03-13 20:27:43.512  2007 24712 I sensors-hal: handle_sns_client_event:455, [0][4894] gyro_sample_uncal [-0.001,-0.004, 0.001] [-0.003,-0.006, 0.003] 275264002835098
+03-13 20:27:43.643 24118 24144 I appium  : AppiumResponse: {"sessionId":"f96b35f6-cbce-4d9b-8a4a-740ab6c77bc2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7L13lB3Zfd/5ubfii50TuhuxkQczmExy8pArUqJmSConStSuJC+9qyPt6thcUzqSVuGsbR357MqSZSvYkiVTpkSTlChGkZOH5GRgBhmYQQY6h5cqV+0ft/ohdQ86N4B+33NA4HBe3br1Xr1…

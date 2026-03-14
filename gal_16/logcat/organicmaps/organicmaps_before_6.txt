@@ -1,0 +1,37 @@
+--------- beginning of main
+03-13 14:24:07.439 13413 13470 I appium  : channel read: GET /session/a995ffc4-4d44-42d3-8112-b2c76c643d65/source
+03-13 14:24:07.440 13413 13470 I appium  : Source command
+03-13 14:24:07.442 13413 13470 I appium  : Waiting up to 10000ms for the device to idle
+03-13 14:24:07.518  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-13 14:24:07.526  2105  2921 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 14:24:07.550 13413 13470 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 14:24:07.559  2007 13044 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 196(196),c:1,b:85,m:13,cl:0,l:195,s:196,l0:15824,l1:48,s0:15494,s1:0,acl:1,opr:0.13,f(r):97,u(bl):110,if:0,wi:3,si:16,po:123(N:0)
+03-13 14:24:07.599 13413 13470 I appium  : AppiumResponse: {"sessionId":"a995ffc4-4d44-42d3-8112-b2c76c643d65","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"app.organicmaps\" class=\"android.…
+03-13 14:24:07.617 13413 13470 I appium  : channel read: GET /session/a995ffc4-4d44-42d3-8112-b2c76c643d65/screenshot
+03-13 14:24:07.617 13413 13470 I appium  : CaptureScreenshot command
+03-13 14:24:07.618 13413 13470 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:24:07.619 13413 13470 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:24:07.704 13757 13757 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 14:24:07.705 13757 13757 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 14:24:07.705 13757 13757 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 14:24:07.705  3003  3046 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 14:24:07.705  3003  3046 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 14:24:07.705 13757 13757 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 14:24:07.705 13757 13757 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 14:24:07.710  2105  2836 I SurfaceFlinger: Capture layer list: 	 Background for 4f26fe SurfaceView[app.organicmaps/app.organicmaps.MwmActivity]@0#60599(seamlessTransition:0)
+03-13 14:24:07.710  2105  2836 I SurfaceFlinger: Capture layer list: 	 4f26fe SurfaceView[app.organicmaps/app.organicmaps.MwmActivity]@0(BLAST)#60598(seamlessTransition:0)
+03-13 14:24:07.710  2105  2836 I SurfaceFlinger: Capture layer list: 	 app.organicmaps/app.organicmaps.MwmActivity$_13524#60593(seamlessTransition:0)
+03-13 14:24:07.710  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 14:24:07.710  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#60557(seamlessTransition:0)
+03-13 14:24:07.710  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 14:24:07.710  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 14:24:07.710  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 14:24:07.711  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer 4f26fe SurfaceView[app.organicmaps/app.organicmaps.MwmActivity]@0(BLAST)#60598 at index 1
+03-13 14:24:07.711  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer app.organicmaps/app.organicmaps.MwmActivity$_13524#60593 at index 2
+03-13 14:24:07.711  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 14:24:07.711  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#60557 at index 4
+03-13 14:24:07.711  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 14:24:07.747 13757 13762 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 14:24:07.749 13757 13757 W qdgralloc: Failed to load libubwcp.so
+03-13 14:24:07.931 13413 13470 I appium  : AppiumResponse: {"sessionId":"a995ffc4-4d44-42d3-8112-b2c76c643d65","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17fEv3/wfwV+69aquqVVpK3Znr3O93hpm5Dfti2IaN2dyHMZtb3RnDXGZTt2Fz2Vxbw1TnfhnqTl1aVfTeNLffH5X8kiZpkzZtGn09H48+tp6cnHySVprzOu/P+yNA+fIaEBERERERERE…

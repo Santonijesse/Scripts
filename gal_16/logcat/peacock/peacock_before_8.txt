@@ -1,0 +1,80 @@
+--------- beginning of main
+03-13 14:53:02.548  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.r{e36631a VFED..... .F...... 0,0-1080,2640 aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 14:53:02.548  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{8eadc58 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+--------- beginning of system
+03-13 14:53:02.615  1171  1171 D io_stats: !@   8,0 r 4210150 130205804 w 5189450 104309816 d 436490 116284340 f 221019 503071 iot 2130368 0 th 0 0 0 pt 0 inp 0 0 74571.611
+03-13 14:53:02.615  1171  1171 D io_stats: !@ Read_top(KB): rosoft.skydrive(13795) 3800 soft.appmanager(10569) 116 appmanager:auth(13861) 48
+03-13 14:53:02.616  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:0(29984) 964 f2fs_ckpt-254:6(5380) 272 .peacockandroid(7096) 16
+03-13 14:53:02.675  6871  6938 I appium  : channel read: GET /session/ed62c462-9e85-4fd4-8036-f93119c02b2e/source
+03-13 14:53:02.676  6871  6938 I appium  : Source command
+03-13 14:53:02.678  6871  6938 I appium  : Waiting up to 10000ms for the device to idle
+03-13 14:53:02.730  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.r{9d12ecf VFED..... ........ 0,0-1080,2640 aid=1073741825}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 14:53:02.731  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{edceabb V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 14:53:02.747  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.r{e36631a VFED..... .F...... 0,0-1080,2640 aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 14:53:02.748  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{8eadc58 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 14:53:02.784  1992  7816 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_rcv
+03-13 14:53:02.784  1992  7816 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 14:53:02.785  1992  7816 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 14:53:02.785  1992  7816 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x10010ee4 3812
+03-13 14:53:02.786  1992  7816 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 21030152(40.111832) for channel-0
+03-13 14:53:02.786  1992  7816 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_RCV received 40
+03-13 14:53:02.787  1992  7816 D AHAL: SecAudioDevice: SecGetParameters: 953: temperature for rcv = 40
+03-13 14:53:02.787  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_rcv, value: 40
+03-13 14:53:02.788  1992  7816 V sec_audio_hw: sec_dev_get_parameters : g_hw_speaker_amp_temp_spk
+03-13 14:53:02.789  1992  7816 D AHAL: FM: fm_get_parameters: 299: enter
+03-13 14:53:02.789  1992  7816 D AHAL: FM: fm_get_parameters: 306: exit
+03-13 14:53:02.803  1992  7816 I PAL: PayloadBuilder: payloadTISPConfig: 4533: payloadInfo for TI Speakerprotection for parm_id 0x20010ee4 3812
+03-13 14:53:02.804  1992  7816 I PAL: SpeakerProtectionTI: smartpa_get_temp: 1872: [TI-SmartPA] Get TAS_SA_GET_TV temp 23148506(44.152271) for channel-1
+03-13 14:53:02.804  1992  7816 I PAL: SpeakerProtectionTI: getParameter: 1922: TEMPERATURE_SPK received 44
+03-13 14:53:02.804  1992  7816 D AHAL: SecAudioDevice: SecGetParameters: 967: temperature for spk = 44
+03-13 14:53:02.804  2072  2993 I vendor.samsung.hardware.thermal-service: key: g_hw_speaker_amp_temp_spk, value: 44
+03-13 14:53:02.806  6380  7375 I SDHMS:x : SIOP:: AP:372 BAT:324 USB:282 CHG:373 PA:377 CP:367 WIFI:367 BLK:0 SUBBAT:277 LRPTHM:358 SKIN:348 SKINF:348 SKINB:338 LRP2:348 LRF2:348 LRB2:338 AP2:348 CHG2:346 MEM2:348 WIFI2:348 RCV2:349 SPK2:288 UPSPK:360 DNSPK:307 VAP:376 VWIFI:370 AMB2:249 AVGCUR:-48 AVGSYS:477 POWER:-209
+03-13 14:53:02.844  6871  6938 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 14:53:02.922  6871  6938 I appium  : AppiumResponse: {"sessionId":"ed62c462-9e85-4fd4-8036-f93119c02b2e","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.peacocktv.peacockandroid\" cla…
+03-13 14:53:02.940  6871  6938 I appium  : channel read: GET /session/ed62c462-9e85-4fd4-8036-f93119c02b2e/screenshot
+03-13 14:53:02.941  6871  6938 I appium  : CaptureScreenshot command
+03-13 14:53:02.943  6871  6938 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:53:02.943  6871  6938 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 14:53:03.047  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.r{e36631a VFED..... .F...... 0,0-1080,2640 aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 14:53:03.047  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{8eadc58 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 14:53:03.072  8304  8304 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 14:53:03.072  8304  8304 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 14:53:03.073  8304  8304 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 14:53:03.073  3003  7241 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 14:53:03.073  3003  7241 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 14:53:03.073  8304  8304 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 14:53:03.073  8304  8304 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 14:53:03.094  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.peacocktv.peacockandroid/com.peacocktv.legacy.monolith.authenticationjourney.AuthJourneyActivity$_7096#63493(seamlessTransition:0)
+03-13 14:53:03.094  2105  2836 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#63504(seamlessTransition:0)
+03-13 14:53:03.094  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 14:53:03.094  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#63451(seamlessTransition:0)
+03-13 14:53:03.094  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 14:53:03.095  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 14:53:03.096  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 14:53:03.096  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.peacocktv.peacockandroid/com.peacocktv.legacy.monolith.authenticationjourney.AuthJourneyActivity$_7096#63493 at index 1
+03-13 14:53:03.096  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#63504 at index 2
+03-13 14:53:03.096  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 14:53:03.096  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#63451 at index 4
+03-13 14:53:03.096  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 14:53:03.135  2059  2086 E BatteryDump: !@new_battery_dump : 4358,159,475,550,100,324,282,373,277,0,350,361,277,Full,NO_CHARGING,Additional,Good,USB,1,Normal,0,0,11398,0x0,0x10000,0x0,0,0,0000,0000,00000000,4358,4392,11,148,10,0,984,970,0,
+03-13 14:53:03.137  2072  2072 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+03-13 14:53:03.137  2059  2059 I sehhealth-service: updateLrpSysfs: write: 348
+03-13 14:53:03.151  8304  8310 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 14:53:03.152  8304  8304 W qdgralloc: Failed to load libubwcp.so
+03-13 14:53:03.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773427983
+03-13 14:53:03.205  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 14:53:03.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 324 
+03-13 14:53:03.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557133
+03-13 14:53:03.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557132
+03-13 14:53:03.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 14:53:03.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557115
+03-13 14:53:03.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 14:53:03.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 14:53:03.437  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10109(com.microsoft.skydrive), 4(FAIL), isBlocked=true, 0ms
+03-13 14:53:03.443  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) throttle end: throttle time(3)
+03-13 14:53:03.509  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 2ms
+03-13 14:53:03.531  6871  6938 I appium  : AppiumResponse: {"sessionId":"ed62c462-9e85-4fd4-8036-f93119c02b2e","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13WFNn/wbw+yQk7CUiKiqiFRdat7hBrdbZ1m3VutvaOmqto7a1aoerVt9WW/fqcNVWW1BxAGqL45XWDbiqKIIgCMoO5Pn9wUt+xCTMQIjcn+s616WHkydPksPJOTff8zwSAAEiIiIiIiI…
+03-13 14:53:03.546  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.r{e36631a VFED..... .F...... 0,0-1080,2640 aid=1073741827}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 14:53:03.547  7096  7096 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{8eadc58 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.s0.a:1 androidx.compose.ui.platform.r.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 14:53:03.561  2105  2105 I SurfaceFlinger: SFWD update time=74572557870874
+03-13 14:53:03.613  3003  4027 I SemWifiServiceDetector: Service det. suspended: T / T / 14493

@@ -1,0 +1,272 @@
+--------- beginning of main
+03-13 18:54:31.367  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 1365ms elapsed since last input buffer queued (threshold 1000ms)
+--------- beginning of system
+03-13 18:54:31.382  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:31.382  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:31.383  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:31.383  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:31.410 19881 19915 I appium  : channel read: GET /session/30d47388-e84c-468d-a2a5-9b259a46f5a2/source
+03-13 18:54:31.411 19881 19915 I appium  : Source command
+03-13 18:54:31.412 19881 19915 I appium  : Waiting up to 10000ms for the device to idle
+03-13 18:54:31.432  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 9809ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.518  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 1516ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.583  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:31.583  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 9960ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.583  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:31.585  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:31.585  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:31.653 16161  6853 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 18:54:31.668  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 1667ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.672  3003  4748 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:54:31.678  3003  4748 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:54:31.678  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:31.679  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:31.679  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:31.679  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:31.734  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 10111ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.783  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:31.784  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:31.784  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:31.785  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:31.819  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 1817ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.884  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 10262ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.964 19972 21551 I MediaCodec: setCodecState state(0), called in 6, domain 1, 1
+03-13 18:54:31.966  6380  6380 I SemMediaResourceHelper: onState
+03-13 18:54:31.970  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 1968ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:31.985  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:31.985  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:31.986  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:31.986  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:32.021  3003  6500 D ConnectivityService: Returning BLOCKED NetworkInfo to uid=10340
+03-13 18:54:32.035  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 10412ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.060 19972 20708 D FollowingFeedConsumeMonitor: monitor data of 3 day before toady, date is [2026-03-10]
+03-13 18:54:32.061 19972 20494 D FollowingFeedConsumeMonitor: monitor data of 2 day before toady, date is [2026-03-11]
+03-13 18:54:32.061 19972 20044 D FollowingFeedConsumeMonitor: monitor data of 1 day before toady, date is [2026-03-12]
+03-13 18:54:32.113  1259 21385 I keystore2: system/security/keystore2/watchdog/src/lib.rs:377 - Watchdog thread idle -> terminating. Have a great day.
+03-13 18:54:32.114  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 0ms
+03-13 18:54:32.115  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 17ms
+03-13 18:54:32.115  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 20ms
+03-13 18:54:32.122  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 2120ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.157  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 44ms
+03-13 18:54:32.158  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10402(com.zhiliaoapp.musically), SUCCESS, 30ms
+03-13 18:54:32.162  3003  3130 D PowerManagerService: UserActivityStateListenerState: 0
+03-13 18:54:32.165  6380  6380 I SemDvfsHyPerManager: acquire hyper - VIDEO_POWER_EFFICIENCY/6380@28, type = -999
+03-13 18:54:32.165  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20534464  [6380 / 28]    HINT : VIDEO_POWER_EFFICIENCY    list : 
+03-13 18:54:32.183 19972 21627 W KEVA.NATIVE: mark bitmap no free space! this=0x701fc96e20 3
+03-13 18:54:32.186  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 10563ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.186  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:32.187  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:32.187  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:32.187  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:32.194 19972 19980 I aoapp.musically: Background young concurrent mark compact GC freed 33MB AllocSpace bytes, 110(5464KB) LOS objects, 26% free, 112MB/152MB, paused 2.032ms,2.810ms total 138.364ms
+03-13 18:54:32.197 19972 19983 W System  : A resource failed to call close. 
+03-13 18:54:32.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442472
+03-13 18:54:32.208 19972 19972 I VRI[SplashActivity]@a366578: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[SplashActivity]@a366578
+03-13 18:54:32.208  2105  2105 I SurfaceFlinger: [com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101] setFrameRateCategory: NoPreference
+03-13 18:54:32.209  2105  2105 D DisplayModeController: setDesiredMode 4630946564756762243 {mode={fps=60.00 Hz, modePtr={id=2, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=true, force=false}
+03-13 18:54:32.209  2105  2105 I LayerHistory: StatusBar$_4205#132 voted NoVote (0.00 Hz)
+03-13 18:54:32.209  2105  2105 I LayerHistory: com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 Max (can't resolve refresh rate)
+03-13 18:54:32.209  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 10.00 Hz
+03-13 18:54:32.209  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 20.00 Hz
+03-13 18:54:32.209  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 24.00 Hz
+03-13 18:54:32.209  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 30.00 Hz
+03-13 18:54:32.209  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 40.00 Hz
+03-13 18:54:32.209  2105  2105 I SurfaceFlinger: HRR ignores com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 (type=Max, weight=1.00, seamlessness=Default) 0.00 Hz's 120.00 Hz
+03-13 18:54:32.209  2105  2105 I SurfaceFlinger: scored - choose 60.00 Hz
+03-13 18:54:32.214  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:54:32.215  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 351 
+03-13 18:54:32.216  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557374
+03-13 18:54:32.216  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557372
+03-13 18:54:32.217  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:54:32.219  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:54:32.219  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:54:32.221  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:54:32.223  2105  2105 I HWComposer: [4630946564756762243] ActiveConfigToHWC, ID : 2
+03-13 18:54:32.224  2040  2451 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] check hs_mode 3
+03-13 18:54:32.224  2040  2451 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 954000000
+03-13 18:54:32.224  2040  2451 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 954000000
+03-13 18:54:32.224  2040  2451 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] Set mode index:3 1080x2640x60xcmdPHS, hs_mode(3), found_mode(1)
+03-13 18:54:32.224  2040  2451 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2640-1 for Peripheral
+03-13 18:54:32.225  2040  2451 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 2
+03-13 18:54:32.227  2105  2105 I SurfaceFlinger: finalizeDisplayModeChange 4630946564756762243
+03-13 18:54:32.228  3003  3067 D LocalDisplayAdapter: updateActiveModeLocked for d=4630946564756762243, mActiveModeId=3, mActiveSfDisplayMode=DisplayMode{id=2, width=1080, height=2640, xDpi=428.625, yDpi=424.405, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=16666666, presentationDeadlineNanos=17666666, supportedHdrTypes=[4, 2, 3], group=1080}
+03-13 18:54:32.229  3003  3067 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=17666666, appVsyncOffsetNanos=16666666, frameRateOverrides=[]
+03-13 18:54:32.231  3003  3065 D WindowManager: DeferredDisplayUpdater: partially applying DisplayInfo(1080 x 2640) immediately
+03-13 18:54:32.231  3003  5976 D LiftUpHandler: [LTW] Stopped already.
+03-13 18:54:32.231  3003  3065 D SurfaceComposerClient: setCornerRadius ## 4630b com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity#81019 cornerRadius=0.000000
+03-13 18:54:32.232  2094 10174 D AudioFlinger: setParameters: filtered dev setParameters keyvalue screen_state=on
+03-13 18:54:32.234  1992  4982 D AHAL: AudioDevice: SetParameters: 1865: enter
+03-13 18:54:32.234  2105  2836 I VSyncReactor: Current= 120, Period= 60, hwcPeriod= 60
+03-13 18:54:32.233  4832 28512 I HoneySpace.RefreshRateSource: singleFrameMs 16
+03-13 18:54:32.234  4832 28512 I HoneySpace.Memory-Monitor: current state = 2, didTrim = false
+03-13 18:54:32.234  1992  4982 D AHAL: AudioVoice: VoiceSetParameters: 200: Enter
+03-13 18:54:32.234  1992  4982 D AHAL: AudioVoice: VoiceSetParameters: 479: Exit ret: 0
+03-13 18:54:32.234  1992  4982 D AHAL: hfp: hfp_set_parameters: 444: enter
+03-13 18:54:32.234  1992  4982 D AHAL: AudioDevice: SetParameters: 1945:  - screen = on
+03-13 18:54:32.235  1992  4982 I PAL: ResourceManager: setParameter: 10683: Screen State:1
+03-13 18:54:32.235  1992  4982 D AHAL: AudioDevice: SetParameters: 2798: exit: screen_state=on
+03-13 18:54:32.238  3003  3003 D SGM:GameManager: onDisplayChanged. displyId: 0, state: 2
+03-13 18:54:32.238  3003  3687 D SGM:FgCheckThread: onLooperPrepared(), msg: MSG_LCD_ON
+03-13 18:54:32.238  3003  3003 D AODManagerService: requestReCalToTSP IsSingleTouchMode = falserequestedReCalToTSP = false / previousDisplayState = ON
+03-13 18:54:32.247  4205  4205 D DisplayLifecycle: updateDisplay id = 0
+03-13 18:54:32.248  4205  4362 D StackScroller: onDisplayChanged for predraw skip to 2
+03-13 18:54:32.248  3003  4748 D WifiDisplayAdapter: isFitToActiveDisplayLocked : false
+03-13 18:54:32.256  2007 18804 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 130(130),c:16,b:81,m:13,cl:3,l:130,s:128,l0:10752,l1:16,s0:10221,s1:0,acl:1,opr:0.34,f(r):97,u(bl):108,if:0,wi:1,si:8,po:124(N:0)
+03-13 18:54:32.257  2053 20590 I StatsHandler: [hvcD_779] Stats: Pending(0) i/p-done(0) Works: Q: 201/Done 188|Work-Rate: Q(0.0/s Avg=11.1/s) Done(0.000/s Avg=10.358/s)| Stream: 20.00fps 30.7Kbps
+03-13 18:54:32.258  2053 20590 I StatsHandler: [hvcD_779] Mem-usage:  [In-1D: 11 bufs 88.000 MB] [1D-5131: 30 bufs 0.469 MB] [2D-5132: 19 bufs 7.422 MB] | Total: 95.891 MB
+03-13 18:54:32.258  2053 20590 I StatsHandler: [hvcD_781] Stats: Pending(0) i/p-done(0) Works: Q: 119/Done 107|Work-Rate: Q(20.6/s Avg=12.1/s) Done(18.599/s Avg=10.890/s)| Stream: 30.30fps 2.3Mbps
+03-13 18:54:32.258  2053 20590 I StatsHandler: [hvcD_781] Mem-usage:  [In-1D: 13 bufs 104.000 MB] [1D-5135: 33 bufs 0.516 MB] [2D-5136: 20 bufs 28.594 MB] | Total: 133.109 MB
+03-13 18:54:32.258  2053 20590 I StatsHandler: [hvcD_782] Stats: Pending(0) i/p-done(0) Works: Q: 16/Done 14|Work-Rate: Q(6.8/s Avg=6.8/s) Done(5.973/s Avg=5.973/s)| Stream: 62.50fps 846.0Kbps
+03-13 18:54:32.258  2053 20590 I StatsHandler: [hvcD_782] Mem-usage:  [In-1D: 11 bufs 88.000 MB] [1D-5137: 31 bufs 0.484 MB] [2D-5138: 20 bufs 63.750 MB] | Total: 152.234 MB
+03-13 18:54:32.258 19881 19915 I appium  : AppiumResponse: {"sessionId":"30d47388-e84c-468d-a2a5-9b259a46f5a2","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.zhiliaoapp.musically\" class=\…
+03-13 18:54:32.274  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 2272ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.287 19881 19915 I appium  : channel read: GET /session/30d47388-e84c-468d-a2a5-9b259a46f5a2/screenshot
+03-13 18:54:32.287 19881 19915 I appium  : CaptureScreenshot command
+03-13 18:54:32.288 19881 19915 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:54:32.288 19881 19915 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:54:32.340  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 10717ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.388  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:32.388  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:32.388  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:32.388  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:32.412 21706 21706 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 18:54:32.412 21706 21706 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 18:54:32.412 21706 21706 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 18:54:32.412  3003  6500 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 18:54:32.414  3003  6500 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 18:54:32.414 21706 21706 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 18:54:32.414 21706 21706 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 18:54:32.416  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101(seamlessTransition:0)
+03-13 18:54:32.416  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 18:54:32.416  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#80979(seamlessTransition:0)
+03-13 18:54:32.416  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 18:54:32.416  2105  2836 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 18:54:32.416  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 18:54:32.416  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity$_19972#81101 at index 1
+03-13 18:54:32.417  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 18:54:32.417  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#80979 at index 3
+03-13 18:54:32.417  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 18:54:32.425  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 2424ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.431 19972 21621 W KEVA.NATIVE: mark bitmap can not find space! remain=65 wanted=3
+03-13 18:54:32.444 21706 21717 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 18:54:32.445 21706 21706 W qdgralloc: Failed to load libubwcp.so
+03-13 18:54:32.464 19972 21719 D PTY-JNI : Watch dog is disabled!
+03-13 18:54:32.491  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 10868ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.577  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 2575ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.588  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:32.588  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:32.589  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:32.589  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:32.642  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 11019ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.729  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 2727ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.736  2007 12669 I sensors-hal: handle_sns_std_sensor_event:131, [SSC_LIGHT] A: 131(131),c:16,b:81,m:13,cl:3,l:131,s:129,l0:10768,l1:16,s0:10286,s1:0,acl:1,opr:0.33,f(r):97,u(bl):108,if:0,wi:1,si:12,po:124(N:0)
+03-13 18:54:32.789  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:32.789  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:32.789  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:32.790  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:32.794  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 11172ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.879  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 2877ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.931  1171  1171 D io_stats: !@   8,0 r 4764941 142921428 w 6363389 123541680 d 504357 139443828 f 263685 604932 iot 2535124 0 th 0 0 0 pt 0 inp 0 0 89061.927
+03-13 18:54:32.947  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 11324ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:32.990  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:32.990  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:32.993  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:32.994  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:33.032  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 3030ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.100  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 11477ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.184  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 3183ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.191  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:33.193  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:33.194  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:33.198  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:33.200  3003  6500 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:54:33.201  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773442473
+03-13 18:54:33.207  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:54:33.207  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 351 
+03-13 18:54:33.207  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557374
+03-13 18:54:33.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557372
+03-13 18:54:33.207  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:54:33.207  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557355
+03-13 18:54:33.207  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:54:33.207  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:54:33.210  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) Spend too much time to write: delta 37(effect 0, stage 3)
+03-13 18:54:33.215  3003  6500 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:54:33.217  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:33.234  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:33.234  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:33.234  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:54:33.255  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 11632ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.272  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) throttle end: throttle time(13)
+03-13 18:54:33.341  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 3339ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.393  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:33.394  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:33.397  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:33.398  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:33.406  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 11783ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.452  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) throttle end: throttle time(1)
+03-13 18:54:33.499  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 3497ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.513  3003  6692 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-13 18:54:33.513  3003  6692 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 18:54:33.518 19972 20574 D BufferPoolAccessor2.0: bufferpool2 0x70dfa62118 : 11(92274688 size) total buffers - 11(92274688 size) used buffers - 144/157 (recycle/alloc) - 16/157 (fetch/transfer)
+03-13 18:54:33.576  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 11953ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.595  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:33.598  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:33.599  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:33.599  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:33.650  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 3649ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.726  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:54:33.730  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:54:33.731  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 12108ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.734  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:54:33.735  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:54:33.736  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:54:33.737  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:54:33.751  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:F6:45, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-74, periodicAdvInt=0x0
+03-13 18:54:33.767 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 18:54:33.782  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:54:33.785  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 18:54:33.790  2105  2105 I SurfaceFlinger: SFWD update time=89062786893732
+03-13 18:54:33.801  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:33.801  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:33.803  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:33.804  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:33.805  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 3803ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.806  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) Spend too much time to write: delta 33(effect 0, stage 2)
+03-13 18:54:33.832  2094  3052 D AudioFlinger: mixer(0xb4000076968174b0) throttle end: throttle time(4)
+03-13 18:54:33.883  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 12260ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.937  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 18:54:33.958  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 3956ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:33.972 19881 19915 I appium  : AppiumResponse: {"sessionId":"30d47388-e84c-468d-a2a5-9b259a46f5a2","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15XFT1/j/w1wGGVUBAkNUNrRQRFzTFUEALdytDzczc816ttK6l11y7/ir3W1ldK8Ulk9SygjRTwTXz4ooi5oYgCLIoCMg6n98f3jnfGWaGHYaR1/PxeD/KM5/zOZ9z5sxwzns+n8+RAAg…
+03-13 18:54:34.001  3003  3130 D PowerManagerService: displayReady: false groupId=0
+03-13 18:54:34.001  3003  3130 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-13 18:54:34.002  3003  3130 D DisplayPowerController[1]: animateScreenStateChange: target=OFF, mIsEnabled=false
+03-13 18:54:34.003  3003  3130 D PowerManagerService: displayReady: true groupId=0
+03-13 18:54:34.033  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 12410ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:34.086 19972 20573 D BufferPoolAccessor2.0: bufferpool2 0x70dfa1c1d8 : 0(0 size) total buffers - 0(0 size) used buffers - 248/260 (recycle/alloc) - 13/251 (fetch/transfer)
+03-13 18:54:34.086 19972 20573 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+03-13 18:54:34.109  2053 21562 W QC2V4l2Decoder: [v4lhvcD_782] Allocating output buffer timedout, 4107ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:34.166  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 24080, isSameBssidAndFreq true
+03-13 18:54:34.167  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [115 WIFI]
+03-13 18:54:34.168  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 1041 / 13 / 1.02 (262) / 286 / -63.0 || 100.0 : 286.00 / 0.5 : 0.98 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.101 / 79.300 / N || N N / 0 0 / Y 2.0 / Y X 0 / 89063163 0 || Invalid
+03-13 18:54:34.169  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 18:54:34.174  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 18:54:34.174  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 18:54:34.177  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-13 18:54:34.177  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-13 18:54:34.177  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-13 18:54:34.185  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 18:54:34.185  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 18:54:34.185  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 115(valid: true/captive: false)
+03-13 18:54:34.186  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=7026Kbps LinkDnBandwidth>=118257Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.**.*.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -63, Link speed: 286Mbps, Tx Link speed: 286Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 516Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -63 AdminUids: [1000] SSID: "MSU-Secure" UnderlyingNetworks: Null]
+03-13 18:54:34.186  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:118.257Uplink: 7.026
+03-13 18:54:34.186  2053 21290 W QC2V4l2Decoder: [v4lhvcD_779] Allocating output buffer timedout, 12563ms elapsed since last input buffer queued (threshold 1000ms)
+03-13 18:54:34.186  3003  4050 D SemApeService: Deducted link capacity (M: R=240 T=200) RSSI=-64
+03-13 18:54:34.186  3003  4050 D SemApeService: Deducted link capacity (M: R=240 T=200) on (wlan0) GoogleAPI(M: R=118 T=7) RSSI=-64 isDefault=false isMlo=false
+03-13 18:54:34.191  4205  4390 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 18:54:34.191  4205  4390 D WifiInteractor: get wifiIconGroup ePDGConnected : false
+03-13 18:54:34.195  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 18:54:34.196  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 18:54:34.196 16161 17797 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-13 18:54:34.196 16161 17797 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-13 18:54:34.197  4600  5502 D txpwrJni: sendNetworkInfo start
+03-13 18:54:34.197  4600  5502 D txpwrJni: sendNetworkInfo RatType 0

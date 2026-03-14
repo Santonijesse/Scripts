@@ -1,0 +1,73 @@
+--------- beginning of main
+03-13 18:23:00.939 12295 12335 I appium  : channel read: GET /session/33d21247-5f0c-41b2-8ad1-4064d7c57327/source
+03-13 18:23:00.940 12295 12335 I appium  : Source command
+03-13 18:23:00.941 12295 12335 I appium  : Waiting up to 10000ms for the device to idle
+03-13 18:23:00.945 16161 32222 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 18:23:00.980 12448 12448 W soft_error.cpp: [pando::graphql::PandoGraphQLRequestHybrid::assertValid] : Using a PandoGraphQLRequest after it has been consumed. Query name is PostLiveMetricsQuery
+03-13 18:23:00.981 12448 12448 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{b25c828 VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:23:00.981 12448 12448 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{e0950d4 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 18:23:00.993  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 2
+03-13 18:23:00.996  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 18:23:00.996  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 18:23:00.996  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 18:23:00.996  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 18:23:01.001  2105  2922 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+--------- beginning of system
+03-13 18:23:01.002  1171  1171 D io_stats: !@   8,0 r 4699288 141675092 w 5976083 120161348 d 492945 135137512 f 253203 565634 iot 2475440 0 th 0 0 0 pt 0 inp 0 0 87169.999
+03-13 18:23:01.003  5393  6769 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:B4:9E, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-72, periodicAdvInt=0x0
+03-13 18:23:01.006  1171  1171 D io_stats: !@ Read_top(KB): agram.barcelona(12448) 64 putmethod.latin(15873) 24
+03-13 18:23:01.007  1171  1171 D io_stats: !@ Write_top(KB): agram.barcelona(12448) 992 putmethod.latin(15873) 24
+03-13 18:23:01.008 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 18:23:01.041  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 18:23:01.041  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 18:23:01.060 12295 12335 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 18:23:01.125 12295 12335 I appium  : AppiumResponse: {"sessionId":"33d21247-5f0c-41b2-8ad1-4064d7c57327","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.instagram.barcelona\" class=\"…
+03-13 18:23:01.146 12295 12335 I appium  : channel read: GET /session/33d21247-5f0c-41b2-8ad1-4064d7c57327/screenshot
+03-13 18:23:01.147 12295 12335 I appium  : CaptureScreenshot command
+03-13 18:23:01.149 12295 12335 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:23:01.149 12295 12335 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 18:23:01.175  3003  3048 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 18:23:01.180  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:23:01.181  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:23:01.181  3003  3048 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 18:23:01.181  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:23:01.182  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 18:23:01.191  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 18:23:01.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773440581
+03-13 18:23:01.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 18:23:01.205  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 295 
+03-13 18:23:01.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557343
+03-13 18:23:01.207  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557342
+03-13 18:23:01.208  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 18:23:01.208  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557325
+03-13 18:23:01.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 18:23:01.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 18:23:01.242 13017 13017 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 18:23:01.243 13017 13017 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 18:23:01.243 13017 13017 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 18:23:01.243  3003  3048 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 18:23:01.243  3003  3048 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 18:23:01.243 13017 13017 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 18:23:01.243 13017 13017 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 18:23:01.245  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity$_12448#79025(seamlessTransition:0)
+03-13 18:23:01.245  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 18:23:01.245  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#78950(seamlessTransition:0)
+03-13 18:23:01.245  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 18:23:01.246  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 18:23:01.246  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 18:23:01.246  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity$_12448#79025 at index 1
+03-13 18:23:01.246  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 18:23:01.246  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#78950 at index 3
+03-13 18:23:01.246  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 18:23:01.271 13017 13022 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 18:23:01.272 13017 13017 W qdgralloc: Failed to load libubwcp.so
+03-13 18:23:01.279 12448 12448 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{b25c828 VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:23:01.279 12448 12448 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{e0950d4 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:23:01.281 12448 12448 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{b25c828 VFED..... ......ID 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:23:01.281 12448 12448 I View    : setRequestedFrameRate frameRate=-4.0, this=android.view.View{e0950d4 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:23:01.284 12448 12448 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{b25c828 VFED..... ........ 0,0-1080,2640 aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:85 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 18:23:01.284 12448 12448 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{e0950d4 V.ED..... ........ 0,0-0,0}, caller=X.Hsl.A00:0 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:104 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 18:23:01.284  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 3
+03-13 18:23:01.292  2105  2321 I VSyncReactor: Current= 120, Period= 120, Distance= 120
+03-13 18:23:01.330  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-13 18:23:01.685 12295 12335 I appium  : AppiumResponse: {"sessionId":"33d21247-5f0c-41b2-8ad1-4064d7c57327","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15fEz3/j/w15k1kUU2SSS2WGOntQRBLaUaSyylaqdqCamteum9XG1RjduiYr9o3aoi1liiqq2oolVRpFnsJCESZM9kMjO/P/zmfDOZyTLJJDG8no+HR+vMmZPPSDJzzuu8P++P4OTkpAM…

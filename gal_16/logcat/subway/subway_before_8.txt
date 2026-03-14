@@ -1,0 +1,48 @@
+--------- beginning of system
+03-13 17:04:08.869  3003  4185 I Pageboost: Launcher App Execution
+--------- beginning of main
+03-13 17:04:08.957 15377 15417 I appium  : channel read: GET /session/50757122-05a9-4b88-a5d5-0f069b14576b/source
+03-13 17:04:08.960 15377 15417 I appium  : Source command
+03-13 17:04:08.962 15377 15417 I appium  : Waiting up to 10000ms for the device to idle
+03-13 17:04:08.989 15377 15417 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 17:04:09.003 15377 15417 I appium  : AppiumResponse: {"sessionId":"50757122-05a9-4b88-a5d5-0f069b14576b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.google.android.permissioncontr…
+03-13 17:04:09.018 15377 15417 I appium  : channel read: GET /session/50757122-05a9-4b88-a5d5-0f069b14576b/screenshot
+03-13 17:04:09.019 15377 15417 I appium  : CaptureScreenshot command
+03-13 17:04:09.021 15377 15417 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:04:09.021 15377 15417 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 17:04:09.115 16937 16937 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 17:04:09.116 16937 16937 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 17:04:09.116 16937 16937 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 17:04:09.116  3003  3595 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 17:04:09.116  3003  3595 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 17:04:09.117 16937 16937 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 17:04:09.117 16937 16937 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 17:04:09.118  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity$_15464#75331(seamlessTransition:0)
+03-13 17:04:09.118  2105  2922 I SurfaceFlinger: Capture layer list: 	 Dim Layer for - Task=858#75340(seamlessTransition:0)
+03-13 17:04:09.118  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity$_21344#75335(seamlessTransition:0)
+03-13 17:04:09.118  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 17:04:09.118  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#75219(seamlessTransition:0)
+03-13 17:04:09.118  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 17:04:09.119  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 17:04:09.119  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 17:04:09.120  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.subway.mobile.subwayapp03/com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity$_15464#75331 at index 1
+03-13 17:04:09.120  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer Dim Layer for - Task=858#75340 at index 2
+03-13 17:04:09.120  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity$_21344#75335 at index 3
+03-13 17:04:09.120  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 17:04:09.120  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#75219 at index 5
+03-13 17:04:09.120  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 17:04:09.154 16937 16943 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 17:04:09.155 16937 16937 W qdgralloc: Failed to load libubwcp.so
+03-13 17:04:09.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773435849
+03-13 17:04:09.202  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 17:04:09.202  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 308 
+03-13 17:04:09.202  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557264
+03-13 17:04:09.202  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557252
+03-13 17:04:09.202  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 17:04:09.202  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557235
+03-13 17:04:09.202  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 17:04:09.202  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 17:04:09.294  3003  6280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+03-13 17:04:09.327  1171  1171 D io_stats: !@   8,0 r 4564056 138663800 w 5771451 116490636 d 472952 129744696 f 243553 548468 iot 2382500 0 th 0 0 0 pt 0 inp 0 0 82438.323
+03-13 17:04:09.328  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:1(9903) 1596 ile.subwayapp03(15464) 440 gle.android.gms(27562) 96
+03-13 17:04:09.340 15377 15417 I appium  : AppiumResponse: {"sessionId":"50757122-05a9-4b88-a5d5-0f069b14576b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15eFNl3j7wO1v3dEv3lkKhLV2gCwKlwIDirrj7uo6OArIq6MxP51WQZZRxHxUZ1uF1HB0dUVGUwQ1E1oospYW2TAvdW+jekm5pmpzfH31z3qZZmrTpErg/19VLOTk5eZKcJOfc53m+j+T…

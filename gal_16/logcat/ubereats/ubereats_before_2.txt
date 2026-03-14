@@ -1,0 +1,77 @@
+--------- beginning of main
+03-13 20:10:16.995 21949 22042 I appium  : channel read: GET /session/da49112d-5dc5-4fe7-b1fa-0e67df231b84/source
+03-13 20:10:16.997 21949 22042 I appium  : Source command
+03-13 20:10:16.998 21949 22042 I appium  : Waiting up to 10000ms for the device to idle
+03-13 20:10:17.010  2447  2447 I CNSS    : /sys/wifi/max_chipset_log_size doesn't exist
+03-13 20:10:17.030 22095 22095 I cr_A11yState: Enabled accessibility services list updated. []
+03-13 20:10:17.032 22095 22095 I cr_A11yState: Informing listeners of changes.
+03-13 20:10:17.032 22095 22095 I cr_A11yState: New AccessibilityState: State{isComplexUserInteractionServiceEnabled=false, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=false, isAccessibilityToolPresent=false, isTextShowPasswordEnabled=false, isOnlyAutofillRunning=false, isOnlyPasswordManagersEnabled=false, isKnownScreenReaderEnabled=false}
+03-13 20:10:17.038 21949 22042 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 20:10:17.049 21949 22042 I appium  : AppiumResponse: {"sessionId":"da49112d-5dc5-4fe7-b1fa-0e67df231b84","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ubercab.eats\" class=\"android…
+03-13 20:10:17.061 21949 22042 I appium  : channel read: GET /session/da49112d-5dc5-4fe7-b1fa-0e67df231b84/screenshot
+03-13 20:10:17.062 21949 22042 I appium  : CaptureScreenshot command
+03-13 20:10:17.063 21949 22042 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:10:17.063 21949 22042 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:10:17.113 22095 22095 I View    : setRequestedFrameRate frameRate=-4.0, this=com.uber.presidio.browser.webview.EmbeddedWebView{4e66f22 VFED..C.. .F...... 0,0-1080,2402 #7f0b03cd app:id/embedded_web_view aid=1073741824}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 WV.rf.p:1 WV.rg.h:118 WV.rg.onDraw:7 com.android.webview.chromium.WebViewChromium.onDraw:19 
+03-13 20:10:17.159 22614 22614 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 20:10:17.159 22614 22614 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 20:10:17.160 22614 22614 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 20:10:17.160  3003  3594 I EDMNativeHelperService: isScreenCaptureEnabled
+--------- beginning of system
+03-13 20:10:17.160  3003  3594 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 20:10:17.160 22614 22614 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 20:10:17.160 22614 22614 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 20:10:17.165  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.ubercab.eats/com.uber.identity.api.uauth.internal.helper.USLActivity$_22095#87497(seamlessTransition:0)
+03-13 20:10:17.166  2105  2921 I SurfaceFlinger: Capture layer list: 	 InputMethod$_15873#87503(seamlessTransition:0)
+03-13 20:10:17.166  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 20:10:17.166  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#87470(seamlessTransition:0)
+03-13 20:10:17.166  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 20:10:17.166  2105  2921 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 20:10:17.167  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 20:10:17.167  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.ubercab.eats/com.uber.identity.api.uauth.internal.helper.USLActivity$_22095#87497 at index 1
+03-13 20:10:17.167  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer InputMethod$_15873#87503 at index 2
+03-13 20:10:17.167  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 20:10:17.167  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#87470 at index 4
+03-13 20:10:17.167  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 20:10:17.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773447017
+03-13 20:10:17.201 22614 22622 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 20:10:17.202 22614 22614 W qdgralloc: Failed to load libubwcp.so
+03-13 20:10:17.204  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 20:10:17.204  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 314 
+03-13 20:10:17.204  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557450
+03-13 20:10:17.204  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557432
+03-13 20:10:17.204  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 20:10:17.205  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557445
+03-13 20:10:17.205  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 20:10:17.205  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 20:10:17.230  3003  3594 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 20:10:17.236  3003  6711 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 20:10:17.237  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:10:17.237  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:10:17.237  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:10:17.237  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:10:17.266  1171  1171 D io_stats: !@   8,0 r 4936112 146901404 w 6968555 130972628 d 532689 148497816 f 286649 663389 iot 2690488 0 th 0 0 0 pt 0 inp 0 0 93606.263
+03-13 20:10:17.344  3003  5995 D MotionRecognitionService: inject vibrator info = 0.0
+03-13 20:10:17.345  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 20:10:17.346  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 20:10:17.347  2007  2007 I sensors-hal: inject_sensor_data:427, handle:11, type:33 not supported
+03-13 20:10:17.348  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 20:10:17.349  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 20:10:17.350  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 20:10:17.351  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 20:10:17.357  5393  6769 I ScanController: onScanResult to scannerId: 2- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:DD:32, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-61, periodicAdvInt=0x0
+03-13 20:10:17.395  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 20:10:17.395  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 20:10:17.400  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25528, isSameBssidAndFreq true
+03-13 20:10:17.402  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 592 / 3 / 1.14 (24) / 573 / -64.0 || 100.0 : 573.00 / 0.5 : 0.88 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.669 / N || N N / 0 0 / Y 2.0 / Y X 0 / 93606396 0 || Invalid
+03-13 20:10:17.404  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 20:10:17.405  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 20:10:17.406  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 20:10:17.406  3003  4030 D InsDataManager: trimBuffers start.
+03-13 20:10:17.407  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 22
+03-13 20:10:17.407  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 20:10:17.408  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -64.0,"latency": 0.08632832884440454,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 592 / 3 / 1.14 (24) / 573 / -64.0 || 100.0 : 573.00 / 0.5 : 0.88 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.669 / N || N N / 0 0 / Y 2.0 / Y X 0 / 93606396 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 20:10:17.411  3003  4047 D SGM:GameManager: identifyGamePackage. com.ubercab.eats, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 20:10:17.412  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.ubercab.eats, ret=false
+03-13 20:10:17.466 21949 22042 I appium  : AppiumResponse: {"sessionId":"da49112d-5dc5-4fe7-b1fa-0e67df231b84","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N15dFRlmj/w73tvVXZIJAkJYQ8EQXaQXVREVLSd7h5nRkW0xW5bnVbb6Z7uM6f7nDm/c+w5fWZ6pltlbPq4IaKiI2r30IogKA6IYRdZAggBspCwhOxb1b3v+/vjLlWVqiSVpLLB93NORCq…
+03-13 20:10:17.546  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 

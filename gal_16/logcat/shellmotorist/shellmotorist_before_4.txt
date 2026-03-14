@@ -1,0 +1,880 @@
+--------- beginning of main
+03-13 15:50:45.784  9401  9401 I DecorView: setWindowBackground: isPopOver=false color=ff010102 d=android.graphics.drawable.LayerDrawable@ea91a7a
+03-13 15:50:45.786  2105  3799 D NativeSemDvfsManager: acquire:: timeout = 2000 mIsAcquired = 1  mTagName : SurfaceFlinger 
+03-13 15:50:45.786  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 4823065  [2105 / 1000]    HINT : SF_GPU_MINLOCK    list : [TIMEOUT / 2000] 
+03-13 15:50:45.786  2105  3799 E NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::acquire()
+03-13 15:50:45.790  2105  2105 D SurfaceFlinger: GPIS:: requestGPISForClientComposition
+03-13 15:50:45.794  9401  9401 I BMP:BackgroundEventManager: Activity resumed: com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.794  9401  9401 I BMP:LifecycleCallbacks: Activity Resumed:com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.794  9401  9401 I BMP:CYFMonitor: Start collecting sensor data
+03-13 15:50:45.795  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 15:50:45.795  2007  2007 I sensors-hal: batch:363, android.sensor.accelerometer/11, period=20000000, max_latency=0 request completed
+03-13 15:50:45.795  2007  2007 I sensors-hal: activate:300, android.sensor.accelerometer/11 en=1
+03-13 15:50:45.795  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 46 , conn_type 3 
+03-13 15:50:45.795  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d1330) is created with tid= 9929
+03-13 15:50:45.796  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fa2 went down
+03-13 15:50:45.796  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fa3 went down
+03-13 15:50:45.796  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fa2 went down
+03-13 15:50:45.796  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fa3 went down
+03-13 15:50:45.796  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fa4 went down
+03-13 15:50:45.797  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-13 15:50:45.797  2007  2007 I sensors-hal: register_cb:304, suid(low=7080276908576992050,high=13131023702051637398) is new. register callbacks
+03-13 15:50:45.797  2007  2007 I sensors-hal: send_sensor_config_request:575, resampler is used, set resampler config
+03-13 15:50:45.797  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:50:45.797  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for accel with SUID low=7080276908576992050 high=13131023702051637398
+03-13 15:50:45.797  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fa4 went down
+03-13 15:50:45.797  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:50:45.797  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fa5 went down
+03-13 15:50:45.797  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fa5 went down
+03-13 15:50:45.798  3003  4405 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:45.798  2007  9930 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for accel 
+03-13 15:50:45.798  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 15:50:45.798  2007  2007 I sensors-hal: activate:330, android.sensor.accelerometer/11 en=1 completed
+03-13 15:50:45.798  9401  9401 D SensorManager: registerListener :: 11, lsm6dsv LSM6DSV Accelerometer Non-wakeup, 20000, 0, 
+03-13 15:50:45.798  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 15:50:45.798  2007  2007 I sensors-hal: batch:363, android.sensor.gyroscope/41, period=20000000, max_latency=0 request completed
+03-13 15:50:45.799  2105  2105 E SurfaceFlinger: alpha changed 0.000 -> 0.010 - DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232
+03-13 15:50:45.799  2007  2007 I sensors-hal: activate:300, android.sensor.gyroscope/41 en=1
+03-13 15:50:45.799  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 34 , conn_type 3 
+03-13 15:50:45.799  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d06d0) is created with tid= 9931
+03-13 15:50:45.799  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220(seamlessTransition:0)
+03-13 15:50:45.799  2105  2921 I SurfaceFlinger: Capture layer list: 	 Splash Screen com.shell.sitibv.motorist.america$_4205#69229(seamlessTransition:0)
+03-13 15:50:45.799  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:45.799  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:45.799  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:45.800  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fa7 went down
+03-13 15:50:45.800  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fa7 went down
+03-13 15:50:45.800  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:45.800  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 at index 1
+03-13 15:50:45.800  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:45.800  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:45.800  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:45.802  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fa8 went down
+03-13 15:50:45.802  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fa8 went down
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger: Display 4630946564756762243 HWC layers:
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger:        CLIENT |           40376987549700 | 00002102 | RGBA_8888    |   16.0    0.0 1080.0 2640.0 |    0    0 1080 2640 | com.shell.sitibv.motorist.america/co[...]CountrySelectionActivity$_9401#69220 (13)
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger:   SOLID_COLOR |                        0 | 00000000 | N/A          |    0.0    0.0    0.0    0.0 |    0    0 1080 2640 | DimTransitionLayer for Surface(name=[...]plashActivity t801})/@0x74a807#69232 (0)
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513402 | 00002100 | RGBA_8888    |    0.0    0.0   49.0 2640.0 | 1031    0 1080 2640 | Splash Screen com.shell.sitibv.motorist.america$_4205#69229 (1)
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513397 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   94.0 |    0    0 1080   94 | StatusBar$_4205#132 (63838)
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger:        DEVICE |           20753281983427 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  357.0 | 1013  511 1080  868 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_4832#69170 (1)
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger:        DEVICE |           1806033751339
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger: 0 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2496 1080 2640 | NavigationBar0$_4205#130 (49654)
+03-13 15:50:45.802  2105  2105 D SurfaceFlinger: 
+03-13 15:50:45.803  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.804  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fa9 went down
+03-13 15:50:45.804  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fa9 went down
+03-13 15:50:45.804  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-13 15:50:45.804  2007  2007 I sensors-hal: register_cb:304, suid(low=11331203967455886618,high=2227687939882802101) is new. register callbacks
+03-13 15:50:45.804  2007  2007 I sensors-hal: register_cb:304, suid(low=10025908976994887838,high=13187306796670928542) is new. register callbacks
+03-13 15:50:45.804  2007  2007 I sensors-hal: calibration:48, registerd callback for gyro_cal
+03-13 15:50:45.805  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d5230) is created with tid= 9935
+03-13 15:50:45.805  2007  2007 I sensors-hal: calibration:55, created worker for gyro_cal
+03-13 15:50:45.805  2007  2007 I sensors-hal: send_req:220, send_req before send_request gyro_cal with SUID low=10025908976994887838 high=13187306796670928542
+03-13 15:50:45.805  2007  2007 I sensors-hal: activate:274, started gyro cal
+03-13 15:50:45.805  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 1000000000 based on min/max delay_ns
+03-13 15:50:45.805  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 34 , conn_type 3 
+03-13 15:50:45.805  2007  2007 I sensors-hal: register_cb:304, suid(low=2469432388859779188,high=2270547140419222672) is new. register callbacks
+03-13 15:50:45.805  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:50:45.805  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for sensor_temperature with SUID low=2469432388859779188 high=2270547140419222672
+03-13 15:50:45.805  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:50:45.805  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4faa went down
+03-13 15:50:45.805  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4faa went down
+03-13 15:50:45.806  2007  9932 I sensors-hal: handle_resp_cb:230, resp_value = 0 for gyro_cal before acuiring the lock _cal_mutex
+03-13 15:50:45.806  2007  9932 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for sensor_temperature 
+03-13 15:50:45.806  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 15:50:45.806  2007  2007 I sensors-hal: send_sensor_config_request:575, resampler is used, set resampler config
+03-13 15:50:45.806  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:50:45.806  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gyro with SUID low=11331203967455886618 high=2227687939882802101
+03-13 15:50:45.806  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:50:45.806  2007  9935 I sensors-hal: operator():288, operator() in worker.. sending cal request again
+03-13 15:50:45.806  2007  9935 I sensors-hal: send_req:220, send_req before send_request gyro_cal with SUID low=10025908976994887838 high=13187306796670928542
+03-13 15:50:45.807  2007  9932 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gyro 
+03-13 15:50:45.807  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 15:50:45.807  2007  2007 I sensors-hal: activate:330, android.sensor.gyroscope/41 en=1 completed
+03-13 15:50:45.807  2007  9932 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-13 15:50:45.807  2007  9932 I sensors-hal: handle_resp_cb:230, resp_value = 0 for gyro_cal before acuiring the lock _cal_mutex
+03-13 15:50:45.807  9401  9401 D SensorManager: registerListener :: 41, lsm6dsv LSM6DSV Gyroscope Non-wakeup, 20000, 0, Nn0@5fe42ad
+03-13 15:50:45.807  9401  9401 I BMP:MotionListener: GyroScope status true and Accelerometer status true
+03-13 15:50:45.808  2007  2007 I sensors-hal: flush:383, android.sensor.accelerometer/11
+03-13 15:50:45.808  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:50:45.808  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for accel with SUID low=7080276908576992050 high=13131023702051637398
+03-13 15:50:45.808  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:50:45.809  2007  9930 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for accel 
+03-13 15:50:45.809  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 0 ms to receive the response with 0
+03-13 15:50:45.809  2007  2007 I sensors-hal: flush:389, android.sensor.accelerometer/11 completed
+03-13 15:50:45.809  9401  9401 D SensorManager: registerListener :: 11, lsm6dsv LSM6DSV Accelerometer Non-wakeup, 20000, 0, 
+03-13 15:50:45.810  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 15:50:45.810  2007  2007 I sensors-hal: batch:363, android.sensor.magnetic_field/21, period=20000000, max_latency=0 request completed
+03-13 15:50:45.810  2007  2007 I sensors-hal: activate:300, android.sensor.magnetic_field/21 en=1
+03-13 15:50:45.810  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 40 , conn_type 3 
+03-13 15:50:45.811  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4ddc90) is created with tid= 9937
+03-13 15:50:45.811  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fac went down
+03-13 15:50:45.812  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fad went down
+03-13 15:50:45.812  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fac went down
+03-13 15:50:45.812  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fad went down
+03-13 15:50:45.812  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fae went down
+03-13 15:50:45.812  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-13 15:50:45.812  2007  2007 I sensors-hal: register_cb:304, suid(low=11911404398489902607,high=16993594652946037180) is new. register callbacks
+03-13 15:50:45.812  2007  2007 I sensors-hal: register_cb:304, suid(low=10350532229688825456,high=14322911740044289799) is new. register callbacks
+03-13 15:50:45.812  2007  2007 I sensors-hal: calibration:48, registerd callback for mag_cal
+03-13 15:50:45.812  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fae went down
+03-13 15:50:45.812  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d32b0) is created with tid= 9939
+03-13 15:50:45.812  2007  2007 I sensors-hal: calibration:55, created worker for mag_cal
+03-13 15:50:45.812  2007  2007 I sensors-hal: send_req:220, send_req before send_request mag_cal with SUID low=10350532229688825456 high=14322911740044289799
+03-13 15:50:45.812  2007  2007 I sensors-hal: activate:174, mag cal started
+03-13 15:50:45.812  2007  2007 I sensors-hal: send_sensor_config_request:575, resampler is used, set resampler config
+03-13 15:50:45.812  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:50:45.812  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for mag with SUID low=11911404398489902607 high=16993594652946037180
+03-13 15:50:45.812  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:50:45.812  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4faf went down
+03-13 15:50:45.812  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4faf went down
+03-13 15:50:45.814  2007  9938 I sensors-hal: handle_resp_cb:230, resp_value = 0 for mag_cal before acuiring the lock _cal_mutex
+03-13 15:50:45.814  2007  9938 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for mag 
+03-13 15:50:45.814  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 15:50:45.814  2007  2007 I sensors-hal: activate:183, mag_filter is disabled
+03-13 15:50:45.814  2007  2007 I sensors-hal: activate:330, android.sensor.magnetic_field/21 en=1 completed
+03-13 15:50:45.814  9401  9401 D SensorManager: registerListener :: 21, AK09918 Magnetometer, 20000, 0, cX@31e333a
+03-13 15:50:45.814  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 15:50:45.814  2007  2007 I sensors-hal: batch:363, android.sensor.gravity/91, period=20000000, max_latency=0 request completed
+03-13 15:50:45.814  2007  2007 I sensors-hal: activate:300, android.sensor.gravity/91 en=1
+03-13 15:50:45.814  2007  2007 I sensors-hal: acquire_qsh_interface:139, acquire_qsh_interface with sensor_id 32 , conn_type 3 
+03-13 15:50:45.814  2007  2007 I sensors-hal: worker:51, worker(0xb400007a0f4d1d50) is created with tid= 9940
+03-13 15:50:45.817  2007  2007 I sensors-hal: qsh_qmi:31, qsh_qmi
+03-13 15:50:45.817  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fb1 went down
+03-13 15:50:45.817  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fb2 went down
+03-13 15:50:45.817  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fb3 went down
+03-13 15:50:45.817  1985  2158 I minksocket: MinkIPC MESSAGE: ( 1985:2158 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f6550 sock = 13, client with node 1 port 4fb4 went down
+03-13 15:50:45.817  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fb1 went down
+03-13 15:50:45.817  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fb2 went down
+03-13 15:50:45.817  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fb3 went down
+03-13 15:50:45.817  1985  2180 I minksocket: MinkIPC MESSAGE: ( 1985:2180 ) MinkIPC_QRTR_Service:351 minkipc = 0xb400006d4d3f7730 sock = 33, client with node 1 port 4fb4 went down
+03-13 15:50:45.818  2007  2007 I sensors-hal: register_cb:304, suid(low=12052644982307943726,high=14255117871604606629) is new. register callbacks
+03-13 15:50:45.818  2007  2007 I sensors-hal: send_sync_sensor_request:508, send sync request
+03-13 15:50:45.818  2007  2007 I sensors-hal: send_sync_sensor_request:518, send_sync_sensor_request before send_request for gravity with SUID low=12052644982307943726 high=14255117871604606629
+03-13 15:50:45.818  2007  2007 I sensors-hal: send_sync_sensor_request:537, wait for notification of response
+03-13 15:50:45.819  2007  9941 I sensors-hal: qsh_conn_resp_cb:930, resp_value = 0 for gravity 
+03-13 15:50:45.819  2007  2007 I sensors-hal: send_sync_sensor_request:543, takes 1 ms to receive the response with 0
+03-13 15:50:45.819  2007  2007 I sensors-hal: activate:330, android.sensor.gravity/91 en=1 completed
+03-13 15:50:45.820  9401  9401 D SensorManager: registerListener :: 91, gravity  Non-wakeup, 20000, 0, cX@31e333a
+03-13 15:50:45.820  2007  2007 I sensors-hal: set_config:60, sample_period_ns is adjusted to 20000000 based on min/max delay_ns
+03-13 15:50:45.820  2007  2007 I sensors-hal: batch:363, android.sensor.accelerometer/11, period=20000000, max_latency=0 request completed
+03-13 15:50:45.820  9401  9401 I BMP:TouchManager: Listening on window
+03-13 15:50:45.820  2007  9930 I sensors-hal: handle_sns_client_event:375, [0][0] accel_sample [ 0.085,  0.515,  9.837] 258646372911219
+03-13 15:50:45.822  9401  9401 I ViewRootImpl: dVRR is disabled
+03-13 15:50:45.822  9401  9601 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+03-13 15:50:45.824  3003  4771 D InputTransport: Input channel constructed: '5e9a48a', fd=1236
+03-13 15:50:45.824  3003  4771 D InputTransport: Input channel constructed: '5e9a48a', fd=1335
+03-13 15:50:45.824  3003  4771 D InputTransport: Input channel constructed: '5e9a48a', fd=1361
+03-13 15:50:45.824  3003  4771 D InputTransport: Input channel destroyed: '5e9a48a', fd=1335
+03-13 15:50:45.824  2105  2922 I SurfaceFlinger: id=69233 createSurf, flag=84004, 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233
+--------- beginning of system
+03-13 15:50:45.824  3003  4771 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:50:45.824  3003  4771 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:50:45.825  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 330332930  [2025 / 23677]    HINT :      list : [TID_LOW_LATENCY / 1] [TID / 9637] [TID / 9638] [TID / 9401] [TID / 9601] 
+03-13 15:50:45.825  3003  4771 D InputTransport: Input channel destroyed: '5e9a48a', fd=1361
+03-13 15:50:45.826  9401  9401 D InputTransport: Input channel constructed: '5e9a48a', fd=310
+03-13 15:50:45.827  9401  9401 I InsetsController: onStateChanged: host=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2640), mDisplayCutout=DisplayCutout{insets=Rect(0, 94 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(505, 0 - 576, 94), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2640 physicalDisplayWidth=1080 physicalDisplayHeight=2640 density={3.0} cutoutSpec={M 0,0 H -11.83333333333333 V 31.33333333333333 H 11.83333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=114, center=Point(114, 114)}, RoundedCorner{position=TopRight, radius=114, center=Point(966, 114)}, RoundedCorner{position=BottomRight, radius=114, center=Point(966, 2526)}, RoundedCorner{position=BottomLeft, radius=114, center=Point(114, 2526)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2640), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 94) rotation=0}, mDisplayShape=DisplayShape{ spec=1406003047 displayWidth=1080 displayHeight=2640 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {c530001 mType=navigationBars mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {c530005 mType=mandatorySystemGestures mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530006 mType=tappableElement mFrame=[0,2496][1080,2640] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {c530024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {6a140000 mType=statusBars mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {6a140005 mType=mandatorySystemGestures mFrame=[0,0][1080,130] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {6a140006 mType=tappableElement mFrame=[0,0][1080,94] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+03-13 15:50:45.827  9401  9401 I VRI[SplashActivity]@5f13bc9: synced displayState. AttachInfo displayState=2
+03-13 15:50:45.828  9401  9401 I VRI[SplashActivity]@5f13bc9: setView = com.android.internal.policy.DecorView@3a008fc IsHRR=false mFlingFrameRateChange=0 TM=true
+03-13 15:50:45.828  9401  9401 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+03-13 15:50:45.828  9401  9401 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+03-13 15:50:45.828  2007  9932 I sensors-hal: handle_sns_client_event:422, [0][0] gyro_sample_cal(cal_available:1)(3) [-0.001,-0.001,-0.001] bias[-0.003,-0.005, 0.003] 258646380970333
+03-13 15:50:45.829  3003  4771 D CoreBackPreview: Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7b23ae2, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+03-13 15:50:45.830  3003  4771 I WindowManager: Relayout Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}: viewVisibility=0 req=1080x2640 ty=1 d0
+03-13 15:50:45.830  2105  2922 I SurfaceFlinger: id=69234 createSurf, flag=44004, com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234
+03-13 15:50:45.830  3003  4771 D WindowManager: makeSurface duration=0 name=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401
+03-13 15:50:45.830  3003  4771 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.830  3003  4771 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.830  3003  4771 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation)/@0x32ba391
+03-13 15:50:45.830  3003  4771 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{f6e3948 type=2000 android.os.BinderProxy@2570f3a})/@0x3bfc53a, destroy=false, surface=Surface(name=d1283e1 StatusBar)/@0x416b465
+03-13 15:50:45.830  3003  4771 I WindowManager: Reparenting to leash, surface=Surface(name=d1283e1 StatusBar)/@0x416b465, leashParent=Surface(name=WindowToken{f6e3948 type=2000 android.os.BinderProxy@2570f3a})/@0x3bfc53a
+03-13 15:50:45.831  2105  2922 I SurfaceFlinger: id=69235 createSurf, flag=24000, Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235
+03-13 15:50:45.831  3003  4771 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation)/@0xa663130
+03-13 15:50:45.831  3003  4771 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {6a140000 mType=statusBars initiallyVisible mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=94, right=0, bottom=0}}, target=Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:83 com.android.server.wm.InsetsPolicy.updateBarControlTarget:212 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:262 com.android.server.wm.DisplayPolicy.finishPostLayoutPolicyLw:17 com.android.server.wm.RootWindowContainer.applySurfaceChangesTransaction$1:195 
+03-13 15:50:45.831  3003  4771 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation)/@0x4e966f7
+03-13 15:50:45.831  3003  4771 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{99cc488 type=2019 android.os.BinderProxy@3282ae9})/@0x94ee5c7, destroy=false, surface=Surface(name=1728246 NavigationBar0)/@0x454fb06
+03-13 15:50:45.831  3003  4771 I WindowManager: Reparenting to leash, surface=Surface(name=1728246 NavigationBar0)/@0x454fb06, leashParent=Surface(name=WindowToken{99cc488 type=2019 android.os.BinderProxy@3282ae9})/@0x94ee5c7
+03-13 15:50:45.831  2105  2922 I SurfaceFlinger: id=69236 createSurf, flag=24000, Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236
+03-13 15:50:45.831  3003  4771 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation)/@0x1bd232e
+03-13 15:50:45.831  3003  4771 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {c530001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2496) mInsetsHint=Insets{left=0, top=0, right=0, bottom=144}}, target=Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:83 com.android.server.wm.InsetsPolicy.updateBarControlTarget:225 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:262 com.android.server.wm.DisplayPolicy.finishPostLayoutPolicyLw:17 com.android.server.wm.RootWindowContainer.applySurfaceChangesTransaction$1:195 
+03-13 15:50:45.831  3003  4771 D WindowManager: updateSystemBarAttributes: displayId=0, focusedCanBeNavColorWin=false, win=Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}, navColorWin=Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}, caller=com.android.server.wm.DisplayPolicy.finishPostLayoutPolicyLw:17 com.android.server.wm.RootWindowContainer.applySurfaceChangesTransaction$1:195 com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace:86 
+03-13 15:50:45.832  3003  4771 D WindowManager: updateSystemBarAttributes, bhv=1, apr=24, statusBarAprRegions=[AppearanceRegion{LIGHT_STATUS_BARS bounds=[0,0][1080,2640]}], requestedVisibilities=-9
+03-13 15:50:45.832  2105  2105 I SurfaceFlinger: [5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69227 parentId=69230 z=5} 4 children}
+03-13 15:50:45.832  2105  2105 I SurfaceFlinger: [com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234] attach to parent LayerHierarchy{RequestedLayerState{5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 parentId=69227} 1 children}
+03-13 15:50:45.832  2105  2105 I SurfaceFlinger: [Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{f6e3948 type=2000 android.os.BinderProxy@2570f3a}#120 parentId=18} 2 children}
+03-13 15:50:45.832  2105  2105 I SurfaceFlinger: [Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{99cc488 type=2019 android.os.BinderProxy@3282ae9}#116 parentId=35} 2 children}
+03-13 15:50:45.832  3003  4771 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.832  3003  4771 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.832  4205  4205 D NavigationBar: onSystemBarAttributesChanged() -  displayId:0, appearance:24, packageName: com.shell.sitibv.motorist.america (APPEARANCE_LIGHT_STATUS_BARS APPEARANCE_LIGHT_NAVIGATION_BARS ), navbarColorManagedByIme:false
+03-13 15:50:45.832  3003  4771 D WindowManager: Changing focus from null to Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} displayId=0 Callers=com.android.server.wm.WindowManagerService.relayoutWindow:1359 com.android.server.wm.Session.relayout:27 android.view.IWindowSession$Stub.onTransact:829 com.android.server.wm.Session.onTransact:1 
+03-13 15:50:45.832  3003  4771 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation)/@0xa663130
+03-13 15:50:45.832  3003  4771 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{f6e3948 type=2000 android.os.BinderProxy@2570f3a})/@0x3bfc53a, destroy=false, surface=Surface(name=d1283e1 StatusBar)/@0x416b465
+03-13 15:50:45.832  3003  4771 I WindowManager: Reparenting to leash, surface=Surface(name=d1283e1 StatusBar)/@0x416b465, leashParent=Surface(name=WindowToken{f6e3948 type=2000 android.os.BinderProxy@2570f3a})/@0x3bfc53a
+03-13 15:50:45.832  2105  2922 I SurfaceFlinger: id=69237 createSurf, flag=24000, Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69237
+03-13 15:50:45.832  3003  4771 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation)/@0xb5305c
+03-13 15:50:45.833  3003  4771 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {6a140000 mType=statusBars initiallyVisible mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=94, right=0, bottom=0}}, target=Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:83 com.android.server.wm.InsetsPolicy.updateBarControlTarget:212 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:262 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:372 com.android.server.wm.WindowManagerService.relayoutWindow:1359 
+03-13 15:50:45.833  3003  4771 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation)/@0x1bd232e
+03-13 15:50:45.833  3003  4771 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{99cc488 type=2019 android.os.BinderProxy@3282ae9})/@0x94ee5c7, destroy=false, surface=Surface(name=1728246 NavigationBar0)/@0x454fb06
+03-13 15:50:45.833  3003  4771 I WindowManager: Reparenting to leash, surface=Surface(name=1728246 NavigationBar0)/@0x454fb06, leashParent=Surface(name=WindowToken{99cc488 type=2019 android.os.BinderProxy@3282ae9})/@0x94ee5c7
+03-13 15:50:45.833  2105  2836 I SurfaceFlinger: id=69238 createSurf, flag=24000, Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69238
+03-13 15:50:45.833  3003  4771 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation)/@0xf7c443a
+03-13 15:50:45.833  3003  4771 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {c530001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 2496) mInsetsHint=Insets{left=0, top=0, right=0, bottom=144}}, target=Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}, from=com.android.server.wm.InsetsStateController.onControlTargetChanged:83 com.android.server.wm.InsetsPolicy.updateBarControlTarget:225 com.android.server.wm.DisplayPolicy.updateSystemBarAttributes:262 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:372 com.android.server.wm.WindowManagerService.relayoutWindow:1359 
+03-13 15:50:45.833  3003  4771 D WindowManager: updateSystemBarAttributes: displayId=0, focusedCanBeNavColorWin=false, win=Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}, navColorWin=Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}, caller=com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:372 com.android.server.wm.WindowManagerService.relayoutWindow:1359 com.android.server.wm.Session.relayout:27 
+03-13 15:50:45.833  3003  4771 D WindowManager: updateSystemBarAttributes, bhv=1, apr=16, statusBarAprRegions=[AppearanceRegion{LIGHT_STATUS_BARS bounds=[0,0][1080,2640]}], requestedVisibilities=-9
+03-13 15:50:45.833  3003  4771 V SystemKeyManager: updateFocusedWindow() is called, com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.833  3003  4771 I WindowManager: Relayout hash=5e9a48a, pid=9401, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x1030317
+03-13 15:50:45.833  3003  4771 I WindowManager:   fl=81810100
+03-13 15:50:45.833  3003  4771 I WindowManager:   pfl=100088c0
+03-13 15:50:45.833  3003  4771 I WindowManager:   apr=10
+03-13 15:50:45.833  3003  4771 I WindowManager:   bhv=1
+03-13 15:50:45.833  3003  4771 I WindowManager:   fitSides=0
+03-13 15:50:45.833  3003  4771 I WindowManager:   frameRateBoostOnTouch=true
+03-13 15:50:45.833  3003  4771 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+03-13 15:50:45.833  3003  4771 I WindowManager:   sfl=100000}
+03-13 15:50:45.835  9401  9401 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-13 15:50:45.835  9401  9401 I BufferQueueProducer: [](id:24b900000002,api:0,p:1871818256,c:9401) setDequeueTimeout:2077252342
+03-13 15:50:45.835  4205  4205 D FlexPanelStartController: not support state, mMwEnabled=true, mIsTableMode=false, mDesktopMode=false, mFlexModePanelEnabled=true, mIsImeShowing=false, mIsQuickPanelShowing=false, mIsTaskBarAppsEnabled=false, mIsGlobalActionVisible=false, mOnRecentsAnimation=false, isSupportRotation=true, mIsKeyguardVisible=false
+03-13 15:50:45.835  9401  9401 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[SplashActivity]@5f13bc9 mNativeObject= 0xb400006fbf8ee060 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+03-13 15:50:45.835  9401  9401 I BLASTBufferQueue_Java: update, w= 1080 h= 2640 mName = VRI[SplashActivity]@5f13bc9 mNativeObject= 0xb400006fbf8ee060 sc.mNativeObject= 0xb4000071ef8fd310 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+03-13 15:50:45.835  9401  9401 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+03-13 15:50:45.835  4205  4205 D NavigationBar: onSystemBarAttributesChanged() -  displayId:0, appearance:16, packageName: com.shell.sitibv.motorist.america (APPEARANCE_LIGHT_NAVIGATION_BARS ), navbarColorManagedByIme:false
+03-13 15:50:45.835  9401  9401 I VRI[SplashActivity]@5f13bc9: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) relayoutAsync=false req=(1080,2640)0 dur=4 res=0x3 s={true 0xb40000707f993610} ch=true seqId=0
+03-13 15:50:45.836  4205  4205 D FlexPanelStartController: not support state, mMwEnabled=true, mIsTableMode=false, mDesktopMode=false, mFlexModePanelEnabled=true, mIsImeShowing=false, mIsQuickPanelShowing=false, mIsTaskBarAppsEnabled=false, mIsGlobalActionVisible=false, mOnRecentsAnimation=false, isSupportRotation=true, mIsKeyguardVisible=false
+03-13 15:50:45.836  9401  9401 I VRI[SplashActivity]@5f13bc9: performConfigurationChange setNightDimText nightDimLevel=0
+03-13 15:50:45.836  4205  4205 D NavigationBarControllerImpl: setNavigationBarShortcut requestClass : com.android.wm.shell.controlpanel.activity.FlexPanelActivity, remoteViews : null, position : 0, priority : 11
+03-13 15:50:45.836  4205  4205 D RemoteViewPack: OnSetRemoteView RemoteViewShortcut(requestClass=com.android.wm.shell.controlpanel.activity.FlexPanelActivity, remoteViews=null, position=0, priority=11)
+03-13 15:50:45.836  4205  4205 D NavBarStateManager: NavBarStates(0) isGameMode: false
+03-13 15:50:45.836  9401  9401 D VRI[SplashActivity]@5f13bc9: mThreadedRenderer.initialize() mSurface={isValid=true 0xb40000707f993610} hwInitialized=true
+03-13 15:50:45.836  2007  9939 I sensors-hal: operator():288, operator() in worker.. sending cal request again
+03-13 15:50:45.836  4205  4205 D NavigationBarControllerImpl: setNavigationBarShortcut requestClass : com.android.wm.shell.controlpanel.activity.FlexPanelActivity, remoteViews : null, position : 0, priority : 11
+03-13 15:50:45.836  2007  9938 I sensors-hal: handle_sns_client_event:341, [0] mag_sample_cal(magcal_available:1): ts=258646394654448 ns; cal = [-28.308014, 15.291290, 43.163208], uncal = [-302.388000, 144.531281, -287.016785], bias = [-274.079987, 129.239990, -330.179993], status=2
+03-13 15:50:45.836  4205  4205 D RemoteViewPack: OnSetRemoteView RemoteViewShortcut(requestClass=com.android.wm.shell.controlpanel.activity.FlexPanelActivity, remoteViews=null, position=0, priority=11)
+03-13 15:50:45.836  4205  4205 D NavBarStateManager: NavBarStates(0) isGameMode: false
+03-13 15:50:45.836  2007  9939 I sensors-hal: send_req:220, send_req before send_request mag_cal with SUID low=10350532229688825456 high=14322911740044289799
+03-13 15:50:45.837  9401  9401 D VRI[SplashActivity]@5f13bc9: reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+03-13 15:50:45.837  9401  9401 D VRI[SplashActivity]@5f13bc9: Setup new sync=wmsSync-VRI[SplashActivity]@5f13bc9#4
+03-13 15:50:45.837  9401  9401 I VRI[SplashActivity]@5f13bc9: Creating new active sync group VRI[SplashActivity]@5f13bc9#5
+03-13 15:50:45.837  9401  9401 D VRI[SplashActivity]@5f13bc9: registerCallbacksForSync syncBuffer=false
+03-13 15:50:45.837  2007  9938 I sensors-hal: handle_resp_cb:230, resp_value = 0 for mag_cal before acuiring the lock _cal_mutex
+03-13 15:50:45.837  9401  9637 D VRI[SplashActivity]@5f13bc9: Received frameDrawingCallback syncResult=0 frameNum=1.
+03-13 15:50:45.837  9401  9637 I VRI[SplashActivity]@5f13bc9: mWNT: t=0xb4000071ff91d0d0 mBlastBufferQueue=0xb400006fbf8ee060 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+03-13 15:50:45.837  9401  9637 I VRI[SplashActivity]@5f13bc9: Setting up sync and frameCommitCallback
+03-13 15:50:45.838  9401  9601 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.839  9401  9601 I BLASTBufferQueue: [VRI[SplashActivity]@5f13bc9#2](f:0,a:0,s:0) onFrameAvailable the first frame is available
+03-13 15:50:45.839  9401  9601 I SurfaceComposerClient: apply transaction with the first frame. layerId: 69234, bufferData(ID: 40376987549704, frameNumber: 1)
+03-13 15:50:45.839  2105  2836 I SurfaceFlinger: [com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234] setTransactionState with the first frame. bufferData(ID: 40376987549704, frameNumber: 1)
+03-13 15:50:45.839  9401  9601 I VRI[SplashActivity]@5f13bc9: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+03-13 15:50:45.840  9401  9601 D HWUI    : CFMS:: SetUp Pid : 9401    Tid : 9601
+03-13 15:50:45.840  9401  9401 D VRI[SplashActivity]@5f13bc9: reportDrawFinished seqId=0
+03-13 15:50:45.840  3003  4771 D WindowManager: finishDrawingWindow: Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity} mDrawState=DRAW_PENDING seqId=0
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: RequestedLayer [5e9a48a com.shell.sitibv.motorist.am[...]entation.splash.SplashActivity#69233] hidden!! flag  from(1) --> to(0)
+03-13 15:50:45.840  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.840  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{1728246 NavigationBar0#117 parentId=69238} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69238 parentId=116} 1 children}
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{d1283e1 StatusBar#121 parentId=69237} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69237 parentId=120} 1 children}
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69221} no children}] reparent to OffscreenRoot
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69221} no children}] RelativeParent to null
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69222} no children}] reparent to OffscreenRoot
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69222} no children}] RelativeParent to null
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235} no children}] reparent to OffscreenRoot
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235} no children}] RelativeParent to null
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236} no children}] reparent to OffscreenRoot
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236} no children}] RelativeParent to null
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69237] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{f6e3948 type=2000 android.os.BinderProxy@2570f3a}#120 parentId=18} 1 children}
+03-13 15:50:45.840  2105  2105 I SurfaceFlinger: [Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69238] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{99cc488 type=2019 android.os.BinderProxy@3282ae9}#116 parentId=35} 1 children}
+03-13 15:50:45.840  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.840  3003  3068 V WindowManager: Finish starting ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}: first real window is shown, no animation
+03-13 15:50:45.841  3003  3068 V WindowManager: Schedule remove starting ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801} startingWindow=Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america} animate=true Callers=com.android.server.wm.ActivityRecord.removeStartingWindow:178 com.android.server.wm.WindowState.performShowLocked:155 com.android.server.wm.WindowStateAnimator.commitFinishDrawingLocked:73 com.android.server.wm.DisplayContent$$ExternalSyntheticLambda1.accept$com$android$server$wm$DisplayContent$$ExternalSyntheticLambda37:23 com.android.server.wm.DisplayContent$$ExternalSyntheticLambda1.accept:121 
+03-13 15:50:45.841  3003  3068 D TaskOrganizerController: applyStartingWindowAnimation, window=Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}, caller=com.android.server.wm.TaskOrganizerController.removeStartingWindow:132 com.android.server.wm.StartingSurfaceController$StartingSurface.remove:23 com.android.server.wm.ActivityRecord.removeStartingWindowAnimation:171 
+03-13 15:50:45.841  3003  3068 I WindowManager: Reparenting to leash, surface=Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb, leashParent=Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0xa8e1e7e
+03-13 15:50:45.841  2105  2836 I SurfaceFlinger: id=69239 createSurf, flag=24000, Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb - animation-leash of starting_reveal#69239
+03-13 15:50:45.841  3003  3068 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb - animation-leash of starting_reveal)/@0xf92f648
+03-13 15:50:45.841  3003  3068 I ActivityTaskManager: done cause=notifyWindowsDrawn timestamp=78034837769397 info=TransitionInfo{c4cfce1 a=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801} d=true}
+03-13 15:50:45.841  3003  3068 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}
+03-13 15:50:45.841  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.841  4205  4267 D ShellTaskOrganizer: removeStartingWindow, removalInfo=StartingWindowRemovalInfo{taskId=801 frame=Rect(0, 0 - 1080, 2640) playRevealAnimation=true roundedCornerRadius=0.0 deferRemoveMode=0 windowlessSurface=false removeImmediately=false}
+03-13 15:50:45.841  2105  2836 I SurfaceFlinger: id=69235 Removed Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235 (185)
+03-13 15:50:45.841  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.841  2105  2836 I SurfaceFlinger: id=69236 Removed Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236 (185)
+03-13 15:50:45.841  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.841  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.841  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.842  3003  3068 I WindowManager: notifyInsetsControlChanged, removed=false, win=Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}, caller=com.android.server.wm.InsetsStateController$$ExternalSyntheticLambda1.run:137 com.android.server.wm.WindowAnimator$$ExternalSyntheticLambda2.onTransactionCommitted:26 android.view.SurfaceControl$Transaction$$ExternalSyntheticLambda4.run:0 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103 android.os.Looper.loopOnce:273 
+03-13 15:50:45.843  3003  3064 I ActivityTaskManager: Displayed com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity for user 0: +100ms
+03-13 15:50:45.843  3003  3064 I Pageboost: Launch time gathered : pid 9401 com.shell.sitibv.motorist.america 100
+03-13 15:50:45.843  2105  2858 D SurfaceFlinger: [input] setFocusedWindow: 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.844  9401  9601 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+03-13 15:50:45.844  3003  7241 D InputDispatcher: Once focus requested (0): 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.844  3003  7241 D InputDispatcher: Focus request (0): 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity but waiting because NOT_VISIBLE
+03-13 15:50:45.844  5441  5441 E pageboostd: Received HALT command code 2
+03-13 15:50:45.846  2105  2922 I SurfaceFlinger: id=69221 Removed Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69221 (185)
+03-13 15:50:45.846  2105  2922 I SurfaceFlinger: id=69222 Removed Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69222 (185)
+03-13 15:50:45.846  9401  9601 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.846  9401  9401 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.846  9401  9401 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: RequestedLayer [com.shell.sitibv.motorist.america/co[...]on.splash.SplashActivity$_9401#69234] hidden!! flag  from(1) --> to(0)
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: destroyed Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69221 form LifecycleManager
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: destroyed Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69222 form LifecycleManager
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: destroyed Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235 form LifecycleManager
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: destroyed Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236 form LifecycleManager
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: [Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb - animation-leash of starting_reveal#69239] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69227 parentId=69230 z=5} 5 children}
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 parentId=69239} 1 children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb - animation-leash of starting_reveal#69239 parentId=69227} 1 children}
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: id=69221 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69221 !handle})
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: id=69222 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69222 !handle})
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: id=69235 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235 !handle})
+03-13 15:50:45.848  2105  2105 I SurfaceFlinger: id=69236 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236 !handle})
+03-13 15:50:45.849  2105  2105 I Layer   : id=69221 Destroyed Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69221
+03-13 15:50:45.849  2105  2105 I Layer   : id=69222 Destroyed Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69222
+03-13 15:50:45.849  2105  2105 I Layer   : id=69235 Destroyed Surface(name=d1283e1 StatusBar)/@0x416b465 - animation-leash of insets_animation#69235
+03-13 15:50:45.849  2105  2105 I Layer   : id=69236 Destroyed Surface(name=1728246 NavigationBar0)/@0x454fb06 - animation-leash of insets_animation#69236
+03-13 15:50:45.850  4205  4394 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.850  4205  4392 I VRI[america]@413a322: mWNT: t=0xb4000071ffa52790 mBlastBufferQueue=0xb400006fbfbf2070 fn= 2 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:100 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:73 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+03-13 15:50:45.850  4205  4392 I VRI[america]@413a322: mWNT: t=0xb4000071ffaaffd0 mBlastBufferQueue=0xb400006fbfbf2070 fn= 2 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:100 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:73 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+03-13 15:50:45.851  4205  4345 I VRI[america]@413a322: onActiveControlsChanged, removed=false, mAdded=true, caller=android.view.ViewRootImpl.handleInsetsControlChanged:3002 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:8352 android.view.ViewRootImpl$ViewRootHandler.handleMessage:8301 android.os.Handler.dispatchMessage:110 android.os.Looper.loopOnce:273 
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger: Display 4630946564756762243 HWC layers:
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger:        CLIENT |           40376987549702 | 00002102 | RGBA_8888    |  164.0    0.0 1080.0 2640.0 |    0    0 1080 2640 | com.shell.sitibv.motorist.america/co[...]CountrySelectionActivity$_9401#69220 (19)
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger:   SOLID_COLOR |                        0 | 00000000 | N/A          |    0.0    0.0    0.0    0.0 |    0    0 1080 2640 | DimTransitionLayer for Surface(name=[...]plashActivity t801})/@0x74a807#69232 (0)
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger:        DEVICE |           40376987549704 | 00002102 | RGBA_8888    |    0.0    0.0  493.0 2640.0 |  587    0 1080 2640 | com.shell.sitibv.motorist.america/co[...]on.splash.SplashActivity$_9401#69234 (1)
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513402 | 00002100 | RGBA_8888    |    0.0    0.0  493.0 2640.0 |  587    0 1080 2640 | Splash Screen com.shell.sitibv.motorist.america$_4205#69229 (1)
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513397 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   94.0 |    0    0 1080   94 | StatusBar$_4205#132 (63838)
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger:        DEVICE |           2075328198342
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger: 7 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  357.0 | 1013  511 1080  868 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_4832#69170 (1)
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513390 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2496 1080 2640 | NavigationBar0$_4205#130 (49654)
+03-13 15:50:45.852  2105  2105 D SurfaceFlinger: 
+03-13 15:50:45.852  3003  7241 D InputDispatcher: Focus entered window (0): 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity
+03-13 15:50:45.857  4205  4394 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.857  4205  4393 I VRI[america]@413a322: mWNT: t=0xb4000071ffa8ae90 mBlastBufferQueue=0xb400006fbfbf2070 fn= 3 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:100 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:73 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+03-13 15:50:45.864  2007  9941 I sensors-hal: qsh_conn_event_cb:857, SCHED_FIFO(10) for qmi_cbk
+03-13 15:50:45.866  4205  4394 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.866  4205  4392 I VRI[america]@413a322: mWNT: t=0xb4000071ffab6550 mBlastBufferQueue=0xb400006fbfbf2070 fn= 4 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:100 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:73 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+03-13 15:50:45.873  4832  2380 I HoneySpace.RecentTasks: onRecentTasksChanged
+03-13 15:50:45.873  6380 15784 I SDHMS:k : onTaskStackChanged
+03-13 15:50:45.875  4205  4393 I VRI[america]@413a322: mWNT: t=0xb4000071ff97f0d0 mBlastBufferQueue=0xb400006fbfbf2070 fn= 5 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:100 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:73 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+03-13 15:50:45.883  4205  4392 I VRI[america]@413a322: mWNT: t=0xb4000071ff962490 mBlastBufferQueue=0xb400006fbfbf2070 fn= 6 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:100 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:73 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+03-13 15:50:45.885  9315  9347 I appium  : channel read: GET /session/17ceee09-9fbb-4b83-a69f-9450fba5105b/source
+03-13 15:50:45.886  9315  9347 I appium  : Source command
+03-13 15:50:45.886  9401  9601 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.887  9315  9347 I appium  : Waiting up to 10000ms for the device to idle
+03-13 15:50:45.888  9401  9401 D VRI[SplashActivity]@5f13bc9: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb40000707f993610}
+03-13 15:50:45.888  9401  9601 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.888  9401  9401 D InputMethodManagerUtils: startInputInner - Id : 0
+03-13 15:50:45.888  9401  9401 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+03-13 15:50:45.889  3003  7241 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/3003@18, type = -999
+03-13 15:50:45.889  3003  7241 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/3003@19, type = -999
+03-13 15:50:45.889  3003  7241 D ActivityManagerPerformance: AMP_acquire() TAIL
+03-13 15:50:45.889  3003  7241 D ActivityManagerPerformance: AMP_release() ACT_START
+03-13 15:50:45.889  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 4564749  [3003 / 18]    HINT : AMS_RESUME_TAIL    list : 
+03-13 15:50:45.890  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 4567772  [3003 / 19]    HINT : AMS_ACT_LAZY    list : 
+03-13 15:50:45.892  2022  2124 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4555686
+03-13 15:50:45.892  4205  4393 I VRI[america]@413a322: mWNT: t=0xb4000071ff93e4d0 mBlastBufferQueue=0xb400006fbfbf2070 fn= 7 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:100 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:73 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$afI4fXg3U3-nBZQEDQMiNy-B06s:0 
+03-13 15:50:45.897  3003  3681 V InputMethodManagerService: startInputOrWindowGainedFocusInternalLocked: reason=WINDOW_FOCUS_GAIN client=android.os.BinderProxy@b46f5d8 inputContext=null editorInfo=android.view.inputmethod.EditorInfo@8da6a06 startInputFlags=VIEW_HAS_FOCUS|INITIAL_CONNECTION softInputMode=STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION windowFlags=#81810100 unverifiedTargetSdkVersion=35 bindingController=com.android.server.inputmethod.InputMethodBindingController@7c1716b imeDispatcher=android.window.ImeOnBackInvokedDispatcher@7f128c7 cs=ClientState{8eb9301 mUid=10476 mPid=9401 mSelfReportedDisplayId=0} imeRequestedVisible=false
+03-13 15:50:45.897  3003  3681 V InputMethodManagerService: setWindowStateInner, windowToken=android.os.BinderProxy@f6a3ef5, state=ImeTargetWindowState{ imeToken null imeFocusChanged true hasEditorFocused false requestedImeVisible false imeDisplayId 0 softInputModeState STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION isStartInputByGainFocus true}
+03-13 15:50:45.897  3003  4771 D WindowManager: captureDisplay
+03-13 15:50:45.897  3003  3681 V InputMethodManagerService: Unspecified window will hide input
+03-13 15:50:45.897  3003  4771 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:45.897  3003  3681 I ImeTracker: com.shell.sitibv.motorist.america:603dac8: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+03-13 15:50:45.897  3003  3681 V InputMethodManagerService: applyImeVisibility state=6
+03-13 15:50:45.897  3003  3681 D SemInputMethodManagerServiceUtil: restorePreviousUsedInputMethod : failed to return the previous ime becuase the stored info is null or do not need restore
+03-13 15:50:45.897  3003  3681 V InputMethodManagerService: semComputeImeDisplayIdForTarget: displayToShowIme=0
+03-13 15:50:45.897  3003  3681 V InputMethodManagerService: Creating new accessibility sessions for client ClientState{8eb9301 mUid=10476 mPid=9401 mSelfReportedDisplayId=0}
+03-13 15:50:45.898  9401  9401 I InputMethodManager: handleMessage: setImeVisibility visible=false
+03-13 15:50:45.898  9401  9401 D InsetsController: hide(ime(), fromIme=false)
+03-13 15:50:45.898  9401  9401 I ImeTracker: com.shell.sitibv.motorist.america:603dac8: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+03-13 15:50:45.898  3003  3681 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+03-13 15:50:45.898  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220(seamlessTransition:0)
+03-13 15:50:45.898  2105  2836 I SurfaceFlinger: Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232(seamlessTransition:0)
+03-13 15:50:45.898  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:45.898  2105  2836 I SurfaceFlinger: Capture layer list: 	 Splash Screen com.shell.sitibv.motorist.america$_4205#69229(seamlessTransition:0)
+03-13 15:50:45.898  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:45.898  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:45.898  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 at index 1
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 at index 2
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 3
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer Splash Screen com.shell.sitibv.motorist.america$_4205#69229 at index 4
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 5
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 6
+03-13 15:50:45.899  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 7
+03-13 15:50:45.899  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 460 / 0 / 1.00 (30) / 286 / -60.0 || 100.0 : 286.00 / 0.5 : 1.00 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.100 / 80.022 / N || N N / 0 0 / Y 2.0 / Y X 0 / 78034895 0 || Invalid
+03-13 15:50:45.900  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 15:50:45.900  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 15:50:45.900  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 15:50:45.900  3003  4030 D InsDataManager: trimBuffers start.
+03-13 15:50:45.900  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 23
+03-13 15:50:45.900  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 15:50:45.900  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -60.0,"latency": 0.09997202797202796,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 460 / 0 / 1.00 (30) / 286 / -60.0 || 100.0 : 286.00 / 0.5 : 1.00 / 0.55 : 0.00 / G (G) || 1cf112895765: 0.100 / 80.022 / N || N N / 0 0 / Y 2.0 / Y X 0 / 78034895 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 15:50:45.900  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 20582, isSameBssidAndFreq true
+03-13 15:50:45.900  3003  3681 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard: displayId=0, mFocusedDisplayId=0
+03-13 15:50:45.900  3003  3681 D InputTransport: Input channel constructed: 'ClientS', fd=1361
+03-13 15:50:45.902 15873 15873 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2114 
+03-13 15:50:45.902  3003  4771 I WindowManager: Relayout Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}: viewVisibility=8 req=1080x2640 ty=3 d0
+03-13 15:50:45.902  3003  3681 D InputTransport: Input channel destroyed: 'ClientS', fd=1361
+03-13 15:50:45.902  3003  4771 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.902  9401  9600 D InputTransport: Input channel constructed: 'ClientS', fd=312
+03-13 15:50:45.902  2452  7951 I CameraService: onUidStateChanged: uid=10053, procState is changed. (1 -> 0)
+03-13 15:50:45.902 15873 15873 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 0, locked = false
+03-13 15:50:45.903  3003  4771 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.903 15873 15873 D InputMethodService: unregisterCompatOnBackInvokedCallback return because registered : false
+03-13 15:50:45.903  3003  4771 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.903 15873 15873 D InputMethodService: updateClientDisplayId: displayId=0, mClientDisplayId=0
+03-13 15:50:45.903 15873 15873 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1385 onStartInput(EditorInfo{EditorInfo{packageName=com.shell.sitibv.motorist.america, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=Bundle[{appShowRequested=false, isTextEditor=false, displayId=0}], hintText=null, hintLocales=[]}}, false)
+03-13 15:50:45.903 15873 15873 I AndroidIME: LatinIMEBase.updateInputViewCoverNavigation():314 Update input view padding, extendsTouchBelowSpace=true, bottom inset=144
+03-13 15:50:45.903 15873 15873 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():103 repeatCheckTimes = 1, locked = false
+03-13 15:50:45.903  3003  4771 I WindowManager: Relayout hash=5766a01, pid=4205, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan} layoutInDisplayCutoutMode=always ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030317
+03-13 15:50:45.903  3003  4771 I WindowManager:   fl=81030118
+03-13 15:50:45.903  3003  4771 I WindowManager:   pfl=10000810
+03-13 15:50:45.903  3003  4771 I WindowManager:   apr=18
+03-13 15:50:45.903  3003  4771 I WindowManager:   bhv=1
+03-13 15:50:45.903  3003  4771 I WindowManager:   fitSides=0
+03-13 15:50:45.903  3003  4771 I WindowManager:   frameRateBoostOnTouch=true
+03-13 15:50:45.903  3003  4771 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+03-13 15:50:45.903  3003  7241 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:50:45.903  3003  7241 I WindowManager: Cancelling animation restarting=true, leash=Surface(name=Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation)/@0xbfd5e3d
+03-13 15:50:45.903  3003  7241 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{ed8f529 type=2011 android.os.Binder@9be02b0})/@0xa1cb6a4, destroy=false, surface=Surface(name=4c9e3d1 InputMethod)/@0x9f84137
+03-13 15:50:45.903  3003  7241 I WindowManager: Reparenting to leash, surface=Surface(name=4c9e3d1 InputMethod)/@0x9f84137, leashParent=Surface(name=WindowToken{ed8f529 type=2011 android.os.Binder@9be02b0})/@0xa1cb6a4
+03-13 15:50:45.904  2105  2922 I SurfaceFlinger: id=69240 createSurf, flag=24004, Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69240
+03-13 15:50:45.904  3003  7241 D WindowManager: makeSurface duration=0 leash=Surface(name=Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation)/@0x31760b6
+03-13 15:50:45.904  3003  7241 D InsetsSourceProvider: updateControlForTarget: control=InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 94) mInsetsHint=Insets{left=0, top=0, right=0, bottom=909}}, target=Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}, from=com.android.server.wm.ImeInsetsSourceProvider.updateControlForTarget:17 com.android.server.wm.InsetsStateController.onControlTargetChanged:83 com.android.server.wm.DisplayContent.updateImeControlTarget:21 com.android.server.wm.DisplayContent.updateImeInputAndControlTarget:156 com.android.server.wm.WindowManagerService$LocalService.updateInputMethodTargetWindow:64 
+03-13 15:50:45.904  3003  7241 I ImeTracker: system_server:7aa28e8d: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+03-13 15:50:45.904  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:45.904  3003  3067 V InputMethodManagerService: Client requesting input be hidden
+03-13 15:50:45.904  3003  3067 V InputMethodManagerService: setWindowStateInner, windowToken=android.os.BinderProxy@f6a3ef5, state=ImeTargetWindowState{ imeToken android.os.Binder@7cc3d24 imeFocusChanged true hasEditorFocused false requestedImeVisible false imeDisplayId 0 softInputModeState STATE_UNSPECIFIED|ADJUST_PAN|IS_FORWARD_NAVIGATION isStartInputByGainFocus true}
+03-13 15:50:45.904  3003  3067 I ImeTracker: system_server:7aa28e8d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-13 15:50:45.904  3003  3067 V InputMethodManagerService: hideCurrentInputLocked : canceled, shouldHideSoftInput=false, mInputShown=false, mImeWindowVis=0
+03-13 15:50:45.904  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 cornerRadius=0.000000
+03-13 15:50:45.904  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.905  3003  5013 W PackageConfigPersister: App-specific configuration not found for packageName: com.shell.sitibv.motorist.america and userId: 0
+03-13 15:50:45.905  4205  4345 I VRI[america]@413a322: onActiveControlsChanged, removed=false, mAdded=true, caller=android.view.ViewRootImpl.handleInsetsControlChanged:3002 android.view.ViewRootImpl.relayoutWindow:11629 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 
+03-13 15:50:45.906  4205  4345 I VRI[america]@413a322: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) relayoutAsync=false req=(1080,2640)8 dur=4 res=0x2 s={false 0x0} ch=true seqId=0
+03-13 15:50:45.906  3003  4047 D SGM:GameManager: identifyGamePackage. com.shell.sitibv.motorist.america, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 15:50:45.906  4205  4345 D VRI[america]@413a322: Not drawing due to not visible. Reason=View.GONE
+03-13 15:50:45.906  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.shell.sitibv.motorist.america, ret=false
+03-13 15:50:45.907  2105  2105 I SurfaceFlinger: [Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69240] attach to parent LayerHierarchy{RequestedLayerState{WindowToken{ed8f529 type=2011 android.os.Binder@9be02b0}#43038 parentId=16} 2 children}
+03-13 15:50:45.907  4205  4345 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda16@86ccf6e
+03-13 15:50:45.908  4205  4205 D SystemUIService: SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-13 15:50:45.909  4205  4205 D CentralSurfaces: SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-13 15:50:45.909  4205  4394 D HWUI    : CacheManager::trimMemory(20)
+03-13 15:50:45.909  4205  4345 I VRI[america]@413a322: dispatchDetachedFromWindow
+03-13 15:50:45.909  3003  5013 D CoreBackPreview: Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}: Setting back callback null
+03-13 15:50:45.909  3003  7241 D WindowManager: Starting window removed Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}
+03-13 15:50:45.909  3003  7241 I WindowManager: Cancelling animation restarting=false, leash=Surface(name=Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb - animation-leash of starting_reveal)/@0xf92f648
+03-13 15:50:45.909  3003  7241 I WindowManager: Reparenting to original parent: Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0xa8e1e7e, destroy=false, surface=Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb
+03-13 15:50:45.909  3003  7241 D InputTransport: Input channel destroyed: '5766a01', fd=932
+03-13 15:50:45.910  3003  7241 V WindowManager: Remove Window{5766a01 u0 Splash Screen com.shell.sitibv.motorist.america}: mSurfaceControl=Surface(name=Splash Screen com.shell.sitibv.motorist.america$_4205)/@0xc30d242 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=false animating=false app-animation=false callers=com.android.server.wm.Session.remove:16 android.view.IWindowSession$Stub.onTransact:804 com.android.server.wm.Session.onTransact:1 android.os.Binder.execTransactInternal:1457 android.os.Binder.execTransact:1401 <bottom of call stack> 
+03-13 15:50:45.911  3003  7241 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.911  3003  7241 D WindowManager: updateSystemBarAttributes: displayId=0, focusedCanBeNavColorWin=false, win=Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}, navColorWin=Window{5e9a48a u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity}, caller=com.android.server.wm.DisplayPolicy.finishPostLayoutPolicyLw:17 com.android.server.wm.RootWindowContainer.applySurfaceChangesTransaction$1:195 com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace:86 
+03-13 15:50:45.911  3003  7241 D WindowManager: updateSystemBarAttributes, bhv=1, apr=16, statusBarAprRegions=[AppearanceRegion{ bounds=[0,0][1080,2640]}], requestedVisibilities=-9
+03-13 15:50:45.911  3003  7241 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.912  4205  4345 D InputTransport: Input channel destroyed: '5766a01', fd=456
+03-13 15:50:45.912  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.913  4205  4205 D SamsungLightBarControlHelper: updateStatusBar (WHITE icon) numStacks:1, StatusBarMode:MODE_TRANSPARENT, lightBarBounds:[], StatusBarState:SHADE, packageName:, isWhiteKeyguardStatusBar:false
+03-13 15:50:45.913  4205  4205 D SamsungLightBarControlHelper: onStatusBarAppearanceChanged() -  sbModeChanged:false, statusBarMode:0, barState:MODE_TRANSPARENT, isKeyguardShowing:false, navbarColorManagedByIme:false, (AppearanceRegion{ bounds=[0,0][1080,2640]}, )
+03-13 15:50:45.913  4205  4205 D FlexPanelStartController: not support state, mMwEnabled=true, mIsTableMode=false, mDesktopMode=false, mFlexModePanelEnabled=true, mIsImeShowing=false, mIsQuickPanelShowing=false, mIsTaskBarAppsEnabled=false, mIsGlobalActionVisible=false, mOnRecentsAnimation=false, isSupportRotation=true, mIsKeyguardVisible=false
+03-13 15:50:45.915  2105  2105 I SurfaceFlinger: RequestedLayer [Surface(name=4c9e3d1 InputMethod)/@0[...]tion-leash of insets_animation#69240] hidden!! flag  from(1) --> to(0)
+03-13 15:50:45.915  2105  2105 E SurfaceFlinger: alpha changed 1.000 -> 0.000 - Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69240
+03-13 15:50:45.915  2105  2105 I SurfaceFlinger: RequestedLayer [Splash Screen com.shell.sitibv.motorist.america$_4205#69229] hidden!! flag  from(0) --> to(1)
+03-13 15:50:45.915  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69226} 1 children}] reparent to OffscreenRoot
+03-13 15:50:45.915  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69226} 1 children}] RelativeParent to null
+03-13 15:50:45.915  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=69227 relativeParentId=69227 z=3} 1 children}] reparent to LayerHierarchy{RequestedLayerState{ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69227 parentId=69230 z=5} 5 children}
+03-13 15:50:45.915  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=69227 relativeParentId=69227 z=3} 1 children}] RelativeParent to null
+03-13 15:50:45.915  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{4c9e3d1 InputMethod#43039 parentId=69240} no children}] reparent to LayerHierarchy{RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69240 parentId=43038} 1 children}
+03-13 15:50:45.916  2105  2836 I SurfaceFlinger: id=69226 Removed Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69226 (182)
+03-13 15:50:45.916  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger: Display 4630946564756762243 HWC layers:
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger:        CLIENT |           40376987549701 | 00002102 | RGBA_8888    |  284.0    0.0 1080.0 2640.0 |    0    0 1080 2640 | com.shell.sitibv.motorist.america/co[...]CountrySelectionActivity$_9401#69220 (24)
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger:   SOLID_COLOR |                        0 | 00000000 | N/A          |    0.0    0.0    0.0    0.0 |    0    0 1080 2640 | DimTransitionLayer for Surface(name=[...]plashActivity t801})/@0x74a807#69232 (0)
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger:        DEVICE |           40376987549704 | 00002102 | RGBA_8888    |    0.0    0.0  851.0 2639.0 |  229    1 1080 2640 | com.shell.sitibv.motorist.america/co[...]on.splash.SplashActivity$_9401#69234 (5)
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513397 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   94.0 |    0    0 1080   94 | StatusBar$_4205#132 (63838)
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger:        DEVICE |           20753281983427 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  357.0 | 1013  511 1080  868 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_4832#69170 (1)
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger:        DEVICE |      
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger:      18060337513390 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2496 1080 2640 | NavigationBar0$_4205#130 (49654)
+03-13 15:50:45.918  2105  2105 D SurfaceFlinger: 
+03-13 15:50:45.919 15873 15873 I InputMethodService: scheduleImeSurfaceRemoval: removeImeSurface is posted.
+03-13 15:50:45.919  4205  4205 D NavigationBarControllerImpl: setNavigationBarShortcut requestClass : com.android.wm.shell.controlpanel.activity.FlexPanelActivity, remoteViews : null, position : 0, priority : 11
+03-13 15:50:45.919  4205  4205 D RemoteViewPack: OnSetRemoteView RemoteViewShortcut(requestClass=com.android.wm.shell.controlpanel.activity.FlexPanelActivity, remoteViews=null, position=0, priority=11)
+03-13 15:50:45.919  4205  4205 D NavBarStateManager: NavBarStates(0) isGameMode: false
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: destroyed Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69226 form LifecycleManager
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ImeContainer#16 parentId=69227 relativeParentId=69233 z=1} 1 children}] RelativeParent to LayerHierarchy{RequestedLayerState{5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 parentId=69227} 2 children}
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb - animation-leash of starting_reveal#69239} 1 children}] reparent to OffscreenRoot
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Surface(name=5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity)/@0x38ee8eb - animation-leash of starting_reveal#69239} 1 children}] RelativeParent to null
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 z=2147483647} 1 children}] reparent to OffscreenRoot
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 z=2147483647} 1 children}] RelativeParent to null
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Splash Screen com.shell.sitibv.motorist.america$_4205#69229} no children}] reparent to OffscreenRoot
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Splash Screen com.shell.sitibv.motorist.america$_4205#69229} no children}] RelativeParent to null
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 parentId=69227} 2 children}] reparent to LayerHierarchy{RequestedLayerState{ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69227 parentId=69230 z=5} 4 children}
+03-13 15:50:45.923  2105  2105 I SurfaceFlinger: id=69226 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69226 !handle})
+03-13 15:50:45.924  2105  2105 I Layer   : id=69226 Destroyed Surface(name=4c9e3d1 InputMethod)/@0x9f84137 - animation-leash of insets_animation#69226
+03-13 15:50:45.924  3003  3065 I GestureDetector: handleMessage TAP
+03-13 15:50:45.926  3003  3003 I GestureDetector: handleMessage TAP
+03-13 15:50:45.961  7076  7076 I GWT:SessionWorker: [daemonapp] Clear appWidget-2-worker resource
+03-13 15:50:45.962  7076  7076 I GWT:SessionWorker: [daemonapp] SessionWorker appWidget-2 end
+03-13 15:50:45.962  7076  7076 I GWT:SessionWorker: [daemonapp] closeSession appWidget-2
+03-13 15:50:45.962  7076  7076 I GWT:GlanceSession: [daemonapp] close: this=AppWidgetSession{3daa01c id=2 widget=com.sec.android.daemonapp.home.HomeAppWidget }
+03-13 15:50:45.964  7076  8503 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=e1c95ad7-9004-4ee3-b095-2384f2e87d03, tags={ androidx.glance.session.SessionWorker,com.sec.android.daemonapp,appWidget-2 } ]
+03-13 15:50:45.997  3003  5013 D WindowManager: captureDisplay
+03-13 15:50:45.997  3003  5013 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:45.999  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220(seamlessTransition:0)
+03-13 15:50:45.999  2105  2922 I SurfaceFlinger: Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232(seamlessTransition:0)
+03-13 15:50:45.999  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:45.999  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:45.999  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:45.999  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.000  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.000  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 at index 1
+03-13 15:50:46.000  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 at index 2
+03-13 15:50:46.000  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 3
+03-13 15:50:46.000  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 15:50:46.000  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 5
+03-13 15:50:46.000  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 15:50:46.005  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.032  4205  4205 D QSClock : onDarkChanged tint=WHITE
+03-13 15:50:46.035  3003  3643 D ActivityManager: Received BROADCAST intent 0x9ac8f96 Key{broadcastIntent pkg=com.android.nfc intent=act=android.nfc.intent.action.WATCHDOG xflg=0x4 flags=0x4000000 u=0} requestCode=0 sent=0 from uid 1000
+03-13 15:50:46.037  3003  3643 D ActivityManager: Received SERVICE intent 0x16d9019 Key{startService pkg=com.google.android.gms/com.google.android.gms.auth_authzen__phone intent=act=com.google.android.gms.auth.authzen.cryptauth.DEVICE_STATE_CHECK_DELAY_COMPLETE cat=[targeted_intent_op_prefix:.auth.authzen.cryptauth.DeviceStateSyncManager$CheckStateEventIntentOperation] xflg=0x4 cmp=com.google.android.gms/.chimera.GmsIntentOperationService flags=0x2000000 u=0} requestCode=0 from uid 1000
+03-13 15:50:46.037  4607  4607 D NfcService: handleMessage: MSG_WATCHDOG_PING
+03-13 15:50:46.041 27562  9272 I Authzen : [DeviceStateSyncManager] Skipping sync since last one was 29996ms ago.
+03-13 15:50:46.081  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: getComputedTrayVisible : keyguardState = 1
+03-13 15:50:46.081  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: updateTrayVisible: State = 0x1, visible = true, current containerState = 0, specificMode = 0
+03-13 15:50:46.081  4832  4832 I HoneySpace.EdgePanel.EdgeVisibilityRepository: Same container state 0
+03-13 15:50:46.082  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10476(com.shell.sitibv.motorist.america), SUCCESS, 210ms
+03-13 15:50:46.097  3003  5013 D WindowManager: captureDisplay
+03-13 15:50:46.098  3003  5013 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.100  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220(seamlessTransition:0)
+03-13 15:50:46.100  2105  2321 I SurfaceFlinger: Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232(seamlessTransition:0)
+03-13 15:50:46.100  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.100  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.100  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.100  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.100  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.100  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 at index 1
+03-13 15:50:46.100  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 at index 2
+03-13 15:50:46.100  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 3
+03-13 15:50:46.101  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 15:50:46.101  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 5
+03-13 15:50:46.101  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 15:50:46.104  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.116  3003  5013 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 15:50:46.120  3003  4405 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 15:50:46.121  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:50:46.123  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:50:46.123  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:50:46.124  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:50:46.192  2022  9948 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4564749
+03-13 15:50:46.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773431446
+03-13 15:50:46.198  3003  7241 D WindowManager: captureDisplay
+03-13 15:50:46.199  3003  7241 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.202  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 15:50:46.202  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 342 
+03-13 15:50:46.202  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557190
+03-13 15:50:46.202  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557162
+03-13 15:50:46.202  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 15:50:46.202  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557175
+03-13 15:50:46.202  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 15:50:46.202  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 15:50:46.204  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220(seamlessTransition:0)
+03-13 15:50:46.204  2105  2836 I SurfaceFlinger: Capture layer list: 	 DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232(seamlessTransition:0)
+03-13 15:50:46.204  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.204  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.204  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.204  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 at index 1
+03-13 15:50:46.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 at index 2
+03-13 15:50:46.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 3
+03-13 15:50:46.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 4
+03-13 15:50:46.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 5
+03-13 15:50:46.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 6
+03-13 15:50:46.208  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.210  7076  7076 I GWT:SessionWorker: [daemonapp] Clear appWidget-4-worker resource
+03-13 15:50:46.211  7076  7076 I GWT:SessionWorker: [daemonapp] SessionWorker appWidget-4 end
+03-13 15:50:46.211  7076  7076 I GWT:SessionWorker: [daemonapp] closeSession appWidget-4
+03-13 15:50:46.211  7076  7076 I GWT:GlanceSession: [daemonapp] close: this=AppWidgetSession{bd7ebab id=4 widget=com.sec.android.daemonapp.home.HomeAppWidget }
+03-13 15:50:46.215  7076  8015 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f7526478-7715-42db-a622-dea347f88b86, tags={ androidx.glance.session.SessionWorker,com.sec.android.daemonapp,appWidget-4 } ]
+03-13 15:50:46.218  3003  4405 I ActivityManager: Changes in 10222 8 to 10, 128 to 0
+03-13 15:50:46.233  2105  2105 D SurfaceFlinger: Display 4630946564756762243 HWC layers:
+03-13 15:50:46.233  2105  2105 D SurfaceFlinger:        DEVICE |           40376987549706 | 00002102 | RGBA_8888    |    0.0    0.0 1080.0 2640.0 |    0    0 1080 2640 | com.shell.sitibv.motorist.america/co[...]on.splash.SplashActivity$_9401#69234 (43)
+03-13 15:50:46.233  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513397 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0   94.0 |    0    0 1080   94 | StatusBar$_4205#132 (63854)
+03-13 15:50:46.233  2105  2105 D SurfaceFlinger:        DEVICE |           20753281983427 | 00002100 | RGBA_8888    |    0.0    0.0   67.0  357.0 | 1013  511 1080  868 | com.sec.android.app.launcher/com.sam[...]l.app.CocktailBarService$_4832#69170 (1)
+03-13 15:50:46.233  2105  2105 D SurfaceFlinger:        DEVICE |           18060337513390 | 00002100 | RGBA_8888    |    0.0    0.0 1080.0  144.0 |    0 2496 1080 2640 | NavigationBar0$_4205#130 (49654)
+03-13 15:50:46.233  2105  2105 D SurfaceFlinger: 
+03-13 15:50:46.241  4205  4267 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#8060) android.os.BinderProxy@7f4e396@0
+03-13 15:50:46.241  4205  4267 I SurfaceControlRegistry: apply, t=FinishTransaction_SyncId<8060>, caller=android.view.SurfaceControl$Transaction.apply:3459 android.view.SurfaceControl$Transaction.apply:3447 android.view.SurfaceControl$Transaction.apply:3397 com.android.wm.shell.transition.Transitions.onFinish:315 com.android.wm.shell.transition.Transitions$$ExternalSyntheticLambda7.onTransitionFinished:12 com.android.wm.shell.transition.DefaultTransitionHandler$$ExternalSyntheticLambda2.run:36 
+03-13 15:50:46.242  3003  4405 V WindowManager: Finish Transition: TransitionRecord{6c76ecd id=8060 type=OPEN flags=0x0 c=[
+03-13 15:50:46.242  3003  4405 V WindowManager:    ChangeInfo{8692ac9 container=DefaultTaskDisplayArea_d0@29010794 flags=0x0}
+03-13 15:50:46.242  3003  4405 V WindowManager:    ChangeInfo{46a5ce container=Task{2566d13 #801 type=standard A=10476:com.shell.sitibv.motorist.america nonResizable} flags=0x0}
+03-13 15:50:46.242  3003  4405 V WindowManager:    ChangeInfo{fed8cef container=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801} flags=0x0}
+03-13 15:50:46.242  3003  4405 V WindowManager:    ChangeInfo{8f003fc container=ActivityRecord{167007097 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity t801 f}} flags=0x0}
+03-13 15:50:46.242  3003  4405 V WindowManager:    ChangeInfo{50aa85 container=Display{#0 state=ON size=1080x2640 ROTATION_0} flags=0x0}
+03-13 15:50:46.242  3003  4405 V WindowManager: ]
+03-13 15:50:46.242  3003  4405 V WindowManager: }, caller=com.android.server.wm.WindowOrganizerController.finishTransitionInner:31 com.android.server.wm.WindowOrganizerController.finishAllTransitions:60 android.window.IWindowOrganizerController$Stub.onTransact:283 
+03-13 15:50:46.242  3003  3064 V WindowManager: Finish Transition (#8060): created at 03-13 15:50:45.742 collect-started=0.237ms request-sent=3.262ms started=8.558ms ready=30.532ms sent=32.436ms commit=8.332ms finished=499.901ms
+03-13 15:50:46.242  2105  2321 I SurfaceFlinger: id=69229 Removed Splash Screen com.shell.sitibv.motorist.america$_4205#69229 (181)
+03-13 15:50:46.242  3003  4405 V WindowManager: Setting visibility of Window{e99ed5d u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}: false, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:19 com.android.server.wm.WindowToken.setClientVisible:48 com.android.server.wm.ActivityRecord.commitVisibility:186 com.android.server.wm.TransitionController.finishTransition:846 com.android.server.wm.WindowOrganizerController.finishTransitionInner:31 
+03-13 15:50:46.243  9401  9401 I VRI[CountrySelectionActivity]@101039e: handleAppVisibility mAppVisible = true visible = false
+03-13 15:50:46.243  9401  9401 D VRI[CountrySelectionActivity]@101039e: visibilityChanged oldVisibility=true newVisibility=false
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController: onTransitionFinished: TransitionRecord{6c76ecd id=8060 type=OPEN flags=0x0 c=[
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController:    ChangeInfo{8692ac9 container=DefaultTaskDisplayArea_d0@29010794 flags=0x0}
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController:    ChangeInfo{46a5ce container=Task{2566d13 #801 type=standard A=10476:com.shell.sitibv.motorist.america nonResizable} flags=0x0}
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController:    ChangeInfo{fed8cef container=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801} flags=0x0}
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController:    ChangeInfo{8f003fc container=ActivityRecord{167007097 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity t801 f}} flags=0x0}
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController:    ChangeInfo{50aa85 container=Display{#0 state=ON size=1080x2640 ROTATION_0} flags=0x0}
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController: ]
+03-13 15:50:46.243  3003  4405 D ChangeTransitionController: }
+03-13 15:50:46.243  4205  4267 V WindowManagerShell: Track 0 became idle
+03-13 15:50:46.243  4205  4267 V WindowManagerShell: All active transition animations finished
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: RequestedLayer [ActivityRecord{167007097 u0 com.shel[...]CountrySelectionActivity t801}#69214] hidden!! flag  from(0) --> to(1)
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: [Display 0 name="Built-in Screen"#50] setFrameRateCategory: Default
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: destroyed Splash Screen com.shell.sitibv.motorist.america$_4205#69229 form LifecycleManager
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ActivityRecord{167007097 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity t801}#69214 parentId=69201} 2 children}] reparent to LayerHierarchy{RequestedLayerState{Task=801#69201 parentId=11 z=5} 2 children}
+03-13 15:50:46.248  4205  4205 D SystemUIService: SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69227 parentId=69201 z=1} 4 children}] reparent to LayerHierarchy{RequestedLayerState{Task=801#69201 parentId=11 z=5} 3 children}
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Transition Root: ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69230 z=1} 1 children}] reparent to OffscreenRoot
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Transition Root: ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69230 z=1} 1 children}] RelativeParent to null
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 z=-1} no children}] reparent to OffscreenRoot
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 z=-1} no children}] RelativeParent to null
+03-13 15:50:46.248  4205  4205 D CentralSurfaces: SYSUI_RAM_OPTIMIZATION onTrimMemory=20
+03-13 15:50:46.248  2105  2105 I SurfaceFlinger: id=69229 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Splash Screen com.shell.sitibv.motorist.america$_4205#69229 !handle})
+03-13 15:50:46.248  4205  4394 D HWUI    : CacheManager::trimMemory(20)
+03-13 15:50:46.249  2105  2105 I Layer   : id=69229 Destroyed Splash Screen com.shell.sitibv.motorist.america$_4205#69229
+03-13 15:50:46.249  2105  2105 I SurfaceFlinger: id=69232 Removed DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 (180)
+03-13 15:50:46.249  2105  2105 I SurfaceFlinger: id=69230 Removed Transition Root: ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69230 (180)
+03-13 15:50:46.249  2105  2105 I SurfaceFlinger: id=69228 Removed 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 (180)
+03-13 15:50:46.250  3003  3067 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=9333333, appVsyncOffsetNanos=8333333, frameRateOverrides=[]
+03-13 15:50:46.250  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:46.251  3003  4333 I WindowManager: Relayout Window{e99ed5d u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}: viewVisibility=8 req=1080x2640 ty=1 d0
+03-13 15:50:46.251  3003  4333 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:46.251  3003  4333 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:46.251  3003  4333 I WindowManager: Relayout hash=e99ed5d, pid=9401, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=resize forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x1030317
+03-13 15:50:46.251  3003  4333 I WindowManager:   fl=81810100
+03-13 15:50:46.251  3003  4333 I WindowManager:   pfl=100088c0
+03-13 15:50:46.251  3003  4333 I WindowManager:   vsysui=2000
+03-13 15:50:46.251  3003  4333 I WindowManager:   apr=218
+03-13 15:50:46.251  3003  4333 I WindowManager:   bhv=1
+03-13 15:50:46.251  3003  4333 I WindowManager:   fitSides=0
+03-13 15:50:46.251  3003  4333 I WindowManager:   frameRateBoostOnTouch=true
+03-13 15:50:46.251  3003  4333 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0
+03-13 15:50:46.251  3003  4333 I WindowManager:   sfl=100000}
+03-13 15:50:46.251  4832  2380 I HoneySpace.Memory-Monitor: current state = 2, didTrim = false
+03-13 15:50:46.252  4205  4205 D DisplayLifecycle: updateDisplay id = 0
+03-13 15:50:46.252  4205  4362 D StackScroller: onDisplayChanged for predraw skip to 2
+03-13 15:50:46.252  3003  5013 D WifiDisplayAdapter: isFitToActiveDisplayLocked : false
+03-13 15:50:46.252  9401  9401 I VRI[CountrySelectionActivity]@101039e: Relayout returned: old=(0,0,1080,2640) new=(0,0,1080,2640) relayoutAsync=false req=(1080,2640)8 dur=2 res=0x2 s={false 0x0} ch=true seqId=0
+03-13 15:50:46.253  9401  9401 D VRI[CountrySelectionActivity]@101039e: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+03-13 15:50:46.253  9401  9401 I VRI[CountrySelectionActivity]@101039e: stopped(true) old = false
+03-13 15:50:46.253  9401  9401 D VRI[CountrySelectionActivity]@101039e: WindowStopped on com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity set to true
+03-13 15:50:46.255  9401  9401 I BMP:LifecycleCallbacks: Activity Destroyed: com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity
+03-13 15:50:46.255  9401  9401 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda16@a1e5338
+03-13 15:50:46.256  3003  5013 D CoreBackPreview: Window{e99ed5d u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}: Setting back callback null
+03-13 15:50:46.256  2105  2105 I SurfaceFlinger: RequestedLayer [com.shell.sitibv.motorist.america/co[...]CountrySelectionActivity$_9401#69220] hidden!! flag  from(0) --> to(1)
+03-13 15:50:46.256  2105  2105 I SurfaceFlinger: destroyed 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 form LifecycleManager
+03-13 15:50:46.256  2105  2105 I SurfaceFlinger: destroyed Transition Root: ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69230 form LifecycleManager
+03-13 15:50:46.256  2105  2105 I SurfaceFlinger: destroyed DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 form LifecycleManager
+03-13 15:50:46.256  2105  2105 I SurfaceFlinger: id=69228 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{5766a01 Splash Screen com.shell.sitibv.motorist.america#69228 !handle z=2147483647})
+03-13 15:50:46.256  2105  2105 I SurfaceFlinger: id=69230 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Transition Root: ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69230 !handle z=1})
+03-13 15:50:46.256  2105  2105 I SurfaceFlinger: id=69232 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232 !handle z=-1})
+03-13 15:50:46.256  9401  9401 D ViewRootImpl: Skipping stats log for color mode
+03-13 15:50:46.256  9401  9401 I VRI[CountrySelectionActivity]@101039e: dispatchDetachedFromWindow
+03-13 15:50:46.257  2105  2105 I Layer   : id=69228 Destroyed 5766a01 Splash Screen com.shell.sitibv.motorist.america#69228
+03-13 15:50:46.257  2105  2105 I Layer   : id=69230 Destroyed Transition Root: ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801}#69230
+03-13 15:50:46.257  2105  2105 I Layer   : id=69232 Destroyed DimTransitionLayer for Surface(name=ActivityRecord{104518530 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity t801})/@0x74a807#69232
+03-13 15:50:46.257  3003  5013 D InputTransport: Input channel destroyed: 'e99ed5d', fd=1304
+03-13 15:50:46.257  3003  5013 V WindowManager: Remove Window{e99ed5d u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity}: mSurfaceControl=Surface(name=com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401)/@0xd76e445 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=false animating=false app-animation=false callers=com.android.server.wm.Session.remove:16 android.view.IWindowSession$Stub.onTransact:804 com.android.server.wm.Session.onTransact:1 android.os.Binder.execTransactInternal:1457 android.os.Binder.execTransact:1401 <bottom of call stack> 
+03-13 15:50:46.257  3003  5013 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:50:46.257  3003  5013 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:46.258  3003  5013 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:46.258  9401  9401 D InputTransport: Input channel destroyed: 'e99ed5d', fd=328
+03-13 15:50:46.259  3003  3067 D SGM:FgCheckThread: getForegroundApp(), foregroundPkgName=com.shell.sitibv.motorist.america
+03-13 15:50:46.259  2105  2921 I SurfaceFlinger: id=69224 Removed 3edc7c3 ActivityRecordInputSink com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#69224 (177)
+03-13 15:50:46.259  3003  3067 D SGM:FgCheckThread: pkgName: com.shell.sitibv.motorist.america is in foreground
+03-13 15:50:46.259  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 15:50:46.265  3003  3003 W AccessibilityManagerService:  wait for adding window timeout: 17721
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220} no children}] reparent to OffscreenRoot
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220} no children}] RelativeParent to null
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{e99ed5d com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#69219} no children}] reparent to OffscreenRoot
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{e99ed5d com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#69219} no children}] RelativeParent to null
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ActivityRecord{167007097 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity t801}#69214} 1 children}] reparent to OffscreenRoot
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ActivityRecord{167007097 u0 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity t801}#69214} 1 children}] RelativeParent to null
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: id=69219 Removed e99ed5d com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#69219 (177)
+03-13 15:50:46.273  2105  2105 I SurfaceFlinger: id=69220 Removed com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 (177)
+03-13 15:50:46.281  2105  2105 I SurfaceFlinger: destroyed com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 form LifecycleManager
+03-13 15:50:46.281  2105  2105 I SurfaceFlinger: destroyed e99ed5d com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#69219 form LifecycleManager
+03-13 15:50:46.281  2105  2105 I SurfaceFlinger: id=69220 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220 !handle})
+03-13 15:50:46.281  2105  2105 I SurfaceFlinger: id=69219 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{e99ed5d com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#69219 !handle})
+03-13 15:50:46.282  2105  2105 I Layer   : id=69220 Destroyed com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity$_9401#69220
+03-13 15:50:46.283  2105  2105 I Layer   : id=69219 Destroyed e99ed5d com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.marketselection.CountrySelectionActivity#69219
+03-13 15:50:46.299  3003  7241 D WindowManager: captureDisplay
+03-13 15:50:46.299  3003  7241 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.301  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.302  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.302  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.302  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.302  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.302  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.303  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.303  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.303  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.307  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.348  6380  6574 I M0      : limitCPUFreq:: freq = 1824000
+03-13 15:50:46.348  6380  6574 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/6380@3, type = 301993986
+03-13 15:50:46.348  2022  2124 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 20374539  [6380 / 3]    HINT :      list : [CPUMaxFreq / 1824000] 
+03-13 15:50:46.366  3003  3678 D SemInputMotionEventDispatcher: registerMotionEventListener: already registered: com.samsung.android.hardware.secinputdev.taas.ExternalApi$5@7af94ab
+03-13 15:50:46.400  3003  4920 D WindowManager: captureDisplay
+03-13 15:50:46.401  3003  4920 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.404  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.404  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.404  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.404  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.404  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.404  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.404  3003  3067 D SGM:GameManager: identifyForegroundApp. com.shell.sitibv.motorist.america, mCurrentUserId: 0, callerUserId: 0
+03-13 15:50:46.404  3003  3067 D SGM:SemGameManager: isForegroundGame(), ret=false
+03-13 15:50:46.405  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.405  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.405  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.409  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.419 15873 15873 I InputMethodService: removeImeSurface
+03-13 15:50:46.419 15873 15873 I InputMethodService: cancelImeSurfaceRemoval: removeCallbacks
+03-13 15:50:46.499  3003  4920 D WindowManager: captureDisplay
+03-13 15:50:46.499  3003  4920 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.503  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.503  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.503  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.503  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.503  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.503  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.504  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.504  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.504  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.508  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.525  2007  8838 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 193(193),c:287,b:87,m:13,cl:68,l:182,s:192,l0:20304,l1:64,s0:15234,s1:0,acl:1,opr:0.97,f(r):97,u(bl):108,if:0,wi:4,si:12,po:124(N:0)
+03-13 15:50:46.600  3003  4920 D WindowManager: captureDisplay
+03-13 15:50:46.600  3003  4920 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.604  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.604  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.604  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.604  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.604  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.605  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.605  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.605  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.605  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.609  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.700  3003  4920 D WindowManager: captureDisplay
+03-13 15:50:46.700  3003  4920 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.703  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.703  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.703  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.703  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.703  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.704  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.704  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.704  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.708  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.800  3003  4920 D WindowManager: captureDisplay
+03-13 15:50:46.801  3003  4920 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.805  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.805  2105  2836 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.805  2105  2836 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.805  2105  2836 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.806  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.806  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.806  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.806  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.806  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.811  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.828  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,0 acc,0.086,0.522,9.820, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 15:50:46.850  9315  9347 I appium  : AppiumResponse: {"sessionId":"17ceee09-9fbb-4b83-a69f-9450fba5105b","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.shell.sitibv.motorist.america\…
+03-13 15:50:46.864  9315  9347 I appium  : channel read: GET /session/17ceee09-9fbb-4b83-a69f-9450fba5105b/screenshot
+03-13 15:50:46.865  9315  9347 I appium  : CaptureScreenshot command
+03-13 15:50:46.865  9315  9347 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:50:46.865  9315  9347 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 15:50:46.900  3003  7241 D WindowManager: captureDisplay
+03-13 15:50:46.900  3003  7241 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:46.908  2105  2105 D TransactionCallbackInvoker: addCallbackHandle:com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 is not released yet
+03-13 15:50:46.916  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.916  2105  2921 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.916  2105  2921 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.916  2105  2921 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.917  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.917  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.917  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.917  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.918  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.921  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:46.976  9957  9957 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 15:50:46.976  9957  9957 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 15:50:46.977  9957  9957 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 15:50:46.977  3003  7241 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 15:50:46.977  3003  7241 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 15:50:46.977  9957  9957 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 15:50:46.977  3003  4920 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+03-13 15:50:46.977  3003  4920 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+03-13 15:50:46.977  9957  9957 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 15:50:46.982  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:46.982  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:46.982  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:46.982  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:46.982  2105  2922 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 15:50:46.983  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:46.983  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:46.983  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:46.983  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:46.983  2105  2105 D TransactionCallbackInvoker: addCallbackHandle:com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 is not released yet
+03-13 15:50:46.983  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:46.999  3003  3067 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=120.00001, presentationDeadlineNanos=9333333, appVsyncOffsetNanos=8333333, frameRateOverrides=[{uid=10476 frameRateHz=60.000004}]
+03-13 15:50:47.000  3003  4920 D WindowManager: captureDisplay
+03-13 15:50:47.002  3003  3068 D SurfaceComposerClient: setCornerRadius ## 5e9a48a com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity#69233 cornerRadius=0.000000
+03-13 15:50:47.003  3003  4920 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:47.008  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:47.008  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:47.008  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:47.008  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:47.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:47.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:47.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:47.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:47.009  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:47.010  2105  2105 D TransactionCallbackInvoker: addCallbackHandle:com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 is not released yet
+03-13 15:50:47.013  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:47.022  9957  9962 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 15:50:47.022  9957  9957 W qdgralloc: Failed to load libubwcp.so
+03-13 15:50:47.101  3003  4920 D WindowManager: captureDisplay
+03-13 15:50:47.102  3003  4920 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:47.110  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:47.110  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:47.110  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:47.110  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:47.111  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:47.111  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:47.112  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:47.112  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:47.112  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:47.117  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:47.129  2022  9914 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20547285
+03-13 15:50:47.130  2022  9916 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 20553697
+03-13 15:50:47.151 16161 16161 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+03-13 15:50:47.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773431447
+03-13 15:50:47.200  3003  7241 D WindowManager: captureDisplay
+03-13 15:50:47.200  3003  7241 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0
+03-13 15:50:47.204  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234(seamlessTransition:0)
+03-13 15:50:47.204  2105  2922 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 15:50:47.204  2105  2922 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170(seamlessTransition:0)
+03-13 15:50:47.204  2105  2922 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 15:50:47.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 15:50:47.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.shell.sitibv.motorist.america/com.mobgen.fireblade.presentation.splash.SplashActivity$_9401#69234 at index 1
+03-13 15:50:47.205  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 2
+03-13 15:50:47.206  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#69170 at index 3
+03-13 15:50:47.206  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 4
+03-13 15:50:47.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 15:50:47.206  2097  2125 D HeatmapThread: !@ batteryLevel : 100  batteryTemperature : 342 
+03-13 15:50:47.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557190
+03-13 15:50:47.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557162
+03-13 15:50:47.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 15:50:47.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557175
+03-13 15:50:47.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 15:50:47.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 15:50:47.211  9315  9687 W qdgralloc: getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+03-13 15:50:47.232  9315  9347 I appium  : AppiumResponse: {"sessionId":"17ceee09-9fbb-4b83-a69f-9450fba5105b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N17sN4Fnd/xbxISEgIJEK4Cgly8ULHC1HrZhV31j+1e6u5qV7fOjnYoTjtbWnVqXaZa10vVwaKr7jjtdFDruNMdQFlcb+OooAQSIuROCOeEJCcJuZ3cc+6X55z+QUVCAoSQc37n85zX668…
+03-13 15:50:47.300  3003  7241 D WindowManager: captureDisplay
+03-13 15:50:47.300  3003  7241 I SurfaceComposerClient: captureLayers:childrenOnly:1, sync:0

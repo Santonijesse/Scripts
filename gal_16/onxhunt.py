@@ -26,7 +26,7 @@ options.load_capabilities({
     "appium:deviceName": "R5CX809QS2L",
     "appium:udid": "R5CX809QS2L",
     "appium:appPackage": "onxmaps.hunt",
-    #"appium:appActivity": "com.onxmaps.hunt.ui.activity.SplashActivity",
+    "appium:appActivity": "onxmaps.xgps.XgpsActivity",
     "appium:automationName": "UiAutomator2",
     "appium:ensureWebviewsHavePages": True,
     "appium:nativeWebScreenshot": True,
@@ -50,15 +50,15 @@ def tap(x, y, delay=2):
         time.sleep(delay)
 
 
-tap(535, 2200, 3)
+tap(535, 2350, 3)
 tap(130, 830, 3)
-tap(450, 1830, 3)
+tap(450, 2325, 3)
 tap(130, 990, 3)
-tap(110, 2100, 3)
-tap(220, 2100, 3)
-tap(330, 2100, 3)
-tap(440, 2100, 3)
-tap(550, 2100, 3)
+tap(110, 2160, 3)
+tap(220, 2160, 3)
+tap(330, 2160, 3)
+tap(440, 2160, 3)
+tap(550, 2160, 3)
 
 existing = glob.glob(os.path.join(SCREENSHOTS_DIR, f"{APP_NAME}_before_*.png"))
 instance = len(existing) + 1

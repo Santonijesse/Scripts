@@ -1,0 +1,312 @@
+--------- beginning of main
+03-13 20:01:07.577 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.587  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 3ms
+03-13 20:01:07.607 16538 14485 I MobileWips::ns: Datetime result: [1773446457783, 1773446467825, -1]
+03-13 20:01:07.608 16538 14485 I MobileWips::ns: Final detection result: [ssid: 4eb17f79ec7c7688927e6fad872c5aeac44e9ad2a0e36f63a92b68d72185908f, bssid: f450f43cec6bbd1ee09df89eee396598f6940a95383fca779ac6b7e0b0811015, freq: 5765, result: benign]
+03-13 20:01:07.619 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.660 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.673  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 20:01:07.694 13684 13712 I appium  : channel read: GET /session/464b2ec1-d289-4bd0-a1f6-0242fd4ad472/source
+03-13 20:01:07.696 13684 13712 I appium  : Source command
+03-13 20:01:07.697 13684 13712 I appium  : Waiting up to 10000ms for the device to idle
+03-13 20:01:07.702 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.744 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.785 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.826 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.869 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.910 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.932  2007 14006 I sensors-hal: handle_sns_client_event:375, [0][130] accel_sample [ 3.228,  3.220,  8.336] 273668393085913
+03-13 20:01:07.951 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:07.993 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.034 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.076 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.119 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.159 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773446468
+03-13 20:01:08.201 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.207 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{538cd8c VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 20:01:08.207 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{31306ad V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 20:01:08.207  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 20:01:08.208  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 351 
+03-13 20:01:08.208  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557441
+03-13 20:01:08.208  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557432
+03-13 20:01:08.208  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 20:01:08.208  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557415
+03-13 20:01:08.208  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 20:01:08.208  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 20:01:08.243 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.244 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{538cd8c VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 20:01:08.244 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{31306ad V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 20:01:08.284 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.314  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,662, ts,273668879563621, ts_diff,632901
+03-13 20:01:08.314  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,2.024,3.460,10.150, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 20:01:08.315  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+--------- beginning of system
+03-13 20:01:08.315  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-13 20:01:08.315  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-13 20:01:08.316  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 20:01:08.316  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 20:01:08.326 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.358  2007 12669 I sensors-hal: handle_sns_client_event:197, auto_rotation_debug_2 mode,255, type,1,1 acc,1.000,3.637,8.571, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 20:01:08.367 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.379  3003  4923 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 20:01:08.387  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:08.388  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:08.388  3003  4923 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 20:01:08.389  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:08.389  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:08.409 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.451 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.492 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.534 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.576 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.618 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.624  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,255, duration,0, ts,273669189164663, ts_diff,630140
+03-13 20:01:08.624  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,0.321,3.178,9.035, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 20:01:08.625  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: -1
+03-13 20:01:08.625  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-13 20:01:08.626  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 20:01:08.626  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 20:01:08.628  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: -1
+03-13 20:01:08.659 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.682  1171  1171 D io_stats: !@   8,0 r 4917118 146355348 w 6945609 130690428 d 527501 148134156 f 285578 661571 iot 2678540 0 th 0 0 0 pt 0 inp 0 0 93057.678
+03-13 20:01:08.701 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.742 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.783 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.826 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.867 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.908 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.923 13771 14691 D BufferPoolAccessor2.0: bufferpool2 0xb4000070df9951f8 : 0(0 size) total buffers - 0(0 size) used buffers - 35/48 (recycle/alloc) - 12/39 (fetch/transfer)
+03-13 20:01:08.923  2496 25702 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-13 20:01:08.923 13771 14691 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+03-13 20:01:08.923  2053  2901 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-13 20:01:08.950 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.992 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:08.999  2541  2918 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+03-13 20:01:08.999  2007 12669 I sensors-hal: handle_sns_client_event:159, auto_rotation_event_2 event,0, duration,198, ts,273669564922840, ts_diff,750765
+03-13 20:01:09.000  2007 12669 I sensors-hal: handle_sns_client_event:170, auto_rotation_debug_2 acc,2.627,4.719,7.839, ar,0, h_ic,0,0, s,2, ver,14, pedo,1,e,1,i,3
+03-13 20:01:09.000  3003  3003 D WindowOrientationListener: onSensorChanged device orientation: 0
+03-13 20:01:09.000  4205  4205 D AppController: AppControlSensorListener.onSensorChanged, Rotation: 0
+03-13 20:01:09.000  3003  3003 I WindowManager: getCoverScreenRotation 0, sensor= 0, isFlat=false, isDual=false
+03-13 20:01:09.001  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=1 based on lastOrientation=SCREEN_ORIENTATION_NOSENSOR (5) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 20:01:09.001  3003  3003 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_PORTRAIT (1) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.WindowManagerService.updateRotationUnchecked:72 com.android.server.wm.DisplayRotation$OrientationListener.onProposedRotationChanged:335 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.finalizeRotation:26 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge.onSensorChanged:401 android.hardware.SystemSensorManager$SensorEventQueue.dispatchSensorEvent:1142 android.os.MessageQueue.nativePollOnce:-2 
+03-13 20:01:09.022 13771 14693 D CCodecBuffers: [c2.android.aac.decoder#596:EncryptedInput.Impl[N]] codec released a buffer owned by client (index 0)
+03-13 20:01:09.033 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.075 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.117 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.158 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.198  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773446469
+03-13 20:01:09.200 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.205 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{538cd8c VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 20:01:09.205 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{31306ad V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 20:01:09.206  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 20:01:09.206  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 351 
+03-13 20:01:09.206  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557441
+03-13 20:01:09.206  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557432
+03-13 20:01:09.206  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 20:01:09.206  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557415
+03-13 20:01:09.206  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 20:01:09.206  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 20:01:09.219  3003  4027 I SemWifiServiceDetector: NSD results: [0, 0, 2, 0, 0, 0, 2, 0, 0] Traff. type 1 Thr 5101
+03-13 20:01:09.241 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.242 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{538cd8c VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 20:01:09.242 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{31306ad V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 20:01:09.253  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+03-13 20:01:09.253  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK ON
+03-13 20:01:09.254  1993  6685 D vendor.qti.bluetooth@1.1-wake_lock: Acquire wakelock is acquired 
+03-13 20:01:09.254  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+03-13 20:01:09.262  5393  6769 I ScanController: onScanResult to scannerId: 1- eventType=0x1b, addressType=1, address=XX:XX:XX:XX:74:DB, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-78, periodicAdvInt=0x0
+03-13 20:01:09.265 16161 17325 I NearbyDiscovery: (REDACTED) BloomFilterAdvManager: Detected bloom filter but too far away, ignoring. %sm, %s
+03-13 20:01:09.283 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.300  1993  6685 I vendor.qti.bluetooth@1.1-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+03-13 20:01:09.301  1993  6685 D vendor.qti.bluetooth@1.1-ibs_handler: SerialClockVote: vote for UART CLK OFF
+03-13 20:01:09.325 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.366 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.408 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.449 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.453  1993  5851 D vendor.qti.bluetooth@1.1-wake_lock: Release wakelock is released 
+03-13 20:01:09.491 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.535 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.536 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{8d103c8 VFED..... ........ 0,0-1080,136 aid=1073741834}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 20:01:09.536 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{9ecab80 V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.View.draw:26072 
+03-13 20:01:09.575 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.595  3003  3941 D ConnectivityService: notifyType CALLBACK_CAP_CHANGED for [115 WIFI]
+03-13 20:01:09.602  4205  4574 I WifiPickerTracker: NetworkCallback : onCapabilitiesChanged
+03-13 20:01:09.602  4205  4574 D WifiPickerTracker: updateWifiEntries capabilities
+03-13 20:01:09.603  3003  7743 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25355, isSameBssidAndFreq true
+03-13 20:01:09.608  3003  4029 I SemWifiLinkQualityMonitor: Link stat: 2864 / 21 / 1.03 (378) / 573 / -55.0 || 100.0 : 573.00 / 0.5 : 0.97 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.493 / N || N N / 0 0 / Y 2.0 / Y X 0 / 93058604 0 || Invalid
+03-13 20:01:09.609  3003  4030 D InsDataManager: onOutageCountUpdate() - Outage Data: 0, LQ : Y. Outage Triggered: false
+03-13 20:01:09.609  3003  4030 D InsDataManager: Trying to save initial normal data.
+03-13 20:01:09.610  3003  4030 D SensorCollector: syncMappedBuffers: 0, 0, 99
+03-13 20:01:09.610  3003  4030 D InsDataManager: trimBuffers start.
+03-13 20:01:09.610  3003  4030 D InsDataManager: trimBuffers - nsmBuffer size: 26
+03-13 20:01:09.610  3003  4030 D InsDataManager: Too short for collecting additional normal data
+03-13 20:01:09.611  3003  4030 D SemInsManager: {"bssid": "1cf112895765","rssi": -55.0,"latency": 0.08649343815586981,"outage_count": 0,"lq_callback_triggered": true,"outage_log": "Link stat: 2864 / 21 / 1.03 (378) / 573 / -55.0 || 100.0 : 573.00 / 0.5 : 0.97 / 0.55 : 0.01 / G (G) || 1cf112895765: 0.086 / 92.493 / N || N N / 0 0 / Y 2.0 / Y X 0 / 93058604 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+03-13 20:01:09.613  4205  4362 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+03-13 20:01:09.614  4600  5502 D txpwrJni: sendNetworkInfo start
+03-13 20:01:09.614  4600  5502 D txpwrJni: sendNetworkInfo RatType 0
+03-13 20:01:09.615  6263  8145 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[1e7477ef-90d2]>Handler" thread_id=64 ]
+03-13 20:01:09.616 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.624  6263  7489 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=59 ]
+03-13 20:01:09.629  4205  4574 D WifiPickerTracker: update AutoHotspot Entries() : bleAccessPoints -> 0
+03-13 20:01:09.629  4205  4574 D WifiPickerTracker: handleNetworkCapabilitiesChanged
+03-13 20:01:09.630  4205  4574 I WifiPickerTracker: DefaultNetworkCallback : onCapabilitiesChanged
+03-13 20:01:09.637  4184  4782 E PhoneInterfaceManager: getCarrierPrivilegeStatusForUid: Invalid subId
+03-13 20:01:09.640  3003  4047 D SGM:GameManager: identifyGamePackage. com.tubitv, mCurrentUserId: 0, callingMethodInfo: com.samsung.android.game.SemGameManager.isGamePackage(SemGameManager.java:106)
+03-13 20:01:09.640  3003  4047 D SGM:SemGameManager: isGamePackage(), pkgName=com.tubitv, ret=false
+03-13 20:01:09.641  3003  3980 D SemWifiApNsd:Client: lpInterface:wlan0
+03-13 20:01:09.642  3003  3980 D SemWifiSwitchForIndividualAppsService: stopTCPMonitoring : already stopped
+03-13 20:01:09.642  3003  3980 I WifiConnectivityMonitor.NCC: sNetworkCallback(oCC) FULL : 115(valid: true/captive: false)
+03-13 20:01:09.643 22998 23062 V Braze v37.0.0 .f: recalculateDispatchState called with session state: NO_SESSION lastNetworkLevel: GOOD
+03-13 20:01:09.643 22998 23062 V Braze v37.0.0 .f: currentIntervalMs: -1
+03-13 20:01:09.644 16161 16394 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+03-13 20:01:09.645 16161 16394 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+03-13 20:01:09.645  3003  3980 I WifiConnectivityMonitor.NCC: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=7026Kbps LinkDnBandwidth>=23728Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:**:**:00, MAC: 02:00:00:**:**:00, IP: /10.**.*.215, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 11ax, RSSI: -55, Link speed: 573Mbps, Tx Link speed: 573Mbps, Max Supported Tx Link speed: 573Mbps, Rx Link speed: 344Mbps, Max Supported Rx Link speed: 573Mbps, Frequency: 5805MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -55 AdminUids: [1000] SSID: "MSU-Secure" UnderlyingNetworks: Null]
+03-13 20:01:09.646  3003  4058 D WifiConnectivityMonitor: HANDLE_ON_CAPABILITIES_CHANGED
+03-13 20:01:09.646  3003  4058 I WifiConnectivityMonitor: determineMode : MODE_NON_SWITCHABLE_BY_POOR_NETWORK_DETECTION_DISABLED
+03-13 20:01:09.646  3003  4058 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+03-13 20:01:09.646  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+03-13 20:01:09.646  3003  4058 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 30 30 26 
+03-13 20:01:09.646  3003  3980 D SemWifiApTrafficPriority: onCapabilitiesChanged Wifi:wlan0,mGapiValue:23.728Uplink: 7.026
+03-13 20:01:09.646  3003  4058 D KNOX_MDM_SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+03-13 20:01:09.646  3003  4058 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+03-13 20:01:09.646  3003  5535 D WifiProfileShare: nearby scanning settings run
+03-13 20:01:09.647  3003  5535 D WifiProfileShare: network score provider settings enabled
+03-13 20:01:09.647  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+03-13 20:01:09.647  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+03-13 20:01:09.647  3003  5535 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+03-13 20:01:09.647  3003  4050 D SemApeService: Deducted link capacity (M: R=240 T=401) RSSI=-55
+03-13 20:01:09.647  3003  4050 D SemApeService: Deducted link capacity (M: R=240 T=401) on (wlan0) GoogleAPI(M: R=23 T=7) RSSI=-55 isDefault=false isMlo=false
+03-13 20:01:09.653  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:09.657 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.657  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 1ms
+03-13 20:01:09.699 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.709  3003  4086 D NetdEventListenerService: DNS Requested by 115, 10096(com.samsung.android.server.wifi.mobilewips), SUCCESS, 3ms
+03-13 20:01:09.735 16538 14485 I MobileWips::ns: Datetime result: [1773446469907, 1773446469945, -1]
+03-13 20:01:09.736 16538 14485 I MobileWips::ns: Final detection result: [ssid: 4eb17f79ec7c7688927e6fad872c5aeac44e9ad2a0e36f63a92b68d72185908f, bssid: f450f43cec6bbd1ee09df89eee396598f6940a95383fca779ac6b7e0b0811015, freq: 5765, result: benign]
+03-13 20:01:09.741 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.783 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.825 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.866 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.901  3003  4923 I ActivityManager: Changes in 10405 6 to 10, 128 to 0
+03-13 20:01:09.908 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.916  3003  4923 I ActivityManager: Changes in 10405 10 to 6, 0 to 128
+03-13 20:01:09.923  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:09.924 13771 14691 D BufferPoolAccessor2.0: bufferpool2 0xb4000070df945c68 : 0(0 size) total buffers - 0(0 size) used buffers - 46/51 (recycle/alloc) - 5/46 (fetch/transfer)
+03-13 20:01:09.924 13771 14691 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+03-13 20:01:09.929  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:09.929  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:09.929  3003  4002 D BackgroundInstallControlService: Package event received: 0
+03-13 20:01:09.949 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:09.991 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.001  2541  2918 D BufferPoolAccessor2.0: bufferpool2 0xb40000707bf1f7d8 : 0(0 size) total buffers - 0(0 size) used buffers - 38/42 (recycle/alloc) - 4/42 (fetch/transfer)
+03-13 20:01:10.001  2541  2918 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+03-13 20:01:10.033 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.052  2007 14006 I sensors-hal: handle_sns_client_event:375, [0][140] accel_sample [ 5.425,  5.446,  6.473] 273670515707840
+03-13 20:01:10.074 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.116 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.121 16161 13349 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+03-13 20:01:10.157 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.169 13771 14693 D PipelineWatcher: onInputBufferReleased: frameIndex not found (92); ignored
+03-13 20:01:10.199  2097  2125 E HeatmapThread: ECT Thread time in milliseconds: 1773446470
+03-13 20:01:10.199 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.205 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=androidx.compose.ui.platform.AndroidComposeView{538cd8c VFED..... ........ 0,0-1080,2176 aid=1073741847}, caller=android.view.ViewGroup.setRequestedFrameRate:9952 androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:143 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 
+03-13 20:01:10.205 13771 13771 I View    : setRequestedFrameRate frameRate=NaN, this=android.view.View{31306ad V.ED..... ........ 0,0-0,0}, caller=androidx.compose.ui.platform.Z.a:1 androidx.compose.ui.platform.AndroidComposeView.dispatchDraw:158 android.view.View.draw:26345 android.view.View.updateDisplayListIfDirty:25175 android.view.ViewGroup.recreateChildDisplayList:4794 
+03-13 20:01:10.213  2097  2125 D HeatmapThread: !@ batteryplugType : 2
+03-13 20:01:10.213  2097  2125 D HeatmapThread: !@ batteryLevel : 97  batteryTemperature : 351 
+03-13 20:01:10.213  2097  2125 D HeatmapThread: !@ Heatmap currtime: 29557441
+03-13 20:01:10.213  2097  2125 D HeatmapThread: !@ Heatmap prevtime: 29557432
+03-13 20:01:10.213  2097  2125 D HeatmapThread: !@ Heatmap plugstarttime: 29556997
+03-13 20:01:10.213  2097  2125 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29557415
+03-13 20:01:10.213  2097  2125 E HeatmapThread: !@ CAM New BSOH: 100
+03-13 20:01:10.213  2097  2125 E HeatmapThread: !@ CAM is Working
+03-13 20:01:10.222  3003  4027 I SemWifiServiceDetector: NSD results: [0, 1, 2, 0, 0, 1, 2, 0, 0] Traff. type 1 Thr 0
+03-13 20:01:10.241 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.248 13684 13712 D CompatChangeReporter: Compat change id reported: 247079863; UID 10393; state: ENABLED
+03-13 20:01:10.251  3003  3082 I ActivityManager: Changes in 10138 5 to 15, 144 to 0
+03-13 20:01:10.282 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.324 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.365 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.371 13684 13712 I appium  : AppiumResponse: {"sessionId":"464b2ec1-d289-4bd0-a1f6-0242fd4ad472","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"1080\" height=\"2640\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.tubitv\" class=\"android.widge…
+03-13 20:01:10.385  4832  6719 I id.app.launcher: Explicit concurrent mark compact GC freed 3402KB AllocSpace bytes, 6(312KB) LOS objects, 66% free, 19MB/58MB, paused 541us,1.321ms total 81.553ms
+03-13 20:01:10.392  4832 13439 I HoneySpace.Memory-Monitor: trimMemory 20
+03-13 20:01:10.394 13684 13712 I appium  : channel read: GET /session/464b2ec1-d289-4bd0-a1f6-0242fd4ad472/screenshot
+03-13 20:01:10.395 13684 13712 I appium  : CaptureScreenshot command
+03-13 20:01:10.395 13684 13712 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/Display;->getAddress()Landroid/view/DisplayAddress; (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:01:10.395 13684 13712 I tomator2.server: hiddenapi: Accessing hidden method Landroid/view/DisplayAddress$Physical;->getPhysicalDisplayId()J (runtime_flags=0, domain=platform, api=blocked) from Lio/appium/uiautomator2/utils/ReflectionUtils; (domain=app, TargetSdkVersion=34) using reflection: allowed
+03-13 20:01:10.407 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.448 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.455  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:01:10.456  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:01:10.459  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.aremoji(0)
+03-13 20:01:10.459  3003  5506 D FreecessHandler: freeze com.samsung.android.aremoji(10044) result : 8
+03-13 20:01:10.460  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:01:10.460  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:01:10.463  2077  2077 E QCOM-OEMCrypto: Error at _oecc133 : 3782
+03-13 20:01:10.463  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.app.voicenote(0)
+03-13 20:01:10.463  3003  5506 D FreecessHandler: freeze com.sec.android.app.voicenote(10313) result : 8
+03-13 20:01:10.463  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:01:10.463  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:01:10.465  1031  1206 D OPS_SERVICE: OPS_SERVICE Dispatch starts! 
+03-13 20:01:10.467  1031  1206 D OPS_SERVICE: before calling ioctl to read the next ops_cmd
+03-13 20:01:10.468  1031  1206 D OPS_SERVICE: OPS Received command id = 1
+03-13 20:01:10.469  3003  5506 D MARs:ActiveTrafficFilter: filter : com.samsung.android.game.gamehome(0)
+03-13 20:01:10.469  3003  5506 D FreecessHandler: freeze com.samsung.android.game.gamehome(10318) result : 8
+03-13 20:01:10.469  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:01:10.469  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:01:10.470  1031  1206 W qseecomd: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: vendor.qti.hardware.display.config.IDisplayConfig/default
+03-13 20:01:10.471  2040  2451 I SDM     : HWCSession::MinHdcpEncryptionLevelChanged: Display 1
+03-13 20:01:10.472  3003  5506 D MARs:ActiveTrafficFilter: filter : com.sec.android.app.shealth(0)
+03-13 20:01:10.472  3003  5506 D FreecessHandler: freeze com.sec.android.app.shealth(10334) result : 8
+03-13 20:01:10.472  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:01:10.472  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:01:10.474  3003  5506 D MARs:ActiveTrafficFilter: filter : com.costco.app.android(0)
+03-13 20:01:10.474  3003  5506 D FreecessHandler: freeze com.costco.app.android(10348) result : 8
+03-13 20:01:10.474  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:01:10.474  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:01:10.477  3003  5506 D MARs:ActiveTrafficFilter: filter : com.nike.omega(0)
+03-13 20:01:10.477  3003  5506 D FreecessHandler: freeze com.nike.omega(10354) result : 8
+03-13 20:01:10.477  3003  5506 I NSLocationMonitor: getGPSUsingApps() called
+03-13 20:01:10.477  5490  5527 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-13 20:01:10.480  3003  5506 D MARs:ActiveTrafficFilter: filter : ctrip.english(0)
+03-13 20:01:10.480  3003  5506 D FreecessHandler: freeze ctrip.english(10424) result : 8
+03-13 20:01:10.490 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.490  1031  1206 W OPSDisplay: HDCP Level changed to 1
+03-13 20:01:10.490  1031  1206 D OPS_SERVICE: OPS_Service Dispatch ends! 
+03-13 20:01:10.499  2007 13126 I sensors-hal: handle_sns_std_sensor_event:409, [SSC_LIGHT] P: 140(140),c:11,b:78,m:13,cl:2,l:140,s:139,l0:11408,l1:16,s0:11067,s1:0,acl:1,opr:0.21,f(r):97,u(bl):108,if:0,wi:1,si:8,po:123(N:0)
+03-13 20:01:10.511 14886 14886 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+03-13 20:01:10.512 14886 14886 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+03-13 20:01:10.512 14886 14886 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+03-13 20:01:10.513  3003  4923 I EDMNativeHelperService: isScreenCaptureEnabled
+03-13 20:01:10.513  3003  4923 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+03-13 20:01:10.513 14886 14886 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+03-13 20:01:10.513 14886 14886 I SurfaceComposerClient: captureDisplay:Display-4630946564756762243
+03-13 20:01:10.515  2105  2321 I SurfaceFlinger: Capture layer list: 	 Background for e91c11f SurfaceView[com.tubitv/com.tubitv.activities.MainActivity]@0#87213(seamlessTransition:0)
+03-13 20:01:10.515  2105  2321 I SurfaceFlinger: Capture layer list: 	 e91c11f SurfaceView[com.tubitv/com.tubitv.activities.MainActivity]@0(BLAST)#87212(seamlessTransition:0)
+03-13 20:01:10.515  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.tubitv/com.tubitv.activities.MainActivity$_13771#87186(seamlessTransition:0)
+03-13 20:01:10.515  2105  2321 I SurfaceFlinger: Capture layer list: 	 StatusBar$_4205#132(seamlessTransition:0)
+03-13 20:01:10.515  2105  2321 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#87151(seamlessTransition:0)
+03-13 20:01:10.515  2105  2321 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_4205#130(seamlessTransition:0)
+03-13 20:01:10.515  2105  2321 E HwcComposer: getLuts failed Status(-129, EX_TRANSACTION_FAILED): 'UNKNOWN_TRANSACTION: '
+03-13 20:01:10.516  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer ScreenCaptureFillLayer at index 0
+03-13 20:01:10.516  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer e91c11f SurfaceView[com.tubitv/com.tubitv.activities.MainActivity]@0(BLAST)#87212 at index 1
+03-13 20:01:10.516  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.tubitv/com.tubitv.activities.MainActivity$_13771#87186 at index 2
+03-13 20:01:10.516  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer StatusBar$_4205#132 at index 3
+03-13 20:01:10.516  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_4832#87151 at index 4
+03-13 20:01:10.516  2105  2342 D RenderEngine: [SEC_SF_EFFECTS] drawLayersInternal,1483, Rendering layer NavigationBar0$_4205#130 at index 5
+03-13 20:01:10.532 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.563 14886 14891 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+03-13 20:01:10.564 14886 14886 W qdgralloc: Failed to load libubwcp.so
+03-13 20:01:10.573 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.615 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.656 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.682  1171  1171 D io_stats: !@   8,0 r 4917118 146355348 w 6945711 130690852 d 527501 148134156 f 285578 661574 iot 2678680 0 th 0 0 0 pt 0 inp 0 0 93059.679
+03-13 20:01:10.683  1171  1171 D io_stats: !@ Read_top(KB): martsuggestions(6239) 16
+03-13 20:01:10.684  1171  1171 D io_stats: !@ Write_top(KB): kworker/u16:3(10726) 7156 com.tubitv(13771) 1180 system_server(3003) 96
+03-13 20:01:10.698 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.740 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.781 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.786 13684 13712 I appium  : AppiumResponse: {"sessionId":"464b2ec1-d289-4bd0-a1f6-0242fd4ad472","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAApQCAYAAABYiJrlAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAACAASURBVHic7N13eFRV4v/xz6QnBkKoIXSQEnoH6UVFYEFFmhClyLIqaxd1V9eGP3QRy1qRKiK9KAgqKiGi0pQuHREICSUBEkhCSJnz+yOb+80wE0gBwmXfr+c5j3Lm3jtnSmbu/cwpDklGAAAAAAAANuZ…
+03-13 20:01:10.823 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.865 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
+03-13 20:01:10.906 13771 13771 D SurfaceView: 203935065 updateSurface: has no frame
