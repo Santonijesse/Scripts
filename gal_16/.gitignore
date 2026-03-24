@@ -1,0 +1,13 @@
+#hi all auto testing captures
+/gal_16/logcat
+/gal_16/screenshots
+/gal_16/ui_xml
+
+/moto_15/logcat
+/moto_15/screenshots
+/moto_15/ui_xml
+
+#ignore powershellscripts
+compare_ui_xml.ps1
+gal16_repeat.ps1
+moto15_repeat.ps1
